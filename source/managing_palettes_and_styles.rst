@@ -2,7 +2,7 @@
 
 Managing Palettes and Styles
 ============================
-In OpenToonz, Toonz Vector and Toonz Raster animation levels comes with their own palette, containing styles that can be used to *draw lines* and *paint lines and areas*. Raster levels, on the contrary, can be just edited by using the styles available in the **Raster Drawing Palette**, that is shared by all of the raster levels in the project.
+In Tahoma, Toonz Vector and Toonz Raster animation levels comes with their own palette, containing styles that can be used to *draw lines* and *paint lines and areas*. Raster levels, on the contrary, can be just edited by using the styles available in the **Raster Drawing Palette**, that is shared by all of the raster levels in the project.
 
 In Toonz Vector and Toonz Raster levels, palette styles are interactively “linked” to drawn *lines* and filled *areas* by using indexes. The main advantage of this method is that if you edit a style of the palette, all the lines and filled areas using that style will be automatically updated. This allows you to change or calibrate colors, even after the painting process has been done, without having to correct the style line by line, or area by area in the image.
 
@@ -170,7 +170,7 @@ It consists of a Palette Tree and a Palette Viewer: the **Palette Tree** lists t
 
 Any level palette can be added to the Studio Palette; if a **Color Model** is defined for that level, it will be saved along with the palette and retrieved any time that palette will be assigned to a level (see  :ref:`Using a Color Model <using_a_color_model>`  ).
 
-Palettes added to the **Global Palettes** folder will be available in the Studio Palette in any OpenToonz session, regardless of the current project. 
+Palettes added to the **Global Palettes** folder will be available in the Studio Palette in any Tahoma session, regardless of the current project. 
 
 Palettes added to the **Project Palettes** folder will be available only when the current project is the relevant one. For example if your current project is *Production One*, and you add some palettes to the **Project Palettes** folder, those palettes will be available only when the current project is *Production One*. 
 
@@ -186,7 +186,7 @@ Linking animation level palettes to the Studio Palette can assure color consiste
 
 In the level palette, the information about which Studio Palette the palette styles refers to can be retrieved in the **List View** mode, where, next to the style thumbnails and names, the path to the source studio palette is displayed. 
 
-When palettes are added to **Global Palettes**, they are copied to the **studiopalette**  folder located where OpenToonz projects are stored (see  :ref:`Setting up Projects <setting_up_projects>`  ). 
+When palettes are added to **Global Palettes**, they are copied to the **studiopalette**  folder located where Tahoma projects are stored (see  :ref:`Setting up Projects <setting_up_projects>`  ). 
 
 When palettes are added to **Project Palettes**, they are copied to the **+palettes** folder you specified for the current project (see  :ref:`Project Default Folders <project_default_folders>`  ). 
 
@@ -436,7 +436,7 @@ Textures can be used both for drawing *lines* and filling *areas*. They can be s
 
 Texture styles can be used both in Toonz Vector and Toonz Raster levels, but only when applied to Toonz Raster levels they react to the settings values in the **Settings** tab (see  :ref:`Texture Settings <texture_settings>`  ).
 
-Image sequences can also be loaded as textures, provided they follow the OpenToonz rules for being detected as such. In the case an image sequence is loaded as a texture their frames will change with each new frame of the Xsheet/Timeline, and will cycle when it reaches its last frame.
+Image sequences can also be loaded as textures, provided they follow the Tahoma rules for being detected as such. In the case an image sequence is loaded as a texture their frames will change with each new frame of the Xsheet/Timeline, and will cycle when it reaches its last frame.
 
 .. tip:: **To add a new texture to the Texture library:**
 
@@ -446,7 +446,7 @@ Image sequences can also be loaded as textures, provided they follow the OpenToo
 
     - The file has to be saved in any of the following formats: TIF, TGA, PNG, BMP, JPG, NOL, RGB and SGI.
 
-    2. Save the texture file in one of the following folders: ``<projectroot>\library\textures`` or ``Opentoonz stuff\library\textures`` (see  :ref:`Setting up Projects <setting_up_projects>`  ).
+    2. Save the texture file in one of the following folders: ``<projectroot>\library\textures`` or ``Tahoma stuff\library\textures`` (see  :ref:`Setting up Projects <setting_up_projects>`  ).
 
 
 .. _custom_textures:
@@ -533,9 +533,9 @@ Trail Styles
 
 |style_editor_trail|
 
-Trail styles are available for vector levels only. A trail style repeats an image or an animation level, created with OpenToonz or third party software, along the vectors of a vector level. Trail styles cannot be used to paint areas.
+Trail styles are available for vector levels only. A trail style repeats an image or an animation level, created with Tahoma or third party software, along the vectors of a vector level. Trail styles cannot be used to paint areas.
 
-In the Trail section on the Vector tab you can select the image or the animation level you want to use as a style. You can add to the list your own animation levels as well: both OpenToonz animation levels (PLI) and full-color images or sequences of full-color images (BMP, JPG, NOL, PIC, PICT, PCT, PNG, RGB, SGI, TGA, TIF and TIFF) are supported.
+In the Trail section on the Vector tab you can select the image or the animation level you want to use as a style. You can add to the list your own animation levels as well: both Tahoma animation levels (PLI) and full-color images or sequences of full-color images (BMP, JPG, NOL, PIC, PICT, PCT, PNG, RGB, SGI, TGA, TIF and TIFF) are supported.
 
 .. note:: PLI levels are rendered according to the vector length and thickness, thus appearing jagged when zoomed in. If the output format is a vector one, then the PLI level will remain vector-based. (see  :ref:`Choosing the Output Settings <choosing_the_output_settings>`  ).
 
@@ -545,7 +545,7 @@ Parameters such as the distance between subsequent images along the vector and t
 
 .. tip:: **To add a new custom style:**
 
-    1. Create an image or an animation level with OpenToonz, or with third-party software.
+    1. Create an image or an animation level with Tahoma, or with third-party software.
 
     2. Save it in the folder ``Projectroot\library\custom styles`` (see  :ref:`Setting up Projects <setting_up_projects>`  ). 
 
@@ -557,7 +557,7 @@ Vector Brush Styles
 
 |style_editor_vectorbrush|
 
-Vector brush styles are available for vector levels only. A vector brush applies a vector image, created with OpenToonz, along the vector strokes of a vector level. Vector brush styles cannot be used to paint areas.
+Vector brush styles are available for vector levels only. A vector brush applies a vector image, created with Tahoma, along the vector strokes of a vector level. Vector brush styles cannot be used to paint areas.
 
 In the Vector Brush section of the Vector tab, you can select the image you want to use as a style. You can add to the list your own PLI images as well.
 
@@ -571,7 +571,7 @@ The first item available in the list allows you to remove the Vector Brush in or
 
 .. tip:: **To add a new vector brush:**
 
-    1. Create a PLI level with OpenToonz.
+    1. Create a PLI level with Tahoma.
 
     2. Save it in the folder ``Projectroot\library\vector brushes`` (see  :ref:`Setting up Projects <setting_up_projects>`  ). 
 
@@ -711,7 +711,7 @@ Tracking
 Stroke
 ......
 
-- **Stroke threshold**, how much pressure is needed to start a stroke. This affects the stroke input only. OpenToonz does not need a minimal pressure to start drawing.
+- **Stroke threshold**, how much pressure is needed to start a stroke. This affects the stroke input only. Tahoma does not need a minimal pressure to start drawing.
 
 - **Stroke duration**, how far you have to move until the stroke input reaches 1.0. This value is logarithmic (negative values will not inverse the process).
 

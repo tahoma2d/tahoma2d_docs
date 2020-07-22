@@ -11,7 +11,7 @@ Configuring Shortcuts
 
 |configure_shortcuts_window|
 
-Predefined shortcuts are available for OpenToonz tools, modifiers and menu commands. They can be customized, and new shortcuts can be added for undefined items. 
+Predefined shortcuts are available for Tahoma tools, modifiers and menu commands. They can be customized, and new shortcuts can be added for undefined items. 
 
 Shortcuts are specific to each user, meaning that each user in the system can have a different set of shortcuts.
 
@@ -40,7 +40,7 @@ Shortcuts are specific to each user, meaning that each user in the system can ha
 
 Predefined Keyboard Shortcuts
 -----------------------------
-The following are **some** of the predefined shortcuts available in OpenToonz. 
+The following are **some** of the predefined shortcuts available in Tahoma. 
 
 
 .. Note from Wolf_In_A_Bowl: '⌘' and '⌥' may appear larger than 1 space, this is why some rows look offset to the right

@@ -1,11 +1,11 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
-# This file is distributed under the same license as the OpenToonz package.
+# This file is distributed under the same license as the Tahoma package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: OpenToonz 1.3\n"
+"Project-Id-Version: Tahoma 1.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-20 13:56-0300\n"
 "PO-Revision-Date: 2019-09-08 21:36-0300\n"
@@ -28,25 +28,25 @@ msgid "Sections:"
 msgstr "Secciones:"
 
 #: ../../source/index.rst:7
-msgid "OpenToonz User Manual"
-msgstr "Manual de Usuario de OpenToonz"
+msgid "Tahoma User Manual"
+msgstr "Manual de Usuario de Tahoma"
 
 #: ../../source/index.rst:9
 msgid ""
-"This is the manual for OpenToonz, an open-source full-featured 2D "
+"This is the manual for Tahoma, an open-source full-featured 2D "
 "animation creation software."
 msgstr ""
-"Este es el manual de OpenToonz, programa de código abierto para "
+"Este es el manual de Tahoma, programa de código abierto para "
 "producción de animación."
 
 #: ../../source/index.rst:10
-msgid "`http://opentoonz.github.io <http://opentoonz.github.io>`_"
-msgstr "`http://opentoonz.github.io <http://opentoonz.github.io/es/>`_"
+msgid "`http://tahoma.github.io <http://tahoma.github.io>`_"
+msgstr "`http://tahoma.github.io <http://tahoma.github.io/es/>`_"
 
 #: ../../source/index.rst:12
 msgid ""
 "This manual is an ongoing project, which aims to provide the first and "
-"most complete reference for OpenToonz features, and as such there will "
+"most complete reference for Tahoma features, and as such there will "
 "always be room for improvements and updates. Collaboration is welcome!"
 msgstr ""
 "Este manual describe todas las características, funciones y comandos del "
@@ -58,19 +58,19 @@ msgstr ""
 
 #: ../../source/index.rst:14
 msgid ""
-"To contribute to OpenToonz's documentation, please visit the OpenToonz "
+"To contribute to Tahoma's documentation, please visit the Tahoma "
 "docs repository."
 msgstr ""
-"Para contribuir a la documentación de OpenToonz, por favor visitar el "
-"repositorio de documentación de OpenToonz."
+"Para contribuir a la documentación de Tahoma, por favor visitar el "
+"repositorio de documentación de Tahoma."
 
 #: ../../source/index.rst:15
 msgid ""
-"`https://github.com/opentoonz/opentoonz_docs <https://github.com/"
-"opentoonz/opentoonz_docs>`_"
+"`https://github.com/tahoma/tahoma_docs <https://github.com/"
+"tahoma/tahoma_docs>`_"
 msgstr ""
-"`https://github.com/opentoonz/opentoonz_docs <https://github.com/"
-"opentoonz/opentoonz_docs>`_"
+"`https://github.com/tahoma/tahoma_docs <https://github.com/"
+"tahoma/tahoma_docs>`_"
 
 #: ../../source/index.rst:53
 msgid "Special Thanks"

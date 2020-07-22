@@ -2,7 +2,7 @@
 
 Cleaning-up Scanned Drawings
 ============================
-In order to be painted and edited with OpenToonz, scanned drawings have to undergo the cleanup process. The process involves autocentering, to align each drawing according to the pegbar holes; line processing, to recognize the drawing outline; image cropping and re-sizing, to make the drawings fit properly the camera.
+In order to be painted and edited with Tahoma, scanned drawings have to undergo the cleanup process. The process involves autocentering, to align each drawing according to the pegbar holes; line processing, to recognize the drawing outline; image cropping and re-sizing, to make the drawings fit properly the camera.
 
 The process generates a Toonz raster level (TLV format) and the related default palette (TPL format), where the styles used to paint the level will be stored.
 
@@ -98,13 +98,13 @@ Processing Black and White or Greyscale Lineart Drawings
 
 For black and white or greyscale lineart drawings, a set of parameters are available to calibrate the black line recognition process. 
 
-The result of the process can be previewed in the OpenToonz main Viewer (see  :ref:`Previewing the Cleanup Process <previewing_the_cleanup_process>`  ).
+The result of the process can be previewed in the Tahoma main Viewer (see  :ref:`Previewing the Cleanup Process <previewing_the_cleanup_process>`  ).
 
 Parameters are the following:
 
 - **Antialias:**, can be set to **Standard**, **None** or **Morphological**. Use **Standard** to keep the antialias resulting from current camera and defined settings. Use **None** to eliminate the antialiasing from the processed line, so that the resulting line will be fully solid with no semi-transparent pixels that smooths its edges. Use **Morphological** to replace the standard antialias with one obtained by analyzing the image edges.
 
-- **Autoadjust**, corrects the levels of grey in the drawings in order to avoid darker and lighter drawings in a sequence (see  :ref:`Autoadjusting Greyscale Lineart Drawings <autoadjusting_greyscale_lineart_drawings>`  ). (NOTE: This feature is currently not available in OpenToonz).
+- **Autoadjust**, corrects the levels of grey in the drawings in order to avoid darker and lighter drawings in a sequence (see  :ref:`Autoadjusting Greyscale Lineart Drawings <autoadjusting_greyscale_lineart_drawings>`  ). (NOTE: This feature is currently not available in Tahoma).
 
 - **Sharpness:**, defines how sharp the processed lines will be. Higher values produce sharper, harder lines, and lower values create smoother lines. 
 
@@ -133,7 +133,7 @@ Parameters are the following:
 
 Autoadjusting Greyscale Lineart Drawings
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-.. note:: The **Autoadjust** clean-up options explained here are currently unavailable in OpenToonz. There is no certainty about its reinclusion at a later version or not. If you judge them to be useful for your workflow, you could file an *Issue* about that in the OpenToonz' GitHub repository or in the various OpenToonz forums.
+.. note:: The **Autoadjust** clean-up options explained here are currently unavailable in Tahoma. There is no certainty about its reinclusion at a later version or not. If you judge them to be useful for your workflow, you could file an *Issue* about that in the Tahoma' GitHub repository or in the various Tahoma forums.
 
 The **Autoadjust** option available among the Cleanup parameters allows you to even the differences between drawings made by key animators and those made by in-betweeners by adjusting the line darkness of all of the level drawings.
 
@@ -169,7 +169,7 @@ For all the cleanup colors you can define a color to be assigned automatically t
 
 Different parameters are available for the black color, that usually defines the main outline in lineart drawings, and for the additional colors, that usually defines special outlines for areas such as shadows and highlights.
 
-The result of the process can be previewed in the OpenToonz main Viewer (see  :ref:`Previewing the Cleanup Process <previewing_the_cleanup_process>`  ).
+The result of the process can be previewed in the Tahoma main Viewer (see  :ref:`Previewing the Cleanup Process <previewing_the_cleanup_process>`  ).
 
 General parameters are the following:
 
@@ -274,11 +274,11 @@ The cleanup camera definition is similar to the definition of the stage camera (
 
 You can also set other parameters and options:
 
-- The **Closest Field** parameter (NOT AVAILABLE in OpenToonz) defines the smallest field size you will zoom into the drawing, with the camera when compositing the scene. This value is meaningful if it is smaller than the camera field size, as it increases the final image resolution, preventing zoomed-in images from appearing jagged. For example if the cleanup camera is 1920x1080 pixels (HD 1080) with a 16 field size and the **Closest Field** is set to 8, the cleaned up drawings will have to be of twice the camera resolution, that is 3840 by 2160 pixels, so that when the camera closes up, the original image pixel resolution is preserved.
+- The **Closest Field** parameter (NOT AVAILABLE in Tahoma) defines the smallest field size you will zoom into the drawing, with the camera when compositing the scene. This value is meaningful if it is smaller than the camera field size, as it increases the final image resolution, preventing zoomed-in images from appearing jagged. For example if the cleanup camera is 1920x1080 pixels (HD 1080) with a 16 field size and the **Closest Field** is set to 8, the cleaned up drawings will have to be of twice the camera resolution, that is 3840 by 2160 pixels, so that when the camera closes up, the original image pixel resolution is preserved.
 
 - The **E/W** and **N/S** offset parameters shift the camera position, in case you want to define for the drawings a center different from the one automatically set by the reference field guide when the **Autocenter** is *on*, or different from the actual center of the image if the **Autocenter** is *off*; after the cleanup, the camera center will be the new center for the processed drawings.
 
-The cleanup camera size, resolution and offset can also be graphically controlled in OpenToonz's main Viewer when checking the cleanup process with the **Camera Test** mode (see  :ref:`Using the Camera Test <using_the_camera_test>`  ).
+The cleanup camera size, resolution and offset can also be graphically controlled in Tahoma's main Viewer when checking the cleanup process with the **Camera Test** mode (see  :ref:`Using the Camera Test <using_the_camera_test>`  ).
 
 
 .. _saving_and_loading_cleanup_settings:
@@ -383,7 +383,7 @@ When calibrating the line processing it is important to check the amount of anti
 
 The **Opacity check**, when activated, displays fully solid pixels in *black*, and semi-transparent pixels belonging to the line antialiasing in *red*; moreover pixels that will be removed because of the **Despeckling:** function are displayed in *green*.
 
-The check is visible both in the *preview area* (NOT AVAILABLE in OpenToonz) of the Cleanup Settings pane, and with the **Preview Cleanup** mode, in the *main Viewer*.
+The check is visible both in the *preview area* (NOT AVAILABLE in Tahoma) of the Cleanup Settings pane, and with the **Preview Cleanup** mode, in the *main Viewer*.
 
 .. tip:: **To activate and deactivate the opacity check:**
 
@@ -419,7 +419,7 @@ If you change any of the Cleanup or Camera parameters, the camera test automatic
 
     - Operate the handle on the top right corner to scale the camera size while keeping the A/R.
 
-    - Activate the DPI Lock in the cleanup camera parameters, and operate the handles to scale also the camera resolution  (NOT AVAILABLE in OpenToonz).
+    - Activate the DPI Lock in the cleanup camera parameters, and operate the handles to scale also the camera resolution  (NOT AVAILABLE in Tahoma).
 
     - Move the camera box to modify the cleanup camera E/W and N/S offset.
 
@@ -514,7 +514,7 @@ Cleaning up Drawings in Batch Mode
 ''''''''''''''''''''''''''''''''''
 The cleanup of drawings exposed in a scene can be added to a task list and performed in batch mode in order to run it in the background while you perform other work on your computer.
 
-*Cleanup tasks* can be submitted from the OpenToonz browser and can be managed and executed in the Tasks pane, together with *render tasks* (see for  :ref:`Rendering Scenes in Batch Mode <rendering_scenes_in_batch_mode>`).
+*Cleanup tasks* can be submitted from the Tahoma browser and can be managed and executed in the Tasks pane, together with *render tasks* (see for  :ref:`Rendering Scenes in Batch Mode <rendering_scenes_in_batch_mode>`).
 
 |tasks_cleanup|
 
@@ -593,7 +593,7 @@ When a *cleanup task* is selected in the tree, in the section on the right of th
 
 - **Dependencies:**, lets you set which of the other submitted tasks have to be successfully completed before starting the current task execution: these tasks can be added from the box on the right where all submitted tasks are displayed.
 
-Task execution can be started and stopped from the task list. If you are using the OpenToonz render farm, render tasks and sub-tasks will be distributed on the farm, one for each computer, so that several tasks can be executed at the same time (see  :ref:`Using the OpenToonz Farm <using_the_toonz_farm>`  ). 
+Task execution can be started and stopped from the task list. If you are using the Tahoma render farm, render tasks and sub-tasks will be distributed on the farm, one for each computer, so that several tasks can be executed at the same time (see  :ref:`Using the Tahoma Farm <using_the_toonz_farm>`  ). 
 
 When the tasks are executed, the icon color tells the status of the task according to the following color code:
 
@@ -613,7 +613,7 @@ When the tasks are executed, the icon color tells the status of the task accordi
 
     - Click the **Add Cleanup Task** button (|add_cleanup|) in the bottom bar of the Tasks pane and use the browser to select a scene file.
 
-    - Select the scenes in the OpenToonz Browser, then right-click any of them and choose **Add As Cleanup Task** from the menu that opens.
+    - Select the scenes in the Tahoma Browser, then right-click any of them and choose **Add As Cleanup Task** from the menu that opens.
 
 .. tip:: **To configure the cleanup task in the task list:**
 

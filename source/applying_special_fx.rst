@@ -538,7 +538,7 @@ When a preset for a particular effect is saved, in the FX Browser the effect ico
 
 Presets are saved in the ``<projectroot>\fxs\preset`` folder. This allow the presets to be available on all the computers sharing the same *Projectroot* (see  :ref:`Setting the Projectroot <setting_the_projectroot>`  ).
 
-.. note:: Currently the statement above if not true, as by default presets are being saved in ``OpenToonz stuff\fxs\presets``. On Windows it can be changed to any other path by going to the registry and changing the ``System\HKEY_LOCAL_MACHINE\SOFTWARE\OpenToonz\OpenToonz\TOONZFXPRESETS`` key to the desired location.
+.. note:: Currently the statement above if not true, as by default presets are being saved in ``Tahoma stuff\fxs\presets``. On Windows it can be changed to any other path by going to the registry and changing the ``System\HKEY_LOCAL_MACHINE\SOFTWARE\Tahoma\Tahoma\TOONZFXPRESETS`` key to the desired location.
 
 Once a preset is applied there is no link between the *saved preset* and the *applied preset*: the applied preset can be edited without affecting the saved one.
 
@@ -1134,7 +1134,7 @@ Premultiply
 ~~~~~~~~~~~
 Premultiplies the alpha channel of the Source node content. 
 
-Full-color images which have a meaningful alpha channel come in two types: premultiplied or not. A non-premultiplied image can be recognized when it is loaded in OpenToonz because its edge, where there is a complete transparence on one side and opacity on the other, is not smooth, but displays a solid halo. With the premultiply effect it is possible to transform the image alpha-channel so that it is correctly read by OpenToonz.
+Full-color images which have a meaningful alpha channel come in two types: premultiplied or not. A non-premultiplied image can be recognized when it is loaded in Tahoma because its edge, where there is a complete transparence on one side and opacity on the other, is not smooth, but displays a solid halo. With the premultiply effect it is possible to transform the image alpha-channel so that it is correctly read by Tahoma.
 
 .. note:: Full-color images can also be premultiplied by using a Level Settings option, or processed permanently in the browser, so that there is no need to apply the effect in the schematic (see  :ref:`Editing Level Settings <editing_level_settings>`  and  :ref:`Using the File Browser <using_the_file_browser>`  ).
 
@@ -1590,7 +1590,7 @@ The Mode option menu lets you set how the texture node content will be applied: 
 
 Shaders
 '''''''
-OpenToonz enables support for effects rendered through hardware-accelereted pixelshaders. Shaders are simple programs compiled by a graphics processing unit that harness the massively parallel architecture of modern graphics devices, to execute with extreme speed. OpenToonz's shader effects are written in the OpenGL Shading Language (GLSL), and are located in ``OpenToonz stuff/library/shaders``. Refer to the readme.txt file there for further details on editing or creating new shader effects.
+Tahoma enables support for effects rendered through hardware-accelereted pixelshaders. Shaders are simple programs compiled by a graphics processing unit that harness the massively parallel architecture of modern graphics devices, to execute with extreme speed. Tahoma's shader effects are written in the OpenGL Shading Language (GLSL), and are located in ``Tahoma stuff/library/shaders``. Refer to the readme.txt file there for further details on editing or creating new shader effects.
 
 .. _caustic:
 

@@ -1,11 +1,11 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
-# This file is distributed under the same license as the OpenToonz package.
+# This file is distributed under the same license as the Tahoma package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: OpenToonz 1.3\n"
+"Project-Id-Version: Tahoma 1.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-19 17:13-0300\n"
 "PO-Revision-Date: 2020-02-04 20:40-0300\n"
@@ -33,12 +33,12 @@ msgstr "|configure_shortcuts_window_es|"
 
 #: ../../source/keyboard_shortcuts.rst:14
 msgid ""
-"Predefined shortcuts are available for OpenToonz tools, modifiers and "
+"Predefined shortcuts are available for Tahoma tools, modifiers and "
 "menu commands. They can be customized, and new shortcuts can be added "
 "for undefined items."
 msgstr ""
 "Existen atajos predefinidos de teclado disponibles para las "
-"herramientas, modificadores y comandos de menú de OpenToonz. Éstos "
+"herramientas, modificadores y comandos de menú de Tahoma. Éstos "
 "pueden ser personalizados y nuevos atajos pueden ser creados para "
 "elementos no definidos."
 
@@ -98,10 +98,10 @@ msgstr "Atajos de teclado predefinidos"
 #: ../../source/keyboard_shortcuts.rst:43
 msgid ""
 "The following are **some** of the predefined shortcuts available in "
-"OpenToonz."
+"Tahoma."
 msgstr ""
 "Los siguientes son **algunos** de los atajos de teclado predefinidos, "
-"disponibles en OpenToonz."
+"disponibles en Tahoma."
 
 #: ../../source/keyboard_shortcuts.rst:49
 msgid "**Tools**"

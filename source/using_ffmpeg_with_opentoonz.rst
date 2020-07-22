@@ -1,11 +1,11 @@
-.. _using_ffmpeg_with_opentoonz:
+.. _using_ffmpeg_with_tahoma:
 
-Using FFmpeg with OpenToonz
+Using FFmpeg with Tahoma
 ===========================
 
 What is FFmpeg?
 ---------------
-| To render your animation as an **mp4** or **webm**, or also as a **gif** on Mac, OpenToonz requires the FFmpeg multimedia framework to be installed on your machine.
+| To render your animation as an **mp4** or **webm**, or also as a **gif** on Mac, Tahoma requires the FFmpeg multimedia framework to be installed on your machine.
 | For more information, please visit this page: `About FFmpeg <https://www.ffmpeg.org/about.html>`_
 
 Installing FFmpeg for Windows
@@ -42,13 +42,13 @@ Installing
 
 |ffmpeg_extracted_windows|
 
-- Next, start OpenToonz and open the **Preferences** window with File  →  **Preferences...**
+- Next, start Tahoma and open the **Preferences** window with File  →  **Preferences...**
 - Navigate to the **Import/Export** category; at the top you will see a box with the text **FFmpeg path**.
 - Insert the path to your FFmpeg folder that you created earlier, if you have used the recommended path, this will be **C:\\FFmpeg\\**:
 
 |ffmpeg_path_windows|
 
-- Restart OpenToonz.
+- Restart Tahoma.
 - Open the **Output Settings** window with Render  →  **Output Settings...**
 
 | In the **File Settings** subsection, you should now see **mp4** and **webm**.
@@ -84,7 +84,7 @@ Installing
 
 | Within the **bin** folder are the executable files that you will need.
 
-- Open Finder and create a new folder, the **Applications/OpenToonz** folder is the recommended location.
+- Open Finder and create a new folder, the **Applications/Tahoma** folder is the recommended location.
 
 |ffmpeg_finder|
 
@@ -93,16 +93,16 @@ Installing
 
 |ffmpeg_extracted_mac|
 
-.. tip:: For macOS 10.15 and later, each executable within the FFmpeg folder needs to be opened before using OpenToonz (this only needs to be done one time, due to security features). In Finder, right-click on each executable (ffmpeg, ffprobe, and etc.) and select ``Open With → Terminal``. Once the Terminal windows have launched successfully, Terminal can be closed.
+.. tip:: For macOS 10.15 and later, each executable within the FFmpeg folder needs to be opened before using Tahoma (this only needs to be done one time, due to security features). In Finder, right-click on each executable (ffmpeg, ffprobe, and etc.) and select ``Open With → Terminal``. Once the Terminal windows have launched successfully, Terminal can be closed.
 
 
-- Next, start OpenToonz and open the **Preferences** window with File  →  **Preferences...**
+- Next, start Tahoma and open the **Preferences** window with File  →  **Preferences...**
 - Navigate to the **Import/Export** category; at the top you will see a box with the text **FFmpeg path**.
-- Insert the path to your FFmpeg folder that you created earlier, if you have used the recommended path, this will be **/Applications/OpenToonz/FFmpeg**:
+- Insert the path to your FFmpeg folder that you created earlier, if you have used the recommended path, this will be **/Applications/Tahoma/FFmpeg**:
 
 |ffmpeg_path_mac|
 
-- Restart OpenToonz.
+- Restart Tahoma.
 - Open the **Output Settings** window with Render  →  **Output Settings...**
 
 | In the **File Settings** subsection, you should now see **mp4**, **webm** and **gif**.
@@ -126,13 +126,13 @@ Solus: ``# eopkg install ffmpeg``
 
 .. tip:: To make it possible to export files in **mp4**, **webm** or **gif** formats, you need to specify the path to FFmpeg installed on your system, usually it is **/usr/bin/ffmpeg**. Enter command ``which ffmpeg`` in the shell to find out.
 
-- Start OpenToonz and open the **Preferences** window with File  →  **Preferences...**
+- Start Tahoma and open the **Preferences** window with File  →  **Preferences...**
 - Navigate to the **Import/Export** category; at the top you will see a box with the text **FFmpeg path**.
 - Insert the path **/usr/bin**.
 
 |ffmpeg_path_linux|
 
-- Restart OpenToonz.
+- Restart Tahoma.
 - Open the **Output Settings** window with Render  →  **Output Settings...**
 
 | In the **File Settings** subsection, you should now see **mp4**, **webm** and **gif**.
@@ -141,29 +141,29 @@ Solus: ``# eopkg install ffmpeg``
 
 .. Images
 
-.. |get_the_packages| image:: /_static/using_ffmpeg_with_opentoonz/get_the_packages.png
+.. |get_the_packages| image:: /_static/using_ffmpeg_with_tahoma/get_the_packages.png
 
 
 .. Windows images
-.. |packages_windows| image:: /_static/using_ffmpeg_with_opentoonz/windows/ffmpeg_packages.png
-.. |ffmpeg_builds_windows| image:: /_static/using_ffmpeg_with_opentoonz/windows/ffmpeg_builds.png
-.. |ffmpeg_extracted_windows| image:: /_static/using_ffmpeg_with_opentoonz/windows/ffmpeg_extracted.png
-.. |ffmpeg_path_windows| image:: /_static/using_ffmpeg_with_opentoonz/windows/ffmpeg_path.png
-.. |output_settings_windows| image:: /_static/using_ffmpeg_with_opentoonz/windows/output_settings.png
+.. |packages_windows| image:: /_static/using_ffmpeg_with_tahoma/windows/ffmpeg_packages.png
+.. |ffmpeg_builds_windows| image:: /_static/using_ffmpeg_with_tahoma/windows/ffmpeg_builds.png
+.. |ffmpeg_extracted_windows| image:: /_static/using_ffmpeg_with_tahoma/windows/ffmpeg_extracted.png
+.. |ffmpeg_path_windows| image:: /_static/using_ffmpeg_with_tahoma/windows/ffmpeg_path.png
+.. |output_settings_windows| image:: /_static/using_ffmpeg_with_tahoma/windows/output_settings.png
 
 
 .. Mac images
-.. |packages_mac| image:: /_static/using_ffmpeg_with_opentoonz/mac/ffmpeg_packages.png
-.. |ffmpeg_builds_mac| image:: /_static/using_ffmpeg_with_opentoonz/mac/ffmpeg_builds.png
-.. |ffmpeg_finder| image:: /_static/using_ffmpeg_with_opentoonz/mac/ffmpeg_finder.png
-.. |ffmpeg_extracted_mac| image:: /_static/using_ffmpeg_with_opentoonz/mac/ffmpeg_extracted.png
-.. |ffmpeg_path_mac| image:: /_static/using_ffmpeg_with_opentoonz/mac/ffmpeg_path.png
-.. |output_settings_mac| image:: /_static/using_ffmpeg_with_opentoonz/mac/output_settings.png
+.. |packages_mac| image:: /_static/using_ffmpeg_with_tahoma/mac/ffmpeg_packages.png
+.. |ffmpeg_builds_mac| image:: /_static/using_ffmpeg_with_tahoma/mac/ffmpeg_builds.png
+.. |ffmpeg_finder| image:: /_static/using_ffmpeg_with_tahoma/mac/ffmpeg_finder.png
+.. |ffmpeg_extracted_mac| image:: /_static/using_ffmpeg_with_tahoma/mac/ffmpeg_extracted.png
+.. |ffmpeg_path_mac| image:: /_static/using_ffmpeg_with_tahoma/mac/ffmpeg_path.png
+.. |output_settings_mac| image:: /_static/using_ffmpeg_with_tahoma/mac/output_settings.png
 
 .. Linux images
 
-.. |ffmpeg_path_linux| image:: /_static/using_ffmpeg_with_opentoonz/linux/ffmpeg_path.png
-.. |output_settings_linux| image:: /_static/using_ffmpeg_with_opentoonz/linux/output_settings.png
+.. |ffmpeg_path_linux| image:: /_static/using_ffmpeg_with_tahoma/linux/ffmpeg_path.png
+.. |output_settings_linux| image:: /_static/using_ffmpeg_with_tahoma/linux/output_settings.png
 
 .. Note from Wolf_In_A_Bowl
 .. This is a work-in-progress page, please contribute to its development by adding the guide section for and Linux.

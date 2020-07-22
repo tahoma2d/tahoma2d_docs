@@ -5,7 +5,7 @@ Interface Overview
 
 |UI_1|
 
-OpenToonz interface is organized into rooms, also known as workspaces: each room is a different collection of windows which are laid out at specific positions on the screen. 
+Tahoma interface is organized into rooms, also known as workspaces: each room is a different collection of windows which are laid out at specific positions on the screen. 
 
 
 .. _using_rooms:
@@ -78,7 +78,7 @@ Most of the panes can be maximized to fill the full interface, and can be added 
 
     2. Click and drag its title bar to move it around and release to dock it according to the highlighted insertion point.
 
-.. note:: Trying to dock a pane to the leftmost/rightmost part of the interface may fail if the main OpenToonz window is maximized at that moment. To overcome this, you can restore the main window size, dock the desired pane, and then maximize it back.
+.. note:: Trying to dock a pane to the leftmost/rightmost part of the interface may fail if the main Tahoma window is maximized at that moment. To overcome this, you can restore the main window size, dock the desired pane, and then maximize it back.
 
 .. tip:: **To remove a pane from a room:**
 
@@ -123,7 +123,7 @@ Cleanup Settings
 
 |UI_cleanup|
 
-The Cleanup Settings pane allows you to define the parameters for the clean-up process of scanned raster images, in order to convert them into Toonz Raster images, ready to be painted in OpenToonz. 
+The Cleanup Settings pane allows you to define the parameters for the clean-up process of scanned raster images, in order to convert them into Toonz Raster images, ready to be painted in Tahoma. 
 
 See  :ref:`Cleaning-up Scanned Drawings <cleaning-up_scanned_drawings>`  .
 
@@ -275,7 +275,7 @@ Message Center
 
 |UI_messagecenter|
 
-The message center displays in a list the messages OpenToonz is sending to the user. You can set filters on the messages showed in the window using the appropriate radio buttons, or you can clear completely the list pressing the Clear button.
+The message center displays in a list the messages Tahoma is sending to the user. You can set filters on the messages showed in the window using the appropriate radio buttons, or you can clear completely the list pressing the Clear button.
 
 
 .. _toolbar:
@@ -433,9 +433,9 @@ Command Bar
 
 |UI_commandbar|
 
-The Command Bar is a place where the user can display favorite OpenToonz tools and commands to have them readily available.
+The Command Bar is a place where the user can display favorite Tahoma tools and commands to have them readily available.
 
-The Command Bar pane can be docked in any part of the OpenToonz UI.
+The Command Bar pane can be docked in any part of the Tahoma UI.
 
 .. note:: If the Command Bar is too short to display all the command buttons, a double-arrow symbol will appear at the right end of it, allowing to display a drop down menu with the rest of them.
 
@@ -528,7 +528,7 @@ History
 
 |UI_history|
 
-The history pane, lets you check and undo/redo the history of the latest actions performed in the current OpenToonz scene.
+The history pane, lets you check and undo/redo the history of the latest actions performed in the current Tahoma scene.
 
 See  :ref:`Assigning Memory for the Undo Operation <assigning_memory_for_the_undo_operations>`  .
 
@@ -550,25 +550,25 @@ The insertion point will be located at the right of the selected cell column, an
 
 Customizing the Interface Appearance
 ------------------------------------
-The appearance of the OpenToonz interface can be customized to suit any production need by choosing a specific language and interface theme.
+The appearance of the Tahoma interface can be customized to suit any production need by choosing a specific language and interface theme.
 
-OpenToonz allows users to choose a specific language for the software interface, including menus, commands, tooltips, and on-screen messages. Currently available languages are: English, German, Spanish, French, Italian, Russian, Japanese and Chinese.
+Tahoma allows users to choose a specific language for the software interface, including menus, commands, tooltips, and on-screen messages. Currently available languages are: English, German, Spanish, French, Italian, Russian, Japanese and Chinese.
 
 There are also several included themes to choose from: Default, Blue, Dark and Light.
 
 .. figure:: /_static/UI/themes.png
 
-   The OpenToonz interface theme set to Default and to Light.
+   The Tahoma interface theme set to Default and to Light.
 
 The interface themes are defined by means of a QSS file, whose concepts, terminology, and syntax are inspired by CSS files (HTML Cascading Style Sheets). The QSS files also refers to a set of PNG images that are used to create interface widgets. 
 
-These files are stored in a folder named as the QSS file, and located in the ``C:\OpenToonz stuff\config\qss``  folder on Windows and ``OpenToonz stuff\config\qss``  folder on Macintosh. 
+These files are stored in a folder named as the QSS file, and located in the ``C:\Tahoma stuff\config\qss``  folder on Windows and ``Tahoma stuff\config\qss``  folder on Macintosh. 
 
 .. note:: The QSS file for Macintosh is named with the _mac suffix.
 
 The QSS file can be edited with any text editor software, e.g. Notepad or TextEdit; the PNG images with any image editor software. Editing the QSS file requires some skill in CSS language, but some changes like colors of pane elements, can be easily done by expressing them with red, green and blue values.
 
-.. note:: The QSS files defining the colors and the images used in the OpenToonz interface have to be written according to a specific syntax, otherwise OpenToonz interface will not be displayed properly. If you decide to edit a QSS file, make a backup copy first in case you need to revert the file to the original version.
+.. note:: The QSS files defining the colors and the images used in the Tahoma interface have to be written according to a specific syntax, otherwise Tahoma interface will not be displayed properly. If you decide to edit a QSS file, make a backup copy first in case you need to revert the file to the original version.
 
 .. tip:: **To choose the interface language:**
 
@@ -576,7 +576,7 @@ The QSS file can be edited with any text editor software, e.g. Notepad or TextEd
 
     2. In the Language* option menu choose the language you want to use in the interface.
 
-    3. Restart OpenToonz to have the interface in the selected language.
+    3. Restart Tahoma to have the interface in the selected language.
 
 .. tip:: **To choose the interface theme:**
 
@@ -586,7 +586,7 @@ The QSS file can be edited with any text editor software, e.g. Notepad or TextEd
 
 .. tip:: **To create a new theme:**
 
-    1. Navigate to ``C:\OpenToonz stuff\config\qss``  folder on Windows and ``OpenToonz stuff\config\qss``  folder on Macintosh.
+    1. Navigate to ``C:\Tahoma stuff\config\qss``  folder on Windows and ``Tahoma stuff\config\qss``  folder on Macintosh.
 
     2. Duplicate one of the already existing style folder.
 
@@ -594,7 +594,7 @@ The QSS file can be edited with any text editor software, e.g. Notepad or TextEd
 
     4. Edit the QSS file and the PNG images contained in the new folder.
 
-.. note:: The new style will be available in the Preferences dialog the next time you run OpenToonz.
+.. note:: The new style will be available in the Preferences dialog the next time you run Tahoma.
 
 .. tip:: **To edit style QSS file:**
 

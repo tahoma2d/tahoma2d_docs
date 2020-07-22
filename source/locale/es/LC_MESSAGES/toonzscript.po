@@ -1,11 +1,11 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
-# This file is distributed under the same license as the OpenToonz package.
+# This file is distributed under the same license as the Tahoma package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: OpenToonz 1.3\n"
+"Project-Id-Version: Tahoma 1.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-18 22:42-0300\n"
 "PO-Revision-Date: 2019-07-18 22:44-0300\n"
@@ -25,13 +25,13 @@ msgstr "ToonzScript"
 
 #: ../../source/toonzscript.rst:5
 msgid ""
-"ToonzScript is the scripting language used in OpenToonz. Using ToonzScript "
+"ToonzScript is the scripting language used in Tahoma. Using ToonzScript "
 "allows users to create sequences of commands, thus avoiding the need to perform "
 "repetitive tasks manually. ToonzScript is based on QtScript and is built on the "
 "ECMAScript standard. A reference guide for the ECMAScript standard can be found "
 "at the following URL:"
 msgstr ""
-"ToonzScript es el lenguaje de scripting usado en OpenToonz. Usar ToonzScript "
+"ToonzScript es el lenguaje de scripting usado en Tahoma. Usar ToonzScript "
 "permite a los usuarios crear secuencias de comandos, evitando así la necesidad "
 "de realizar tareas repetitivas de forma manual. ToonzScript está basado en "
 "QtScript y utiliza el estándar ECMAScript. Es posible encontrar una guía de "
@@ -97,12 +97,12 @@ msgstr ""
 
 #: ../../source/toonzscript.rst:27
 msgid ""
-"The ToonzScript file extension is .js, scripts need to be in the ``OpenToonz "
+"The ToonzScript file extension is .js, scripts need to be in the ``Tahoma "
 "stuff/library/script`` folder, to be automatically retrieved by opening the Run "
 "Script command browser."
 msgstr ""
 "La extensión de los archivos de ToonzScript es .js, los scripts deben "
-"encontrarse en la carpeta ``OpenToonz stuff/library/script`` , para poder ser "
+"encontrarse en la carpeta ``Tahoma stuff/library/script`` , para poder ser "
 "recuperados automáticamente al abrir el explorador de la función Ejecutar "
 "script."
 
@@ -213,13 +213,13 @@ msgid ""
 "Built on the foundaments of ECMAScript, ToonzScript retains a degree of "
 "similarity to the JavaScript syntax but, at the same time, implements some "
 "functions and several classes specifically built to make easier the interaction "
-"with the OpenToonz software architecture. Here follows the list of the "
+"with the Tahoma software architecture. Here follows the list of the "
 "ToonzScript specifications:"
 msgstr ""
 "Construido sobre las bases de ECMAScript, ToonzScript mantiene un cierto grado "
 "de similitud con la sintaxis de JavaScript, sin embargo al mismo tiempo, "
 "implementa algunas funciones y varias clases específicamente creadas para hacer "
-"más sencilla la interacción con la arquitectura de software de OpenToonz. A "
+"más sencilla la interacción con la arquitectura de software de Tahoma. A "
 "continuación se ofrece una lista de las especificaciones de ToonzScript:"
 
 #: ../../source/toonzscript.rst:75
@@ -244,9 +244,9 @@ msgstr "**run(nombredearchivo)**: ejecuta el script guardado en nombredearchivo.
 
 #: ../../source/toonzscript.rst
 msgid ""
-"The relative path are referred to the folder \"<opentoonz library>/scripts/\""
+"The relative path are referred to the folder \"<tahoma library>/scripts/\""
 msgstr ""
-"Las rutas relativas se refieren a la carpeta \"<opentoonz library>/scripts/\""
+"Las rutas relativas se refieren a la carpeta \"<tahoma library>/scripts/\""
 
 #: ../../source/toonzscript.rst:86
 msgid "Examples::"
@@ -271,10 +271,10 @@ msgstr "**view(nivel)**: permite ver un nivel."
 #: ../../source/toonzscript.rst:99
 msgid ""
 "The variable ``ToonzVersion`` can be used to check the current version of "
-"OpenToonz."
+"Tahoma."
 msgstr ""
 "La variable ``ToonzVersion`` puede ser usada para comprobar la versión actual "
-"de OpenToonz."
+"de Tahoma."
 
 #: ../../source/toonzscript.rst:105
 msgid "Classes"
@@ -500,7 +500,7 @@ msgstr "Scene"
 
 #: ../../source/toonzscript.rst:279
 msgid "contains a Toonz scene."
-msgstr "contiene una escena de OpenToonz."
+msgstr "contiene una escena de Tahoma."
 
 #: ../../source/toonzscript.rst:283
 msgid "new **Scene**\\ ()  or **new Scene**\\ (filename)"

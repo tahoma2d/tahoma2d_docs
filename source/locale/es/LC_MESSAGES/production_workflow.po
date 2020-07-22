@@ -1,11 +1,11 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
-# This file is distributed under the same license as the OpenToonz package.
+# This file is distributed under the same license as the Tahoma package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: OpenToonz 1.3\n"
+"Project-Id-Version: Tahoma 1.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-02-06 13:01+0800\n"
 "PO-Revision-Date: 2019-09-10 13:41-0300\n"
@@ -29,10 +29,10 @@ msgstr "Proceso tradicional de producción"
 
 #: ../../source/production_workflow.rst:11
 msgid ""
-"The following is an example of how OpenToonz allows the management of a "
+"The following is an example of how Tahoma allows the management of a "
 "traditional animation production."
 msgstr ""
-"El siguiente es un ejemplo de cómo OpenToonz posibilita la "
+"El siguiente es un ejemplo de cómo Tahoma posibilita la "
 "administración de una producción de animación tradicional."
 
 #: ../../source/production_workflow.rst:13
@@ -45,13 +45,13 @@ msgstr "Escaneo"
 
 #: ../../source/production_workflow.rst:20
 msgid ""
-"Hand-drawn elements are first defined in an OpenToonz Xsheet, and then "
+"Hand-drawn elements are first defined in an Tahoma Xsheet, and then "
 "acquired by using a scanner. These elements can consist of animation "
 "levels, i.e. sequences of drawings belonging to the same animation, or "
 "background images and overlays."
 msgstr ""
 "Primero, se definen los elementos dibujados a mano en una Planilla de "
-"OpenToonz, para luego ser incorporados usando un escáner. Estos "
+"Tahoma, para luego ser incorporados usando un escáner. Estos "
 "elementos pueden consistir en niveles de animación (secuencias de "
 "dibujos pertenecientes a la misma animación) o imágenes de fondo o que "
 "serán superpuestas sobre la animación."
@@ -79,13 +79,13 @@ msgstr "Dibujo digital"
 #: ../../source/production_workflow.rst:31
 msgid ""
 "Additional drawings and animation levels can be drawn directly in "
-"OpenToonz. Drawings can be an important part of the scene, such as a "
+"Tahoma. Drawings can be an important part of the scene, such as a "
 "background or a character’s prop, or incidental elements needed to "
 "achieve a particular result, for example a mask image to create a matte "
 "effect."
 msgstr ""
 "Dibujos y niveles de animación adicionales pueden ser dibujados "
-"directamente en OpenToonz. Los dibujos pueden ser una parte importante "
+"directamente en Tahoma. Los dibujos pueden ser una parte importante "
 "de la escena, tal como los fondos o elementos de utilería, así como "
 "elementos casuales necesarios para lograr algún resultado particular, "
 "por ejemplo: una imagen para ser usada como máscara en un efecto de "
@@ -104,20 +104,20 @@ msgstr "Modelo de color"
 msgid ""
 "Color models are created for accurate color-referencing during "
 "production, when painting characters and props. They can be drawings "
-"made in OpenToonz, scanned images processed in OpenToonz, or images "
+"made in Tahoma, scanned images processed in Tahoma, or images "
 "coming from a 3rd party software."
 msgstr ""
 "Los modelos de color son creados para servir como una referencia precisa "
 "de color durante una producción, para pintar personajes y utilería. "
-"Pueden ser dibujos hechos en OpenToonz, imágenes escaneadas procesadas "
-"en OpenToonz o imágenes provenientes de otros programas."
+"Pueden ser dibujos hechos en Tahoma, imágenes escaneadas procesadas "
+"en Tahoma o imágenes provenientes de otros programas."
 
 #: ../../source/production_workflow.rst:42
 msgid ""
-"In case of OpenToonz drawings, the color model palette can be defined by "
+"In case of Tahoma drawings, the color model palette can be defined by "
 "creating styles and colors to be used for painting animation levels."
 msgstr ""
-"En caso de tratarse de dibujos hechos en OpenToonz, la paleta del modelo "
+"En caso de tratarse de dibujos hechos en Tahoma, la paleta del modelo "
 "de color puede ser definida creando estilos y colores para que sean "
 "usados al pintar niveles de animación."
 
@@ -136,12 +136,12 @@ msgstr "Entintado y pintura"
 
 #: ../../source/production_workflow.rst:51
 msgid ""
-"Animation levels scanned and cleaned up in OpenToonz, and those made "
-"directly in OpenToonz, are painted by using the styles stored in the "
+"Animation levels scanned and cleaned up in Tahoma, and those made "
+"directly in Tahoma, are painted by using the styles stored in the "
 "palette and a set of tools."
 msgstr ""
 "Tanto los niveles de animación escaneados y luego limpiados en "
-"OpenToonz, como aquellos creados directamente en OpenToonz, son pintados "
+"Tahoma, como aquellos creados directamente en Tahoma, son pintados "
 "usando los estilos almacenados en la paleta y un conjunto determinado de "
 "herramientas."
 
@@ -177,11 +177,11 @@ msgstr "Composición"
 
 #: ../../source/production_workflow.rst:62
 msgid ""
-"All OpenToonz painted levels and images are exposed in the Xsheet where "
+"All Tahoma painted levels and images are exposed in the Xsheet where "
 "the timing of all the elements of a scene can be controlled. Images, "
 "animations and clips from 3rd party software can be loaded as well."
 msgstr ""
-"Todos los niveles e imágenes pintadas en OpenToonz son expuestos en la "
+"Todos los niveles e imágenes pintadas en Tahoma son expuestos en la "
 "Planilla o la Línea de tiempo, donde es posible controlar la "
 "temporización de todos los elementos de una escena. También es posible "
 "cargar imágenes, animaciones y clips de video creados en otros programas."
@@ -251,11 +251,11 @@ msgstr ""
 #: ../../source/production_workflow.rst:79
 #: ../../source/production_workflow.rst:178
 msgid ""
-"The OpenToonz render farm allows you to batch-render OpenToonz scenes by "
+"The Tahoma render farm allows you to batch-render Tahoma scenes by "
 "using a series of computers connected on the same network using TCP/IP."
 msgstr ""
-"La granja de procesamiento de OpenToonz permite realizar un "
-"procesamiento por lotes de escenas de OpenToonz, usando una serie de "
+"La granja de procesamiento de Tahoma permite realizar un "
+"procesamiento por lotes de escenas de Tahoma, usando una serie de "
 "computadoras conectadas a la misma red, mediante el protocolo TCP/IP."
 
 #: ../../source/production_workflow.rst:81
@@ -273,10 +273,10 @@ msgstr "Proceso digital de producción"
 
 #: ../../source/production_workflow.rst:88
 msgid ""
-"The following is an example of how OpenToonz allows the management of a "
+"The following is an example of how Tahoma allows the management of a "
 "paperless animation production."
 msgstr ""
-"El siguiente es un ejemplo de cómo OpenToonz posibilita la "
+"El siguiente es un ejemplo de cómo Tahoma posibilita la "
 "administración de una producción de animación digital."
 
 #: ../../source/production_workflow.rst:90
@@ -359,23 +359,23 @@ msgstr "Animatic"
 #: ../../source/production_workflow.rst:119
 msgid ""
 "The animatic is created starting from the scanned storyboard drawings. "
-"In OpenToonz, or in a third-party software, the storyboard drawings are "
+"In Tahoma, or in a third-party software, the storyboard drawings are "
 "imported, timing is adjusted and camera movements are set. Audio files "
 "too can be imported for reference."
 msgstr ""
 "El animatic es creado a partir de los dibujos escaneados del storyboard. "
-"En OpenToonz, igual que en otros programas, los dibujos del storyboard "
+"En Tahoma, igual que en otros programas, los dibujos del storyboard "
 "son importados, su temporización es ajustada y se definen los "
 "movimientos de cámara. También es posible importar archivos de sonido "
 "como referencia."
 
 #: ../../source/production_workflow.rst:121
 msgid ""
-"In case the animatic is created in OpenToonz, it can also be split so "
+"In case the animatic is created in Tahoma, it can also be split so "
 "that each cut can be used as a starting point for the final compositing "
 "of each scene."
 msgstr ""
-"En caso en que el animatic sea creado en OpenToonz, también puede ser "
+"En caso en que el animatic sea creado en Tahoma, también puede ser "
 "dividido de tal forma que cada sección sea también usada como punto de "
 "partida para la composición final de cada escena."
 
@@ -385,10 +385,10 @@ msgstr "Bibliotecas"
 
 #: ../../source/production_workflow.rst:128
 msgid ""
-"Libraries are prepared by drawing directly in OpenToonz all of the "
+"Libraries are prepared by drawing directly in Tahoma all of the "
 "elements composing the scenes, such as locations, characters, props, etc."
 msgstr ""
-"Las bibliotecas se preparan dibujando directamente en OpenToonz todos "
+"Las bibliotecas se preparan dibujando directamente en Tahoma todos "
 "los elementos que componen las escenas, tales como entornos, personajes, "
 "utilería, etc."
 
@@ -525,7 +525,7 @@ msgid ""
 "or images for the particles effect, are drawn directly in the scene, or "
 "imported from external files."
 msgstr ""
-"También es posible dibujar directamente en OpenToonz o importar, "
+"También es posible dibujar directamente en Tahoma o importar, "
 "elementos adicionales de animación (tales como máscaras o imágenes para "
 "el efecto de partículas) relacionados con efectos usados en la escena."
 

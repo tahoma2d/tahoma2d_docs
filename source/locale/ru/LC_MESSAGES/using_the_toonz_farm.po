@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
-# This file is distributed under the same license as the OpenToonz package.
+# This file is distributed under the same license as the Tahoma package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OpenToonz 1.2\n"
+"Project-Id-Version: Tahoma 1.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-07 23:01+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../../source/using_the_toonz_farm.rst:5
 msgid ""
-"The Toonz Farm allows you to process OpenToonz scenes submitted as "
+"The Toonz Farm allows you to process Tahoma scenes submitted as "
 "cleanup tasks or render tasks in the task list by using a series of "
 "computers connected on the same network using TCP/IP (see  :ref:`Cleaning"
 " up Drawings in Batch Mode <cleaning_up_drawings_in_batch_mode>`  and  "
@@ -84,7 +84,7 @@ msgstr ""
 #: ../../source/using_the_toonz_farm.rst:21
 msgid ""
 "**Client program**: is the program run by the user to queue new tasks and"
-" to monitor the Toonz Farm. OpenToonz itself is the client program of the"
+" to monitor the Toonz Farm. Tahoma itself is the client program of the"
 " Toonz Farm, and can be run on any computer on the network, not "
 "necessarily on a controller node or a sever (rendering) node."
 msgstr ""
@@ -178,7 +178,7 @@ msgstr ""
 #: ../../source/using_the_toonz_farm.rst:55
 msgid ""
 "It is possible to start the service from a DOS shell by navigating to the"
-" folder where the binaries of OpenToonz are installed, and then using the"
+" folder where the binaries of Tahoma are installed, and then using the"
 " following command line:``tfarmcontroller -console``"
 msgstr ""
 
@@ -234,7 +234,7 @@ msgstr ""
 #: ../../source/using_the_toonz_farm.rst:76
 msgid ""
 "It is possible to start the service from a DOS shell by navigating to the"
-" folder where the binaries of OpenToonz are installed, and then using the"
+" folder where the binaries of Tahoma are installed, and then using the"
 " following command line:``tfarmserver -console``"
 msgstr ""
 
@@ -263,8 +263,8 @@ msgstr ""
 #: ../../source/using_the_toonz_farm.rst:99
 msgid ""
 "To define the FARMROOT folder you can take as model the ``toonzfarm``  "
-"folder stored in ``OpenToonz stuff``. You can take the ``toonzfarm``  "
-"folder from any computer where OpenToonz in installed, choose the "
+"folder stored in ``Tahoma stuff``. You can take the ``toonzfarm``  "
+"folder from any computer where Tahoma in installed, choose the "
 "location you prefer, and share it on the network, giving full control to "
 "any user by setting the right permissions."
 msgstr ""
@@ -279,8 +279,8 @@ msgstr ""
 
 #: ../../source/using_the_toonz_farm.rst:103
 msgid ""
-"To retrieve this file open the ``Applications/OpenToonz`` folder, right-"
-"click the OpenToonz icon and choose Show Package Contents from the menu "
+"To retrieve this file open the ``Applications/Tahoma`` folder, right-"
+"click the Tahoma icon and choose Show Package Contents from the menu "
 "that opens; in the folder that opens browse to the ``Contents/Resources``"
 "  folder and retrieve the ``configfarmroot.txt``  file."
 msgstr ""
@@ -306,7 +306,7 @@ msgstr ""
 msgid ""
 "The FARMROOT folder must be accessible by all the nodes that compose the "
 "Toonz Farm: the controller node, the server (rendering) nodes and the "
-"computers running OpenToonz. This means that the drive where the FARMROOT"
+"computers running Tahoma. This means that the drive where the FARMROOT"
 " folder is located has to be shared on the network, and the permissions "
 "for users have to be maximum, in order to give full control to any users."
 msgstr ""
@@ -443,18 +443,18 @@ msgid ""
 msgstr ""
 
 #: ../../source/using_the_toonz_farm.rst:190
-msgid "Defining the Toonz Farm in OpenToonz"
+msgid "Defining the Toonz Farm in Tahoma"
 msgstr ""
 
 #: ../../source/using_the_toonz_farm.rst:191
 msgid ""
-"OpenToonz is the Toonz Farm client program: it allows you to submit new "
+"Tahoma is the Toonz Farm client program: it allows you to submit new "
 "tasks and monitor the status of the farm."
 msgstr ""
 
 #: ../../source/using_the_toonz_farm.rst:193
 msgid ""
-"If the computer where you run OpenToonz is a controller or a server "
+"If the computer where you run Tahoma is a controller or a server "
 "(rendering) node for the Toonz Farm, no further settings are required."
 msgstr ""
 
@@ -465,11 +465,11 @@ msgid ""
 msgstr ""
 
 #: ../../source/using_the_toonz_farm.rst:197
-msgid "**To define the FARMROOT in OpenToonz:**"
+msgid "**To define the FARMROOT in Tahoma:**"
 msgstr ""
 
 #: ../../source/using_the_toonz_farm.rst:199
-msgid "Run OpenToonz and go to the **Farm** room."
+msgid "Run Tahoma and go to the **Farm** room."
 msgstr ""
 
 #: ../../source/using_the_toonz_farm.rst:201
@@ -484,7 +484,7 @@ msgstr ""
 
 #: ../../source/using_the_toonz_farm.rst:210
 msgid ""
-"In OpenToonz you can find the **Farm** room that allows you to monitor "
+"In Tahoma you can find the **Farm** room that allows you to monitor "
 "the farm processes. This room contains two main windows: the Tasks window"
 " and the Batch Servers window."
 msgstr ""
@@ -620,7 +620,7 @@ msgstr ""
 
 #: ../../source/using_the_toonz_farm.rst:262
 msgid ""
-"The LOG files are saved in the ``OpenToonz stuff\\toonzfarm``  folder of "
+"The LOG files are saved in the ``Tahoma stuff\\toonzfarm``  folder of "
 "the computer experiencing the problem; each LOG refers to the processing "
 "performed by that computer only."
 msgstr ""
@@ -666,9 +666,9 @@ msgstr ""
 #~ msgid ""
 #~ "To define the FARMROOT folder you "
 #~ "can take as model the ``toonzfarm``  "
-#~ "folder stored in OpenToonz 1.x stuff."
+#~ "folder stored in Tahoma 1.x stuff."
 #~ " You can take the ``toonzfarm``  "
-#~ "folder from any computer where OpenToonz"
+#~ "folder from any computer where Tahoma"
 #~ " in installed, choose the location "
 #~ "you prefer, and share it on the"
 #~ " network, giving full control to any"
@@ -678,8 +678,8 @@ msgstr ""
 
 #~ msgid ""
 #~ "To retrieve this file open the "
-#~ "``Applications\\OpenToonz 1.x`` folder, right-"
-#~ "click the OpenToonz icon and choose "
+#~ "``Applications\\Tahoma 1.x`` folder, right-"
+#~ "click the Tahoma icon and choose "
 #~ "Show Package Contents from the menu "
 #~ "that opens; in the folder that "
 #~ "opens browse to the ``Contents\\Resources``"
@@ -698,13 +698,13 @@ msgstr ""
 
 #~ msgid ""
 #~ "The LOG files are saved in the "
-#~ "``OpenToonz 1.x stuff\\toonzfarm``  folder of"
+#~ "``Tahoma 1.x stuff\\toonzfarm``  folder of"
 #~ " the computer experiencing the problem; "
 #~ "each LOG refers to the processing "
 #~ "performed by that computer only."
 #~ msgstr ""
 
-#~ msgid "Run OpenToonz and go to the Render Farm room."
+#~ msgid "Run Tahoma and go to the Render Farm room."
 #~ msgstr ""
 
 #~ msgid ""
@@ -900,7 +900,7 @@ msgstr ""
 #~ "Client program: is the program run "
 #~ "by the user to queue new tasks "
 #~ "and to monitor the Toonz Farm. "
-#~ "OpenToonz itself is the client program"
+#~ "Tahoma itself is the client program"
 #~ " of the Toonz Farm, and can be"
 #~ " run on any computer on the "
 #~ "network, not necessarily on a controller"
@@ -992,11 +992,11 @@ msgstr ""
 #~ msgid "**To define the FARMROOT in Toonz:**"
 #~ msgstr ""
 
-#~ msgid "Run OpenToonz and go to the Farm room."
+#~ msgid "Run Tahoma and go to the Farm room."
 #~ msgstr ""
 
 #~ msgid ""
-#~ "In OpenToonz you can find the Farm"
+#~ "In Tahoma you can find the Farm"
 #~ " room that allows you to monitor "
 #~ "the farm processes. This room contains"
 #~ " two main windows: the Tasks window"

@@ -463,7 +463,7 @@ All of this information can be displayed at once (by checking all the options), 
 
 Parenting Plastic levels using vertices and hooks
 -------------------------------------------------
-For building interesting and complex animations it could be useful and time saving to create a hierarchical relationship between standard levels and Plastic modified levels, or between Plastic modified levels themselves, so that the children levels inherit the transformations of the parent automatically. It's always possible to link the levels using the column/layer center as target, but what if something more subtler is needed as using *Hooks*? We have already described similar techniques for OpenToonz standard elements (see  :ref:`Linking Objects <linking_objects>`  or  :ref:`Using Hooks <using_hooks>` ), but Plastic modified levels works in a slightly different way because the Hook tool *is not* enabled on this kind of levels. Plastic modified levels use their skeleton vertices instead of the hook points.
+For building interesting and complex animations it could be useful and time saving to create a hierarchical relationship between standard levels and Plastic modified levels, or between Plastic modified levels themselves, so that the children levels inherit the transformations of the parent automatically. It's always possible to link the levels using the column/layer center as target, but what if something more subtler is needed as using *Hooks*? We have already described similar techniques for Tahoma standard elements (see  :ref:`Linking Objects <linking_objects>`  or  :ref:`Using Hooks <using_hooks>` ), but Plastic modified levels works in a slightly different way because the Hook tool *is not* enabled on this kind of levels. Plastic modified levels use their skeleton vertices instead of the hook points.
 
 .. tip:: **To link a standard level to a Plastic modified level**
 
@@ -523,7 +523,7 @@ The values of these parameters can be visualized in the Function Editor as a spr
 
 Use Mathematical Expressions in Plastic Animation
 -------------------------------------------------
-To use OpenToonz mathematical expressions in the Plastic Animation, you can link the vertices of the skeleton to each other or to a column/layer, pegbar or camera.
+To use Tahoma mathematical expressions in the Plastic Animation, you can link the vertices of the skeleton to each other or to a column/layer, pegbar or camera.
 
 This allows to set some automatic actions of the skeleton, for example you can link the main vertices of the shoulders, so that moving just one shoulder automatically moves the other.
 

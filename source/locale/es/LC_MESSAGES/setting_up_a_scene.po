@@ -1,11 +1,11 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
-# This file is distributed under the same license as the OpenToonz package.
+# This file is distributed under the same license as the Tahoma package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: OpenToonz 1.3\n"
+"Project-Id-Version: Tahoma 1.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-11 11:06-0300\n"
 "PO-Revision-Date: 2019-10-25 20:21-0300\n"
@@ -43,14 +43,14 @@ msgstr ""
 
 #: ../../source/setting_up_a_scene.rst:12
 msgid ""
-"Settings concern different tasks you may perform in OpenToonz, such as the "
+"Settings concern different tasks you may perform in Tahoma, such as the "
 "scanning, or cleanup process, the camera size and resolution, the frame rate, "
 "the output options, etc. They can be accessed in dialogs you can open with "
 "commands available in the related menu; for example the scan and cleanup "
 "settings commands are available in the Scan & Cleanup menu."
 msgstr ""
 "Las opciones se refieren a diferentes tareas que es posible desarrollar en "
-"OpenToonz, tales como escaneo, limpieza de imágenes escaneadas, el tamaño y la "
+"Tahoma, tales como escaneo, limpieza de imágenes escaneadas, el tamaño y la "
 "resolución de la cámara, la velocidad de fotogramas, las opciones de salida, "
 "etc. Las mismas pueden ser accedidas a través de diálogos que es posible abrir "
 "con comandos disponibles en los menúes apropiados; por ejemplo las opciones de "
@@ -299,8 +299,8 @@ msgstr ""
 "<choosing_the_working_unit>`  )."
 
 #: ../../source/setting_up_a_scene.rst:88
-msgid "In OpenToonz the Camera is defined by different parameters:"
-msgstr "En OpenToonz una Cámara es definida por medio de distintos parámetros:"
+msgid "In Tahoma the Camera is defined by different parameters:"
+msgstr "En Tahoma una Cámara es definida por medio de distintos parámetros:"
 
 #: ../../source/setting_up_a_scene.rst:90
 msgid ""
@@ -334,27 +334,27 @@ msgstr ""
 msgid ""
 "When inserting a value in one field, the others change accordingly as needed "
 "for having a consistent camera. You can decide which set of values has to be "
-"considered fixed by OpenToonz. The lock-shaped buttons and the radio buttons at "
+"considered fixed by Tahoma. The lock-shaped buttons and the radio buttons at "
 "the leftmost column of the camera parameters, let you select which column and "
-"row of values has to be preserved by OpenToonz, while changing the others as "
+"row of values has to be preserved by Tahoma, while changing the others as "
 "needed."
 msgstr ""
 "Al ingresar un valor en uno de los campos, los otros cambiarán de la forma "
 "apropiada como sea necesario para mantener valores consistentes de cámara. Es "
-"posible decidir cuál conjunto de valores OpenToonz debe mantener fijo. Los "
+"posible decidir cuál conjunto de valores Tahoma debe mantener fijo. Los "
 "botones con forma de candado y los botones alternativos a la izquierda del "
 "diálogo permiten seleccionar qué fila y columna de valores deberá ser "
-"preservada por OpenToonz, al cambiar los otros como sea necesario."
+"preservada por Tahoma, al cambiar los otros como sea necesario."
 
 #: ../../source/setting_up_a_scene.rst:100
 msgid ""
 "The **Use Current Level Settings** button let you set the camera for framing "
-"exactly the content of the selected level. Just press this button and OpenToonz "
+"exactly the content of the selected level. Just press this button and Tahoma "
 "will calculate the appropriate values for the camera."
 msgstr ""
 "El botón **Usar opciones del nivel actual** permite definir una cámara que se "
 "ajuste exactamente al contenido del nivel seleccionado. Basta con presionarlo "
-"para que OpenToonz calcule los valores apropiados para la cámara."
+"para que Tahoma calcule los valores apropiados para la cámara."
 
 #: ../../source/setting_up_a_scene.rst:102
 msgid ""
@@ -419,14 +419,14 @@ msgstr ""
 
 #: ../../source/setting_up_a_scene.rst:128
 msgid ""
-"OpenToonz can manage the previsualization of color through the use of 3D Look-"
+"Tahoma can manage the previsualization of color through the use of 3D Look-"
 "up Tables. By applying a 3D LUT file, properly configured for the current "
 "display monitor, it will be possible to work on different color spaces, such as "
 "`Rec. 709 <https://en.wikipedia.org/wiki/Rec._709>`_, `DCI-P3 <https://en."
 "wikipedia.org/wiki/DCI-P3>`_ or `Rec. 2020 <https://en.wikipedia.org/wiki/Rec."
 "_2020>`_."
 msgstr ""
-"OpenToonz es capaz de administrar la previsualización del color a través del "
+"Tahoma es capaz de administrar la previsualización del color a través del "
 "uso de Tablas de consulta 3D (más conocidas como 3D Look-up Tables). Mediante "
 "la aplicación de un archivo 3D LUT, apropiadamente configurado para el monitor "
 "que se esté usando, será posible trabajar en distintos espacios de color, tales "
@@ -457,13 +457,13 @@ msgstr ""
 
 #: ../../source/setting_up_a_scene.rst:134
 msgid ""
-"Currently, only the Windows version of OpenToonz can detect the currently "
+"Currently, only the Windows version of Tahoma can detect the currently "
 "connected monitor. For other platforms only one 3D LUT file can be applied for "
 "any type of monitors. (Even on Windows, connecting multiple different monitors "
 "at the same time is not supported for now. It will only identify the first "
 "registered monitor)."
 msgstr ""
-"Actualmente, sólo la versión de Windows de OpenToonz será capaz de detectar el "
+"Actualmente, sólo la versión de Windows de Tahoma será capaz de detectar el "
 "monitor actual conectado. Para otras plataformas simplemente aplicar un archivo "
 "3D LUT para cualquier tipo de monitor. (Inclusive en Windows, no será posible "
 "detectar varios monitores de distintos tipos conectados al mismo tiempo. Se "
@@ -503,8 +503,8 @@ msgstr ""
 "Explorador de archivos para navegar y seleccionar el archivo .3DL deseado."
 
 #: ../../source/setting_up_a_scene.rst:146
-msgid "Restart OpenToonz for the changes to take effect."
-msgstr "Reiniciar OpenToonz para que los cambios entren en vigor."
+msgid "Restart Tahoma for the changes to take effect."
+msgstr "Reiniciar Tahoma para que los cambios entren en vigor."
 
 #: ../../source/setting_up_a_scene.rst:152
 msgid "Assigning Memory for the Undo Operations"
@@ -554,11 +554,11 @@ msgstr "Optimización del uso de memoria"
 #: ../../source/setting_up_a_scene.rst:166
 msgid ""
 "When working with Raster images, predominantly being animation levels scanned "
-"with OpenToonz or GTS, an extensive usage of computer memory may be required "
+"with Tahoma or GTS, an extensive usage of computer memory may be required "
 "during the cleanup, painting and rendering processes."
 msgstr ""
 "Al trabajar con imágenes de mapa de bits (en general niveles de animación "
-"escaneados con OpenToonz o GTS), es posible que se requiera un uso intensivo de "
+"escaneados con Tahoma o GTS), es posible que se requiera un uso intensivo de "
 "memoria durante los procesos de limpieza, pintado y procesamiento de los mismos."
 
 #: ../../source/setting_up_a_scene.rst:168
@@ -581,15 +581,15 @@ msgstr ""
 #: ../../source/setting_up_a_scene.rst:170
 msgid ""
 "If you are working mainly with vector images, that have been drawn inside "
-"OpenToonz, this option should be deactivated, as the reserved memory section "
+"Tahoma, this option should be deactivated, as the reserved memory section "
 "would be otherwise unused by the computer."
 msgstr ""
-"Si se trabaja principalmente con imágenes vectoriales creadas en OpenToonz, "
+"Si se trabaja principalmente con imágenes vectoriales creadas en Tahoma, "
 "esta opción debería permanecer desactivada, ya que de otro modo esa sección "
 "reservada de memoria quedaría prácticamente inutilizada."
 
 #: ../../source/setting_up_a_scene.rst:172
-msgid "The change set for this option is valid only after OpenToonz is restarted."
+msgid "The change set for this option is valid only after Tahoma is restarted."
 msgstr ""
 "Los cambios definidos para esta opción será válidos recién luego de que "
-"OpenToonz sea reiniciado."
+"Tahoma sea reiniciado."

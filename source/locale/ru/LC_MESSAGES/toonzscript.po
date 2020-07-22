@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
-# This file is distributed under the same license as the OpenToonz package.
+# This file is distributed under the same license as the Tahoma package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OpenToonz 1.2\n"
+"Project-Id-Version: Tahoma 1.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-07 23:01+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../source/toonzscript.rst:5
 msgid ""
-"ToonzScript is the scripting language used in OpenToonz. Using "
+"ToonzScript is the scripting language used in Tahoma. Using "
 "ToonzScript allows users to create sequences of commands, thus avoiding "
 "the need to perform repetitive tasks manually. ToonzScript is based on "
 "QtScript and is built on the ECMAScript standard. A reference guide for "
@@ -78,7 +78,7 @@ msgstr ""
 #: ../../source/toonzscript.rst:27
 msgid ""
 "The ToonzScript file extension is .js, scripts need to be in the "
-"``OpenToonz stuff/library/script`` folder, to be automatically retrieved "
+"``Tahoma stuff/library/script`` folder, to be automatically retrieved "
 "by opening the Run Script command browser."
 msgstr ""
 
@@ -168,7 +168,7 @@ msgid ""
 "Built on the foundaments of ECMAScript, ToonzScript retains a degree of "
 "similarity to the JavaScript syntax but, at the same time, implements "
 "some functions and several classes specifically built to make easier the "
-"interaction with the OpenToonz software architecture. Here follows the "
+"interaction with the Tahoma software architecture. Here follows the "
 "list of the ToonzScript specifications:"
 msgstr ""
 
@@ -194,7 +194,7 @@ msgstr ""
 
 #: ../../source/toonzscript.rst
 msgid ""
-"The relative path are referred to the folder \"<opentoonz "
+"The relative path are referred to the folder \"<tahoma "
 "library>/scripts/\""
 msgstr ""
 
@@ -219,7 +219,7 @@ msgstr ""
 #: ../../source/toonzscript.rst:99
 msgid ""
 "The variable ``ToonzVersion`` can be used to check the current version of"
-" OpenToonz."
+" Tahoma."
 msgstr ""
 
 #: ../../source/toonzscript.rst:105
@@ -786,7 +786,7 @@ msgstr ""
 
 #~ msgid ""
 #~ "ToonzScript is the scripting language "
-#~ "used in OpenToonz. The scripting usage"
+#~ "used in Tahoma. The scripting usage"
 #~ " allows to create sequences of "
 #~ "commands avoiding to commit manpower to"
 #~ " perform some repetitive tasks. ToonzScript"
@@ -834,7 +834,7 @@ msgstr ""
 #~ msgid ""
 #~ "The ToonzScript file extension is .js,"
 #~ " the scripts have to be into "
-#~ "the ``OpenToonz 1.2 stuff/library/script`` "
+#~ "the ``Tahoma 1.2 stuff/library/script`` "
 #~ "folder, to be automatically retrieved by"
 #~ " opening the Run Script command "
 #~ "browser."
@@ -876,7 +876,7 @@ msgstr ""
 #~ msgid ""
 #~ "``run(filename)`` : runs the script "
 #~ "saved in filename. The relative path "
-#~ "are referred to the folder \"<opentoonz"
+#~ "are referred to the folder \"<tahoma"
 #~ " library>/scripts/\""
 #~ msgstr ""
 
@@ -900,7 +900,7 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "view(new Level(“C:\\\\OpenToonz 1.2 "
+#~ "view(new Level(“C:\\\\Tahoma 1.2 "
 #~ "stuff\\\\sandbox\\\\drawings\\\\A.pli”))"
 #~ msgstr ""
 
@@ -1485,10 +1485,10 @@ msgstr ""
 #~ msgid "//Define the input and output folders"
 #~ msgstr ""
 
-#~ msgid "``dir = \"C:\\\\OpenToonz 1.2 stuff\\\\SCRIPT IMAGES IN\\\\\";``"
+#~ msgid "``dir = \"C:\\\\Tahoma 1.2 stuff\\\\SCRIPT IMAGES IN\\\\\";``"
 #~ msgstr ""
 
-#~ msgid "``dir2 = \"C:\\\\OpenToonz 1.2 stuff\\\\SCRIPT IMAGES OUT\\\\\";``"
+#~ msgid "``dir2 = \"C:\\\\Tahoma 1.2 stuff\\\\SCRIPT IMAGES OUT\\\\\";``"
 #~ msgstr ""
 
 #~ msgid "//Load image toad3.0001.tif from disk"

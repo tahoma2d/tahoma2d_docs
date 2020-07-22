@@ -2,11 +2,11 @@
 
 Drawing Animation Levels
 ========================
-In OpenToonz it is possible to create and draw **Toonz Vector** levels (PLI format), **Toonz Raster** levels (TLV format) and standard **Raster** levels (TIF format) directly in the viewer. Drawing tools can also be used for touch-up in cleaned up drawings, and loaded raster images.
+In Tahoma it is possible to create and draw **Toonz Vector** levels (PLI format), **Toonz Raster** levels (TLV format) and standard **Raster** levels (TIF format) directly in the viewer. Drawing tools can also be used for touch-up in cleaned up drawings, and loaded raster images.
 
 .. _drawing_in_toonz:
 
-Drawing In OpenToonz
+Drawing In Tahoma
 --------------------
 To draw an animation level, first you have to define its type: Toonz Vector, Toonz Raster or Raster; and its settings like its name, the number of frames it's made of and the way its drawings are numbered.
 
@@ -25,7 +25,7 @@ When selected in the Xsheet/Timeline, the viewer displays the whole scene conten
 
 Setting the Default Type of Level to Draw
 '''''''''''''''''''''''''''''''''''''''''
-It's possible to define the default level type that will be created when you draw inside OpenToonz.
+It's possible to define the default level type that will be created when you draw inside Tahoma.
 
 By default Toonz Vector and Toonz Raster levels are saved in the **+drawing** folder of the current project when the scene is saved, while Raster levels are saved in the **+extras** folder (see  :ref:`Project Default Folders <project_default_folders>`  ).
 
@@ -480,7 +480,7 @@ Adding Text
 ~~~~~~~~~~~
 Text can be added by using the **Type** tool (|type|). 
 
-.. note:: It is also possible to work with editable and animatable text in OpenToonz through the use of the **Text Iwa** effect. For more information, please see  :ref:`Text Iwa <text_iwa>`  .
+.. note:: It is also possible to work with editable and animatable text in Tahoma through the use of the **Text Iwa** effect. For more information, please see  :ref:`Text Iwa <text_iwa>`  .
 
 In the tool options bar you can set the following:
 
@@ -550,7 +550,7 @@ Scanned drawings and raster ones, i.e. drawings not based on vectors, can be con
 
 Two main conversion modes are available: **Centerline** and **Outline**. The choice between the two modes depends on which conversion best fits your needs.
 
-In **Centerline** mode a *single vector stroke with a variable thickness* is generated for each line in the drawing. This means that the converted drawing can be edited like vector-based drawings made directly in OpenToonz, for example you can change the bend of a stroke with the **Pinch** (|pinch|) or **Control Point Editor** tools, and the thickness with the **Pump** tool (|pump|).
+In **Centerline** mode a *single vector stroke with a variable thickness* is generated for each line in the drawing. This means that the converted drawing can be edited like vector-based drawings made directly in Tahoma, for example you can change the bend of a stroke with the **Pinch** (|pinch|) or **Control Point Editor** tools, and the thickness with the **Pump** tool (|pump|).
 
 In **Outline** mode *two vector strokes* are generated to define each line in the drawing, and areas filled with different colors are separated by a stroke. This means that, for example, to change the bend of a line you have to change the bend of the two strokes defining it, and to change the thickness you have to model one or both strokes defining it. *The thickness of all the strokes is set to 0, so that they won’t be visible in the final render*.
 
@@ -691,7 +691,7 @@ It's possible to change the size of Toonz Raster and Raster levels, in order to 
 
 |canvas_size|
 
-The new size can be set in any unit supported by OpenToonz, by using absolute or relative values. If the canvas is enlarged, some white transparent area is added; if the canvas is reduced, some cropping is applied to the level images.
+The new size can be set in any unit supported by Tahoma, by using absolute or relative values. If the canvas is enlarged, some white transparent area is added; if the canvas is reduced, some cropping is applied to the level images.
 
 .. tip:: **To change the canvas size:**
 
@@ -712,7 +712,7 @@ The new size can be set in any unit supported by OpenToonz, by using absolute or
 
 Editing Drawings
 ----------------
-Toonz Vector, Toonz Raster and Raster levels, can be manipulated in OpenToonz.
+Toonz Vector, Toonz Raster and Raster levels, can be manipulated in Tahoma.
 
 To edit a drawing, for example to copy a part of it, you have first to select it in the Xsheet/Timeline or in the Level Strip. When selected in the Xsheet/Timeline, the viewer displays the whole scene contents at the current frame, when selected in the Level Strip, the viewer displays the selected frame of the current animation level only, to let you work more easily on it.
 
@@ -1311,7 +1311,7 @@ The best solution for this kind of issue is to overlap the final section of stro
 
 Animation Techniques
 --------------------
-Besides drawing frame by frame, one image at a time, until you achieve the animation you want, some other techniques are easier to achieve thanks to OpenToonz features.
+Besides drawing frame by frame, one image at a time, until you achieve the animation you want, some other techniques are easier to achieve thanks to Tahoma features.
 
 Whatever the technique is, you can control your work and how smooth the animation is by using the onion skin, that allows you to view more than one image in the viewer at the same time as reference.
 

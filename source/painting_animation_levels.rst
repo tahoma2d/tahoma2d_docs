@@ -2,7 +2,7 @@
 
 Painting Animation Levels
 =========================
-Toonz animation levels, both those cleaned up, and those made directly in OpenToonz, can be painted by using the styles, stored in the palette, and a set of tools.
+Toonz animation levels, both those cleaned up, and those made directly in Tahoma, can be painted by using the styles, stored in the palette, and a set of tools.
 
 All Toonz level drawings are made of **lines** (determined by the strokes of scanned or vector drawings), and **areas** defined by *closed lines*. Raster and vector lines can be painted or erased, partially or for their full extent; areas can be filled with styles, or remain empty, with complete transparency.
 

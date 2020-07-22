@@ -1,11 +1,11 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
-# This file is distributed under the same license as the OpenToonz package.
+# This file is distributed under the same license as the Tahoma package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: OpenToonz 1.3\n"
+"Project-Id-Version: Tahoma 1.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-04 20:33-0300\n"
 "PO-Revision-Date: 2020-02-04 20:41-0300\n"
@@ -271,11 +271,11 @@ msgstr "**Para abrir el Editor de gráficas en una ventana flotante:**"
 msgid ""
 "Make sure the option **Graph Editor Opens in Popup** is selected from the "
 "**Function Editor:** dropdown menu, in the Preferences  →  Interface window. "
-"(Restart OpenToonz)."
+"(Restart Tahoma)."
 msgstr ""
 "Seleccionar **Editor de gráficas en una ventana** en la opción **Editor de "
 "funciones:**, del diálogo Archivo → Preferencias → Interfaz. (Reiniciar "
-"OpenToonz para que la opción entre en vigor)."
+"Tahoma para que la opción entre en vigor)."
 
 #: ../../source/editing_curves_and_numerical_columns.rst:72
 #: ../../source/editing_curves_and_numerical_columns.rst:78
@@ -295,11 +295,11 @@ msgstr "**Para abrir la Planilla de tiempos en una ventana flotante:**"
 msgid ""
 "Make sure the option **Spreadsheet Opens in Popup** is selected from the "
 "**Function Editor:** dropdown menu, in the Preferences  →  Interface window. "
-"(Restart OpenToonz)."
+"(Restart Tahoma)."
 msgstr ""
 "Seleccionar **Planilla de tiempos en una ventana** en la opción **Editor de "
 "funciones:**, del diálogo Archivo → Preferencias → Interfaz. (Reiniciar "
-"OpenToonz para que la opción entre en vigor)."
+"Tahoma para que la opción entre en vigor)."
 
 #: ../../source/editing_curves_and_numerical_columns.rst:80
 msgid "**To switch between Spreadsheet and Graph Editor in the Function Editor:**"
@@ -311,11 +311,11 @@ msgstr ""
 msgid ""
 "Make sure the option **Toggle Between Graph Editor and Spreadsheet** is selected "
 "from the **Function Editor:** dropdown menu, in the Preferences  →  Interface "
-"window. (Restart OpenToonz)."
+"window. (Restart Tahoma)."
 msgstr ""
 "Seleccionar **Alternar entre Planilla de tiempos y Editor de gráficas** en la "
 "opción **Editor de funciones:**, del diálogo Archivo → Preferencias → Interfaz. "
-"(Reiniciar OpenToonz para que la opción entre en vigor)."
+"(Reiniciar Tahoma para que la opción entre en vigor)."
 
 #: ../../source/editing_curves_and_numerical_columns.rst:86
 msgid "**To scroll the Spreadsheet:**"

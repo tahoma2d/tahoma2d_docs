@@ -1,11 +1,11 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
-# This file is distributed under the same license as the OpenToonz package.
+# This file is distributed under the same license as the Tahoma package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: OpenToonz 1.3\n"
+"Project-Id-Version: Tahoma 1.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-06 16:58+0800\n"
 "PO-Revision-Date: 2019-08-28 23:41-0300\n"
@@ -387,7 +387,7 @@ msgid ""
 "*Texture Column*."
 msgstr ""
 "Crear los nuevos fotogramas para la *columna de textura* (insertándolos o "
-"anexándolos al final) como se haría con cualquier nivel normal de OpenToonz."
+"anexándolos al final) como se haría con cualquier nivel normal de Tahoma."
 
 #: ../../source/create_animations_using_plastic_tool.rst:96
 msgid "Activate the **Plastic** tool."
@@ -1384,7 +1384,7 @@ msgid ""
 "the children levels inherit the transformations of the parent automatically. "
 "It's always possible to link the levels using the column/layer center as "
 "target, but what if something more subtler is needed as using *Hooks*? We have "
-"already described similar techniques for OpenToonz standard elements (see  :ref:"
+"already described similar techniques for Tahoma standard elements (see  :ref:"
 "`Linking Objects <linking_objects>`  or  :ref:`Using Hooks <using_hooks>` ), "
 "but Plastic modified levels works in a slightly different way because the Hook "
 "tool *is not* enabled on this kind of levels. Plastic modified levels use their "
@@ -1398,7 +1398,7 @@ msgstr ""
 "posible vincular los niveles, usando simplemente los centros de sus respectivas "
 "columnas/capas como referencia, pero es posible que surjan ocasiones en que sea "
 "necesario algo más sutil, como el uso de **Enganches**. Ya se han descrito "
-"técnicas similares para los elementos normales de OpenToonz (ver  :ref:"
+"técnicas similares para los elementos normales de Tahoma (ver  :ref:"
 "`Vinculación de objetos <linking_objects>`  o  :ref:`Uso de Enganches "
 "<using_hooks>` ), sin embargo los niveles modificados por la herramienta "
 "Plástico funcionan de una forma ligeramente diferente, debido a que *no es "
@@ -1676,11 +1676,11 @@ msgstr "Uso de Expresiones matemáticas en animación con Pástico"
 
 #: ../../source/create_animations_using_plastic_tool.rst:526
 msgid ""
-"To use OpenToonz mathematical expressions in the Plastic Animation, you can "
+"To use Tahoma mathematical expressions in the Plastic Animation, you can "
 "link the vertices of the skeleton to each other or to a column/layer, pegbar or "
 "camera."
 msgstr ""
-"Para usar expresiones matemáticas de OpenToonz con animación realizada mediante "
+"Para usar expresiones matemáticas de Tahoma con animación realizada mediante "
 "la herramienta Plástico, será posible vincular los vértices de un esqueleto "
 "Plástico entre sí o a otra columna/capa, barra de sujeción o cámara."
 
@@ -1740,7 +1740,7 @@ msgid ""
 "ref:`Using Interpolations Based on Expressions "
 "<using_interpolations_based_on_expressions>`  )."
 msgstr ""
-"Para más información acerca del uso de *expresiones matemáticas* en OpenToonz "
+"Para más información acerca del uso de *expresiones matemáticas* en Tahoma "
 "(consultar  :ref:`Uso de interpolación basada en un Expresión "
 "<using_interpolations_based_on_expressions>`  )."
 

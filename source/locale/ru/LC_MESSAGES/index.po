@@ -1,11 +1,11 @@
 # Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
-# This file is distributed under the same license as the OpenToonz package.
+# This file is distributed under the same license as the Tahoma package.
 #
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 # user <surkow.aleksandr@gmail.com>, 2019, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: OpenToonz 1.2\n"
+"Project-Id-Version: Tahoma 1.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-24 21:51+0800\n"
 "PO-Revision-Date: 2020-02-05 23:31+0800\n"
@@ -21,43 +21,43 @@ msgstr ""
 "X-Generator: Lokalize 2.0\n"
 
 #: ../../source/index.rst:7
-msgid "OpenToonz User Manual"
-msgstr "Руководство пользователя OpenToonz"
+msgid "Tahoma User Manual"
+msgstr "Руководство пользователя Tahoma"
 
 #: ../../source/index.rst:9
 msgid ""
-"This is the manual for OpenToonz, an open-source full-featured 2D "
+"This is the manual for Tahoma, an open-source full-featured 2D "
 "animation creation software."
 msgstr ""
-"Это руководство для OpenToonz, полнофункционального программного "
+"Это руководство для Tahoma, полнофункционального программного "
 "обеспечения для создания 2D-анимации с открытым исходным кодом."
 
 #: ../../source/index.rst:10
-msgid "`http://opentoonz.github.io <http://opentoonz.github.io>`_"
-msgstr "`http://opentoonz.github.io <http://opentoonz.github.io>`_"
+msgid "`http://tahoma.github.io <http://tahoma.github.io>`_"
+msgstr "`http://tahoma.github.io <http://tahoma.github.io>`_"
 
 #: ../../source/index.rst:12
 msgid ""
 "This manual is an ongoing project, which aims to provide the first and "
-"most complete reference for OpenToonz features, and as such there will "
+"most complete reference for Tahoma features, and as such there will "
 "always be room for improvements and updates. Collaboration is welcome!"
 msgstr ""
 
 #: ../../source/index.rst:14
 msgid ""
-"To contribute to OpenToonz's documentation, please visit the OpenToonz "
+"To contribute to Tahoma's documentation, please visit the Tahoma "
 "docs repository."
 msgstr ""
-"Чтобы внести свой вклад в документацию OpenToonz, пожалуйста, посетите "
-"хранилище документации OpenToonz."
+"Чтобы внести свой вклад в документацию Tahoma, пожалуйста, посетите "
+"хранилище документации Tahoma."
 
 #: ../../source/index.rst:15
 msgid ""
-"`https://github.com/opentoonz/opentoonz_docs "
-"<https://github.com/opentoonz/opentoonz_docs>`_"
+"`https://github.com/tahoma/tahoma_docs "
+"<https://github.com/tahoma/tahoma_docs>`_"
 msgstr ""
-"`https://github.com/opentoonz/opentoonz_docs "
-"<https://github.com/opentoonz/opentoonz_docs>`_"
+"`https://github.com/tahoma/tahoma_docs "
+"<https://github.com/tahoma/tahoma_docs>`_"
 
 #: ../../source/index.rst:18
 msgid "Getting Started:"
@@ -80,9 +80,9 @@ msgstr ""
 "7.1, первоначально созданном Digital Video S.p.A., Рим, Италия."
 
 #~ msgid ""
-#~ "This is the manual for OpenToonz, "
+#~ "This is the manual for Tahoma, "
 #~ "an open-source full-featured 2D "
 #~ "animation creation software. "
-#~ "`http://opentoonz.github.io <http://opentoonz.github.io>`_"
+#~ "`http://tahoma.github.io <http://tahoma.github.io>`_"
 #~ msgstr ""
 

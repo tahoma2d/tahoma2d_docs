@@ -9,7 +9,7 @@ Scene Settings and Project Default Settings
 -------------------------------------------
 When you start working on a scene, automatically it will belong to the current project, inheriting its settings and default folders. In this way all the scenes belonging to a project are created with the same settings, assuring the consistency of the production (see  :ref:`Managing Projects <managing_projects>`  ). 
 
-Settings concern different tasks you may perform in OpenToonz, such as the scanning, or cleanup process, the camera size and resolution, the frame rate, the output options, etc. They can be accessed in dialogs you can open with commands available in the related menu; for example the scan and cleanup settings commands are available in the Scan & Cleanup menu.
+Settings concern different tasks you may perform in Tahoma, such as the scanning, or cleanup process, the camera size and resolution, the frame rate, the output options, etc. They can be accessed in dialogs you can open with commands available in the related menu; for example the scan and cleanup settings commands are available in the Scan & Cleanup menu.
 
 Settings for a particular scene can always be changed independently from the other ones, and will be automatically saved when the scene is saved. 
 
@@ -85,7 +85,7 @@ More than one camera can be defined for each scene, in order to have different o
 
 The camera frame size can be expressed in any unit, but will be visualized in the default one chosen in the Preferences  →  Interface dialog (see  :ref:`Choosing the Working Unit <choosing_the_working_unit>`  ). 
 
-In OpenToonz the Camera is defined by different parameters:
+In Tahoma the Camera is defined by different parameters:
 
     - X (Width) and Y (Height) frame size of the camera, expressed in the default Camera Unit (usually inches).
 
@@ -95,9 +95,9 @@ In OpenToonz the Camera is defined by different parameters:
 
     - X and Y DPI values, calculated using the standard formulas: XDpi=XPx/Width, and YDpi=YPx/Height. This two fields can be forced to have the same value, by activating the equal-sign button between them.
 
-When inserting a value in one field, the others change accordingly as needed for having a consistent camera. You can decide which set of values has to be considered fixed by OpenToonz. The lock-shaped buttons and the radio buttons at the leftmost column of the camera parameters, let you select which column and row of values has to be preserved by OpenToonz, while changing the others as needed.
+When inserting a value in one field, the others change accordingly as needed for having a consistent camera. You can decide which set of values has to be considered fixed by Tahoma. The lock-shaped buttons and the radio buttons at the leftmost column of the camera parameters, let you select which column and row of values has to be preserved by Tahoma, while changing the others as needed.
 
-The **Use Current Level Settings** button let you set the camera for framing exactly the content of the selected level. Just press this button and OpenToonz will calculate the appropriate values for the camera.
+The **Use Current Level Settings** button let you set the camera for framing exactly the content of the selected level. Just press this button and Tahoma will calculate the appropriate values for the camera.
 
 Camera resolutions can also be selected from a list of predefined camera settings. You can add any camera preset you define to the list, as well as remove any predefined camera from it.
 
@@ -125,13 +125,13 @@ Color Calibration using Look-up Tables
 
 |3dlut|
 
-OpenToonz can manage the previsualization of color through the use of 3D Look-up Tables. By applying a 3D LUT file, properly configured for the current display monitor, it will be possible to work on different color spaces, such as `Rec. 709 <https://en.wikipedia.org/wiki/Rec._709>`_, `DCI-P3 <https://en.wikipedia.org/wiki/DCI-P3>`_ or `Rec. 2020 <https://en.wikipedia.org/wiki/Rec._2020>`_.
+Tahoma can manage the previsualization of color through the use of 3D Look-up Tables. By applying a 3D LUT file, properly configured for the current display monitor, it will be possible to work on different color spaces, such as `Rec. 709 <https://en.wikipedia.org/wiki/Rec._709>`_, `DCI-P3 <https://en.wikipedia.org/wiki/DCI-P3>`_ or `Rec. 2020 <https://en.wikipedia.org/wiki/Rec._2020>`_.
 
 Once a 3DLUT is active, all colors displayed on Viewer, Combo Viewer, Flipbook, Color Model, Palette, and Style Editor will be corrected.
 
 .. note:: Currently, only the .3dl file format is supported. It must follow specification written `here <http://download.autodesk.com/us/systemdocs/help/2009/lustre_ext1/index.html?url=WSc4e151a45a3b785a24c3d9a411df9298473-7ffd.htm,topicNumber=d0e8061>`_.
 
-.. note:: Currently, only the Windows version of OpenToonz can detect the currently connected monitor. For other platforms only one 3D LUT file can be applied for any type of monitors. (Even on Windows, connecting multiple different monitors at the same time is not supported for now. It will only identify the first registered monitor).
+.. note:: Currently, only the Windows version of Tahoma can detect the currently connected monitor. For other platforms only one 3D LUT file can be applied for any type of monitors. (Even on Windows, connecting multiple different monitors at the same time is not supported for now. It will only identify the first registered monitor).
 
 .. note:: PLEASE NOTE: At the moment, using Plastic deformation together with this feature causes a display issue such that the deformed image is not shown in *Camera Stand* mode of the Viewer.
 
@@ -143,7 +143,7 @@ Once a 3DLUT is active, all colors displayed on Viewer, Combo Viewer, Flipbook, 
 
     3. In the **3DLUT File for [monitor]:** option, press the file browser button to navigate and select the desired .3DL file.
 
-    4. Restart OpenToonz for the changes to take effect.
+    4. Restart Tahoma for the changes to take effect.
 
 
 .. _assigning_memory_for_the_undo_operations:
@@ -163,13 +163,13 @@ As soon as the limit is reached, the oldest undo operations will be discarded to
 
 Optimizing the Memory Usage
 ---------------------------
-When working with Raster images, predominantly being animation levels scanned with OpenToonz or GTS, an extensive usage of computer memory may be required during the cleanup, painting and rendering processes.
+When working with Raster images, predominantly being animation levels scanned with Tahoma or GTS, an extensive usage of computer memory may be required during the cleanup, painting and rendering processes.
 
 After a certain amount of time the computer performance may worsen, as the memory gets fragmented because of the several writing and reading accesses. To prevent this behavior, the Minimize Raster Memory Fragmentation* option can be activated in the Files  →  Preferences  →  General dialog. When activated, a section of computer memory is reserved and used only for operations concerning Raster images.
 
-If you are working mainly with vector images, that have been drawn inside OpenToonz, this option should be deactivated, as the reserved memory section would be otherwise unused by the computer.
+If you are working mainly with vector images, that have been drawn inside Tahoma, this option should be deactivated, as the reserved memory section would be otherwise unused by the computer.
 
-.. note:: The change set for this option is valid only after OpenToonz is restarted.
+.. note:: The change set for this option is valid only after Tahoma is restarted.
 
 
 .. |scene_settings| image:: /_static/setting_up_a_scene/scene_settings.png

@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
-# This file is distributed under the same license as the OpenToonz package.
+# This file is distributed under the same license as the Tahoma package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OpenToonz 1.2\n"
+"Project-Id-Version: Tahoma 1.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-24 21:51+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -31,7 +31,7 @@ msgstr ""
 
 #: ../../source/keyboard_shortcuts.rst:14
 msgid ""
-"Predefined shortcuts are available for OpenToonz tools, modifiers and "
+"Predefined shortcuts are available for Tahoma tools, modifiers and "
 "menu commands. They can be customized, and new shortcuts can be added for"
 " undefined items."
 msgstr ""
@@ -85,7 +85,7 @@ msgstr ""
 #: ../../source/keyboard_shortcuts.rst:43
 msgid ""
 "The following are **some** of the predefined shortcuts available in "
-"OpenToonz."
+"Tahoma."
 msgstr ""
 
 #: ../../source/keyboard_shortcuts.rst:49

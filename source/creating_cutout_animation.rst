@@ -8,7 +8,7 @@ Animations in this case can be created not by adding drawings depicting the new 
 
  |character_model_sample|
 
-In OpenToonz it's possible to create links between a model's different sections and to set pivot points for each one of them, in order to better manage the animation. For example, you can link a hand to an arm at the wrist, and link the arm to the trunk at the shoulder: in this way when you move the trunk, you will move both arm and hand as well; when you move the arm, it will turn around the shoulder and the hand will follow its movement; when you move the hand, it will turn around the wrist. 
+In Tahoma it's possible to create links between a model's different sections and to set pivot points for each one of them, in order to better manage the animation. For example, you can link a hand to an arm at the wrist, and link the arm to the trunk at the shoulder: in this way when you move the trunk, you will move both arm and hand as well; when you move the arm, it will turn around the shoulder and the hand will follow its movement; when you move the hand, it will turn around the wrist. 
 
 .. tip:: **To create a cutout animation:**
 

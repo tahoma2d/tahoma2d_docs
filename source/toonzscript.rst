@@ -2,7 +2,7 @@
 
 ToonzScript
 ===========
-ToonzScript is the scripting language used in OpenToonz. Using ToonzScript allows users to create sequences of commands, thus avoiding the need to perform repetitive tasks manually. ToonzScript is based on QtScript and is built on the ECMAScript standard. A reference guide for the ECMAScript standard can be found at the following URL:
+ToonzScript is the scripting language used in Tahoma. Using ToonzScript allows users to create sequences of commands, thus avoiding the need to perform repetitive tasks manually. ToonzScript is based on QtScript and is built on the ECMAScript standard. A reference guide for the ECMAScript standard can be found at the following URL:
 
 `ECMAScript Reference <http://doc.qt.io/qt-5/ecmascript.html>`_
 
@@ -24,7 +24,7 @@ File management
 
 |toonz_script_runscript|
 
-The ToonzScript file extension is .js, scripts need to be in the ``OpenToonz stuff/library/script`` folder, to be automatically retrieved by opening the Run Script command browser.
+The ToonzScript file extension is .js, scripts need to be in the ``Tahoma stuff/library/script`` folder, to be automatically retrieved by opening the Run Script command browser.
 
 
 .. _using_the_script_console:
@@ -66,7 +66,7 @@ The following conventions are implemented in the use of the Script Console:
 
 ToonzScript specifications
 --------------------------
-Built on the foundaments of ECMAScript, ToonzScript retains a degree of similarity to the JavaScript syntax but, at the same time, implements some functions and several classes specifically built to make easier the interaction with the OpenToonz software architecture. Here follows the list of the ToonzScript specifications:
+Built on the foundaments of ECMAScript, ToonzScript retains a degree of similarity to the JavaScript syntax but, at the same time, implements some functions and several classes specifically built to make easier the interaction with the Tahoma software architecture. Here follows the list of the ToonzScript specifications:
 
 
 .. _commands:
@@ -81,7 +81,7 @@ Example::
 	print(“result=”,12*3);
 
 - | **run(filename)**: runs the script saved in filename.
-  | The relative path are referred to the folder "<opentoonz library>/scripts/"
+  | The relative path are referred to the folder "<tahoma library>/scripts/"
 
 Examples::
 
@@ -94,9 +94,9 @@ Examples::
 
 Example::
 
-	view(new Level(“C:\\OpenToonz stuff\\sandbox\\drawings\\A.pli”))
+	view(new Level(“C:\\Tahoma stuff\\sandbox\\drawings\\A.pli”))
 
-- The variable ``ToonzVersion`` can be used to check the current version of OpenToonz.
+- The variable ``ToonzVersion`` can be used to check the current version of Tahoma.
 
 
 .. _classes:
@@ -641,9 +641,9 @@ This brief script is an example of using the OutlineVectorizer on a single image
 
 	//Define the input and output folders
 
-	dir = "C:\\OpenToonz stuff\\SCRIPT IMAGES IN\\"; 
+	dir = "C:\\Tahoma stuff\\SCRIPT IMAGES IN\\"; 
 
-	dir2 = "C:\\OpenToonz stuff\\SCRIPT IMAGES OUT\\"; 
+	dir2 = "C:\\Tahoma stuff\\SCRIPT IMAGES OUT\\"; 
 
 
 	//Load image toad3.0001.tif from disk
@@ -681,9 +681,9 @@ This example explains how to load an image and then create an animation in a lev
 
 	\\Define the input and output folders
 
-	dir = "C:\\OpenToonz stuff\\SCRIPT IMAGES IN\\";
+	dir = "C:\\Tahoma stuff\\SCRIPT IMAGES IN\\";
 
-	dir2 = "C:\\OpenToonz stuff\\SCRIPT IMAGES OUT\\";
+	dir2 = "C:\\Tahoma stuff\\SCRIPT IMAGES OUT\\";
 
 
 	//Load the toad3.tif image

@@ -1,11 +1,11 @@
 # Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
-# This file is distributed under the same license as the OpenToonz package.
+# This file is distributed under the same license as the Tahoma package.
 #
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 # user <surkow.aleksandr@gmail.com>, 2019, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: OpenToonz 1.2\n"
+"Project-Id-Version: Tahoma 1.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-06-26 11:54+0800\n"
 "PO-Revision-Date: 2020-02-09 10:15+0800\n"
@@ -30,11 +30,11 @@ msgstr "|UI_1|"
 
 #: ../../source/interface_overview.rst:8
 msgid ""
-"OpenToonz interface is organized into rooms, also known as workspaces: "
+"Tahoma interface is organized into rooms, also known as workspaces: "
 "each room is a different collection of windows which are laid out at "
 "specific positions on the screen."
 msgstr ""
-"Интерфейс OpenToonz организован в комнаты, также известные как рабочие "
+"Интерфейс Tahoma организован в комнаты, также известные как рабочие "
 "пространства: каждая комната представляет собой различную коллекцию окон,"
 " которые расположены в определенных местах на экране."
 
@@ -209,12 +209,12 @@ msgstr ""
 #: ../../source/interface_overview.rst:81
 msgid ""
 "Trying to dock a pane to the leftmost/rightmost part of the interface may"
-" fail if the main OpenToonz window is maximized at that moment. To "
+" fail if the main Tahoma window is maximized at that moment. To "
 "overcome this, you can restore the main window size, dock the desired "
 "pane, and then maximize it back."
 msgstr ""
 "Попытка пристыковать панель к крайней левой / правой части интерфейса "
-"может завершиться неудачей, если в этот момент главное окно OpenToonz "
+"может завершиться неудачей, если в этот момент главное окно Tahoma "
 "развернуто. Чтобы преодолеть это, вы можете восстановить размер основного"
 " окна, закрепить нужную панель, а затем развернуть ее обратно."
 
@@ -308,11 +308,11 @@ msgstr "|UI_cleanup|"
 msgid ""
 "The Cleanup Settings pane allows you to define the parameters for the "
 "clean-up process of scanned raster images, in order to convert them into "
-"Toonz Raster images, ready to be painted in OpenToonz."
+"Toonz Raster images, ready to be painted in Tahoma."
 msgstr ""
 "Панель «Настройки очистки» позволяет вам определить параметры процесса "
 "очистки отсканированных растровых изображений, чтобы преобразовать их в "
-"растровые изображения Toonz, готовые для рисования в OpenToonz."
+"растровые изображения Toonz, готовые для рисования в Tahoma."
 
 #: ../../source/interface_overview.rst:128
 msgid ""
@@ -630,12 +630,12 @@ msgstr "|UI_messagecenter|"
 
 #: ../../source/interface_overview.rst:278
 msgid ""
-"The message center displays in a list the messages OpenToonz is sending "
+"The message center displays in a list the messages Tahoma is sending "
 "to the user. You can set filters on the messages showed in the window "
 "using the appropriate radio buttons, or you can clear completely the list"
 " pressing the Clear button."
 msgstr ""
-"Центр сообщений отображает в списке сообщения, которые OpenToonz "
+"Центр сообщений отображает в списке сообщения, которые Tahoma "
 "отправляет пользователю. Вы можете установить фильтры для сообщений, "
 "отображаемых в окне, используя соответствующие переключатели, или вы "
 "можете полностью очистить список, нажав кнопку Очистить."
@@ -943,17 +943,17 @@ msgstr "|UI_commandbar|"
 
 #: ../../source/interface_overview.rst:436
 msgid ""
-"The Command Bar is a place where the user can display favorite OpenToonz "
+"The Command Bar is a place where the user can display favorite Tahoma "
 "tools and commands to have them readily available."
 msgstr ""
 "Панель команд - это место, где пользователь может отображать любимые "
-"инструменты и команды OpenToonz, чтобы они были легко доступны."
+"инструменты и команды Tahoma, чтобы они были легко доступны."
 
 #: ../../source/interface_overview.rst:438
-msgid "The Command Bar pane can be docked in any part of the OpenToonz UI."
+msgid "The Command Bar pane can be docked in any part of the Tahoma UI."
 msgstr ""
 "Панель командной панели может быть закреплена в любой части интерфейса "
-"OpenToonz."
+"Tahoma."
 
 #: ../../source/interface_overview.rst:440
 msgid ""
@@ -1189,10 +1189,10 @@ msgstr "|UI_history|"
 #: ../../source/interface_overview.rst:531
 msgid ""
 "The history pane, lets you check and undo/redo the history of the latest "
-"actions performed in the current OpenToonz scene."
+"actions performed in the current Tahoma scene."
 msgstr ""
 "Панель истории, позволяет проверять и отменять/повторять историю "
-"последних действий, выполненных в текущей сцене OpenToonz."
+"последних действий, выполненных в текущей сцене Tahoma."
 
 #: ../../source/interface_overview.rst:533
 msgid ""
@@ -1238,20 +1238,20 @@ msgstr "Настройка внешнего вида интерфейса"
 
 #: ../../source/interface_overview.rst:553
 msgid ""
-"The appearance of the OpenToonz interface can be customized to suit any "
+"The appearance of the Tahoma interface can be customized to suit any "
 "production need by choosing a specific language and interface theme."
 msgstr ""
-"Внешний вид интерфейса OpenToonz можно настроить в соответствии с любой "
+"Внешний вид интерфейса Tahoma можно настроить в соответствии с любой "
 "производственной потребностью, выбрав требуемый язык и тему интерфейса."
 
 #: ../../source/interface_overview.rst:555
 msgid ""
-"OpenToonz allows users to choose a specific language for the software "
+"Tahoma allows users to choose a specific language for the software "
 "interface, including menus, commands, tooltips, and on-screen messages. "
 "Currently available languages are: English, German, Spanish, French, "
 "Italian, Russian, Japanese and Chinese."
 msgstr ""
-"OpenToonz позволяет пользователям выбирать определенный язык для "
+"Tahoma позволяет пользователям выбирать определенный язык для "
 "интерфейса программного обеспечения, включая меню, команды, всплывающие "
 "подсказки и сообщения на экране. В настоящее время доступны следующие "
 "языки: английский, немецкий, испанский, французский, итальянский, "
@@ -1265,8 +1265,8 @@ msgstr ""
 "Есть также несколько включенных тем на выбор: Default, Blue, Dark и Light."
 
 #: ../../source/interface_overview.rst:561
-msgid "The OpenToonz interface theme set to Default and to Light."
-msgstr "OpenToonz с темами Default и Light."
+msgid "The Tahoma interface theme set to Default and to Light."
+msgstr "Tahoma с темами Default и Light."
 
 #: ../../source/interface_overview.rst:563
 msgid ""
@@ -1283,11 +1283,11 @@ msgstr ""
 #: ../../source/interface_overview.rst:565
 msgid ""
 "These files are stored in a folder named as the QSS file, and located in "
-"the ``C:\\OpenToonz stuff\\config\\qss``  folder on Windows and "
-"``OpenToonz stuff\\config\\qss``  folder on Macintosh."
+"the ``C:\\Tahoma stuff\\config\\qss``  folder on Windows and "
+"``Tahoma stuff\\config\\qss``  folder on Macintosh."
 msgstr ""
 "Эти файлы хранятся в папке, называемой файлом QSS, и находятся в папке "
-"``C:\\OpenToonz stuff\\config\\qss`` для Windows и ``OpenToonz "
+"``C:\\Tahoma stuff\\config\\qss`` для Windows и ``Tahoma "
 "stuff\\config\\qss`` для macOS."
 
 #: ../../source/interface_overview.rst:567
@@ -1311,15 +1311,15 @@ msgstr ""
 
 #: ../../source/interface_overview.rst:571
 msgid ""
-"The QSS files defining the colors and the images used in the OpenToonz "
+"The QSS files defining the colors and the images used in the Tahoma "
 "interface have to be written according to a specific syntax, otherwise "
-"OpenToonz interface will not be displayed properly. If you decide to edit"
+"Tahoma interface will not be displayed properly. If you decide to edit"
 " a QSS file, make a backup copy first in case you need to revert the file"
 " to the original version."
 msgstr ""
 "Файлы QSS, определяющие цвета и изображения, используемые в интерфейсе "
-"OpenToonz, должны быть записаны в соответствии с определенным "
-"синтаксисом, иначе интерфейс OpenToonz не будет отображаться должным "
+"Tahoma, должны быть записаны в соответствии с определенным "
+"синтаксисом, иначе интерфейс Tahoma не будет отображаться должным "
 "образом. Если вы решите отредактировать файл QSS, сначала сделайте "
 "резервную копию на тот случай, если вам потребуется вернуть файл к "
 "исходной версии."
@@ -1343,8 +1343,8 @@ msgstr ""
 "интерфейсе."
 
 #: ../../source/interface_overview.rst:579
-msgid "Restart OpenToonz to have the interface in the selected language."
-msgstr "Перезапустите OpenToonz, чтобы открыть интерфейс на выбранном языке."
+msgid "Restart Tahoma to have the interface in the selected language."
+msgstr "Перезапустите Tahoma, чтобы открыть интерфейс на выбранном языке."
 
 #: ../../source/interface_overview.rst:581
 msgid "**To choose the interface theme:**"
@@ -1363,11 +1363,11 @@ msgstr "**Для создания новой темы:**"
 
 #: ../../source/interface_overview.rst:589
 msgid ""
-"Navigate to ``C:\\OpenToonz stuff\\config\\qss``  folder on Windows and "
-"``OpenToonz stuff\\config\\qss``  folder on Macintosh."
+"Navigate to ``C:\\Tahoma stuff\\config\\qss``  folder on Windows and "
+"``Tahoma stuff\\config\\qss``  folder on Macintosh."
 msgstr ""
-"Перейдите в папку ``C:\\OpenToonz stuff\\config\\qss`` для Windows или "
-"``OpenToonz stuff\\config\\qss`` для macOS."
+"Перейдите в папку ``C:\\Tahoma stuff\\config\\qss`` для Windows или "
+"``Tahoma stuff\\config\\qss`` для macOS."
 
 #: ../../source/interface_overview.rst:591
 msgid "Duplicate one of the already existing style folder."
@@ -1388,10 +1388,10 @@ msgstr "Отредактируйте файл QSS и изображения PNG,
 #: ../../source/interface_overview.rst:597
 msgid ""
 "The new style will be available in the Preferences dialog the next time "
-"you run OpenToonz."
+"you run Tahoma."
 msgstr ""
 "Новый стиль будет доступен в диалоге настроек при следующем запуске "
-"OpenToonz."
+"Tahoma."
 
 #: ../../source/interface_overview.rst:599
 msgid "**To edit style QSS file:**"
@@ -1672,16 +1672,16 @@ msgstr ""
 #~ msgid ""
 #~ "These files are stored in a folder"
 #~ " named as the QSS file, and "
-#~ "located in the ``C:\\OpenToonz 1.x "
+#~ "located in the ``C:\\Tahoma 1.x "
 #~ "stuff\\config\\qss``  folder on Windows and"
-#~ " ``OpenToonz 1.x stuff\\config\\qss``  folder "
+#~ " ``Tahoma 1.x stuff\\config\\qss``  folder "
 #~ "on Macintosh."
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Navigate to ``C:\\OpenToonz 1.x "
+#~ "Navigate to ``C:\\Tahoma 1.x "
 #~ "stuff\\config\\qss``  folder on Windows and"
-#~ " ``OpenToonz 1.x stuff\\config\\qss``  folder "
+#~ " ``Tahoma 1.x stuff\\config\\qss``  folder "
 #~ "on Macintosh."
 #~ msgstr ""
 

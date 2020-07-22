@@ -1,31 +1,31 @@
-.. _installing_opentoonz:
+.. _installing_tahoma:
 
-Installing OpenToonz
+Installing Tahoma
 ====================
 
 
-.. _downloading_opentoonz:
+.. _downloading_tahoma:
 
-Downloading OpenToonz
+Downloading Tahoma
 ---------------------
-You can download the appropriate version of OpenToonz for your operating system from the `Download page <https://opentoonz.github.io/e/download/opentoonz.html>`_ in the official OpenToonz web site. Choose either the Windows or macOS version to start downloading the installer application.
+You can download the appropriate version of Tahoma for your operating system from the `Download page <https://tahoma.github.io/e/download/tahoma.html>`_ in the official Tahoma web site. Choose either the Windows or macOS version to start downloading the installer application.
 
 .. note:: All other builds appart from the ones downloaded from the official web site ARE NOT officially supported.
 
-It's possible to find the developer's "nightly" builds `here <https://github.com/opentoonz/opentoonz/releases/tag/nightly>`_, where you can test the latest features and bug fixes, as they are being included in OpenToonz. 
+It's possible to find the developer's "nightly" builds `here <https://github.com/tahoma/tahoma/releases/tag/nightly>`_, where you can test the latest features and bug fixes, as they are being included in Tahoma. 
 
 .. note:: WARNING: Use at you own risk! The Nightly Build version could potentially be a highly unstable one, so it is not adviced to use it in production environments.
 
-Also, `MorevnaProject <https://github.com/morevnaproject>`_ provides builds for `Windows 32-bit, Windows 64-bit, macOS, and appimage <https://github.com/morevnaproject/opentoonz/releases>`_ as well as `snap <https://snapcraft.io/opentoonz-morevna>`_ for Linux. 
+Also, `MorevnaProject <https://github.com/morevnaproject>`_ provides builds for `Windows 32-bit, Windows 64-bit, macOS, and appimage <https://github.com/morevnaproject/tahoma/releases>`_ as well as `snap <https://snapcraft.io/tahoma-morevna>`_ for Linux. 
 
-Finally, there are OTX (OpenToonz eXperimental) timely releases by `manongjohn <https://github.com/manongjohn>`_ avalaible for `Windows 64-bit, macOS and in appimage format <https://github.com/manongjohn/OTX/releases>`_ where it is possible to test the latest features and bug fixes in a portable way (i.e. without the need to do a full OpenToonz install).
+Finally, there are OTX (Tahoma eXperimental) timely releases by `manongjohn <https://github.com/manongjohn>`_ avalaible for `Windows 64-bit, macOS and in appimage format <https://github.com/manongjohn/OTX/releases>`_ where it is possible to test the latest features and bug fixes in a portable way (i.e. without the need to do a full Tahoma install).
 
 
 .. _installing_on_windows:
 
 Installing on Windows
 ---------------------
-Execute the OpenToonzSetup.exe file and follow these steps:
+Execute the TahomaSetup.exe file and follow these steps:
 
 
 1. Choose the language for the installer messages.
@@ -33,12 +33,12 @@ Execute the OpenToonzSetup.exe file and follow these steps:
  |win_setup_1|
  
 
-2. Accept OpenToonz Terms of Use.
+2. Accept Tahoma Terms of Use.
 
  |win_setup_2| 
  
 
-3. Decide where to install the **OpenToonz stuff** folder and if you wish to overwrite any settings in a preexisting OpenToonz stuff folder in the chosen location (except for user's personal settings, which will always be preserved). 
+3. Decide where to install the **Tahoma stuff** folder and if you wish to overwrite any settings in a preexisting Tahoma stuff folder in the chosen location (except for user's personal settings, which will always be preserved). 
 
  |win_setup_3| 
  
@@ -53,14 +53,14 @@ Execute the OpenToonzSetup.exe file and follow these steps:
  |win_setup_5| 
  
 
-6. Decide whether or not to Launch OpenToonz right away after closing the installer. 
+6. Decide whether or not to Launch Tahoma right away after closing the installer. 
 
  |win_setup_6| 
 
 Chocolatey
 ''''''''''
 
-``choco install opentoonz``
+``choco install tahoma``
 
 .. _installing_on_os_x:
 
@@ -69,7 +69,7 @@ Installing on OS X
 Follow these steps:
 
 
-1. Right-click on the OpenToonz.pkg file in Finder & select Open.
+1. Right-click on the Tahoma.pkg file in Finder & select Open.
 
 
 2. Press the Continue button.
@@ -82,7 +82,7 @@ Follow these steps:
  |osx_setup_3| 
  
 
-4. Press the Agree button to accept the OpenToonz Terms of Use. 
+4. Press the Agree button to accept the Tahoma Terms of Use. 
 
  |osx_setup_4| 
  
@@ -104,7 +104,7 @@ Follow these steps:
 Homebrew
 ''''''''
 
-``brew cask install opentoonz``
+``brew cask install tahoma``
 
 .. _installing_on_linux:
 
@@ -126,15 +126,15 @@ Arch Linux
 
 ``cd ..``
 
-``git clone https://aur.archlinux.org/opentoonz.git``
+``git clone https://aur.archlinux.org/tahoma.git``
 
-``cd opentoonz``
+``cd tahoma``
 
 ``makepkg -si``
 
-``export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/opentoonz/``
+``export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/tahoma/``
 
-``echo "export LD_LIBRARY_PATH=\$LD_LIBRARY_PATH:/usr/lib/opentoonz" >> ~/.bashrc``
+``echo "export LD_LIBRARY_PATH=\$LD_LIBRARY_PATH:/usr/lib/tahoma" >> ~/.bashrc``
 
 .. _debian:
 
@@ -155,31 +155,31 @@ Debian GNU/Linux
 
 .. note:: Debian packages avalaible only for amd64, arm64 and i386 architectures.
 
-4. Install OpenToonz.
+4. Install Tahoma.
 
-``sudo apt update && apt install opentoonz opentoonz-data``
+``sudo apt update && apt install tahoma tahoma-data``
 
 .. tip:: For updating enter ``sudo apt update && apt upgrade``.
 
 Gentoo, Funtoo
 ''''''''''''''
 
-``sudo emerge media-gfx/opentoonz``
+``sudo emerge media-gfx/tahoma``
 
 openSUSE
 ''''''''
 
-``sudo zypper install opentoonz``
+``sudo zypper install tahoma``
 
 Solus
 '''''
 
-``sudo eopkg install opentoonz``
+``sudo eopkg install tahoma``
 
 Void Linux
 ''''''''''
 
-``sudo xbps-install -S opentoonz``
+``sudo xbps-install -S tahoma``
 
 .. _universal_binaries:
 
@@ -191,18 +191,18 @@ Flatpak
 
 1. Installing.
 
-``flatpak install flathub io.github.OpenToonz``
+``flatpak install flathub io.github.Tahoma``
 
 2. Run.
 
-``flatpak run io.github.OpenToonz``
+``flatpak run io.github.Tahoma``
 
 .. _snap:
 
 Snap
 ~~~~
 
-``sudo snap install opentoonz``
+``sudo snap install tahoma``
 
 .. |win_setup_1| image:: /_static/installing/windows_setup_1.png
 .. |win_setup_2| image:: /_static/installing/windows_setup_2.png

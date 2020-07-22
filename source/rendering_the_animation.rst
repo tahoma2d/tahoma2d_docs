@@ -11,7 +11,7 @@ It is also possible to *preview* the animation for performing checks and tune-up
 
 Previewing the Animation
 ------------------------
-Animations can be previewed directly in the OpenToonz Viewer, including in the **Preview** mode all the Flipbook features, or by rendering a preview and visualizing it in a separate Flipbook window.
+Animations can be previewed directly in the Tahoma Viewer, including in the **Preview** mode all the Flipbook features, or by rendering a preview and visualizing it in a separate Flipbook window.
 
 In both cases the Flipbook window tools can be used, and its appearance can be customized (see  :ref:`Using the Flipbook <using_the_flipbook>`  ). 
 
@@ -118,7 +118,7 @@ The Preview Settings dialog lets you define the resolution, range, step and shri
 - **Resample Balance:** controls the resample that is used when images are scaled or rotated. In scenes where images are strongly resampled, for instance when their size changes dramatically, the final rendering may appear slightly out of focus. By balancing the resample you can give some sharpness back to the rendered frames. 
 
   There are several options to choose from. Originally *Toonz* provided three options: **Standard**, **Improved**, **High**. The higher the balance chosen, the longer the time needed for rendering the output. 
-  Additionally, *OpenToonz* provides several other standard resampling filters that could help improve the final results in a wider range of situations.
+  Additionally, *Tahoma* provides several other standard resampling filters that could help improve the final results in a wider range of situations.
 
 - **Channel Width:** sets the color depth for rendered images; choices are 8 bit or 16 bit per color channel. 
 
@@ -199,7 +199,7 @@ Of course if something changes in the flow up to the cached node (for example if
 
 Using the Flipbook
 ''''''''''''''''''
-The Flipbook is an image viewer where animation levels, images, clips and rendered frames can be displayed. In OpenToonz it is used to display the scene contents in the Viewer, including the Preview mode, and to display the previewed or rendered animations. It is also used to view files and levels from the browser or the Xsheet/Timeline, and to display the loaded Color Model.
+The Flipbook is an image viewer where animation levels, images, clips and rendered frames can be displayed. In Tahoma it is used to display the scene contents in the Viewer, including the Preview mode, and to display the previewed or rendered animations. It is also used to view files and levels from the browser or the Xsheet/Timeline, and to display the loaded Color Model.
 
 .. note:: The Safe Area is the only element that can be shown or hidden in the Flipbook when previewing the animation (see  :ref:`Customizing the Viewer <customizing_the_work_area>`  ).
 
@@ -244,7 +244,7 @@ The colors displayed as background in the flipbook can also be customized so tha
 
     - Right-click in the Flipbook and choose **Load Images** from the menu that opens, then use the Browser to retrieve the file you want to load.
 
-    - Drag and drop the file you want to load from the OpenToonz file browser to the Flipbook.
+    - Drag and drop the file you want to load from the Tahoma file browser to the Flipbook.
 
 .. tip:: **To append some content to the Flipbook content:**
 
@@ -397,7 +397,7 @@ Using the Playback Markers
 ''''''''''''''''''''''''''
 Two markers, **Playback Start Marker** and **Playback End Marker**, are available in the frame column of the Xsheet (and the frame row of the Timeline) to define the playback range.
 
-The user can manually set the playback markers to define the *starting* and *ending* frames to be considered when playing back the animation, or leave them unset, so OpenToonz automatically defines a playback range that includes all of the Xsheet/Timeline contents. 
+The user can manually set the playback markers to define the *starting* and *ending* frames to be considered when playing back the animation, or leave them unset, so Tahoma automatically defines a playback range that includes all of the Xsheet/Timeline contents. 
 
 .. note:: When the playback markers are activated, the frame range in the **Preview Settings...** dialog changes accordingly (see  :ref:`Using the Preview Window <using_the_preview_window>`  ).
 
@@ -478,13 +478,13 @@ File Settings
 
 - **Name:** is the name you want to assign to the output file; by default it's the name of the scene. 
 
-  In case the chosen file format produces image sequences, the base name will be assigned to all rendered frames, that will be identified by a progressive four-digits number written between the *base name* and the *file extension*, e.g. ``animation.0001.tif`` , ``animation.0002.tif`` , etc. These file sequences will be displayed in the OpenToonz File Browser with a double dot before the file extension, e.g. ``animation..tif`` , and treated as a single animation level when loaded back into OpenToonz.
+  In case the chosen file format produces image sequences, the base name will be assigned to all rendered frames, that will be identified by a progressive four-digits number written between the *base name* and the *file extension*, e.g. ``animation.0001.tif`` , ``animation.0002.tif`` , etc. These file sequences will be displayed in the Tahoma File Browser with a double dot before the file extension, e.g. ``animation..tif`` , and treated as a single animation level when loaded back into Tahoma.
 
 - **File Format** is the format for the output; natively supported formats are the following: 3GP, AVI, BMP, GIF, JPG, MOV, NOL, PNG, RGB, SGI, Spritesheet, TGA, TIF and TIFF. 
 
-  .. note:: OpenToonz supports the 3GP and MOV formats by using the 32-bit version of QuickTime.
+  .. note:: Tahoma supports the 3GP and MOV formats by using the 32-bit version of QuickTime.
   
-  To save in other popular video formats, like MP4 and WebM, OpenToonz uses FFmpeg (a free software project that produces libraries and programs for handling multimedia data). Once FFmpeg is installed in the system, and configured to work with OpenToonz, MP4 and WebM will be listed along the other standard output file formats. For detailed instructions on how to install and configure FFmpeg, please see  :ref:`Using FFmpeg with OpenToonz <using_ffmpeg_with_opentoonz>`  .
+  To save in other popular video formats, like MP4 and WebM, Tahoma uses FFmpeg (a free software project that produces libraries and programs for handling multimedia data). Once FFmpeg is installed in the system, and configured to work with Tahoma, MP4 and WebM will be listed along the other standard output file formats. For detailed instructions on how to install and configure FFmpeg, please see  :ref:`Using FFmpeg with Tahoma <using_ffmpeg_with_tahoma>`  .
 
   .. note:: Apart from 3GP, AVI, GIF, MOV, MP4 and WebM, all other formats will output image sequences.
 
@@ -492,7 +492,7 @@ File Settings
 
 - **Resample Balance:** controls the resample that is used when images are scaled or rotated. In scenes where images are strongly resampled, for instance when their size changes dramatically, the final rendering may appear slightly out of focus. By chosing a different resampling algorithm you can give some sharpness back to the rendered frames. 
 
-  There are several options to choose from. Originally Toonz provided only three options: **Standard**, **Improved**, and **High**. The higher the balance chosen, the longer the time needed for rendering the output. Currently OpenToonz also provides several other standard resampling options that could help improve the final results in a wider range of situations. These include: **Triange filter**, **Mitchell-Netravali filter**, **Cubic convolution**, **Hann window**, **Hamming window**, **Lanczos window**, **Gaussian convolution**, **Closest Pixel** and **Bilinear**.
+  There are several options to choose from. Originally Toonz provided only three options: **Standard**, **Improved**, and **High**. The higher the balance chosen, the longer the time needed for rendering the output. Currently Tahoma also provides several other standard resampling options that could help improve the final results in a wider range of situations. These include: **Triange filter**, **Mitchell-Netravali filter**, **Cubic convolution**, **Hann window**, **Hamming window**, **Lanczos window**, **Gaussian convolution**, **Closest Pixel** and **Bilinear**.
 
 - **Channel Width:** sets the color depth for rendered images; choices are **8 bit** and **16 bit** per color channel. If using the 16 bit channel width, be sure to select an output file format supporting it, for example the **TIF** format with the **64(RGBA)** option activated.
 
@@ -537,7 +537,7 @@ Other Settings
 
 - **Camera Shift:** sets the distance between the two camera views.
 
-  .. note:: For working properly at least some elements of the scene must have **Z-Depth** values other than 0 in their positioning. OpenToonz uses these values and the **Camera Shift** parameter for rendering the stereoscopic effect.
+  .. note:: For working properly at least some elements of the scene must have **Z-Depth** values other than 0 in their positioning. Tahoma uses these values and the **Camera Shift** parameter for rendering the stereoscopic effect.
 
 - **Render** button, starts rendering the scene using the current render settings.
 
@@ -567,7 +567,7 @@ Other types, such as **Text** or **Image** allow to input user defined data to b
 The settings can be saved as a *Preset* in order to be reused later, using the **Save as Preset** and **Load Preset** buttons.
 They can also be stored in the project's default settings by using the File  →  **Save Default Settings** command.
 
-.. note:: WARNING: Adding the Clapperboard will make the scene file to lose compatibility with older versions of OpenToonz. Setting the **Duration:** back to 0 will remove the clapperboard data from the scene, so that compatibility can be restored.
+.. note:: WARNING: Adding the Clapperboard will make the scene file to lose compatibility with older versions of Tahoma. Setting the **Duration:** back to 0 will remove the clapperboard data from the scene, so that compatibility can be restored.
 
 .. tip:: **To Add a Clapperboard:**
 
@@ -642,7 +642,7 @@ In this case no image has to be used as background, and the output file format h
 
 Rendering A Loaded Scene
 ''''''''''''''''''''''''
-The current scene can be rendered directly while being loaded in OpenToonz according to the defined Output Settings.
+The current scene can be rendered directly while being loaded in Tahoma according to the defined Output Settings.
 
 By choosing the appropriate range in the Output Settings it's possible to render the scene in chunks, for example by rendering a section first, and then another one. In this case the animation available in the Output location will always include all frames rendered up to that point, both if the format is a multiple-files output (e.g. TIF or TGA), and a single-file one (e.g. MP4 or MOV). The same applies if a section of the scene has to be rendered again because some corrections were needed.
 
@@ -650,7 +650,7 @@ If the scene contains some audio files and is rendered in a file format supporti
 
 .. note:: Audio files loaded in Sub-Xsheets will not be included in the output soundtrack (see  :ref:`Using Sub-Xsheets <using_sub-xsheets>`  ).
 
-As soon as the rendering is over, the rendered animation can be automatically displayed in a OpenToonz Flipbook by activating the **Open Flipbook after Rendering** option in the Preferences  →  Preview dialog; it's also possible to display blank frames after each rendering playback when looping. If a soundtrack is available for the rendered scene, it's also possible to listen to it.
+As soon as the rendering is over, the rendered animation can be automatically displayed in a Tahoma Flipbook by activating the **Open Flipbook after Rendering** option in the Preferences  →  Preview dialog; it's also possible to display blank frames after each rendering playback when looping. If a soundtrack is available for the rendered scene, it's also possible to listen to it.
 
 When displayed in the Flipbook, the rendering can be checked by using the Flipbook tools (see  :ref:`Using the Flipbook <using_the_flipbook>`  ). 
 
@@ -677,7 +677,7 @@ Rendering Scenes in Batch Mode
 ''''''''''''''''''''''''''''''
 The rendering of a scene can be added to a task list and performed in batch mode, in order to run it in the background while you perform other work on your computer. 
 
-*Render tasks* can be submitted from the OpenToonz Browser and can be managed and executed in the Tasks pane, together with *Cleanup tasks* (see  :ref:`Cleaning up Drawings in Batch Mode <cleaning_up_drawings_in_batch_mode>`  ).
+*Render tasks* can be submitted from the Tahoma Browser and can be managed and executed in the Tasks pane, together with *Cleanup tasks* (see  :ref:`Cleaning up Drawings in Batch Mode <cleaning_up_drawings_in_batch_mode>`  ).
 
 |tasks_render|
 
@@ -786,7 +786,7 @@ When the tasks are executed, the icon color tells the status of the task accordi
 
     - Click the **Add Render** button (|add_render|) in the top bar of the Tasks pane and use the Browser to select a scene file.
 
-    - Select the scenes in the OpenToonz Browser, then right-click any of them and choose **Add As Render Task** from the menu that opens.
+    - Select the scenes in the Tahoma Browser, then right-click any of them and choose **Add As Render Task** from the menu that opens.
 
 .. tip:: **To Configure the render task in the task list:**
 
@@ -841,7 +841,7 @@ When the tasks are executed, the icon color tells the status of the task accordi
 
 Using Chunks when Rendering Tasks
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-If you are using the OpenToonz render farm, it's possible to divide a task into chunks so that each computer of the farm will render a section of the same render task (see  :ref:`Using the Toonz Farm <using_the_toonz_farm>`  ).
+If you are using the Tahoma render farm, it's possible to divide a task into chunks so that each computer of the farm will render a section of the same render task (see  :ref:`Using the Toonz Farm <using_the_toonz_farm>`  ).
 
 The default value for the chunk size (expressed in number of frames) can be set using the **Render Task Chunk Size** in the Preferences  →  General pane. If the default value is higher than the duration (in frames) of the submitted scene, the value will be automatically adjusted to be equal to the duration of the scene.
 
@@ -851,7 +851,7 @@ When a task is divided into chunks, each chunk of the task is represented in the
 
 Render tasks and sub-tasks will be distributed on the farm, one for each computer, so that several tasks can be executed at the same time (see  :ref:`Using the Toonz Farm <using_the_toonz_farm>`  ). 
 
-If you are not using the OpenToonz render farm, dividing the task into chunks is not only useless, but it slows down the rendering process as well. For this reason it's suggested to use a high **Render Task Chunk Size** value (e.g. 1000) in the Preferences  →  General pane.
+If you are not using the Tahoma render farm, dividing the task into chunks is not only useless, but it slows down the rendering process as well. For this reason it's suggested to use a high **Render Task Chunk Size** value (e.g. 1000) in the Preferences  →  General pane.
 
 .. note:: Chunk size is relevant only when animations are rendered as image sequences (for example in TIF or TGA formats).
 

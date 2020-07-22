@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
-# This file is distributed under the same license as the OpenToonz package.
+# This file is distributed under the same license as the Tahoma package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OpenToonz 1.2\n"
+"Project-Id-Version: Tahoma 1.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-06 16:58+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -43,7 +43,7 @@ msgstr ""
 
 #: ../../source/creating_cutout_animation.rst:11
 msgid ""
-"In OpenToonz it's possible to create links between a model's different "
+"In Tahoma it's possible to create links between a model's different "
 "sections and to set pivot points for each one of them, in order to better"
 " manage the animation. For example, you can link a hand to an arm at the "
 "wrist, and link the arm to the trunk at the shoulder: in this way when "
@@ -834,7 +834,7 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "In OpenToonz it is possible to "
+#~ "In Tahoma it is possible to "
 #~ "create links between the model different"
 #~ " sections and set pivot points for"
 #~ " each section, in order to better "

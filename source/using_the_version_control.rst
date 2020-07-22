@@ -10,9 +10,9 @@ When you need to work on a file, you can *get* it from the central repository to
 
 The file you *put* will be saved as the last revision of the file, while the previous revisions will be retained as file history, and all the users sharing the same central repository can *get* if from there. In case a previous version of the file is needed, it is always possible to retrieve it from the central repository.
 
-OpenToonz supports the **Subversion** version control system, which is one of the most popular version control systems, used in many high-scale open source projects.
+Tahoma supports the **Subversion** version control system, which is one of the most popular version control systems, used in many high-scale open source projects.
 
-.. note:: The *central repository* defined for your version control system behaves exactly as an OpenToonz projectroot, therefore the project management under the version control system is the same, only referencing to the central repository instead of the projectroot (see  :ref:`Managing Projects <managing_projects>`  ).
+.. note:: The *central repository* defined for your version control system behaves exactly as an Tahoma projectroot, therefore the project management under the version control system is the same, only referencing to the central repository instead of the projectroot (see  :ref:`Managing Projects <managing_projects>`  ).
 
 
 .. _installing_the_version_control_system:
@@ -54,18 +54,18 @@ If the OS is *older* than Snow Leopard, the setup requires the download and inst
 
 You can go to the `Subversion download page <http://subversion.apache.org/packages.html#osx>`_ for downloading it. There you should look for the available binary packages and download a version control client for Macintosh.
 
-After the installation is very important to check where Subversion is installed, as this information is needed to configure the version control in OpenToonz: this information is displayed in the last page of the installation process and by default is usually ``/opt/subversion/bin`` .
+After the installation is very important to check where Subversion is installed, as this information is needed to configure the version control in Tahoma: this information is displayed in the last page of the installation process and by default is usually ``/opt/subversion/bin`` .
 
 .. note:: If a Subversion release older than v1.6 is used, some version control features might not work.
 
 
 .. _configuring_the_version_control_in_toonz:
 
-Configuring the Version Control in OpenToonz
+Configuring the Version Control in Tahoma
 ''''''''''''''''''''''''''''''''''''''''''''
-Once the version control server is configured and the version control client is installed it's possible to configure OpenToonz in order to use the version control.
+Once the version control server is configured and the version control client is installed it's possible to configure Tahoma in order to use the version control.
 
-In OpenToonz the version control information is stored in the ``versioncontrol.xml``  file located in the ``OpenToonz stuff\config`` folder. By default the file has the following content:
+In Tahoma the version control information is stored in the ``versioncontrol.xml``  file located in the ``Tahoma stuff\config`` folder. By default the file has the following content:
 
     .. code-block:: xml
 
@@ -84,13 +84,13 @@ In OpenToonz the version control information is stored in the ``versioncontrol.x
 
 By editing the file with a text editor it's possible to set the information for the *central repository* and the *working copy* location.
 
-Together with the configuration file, version control *users* must be defined by editing the ``permissions.xml``  file located in the ``OpenToonz stuff\config`` folder.
+Together with the configuration file, version control *users* must be defined by editing the ``permissions.xml``  file located in the ``Tahoma stuff\config`` folder.
 
-.. note:: The ``versioncontrol.xml``  and ``permissions.xml``  file have to be well-formed, and so cannot contain an opening tag without its related closing tag, otherwise OpenToonz will not run. If you decide to edit the files, make a backup copy first in case you need to revert the file to the original version.
+.. note:: The ``versioncontrol.xml``  and ``permissions.xml``  file have to be well-formed, and so cannot contain an opening tag without its related closing tag, otherwise Tahoma will not run. If you decide to edit the files, make a backup copy first in case you need to revert the file to the original version.
 
-.. tip:: **To configure the version control in OpenToonz:**
+.. tip:: **To configure the version control in Tahoma:**
 
-    1. Open the ``versioncontrol.xml``  file located in the ``OpenToonz stuff\config`` folder with a text editor.
+    1. Open the ``versioncontrol.xml``  file located in the ``Tahoma stuff\config`` folder with a text editor.
 
     2. Delete the line
     
@@ -104,7 +104,7 @@ Together with the configuration file, version control *users* must be defined by
     
      ``<name>PutYourRepositoryName</name>``
      
-     type between the tags the name you want the repository to have in the OpenToonz browser.
+     type between the tags the name you want the repository to have in the Tahoma browser.
 
     4. In the line 
     
@@ -129,7 +129,7 @@ Together with the configuration file, version control *users* must be defined by
 
 .. tip:: **To define the version control users:**
 
-    1. Open the ``permissions.xml``  file located in the ``OpenToonz stuff\config`` folder with a text editor.
+    1. Open the ``permissions.xml``  file located in the ``Tahoma stuff\config`` folder with a text editor.
 
     2. In the user section define a user and assign him the version control user name and password as configured on the server. For example to assign to the user JohnDoe the user johnd whose password is johndpassword, add the following user:
     
@@ -145,7 +145,7 @@ Together with the configuration file, version control *users* must be defined by
 
 .. tip:: **To define several version control repositories:**
 
-    1. Open the ``versioncontrol.xml``  file located in the ``OpenToonz stuff\config`` folder with a text editor.
+    1. Open the ``versioncontrol.xml``  file located in the ``Tahoma stuff\config`` folder with a text editor.
 
     2. Add after the lines defining a repository the following lines:
     
@@ -164,7 +164,7 @@ Together with the configuration file, version control *users* must be defined by
 
 .. tip:: **To define users for different repositories:**
 
-    1. Open the ``permissions.xml``  file located in the ``OpenToonz stuff\config`` folder with a text editor.
+    1. Open the ``permissions.xml``  file located in the ``Tahoma stuff\config`` folder with a text editor.
 
     2. In the user section assign to a user the version control user name and password as configured on the server of the second repository. For example to assign to the user JohnDoe the user johnd2 whose password is johndpassword2 defined for the second repository, add a ``svn name``  line so that the ``user name``  section in the ``permissions.xml``  file will look like the following:
     
@@ -181,28 +181,28 @@ Together with the configuration file, version control *users* must be defined by
 
 .. _initializing_the_version_control_in_toonz:
 
-Initializing the Version Control in OpenToonz
+Initializing the Version Control in Tahoma
 '''''''''''''''''''''''''''''''''''''''''''''
-Before starting to use the version control system, it has to be initialized by setting an option in the **Preferences** dialog and restarting OpenToonz.
+Before starting to use the version control system, it has to be initialized by setting an option in the **Preferences** dialog and restarting Tahoma.
 
-At this point the repository will be displayed in the OpenToonz browser, and you will be able to start using it.
+At this point the repository will be displayed in the Tahoma browser, and you will be able to start using it.
 
 .. tip:: **To initialize the version control system:**
 
-    1. In OpenToonz open the Preferences  →  Version Control dialog and activate the **Enable Version Control** option.
+    1. In Tahoma open the Preferences  →  Version Control dialog and activate the **Enable Version Control** option.
 
      .. note:: If the version control is not correctly installed or the configuration file is not correctly defined, activating the option will prompt a warning message.
 
-    2. Quit and restart OpenToonz.
+    2. Quit and restart Tahoma.
 
-    3. In the OpenToonz browser look for the repository at the end of the folder tree, named as you defined it in the configuration file; right-click it and choose **Get** from the menu that opens to establish the connection between the *central repository* and the local *working copy*.
+    3. In the Tahoma browser look for the repository at the end of the folder tree, named as you defined it in the configuration file; right-click it and choose **Get** from the menu that opens to establish the connection between the *central repository* and the local *working copy*.
 
 
 .. _using_the_version_control_system:
 
 Using the Version Control System
 --------------------------------
-The *central repository* and the local *working copy* are displayed in the OpenToonz browser at the end of the folder tree as one single folder. By navigating the contents of this folder it's possible to retrieve the folders and files. 
+The *central repository* and the local *working copy* are displayed in the Tahoma browser at the end of the folder tree as one single folder. By navigating the contents of this folder it's possible to retrieve the folders and files. 
 
 .. figure:: /_static/version_control/browser_tree_svn.png
 
@@ -264,7 +264,7 @@ In case you are *getting* or *putting* scene files (TNZ format), in the dialog t
 
 Editing Files
 '''''''''''''
-When using the version control system, in order to modify files you have to put them in **Edit** mode *before loading them* into OpenToonz; if not, they will be loaded as *read-only*.
+When using the version control system, in order to modify files you have to put them in **Edit** mode *before loading them* into Tahoma; if not, they will be loaded as *read-only*.
 
 |edit|
 

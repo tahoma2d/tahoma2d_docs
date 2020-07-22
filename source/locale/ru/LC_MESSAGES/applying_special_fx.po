@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
-# This file is distributed under the same license as the OpenToonz package.
+# This file is distributed under the same license as the Tahoma package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OpenToonz 1.2\n"
+"Project-Id-Version: Tahoma 1.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-24 21:51+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -1305,9 +1305,9 @@ msgstr ""
 #: ../../source/applying_special_fx.rst:541
 msgid ""
 "Currently the statement above if not true, as by default presets are "
-"being saved in ``OpenToonz stuff\\fxs\\presets``. On Windows it can be "
+"being saved in ``Tahoma stuff\\fxs\\presets``. On Windows it can be "
 "changed to any other path by going to the registry and changing the "
-"``System\\HKEY_LOCAL_MACHINE\\SOFTWARE\\OpenToonz\\OpenToonz\\TOONZFXPRESETS``"
+"``System\\HKEY_LOCAL_MACHINE\\SOFTWARE\\Tahoma\\Tahoma\\TOONZFXPRESETS``"
 " key to the desired location."
 msgstr ""
 
@@ -2586,11 +2586,11 @@ msgstr ""
 msgid ""
 "Full-color images which have a meaningful alpha channel come in two "
 "types: premultiplied or not. A non-premultiplied image can be recognized "
-"when it is loaded in OpenToonz because its edge, where there is a "
+"when it is loaded in Tahoma because its edge, where there is a "
 "complete transparence on one side and opacity on the other, is not "
 "smooth, but displays a solid halo. With the premultiply effect it is "
 "possible to transform the image alpha-channel so that it is correctly "
-"read by OpenToonz."
+"read by Tahoma."
 msgstr ""
 
 #: ../../source/applying_special_fx.rst:1139
@@ -3589,12 +3589,12 @@ msgstr ""
 
 #: ../../source/applying_special_fx.rst:1593
 msgid ""
-"OpenToonz enables support for effects rendered through hardware-"
+"Tahoma enables support for effects rendered through hardware-"
 "accelereted pixelshaders. Shaders are simple programs compiled by a "
 "graphics processing unit that harness the massively parallel architecture"
-" of modern graphics devices, to execute with extreme speed. OpenToonz's "
+" of modern graphics devices, to execute with extreme speed. Tahoma's "
 "shader effects are written in the OpenGL Shading Language (GLSL), and are"
-" located in ``OpenToonz stuff/library/shaders``. Refer to the readme.txt "
+" located in ``Tahoma stuff/library/shaders``. Refer to the readme.txt "
 "file there for further details on editing or creating new shader effects."
 msgstr ""
 
@@ -6226,14 +6226,14 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "OpenToonz enables support for special "
+#~ "Tahoma enables support for special "
 #~ "fxs rendered through hardware-accelereted "
 #~ "pixelshaders. Shaders are simple programs "
 #~ "compiled by a graphics processing unit"
 #~ " that harness the massively parallel "
 #~ "architecture of modern graphics devices "
 #~ "to execute with extreme speed. "
-#~ "OpenToonz's shader fxs are written in"
+#~ "Tahoma's shader fxs are written in"
 #~ " the OpenGL Shading Language (GLSL), "
 #~ "and are located in "
 #~ "PROJECTROOT/library/shaders. Refer to the "

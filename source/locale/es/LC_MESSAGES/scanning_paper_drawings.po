@@ -1,11 +1,11 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
-# This file is distributed under the same license as the OpenToonz package.
+# This file is distributed under the same license as the Tahoma package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: OpenToonz 1.3\n"
+"Project-Id-Version: Tahoma 1.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-25 21:32-0300\n"
 "PO-Revision-Date: 2019-10-26 10:44-0300\n"
@@ -25,32 +25,32 @@ msgstr "Escaneo de dibujos en papel"
 
 #: ../../source/scanning_paper_drawings.rst:6
 msgid ""
-"Currently OpenToonz DOES NOT SUPPORT the native scanning functionality, as "
+"Currently Tahoma DOES NOT SUPPORT the native scanning functionality, as "
 "described in this page. Instead you can use the provided GTS scanning and "
-"cleaning software, please follow `this link to download GTS <https://opentoonz."
+"cleaning software, please follow `this link to download GTS <https://tahoma."
 "github.io/e/download/gts.html>`_ ."
 msgstr ""
-"Actualmente OpenToonz NO SOPORTA las funciones nativas de escaneo, tal como se "
+"Actualmente Tahoma NO SOPORTA las funciones nativas de escaneo, tal como se "
 "describen en esta página. Se sugiere el uso del programa GTS con capacidades "
 "de escaneo y limpieza de imágenes, por favor seguir `este enlace para "
-"descargar GTS <https://opentoonz.github.io/es/download/gts.html>`_ ."
+"descargar GTS <https://tahoma.github.io/es/download/gts.html>`_ ."
 
 #: ../../source/scanning_paper_drawings.rst:8
 msgid ""
 "This manual page is preserved in its original form, in case the scanning code "
-"of OpenToonz is reactivated in a future version."
+"of Tahoma is reactivated in a future version."
 msgstr ""
 "Esta página del manual ha sido preservada en su forma original, en caso de "
-"que, en una futura versión, el código de escaneo de OpenToonz sea reactivado."
+"que, en una futura versión, el código de escaneo de Tahoma sea reactivado."
 
 #: ../../source/scanning_paper_drawings.rst:11
 msgid ""
-"In order to be managed by OpenToonz, paper drawings have to be scanned into "
-"OpenToonz. Paper drawings can be both animation levels, consisting of a large "
+"In order to be managed by Tahoma, paper drawings have to be scanned into "
+"Tahoma. Paper drawings can be both animation levels, consisting of a large "
 "number of sequenced drawings, and other elements such as backgrounds and "
 "overlays."
 msgstr ""
-"Para poder ser usados en OpenToonz, los dibujos en papel deberán ser "
+"Para poder ser usados en Tahoma, los dibujos en papel deberán ser "
 "escaneados. Los dibujos en papel podrán contener tanto niveles de animación, "
 "compuestos de una gran cantidad de secuencias de dibujos, como también otros "
 "elementos tales como fondos y sobreimpresos."
@@ -78,11 +78,11 @@ msgstr "Escaners soportados"
 
 #: ../../source/scanning_paper_drawings.rst:22
 msgid ""
-"OpenToonz supports directly, by using internal drivers, some specific scanners "
+"Tahoma supports directly, by using internal drivers, some specific scanners "
 "via a USB connection; all the other scanners are supported via any type of "
 "connection by using TWAIN drivers."
 msgstr ""
-"OpenToonz soporta directamente (mediante el uso de controladores internos), "
+"Tahoma soporta directamente (mediante el uso de controladores internos), "
 "algunos escaners específicos vía conexión USB; todos los demás escaners son "
 "soportados mediante el uso de controladores TWAIN."
 
@@ -93,20 +93,20 @@ msgstr "|define_scanner_es|"
 #: ../../source/scanning_paper_drawings.rst:26
 msgid ""
 "For an updated list of directly supported scanners, please visit the "
-"`OpenToonz Web site <https://opentoonz.github.io/e/>`_ ."
+"`Tahoma Web site <https://tahoma.github.io/e/>`_ ."
 msgstr ""
 "Para obtener una lista de los escaners soportados directamente, por favor "
-"visitar el `sitio web de OpenToonz <https://opentoonz.github.io/es/>`_ ."
+"visitar el `sitio web de Tahoma <https://tahoma.github.io/es/>`_ ."
 
 #: ../../source/scanning_paper_drawings.rst:28
 msgid ""
 "If your scanner is supported via internal drivers, the scanning process is "
-"managed completely by OpenToonz and the Scan Settings dialog; if it is not, "
+"managed completely by Tahoma and the Scan Settings dialog; if it is not, "
 "the scanning process is managed by the TWAIN interface."
 msgstr ""
 "Si el escaner que se desea usar es uno de los soportados mediante "
 "controladores internos, el proceso de escaneo será administrado completamente "
-"por OpenToonz, a través del diálogo Opciones de escaneo; si no lo fuera, el "
+"por Tahoma, a través del diálogo Opciones de escaneo; si no lo fuera, el "
 "proceso de escaneo será administrado por la interfaz de TWAIN."
 
 #: ../../source/scanning_paper_drawings.rst:30
@@ -148,11 +148,11 @@ msgstr ""
 #: ../../source/scanning_paper_drawings.rst:36
 msgid ""
 "When using TWAIN drivers you need to specify the driver every time you restart "
-"OpenToonz: the dialog box is automatically displayed when you select any Scan "
+"Tahoma: the dialog box is automatically displayed when you select any Scan "
 "related command."
 msgstr ""
 "Al usar controladores TWAIN, se deberá especificar el controlador cada vez que "
-"se reinicie OpenToonz: el diálogo se mostrará automáticamente al seleccionar "
+"se reinicie Tahoma: el diálogo se mostrará automáticamente al seleccionar "
 "cualquier comando relacionado con las funciones de escaneo."
 
 #: ../../source/scanning_paper_drawings.rst:38
@@ -195,7 +195,7 @@ msgstr "En el diálogo Propiedades realizar una de las siguientes acciones:"
 msgid "Set the **Startup Type** option to **Disabled** to use internal drivers."
 msgstr ""
 "Definir el **Tipo de inicio:** en **Deshabilitado**, para usar los "
-"controladores internos de OpenToonz."
+"controladores internos de Tahoma."
 
 #: ../../source/scanning_paper_drawings.rst:52
 msgid "Set the **Startup Type** option to **Automatic** to use TWAIN drivers."
@@ -748,13 +748,13 @@ msgstr ""
 msgid ""
 "Images are saved as compressed TIF files with a progressive four-digits number "
 "written between the file name and the file extension, e.g. ``animation.0001."
-"tif`` , ``animation.0002.tif`` , etc. They are displayed in the OpenToonz "
+"tif`` , ``animation.0002.tif`` , etc. They are displayed in the Tahoma "
 "browser with a double dot before the file extension, e.g. ``animation..tif`` ."
 msgstr ""
 "Las imágenes serán guardadas como archivos comprimidos en forma TIF, usando "
 "una numeración progresiva de cuatro dígitos, escrita entre el nombre base y la "
 "extensión del archivo, p.ej: ``animación.0001.tif`` , ``animación.0002.tif`` , "
-"etc. Se mostrarán en el Explorador de archivos de OpenToonz con un doble punto "
+"etc. Se mostrarán en el Explorador de archivos de Tahoma con un doble punto "
 "antes de la extensión del archivo, p.ej: ``animación..tif`` ."
 
 #: ../../source/scanning_paper_drawings.rst:196
@@ -834,14 +834,14 @@ msgstr ""
 msgid ""
 "After a drawing is scanned, or several drawings are scanned at once by using "
 "the paper feeder, in some TWAIN interfaces you may need to use a specific "
-"command (such as **Back to Application**) to return to OpenToonz before "
+"command (such as **Back to Application**) to return to Tahoma before "
 "proceeding with the next scanning session. Refer to the scanner documentation "
 "for more details."
 msgstr ""
 "Luego de que un dibujo ha sido escaneado, o varios si es estuviera usando un "
 "alimentador de papel, en algunas interfaces TWAIN es posible que fuera "
 "necesario usar un comando específico (como **Regresar a la aplicación**) para "
-"regresar a OpenToonz, antes de poder proceder con la siguiente sesión de "
+"regresar a Tahoma, antes de poder proceder con la siguiente sesión de "
 "escaneo. Consultar la documentación del escaner por más detalles."
 
 #: ../../source/scanning_paper_drawings.rst:222

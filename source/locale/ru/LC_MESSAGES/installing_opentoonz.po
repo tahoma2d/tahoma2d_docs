@@ -1,11 +1,11 @@
 # Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
-# This file is distributed under the same license as the OpenToonz package.
+# This file is distributed under the same license as the Tahoma package.
 #
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 # user <surkow.aleksandr@gmail.com>, 2019, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: OpenToonz 1.2\n"
+"Project-Id-Version: Tahoma 1.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-10 01:51+0800\n"
 "PO-Revision-Date: 2020-02-05 23:33+0800\n"
@@ -19,119 +19,119 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
 
-#: ../../source/installing_opentoonz.rst:4
-msgid "Installing OpenToonz"
-msgstr "Установка OpenToonz"
+#: ../../source/installing_tahoma.rst:4
+msgid "Installing Tahoma"
+msgstr "Установка Tahoma"
 
-#: ../../source/installing_opentoonz.rst:10
-msgid "Downloading OpenToonz"
-msgstr "Скачивание OpenToonz"
+#: ../../source/installing_tahoma.rst:10
+msgid "Downloading Tahoma"
+msgstr "Скачивание Tahoma"
 
-#: ../../source/installing_opentoonz.rst:11
+#: ../../source/installing_tahoma.rst:11
 #, fuzzy
 msgid ""
-"You can download the appropriate version of OpenToonz for your operating "
+"You can download the appropriate version of Tahoma for your operating "
 "system from the `Download page "
-"<https://opentoonz.github.io/e/download/opentoonz.html>`_ in the official"
-" OpenToonz web site. Choose either the Windows or macOS version to start "
+"<https://tahoma.github.io/e/download/tahoma.html>`_ in the official"
+" Tahoma web site. Choose either the Windows or macOS version to start "
 "downloading the installer application."
 msgstr ""
-"Вы можете загрузить соответствующую версию OpenToonz для вашей "
+"Вы можете загрузить соответствующую версию Tahoma для вашей "
 "операционной системы со `страницы загрузки "
-"<https://opentoonz.github.io/e/download/opentoonz.html>`_ на официальном "
-"веб-сайте OpenToonz. Выберите версию для Windows или OS X, чтобы начать "
+"<https://tahoma.github.io/e/download/tahoma.html>`_ на официальном "
+"веб-сайте Tahoma. Выберите версию для Windows или OS X, чтобы начать "
 "загрузку программы установки."
 
-#: ../../source/installing_opentoonz.rst:13
+#: ../../source/installing_tahoma.rst:13
 msgid ""
 "All other builds appart from the ones downloaded from the official web "
 "site ARE NOT officially supported."
 msgstr ""
 
-#: ../../source/installing_opentoonz.rst:15
+#: ../../source/installing_tahoma.rst:15
 msgid ""
 "It's possible to find the developer's \"nightly\" builds `here "
-"<https://github.com/opentoonz/opentoonz/releases/tag/nightly>`_, where "
+"<https://github.com/tahoma/tahoma/releases/tag/nightly>`_, where "
 "you can test the latest features and bug fixes, as they are being "
-"included in OpenToonz."
+"included in Tahoma."
 msgstr ""
 
-#: ../../source/installing_opentoonz.rst:17
+#: ../../source/installing_tahoma.rst:17
 msgid ""
 "WARNING: Use at you own risk! The Nightly Build version could potentially"
 " be a highly unstable one, so it is not adviced to use it in production "
 "environments."
 msgstr ""
 
-#: ../../source/installing_opentoonz.rst:19
+#: ../../source/installing_tahoma.rst:19
 msgid ""
 "Also, `MorevnaProject <https://github.com/morevnaproject>`_ provides "
 "builds for `Windows 32-bit, Windows 64-bit, macOS, and appimage "
-"<https://github.com/morevnaproject/opentoonz/releases>`_ as well as `snap"
-" <https://snapcraft.io/opentoonz-morevna>`_ for Linux."
+"<https://github.com/morevnaproject/tahoma/releases>`_ as well as `snap"
+" <https://snapcraft.io/tahoma-morevna>`_ for Linux."
 msgstr ""
 
-#: ../../source/installing_opentoonz.rst:21
+#: ../../source/installing_tahoma.rst:21
 msgid ""
-"Finally, there are OTX (OpenToonz eXperimental) timely releases by "
+"Finally, there are OTX (Tahoma eXperimental) timely releases by "
 "`manongjohn <https://github.com/manongjohn>`_ avalaible for `Windows "
 "64-bit, macOS and in appimage format "
 "<https://github.com/manongjohn/OTX/releases>`_ where it is possible to "
 "test the latest features and bug fixes in a portable way (i.e. without "
-"the need to do a full OpenToonz install)."
+"the need to do a full Tahoma install)."
 msgstr ""
 
-#: ../../source/installing_opentoonz.rst:27
+#: ../../source/installing_tahoma.rst:27
 msgid "Installing on Windows"
 msgstr "Установка на Windows"
 
-#: ../../source/installing_opentoonz.rst:28
-msgid "Execute the OpenToonzSetup.exe file and follow these steps:"
-msgstr "Запустите файл OpenToonzSetup.exe и выполните следующие действия:"
+#: ../../source/installing_tahoma.rst:28
+msgid "Execute the TahomaSetup.exe file and follow these steps:"
+msgstr "Запустите файл TahomaSetup.exe и выполните следующие действия:"
 
-#: ../../source/installing_opentoonz.rst:31
+#: ../../source/installing_tahoma.rst:31
 msgid "Choose the language for the installer messages."
 msgstr "Выберите язык для сообщений установщика."
 
-#: ../../source/installing_opentoonz.rst:33
+#: ../../source/installing_tahoma.rst:33
 msgid "|win_setup_1|"
 msgstr "|win_setup_1|"
 
-#: ../../source/installing_opentoonz.rst:36
-msgid "Accept OpenToonz Terms of Use."
-msgstr "Примите условия использования OpenToonz."
+#: ../../source/installing_tahoma.rst:36
+msgid "Accept Tahoma Terms of Use."
+msgstr "Примите условия использования Tahoma."
 
-#: ../../source/installing_opentoonz.rst:38
+#: ../../source/installing_tahoma.rst:38
 msgid "|win_setup_2|"
 msgstr "|win_setup_2|"
 
-#: ../../source/installing_opentoonz.rst:41
+#: ../../source/installing_tahoma.rst:41
 msgid ""
-"Decide where to install the **OpenToonz stuff** folder and if you wish to"
-" overwrite any settings in a preexisting OpenToonz stuff folder in the "
+"Decide where to install the **Tahoma stuff** folder and if you wish to"
+" overwrite any settings in a preexisting Tahoma stuff folder in the "
 "chosen location (except for user's personal settings, which will always "
 "be preserved)."
 msgstr ""
-"Решите, где установить папку **OpenToonz stuff** и хотите ли вы "
-"перезаписать какие-либо настройки в существующей папке OpenToonz в "
+"Решите, где установить папку **Tahoma stuff** и хотите ли вы "
+"перезаписать какие-либо настройки в существующей папке Tahoma в "
 "выбранном месте (кроме личных настроек пользовате"
 
-#: ../../source/installing_opentoonz.rst:43
+#: ../../source/installing_tahoma.rst:43
 msgid "|win_setup_3|"
 msgstr "|win_setup_3|"
 
-#: ../../source/installing_opentoonz.rst:46
+#: ../../source/installing_tahoma.rst:46
 msgid ""
 "Decide whether or not to create a desktop icon during the installation "
 "process."
 msgstr "Решите, следует ли создавать значок на рабочем столе в процессе установки."
 
-#: ../../source/installing_opentoonz.rst:48
+#: ../../source/installing_tahoma.rst:48
 msgid "|win_setup_4|"
 msgstr "|win_setup_4|"
 
-#: ../../source/installing_opentoonz.rst:51
-#: ../../source/installing_opentoonz.rst:95
+#: ../../source/installing_tahoma.rst:51
+#: ../../source/installing_tahoma.rst:95
 msgid ""
 "Press the Install button to start the installation process with the "
 "chosen settings."
@@ -139,68 +139,68 @@ msgstr ""
 "Нажмите кнопку Установить, чтобы начать процесс установки с выбранными "
 "настройками."
 
-#: ../../source/installing_opentoonz.rst:53
+#: ../../source/installing_tahoma.rst:53
 msgid "|win_setup_5|"
 msgstr "|win_setup_5|"
 
-#: ../../source/installing_opentoonz.rst:56
+#: ../../source/installing_tahoma.rst:56
 msgid ""
-"Decide whether or not to Launch OpenToonz right away after closing the "
+"Decide whether or not to Launch Tahoma right away after closing the "
 "installer."
-msgstr "Решите, стоит ли запускать OpenToonz сразу после закрытия установщика."
+msgstr "Решите, стоит ли запускать Tahoma сразу после закрытия установщика."
 
-#: ../../source/installing_opentoonz.rst:58
+#: ../../source/installing_tahoma.rst:58
 msgid "|win_setup_6|"
 msgstr "|win_setup_6|"
 
-#: ../../source/installing_opentoonz.rst:61
+#: ../../source/installing_tahoma.rst:61
 msgid "Chocolatey"
 msgstr ""
 
-#: ../../source/installing_opentoonz.rst:63
+#: ../../source/installing_tahoma.rst:63
 #, fuzzy
-msgid "``choco install opentoonz``"
-msgstr "``sudo eopkg install opentoonz``"
+msgid "``choco install tahoma``"
+msgstr "``sudo eopkg install tahoma``"
 
-#: ../../source/installing_opentoonz.rst:68
+#: ../../source/installing_tahoma.rst:68
 msgid "Installing on OS X"
 msgstr "Установка на OS X"
 
-#: ../../source/installing_opentoonz.rst:69
+#: ../../source/installing_tahoma.rst:69
 msgid "Follow these steps:"
 msgstr "Следуй этим шагам:"
 
-#: ../../source/installing_opentoonz.rst:72
-msgid "Right-click on the OpenToonz.pkg file in Finder & select Open."
+#: ../../source/installing_tahoma.rst:72
+msgid "Right-click on the Tahoma.pkg file in Finder & select Open."
 msgstr ""
-"Щелкните правой кнопкой мыши файл OpenToonz.pkg в Finder и выберите "
+"Щелкните правой кнопкой мыши файл Tahoma.pkg в Finder и выберите "
 "«Открыть»."
 
-#: ../../source/installing_opentoonz.rst:75
+#: ../../source/installing_tahoma.rst:75
 msgid "Press the Continue button."
 msgstr "Нажмите кнопку Продолжить."
 
-#: ../../source/installing_opentoonz.rst:77
+#: ../../source/installing_tahoma.rst:77
 msgid "|osx_setup_2|"
 msgstr "|osx_setup_2|"
 
-#: ../../source/installing_opentoonz.rst:80
+#: ../../source/installing_tahoma.rst:80
 msgid "Choose a language and press the Continue button."
 msgstr "Выберите язык и нажмите кнопку «Продолжить»."
 
-#: ../../source/installing_opentoonz.rst:82
+#: ../../source/installing_tahoma.rst:82
 msgid "|osx_setup_3|"
 msgstr "|osx_setup_3|"
 
-#: ../../source/installing_opentoonz.rst:85
-msgid "Press the Agree button to accept the OpenToonz Terms of Use."
-msgstr "Нажмите кнопку «Согласен», чтобы принять Условия использования OpenToonz."
+#: ../../source/installing_tahoma.rst:85
+msgid "Press the Agree button to accept the Tahoma Terms of Use."
+msgstr "Нажмите кнопку «Согласен», чтобы принять Условия использования Tahoma."
 
-#: ../../source/installing_opentoonz.rst:87
+#: ../../source/installing_tahoma.rst:87
 msgid "|osx_setup_4|"
 msgstr "|osx_setup_4|"
 
-#: ../../source/installing_opentoonz.rst:90
+#: ../../source/installing_tahoma.rst:90
 msgid ""
 "Select the install destination (will be Macintosh HD unless multiple "
 "disks are available) and press the Continue button."
@@ -208,88 +208,88 @@ msgstr ""
 "Выберите место установки (будет Macintosh HD, если не доступно несколько "
 "дисков) и нажмите кнопку «Продолжить»."
 
-#: ../../source/installing_opentoonz.rst:92
+#: ../../source/installing_tahoma.rst:92
 msgid "|osx_setup_5|"
 msgstr "|osx_setup_5|"
 
-#: ../../source/installing_opentoonz.rst:97
+#: ../../source/installing_tahoma.rst:97
 msgid "|osx_setup_6|"
 msgstr "|osx_setup_6|"
 
-#: ../../source/installing_opentoonz.rst:100
+#: ../../source/installing_tahoma.rst:100
 msgid "Press the Close button to exit the installer."
 msgstr "Нажмите кнопку Закрыть, чтобы выйти из программы установки."
 
-#: ../../source/installing_opentoonz.rst:102
+#: ../../source/installing_tahoma.rst:102
 msgid "|osx_setup_7|"
 msgstr "|osx_setup_7|"
 
-#: ../../source/installing_opentoonz.rst:105
+#: ../../source/installing_tahoma.rst:105
 msgid "Homebrew"
 msgstr "Homebrew"
 
-#: ../../source/installing_opentoonz.rst:107
-msgid "``brew cask install opentoonz``"
-msgstr "``brew cask install opentoonz``"
+#: ../../source/installing_tahoma.rst:107
+msgid "``brew cask install tahoma``"
+msgstr "``brew cask install tahoma``"
 
-#: ../../source/installing_opentoonz.rst:112
+#: ../../source/installing_tahoma.rst:112
 msgid "Installing on Linux"
 msgstr "Установка на Linux"
 
-#: ../../source/installing_opentoonz.rst:117
+#: ../../source/installing_tahoma.rst:117
 msgid "Arch Linux"
 msgstr "Arch Linux"
 
-#: ../../source/installing_opentoonz.rst:119
+#: ../../source/installing_tahoma.rst:119
 msgid "``sudo pacman -S base-devel git``"
 msgstr "``sudo pacman -S base-devel git``"
 
-#: ../../source/installing_opentoonz.rst:121
+#: ../../source/installing_tahoma.rst:121
 msgid "``git clone https://aur.archlinux.org/superlu.git``"
 msgstr "``git clone https://aur.archlinux.org/superlu.git``"
 
-#: ../../source/installing_opentoonz.rst:123
+#: ../../source/installing_tahoma.rst:123
 msgid "``cd superlu``"
 msgstr "``cd superlu``"
 
-#: ../../source/installing_opentoonz.rst:125
-#: ../../source/installing_opentoonz.rst:133
+#: ../../source/installing_tahoma.rst:125
+#: ../../source/installing_tahoma.rst:133
 msgid "``makepkg -si``"
 msgstr "``makepkg -si``"
 
-#: ../../source/installing_opentoonz.rst:127
+#: ../../source/installing_tahoma.rst:127
 msgid "``cd ..``"
 msgstr "``cd ..``"
 
-#: ../../source/installing_opentoonz.rst:129
-msgid "``git clone https://aur.archlinux.org/opentoonz.git``"
-msgstr "``git clone https://aur.archlinux.org/opentoonz.git``"
+#: ../../source/installing_tahoma.rst:129
+msgid "``git clone https://aur.archlinux.org/tahoma.git``"
+msgstr "``git clone https://aur.archlinux.org/tahoma.git``"
 
-#: ../../source/installing_opentoonz.rst:131
-msgid "``cd opentoonz``"
-msgstr "``cd opentoonz``"
+#: ../../source/installing_tahoma.rst:131
+msgid "``cd tahoma``"
+msgstr "``cd tahoma``"
 
-#: ../../source/installing_opentoonz.rst:135
-msgid "``export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/opentoonz/``"
-msgstr "``export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/opentoonz/``"
+#: ../../source/installing_tahoma.rst:135
+msgid "``export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/tahoma/``"
+msgstr "``export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/tahoma/``"
 
-#: ../../source/installing_opentoonz.rst:137
+#: ../../source/installing_tahoma.rst:137
 msgid ""
-"``echo \"export LD_LIBRARY_PATH=\\$LD_LIBRARY_PATH:/usr/lib/opentoonz\" "
+"``echo \"export LD_LIBRARY_PATH=\\$LD_LIBRARY_PATH:/usr/lib/tahoma\" "
 ">> ~/.bashrc``"
 msgstr ""
-"``echo \"export LD_LIBRARY_PATH=\\$LD_LIBRARY_PATH:/usr/lib/opentoonz\" "
+"``echo \"export LD_LIBRARY_PATH=\\$LD_LIBRARY_PATH:/usr/lib/tahoma\" "
 ">> ~/.bashrc``"
 
-#: ../../source/installing_opentoonz.rst:142
+#: ../../source/installing_tahoma.rst:142
 msgid "Debian GNU/Linux"
 msgstr "Debian GNU/Linux"
 
-#: ../../source/installing_opentoonz.rst:144
+#: ../../source/installing_tahoma.rst:144
 msgid "Download PGP signing key package."
 msgstr "Загрузите пакет ключа подписи PGP."
 
-#: ../../source/installing_opentoonz.rst:146
+#: ../../source/installing_tahoma.rst:146
 msgid ""
 "``wget http://www.deb-multimedia.org/pool/main/d/deb-multimedia-keyring"
 "/deb-multimedia-keyring_2016.8.1_all.deb``"
@@ -297,140 +297,140 @@ msgstr ""
 "``wget http://www.deb-multimedia.org/pool/main/d/deb-multimedia-keyring"
 "/deb-multimedia-keyring_2016.8.1_all.deb``"
 
-#: ../../source/installing_opentoonz.rst:148
+#: ../../source/installing_tahoma.rst:148
 msgid "Install PGP package."
 msgstr "Установите пакет PGP."
 
-#: ../../source/installing_opentoonz.rst:150
+#: ../../source/installing_tahoma.rst:150
 msgid "``sudo dpkg -i deb-multimedia-keyring_2016.8.1_all.deb``"
 msgstr "``sudo dpkg -i deb-multimedia-keyring_2016.8.1_all.deb``"
 
-#: ../../source/installing_opentoonz.rst:152
+#: ../../source/installing_tahoma.rst:152
 msgid "Add repository address to your sources list."
 msgstr "Добавьте адрес хранилища в список источников."
 
-#: ../../source/installing_opentoonz.rst:154
+#: ../../source/installing_tahoma.rst:154
 msgid ""
 "``sudo echo \"deb http://www.deb-multimedia.org stable main\" | tee -a "
 "/etc/apt/sources.list`` Builds for testing and sid also avalaible."
 msgstr ""
 
-#: ../../source/installing_opentoonz.rst:156
+#: ../../source/installing_tahoma.rst:156
 msgid "Debian packages avalaible only for amd64, arm64 and i386 architectures."
 msgstr "Пакеты Debian доступны только для архитектур amd64, arm64 и i386."
 
-#: ../../source/installing_opentoonz.rst:158
-msgid "Install OpenToonz."
-msgstr "Установите OpenToonz."
+#: ../../source/installing_tahoma.rst:158
+msgid "Install Tahoma."
+msgstr "Установите Tahoma."
 
-#: ../../source/installing_opentoonz.rst:160
-msgid "``sudo apt update && apt install opentoonz opentoonz-data``"
-msgstr "``sudo apt update && apt install opentoonz opentoonz-data``"
+#: ../../source/installing_tahoma.rst:160
+msgid "``sudo apt update && apt install tahoma tahoma-data``"
+msgstr "``sudo apt update && apt install tahoma tahoma-data``"
 
-#: ../../source/installing_opentoonz.rst:162
+#: ../../source/installing_tahoma.rst:162
 msgid "For updating enter ``sudo apt update && apt upgrade``."
 msgstr "Для обновления введите `` sudo apt update && apt upgrade``."
 
-#: ../../source/installing_opentoonz.rst:165
+#: ../../source/installing_tahoma.rst:165
 msgid "Gentoo, Funtoo"
 msgstr "Gentoo, Funtoo"
 
-#: ../../source/installing_opentoonz.rst:167
-msgid "``sudo emerge media-gfx/opentoonz``"
-msgstr "``sudo emerge media-gfx/opentoonz``"
+#: ../../source/installing_tahoma.rst:167
+msgid "``sudo emerge media-gfx/tahoma``"
+msgstr "``sudo emerge media-gfx/tahoma``"
 
-#: ../../source/installing_opentoonz.rst:170
+#: ../../source/installing_tahoma.rst:170
 msgid "openSUSE"
 msgstr "openSUSE"
 
-#: ../../source/installing_opentoonz.rst:172
-msgid "``sudo zypper install opentoonz``"
-msgstr "``sudo zypper install opentoonz``"
+#: ../../source/installing_tahoma.rst:172
+msgid "``sudo zypper install tahoma``"
+msgstr "``sudo zypper install tahoma``"
 
-#: ../../source/installing_opentoonz.rst:175
+#: ../../source/installing_tahoma.rst:175
 msgid "Solus"
 msgstr "Solus"
 
-#: ../../source/installing_opentoonz.rst:177
-msgid "``sudo eopkg install opentoonz``"
-msgstr "``sudo eopkg install opentoonz``"
+#: ../../source/installing_tahoma.rst:177
+msgid "``sudo eopkg install tahoma``"
+msgstr "``sudo eopkg install tahoma``"
 
-#: ../../source/installing_opentoonz.rst:180
+#: ../../source/installing_tahoma.rst:180
 msgid "Void Linux"
 msgstr "Void Linux"
 
-#: ../../source/installing_opentoonz.rst:182
-msgid "``sudo xbps-install -S opentoonz``"
-msgstr "``sudo xbps-install -S opentoonz``"
+#: ../../source/installing_tahoma.rst:182
+msgid "``sudo xbps-install -S tahoma``"
+msgstr "``sudo xbps-install -S tahoma``"
 
-#: ../../source/installing_opentoonz.rst:187
+#: ../../source/installing_tahoma.rst:187
 msgid "Universal binaries"
 msgstr "Универсальные бинарные файлы"
 
-#: ../../source/installing_opentoonz.rst:190
+#: ../../source/installing_tahoma.rst:190
 msgid "Flatpak"
 msgstr "Flatpak"
 
-#: ../../source/installing_opentoonz.rst:192
+#: ../../source/installing_tahoma.rst:192
 msgid "Installing."
 msgstr "Установка."
 
-#: ../../source/installing_opentoonz.rst:194
-msgid "``flatpak install flathub io.github.OpenToonz``"
-msgstr "``flatpak install flathub io.github.OpenToonz``"
+#: ../../source/installing_tahoma.rst:194
+msgid "``flatpak install flathub io.github.Tahoma``"
+msgstr "``flatpak install flathub io.github.Tahoma``"
 
-#: ../../source/installing_opentoonz.rst:196
+#: ../../source/installing_tahoma.rst:196
 msgid "Run."
 msgstr "Беги."
 
-#: ../../source/installing_opentoonz.rst:198
-msgid "``flatpak run io.github.OpenToonz``"
-msgstr "``flatpak run io.github.OpenToonz``"
+#: ../../source/installing_tahoma.rst:198
+msgid "``flatpak run io.github.Tahoma``"
+msgstr "``flatpak run io.github.Tahoma``"
 
-#: ../../source/installing_opentoonz.rst:203
+#: ../../source/installing_tahoma.rst:203
 msgid "Snap"
 msgstr "Snap"
 
-#: ../../source/installing_opentoonz.rst:205
-msgid "``sudo snap install opentoonz``"
-msgstr "``sudo snap install opentoonz``"
+#: ../../source/installing_tahoma.rst:205
+msgid "``sudo snap install tahoma``"
+msgstr "``sudo snap install tahoma``"
 
 #~ msgid ""
 #~ "1. Download AppImage. ``wget "
-#~ "https://github.com/morevnaproject/opentoonz/releases/download/v1.3.0-morevna/OpenToonz-1.3.0-morevna-19.02.02-linux64-ac306.appimage``"
+#~ "https://github.com/morevnaproject/tahoma/releases/download/v1.3.0-morevna/Tahoma-1.3.0-morevna-19.02.02-linux64-ac306.appimage``"
 #~ " for 64-bit OS or ``wget "
-#~ "https://github.com/morevnaproject/opentoonz/releases/download/v1.3.0-morevna/OpenToonz-1.3.0-morevna-19.02.02-linux32-ac306.appimage``"
+#~ "https://github.com/morevnaproject/tahoma/releases/download/v1.3.0-morevna/Tahoma-1.3.0-morevna-19.02.02-linux32-ac306.appimage``"
 #~ " for 32-bit OS."
 #~ msgstr ""
 
 #~ msgid ""
-#~ "Unofficial releases OpenToonz by Morevna "
+#~ "Unofficial releases Tahoma by Morevna "
 #~ "Project for 32-bit Windows can be "
 #~ "found `here "
-#~ "<https://github.com/morevnaproject/opentoonz/releases>`_."
+#~ "<https://github.com/morevnaproject/tahoma/releases>`_."
 #~ msgstr ""
-#~ "Неофициальные выпуски OpenToonz от Morevna "
+#~ "Неофициальные выпуски Tahoma от Morevna "
 #~ "Project для 32-битных Windows можно "
 #~ "найти `здесь "
-#~ "<https://github.com/morevnaproject/opentoonz/releases>`_."
+#~ "<https://github.com/morevnaproject/tahoma/releases>`_."
 
 #~ msgid ""
 #~ "Currently there is no official support"
-#~ " for OpenToonz on Linux, nevertheless "
+#~ " for Tahoma on Linux, nevertheless "
 #~ "with the kind help of the friends"
 #~ " of the Morevna Project there are "
-#~ "versions available of OpenToonz for "
+#~ "versions available of Tahoma for "
 #~ "Linux, which can be downloaded directly"
 #~ " from the `Morevna Project website "
-#~ "<https://morevnaproject.org/opentoonz/>`_."
+#~ "<https://morevnaproject.org/tahoma/>`_."
 #~ msgstr ""
 #~ "В настоящее время официальной поддержки "
-#~ "OpenToonz для Linux нет, но с "
+#~ "Tahoma для Linux нет, но с "
 #~ "любезной помощью друзей проекта Morevna "
-#~ "доступны версии OpenToonz для Linux, "
+#~ "доступны версии Tahoma для Linux, "
 #~ "которые можно загрузить непосредственно с "
 #~ "`веб-сайта проекта Morevna <https: // "
-#~ "morevnaproject. орг / opentoonz />`_."
+#~ "morevnaproject. орг / tahoma />`_."
 
 #~ msgid "AppImage by Morevna Project"
 #~ msgstr "AppImage от Моревны Проект"
@@ -440,24 +440,24 @@ msgstr "``sudo snap install opentoonz``"
 
 #~ msgid ""
 #~ "``wget "
-#~ "https://github.com/morevnaproject/opentoonz/releases/download/v1.3.0-morevna/OpenToonz-1.3.0-morevna-19.02.02-linux64-ac306.appimage``"
+#~ "https://github.com/morevnaproject/tahoma/releases/download/v1.3.0-morevna/Tahoma-1.3.0-morevna-19.02.02-linux64-ac306.appimage``"
 #~ " for 64-bit OS or ``wget "
-#~ "https://github.com/morevnaproject/opentoonz/releases/download/v1.3.0-morevna/OpenToonz-1.3.0-morevna-19.02.02-linux32-ac306.appimage``"
+#~ "https://github.com/morevnaproject/tahoma/releases/download/v1.3.0-morevna/Tahoma-1.3.0-morevna-19.02.02-linux32-ac306.appimage``"
 #~ " for 32-bit OS."
 #~ msgstr ""
 #~ "``wget "
-#~ "https://github.com/morevnaproject/opentoonz/releases/download/v1.3.0-morevna/OpenToonz-1.3.0-morevna-19.02.02-linux64-ac306.appimage``"
+#~ "https://github.com/morevnaproject/tahoma/releases/download/v1.3.0-morevna/Tahoma-1.3.0-morevna-19.02.02-linux64-ac306.appimage``"
 #~ " для 64-битных ОС или ``wget "
-#~ "https://github.com/morevnaproject/opentoonz/releases/download/v1.3.0-morevna/OpenToonz-1.3.0-morevna-19.02.02-linux32-ac306.appimage``"
+#~ "https://github.com/morevnaproject/tahoma/releases/download/v1.3.0-morevna/Tahoma-1.3.0-morevna-19.02.02-linux32-ac306.appimage``"
 #~ " для 32-битных."
 
 #~ msgid "Make AppImage executable."
 #~ msgstr "Сделайте AppImage исполняемым. "
 
-#~ msgid "``chmod a+x OpenToonz*.appimage``"
+#~ msgid "``chmod a+x Tahoma*.appimage``"
 #~ msgstr ""
 
-#~ msgid "``./OpenToonz*.appimage``"
+#~ msgid "``./Tahoma*.appimage``"
 #~ msgstr ""
 
 #~ msgid "Builds by Morevna Project contain some experimental features."
@@ -466,9 +466,9 @@ msgstr "``sudo snap install opentoonz``"
 #~ msgid "Gentoo Linux"
 #~ msgstr ""
 
-#~ msgid "``# emerge media-gfx/opentoonz``"
+#~ msgid "``# emerge media-gfx/tahoma``"
 #~ msgstr ""
 
-#~ msgid "``# eopkg install opentoonz``"
+#~ msgid "``# eopkg install tahoma``"
 #~ msgstr ""
 

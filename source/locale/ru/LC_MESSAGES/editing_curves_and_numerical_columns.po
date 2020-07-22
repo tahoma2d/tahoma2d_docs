@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
-# This file is distributed under the same license as the OpenToonz package.
+# This file is distributed under the same license as the Tahoma package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OpenToonz 1.2\n"
+"Project-Id-Version: Tahoma 1.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-10 01:51+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -214,7 +214,7 @@ msgstr ""
 msgid ""
 "Make sure the option **Graph Editor Opens in Popup** is selected from the"
 " **Function Editor:** dropdown menu, in the Preferences  →  Interface "
-"window. (Restart OpenToonz)."
+"window. (Restart Tahoma)."
 msgstr ""
 
 #: ../../source/editing_curves_and_numerical_columns.rst:72
@@ -233,7 +233,7 @@ msgstr ""
 msgid ""
 "Make sure the option **Spreadsheet Opens in Popup** is selected from the "
 "**Function Editor:** dropdown menu, in the Preferences  →  Interface "
-"window. (Restart OpenToonz)."
+"window. (Restart Tahoma)."
 msgstr ""
 
 #: ../../source/editing_curves_and_numerical_columns.rst:80
@@ -244,7 +244,7 @@ msgstr ""
 msgid ""
 "Make sure the option **Toggle Between Graph Editor and Spreadsheet** is "
 "selected from the **Function Editor:** dropdown menu, in the Preferences"
-"  →  Interface window. (Restart OpenToonz)."
+"  →  Interface window. (Restart Tahoma)."
 msgstr ""
 
 #: ../../source/editing_curves_and_numerical_columns.rst:86
@@ -3337,7 +3337,7 @@ msgstr ""
 #~ "Opens in Popup** is selected from "
 #~ "the **Function Editor:** dropdown menu, "
 #~ "in the Preferences > Interface window."
-#~ " (Restart OpenToonz)."
+#~ " (Restart Tahoma)."
 #~ msgstr ""
 
 #~ msgid ""
@@ -3345,7 +3345,7 @@ msgstr ""
 #~ " in Popup** is selected from the "
 #~ "**Function Editor:** dropdown menu, in "
 #~ "the Preferences > Interface window. "
-#~ "(Restart OpenToonz)."
+#~ "(Restart Tahoma)."
 #~ msgstr ""
 
 #~ msgid ""
@@ -3353,7 +3353,7 @@ msgstr ""
 #~ " Graph Editor and Spreadsheet** is "
 #~ "selected from the **Function Editor:** "
 #~ "dropdown menu, in the Preferences > "
-#~ "Interface window. (Restart OpenToonz)."
+#~ "Interface window. (Restart Tahoma)."
 #~ msgstr ""
 
 #~ msgid "Select the keyframe to remove and choose Edit > **Delete**."

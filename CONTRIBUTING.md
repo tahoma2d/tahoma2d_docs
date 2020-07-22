@@ -1,6 +1,6 @@
 # How to contribute
 
-This document describes contribution process for OpenToonz User Manual.
+This document describes contribution process for Tahoma User Manual.
 
 ## Required Softwares on Windows
 
@@ -20,9 +20,9 @@ This document describes contribution process for OpenToonz User Manual.
 
 ## Preparation (to be done once for the first time)
 
-1. `fork` OpenToonz to your GitHub account from `opentoonz/opentoonz_docs`.
+1. `fork` Tahoma to your GitHub account from `tahoma/tahoma_docs`.
 
-   - click the `fork` button at the top-right corner of https://github.com/opentoonz/opentoonz_docs
+   - click the `fork` button at the top-right corner of https://github.com/tahoma/tahoma_docs
 
 1. `clone` the repository. (w/ Git Bash)
 
@@ -34,17 +34,17 @@ This document describes contribution process for OpenToonz User Manual.
      
    - Clone
    
-     `$ git clone https://github.com/your_github_account_name/opentoonz_docs.git`
+     `$ git clone https://github.com/your_github_account_name/tahoma_docs.git`
      
-     The folder `opentoonz_docs` will be created under the current folder.
+     The folder `tahoma_docs` will be created under the current folder.
      
-   - Move into opentoonz local repository
+   - Move into tahoma local repository
    
-     `$ cd opentoonz_docs`
+     `$ cd tahoma_docs`
      
    - Set the `upstream` , in order to synchronize your repository with the latest version.
    
-     `$ git remote add upstream https://github.com/opentoonz/opentoonz_docs.git`
+     `$ git remote add upstream https://github.com/tahoma/tahoma_docs.git`
 
 1. Prepare Python and Sphinx (w/ Command Prompt)
 
@@ -62,7 +62,7 @@ This document describes contribution process for OpenToonz User Manual.
      
 1. Try building the HTML (w/ Command Prompt)
 
-   - Move to `opentoonz_docs` folder using `cd` command
+   - Move to `tahoma_docs` folder using `cd` command
 
    - Make HTML
    
@@ -72,7 +72,7 @@ This document describes contribution process for OpenToonz User Manual.
 
 ## Workflow (to be done each time you modify the code)
 
-First , launch Git Bash and move to `opentoonz_docs` folder using `cd` command
+First , launch Git Bash and move to `tahoma_docs` folder using `cd` command
 
 1. Synchronize the local repository with the latest code from `upstream` (w/ Git Bash) 
 
@@ -150,7 +150,7 @@ First , launch Git Bash and move to `opentoonz_docs` folder using `cd` command
     
     - Make a pull request
       
-      Access https://github.com/opentoonz/opentoonz_docs and click Pull Request Button.
+      Access https://github.com/tahoma/tahoma_docs and click Pull Request Button.
 
 Also you can refer to the [git documentation](https://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project).
 
@@ -161,13 +161,13 @@ Please see [Sphinx/reStructuredText documentation](http://www.sphinx-doc.org/en/
 ### Local rules (for the moment)
 
 - In order to avoid getting mess, please put image files in the folder with the same name as .rst file. 
-  For example, if you add an image to `source/installing_opentoonz.rst`, 
-  then make a folder named `installing_opentoonz` under `source/_static` and store the image file in it
-  (i.e. `source/_static/installing_opentoonz/some_image.png` ).
+  For example, if you add an image to `source/installing_tahoma.rst`, 
+  then make a folder named `installing_tahoma` under `source/_static` and store the image file in it
+  (i.e. `source/_static/installing_tahoma/some_image.png` ).
 
 ## Internationalization (i18n) of the Manual
 
-- On Anaconda Prompt, move to `opentoonz_docs` folder using `cd` command
+- On Anaconda Prompt, move to `tahoma_docs` folder using `cd` command
 
 - Generate the message catalogue (.pot)
 
@@ -196,7 +196,7 @@ Please see [Sphinx/reStructuredText documentation](http://www.sphinx-doc.org/en/
 
   ```
   #: ../../source/index.rst:7
-  msgid "OpenToonz User Manual"
+  msgid "Tahoma User Manual"
   msgstr ""
   ```
 
@@ -204,8 +204,8 @@ Please see [Sphinx/reStructuredText documentation](http://www.sphinx-doc.org/en/
 
   ```
   #: ../../source/index.rst:7
-  msgid "OpenToonz User Manual"
-  msgstr "OpenToonz ユーザマニュアル"
+  msgid "Tahoma User Manual"
+  msgstr "Tahoma ユーザマニュアル"
   ```
 
   Note: Make sure to maintain the syntax of reStructuredText in your translated text.

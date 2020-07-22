@@ -1,26 +1,26 @@
-.. OpenToonz documentation master file, created by
+.. Tahoma documentation master file, created by
    sphinx-quickstart on Tue Aug 22 21:37:33 2017.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-OpenToonz User Manual
+Tahoma User Manual
 ===================================================
 
-| This is the manual for OpenToonz, an open-source full-featured 2D animation creation software.
-| `http://opentoonz.github.io <http://opentoonz.github.io>`_
+| This is the manual for Tahoma, an open-source full-featured 2D animation creation software.
+| `http://tahoma.github.io <http://tahoma.github.io>`_
 
-.. note:: This manual is an ongoing project, which aims to provide the first and most complete reference for OpenToonz features, and as such there will always be room for improvements and updates. Collaboration is welcome!
+.. note:: This manual is an ongoing project, which aims to provide the first and most complete reference for Tahoma features, and as such there will always be room for improvements and updates. Collaboration is welcome!
 
-| To contribute to OpenToonz's documentation, please visit the OpenToonz docs repository.
-| `https://github.com/opentoonz/opentoonz_docs <https://github.com/opentoonz/opentoonz_docs>`_
+| To contribute to Tahoma's documentation, please visit the Tahoma docs repository.
+| `https://github.com/tahoma/tahoma_docs <https://github.com/tahoma/tahoma_docs>`_
 
 
 .. toctree::
    :maxdepth: 2
    :caption: Getting Started:
 
-   installing_opentoonz
-   using_ffmpeg_with_opentoonz
+   installing_tahoma
+   using_ffmpeg_with_tahoma
    whats_new
    
 .. toctree::

@@ -8,7 +8,7 @@ The Timeline is the horizontal counterpart of the Xsheet, it serves the same pur
 
 In both of them, different items, generically called here as levels, can be loaded into the scene: animation levels, images for the background and overlays, and video clips.
 
-Other OpenToonz scenes can be loaded there as well: they will be nested inside a column/layer, and considered as a Sub-Xsheet of the current Xsheet/Timeline.
+Other Tahoma scenes can be loaded there as well: they will be nested inside a column/layer, and considered as a Sub-Xsheet of the current Xsheet/Timeline.
 
 All of the Xsheet/Timeline contents can be checked in the viewer, where the animation can be played back, and the scene contents edited.
 
@@ -56,9 +56,9 @@ All the elements you need for a scene can be retrieved by using a file browser.
 
 |file_browser|
 
-You can either use the standard OpenToonz file browser to drag and drop levels or folders to the Xsheet/Timeline or the Scene Cast window, or use the Load Level... and Load Folder... commands from the File menu. In both cases you can perform a multiple selection to load several levels or folders at the same time, that will be exposed each in a separate column; if you use the Load Level... command, when loading an animation level you can also specify the frame range to load. When you use the Load Folder... command all the files contained in the folder (if supported) are loaded into the Xsheet/Timeline.
+You can either use the standard Tahoma file browser to drag and drop levels or folders to the Xsheet/Timeline or the Scene Cast window, or use the Load Level... and Load Folder... commands from the File menu. In both cases you can perform a multiple selection to load several levels or folders at the same time, that will be exposed each in a separate column; if you use the Load Level... command, when loading an animation level you can also specify the frame range to load. When you use the Load Folder... command all the files contained in the folder (if supported) are loaded into the Xsheet/Timeline.
 
-.. note:: When a level is loaded, OpenToonz checks if its syntax matches one of the level formats specified into Preferences  →  Loading  →  **Level Settings by File Format**. In this case the Level Settings specified will be applied. It is possible to add as many formats as you want, defining them by using a Regular Expression. This way, different settings can be automatically applied to different kind of levels.
+.. note:: When a level is loaded, Tahoma checks if its syntax matches one of the level formats specified into Preferences  →  Loading  →  **Level Settings by File Format**. In this case the Level Settings specified will be applied. It is possible to add as many formats as you want, defining them by using a Regular Expression. This way, different settings can be automatically applied to different kind of levels.
 
 .. note:: It is possible to **Ignore Alpha Channel on Levels in Column 1** by activating the option in Preferences  →  Xsheet.
 
@@ -72,7 +72,7 @@ In the file tree available on the left there are the following main items:
 
 - **Library** displays files and folder located in the ``Projectroot\library``  folder (see  :ref:`Setting the Projectroot <setting_the_projectroot>`  ).
 
-- **History** contains recently saved scenes, organized in folders, one for each of the last seven days OpenToonz was used.
+- **History** contains recently saved scenes, organized in folders, one for each of the last seven days Tahoma was used.
 
 - **Projectroot** lists all the projects that have been created as folders containing the project information and material; the actual path of the projectroot is displayed in brackets (see  :ref:`Using the Project Browser <using_the_project_browser>`  ).
 
@@ -80,11 +80,11 @@ In the file tree available on the left there are the following main items:
 
 - **Version control** repository folder, labeled according to the version control configuration, contains the folders and files under the version control system (see  :ref:`Using the Version Control <using_the_version_control>`  ).
 
-  .. note:: In case several repositories are defined, each will be displayed with its appropriate label (see  :ref:`Configuring the Version Control in OpenToonz <configuring_the_version_control_in_toonz>`  ).
+  .. note:: In case several repositories are defined, each will be displayed with its appropriate label (see  :ref:`Configuring the Version Control in Tahoma <configuring_the_version_control_in_toonz>`  ).
 
 You can open folders and sub-folders in order to retrieve files that are displayed in the area on the right. The current location path is displayed at the top of the browser; existing folders can be renamed and new folders can be created. Files can be displayed as icons or as a list, displaying additional informations that can be also used to sort them.
 
-.. note:: The way file icons are generated in the OpenToonz browser depends on the images resolution and on the **Icon Size** option set for the Level Strip frames in the Preferences  →  Interface dialog (see  :ref:`Using the Level Strip <using_the_level_strip>`  ).
+.. note:: The way file icons are generated in the Tahoma browser depends on the images resolution and on the **Icon Size** option set for the Level Strip frames in the Preferences  →  Interface dialog (see  :ref:`Using the Level Strip <using_the_level_strip>`  ).
 
 
 .. _loading_levels:
@@ -106,23 +106,23 @@ As part of the scene you can load Toonz Vector and Toonz Raster animation levels
     
  - Invalid name types: ``1.tga``, ``111.tga``, ``1a.tga``, ``111a.tga``
 
-*Image sequences* are recognized and loaded by OpenToonz file browser as a single animation level, if they are named with a progressive four-digits number written between the *base* file name and the file *extension*, e.g. ``animation.0001.tif`` , ``animation.0002.tif`` , ``etc.`` or ``animation_0001.tif`` , ``animation_0002.tif`` , ``etc.``. They are displayed in the file browser with a *double dot* or *an underscore and a dot* before the file extension: e.g. ``animation..tif`` or ``animation_.tif``
+*Image sequences* are recognized and loaded by Tahoma file browser as a single animation level, if they are named with a progressive four-digits number written between the *base* file name and the file *extension*, e.g. ``animation.0001.tif`` , ``animation.0002.tif`` , ``etc.`` or ``animation_0001.tif`` , ``animation_0002.tif`` , ``etc.``. They are displayed in the file browser with a *double dot* or *an underscore and a dot* before the file extension: e.g. ``animation..tif`` or ``animation_.tif``
 
 From the browser, you can **View** images and clips you are going to load as levels by opening a flipbook whose default shrink factor and step can be set in the preferences dialog, and see the related file information by opening an **Info** box (see  :ref:`Using the Flipbook <using_the_flipbook>`  ).
 
-OpenToonz scenes (TNZ files) can be loaded as part of another scene as well, in such a case they are loaded as Sub-Xsheets (see  :ref:`Loading a Scene as a Sub-Xsheet <loading_a_scene_as_a_sub-xsheet>`  ).
+Tahoma scenes (TNZ files) can be loaded as part of another scene as well, in such a case they are loaded as Sub-Xsheets (see  :ref:`Loading a Scene as a Sub-Xsheet <loading_a_scene_as_a_sub-xsheet>`  ).
 
-When you load levels using the standard OpenToonz file browser, you can set whether to automatically expose them in the Xsheet/Timeline or not, by setting the **Expose Loaded Levels in Xsheet** option in the Preferences  →  Loading dialog. If activated, each level will be placed in a different column/layer, starting from the first empty one. If deactivated, the loaded levels will be stored in the Scene Cast, from where they can be selectively exposed in Xsheet columns or Timeline layers (see  :ref:`Using the Scene Cast <using_the_scene_cast>`  ).
+When you load levels using the standard Tahoma file browser, you can set whether to automatically expose them in the Xsheet/Timeline or not, by setting the **Expose Loaded Levels in Xsheet** option in the Preferences  →  Loading dialog. If activated, each level will be placed in a different column/layer, starting from the first empty one. If deactivated, the loaded levels will be stored in the Scene Cast, from where they can be selectively exposed in Xsheet columns or Timeline layers (see  :ref:`Using the Scene Cast <using_the_scene_cast>`  ).
 
 If you are loading one or several files located outside the default current project folders, you are prompted whether to **Import** them to the project database or to **Load** them from where they are. In the former case files will be copied to the appropriate project folder (PLI, TLV levels and their palettes in the *+drawings* folder; raster images, video clips and audio files in the *+extras* folder; standalone palettes in the *+palettes* folder, etc.) and loaded with a relative path from this new location (see  :ref:`Managing Projects <managing_projects>`  ); in the latter case they will be loaded using an absolute path to their original location.
 
 If any of the files you want to import has the same name of a file already existing in the destination project folder, you will prompted whether to keep the existing file, overwrite it with the new one, or rename it by adding a suffix you can choose. In this way you can control if files you are importing have already been imported previously, or manage files that just share the same name. 
 
-.. note:: **WARNING:** It is heavily recomended to **Import** assets to the current project folders, as OpenToonz can ovewrite the files associated with levels exposed in the Xsheet/Timeline, each time the **Save Level**, **Save All Levels**, or **Save All** commands are invoked.
+.. note:: **WARNING:** It is heavily recomended to **Import** assets to the current project folders, as Tahoma can ovewrite the files associated with levels exposed in the Xsheet/Timeline, each time the **Save Level**, **Save All Levels**, or **Save All** commands are invoked.
 
 .. note:: Files loaded in a scene without importing can be imported later all at once by using the **Collect Assets** command (see  :ref:`Collecting Assets <collecting_assets>`  ).
 
-.. note:: The OpenToonz file browser displays only the relevant files that can be loaded in OpenToonz. To check the full content of a folder you can use the **Show Folder Contents** option (see below).
+.. note:: The Tahoma file browser displays only the relevant files that can be loaded in Tahoma. To check the full content of a folder you can use the **Show Folder Contents** option (see below).
 
 .. tip:: **To choose the browser display mode:**
 
@@ -168,11 +168,11 @@ If any of the files you want to import has the same name of a file already exist
 
     4. Click the Load button.
 
-.. tip:: **To load levels from the OpenToonz standard browser:**
+.. tip:: **To load levels from the Tahoma standard browser:**
 
     1. Select the Xsheet/Timeline cell where you want to start exposing the level; if any level is already exposed in that cell, a new column/layer will be inserted to expose the new level.
 
-    2. In the OpenToonz browser select the file you want to load as a level.
+    2. In the Tahoma browser select the file you want to load as a level.
 
     3. Do one of the following:
 
@@ -188,7 +188,7 @@ If any of the files you want to import has the same name of a file already exist
 
     1. Select the Xsheet/Timeline cell where you want to start exposing the levels; if any level is already exposed in that cell, a new column/layer will be inserted to expose the new levels.
 
-    2. In the OpenToonz File menu select the Load Folder... command.
+    2. In the Tahoma File menu select the Load Folder... command.
 
     3. In the File Browser that opens select the folder you want to load.
 
@@ -196,7 +196,7 @@ If any of the files you want to import has the same name of a file already exist
 
     .. note:: Folders can also be loaded by dragging and dropping them from the Windows Explorer or macOS Finder to the scene cast, Xsheet/Timeline, or Viewer.
 
-.. note:: When a level is loaded, OpenToonz checks if its syntax matches one of the level formats specified in Preferences  →  Loading  →  **Level Settings by File Format**. In this case the Level Settings specified when the corresponding **Edit** button is opened will be applied. It is possible to add as many file formats as you want, defining them by using a Regular Expression. This way, different settings can be automatically applied to different kind of levels.
+.. note:: When a level is loaded, Tahoma checks if its syntax matches one of the level formats specified in Preferences  →  Loading  →  **Level Settings by File Format**. In this case the Level Settings specified when the corresponding **Edit** button is opened will be applied. It is possible to add as many file formats as you want, defining them by using a Regular Expression. This way, different settings can be automatically applied to different kind of levels.
 
 .. tip:: **To load back a recently loaded level:**
 
@@ -218,7 +218,7 @@ If any of the files you want to import has the same name of a file already exist
 
     Do one of the following:
 
-    - In the OpenToonz browser or in the Xsheet right-click the level you want to view and choose View from the menu that opens.
+    - In the Tahoma browser or in the Xsheet right-click the level you want to view and choose View from the menu that opens.
 
     - Choose Windows  →  Flipbook and drag and drop in the window the file you want to view.
 
@@ -232,7 +232,7 @@ If any of the files you want to import has the same name of a file already exist
 
 .. tip:: **To view a level file information:**
 
-    In the OpenToonz browser or in the Xsheet/Timeline right-click the level whose info you want to view and choose **Info** from the menu that opens; if the file is a video or a sequence of images, use the slider at the bottom of the box to change the current frame and see the related information.
+    In the Tahoma browser or in the Xsheet/Timeline right-click the level whose info you want to view and choose **Info** from the menu that opens; if the file is a video or a sequence of images, use the slider at the bottom of the box to change the current frame and see the related information.
 
 .. tip:: **To view the entire contents of the current folder:**
 
@@ -243,7 +243,7 @@ If any of the files you want to import has the same name of a file already exist
 
 Loading Photoshop Documents
 '''''''''''''''''''''''''''
-Photoshop documents (PSD files) can be loaded as a scene element in OpenToonz taking into account the layers the document is made of, and their layering order; text layers are considered as standard layers, while layer styles are considered only when loading the document as a single image (see below).
+Photoshop documents (PSD files) can be loaded as a scene element in Tahoma taking into account the layers the document is made of, and their layering order; text layers are considered as standard layers, while layer styles are considered only when loading the document as a single image (see below).
 
 Supported formats are RGB or grayscale images, using 8 or 16 bits per channel color depth.
 
@@ -290,15 +290,15 @@ When duplicating files, the new files will be renamed by appending an underscore
 
 You can also separate the colors of an image or image sequence by using the **Separate Colors...** command. For more details on its options, please see the  :ref:`Separate Colors <separate_colors>`  section.
 
-When renaming, files will be renamed according to the name you specify; an option allows you also to delete the original files. This can be used both for renaming sequences of image files in one shot, and for converting sequence numbering modes to the OpenToonz standard one (i.e. a progressive four-digits number written between the file name and the file extension) by selecting only the first file of a sequence.
+When renaming, files will be renamed according to the name you specify; an option allows you also to delete the original files. This can be used both for renaming sequences of image files in one shot, and for converting sequence numbering modes to the Tahoma standard one (i.e. a progressive four-digits number written between the file name and the file extension) by selecting only the first file of a sequence.
 
-When premultiplied, the file alpha channel is modified to be properly displayed in OpenToonz. Images which have a meaningful alpha channel come in two types: premultiplied or straight. A non-premultiplied (straight) image can be recognized when it's loaded in OpenToonz because its edges, where there is a complete transparence on one side and opacity on the other, are not smooth, but displays show a solid halo; by premultiplying the image it's possible to fix this problem. This is available only for full-color images.
+When premultiplied, the file alpha channel is modified to be properly displayed in Tahoma. Images which have a meaningful alpha channel come in two types: premultiplied or straight. A non-premultiplied (straight) image can be recognized when it's loaded in Tahoma because its edges, where there is a complete transparence on one side and opacity on the other, are not smooth, but displays show a solid halo; by premultiplying the image it's possible to fix this problem. This is available only for full-color images.
 
-When converting files, a dialog prompts the frame range to convert, a saving location, a name, the new format with related options and a color for the background of the converted file. It is also possible to select more files at once but, in this case, the frame range and the file name fields won’t be available. All levels, images and clips supported by OpenToonz can be converted. The PLI vector files can also be converted to the SVG format.
+When converting files, a dialog prompts the frame range to convert, a saving location, a name, the new format with related options and a color for the background of the converted file. It is also possible to select more files at once but, in this case, the frame range and the file name fields won’t be available. All levels, images and clips supported by Tahoma can be converted. The PLI vector files can also be converted to the SVG format.
 
 .. note:: The **Convert...** command is also available in the File menu as **Convert File...**.
 
-When converting files to TLV format, it's possible to choose the painted or unpainted TLV formats; all levels, images and clips supported by OpenToonz can be converted, except for PSD files.
+When converting files to TLV format, it's possible to choose the painted or unpainted TLV formats; all levels, images and clips supported by Tahoma can be converted, except for PSD files.
 
 The conversion to the unpainted TLV format is available when one or several files are selected and it's meant for lineart images: the images and levels are converted into black lineart images with a transparent background, so that they can be painted with the same techniques and tools you can use for other Toonz Raster levels (see  :ref:`Painting Animation Levels <painting_animation_levels>`  ). In particular if images have some transparency, transparent pixels remain transparent, while solid pixels are transformed into black ones; if images have no transparency, white and lighter pixels will be assumed as transparent, while dark pixels are transformed into black ones. 
 
@@ -306,7 +306,7 @@ The conversion to the painted TLV format is available when two files are selecte
 
 In particular if images have some transparency, transparent pixels remains transparent, while solid pixels are transformed into lines according to their color; if images have no transparency, white and lighter pixels will be assumed as transparent, while dark pixels are transformed into black lines. 
 
-.. note:: When converting to the TLV format, sequence numbering modes different from the OpenToonz standard one (i.e. a progressive four-digits number written between the file name and the file extension) are supported, so that only the first file of a sequence is required to be selected to include the whole sequence in the conversion.
+.. note:: When converting to the TLV format, sequence numbering modes different from the Tahoma standard one (i.e. a progressive four-digits number written between the file name and the file extension) are supported, so that only the first file of a sequence is required to be selected to include the whole sequence in the conversion.
 
 .. tip:: **To Duplicate files:**
 
@@ -512,13 +512,13 @@ The available parameters are:
 
 Exposing Levels
 ---------------
-Toonz level files, images for backgrounds and overlays, audio files, video clips, and other OpenToonz scenes, have to be exposed in the Xsheet/Timeline columns in order to be part of the scene.
+Toonz level files, images for backgrounds and overlays, audio files, video clips, and other Tahoma scenes, have to be exposed in the Xsheet/Timeline columns in order to be part of the scene.
 
 If the asset you want to use has already been loaded but not exposed, or it was removed from the scene, it can be retrieved from the Scene Cast window. 
 
 In case you need to retrieve some specific drawings from an animation level, you can display it in the Level Strip, in order to select the drawings to expose.
 
-.. note:: Animation levels you define directly in the scene, for instance levels you scanned, or drew directly in OpenToonz, are automatically exposed in the Xsheet/Timeline.
+.. note:: Animation levels you define directly in the scene, for instance levels you scanned, or drew directly in Tahoma, are automatically exposed in the Xsheet/Timeline.
 
 
 .. _using_the_scene_cast:
@@ -723,7 +723,7 @@ Once a level is exposed, its properties (path, DPI, subsampling, etc.), can be c
 
     - Information about **Camera DPI**, **Image DPI** and image **Resolution** are displayed for reference purposes.
 
-    - **Premultiply** premultiplies the alpha channel of the level. Images which have a meaningful alpha channel come in two types: premultiplied or not. A non-premultiplied image can be recognized when it is loaded in OpenToonz because its edge, where there is a complete transparence on one side and opacity on the other, is not smooth, but displays a solid halo. With the premultiply operation it is possible to transform the image alpha-channel so that it is correctly displayed in OpenToonz camera stand, preview and rendering.
+    - **Premultiply** premultiplies the alpha channel of the level. Images which have a meaningful alpha channel come in two types: premultiplied or not. A non-premultiplied image can be recognized when it is loaded in Tahoma because its edge, where there is a complete transparence on one side and opacity on the other, is not smooth, but displays a solid halo. With the premultiply operation it is possible to transform the image alpha-channel so that it is correctly displayed in Tahoma camera stand, preview and rendering.
 
     - **White As Transparent** sets the pure white color (i.e. with red, green and blue values to 255) as transparent and automatically adds some antialiasing to the level images. This option is meant for animation levels generated from third-party software (such as Retas) that do not have a transparent background but a solid white one, and whose lines do not have antialiasing.
 
@@ -751,7 +751,7 @@ Xsheet Toolbar
 
 |xsheet_toolbar|
 
-The Xsheet Toolbar, at the top of the Xsheet and Timeline panes, is a place where the user can display favorite OpenToonz tools and commands to have them readily available.
+The Xsheet Toolbar, at the top of the Xsheet and Timeline panes, is a place where the user can display favorite Tahoma tools and commands to have them readily available.
 
 The Xsheet Toolbar pane can be toggled depending on user preferences.
 
@@ -794,7 +794,7 @@ When levels are exposed in the Xsheet they are placed in columns (layers, in the
 
 The Xsheet is divided into sections divided by horizontal markers (vertical, in case of the Timeline), whose interval can be customized; at each marker the name of the levels exposed can be displayed, when the option **Display Level Name on Each Marker** is active in the Preferences  →  Interface dialog.
 
-Column/layer cells may have different colors according to the type of level they contain. Toonz Vector levels are displayed in dark yellow; Toonz Raster levels in green; Raster levels in light blue; Sub-Xsheets in violet (see  :ref:`Using Sub-Xsheets <using_sub-xsheets>`  ); Effect levels generated by OpenToonz in brown (see  :ref:`Using the FX Schematic <using_the_fx_schematic>`  ); Audio levels in pale green (see  :ref:`Creating a Soundtrack <creating_a_soundtrack>`  ); and Note levels in grey.
+Column/layer cells may have different colors according to the type of level they contain. Toonz Vector levels are displayed in dark yellow; Toonz Raster levels in green; Raster levels in light blue; Sub-Xsheets in violet (see  :ref:`Using Sub-Xsheets <using_sub-xsheets>`  ); Effect levels generated by Tahoma in brown (see  :ref:`Using the FX Schematic <using_the_fx_schematic>`  ); Audio levels in pale green (see  :ref:`Creating a Soundtrack <creating_a_soundtrack>`  ); and Note levels in grey.
 
 Each column/layer header contains information about its content. These are:
 
@@ -1163,7 +1163,7 @@ Sub-Xsheet level cells can be edited, for example to create a cycle, or cut, cop
 
 If you want to reset the editing of a Sub-Xsheet level, you can **Resequence** it, by resetting it to the original length and order of its contents.
 
-You can load a scene previously created with OpenToonz as a level of the current scene. You can also collapse selected columns/layers to form a new Sub-Xsheet to better manage the scene, for example you can collapse into a Sub-Xsheet all the columns/layers used to define a character, or explode a Sub-Xsheet to automatically bring all of its contents into the Xsheet/Timeline where it is exposed.
+You can load a scene previously created with Tahoma as a level of the current scene. You can also collapse selected columns/layers to form a new Sub-Xsheet to better manage the scene, for example you can collapse into a Sub-Xsheet all the columns/layers used to define a character, or explode a Sub-Xsheet to automatically bring all of its contents into the Xsheet/Timeline where it is exposed.
 
 As Sub-Xsheets can be loaded and saved, they can also be used for importing or exporting sections of an Xsheet/Timeline from one scene to another. For example, if you create a scene where several levels compose a character (head, body, shadow, etc.), you can save it and import it later in a different scene as a Sub-Xsheet.
 
@@ -1251,7 +1251,7 @@ When copying Sub-Xsheet columns/layers and cells, their copies refer always to t
 
 Loading a Scene as a Sub-Xsheet
 '''''''''''''''''''''''''''''''
-Previously saved OpenToonz scenes can be loaded in a Xsheet/Timeline as Sub-Xsheets. 
+Previously saved Tahoma scenes can be loaded in a Xsheet/Timeline as Sub-Xsheets. 
 
 Every time a scene is loaded as a Sub-Xsheet, its contents are imported into the current project database according to the project default folders, in the same way as it would be if every single level was imported (see  :ref:`Using the File Browser <using_the_file_browser>`  ). 
 
@@ -1273,11 +1273,11 @@ If the camera settings of the scene you are loading as a Sub-Xsheet are differen
 
     - Choose File  →  **Load As Sub-Xsheet** and use the browser to load a TNZ file.
 
-    - Use the OpenToonz standard browser to drag the scene icon to the Scene Cast pane, the Xsheet/Timeline or the viewer.
+    - Use the Tahoma standard browser to drag the scene icon to the Scene Cast pane, the Xsheet/Timeline or the viewer.
 
     - In the file browser right-click the scene icon and select **Load As Sub-Xsheet** in the menu that opens.
 
-    .. note:: OpenToonz scene files can also be loaded by dragging and dropping them from the Windows Explorer or macOS Finder to the Scene Cast, Xsheet/Timeline, or the viewer.
+    .. note:: Tahoma scene files can also be loaded by dragging and dropping them from the Windows Explorer or macOS Finder to the Scene Cast, Xsheet/Timeline, or the viewer.
 
 
 .. _exploding_sub-xsheets:
@@ -1352,7 +1352,7 @@ When a scene is rendered in a file format supporting audio, (MP4, MOV, WebM or A
 
 .. note:: Audio clips loaded in Sub-Xsheets will not be included in the output soundtrack (see  :ref:`Using Sub-Xsheets <using_sub-xsheets>`  ).
 
-.. note:: As the soundtrack cannot be played back when viewing files in the OpenToonz flipbook, you can activate the **Use Default Viewer for Movie Formats** option in the Preferences  →  General dialog, in order to view files with their own default viewer, e.g. QuickTime for the MOV format, thus playing back the soundtrack as well.
+.. note:: As the soundtrack cannot be played back when viewing files in the Tahoma flipbook, you can activate the **Use Default Viewer for Movie Formats** option in the Preferences  →  General dialog, in order to view files with their own default viewer, e.g. QuickTime for the MOV format, thus playing back the soundtrack as well.
 
 .. tip:: **To play the contents of an audio column/layer back:**
 
@@ -1519,11 +1519,11 @@ It is possible to import into the Xsheet/Timeline .TLS files (i.e. Toonz Lip Syn
 
 |magpie_import| 
 
-While Magpie takes care of the audio file analysis and phoneme recognition, importing the .TLS file into OpenToonz allows you to assign a frame from an animation level to each phoneme and automatically expose the result in an Xsheet column or Timeline layer; an additional column/layer displaying the speech text (as recognized in Magpie) is created for reference.
+While Magpie takes care of the audio file analysis and phoneme recognition, importing the .TLS file into Tahoma allows you to assign a frame from an animation level to each phoneme and automatically expose the result in an Xsheet column or Timeline layer; an additional column/layer displaying the speech text (as recognized in Magpie) is created for reference.
 
-.. tip:: **To export the OpenToonz lip sync file in Magpie:**
+.. tip:: **To export the Tahoma lip sync file in Magpie:**
 
-    1. Copy the file ``export-toonz.lua``  available in ``OpenToonz stuff\config``  folder into the ``C:\Program Files (x86)\Third Wish Software & Animation\Magpie Pro\Scripts\Export``  folder.
+    1. Copy the file ``export-toonz.lua``  available in ``Tahoma stuff\config``  folder into the ``C:\Program Files (x86)\Third Wish Software & Animation\Magpie Pro\Scripts\Export``  folder.
 
     2. In Magpie choose File  →  Export and choose Toonz among the 2D software list to export the TLS file.
 
@@ -1549,9 +1549,9 @@ It is possible to import into the Xsheet/Timeline DAT files exported from Papaga
 
 |apply_lip_sync_data| 
 
-While Papagayo-NG takes care of the audio file analysis and phoneme recognition, importing the DAT file into OpenToonz allows you to assign a frame from an animation level to each phoneme and automatically expose the result in an Xsheet column or Timeline layer; to be able to hear the synched sound, the correspondent sound level should be manually loaded too.
+While Papagayo-NG takes care of the audio file analysis and phoneme recognition, importing the DAT file into Tahoma allows you to assign a frame from an animation level to each phoneme and automatically expose the result in an Xsheet column or Timeline layer; to be able to hear the synched sound, the correspondent sound level should be manually loaded too.
 
-.. tip:: **To export the OpenToonz lip sync file in Papagayo-NG:**
+.. tip:: **To export the Tahoma lip sync file in Papagayo-NG:**
 
     1. In Papagayo-NG, from the **Export:** dropdown menu, select **MOHO**.
 
@@ -1633,7 +1633,7 @@ Saving and Loading Scenes
 -------------------------
 When working on a new scene the default name (untitled) followed by a progressive number is assigned to the scene until you save it with a different name. This name is also used in case the *$scenepath* variable is used in the project settings to store temporarily the material used in the scene.
 
-.. note:: Untitled scenes and related material are stored in the ``OpenToonz stuff\projects\temp``  folder, and deleted when the scene is saved with a proper name or not saved at all. Check regularly the ``temp``  folder, and if there is some content, delete it to free disk space.
+.. note:: Untitled scenes and related material are stored in the ``Tahoma stuff\projects\temp``  folder, and deleted when the scene is saved with a proper name or not saved at all. Check regularly the ``temp``  folder, and if there is some content, delete it to free disk space.
 
 Scene files can be saved and loaded as TNZ files using the related menu commands. Scenes have to be saved in the current project *+scenes* folder, or any of its sub-folders, in order to retrieve all the material when they are loaded back.
 
@@ -1669,7 +1669,7 @@ An option **Save Automatically** allows to save the scene every given number of 
 
     2. In the browser that opens retrieve, in the *+scenes* folder of the current project or any of its sub-folders, the scene you want to load and click the **Load** button.
 
-.. tip:: **To load a scene from the OpenToonz standard browser:**
+.. tip:: **To load a scene from the Tahoma standard browser:**
 
     Do one of the following:
 
@@ -1700,7 +1700,7 @@ An option **Save Automatically** allows to save the scene every given number of 
 
 Importing and Exporting Scenes
 ------------------------------
-In OpenToonz each scene file belongs to a specific project, so that the material created and used in the scene is located and can be retrieved from the project default folders.
+In Tahoma each scene file belongs to a specific project, so that the material created and used in the scene is located and can be retrieved from the project default folders.
 
 If you need to copy the scene and the related material to a different project, it is possible either to import any scene file in the current project, or to export it to any other project available in the projectroot (see  :ref:`Setting up Projects <setting_up_projects>`  ).
 
@@ -1727,7 +1727,7 @@ In this case both the material files located in the original project default fol
 
 .. tip:: **To load and import a scene from a different project:**
 
-    1. Load the scene you want to import by using the **Load Scene...** browser or the OpenToonz standard browser.
+    1. Load the scene you want to import by using the **Load Scene...** browser or the Tahoma standard browser.
 
     2. Choose **Import Scene** in the dialog that opens: the scene is loaded and the related files will be copied into the default folders of the current project.
 
@@ -1735,7 +1735,7 @@ In this case both the material files located in the original project default fol
 
 .. tip:: **To import one or several scenes from a different project, without loading them:**
 
-    1. Select the scenes you want to import in the OpenToonz standard browser.
+    1. Select the scenes you want to import in the Tahoma standard browser.
 
     2. Right-click the selection and choose **Import Scene** from the menu that opens: the scene and the related material files copied in the default folders of the current project.
 
@@ -1754,7 +1754,7 @@ In both cases the scenes files and the related assets will be automatically coll
 
 .. tip:: **To export one or several scenes to a different project:**
 
-    1. Select the scenes you want to export in the OpenToonz standard browser.
+    1. Select the scenes you want to export in the Tahoma standard browser.
 
     2. Right-click the selection and choose **Export Scene...** from the menu that opens: the Export Scene dialog opens.
 
@@ -1815,7 +1815,7 @@ The HTML file contains a header with general information, several tables, whose 
 
 If any Sub-Xsheets are used in the scene, they are displayed after the main Xsheet where they are exposed.
 
-The information displayed in the header and the appearance of the HTML table can be set by editing the following files located in the folder ``OpenToonz stuff\profiles\layouts\settings`` :
+The information displayed in the header and the appearance of the HTML table can be set by editing the following files located in the folder ``Tahoma stuff\profiles\layouts\settings`` :
 
 - ``xsheet_html.xml``  contains the information used for the HTML Xsheet header, and the size for the tables used to represent the Xsheet content.
 
@@ -1823,7 +1823,7 @@ The information displayed in the header and the appearance of the HTML table can
 
 When using the Print Xsheet command, a dialog with information about the location and name of the generated HTML file is displayed; then the generated HTML file is displayed in your default browser.
 
-The HTML file is saved in the same location as the TNZ file; the CSS file used for its formatting is generated as well, by copying the one located in the folder ``OpenToonz stuff\profiles\layouts\settings`` . If a CSS file is already available in the location where the HTML Xsheet file is saved, it will be used instead of generating a new one.
+The HTML file is saved in the same location as the TNZ file; the CSS file used for its formatting is generated as well, by copying the one located in the folder ``Tahoma stuff\profiles\layouts\settings`` . If a CSS file is already available in the location where the HTML Xsheet file is saved, it will be used instead of generating a new one.
 
 .. note:: If you want to move the HTML Xsheet file, you should move the CSS file as well, in order to preserve the HTML file appearance as defined by the CSS file.
 
@@ -1832,7 +1832,7 @@ The HTML file is saved in the same location as the TNZ file; the CSS file used f
 
 Editing the HTML Xsheet Header and Table Size
 '''''''''''''''''''''''''''''''''''''''''''''
-The HTML Xsheet header and the size for the tables used to represent the Xsheet content can be defined by editing the`` xsheet_html.xml``  file available in the folder ``OpenToonz stuff\profiles\layouts\settings`` . It can be edited with any text editor software, e.g. Notepad or TextEdit.
+The HTML Xsheet header and the size for the tables used to represent the Xsheet content can be defined by editing the`` xsheet_html.xml``  file available in the folder ``Tahoma stuff\profiles\layouts\settings`` . It can be edited with any text editor software, e.g. Notepad or TextEdit.
 
 The whole text is included in the tag ``xsheet_html`` , that contains the elements ``page``  and ``info`` , where the different users and roles are defined.
 The basic structure of the file is the following:
@@ -1861,11 +1861,11 @@ These lines can be edited, and new lines, with the same syntax, can be appended,
 
 .. note:: By default the header contains the Project and Scene names and the number of frames the scene consists of; this information cannot be edited, as they are retrieved automatically from the scene file.
 
-.. note:: The ``xsheet_html.xml``  file has to be well-formed, and so it can not contain an opening tag without its related closing tag, otherwise OpenToonz will not run. If you decide to edit the ``xsheet_html.xml``  file, make a backup copy first in case you need to revert the file to the original version.
+.. note:: The ``xsheet_html.xml``  file has to be well-formed, and so it can not contain an opening tag without its related closing tag, otherwise Tahoma will not run. If you decide to edit the ``xsheet_html.xml``  file, make a backup copy first in case you need to revert the file to the original version.
 
 .. tip:: **To edit the xsheet_html.xml file:**
 
-    Open the ``xsheet_html.xml``  file available in the folder ``OpenToonz stuff\profiles\layouts\settings`` with a text editor application (e.g. Notepad or TextEdit).
+    Open the ``xsheet_html.xml``  file available in the folder ``Tahoma stuff\profiles\layouts\settings`` with a text editor application (e.g. Notepad or TextEdit).
 
 .. tip:: **To change the size of the table used for splitting the Xsheet in sections:**
 
@@ -1884,7 +1884,7 @@ These lines can be edited, and new lines, with the same syntax, can be appended,
 
 Editing HTML Xsheet Appearance
 ''''''''''''''''''''''''''''''
-The HTML Xsheet appearance can be defined by editing thexsheet.css file available in the folder ``OpenToonz stuff\profiles\layouts\settings`` . 
+The HTML Xsheet appearance can be defined by editing thexsheet.css file available in the folder ``Tahoma stuff\profiles\layouts\settings`` . 
 
 The ``xsheet.css``  is a Cascading Style Sheet file that is used to define the colors, layout, and other aspects of the HTML Xsheet file. It can be edited with any text editor software, e.g. Notepad or TextEdit. 
 
@@ -1914,7 +1914,7 @@ Elements defined in the CSS are the following:
 
 .. tip:: **To edit the xsheet.css file:**
 
-    Open the ``xsheet.css``  file available in the folder ``OpenToonz stuff\profiles\layouts\settings``  with a text editor application (e.g. Notepad or TextEdit).
+    Open the ``xsheet.css``  file available in the folder ``Tahoma stuff\profiles\layouts\settings``  with a text editor application (e.g. Notepad or TextEdit).
 
 
 

@@ -67,19 +67,19 @@ Transformation data can be saved and loaded as a CURVE file, to allow the export
 
 .. tip:: **To open the Graph Editor in a separate window:**
 
-    1. Make sure the option **Graph Editor Opens in Popup** is selected from the **Function Editor:** dropdown menu, in the Preferences  →  Interface window. (Restart OpenToonz).
+    1. Make sure the option **Graph Editor Opens in Popup** is selected from the **Function Editor:** dropdown menu, in the Preferences  →  Interface window. (Restart Tahoma).
     
     2. Click the **Function Editor Toggle** button (|schematic|) in the top bar of the Function Editor.
 
 .. tip:: **To open the Spreadsheet in a separate window:**
 
-    1. Make sure the option **Spreadsheet Opens in Popup** is selected from the **Function Editor:** dropdown menu, in the Preferences  →  Interface window. (Restart OpenToonz).
+    1. Make sure the option **Spreadsheet Opens in Popup** is selected from the **Function Editor:** dropdown menu, in the Preferences  →  Interface window. (Restart Tahoma).
     
     2. Click the **Function Editor Toggle** button (|schematic|) in the top bar of the Function Editor.
 
 .. tip:: **To switch between Spreadsheet and Graph Editor in the Function Editor:**
 
-    1. Make sure the option **Toggle Between Graph Editor and Spreadsheet** is selected from the **Function Editor:** dropdown menu, in the Preferences  →  Interface window. (Restart OpenToonz).
+    1. Make sure the option **Toggle Between Graph Editor and Spreadsheet** is selected from the **Function Editor:** dropdown menu, in the Preferences  →  Interface window. (Restart Tahoma).
     
     2. Click the **Function Editor Toggle** button (|schematic|) in the top bar of the Function Editor.
 

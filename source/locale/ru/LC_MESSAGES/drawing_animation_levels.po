@@ -1,11 +1,11 @@
 # Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
-# This file is distributed under the same license as the OpenToonz package.
+# This file is distributed under the same license as the Tahoma package.
 #
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 # user <surkow.aleksandr@gmail.com>, 2019, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: OpenToonz 1.2\n"
+"Project-Id-Version: Tahoma 1.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-24 21:51+0800\n"
 "PO-Revision-Date: 2020-04-26 11:57+0800\n"
@@ -27,20 +27,20 @@ msgstr "Рисование уровней анимации"
 
 #: ../../source/drawing_animation_levels.rst:5
 msgid ""
-"In OpenToonz it is possible to create and draw **Toonz Vector** levels (PLI "
+"In Tahoma it is possible to create and draw **Toonz Vector** levels (PLI "
 "format), **Toonz Raster** levels (TLV format) and standard **Raster** levels "
 "(TIF format) directly in the viewer. Drawing tools can also be used for touch-"
 "up in cleaned up drawings, and loaded raster images."
 msgstr ""
-"В OpenToonz можно создавать и рисовать **векторные уровни Toonz** (формат PLI), "
+"В Tahoma можно создавать и рисовать **векторные уровни Toonz** (формат PLI), "
 "**растровые уровни Toonz** (формат TLV) и стандартные **растровые** уровни "
 "(формат TIF) непосредственно в средстве просмотра. Инструменты рисования также "
 "можно использовать для подправки очищенных чертежей и загруженных растровых "
 "изображений."
 
 #: ../../source/drawing_animation_levels.rst:10
-msgid "Drawing In OpenToonz"
-msgstr "Рисование в OpenToonz"
+msgid "Drawing In Tahoma"
+msgstr "Рисование в Tahoma"
 
 #: ../../source/drawing_animation_levels.rst:11
 msgid ""
@@ -123,10 +123,10 @@ msgstr "Установка типа уровня по умолчанию для 
 #: ../../source/drawing_animation_levels.rst:28
 msgid ""
 "It's possible to define the default level type that will be created when you "
-"draw inside OpenToonz."
+"draw inside Tahoma."
 msgstr ""
 "Можно определить тип уровня по умолчанию, который будет создан, когда Вы "
-"рисуете внутри OpenToonz."
+"рисуете внутри Tahoma."
 
 #: ../../source/drawing_animation_levels.rst:30
 msgid ""
@@ -1643,11 +1643,11 @@ msgstr "Текст может быть добавлен с помощью инс
 
 #: ../../source/drawing_animation_levels.rst:483
 msgid ""
-"It is also possible to work with editable and animatable text in OpenToonz "
+"It is also possible to work with editable and animatable text in Tahoma "
 "through the use of the **Text Iwa** effect. For more information, please see  :"
 "ref:`Text Iwa <text_iwa>`  ."
 msgstr ""
-"В OpenToonz также можно работать с редактируемым и анимируемым текстом с "
+"В Tahoma также можно работать с редактируемым и анимируемым текстом с "
 "помощью эффекта **Text Iwa**. Для получения дополнительной информации, см. :ref:"
 "`Text Iwa <text_iwa>`."
 
@@ -1879,7 +1879,7 @@ msgstr ""
 msgid ""
 "In **Centerline** mode a *single vector stroke with a variable thickness* is "
 "generated for each line in the drawing. This means that the converted drawing "
-"can be edited like vector-based drawings made directly in OpenToonz, for "
+"can be edited like vector-based drawings made directly in Tahoma, for "
 "example you can change the bend of a stroke with the **Pinch** (|pinch|) or "
 "**Control Point Editor** tools, and the thickness with the **Pump** tool (|"
 "pump|)."
@@ -1887,7 +1887,7 @@ msgstr ""
 "В режиме **Сплошная линия** для каждой линии на чертеже создается *одиночный "
 "векторный штрих с переменной толщиной*. Это означает, что преобразованный "
 "чертеж можно редактировать как векторные рисунки, сделанные непосредственно в "
-"OpenToonz, например, вы можете изменить изгиб штриха с помощью инструментов "
+"Tahoma, например, вы можете изменить изгиб штриха с помощью инструментов "
 "**Щипок** (|pinch|) или **Редактор контрольных точек** и толщину с помощью "
 "инструмента **Насос** (|pump|)."
 
@@ -2374,11 +2374,11 @@ msgstr "|canvas_size|"
 
 #: ../../source/drawing_animation_levels.rst:694
 msgid ""
-"The new size can be set in any unit supported by OpenToonz, by using absolute "
+"The new size can be set in any unit supported by Tahoma, by using absolute "
 "or relative values. If the canvas is enlarged, some white transparent area is "
 "added; if the canvas is reduced, some cropping is applied to the level images."
 msgstr ""
-"Новый размер может быть установлен в любой единице, поддерживаемой OpenToonz, "
+"Новый размер может быть установлен в любой единице, поддерживаемой Tahoma, "
 "используя абсолютные или относительные значения. Если холст увеличивается, "
 "добавляется некоторая белая прозрачная область; если холст уменьшен, некоторая "
 "обрезка применяется к изображениям уровня."
@@ -2441,9 +2441,9 @@ msgstr "Редактирование рисунка"
 
 #: ../../source/drawing_animation_levels.rst:715
 msgid ""
-"Toonz Vector, Toonz Raster and Raster levels, can be manipulated in OpenToonz."
+"Toonz Vector, Toonz Raster and Raster levels, can be manipulated in Tahoma."
 msgstr ""
-"Уровнями Toonz Vector, Toonz Raster и Raster можно манипулировать в OpenToonz."
+"Уровнями Toonz Vector, Toonz Raster и Raster можно манипулировать в Tahoma."
 
 #: ../../source/drawing_animation_levels.rst:717
 msgid ""
@@ -4201,11 +4201,11 @@ msgstr "Техники анимации"
 msgid ""
 "Besides drawing frame by frame, one image at a time, until you achieve the "
 "animation you want, some other techniques are easier to achieve thanks to "
-"OpenToonz features."
+"Tahoma features."
 msgstr ""
 "Помимо рисования покадрово, по одному изображению за раз, пока вы не достигнете "
 "нужной анимации, некоторые функции легче реализовать благодаря функциям "
-"OpenToonz."
+"Tahoma."
 
 #: ../../source/drawing_animation_levels.rst:1316
 msgid ""

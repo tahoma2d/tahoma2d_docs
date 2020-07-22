@@ -1,10 +1,10 @@
 .. _whats_new:
 
-What's New in OpenToonz
+What's New in Tahoma
 =======================
 
-In this section you can find a list of Highlights in the latest release of OpenToonz; these may include New Features, Bug Fixes or Enhancements to already existent features.
-Here, you can also find links to past versions' Release Notes, to keep track of OpenToonz development history throughout time.
+In this section you can find a list of Highlights in the latest release of Tahoma; these may include New Features, Bug Fixes or Enhancements to already existent features.
+Here, you can also find links to past versions' Release Notes, to keep track of Tahoma development history throughout time.
 
 
 .. _v1.4:
@@ -38,7 +38,7 @@ Highlights
 - |new| UI: New Help menu options **Online Manual**, **What's New**, **Community Forum** and **Report a Bug**.
 - |new| UI: New **Korean** translation. (Initial version)
 - |new| Effects: **Help in English and Spanish**.
-- |new| OpenToonz Manual: New **Spanish** translation.
+- |new| Tahoma Manual: New **Spanish** translation.
 - |enhancement| UI: **Updated/Reorganized Menus**.
 - |enhancement| File Browser: **Double-click in Load Scene and Load Level dialogs** to open files.
 - |enhancement| Level Settings window: Now can act upon **Multiple Selected levels**.
@@ -57,34 +57,34 @@ Highlights
 
 ...and much more!
 
-Please see the `v1.4 Release Notes <https://github.com/opentoonz/opentoonz/releases/tag/v1.4.0>`_  hosted in GitHub, for the full list of new features, enhancements and bug fixes.
+Please see the `v1.4 Release Notes <https://github.com/tahoma/tahoma/releases/tag/v1.4.0>`_  hosted in GitHub, for the full list of new features, enhancements and bug fixes.
 
 
 
 .. _previous versions:
 
-Previous Versions of OpenToonz
+Previous Versions of Tahoma
 ------------------------------
 
 Here you can find links to previous versions' full Release Notes, hosted in GitHub:
 
-`v1.3 Release Notes <https://github.com/opentoonz/opentoonz/releases/tag/v1.3.0>`_
+`v1.3 Release Notes <https://github.com/tahoma/tahoma/releases/tag/v1.3.0>`_
 
-`v1.2.1 Release Notes <https://github.com/opentoonz/opentoonz/releases/tag/v1.2.1>`_
+`v1.2.1 Release Notes <https://github.com/tahoma/tahoma/releases/tag/v1.2.1>`_
 
-`v1.2 Release Notes <https://github.com/opentoonz/opentoonz/releases/tag/v1.2.0>`_
+`v1.2 Release Notes <https://github.com/tahoma/tahoma/releases/tag/v1.2.0>`_
 
-`v1.1.3 Release Notes <https://github.com/opentoonz/opentoonz/releases/tag/v1.1.3>`_
+`v1.1.3 Release Notes <https://github.com/tahoma/tahoma/releases/tag/v1.1.3>`_
 
-`v1.1.2 Release Notes <https://github.com/opentoonz/opentoonz/releases/tag/v1.1.2>`_
+`v1.1.2 Release Notes <https://github.com/tahoma/tahoma/releases/tag/v1.1.2>`_
 
-`v1.1 Release Notes <https://github.com/opentoonz/opentoonz/releases/tag/v1.1.0>`_
+`v1.1 Release Notes <https://github.com/tahoma/tahoma/releases/tag/v1.1.0>`_
 
-`v1.0.3 Release Notes <https://github.com/opentoonz/opentoonz/releases/tag/v1.0.3>`_
+`v1.0.3 Release Notes <https://github.com/tahoma/tahoma/releases/tag/v1.0.3>`_
 
-`v1.0.2 Release Notes <https://github.com/opentoonz/opentoonz/releases/tag/v1.0.2>`_
+`v1.0.2 Release Notes <https://github.com/tahoma/tahoma/releases/tag/v1.0.2>`_
 
-`v1.0 Release Notes <https://github.com/opentoonz/opentoonz/releases/tag/v1.0>`_
+`v1.0 Release Notes <https://github.com/tahoma/tahoma/releases/tag/v1.0>`_
 
 
 

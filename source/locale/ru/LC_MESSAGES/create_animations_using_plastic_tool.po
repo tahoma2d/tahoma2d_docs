@@ -1,12 +1,12 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
-# This file is distributed under the same license as the OpenToonz package.
+# This file is distributed under the same license as the Tahoma package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OpenToonz 1.2\n"
+"Project-Id-Version: Tahoma 1.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-05-06 16:58+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -1103,7 +1103,7 @@ msgid ""
 "the parent automatically. It's always possible to link the levels using "
 "the column/layer center as target, but what if something more subtler is "
 "needed as using *Hooks*? We have already described similar techniques for"
-" OpenToonz standard elements (see  :ref:`Linking Objects "
+" Tahoma standard elements (see  :ref:`Linking Objects "
 "<linking_objects>`  or  :ref:`Using Hooks <using_hooks>` ), but Plastic "
 "modified levels works in a slightly different way because the Hook tool "
 "*is not* enabled on this kind of levels. Plastic modified levels use "
@@ -1294,7 +1294,7 @@ msgstr ""
 
 #: ../../source/create_animations_using_plastic_tool.rst:526
 msgid ""
-"To use OpenToonz mathematical expressions in the Plastic Animation, you "
+"To use Tahoma mathematical expressions in the Plastic Animation, you "
 "can link the vertices of the skeleton to each other or to a column/layer,"
 " pegbar or camera."
 msgstr ""
@@ -2232,7 +2232,7 @@ msgstr ""
 #~ "as target but what if something "
 #~ "more subtler is needed as using "
 #~ "hooks? We have already described similar"
-#~ " techniques for OpenToonz standard elements"
+#~ " techniques for Tahoma standard elements"
 #~ " (see  :ref:`Linking Objects <linking_objects>`"
 #~ "  or  :ref:`Using Hooks <using_hooks>` ),"
 #~ " but Plastic modified levels works in"
@@ -2460,7 +2460,7 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid ""
-#~ "To use OpenToonz mathematical expressions "
+#~ "To use Tahoma mathematical expressions "
 #~ "in the Plastic Animation, link the "
 #~ "vertices of the skeleton to each "
 #~ "other or to a column, pegbar or"

@@ -1,11 +1,11 @@
 # Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
-# This file is distributed under the same license as the OpenToonz package.
+# This file is distributed under the same license as the Tahoma package.
 #
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 # user <surkow.aleksandr@gmail.com>, 2019, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: OpenToonz 1.3\n"
+"Project-Id-Version: Tahoma 1.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-10 01:51+0800\n"
 "PO-Revision-Date: 2020-02-05 23:39+0800\n"
@@ -19,25 +19,25 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.6.0\n"
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:4
-msgid "Using FFmpeg with OpenToonz"
-msgstr "Использование FFmpeg с OpenToonz"
+#: ../../source/using_ffmpeg_with_tahoma.rst:4
+msgid "Using FFmpeg with Tahoma"
+msgstr "Использование FFmpeg с Tahoma"
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:7
+#: ../../source/using_ffmpeg_with_tahoma.rst:7
 msgid "What is FFmpeg?"
 msgstr "Что такое FFmpeg?"
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:8
+#: ../../source/using_ffmpeg_with_tahoma.rst:8
 msgid ""
 "To render your animation as an **mp4** or **webm**, or also as a **gif** "
-"on Mac, OpenToonz requires the FFmpeg multimedia framework to be "
+"on Mac, Tahoma requires the FFmpeg multimedia framework to be "
 "installed on your machine."
 msgstr ""
 "Чтобы визуализировать анимацию в виде **mp4** или **webm**, а также в "
-"виде **gif** на Mac, OpenToonz требует, чтобы на вашем компьютере была "
+"виде **gif** на Mac, Tahoma требует, чтобы на вашем компьютере была "
 "установлена ​​мультимедийная инфраструктура FFmpeg."
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:9
+#: ../../source/using_ffmpeg_with_tahoma.rst:9
 msgid ""
 "For more information, please visit this page: `About FFmpeg "
 "<https://www.ffmpeg.org/about.html>`_"
@@ -45,17 +45,17 @@ msgstr ""
 "Для получения дополнительной информации, пожалуйста, посетите эту "
 "страницу: `О FFmpeg <https://www.ffmpeg.org/about.html>`_"
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:12
+#: ../../source/using_ffmpeg_with_tahoma.rst:12
 msgid "Installing FFmpeg for Windows"
 msgstr "Установка FFmpeg для Windows"
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:15
-#: ../../source/using_ffmpeg_with_opentoonz.rst:62
+#: ../../source/using_ffmpeg_with_tahoma.rst:15
+#: ../../source/using_ffmpeg_with_tahoma.rst:62
 msgid "Downloading"
 msgstr "Загрузка"
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:17
-#: ../../source/using_ffmpeg_with_opentoonz.rst:64
+#: ../../source/using_ffmpeg_with_tahoma.rst:17
+#: ../../source/using_ffmpeg_with_tahoma.rst:64
 msgid ""
 "To download FFmpeg, first visit this page: `Download FFmpeg "
 "<https://www.ffmpeg.org/download.html>`_"
@@ -63,21 +63,21 @@ msgstr ""
 "Чтобы загрузить FFmpeg, сначала посетите эту страницу: `Загрузить FFmpeg "
 "<https://www.ffmpeg.org/download.html>`_"
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:19
-#: ../../source/using_ffmpeg_with_opentoonz.rst:66
+#: ../../source/using_ffmpeg_with_tahoma.rst:19
+#: ../../source/using_ffmpeg_with_tahoma.rst:66
 msgid "|get_the_packages|"
 msgstr "|get_the_packages|"
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:21
+#: ../../source/using_ffmpeg_with_tahoma.rst:21
 msgid "Select the Windows icon and then select the **Windows builds** link:"
 msgstr "Выберите значок Windows, а затем выберите ссылку **Windows builds**:"
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:23
+#: ../../source/using_ffmpeg_with_tahoma.rst:23
 msgid "|packages_windows|"
 msgstr "|packages_windows|"
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:25
-#: ../../source/using_ffmpeg_with_opentoonz.rst:72
+#: ../../source/using_ffmpeg_with_tahoma.rst:25
+#: ../../source/using_ffmpeg_with_tahoma.rst:72
 msgid ""
 "You will be taken to an **FFmpeg Builds** page with some options for the "
 "version of FFmpeg that you want to download:"
@@ -85,16 +85,16 @@ msgstr ""
 "Вы попадете на страницу **FFmpeg Builds** с некоторыми опциями для версии"
 " FFmpeg, которую вы хотите загрузить:"
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:27
+#: ../../source/using_ffmpeg_with_tahoma.rst:27
 msgid "|ffmpeg_builds_windows|"
 msgstr "|ffmpeg_builds_windows|"
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:29
+#: ../../source/using_ffmpeg_with_tahoma.rst:29
 msgid "In the majority of cases, the default choices are fine."
 msgstr "В большинстве случаев, выбор по умолчанию в порядке."
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:30
-#: ../../source/using_ffmpeg_with_opentoonz.rst:78
+#: ../../source/using_ffmpeg_with_tahoma.rst:30
+#: ../../source/using_ffmpeg_with_tahoma.rst:78
 msgid ""
 "Click on the blue **Download Build** button, this will begin downloading "
 "a zip archive containing FFmpeg."
@@ -102,13 +102,13 @@ msgstr ""
 "Нажмите на синюю кнопку **Download Build**, начнется загрузка zip-архива,"
 " содержащего FFmpeg."
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:33
-#: ../../source/using_ffmpeg_with_opentoonz.rst:81
+#: ../../source/using_ffmpeg_with_tahoma.rst:33
+#: ../../source/using_ffmpeg_with_tahoma.rst:81
 msgid "Installing"
 msgstr "Установка"
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:35
-#: ../../source/using_ffmpeg_with_opentoonz.rst:83
+#: ../../source/using_ffmpeg_with_tahoma.rst:35
+#: ../../source/using_ffmpeg_with_tahoma.rst:83
 msgid ""
 "Once you have downloaded the FFmpeg zip archive, open it and double-click"
 " on the first folder."
@@ -116,12 +116,12 @@ msgstr ""
 "Как только вы загрузите zip-архив FFmpeg, откройте его и дважды щелкните "
 "первую папку."
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:37
-#: ../../source/using_ffmpeg_with_opentoonz.rst:85
+#: ../../source/using_ffmpeg_with_tahoma.rst:37
+#: ../../source/using_ffmpeg_with_tahoma.rst:85
 msgid "Within the **bin** folder are the executable files that you will need."
 msgstr "В папке **bin** находятся исполняемые файлы, которые вам понадобятся."
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:39
+#: ../../source/using_ffmpeg_with_tahoma.rst:39
 msgid ""
 "Create a new folder on your computer, the recommended location is "
 "**C:\\\\**."
@@ -129,34 +129,34 @@ msgstr ""
 "Создайте новую папку на вашем компьютере, рекомендуемое расположение - "
 "**C:\\\\**."
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:40
+#: ../../source/using_ffmpeg_with_tahoma.rst:40
 msgid "Name the new folder **FFmpeg**."
 msgstr "Назовите новую папку **FFmpeg**."
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:41
-#: ../../source/using_ffmpeg_with_opentoonz.rst:92
+#: ../../source/using_ffmpeg_with_tahoma.rst:41
+#: ../../source/using_ffmpeg_with_tahoma.rst:92
 msgid ""
 "Drag the contents of the **bin** folder from the archive into the newly "
 "created folder."
 msgstr "Перетащите содержимое папки **bin** из архива во вновь созданную папку."
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:43
+#: ../../source/using_ffmpeg_with_tahoma.rst:43
 msgid "|ffmpeg_extracted_windows|"
 msgstr "|ffmpeg_extracted_windows|"
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:45
-#: ../../source/using_ffmpeg_with_opentoonz.rst:99
+#: ../../source/using_ffmpeg_with_tahoma.rst:45
+#: ../../source/using_ffmpeg_with_tahoma.rst:99
 #, fuzzy
 msgid ""
-"Next, start OpenToonz and open the **Preferences** window with File  →  "
+"Next, start Tahoma and open the **Preferences** window with File  →  "
 "**Preferences...**"
 msgstr ""
-"Затем запустите OpenToonz и откройте окно **Настройки программы...** с "
+"Затем запустите Tahoma и откройте окно **Настройки программы...** с "
 "``Файл > Настройки программы...``"
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:46
-#: ../../source/using_ffmpeg_with_opentoonz.rst:100
-#: ../../source/using_ffmpeg_with_opentoonz.rst:130
+#: ../../source/using_ffmpeg_with_tahoma.rst:46
+#: ../../source/using_ffmpeg_with_tahoma.rst:100
+#: ../../source/using_ffmpeg_with_tahoma.rst:130
 msgid ""
 "Navigate to the **Import/Export** category; at the top you will see a box"
 " with the text **FFmpeg path**."
@@ -164,7 +164,7 @@ msgstr ""
 "Перейдите в категорию **Импорт/Экспорт**; вверху вы увидите поле с "
 "текстом **Путь к FFmpeg**."
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:47
+#: ../../source/using_ffmpeg_with_tahoma.rst:47
 msgid ""
 "Insert the path to your FFmpeg folder that you created earlier, if you "
 "have used the recommended path, this will be **C:\\\\FFmpeg\\\\**:"
@@ -172,101 +172,101 @@ msgstr ""
 "Вставьте путь к папке FFmpeg, которую вы создали ранее, если вы "
 "использовали рекомендуемый путь, это будет **C:\\\\FFmpeg\\\\**:"
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:49
+#: ../../source/using_ffmpeg_with_tahoma.rst:49
 msgid "|ffmpeg_path_windows|"
 msgstr "|ffmpeg_path_windows|"
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:51
-#: ../../source/using_ffmpeg_with_opentoonz.rst:105
-#: ../../source/using_ffmpeg_with_opentoonz.rst:135
-msgid "Restart OpenToonz."
-msgstr "Перезапустите OpenToonz. "
+#: ../../source/using_ffmpeg_with_tahoma.rst:51
+#: ../../source/using_ffmpeg_with_tahoma.rst:105
+#: ../../source/using_ffmpeg_with_tahoma.rst:135
+msgid "Restart Tahoma."
+msgstr "Перезапустите Tahoma. "
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:52
-#: ../../source/using_ffmpeg_with_opentoonz.rst:106
-#: ../../source/using_ffmpeg_with_opentoonz.rst:136
+#: ../../source/using_ffmpeg_with_tahoma.rst:52
+#: ../../source/using_ffmpeg_with_tahoma.rst:106
+#: ../../source/using_ffmpeg_with_tahoma.rst:136
 #, fuzzy
 msgid "Open the **Output Settings** window with Render  →  **Output Settings...**"
 msgstr ""
 "Откройте окно **Настройки вывода** с помощью ``Файл >  Настройки вывода "
 "...``"
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:54
+#: ../../source/using_ffmpeg_with_tahoma.rst:54
 msgid ""
 "In the **File Settings** subsection, you should now see **mp4** and "
 "**webm**."
 msgstr "В подразделе **Настройки файла** вы должны увидеть **mp4** и **webm**."
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:56
+#: ../../source/using_ffmpeg_with_tahoma.rst:56
 msgid "|output_settings_windows|"
 msgstr "|output_settings_windows|"
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:59
+#: ../../source/using_ffmpeg_with_tahoma.rst:59
 msgid "Installing FFmpeg for Mac"
 msgstr "Установка FFmpeg для Mac"
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:68
+#: ../../source/using_ffmpeg_with_tahoma.rst:68
 msgid "Select the Apple icon and select the **Static and Shared builds** link."
 msgstr "Выберите значок Apple и выберите ссылку **Static и Shared build**."
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:70
+#: ../../source/using_ffmpeg_with_tahoma.rst:70
 msgid "|packages_mac|"
 msgstr "|packages_mac|"
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:74
+#: ../../source/using_ffmpeg_with_tahoma.rst:74
 msgid "Make sure **macOS 64-bit** is selected under the **Architecture** column."
 msgstr "Убедитесь, что в столбце **Architecture** выбрано **macOS 64-bit**."
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:76
+#: ../../source/using_ffmpeg_with_tahoma.rst:76
 msgid "|ffmpeg_builds_mac|"
 msgstr "|ffmpeg_builds_mac|"
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:87
+#: ../../source/using_ffmpeg_with_tahoma.rst:87
 msgid ""
-"Open Finder and create a new folder, the **Applications/OpenToonz** "
+"Open Finder and create a new folder, the **Applications/Tahoma** "
 "folder is the recommended location."
 msgstr ""
-"Откройте Finder и создайте новую папку, папка **Applications/OpenToonz** "
+"Откройте Finder и создайте новую папку, папка **Applications/Tahoma** "
 "является рекомендуемым местом."
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:89
+#: ../../source/using_ffmpeg_with_tahoma.rst:89
 msgid "|ffmpeg_finder|"
 msgstr "|ffmpeg_finder|"
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:91
+#: ../../source/using_ffmpeg_with_tahoma.rst:91
 msgid "Name the new folder **FFmpeg**"
 msgstr "Назовите новую папку **FFmpeg**"
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:94
+#: ../../source/using_ffmpeg_with_tahoma.rst:94
 msgid "|ffmpeg_extracted_mac|"
 msgstr "|ffmpeg_extracted_mac|"
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:96
+#: ../../source/using_ffmpeg_with_tahoma.rst:96
 msgid ""
 "For macOS 10.15 and later, each executable within the FFmpeg folder needs"
-" to be opened before using OpenToonz (this only needs to be done one "
+" to be opened before using Tahoma (this only needs to be done one "
 "time, due to security features). In Finder, right-click on each "
 "executable (ffmpeg, ffprobe, and etc.) and select ``Open With → "
 "Terminal``. Once the Terminal windows have launched successfully, "
 "Terminal can be closed."
 msgstr ""
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:101
+#: ../../source/using_ffmpeg_with_tahoma.rst:101
 msgid ""
 "Insert the path to your FFmpeg folder that you created earlier, if you "
 "have used the recommended path, this will be "
-"**/Applications/OpenToonz/FFmpeg**:"
+"**/Applications/Tahoma/FFmpeg**:"
 msgstr ""
 "Вставьте путь к папке FFmpeg, которую вы создали ранее, если вы "
 "использовали рекомендуемый путь, это будет "
-"**/Applications/OpenToonz/FFmpeg**:"
+"**/Applications/Tahoma/FFmpeg**:"
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:103
+#: ../../source/using_ffmpeg_with_tahoma.rst:103
 msgid "|ffmpeg_path_mac|"
 msgstr "|ffmpeg_path_mac|"
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:108
-#: ../../source/using_ffmpeg_with_opentoonz.rst:138
+#: ../../source/using_ffmpeg_with_tahoma.rst:108
+#: ../../source/using_ffmpeg_with_tahoma.rst:138
 msgid ""
 "In the **File Settings** subsection, you should now see **mp4**, **webm**"
 " and **gif**."
@@ -274,15 +274,15 @@ msgstr ""
 "В подразделе **Настройки файла** вы должны увидеть **mp4**, **webm** и "
 "**gif**."
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:110
+#: ../../source/using_ffmpeg_with_tahoma.rst:110
 msgid "|output_settings_mac|"
 msgstr "|output_settings_mac|"
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:113
+#: ../../source/using_ffmpeg_with_tahoma.rst:113
 msgid "Installing FFmpeg for Linux"
 msgstr "Установка FFmpeg для Linux"
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:115
+#: ../../source/using_ffmpeg_with_tahoma.rst:115
 #, fuzzy
 msgid ""
 "To install FFmpeg, enter the following command in the shell depending on "
@@ -291,23 +291,23 @@ msgstr ""
 "Чтобы установить FFmpeg, введите следующую команду в окне терминала в "
 "зависимости от вашего дистрибутива. "
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:117
+#: ../../source/using_ffmpeg_with_tahoma.rst:117
 msgid "Arch Linux: ``# pacman -S extra/ffmpeg``"
 msgstr "Arch Linux: ``# pacman -S extra/ffmpeg``"
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:119
+#: ../../source/using_ffmpeg_with_tahoma.rst:119
 msgid "Debian GNU/Linux: ``# apt install ffmpeg``"
 msgstr "Debian GNU/Linux: ``# apt install ffmpeg``"
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:121
+#: ../../source/using_ffmpeg_with_tahoma.rst:121
 msgid "Gentoo Linux: ``# emerge media-video/ffmpeg``"
 msgstr "Gentoo Linux: ``# emerge media-video/ffmpeg``"
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:123
+#: ../../source/using_ffmpeg_with_tahoma.rst:123
 msgid "Solus: ``# eopkg install ffmpeg``"
 msgstr "Solus: ``# eopkg install ffmpeg``"
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:125
+#: ../../source/using_ffmpeg_with_tahoma.rst:125
 msgid ""
 "If you are using a other Linux distribution please refer to its "
 "documentation or visit the `FFmpeg website "
@@ -317,7 +317,7 @@ msgstr ""
 "документации или посетите `сайт FFmpeg "
 "<https://www.ffmpeg.org/download.html>`_."
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:127
+#: ../../source/using_ffmpeg_with_tahoma.rst:127
 #, fuzzy
 msgid ""
 "To make it possible to export files in **mp4**, **webm** or **gif** "
@@ -330,24 +330,24 @@ msgstr ""
 "системе, обычно это **/usr/bin/ffmpeg**. Введите в окне терминала команду"
 " ``which ffmpeg`` чтобы знать наверняка."
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:129
+#: ../../source/using_ffmpeg_with_tahoma.rst:129
 #, fuzzy
 msgid ""
-"Start OpenToonz and open the **Preferences** window with File  →  "
+"Start Tahoma and open the **Preferences** window with File  →  "
 "**Preferences...**"
 msgstr ""
-"Запустите OpenToonz и откройте окно **Настройки пользователя** с ``Файл >"
+"Запустите Tahoma и откройте окно **Настройки пользователя** с ``Файл >"
 " Настройки программы...``"
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:131
+#: ../../source/using_ffmpeg_with_tahoma.rst:131
 msgid "Insert the path **/usr/bin**."
 msgstr "Вставьте путь **/usr/bin**. "
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:133
+#: ../../source/using_ffmpeg_with_tahoma.rst:133
 msgid "|ffmpeg_path_linux|"
 msgstr "|ffmpeg_path_linux|"
 
-#: ../../source/using_ffmpeg_with_opentoonz.rst:140
+#: ../../source/using_ffmpeg_with_tahoma.rst:140
 msgid "|output_settings_linux|"
 msgstr "|output_settings_linux|"
 

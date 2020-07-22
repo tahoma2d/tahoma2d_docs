@@ -1,11 +1,11 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
-# This file is distributed under the same license as the OpenToonz package.
+# This file is distributed under the same license as the Tahoma package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: OpenToonz 1.2\n"
+"Project-Id-Version: Tahoma 1.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-24 21:51+0800\n"
 "PO-Revision-Date: 2020-05-03 02:43+0800\n"
@@ -255,8 +255,8 @@ msgid "Set the Width and Height values of the level strip Icon Size*."
 msgstr "Установите значения ширины и высоты Level Strip Размер иконки*."
 
 #: ../../source/editing_animation_levels.rst:78
-msgid "Restart OpenToonz to make the changes effective."
-msgstr "Перезапустите OpenToonz, чтобы изменения вступили в силу."
+msgid "Restart Tahoma to make the changes effective."
+msgstr "Перезапустите Tahoma, чтобы изменения вступили в силу."
 
 #: ../../source/editing_animation_levels.rst:84
 msgid "Editing Level Frames"
@@ -1249,7 +1249,7 @@ msgstr "Экспорт уровней"
 
 #: ../../source/editing_animation_levels.rst:435
 msgid ""
-"Animation levels created with OpenToonz can be exported in a variety of image "
+"Animation levels created with Tahoma can be exported in a variety of image "
 "file formats in order to be used in third-party software. The levels are "
 "exported as a sequence of files named with a progressive four-digits number "
 "written between the file name and the file extension, e.g. ``animation.0001."
@@ -1259,7 +1259,7 @@ msgid ""
 "for each format in the Output Settings dialog (see  :ref:`Choosing the Output "
 "Settings <choosing_the_output_settings>`  )."
 msgstr ""
-"Уровни анимации, созданные с помощью OpenToonz, можно экспортировать в "
+"Уровни анимации, созданные с помощью Tahoma, можно экспортировать в "
 "различные форматы файлов изображений для использования в стороннем программном "
 "обеспечении. Уровни экспортируются в виде последовательности файлов, названных "
 "с возрастающим четырехзначным числом, записанным между именем файла и "

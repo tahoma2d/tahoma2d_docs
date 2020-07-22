@@ -1,11 +1,11 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
-# This file is distributed under the same license as the OpenToonz package.
+# This file is distributed under the same license as the Tahoma package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: OpenToonz 1.3\n"
+"Project-Id-Version: Tahoma 1.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-11-27 12:49-0300\n"
 "PO-Revision-Date: 2019-11-27 12:53-0300\n"
@@ -25,13 +25,13 @@ msgstr "Administración de paletas y estilos"
 
 #: ../../source/managing_palettes_and_styles.rst:5
 msgid ""
-"In OpenToonz, Toonz Vector and Toonz Raster animation levels comes with their "
+"In Tahoma, Toonz Vector and Toonz Raster animation levels comes with their "
 "own palette, containing styles that can be used to *draw lines* and *paint lines "
 "and areas*. Raster levels, on the contrary, can be just edited by using the "
 "styles available in the **Raster Drawing Palette**, that is shared by all of the "
 "raster levels in the project."
 msgstr ""
-"En OpenToonz, los niveles de animación de tipo Vectorial de Toonz y de Imagen de "
+"En Tahoma, los niveles de animación de tipo Vectorial de Toonz y de Imagen de "
 "Toonz contienen su propia paleta, conteniendo estilos que pueden ser usados para "
 "*dibujar líneas* y *pintar líneas y áreas*. Los niveles de Imagen normales, en "
 "cambio, pueden ser editados usando los estilos disponibles en la paleta llamada "
@@ -638,10 +638,10 @@ msgstr ""
 #: ../../source/managing_palettes_and_styles.rst:173
 msgid ""
 "Palettes added to the **Global Palettes** folder will be available in the Studio "
-"Palette in any OpenToonz session, regardless of the current project."
+"Palette in any Tahoma session, regardless of the current project."
 msgstr ""
 "Las paletas agregadas a la carpeta **Global Palettes** estarán disponibles en la "
-"Paleta de estudio en cualquier sesión de OpenToonz, cualquiera sea el proyecto "
+"Paleta de estudio en cualquier sesión de Tahoma, cualquiera sea el proyecto "
 "activo."
 
 #: ../../source/managing_palettes_and_styles.rst:175
@@ -726,11 +726,11 @@ msgstr ""
 #: ../../source/managing_palettes_and_styles.rst:189
 msgid ""
 "When palettes are added to **Global Palettes**, they are copied to the "
-"**studiopalette**  folder located where OpenToonz projects are stored (see  :ref:"
+"**studiopalette**  folder located where Tahoma projects are stored (see  :ref:"
 "`Setting up Projects <setting_up_projects>`  )."
 msgstr ""
 "Cuando una paleta es agregada a **Global Palettes**, será copiada a la carpeta "
-"**studiopalette** ubicada en la carpeta ``OpenToonz stuff``  (ver  :ref:"
+"**studiopalette** ubicada en la carpeta ``Tahoma stuff``  (ver  :ref:"
 "`Creación de proyectos <setting_up_projects>`  )."
 
 #: ../../source/managing_palettes_and_styles.rst:191
@@ -1471,12 +1471,12 @@ msgstr ""
 #: ../../source/managing_palettes_and_styles.rst:439
 msgid ""
 "Image sequences can also be loaded as textures, provided they follow the "
-"OpenToonz rules for being detected as such. In the case an image sequence is "
+"Tahoma rules for being detected as such. In the case an image sequence is "
 "loaded as a texture their frames will change with each new frame of the Xsheet/"
 "Timeline, and will cycle when it reaches its last frame."
 msgstr ""
 "También es posible cargar secuencias de imágenes como texturas, siempre y cuando "
-"sigan las reglas de OpenToonz para ser detectadas como tales. En caso de que una "
+"sigan las reglas de Tahoma para ser detectadas como tales. En caso de que una "
 "secuencia de imágenes sea cargada como textura, sus fotogramas cambiarán con "
 "cada nuevo fotograma de la Planilla/Línea de tiempo, y volverá a empezar cuando "
 "alcance su último fotograma."
@@ -1513,10 +1513,10 @@ msgstr ""
 #: ../../source/managing_palettes_and_styles.rst:449
 msgid ""
 "Save the texture file in one of the following folders: ``<projectroot>\\library"
-"\\textures`` or ``Opentoonz stuff\\library\\textures`` (see  :ref:`Setting up "
+"\\textures`` or ``Tahoma stuff\\library\\textures`` (see  :ref:`Setting up "
 "Projects <setting_up_projects>`  )."
 msgstr ""
-"Guardar el archivo de la textura en la siguiente carpeta: ``Opentoonz stuff"
+"Guardar el archivo de la textura en la siguiente carpeta: ``Tahoma stuff"
 "\\library\\textures`` (ver  :ref:`Creación de proyectos "
 "<setting_up_projects>`  )."
 
@@ -1766,26 +1766,26 @@ msgstr "|style_editor_trail_es|"
 #: ../../source/managing_palettes_and_styles.rst:536
 msgid ""
 "Trail styles are available for vector levels only. A trail style repeats an "
-"image or an animation level, created with OpenToonz or third party software, "
+"image or an animation level, created with Tahoma or third party software, "
 "along the vectors of a vector level. Trail styles cannot be used to paint areas."
 msgstr ""
 "Los **Rastros** se encuentran disponibles sólo para niveles Vectorial de Toonz. "
 "Un estilo con **Rastro** repetirá una imagen o nivel de animación, creado con "
-"OpenToonz u otro programa, a lo largo de los trazos de un nivel vectorial. No "
+"Tahoma u otro programa, a lo largo de los trazos de un nivel vectorial. No "
 "será posible usar estilos con **Rastros** para rellenar áreas."
 
 #: ../../source/managing_palettes_and_styles.rst:538
 msgid ""
 "In the Trail section on the Vector tab you can select the image or the animation "
 "level you want to use as a style. You can add to the list your own animation "
-"levels as well: both OpenToonz animation levels (PLI) and full-color images or "
+"levels as well: both Tahoma animation levels (PLI) and full-color images or "
 "sequences of full-color images (BMP, JPG, NOL, PIC, PICT, PCT, PNG, RGB, SGI, "
 "TGA, TIF and TIFF) are supported."
 msgstr ""
 "En la sección **Rastros** de la solapa **Vectorial** es posible seleccionar la "
 "imagen o el nivel de animación que se desee usar como un estilo. También es "
 "posible agregar niveles personalizados a la lista de **Rastros**: se soportan "
-"tanto niveles vectoriales de animación de OpenToonz (PLI), como imágenes "
+"tanto niveles vectoriales de animación de Tahoma (PLI), como imágenes "
 "normales o secuencias de imágenes en formatos BMP, JPG, NOL, PIC, PICT, PCT, "
 "PNG, RGB, SGI, TGA, TIF y TIFF."
 
@@ -1830,16 +1830,16 @@ msgstr "**Para agregar un nuevo estilo personalizado:**"
 
 #: ../../source/managing_palettes_and_styles.rst:548
 msgid ""
-"Create an image or an animation level with OpenToonz, or with third-party "
+"Create an image or an animation level with Tahoma, or with third-party "
 "software."
-msgstr "Crear una imagen o nivel de animación con OpenToonz u otro programa."
+msgstr "Crear una imagen o nivel de animación con Tahoma u otro programa."
 
 #: ../../source/managing_palettes_and_styles.rst:550
 msgid ""
 "Save it in the folder ``Projectroot\\library\\custom styles`` (see  :ref:"
 "`Setting up Projects <setting_up_projects>`  )."
 msgstr ""
-"Guardarla en la carpeta ``OpenToonz stuff\\library\\custom styles`` (ver  :ref:"
+"Guardarla en la carpeta ``Tahoma stuff\\library\\custom styles`` (ver  :ref:"
 "`Creación de proyectos <setting_up_projects>`  )."
 
 #: ../../source/managing_palettes_and_styles.rst:556
@@ -1853,12 +1853,12 @@ msgstr "|style_editor_vectorbrush_es|"
 #: ../../source/managing_palettes_and_styles.rst:560
 msgid ""
 "Vector brush styles are available for vector levels only. A vector brush applies "
-"a vector image, created with OpenToonz, along the vector strokes of a vector "
+"a vector image, created with Tahoma, along the vector strokes of a vector "
 "level. Vector brush styles cannot be used to paint areas."
 msgstr ""
 "Los **Pinceles vectoriales** se encuentran disponibles sólo para niveles "
 "Vectorial de Toonz. Un pincel vectorial aplica una imagen vectorial, creada con "
-"OpenToonz, a lo largo de un *trazo* de un nivel vectorial. Los estilos que usan "
+"Tahoma, a lo largo de un *trazo* de un nivel vectorial. Los estilos que usan "
 "Pinceles vectoriales no pueden ser usados para rellenar *áreas*."
 
 #: ../../source/managing_palettes_and_styles.rst:562
@@ -1904,15 +1904,15 @@ msgid "**To add a new vector brush:**"
 msgstr "**Para agregar un nuevo Pincel vectorial:**"
 
 #: ../../source/managing_palettes_and_styles.rst:574
-msgid "Create a PLI level with OpenToonz."
-msgstr "Crear un nivel vectorial (PLI) en OpenToonz."
+msgid "Create a PLI level with Tahoma."
+msgstr "Crear un nivel vectorial (PLI) en Tahoma."
 
 #: ../../source/managing_palettes_and_styles.rst:576
 msgid ""
 "Save it in the folder ``Projectroot\\library\\vector brushes`` (see  :ref:"
 "`Setting up Projects <setting_up_projects>`  )."
 msgstr ""
-"Guardarlo en la carpeta ``OpenToonz stuff\\library\\vector brushes`` (see  :ref:"
+"Guardarlo en la carpeta ``Tahoma stuff\\library\\vector brushes`` (see  :ref:"
 "`Creación de proyectos <setting_up_projects>`  )."
 
 #: ../../source/managing_palettes_and_styles.rst:578
@@ -2368,11 +2368,11 @@ msgstr "Trazo"
 #: ../../source/managing_palettes_and_styles.rst:714
 msgid ""
 "**Stroke threshold**, how much pressure is needed to start a stroke. This "
-"affects the stroke input only. OpenToonz does not need a minimal pressure to "
+"affects the stroke input only. Tahoma does not need a minimal pressure to "
 "start drawing."
 msgstr ""
 "**Stroke threshold** (umbral del trazo), qué tanta presión será necesaria para "
-"comenzar un trazo. Esto afectará sólo a la entrada *stroke*. OpenToonz no "
+"comenzar un trazo. Esto afectará sólo a la entrada *stroke*. Tahoma no "
 "necesita una presión mínima para comenzar a dibujar."
 
 #: ../../source/managing_palettes_and_styles.rst:716

@@ -8,7 +8,7 @@ Production Workflow
 
 Traditional Workflow
 --------------------
-The following is an example of how OpenToonz allows the management of a traditional animation production.
+The following is an example of how Tahoma allows the management of a traditional animation production.
 
 |traditional_workflow|
 
@@ -17,7 +17,7 @@ The following is an example of how OpenToonz allows the management of a traditio
 
 Scanning
 ~~~~~~~~
-Hand-drawn elements are first defined in an OpenToonz Xsheet, and then acquired by using a scanner. These elements can consist of animation levels, i.e. sequences of drawings belonging to the same animation, or background images and overlays.
+Hand-drawn elements are first defined in an Tahoma Xsheet, and then acquired by using a scanner. These elements can consist of animation levels, i.e. sequences of drawings belonging to the same animation, or background images and overlays.
 
 The scanned images then pass through a cleanup process, and are auto centered when necessary, using their pegbar holes as a guide and their related field guide setting. In the case of lineart drawings, these are further prepared for the painting process.
 
@@ -28,7 +28,7 @@ See  :ref:`Scanning Paper Drawings <scanning_paper_drawings>`  .
 
 Paperless Drawing
 ~~~~~~~~~~~~~~~~~
-Additional drawings and animation levels can be drawn directly in OpenToonz. Drawings can be an important part of the scene, such as a background or a character’s prop, or incidental elements needed to achieve a particular result, for example a mask image to create a matte effect.
+Additional drawings and animation levels can be drawn directly in Tahoma. Drawings can be an important part of the scene, such as a background or a character’s prop, or incidental elements needed to achieve a particular result, for example a mask image to create a matte effect.
 
 See  :ref:`Drawing Animation Levels <drawing_animation_levels>`  .
 
@@ -37,9 +37,9 @@ See  :ref:`Drawing Animation Levels <drawing_animation_levels>`  .
 
 Color Model
 ~~~~~~~~~~~
-Color models are created for accurate color-referencing during production, when painting characters and props. They can be drawings made in OpenToonz, scanned images processed in OpenToonz, or images coming from a 3rd party software. 
+Color models are created for accurate color-referencing during production, when painting characters and props. They can be drawings made in Tahoma, scanned images processed in Tahoma, or images coming from a 3rd party software. 
 
-In case of OpenToonz drawings, the color model palette can be defined by creating styles and colors to be used for painting animation levels.
+In case of Tahoma drawings, the color model palette can be defined by creating styles and colors to be used for painting animation levels.
 
 See  :ref:`Managing Palettes and Styles <managing_palettes_and_styles>`  and  :ref:`Using a Color Model <using_a_color_model>`  .
 
@@ -48,7 +48,7 @@ See  :ref:`Managing Palettes and Styles <managing_palettes_and_styles>`  and  :r
 
 Ink & Painting
 ~~~~~~~~~~~~~~
-Animation levels scanned and cleaned up in OpenToonz, and those made directly in OpenToonz, are painted by using the styles stored in the palette and a set of tools.
+Animation levels scanned and cleaned up in Tahoma, and those made directly in Tahoma, are painted by using the styles stored in the palette and a set of tools.
 
 Palette styles are interactively “linked” to drawn lines and filled areas by using indexes. The main advantage of this method is that if you edit a style of the palette, all the lines and filled areas using that style will be automatically updated. This allows you to change or calibrate colors also after the painting process has been done, without correcting the style line by line, or area by area.
 
@@ -59,7 +59,7 @@ See  :ref:`Managing Palettes and Styles <managing_palettes_and_styles>`  and  :r
 
 Compositing
 ~~~~~~~~~~~
-All OpenToonz painted levels and images are exposed in the Xsheet where the timing of all the elements of a scene can be controlled. Images, animations and clips from 3rd party software can be loaded as well.
+All Tahoma painted levels and images are exposed in the Xsheet where the timing of all the elements of a scene can be controlled. Images, animations and clips from 3rd party software can be loaded as well.
 
 After adding and arranging the required elements to the Xsheet as layered columns, they are then animated by using interpolated keys placed on necessary parameters. Elements that can be animated in this way include the camera, columns, pegbars and the table.
 
@@ -76,7 +76,7 @@ Render Farm
 ~~~~~~~~~~~
 The scene is rendered in order to compose all the transformations and applied special FX in a sequence of frames in the format and resolution you prefer. 
 
-The OpenToonz render farm allows you to batch-render OpenToonz scenes by using a series of computers connected on the same network using TCP/IP. 
+The Tahoma render farm allows you to batch-render Tahoma scenes by using a series of computers connected on the same network using TCP/IP. 
 
 See  :ref:`Rendering the Animation <rendering_the_animation>`  and  :ref:`Using the Toonz Farm <using_the_toonz_farm>`  .
 
@@ -85,7 +85,7 @@ See  :ref:`Rendering the Animation <rendering_the_animation>`  and  :ref:`Using 
 
 Paperless Workflow
 ------------------
-The following is an example of how OpenToonz allows the management of a paperless animation production.
+The following is an example of how Tahoma allows the management of a paperless animation production.
 
 |paperless_workflow|
 
@@ -116,16 +116,16 @@ While usually the storyboard is used by the director to control the rhythm of th
 
 Animatic
 ~~~~~~~~
-The animatic is created starting from the scanned storyboard drawings. In OpenToonz, or in a third-party software, the storyboard drawings are imported, timing is adjusted and camera movements are set. Audio files too can be imported for reference.
+The animatic is created starting from the scanned storyboard drawings. In Tahoma, or in a third-party software, the storyboard drawings are imported, timing is adjusted and camera movements are set. Audio files too can be imported for reference.
 
-In case the animatic is created in OpenToonz, it can also be split so that each cut can be used as a starting point for the final compositing of each scene.
+In case the animatic is created in Tahoma, it can also be split so that each cut can be used as a starting point for the final compositing of each scene.
 
 
 .. _libraries:
 
 Libraries
 ~~~~~~~~~
-Libraries are prepared by drawing directly in OpenToonz all of the elements composing the scenes, such as locations, characters, props, etc. 
+Libraries are prepared by drawing directly in Tahoma all of the elements composing the scenes, such as locations, characters, props, etc. 
 
 As far as the characters are concerned, they will be decomposed in multiple levels (i.e. head, torso, arms etc.) used as skeleton components rejoined through a hierarchy which at the end will make models available to the animators. 
 
@@ -175,7 +175,7 @@ Render
 ~~~~~~
 The scene has to be rendered in order to compose all the transformations and applied special FX in a sequence of frames in the format and resolution you prefer. 
 
-The OpenToonz render farm allows you to batch-render OpenToonz scenes by using a series of computers connected on the same network using TCP/IP. 
+The Tahoma render farm allows you to batch-render Tahoma scenes by using a series of computers connected on the same network using TCP/IP. 
 
 See  :ref:`Rendering the Animation <rendering_the_animation>`  and  :ref:`Using the Toonz Farm <using_the_toonz_farm>`  .
 
