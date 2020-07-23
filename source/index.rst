@@ -6,7 +6,7 @@
 Tahoma User Manual
 ===================================================
 
-| This is the manual for Tahoma, an open-source full-featured 2D animation creation software.
+| This is the manual for Tahoma, an open-source full-featured 2D and Stop Motion animation creation software.
 | `http://tahoma.github.io <http://tahoma.github.io>`_
 
 .. note:: This manual is an ongoing project, which aims to provide the first and most complete reference for Tahoma features, and as such there will always be room for improvements and updates. Collaboration is welcome!

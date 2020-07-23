@@ -3,78 +3,105 @@
 What's New in Tahoma
 =======================
 
+Tahoma includes a number of improvements from OpenToonz.  It also includes the latest features and bug fixes from OpenToonz.
+
 In this section you can find a list of Highlights in the latest release of Tahoma; these may include New Features, Bug Fixes or Enhancements to already existent features.
 Here, you can also find links to past versions' Release Notes, to keep track of Tahoma development history throughout time.
 
+.. _v1.0:
 
-.. _v1.4:
+New in Tahoma 1.0
+-----------------
 
-v1.4
-----
+UI
+''
 
-.. _highlights:
+- |new| Updated styles, icons and UI by konero
+- |new| New status bar at the bottom of the program to give hints and tips. (This can be hidden.)
+- |enhancement| Removed Auto and Apply buttons from style editor
+- |enhancement| Big funtion editor overhaul with channel colors
+- |enhancement| Simplified default view in the viewer - need to do this to the combo viewer too
+- |new| Big new style button in the palette viewer.
+- |enhancement| Reorganized buttons in the palette viewer
+- |enhancement| Updated how the style editor shows colors and swatches.
+- |enhancement| Simplified camera settings window.
+- |enhancement| Simplified output settings window.
+- |enhancement| Renamed default style to medium
+- |enhancement| Dark is the default style.
+- |enhancement| Removed toggle xsheet button - it is now in the right click menu.
+- |enhancement| Revamped rooms
+- |enhancement| The memo buttons have been moved lower and the old new memo button now is a create level button.
+- |new| Time indicator in the viewer
+- |new| Panel titlebars are now hidden by default when the rooms are locked
+- |enhancement| Table hidden by default
 
-Highlights
-''''''''''
+Stop Motion
+'''''''''''
 
-- |new| **Vector Guided Drawing Controls** panel and options.
-- |new| **Stop-Motion panel** & Canon DSLR Camera Capture support (Windows only).
-- |new| Toolbar: Now tool availability is **Context Aware**.
-- |new| Fill Tool: Can now be used in **Raster Levels**.
-- |new| Eraser Tool: **Pencil Mode** for Toonz Raster levels, also in Freehand and Polyline types.
-- |new| Xsheet/Timeline: **Camera Column** to see and edit animation keyframes.
-- |new| Xsheet/Timeline: **Create Blank Drawing** command.
-- |new| Playback: New **Short Play** command.
-- |new| Import/Export: **XDTS File Support** (Celsys and Toei Animation xsheet file format).
-- |new| Effects: **Corridor Gradient Iwa**.
-- |new| Effects: **Spin Gradient Iwa**.
-- |new| Motion Paths: Now can be created using the **Geometry Tool**.
-- |new| Shortcuts: New shortcuts for **Next/Previous Keyframe** commands.
-- |new| Viewer: **Color settings** for Viewer Background in Level editing mode.
-- |new| Cleanup: **"None" line processing mode**, for applying only autocenter/rotation/flipping.
-- |new| Palette Editor: **Delete Unused Styles** right-click command.
-- |new| Cache folder location & **Clear Cache Command**.
-- |new| Execute Toonz **scripts from commandline**.
-- |new| UI: New Help menu options **Online Manual**, **What's New**, **Community Forum** and **Report a Bug**.
-- |new| UI: New **Korean** translation. (Initial version)
-- |new| Effects: **Help in English and Spanish**.
-- |new| Tahoma Manual: New **Spanish** translation.
-- |enhancement| UI: **Updated/Reorganized Menus**.
-- |enhancement| File Browser: **Double-click in Load Scene and Load Level dialogs** to open files.
-- |enhancement| Level Settings window: Now can act upon **Multiple Selected levels**.
-- |enhancement| Startup Popup: Now **Scenes are Saved on Creation**.
-- |enhancement| Effects: Added **Swap Colors Button** in Gradient effects.
-- |enhancement| Read Only levels: Allow to **Copy Selections from Read Only Levels**.
-- |enhancement| Read Only levels: PSD and FFmpeg-loaded levels are now **Read Only**.
-- |enhancement| Function Editor: **Hide Inbetween Values** option in Spreadsheet mode.
-- |enhancement| Function Editor: **Step / Interpolation change** for multiple selected Keyframes.
-- |enhancement| Animate Tool: Precise control using **Alt** key.
-- |enhancement| Brush Tool: Remember last brush preset used.
-- |enhancement| Control Point Editor Tool: Make **Control Points easier to select**.
-- |enhancement| Sound: **Improved Sound Quality** for Playback and Scrubbing. (Linux only)
-- |fix| Brush Tool: **Center mouse cursor on brush preview** (for pixel-art work)
-- |fix| **Transparent QuickTime Output**.
+- |new| Camera Test Shots panel in Stop Motion
+- |new| Live View Exposure Offset for Stop Motion
+- |new| Stop Motion can now show the scene on monitors during capture for lighting or backgrounds.
+- |new| Arduino communication for Stop Motion
 
-...and much more!
+Drawing
+'''''''
 
-Please see the `v1.4 Release Notes <https://github.com/tahoma/tahoma/releases/tag/v1.4.0>`_  hosted in GitHub, for the full list of new features, enhancements and bug fixes.
+- |new| Toonz Raster levels are now Smart Raster Levels
+- |new| New perspective assistant on raster and Smart Raster levels.
+- |new| Holding shift on raster and Smart Raster levels creates straight lines
+- |new| Holding control on raster and Smart Raster levels locks to vertical, horizontal or diagonal lines.
+
+Usability
+'''''''''
+
+- |new| Projects can now be saved anywhere in a much more simplified way.
+- |new| Render is now Save and Render - Scenes are saved before rendering to prevent lost work.
+- |new| The lock in the top right now locks rooms and panes at the same time. No more lock options in two places.
+- |new| Pixels are the only supported unit - no inches or mm
+- |enhancement| Simplified list of supported export types
+- |new| Double clicking in graph window fits the contents to the window
+- |enhancement| Changed E/W and N/S to X and Y
+- |enhancement| Removed customizable menubars
+- |enhancement| Autosave no longer shows a pop up
+- |new| Changed clicking on a folder in file browser to need double clicking to open the folder
+- |new| Added an indicator if the frame rate of the viewer is not the same as the scene
+- |new| New “Delete Frame” command in the level strip.
+- |new| New “Paste as a Copy” command in the timeline/xsheet.
+- |new| You can now change the parent of a column from the xsheet. No need to switch to the schematic view.
+- |new| Hex numbers for colors can now be used in the Style Editor
+
+Bug Fixes
+'''''''''
+
+- |fix| Fixed a bug with room names that had a space.
+- |fix| All fixes current with OT.
+- |fix| Fix pan, rotate and zoom to work with shortcuts without losing selections
+- |fix| Fix error where brush wouldn’t work correctly on raster levels of different sizes
+- |fix| Fixed the playback fps color not resetting after pause
+- |fix| Fixed some strange panel docking issues.
+- |fix| Many more. . .
+
+Misc
+''''
+
+- |new| Export Panel
 
 
 
-.. _previous versions:
-
-Previous Versions of Tahoma
-------------------------------
+Previous Versions
+-----------------
 
 Here you can find links to previous versions' full Release Notes, hosted in GitHub:
 
-`v1.3 Release Notes <https://github.com/tahoma/tahoma/releases/tag/v1.3.0>`_
+`v1.4 Release Notes <https://github.com/opentoonz/opentoonz/releases/tag/v1.4.0>`_
 
-`v1.2.1 Release Notes <https://github.com/tahoma/tahoma/releases/tag/v1.2.1>`_
+`v1.3 Release Notes <https://github.com/opentoonz/opentoonz/releases/tag/v1.3.0>`_
 
-`v1.2 Release Notes <https://github.com/tahoma/tahoma/releases/tag/v1.2.0>`_
+`v1.2.1 Release Notes <https://github.com/opentoonz/opentoonz/releases/tag/v1.2.1>`_
 
-`v1.1.3 Release Notes <https://github.com/tahoma/tahoma/releases/tag/v1.1.3>`_
+`v1.2 Release Notes <https://github.com/opentoonz/opentoonz/releases/tag/v1.2.0>`_
+
+`v1.1.3 Release Notes <https://github.com/opentoonz/opentoonz/releases/tag/v1.1.3>`_
 
 `v1.1.2 Release Notes <https://github.com/tahoma/tahoma/releases/tag/v1.1.2>`_
 

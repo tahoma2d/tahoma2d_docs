@@ -8,6 +8,9 @@ What is FFmpeg?
 | To render your animation as an **mp4** or **webm**, or also as a **gif** on Mac, Tahoma requires the FFmpeg multimedia framework to be installed on your machine.
 | For more information, please visit this page: `About FFmpeg <https://www.ffmpeg.org/about.html>`_
 
+Tahoma ships with a version of FFmpeg that is licensed under the LGPL license.  This version can export .mp4 videos, but may not deliver as high quality videos as the GPL version of FFmpeg.
+You may want to change the version of FFmpeg that is used in Tahoma.  To do so, follow the instructions below.
+
 Installing FFmpeg for Windows
 -----------------------------
 
