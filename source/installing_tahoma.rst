@@ -45,7 +45,7 @@ Follow these steps:
 
 3. Double click and start drawing.
 
-.. tip:: For macOS 10.15 and later, the first time you open Tahoma, there may be an error message saying Tahoma cannot be opened. Choose “Cancel” and open System Preferences. Under ``Security & Privacy``&rarr;`` General``, select “Open Anyway.” Then choose “Open” in the next dialog. Afterwards, Tahoma will open normally. 
+.. tip:: For macOS 10.15 and later, the first time you open Tahoma, there may be an error message saying Tahoma cannot be opened. Choose “Cancel” and open System Preferences. Under ``Security & Privacy --> General``, select “Open Anyway.” Then choose “Open” in the next dialog. Afterwards, Tahoma will open normally. 
 
 .. tip:: For older versions of macOS, open through Finder the first time. Right-click on Tahoma and select “Open”. Then choose “Open Anyway”. Afterwards, Tahoma will open normally. 
 
