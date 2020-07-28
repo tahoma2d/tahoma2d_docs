@@ -10,7 +10,7 @@ Downloading Tahoma
 ---------------------
 You can download the appropriate version of Tahoma for your operating system from the `Download page <https://tahoma2d.org/download>`_ in the official Tahoma web site. Choose either the Windows or macOS version to start downloading the application.
 
-.. note:: All other builds appart from the ones downloaded from the official web site ARE NOT officially supported.
+.. note:: All other builds apart from the ones downloaded from the official web site ARE NOT officially supported.
 
 
 
@@ -32,15 +32,15 @@ Download the Windows zipped file and follow these steps:
 
 .. _installing_on_os_x:
 
-Installing on OS X
+Installing on macOS
 ------------------
-Follow these steps:
+Download the macOS dmg file and follow these steps:
 
 
 1. Double click on the dmg package.
 
 
-2. Drag the Tahoma program to the Application folder 
+2. Drag the Tahoma program to the Applications folder 
  
 
 3. Double click and start drawing.
