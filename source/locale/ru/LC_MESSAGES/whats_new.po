@@ -58,7 +58,7 @@ msgstr ""
 
 #: ../../source/whats_new.rst:24
 msgid ""
-"|new| Eraser Tool: **Pencil Mode** for Toonz Raster levels, also in "
+"|new| Eraser Tool: **Pencil Mode** for Smart Raster levels, also in "
 "Freehand and Polyline types."
 msgstr ""
 

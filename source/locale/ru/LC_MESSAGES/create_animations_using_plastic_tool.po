@@ -158,7 +158,7 @@ msgstr ""
 #: ../../source/create_animations_using_plastic_tool.rst:51
 msgid ""
 "The **Rasterization DPI** parameter is available only when you are "
-"creating the mesh from Toonz Vector levels."
+"creating the mesh from Vector levels."
 msgstr ""
 
 #: ../../source/create_animations_using_plastic_tool.rst:53
@@ -1497,7 +1497,7 @@ msgstr ""
 #~ msgid ""
 #~ "The Rasterization DPI parameter is "
 #~ "available only when you are creating "
-#~ "mesh starting from Toonz Vector Levels."
+#~ "mesh starting from Vector Levels."
 #~ msgstr ""
 
 #~ msgid ""

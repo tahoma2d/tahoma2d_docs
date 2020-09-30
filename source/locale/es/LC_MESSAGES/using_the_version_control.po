@@ -785,7 +785,7 @@ msgstr ""
 #: ../../source/using_the_version_control.rst:279
 msgid ""
 "The **Edit Frame Range** command is available as well, to let a user edit only "
-"the *needed frames* of any Toonz Vector or Toonz Raster animation level. This "
+"the *needed frames* of any Vector or Smart Raster animation level. This "
 "way, different users can work at the same time *on different frame ranges* of "
 "the same animation level."
 msgstr ""

@@ -773,7 +773,7 @@ msgstr ""
 #: ../../source/toonzscript.rst:409
 msgid ""
 "The component of translation of the transform means expressed in pixels "
-"for Raster and Toonz Raster levels, and in Camera Stand units for Vector "
+"for Raster and Smart Raster levels, and in Camera Stand units for Vector "
 "levels."
 msgstr ""
 
@@ -840,7 +840,7 @@ msgstr ""
 #: ../../source/toonzscript.rst:455 ../../source/toonzscript.rst:501
 msgid ""
 "``v.vectorize(level or image)`` - returns the new vectorized level (or "
-"image), supports as input: Raster or Toonz Raster images and levels."
+"image), supports as input: Raster or Smart Raster images and levels."
 msgstr ""
 
 #: ../../source/toonzscript.rst:459 ../../source/toonzscript.rst:507

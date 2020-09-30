@@ -1477,13 +1477,13 @@ Blends a negative and a positive version of the Source content, as if exposing a
 
 .. _toonz_level:
 
-Toonz Level
+Tahoma Level
 '''''''''''
-Toonz Level type of effects can be applied only to Toonz Vector and Toonz Raster (PLI and TLV files). They usually affect the drawings they are applied to according to Style indexes. Style indexes can be retrieved in the Palette after the # symbol in the Style tooltip, or in the *bottom right corner* of the style in any of the **Thumbnails View** modes. 
+Tahoma Level type of effects can be applied only to Vector and Smart Raster (PLI and TLV files). They usually affect the drawings they are applied to according to Style indexes. Style indexes can be retrieved in the Palette after the # symbol in the Style tooltip, or in the *bottom right corner* of the style in any of the **Thumbnails View** modes. 
 
 Index numbers can be specified in the related text field, separated by a comma. To define a range of indexes, you should type the first and last separated by a dash (e.g. 4-7 will refer to indexes 4, 5, 6 and 7). To select all indexes, type ``all`` ; to select no index, type ``none`` .
 
-Toonz Level type of effects have to be always applied first when a series of effects are applied to an animation level, as they work only on Toonz Vector or Toonz Raster levels that have not been transformed by other type of effects. However two or more Toonz Level type of effects can be applied to the same animation level.
+Tahoma Level type of effects have to be always applied first when a series of effects are applied to an animation level, as they work only on Vector or Smart Raster levels that have not been transformed by other type of effects. However two or more Tahoma Level type of effects can be applied to the same animation level.
 
 .. _art_contour:
 
@@ -1535,7 +1535,7 @@ External Palette
 
 Applies to the Source content the palette node connected to the Palette input port; if a column node is connected to the Palette input port, the palette related to its content will be considered. 
 
-The original styles of the Toonz levels contained in the source node are replaced with those of the levels contained in the palette node according to their style indexes.
+The original styles of the Tahoma levels contained in the source node are replaced with those of the levels contained in the palette node according to their style indexes.
 
 .. _outline:
 

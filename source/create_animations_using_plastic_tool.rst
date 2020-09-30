@@ -48,7 +48,7 @@ The mesh is the real object that the Plastic tool modifies when a plastic skelet
 
     5. If needed, change the value of the **Rasterization DPI** parameter. This value represents the DPI used when the TC is rendered as a texture for the mesh. It's recommend using a value consistent with the Camera resolution. A DPI too high compared to the Camera resolution might cause the contours of the TC not to be very soft.
 
-     .. note:: The **Rasterization DPI** parameter is available only when you are creating the mesh from Toonz Vector levels.
+     .. note:: The **Rasterization DPI** parameter is available only when you are creating the mesh from Vector levels.
 
     6. Adjust the **Mesh Margin** value. This parameter is expressed in *pixels* because it's used when the texture is projected on the mesh, an appropriate amount of margin will be needed to preserve the aliasing of the picture.
 

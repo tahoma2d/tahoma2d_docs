@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../source/managing_palettes_and_styles.rst:5
 msgid ""
-"Each Toonz raster and vector animation level comes with its own palette "
+"Each Smart Raster and vector animation level comes with its own palette "
 "containing styles that can be used to draw lines and paint lines and "
 "areas. Raster levels on the contrary can be edited by using styles "
 "available in the raster drawing palette that is shared by all of the "
@@ -32,7 +32,7 @@ msgstr ""
 
 #: ../../source/managing_palettes_and_styles.rst:7
 msgid ""
-"In Toonz levels, palette styles are interactively “linked” to drawn lines"
+"In Tahoma Levels, palette styles are interactively “linked” to drawn lines"
 " and filled areas by using indexes. The main advantage of this method is "
 "that if you edit a style of the palette, all the lines and filled areas "
 "using that style will be automatically updated. This allows you to change"
@@ -69,8 +69,8 @@ msgstr ""
 
 #: ../../source/managing_palettes_and_styles.rst:19
 msgid ""
-"The default palette of any new Toonz vector level contains only the plain"
-" black color; the default palette of a Toonz raster level contains the "
+"The default palette of any new Vector level contains only the plain"
+" black color; the default palette of a Smart Raster level contains the "
 "colors recognized during the cleanup process. Any palette always contains"
 " the No Style item, that allows you to remove any style from lines and "
 "filled areas."
@@ -838,7 +838,7 @@ msgstr ""
 
 #: ../../source/managing_palettes_and_styles.rst:331
 msgid ""
-"For Toonz raster and vector levels, colors in a palette can be animated "
+"For Smart Raster and vector levels, colors in a palette can be animated "
 "and change according to the frames of the animation."
 msgstr ""
 
@@ -1406,7 +1406,7 @@ msgstr ""
 
 #: ../../source/managing_palettes_and_styles.rst:565
 msgid ""
-"For Toonz raster levels, it contains only the Autopaint for Lines option,"
+"For Smart Raster levels, it contains only the Autopaint for Lines option,"
 " that can be used to paint automatically lines with the fill color when "
 "painting the level (see  :ref:`Using the Autopaint for Lines Option "
 "<using_the_autopaint_for_lines_option>`  )."
@@ -1414,7 +1414,7 @@ msgstr ""
 
 #: ../../source/managing_palettes_and_styles.rst:567
 msgid ""
-"For Toonz vector levels, it contains parameters only when the style is a "
+"For Vector levels, it contains parameters only when the style is a "
 "custom or a special one."
 msgstr ""
 

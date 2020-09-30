@@ -3134,7 +3134,7 @@ msgstr ""
 
 #: ../../source/applying_special_fx.rst:1427
 msgid ""
-"The Toonz Level special FX can be applied only to Toonz raster and vector"
+"The Toonz Level special FX can be applied only to Smart Raster and vector"
 " levels (TLV and PLI files). They usually affect the drawings they are "
 "applied to according to style indexes. Style indexes can be retrieved in "
 "the palette after the # symbol in the style tooltip, or in the bottom "
@@ -3288,7 +3288,7 @@ msgstr ""
 
 #: ../../source/applying_special_fx.rst:1483
 msgid ""
-"The original styles of the Toonz levels contained in the source node are "
+"The original styles of the Tahoma Levels contained in the source node are "
 "replaced with those of the levels contained in the palette node according"
 " to their style indexes."
 msgstr ""

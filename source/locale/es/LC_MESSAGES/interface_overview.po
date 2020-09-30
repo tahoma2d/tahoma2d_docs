@@ -303,7 +303,7 @@ msgstr ""
 #: ../../source/interface_overview.rst:126
 msgid ""
 "The Cleanup Settings pane allows you to define the parameters for the clean-up "
-"process of scanned raster images, in order to convert them into Toonz Raster "
+"process of scanned raster images, in order to convert them into Smart Raster "
 "images, ready to be painted in Tahoma."
 msgstr ""
 "El panel Opciones de limpieza permite definir los parámetros para el proceso de "
@@ -712,11 +712,11 @@ msgstr ""
 
 #: ../../source/interface_overview.rst:322
 msgid ""
-"|paint_brush| **Paint Brush** paints lines and areas in Toonz raster drawings in "
+"|paint_brush| **Paint Brush** paints lines and areas in Smart Raster drawings in "
 "freehand mode. (see  :ref:`Filling Areas <filling_areas>`  )."
 msgstr ""
 "|paint_brush| **Brocha** permite pintar líneas y áreas a mano alzada en niveles "
-"Toonz Raster. (ver  :ref:`Relleno de áreas <filling_areas>`  )."
+"Smart Raster. (ver  :ref:`Relleno de áreas <filling_areas>`  )."
 
 #: ../../source/interface_overview.rst:327
 msgid ""

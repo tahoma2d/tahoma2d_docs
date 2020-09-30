@@ -51,7 +51,7 @@ Rooms can be named and their order can be rearranged. New rooms can be added and
 
     Right-click the room tab and choose Delete Room "<Name>" from the menu that opens. The current room cannot be deleted.
 
-.. tip:: **To return to the set of rooms provided with Toonz:**
+.. tip:: **To return to the set of rooms provided with Tahoma2D:**
 
     Choose Windows  →  Reset to Default Rooms.
 
@@ -134,7 +134,7 @@ Cleanup Settings
 
 |UI_cleanup|
 
-The Cleanup Settings pane allows you to define the parameters for the clean-up process of scanned raster images, in order to convert them into Toonz Raster images, ready to be painted in Tahoma. 
+The Cleanup Settings pane allows you to define the parameters for the clean-up process of scanned raster images, in order to convert them into Smart Raster images, ready to be painted in Tahoma. 
 
 See  :ref:`Cleaning-up Scanned Drawings <cleaning-up_scanned_drawings>`  .
 
@@ -330,7 +330,7 @@ The toolbar contains tools to draw, select and edit drawings, and to animate obj
 
 
 
-|paint_brush| **Paint Brush** paints lines and areas in Toonz raster drawings in freehand mode. (see  :ref:`Filling Areas <filling_areas>`  ).
+|paint_brush| **Paint Brush** paints lines and areas in Smart Raster drawings in freehand mode. (see  :ref:`Filling Areas <filling_areas>`  ).
 
 
 

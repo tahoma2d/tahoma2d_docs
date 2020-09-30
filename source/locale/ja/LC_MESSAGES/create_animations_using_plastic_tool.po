@@ -140,7 +140,7 @@ msgstr ""
 #: ../../source/create_animations_using_plastic_tool.rst:51
 msgid ""
 "The Rasterization DPI parameter is available only when you are creating "
-"mesh starting from Toonz Vector Levels."
+"mesh starting from Vector Levels."
 msgstr ""
 
 #: ../../source/create_animations_using_plastic_tool.rst:53
@@ -956,7 +956,7 @@ msgstr ""
 msgid ""
 "For building interesting and complex animations it could be useful and "
 "time saving to create a Parent -> Children relation between standard "
-"Toonz levels and Plastic modified levels, or between Plastic modified "
+"Tahoma Levels and Plastic modified levels, or between Plastic modified "
 "levels, so that the children levels inherit the transformations of the "
 "parent automatically. It is always possible to link the levels using the "
 "Pegbar as target but what if something more subtler is needed as using "

@@ -125,7 +125,7 @@ msgstr ""
 msgid ""
 "Segment lets you apply the fill only to a segment of the raster outline. "
 "A segment is determined by an abrupt change of thickness or direction in "
-"the outline. This is available for Toonz raster drawings only."
+"the outline. This is available for Smart Raster drawings only."
 msgstr ""
 
 #: ../../source/painting_animation_levels.rst:45
@@ -186,7 +186,7 @@ msgstr ""
 
 #: ../../source/painting_animation_levels.rst:65
 msgid ""
-"In Toonz raster levels, the areas that can be painted are limited either "
+"In Smart Raster levels, the areas that can be painted are limited either "
 "by the image border or by the image savebox, according to the Use TLV "
 "Savebox to Limit Filling Operations option available in Preferences > "
 "Drawing."
@@ -461,7 +461,7 @@ msgstr ""
 
 #: ../../source/painting_animation_levels.rst:161
 msgid ""
-"For Toonz vector drawings the Tape tool ( |Toonz71_170| ) allows you to "
+"For Vector drawings the Tape tool ( |Toonz71_170| ) allows you to "
 "join vectors manually or automatically, both considering their endpoints "
 "and any point along the vectors themselves, according to the tool "
 "settings. Options available are the following:"
@@ -521,7 +521,7 @@ msgstr ""
 
 #: ../../source/painting_animation_levels.rst:179
 msgid ""
-"For Toonz raster drawings the Tape tool ( |Toonz71_171| ) automatically "
+"For Smart Raster drawings the Tape tool ( |Toonz71_171| ) automatically "
 "joins the open ends detected in the drawing according to the tool "
 "settings. Options available are the following:"
 msgstr ""
@@ -788,18 +788,18 @@ msgstr ""
 #: ../../source/painting_animation_levels.rst:272
 msgid ""
 "Drawing outline can be painted with the Fill tool ( |Toonz71_178| ). For "
-"Toonz raster drawings, the Fill tool ("
+"Smart Raster drawings, the Fill tool ("
 msgstr ""
 
 #: ../../source/painting_animation_levels.rst:274
 msgid ""
 "|Toonz71_179| ) affects the continuous outline sharing the same style; "
-"for Toonz vector drawings, only a single vector at a time."
+"for Vector drawings, only a single vector at a time."
 msgstr ""
 
 #: ../../source/painting_animation_levels.rst:278
 msgid ""
-"For Toonz raster drawings, the outline can be also painted with the Paint"
+"For Smart Raster drawings, the outline can be also painted with the Paint"
 " Brush tool ( |Toonz71_180| ) set to Lines mode. In this case by setting "
 "the size of the tool, you can paint any section of the outline as if you "
 "were using a brush."
@@ -808,7 +808,7 @@ msgstr ""
 #: ../../source/painting_animation_levels.rst:282
 #: ../../source/painting_animation_levels.rst:491
 msgid ""
-"For Toonz vector drawings, a vector can be also painted by selecting it "
+"For Vector drawings, a vector can be also painted by selecting it "
 "first, then selecting the style you want in the animation level palette."
 msgstr ""
 
@@ -1015,7 +1015,7 @@ msgstr ""
 
 #: ../../source/painting_animation_levels.rst:376
 msgid ""
-"For Toonz vector drawings the Tape tool ( |Toonz71_196| ) allows you to "
+"For Vector drawings the Tape tool ( |Toonz71_196| ) allows you to "
 "join vectors manually or automatically, both considering their endpoints "
 "and any point along the vectors themselves, according to the tool "
 "settings. Options available are the following:"
@@ -1031,7 +1031,7 @@ msgstr ""
 
 #: ../../source/painting_animation_levels.rst:394
 msgid ""
-"For Toonz raster drawings the Tape tool ( |Toonz71_197| ) automatically "
+"For Smart Raster drawings the Tape tool ( |Toonz71_197| ) automatically "
 "joins the open ends detected in the drawing according to the tool "
 "settings. Options available are the following:"
 msgstr ""
@@ -1065,18 +1065,18 @@ msgstr ""
 #: ../../source/painting_animation_levels.rst:481
 msgid ""
 "Drawing outline can be painted with the Fill tool ( |Toonz71_204| ). For "
-"Toonz raster drawings, the Fill tool ("
+"Smart Raster drawings, the Fill tool ("
 msgstr ""
 
 #: ../../source/painting_animation_levels.rst:483
 msgid ""
 "|Toonz71_205| ) affects the continuous outline sharing the same style; "
-"for Toonz vector drawings, only a single vector at a time."
+"for Vector drawings, only a single vector at a time."
 msgstr ""
 
 #: ../../source/painting_animation_levels.rst:487
 msgid ""
-"For Toonz raster drawings, the outline can be also painted with the Paint"
+"For Smart Raster drawings, the outline can be also painted with the Paint"
 " Brush tool ( |Toonz71_206| ) set to Lines mode. In this case by setting "
 "the size of the tool, you can paint any section of the outline as if you "
 "were using a brush."
@@ -1349,7 +1349,7 @@ msgstr ""
 
 #: ../../source/painting_animation_levels.rst:649
 msgid ""
-"Toonz raster levels may include colored lines coming from a color cleanup"
+"Smart Raster levels may include colored lines coming from a color cleanup"
 " session, or from some applied match line levels (see  :ref:`Processing "
 "Colored Lineart Drawings <processing_colored_lineart_drawings>`  and  "
 ":ref:`Using Match Lines <using_match_lines>`  for details)."
@@ -1429,7 +1429,7 @@ msgstr ""
 
 #: ../../source/painting_animation_levels.rst:680
 msgid ""
-"If the color model is a Toonz raster or vector level (TLV or PLI file), "
+"If the color model is a Smart Raster or vector level (TLV or PLI file), "
 "it already comes with a palette, whose style names and page configuration"
 " will be preserved."
 msgstr ""

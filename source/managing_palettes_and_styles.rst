@@ -2,13 +2,13 @@
 
 Managing Palettes and Styles
 ============================
-In Tahoma, Toonz Vector and Toonz Raster animation levels comes with their own palette, containing styles that can be used to *draw lines* and *paint lines and areas*. Raster levels, on the contrary, can be just edited by using the styles available in the **Raster Drawing Palette**, that is shared by all of the raster levels in the project.
+In Tahoma, Vector and Smart Raster animation levels comes with their own palette, containing styles that can be used to *draw lines* and *paint lines and areas*. Raster levels, on the contrary, can be just edited by using the styles available in the **Raster Drawing Palette**, that is shared by all of the raster levels in the project.
 
-In Toonz Vector and Toonz Raster levels, palette styles are interactively “linked” to drawn *lines* and filled *areas* by using indexes. The main advantage of this method is that if you edit a style of the palette, all the lines and filled areas using that style will be automatically updated. This allows you to change or calibrate colors, even after the painting process has been done, without having to correct the style line by line, or area by area in the image.
+In Vector and Smart Raster levels, palette styles are interactively “linked” to drawn *lines* and filled *areas* by using indexes. The main advantage of this method is that if you edit a style of the palette, all the lines and filled areas using that style will be automatically updated. This allows you to change or calibrate colors, even after the painting process has been done, without having to correct the style line by line, or area by area in the image.
 
 In Raster levels, palette styles are simply used to draw or touch up the image, and no link exists between the styles and the already drawn lines. This palette, named **Raster Drawing Palette**, is shared by all the Raster levels belonging to a specific project and is stored in the **+palettes**  project default folder (see  :ref:`Project Default Folders <project_default_folders>`  ).
 
-.. note:: All the editing performed in palettes and styles is not saved until you save the related Toonz level, the palette itself, or the **Save All** command is used (see  :ref:`Saving Levels <saving_levels>`  ).
+.. note:: All the editing performed in palettes and styles is not saved until you save the related level, the palette itself, or the **Save All** command is used (see  :ref:`Saving Levels <saving_levels>`  ).
 
 
 .. _the_palette_window:
@@ -20,7 +20,7 @@ The Palette Editor displays the styles of the current animation level that are (
 
 |palette| 
 
-The default palette of any new **Toonz Vector** level contains only the plain black color; the default palette of a **Toonz Raster** level contains either the plain black color, for new levels, or the colors recognized during the cleanup process, for cleaned up levels from scans. Any palette always contains the **Color_0** item, that allows you to remove any style from *lines* and filled *areas*. 
+The default palette of any new **Vector** level contains only the plain black color; the default palette of a **Smart Raster** level contains either the plain black color, for new levels, or the colors recognized during the cleanup process, for cleaned up levels from scans. Any palette always contains the **Color_0** item, that allows you to remove any style from *lines* and filled *areas*. 
 
 .. note:: Each palette can contain up to 4096 styles.
 
@@ -326,7 +326,7 @@ These folders can be used, for example, to move your Studio Palette, or the Proj
 
 Animating Palettes
 ------------------
-For Toonz Vector and Toonz Raster levels, colors in a palette can be animated and changed according to the frames of the Xsheet/Timeline.
+For Vector and Smart Raster levels, colors in a palette can be animated and changed according to the frames of the Xsheet/Timeline.
 
 The animation is defined by keys that refer to the absolute timing of the Xsheet/Timeline: this means that there is no relation between the level length and the length of the animation of the palette colors. For example you can create a palette animated from frame 1 to 100 even if its level is only five frames long.
 
@@ -364,7 +364,7 @@ Keys are set for *all* the palette Colors and Settings (in the case of **Generat
 Editing Styles
 --------------
 
-Palette styles can be modified with the Style Editor. There are four types of styles to choose from: **Color**, **Texture**, **Vector** and **Raster**. Under the **Vector** tab, there are the **Generated**, **Trail** and **Vector Brushes** categories, available for Toonz Vector levels only. For several types of styles, there is also control over various styles options in the **Settings** tab.
+Palette styles can be modified with the Style Editor. There are four types of styles to choose from: **Color**, **Texture**, **Vector** and **Raster**. Under the **Vector** tab, there are the **Generated**, **Trail** and **Vector Brushes** categories, available for Vector levels only. For several types of styles, there is also control over various styles options in the **Settings** tab.
 
 An **Auto** button lets you decide whether the edits have to be assigned automatically to the style, or only after you click on the **Apply** button. In the bottom right corner you can see swatches for the previous and new style status; if you want to go back to the previous style, simply click on it. 
 
@@ -434,7 +434,7 @@ Textures
 
 Textures can be used both for drawing *lines* and filling *areas*. They can be selected from a list available in the **Texture** tab, where your own textures can be added as well, or custom textures can be added by clicking the **Custom Texture** button.
 
-Texture styles can be used both in Toonz Vector and Toonz Raster levels, but only when applied to Toonz Raster levels they react to the settings values in the **Settings** tab (see  :ref:`Texture Settings <texture_settings>`  ).
+Texture styles can be used both in Vector and Smart Raster levels, but only when applied to Smart Raster levels they react to the settings values in the **Settings** tab (see  :ref:`Texture Settings <texture_settings>`  ).
 
 Image sequences can also be loaded as textures, provided they follow the Tahoma rules for being detected as such. In the case an image sequence is loaded as a texture their frames will change with each new frame of the Xsheet/Timeline, and will cycle when it reaches its last frame.
 
@@ -464,28 +464,28 @@ The custom texture will be saved into the Palette and its icon will be replaced 
 
     3. Go in the **Settings** tab, use the **Load From File** field and choose the image (or image sequence) you want to use as texture.
 
-    4. In Toonz Raster levels, press the **Preview** button to visualize the texture.
+    4. In Smart Raster levels, press the **Preview** button to visualize the texture.
 
 
 .. _texture_mapping:
 
 Texture Mapping
 ~~~~~~~~~~~~~~~
-Texture mapping is the way the texture is applied to the *lines* or *areas* using the style. It's applied differently either if the level is a Toonz Vector or Toonz Raster one:
+Texture mapping is the way the texture is applied to the *lines* or *areas* using the style. It's applied differently either if the level is a Vector or Smart Raster one:
 
-  - **Toonz Vector**: Texture mapping is performed using the vector stroke parametric coordinates; this means that for *lines* the texture automatically “follows” the stroke's shape and thickness, whether for *areas* the texture image is tiled to cover the area painted with the style. 
+  - **Vector**: Texture mapping is performed using the vector stroke parametric coordinates; this means that for *lines* the texture automatically “follows” the stroke's shape and thickness, whether for *areas* the texture image is tiled to cover the area painted with the style. 
 
-  - **Toonz Raster**: Texture mapping is performed using standard mapping coordinates; this means that the texture image is tiled to cover the lines or areas painted with the style.
+  - **Smart Raster**: Texture mapping is performed using standard mapping coordinates; this means that the texture image is tiled to cover the lines or areas painted with the style.
 
 
-.. note:: A more powerful texture mapping can be performed by using the **Texture** and **Pinned Texture** special FX (see  :ref:`Toonz Level <toonz_level>`  ).
+.. note:: A more powerful texture mapping can be performed by using the **Texture** and **Pinned Texture** special FX (see  :ref:`Smart Level <toonz_level>`  ).
 
 
 .. _texture_settings:
 
 Texture Settings
 ~~~~~~~~~~~~~~~~
-Textures applied to styles used in Toonz Raster levels allow to set various parameters such as: 
+Textures applied to styles used in Smart Raster levels allow to set various parameters such as: 
 
   - **Use As Pattern**, allows to use the brightness of the image to modulate the brightness of the plain Color of the style to which it is applied.
 
@@ -591,15 +591,15 @@ Raster Brushes
 
 |style_editor_raster|
 
-Raster brushes are available to paint in Raster levels and, with some limitations, in Toonz Raster levels. They are essentially brushes compatible with the `MyPaint <http://mypaint.org/about/>`_ open source painting software.
+Raster brushes are available to paint in Raster levels and, with some limitations, in Smart Raster levels. They are essentially brushes compatible with the `MyPaint <http://mypaint.org/about/>`_ open source painting software.
 
 The Raster brushes use the **Color** from the current style as a base, and all its remaining options can be found in the **Settings** tab of the Style Editor pane (see  :ref:`Settings for Raster Brushes <settings_for_raster_brushes>`  ).
 
-.. note:: In Toonz Raster levels, currently only *additive* Raster brushes can be used (i.e. brushes that add paint to a level, not the ones that erase, blend or blur already painted strokes).
+.. note:: In Smart Raster levels, currently only *additive* Raster brushes can be used (i.e. brushes that add paint to a level, not the ones that erase, blend or blur already painted strokes).
 
-.. note:: In Toonz Raster levels, Raster brushes use only the **Opacity** values of the selected brush to paint with the current style color, and cannot use any of the other *Color related* settings of that brush.
+.. note:: In Smart Raster levels, Raster brushes use only the **Opacity** values of the selected brush to paint with the current style color, and cannot use any of the other *Color related* settings of that brush.
 
-.. note:: In Toonz Raster levels, Raster brushes can only paint *lines* (they cannot be used to fill *areas*).
+.. note:: In Smart Raster levels, Raster brushes can only paint *lines* (they cannot be used to fill *areas*).
 
 
 
@@ -612,9 +612,9 @@ Settings
 
 The Settings tab is available for defining some style properties. 
 
-For Toonz Raster levels, it contains only the **Autopaint for Lines** option, that can be used to automatically paint border *lines* of an area, with the same color used to fill that *area* (see  :ref:`Using the Autopaint for Lines Option <using_the_autopaint_for_lines_option>`  ).
+For Smart Raster levels, it contains only the **Autopaint for Lines** option, that can be used to automatically paint border *lines* of an area, with the same color used to fill that *area* (see  :ref:`Using the Autopaint for Lines Option <using_the_autopaint_for_lines_option>`  ).
 
-For Toonz Vector levels, it contains parameters only when the style is a **Generated** or **Trail** one. 
+For Vector levels, it contains parameters only when the style is a **Generated** or **Trail** one. 
 
 When the style is a **Generated** one, the Settings tab contains one or more sliders that allow you to finetune the predefined style to your needs. When the style is a **Trail** one, the Settings tab contains two sliders: **Distance** sets the space between two subsequent images of the animation level used as a trail; **Rotation** sets the angle of all the images. 
 

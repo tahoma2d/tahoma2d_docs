@@ -412,7 +412,7 @@ allows to modify an image (rotate, scale, crop), or to make an over between two 
 
 - builder.\ **add**\ (img, transform)
 
-.. note:: The component of translation of the transform means expressed in pixels for Raster and Toonz Raster levels, and in Camera Stand units for Vector levels.
+.. note:: The component of translation of the transform means expressed in pixels for Raster and Smart Raster levels, and in Camera Stand units for Vector levels.
 
 - builder.\ **fill**\ (color)
 
@@ -456,7 +456,7 @@ vectorize raster images using an outline algorithm.
 
 **Methods:** 
 
-- v.\ **vectorize**\ (level or image) - returns the new vectorized level (or image), supports as input: Raster or Toonz Raster images and levels.
+- v.\ **vectorize**\ (level or image) - returns the new vectorized level (or image), supports as input: Raster or Smart Raster images and levels.
 
 **Attributes:** 
 
@@ -503,7 +503,7 @@ vectorize raster images using a centerline algorithm.
 
 **Methods:** 
 
-- v.\ **vectorize**\ (level or image) - returns the new vectorized level (or image), supports as input: Raster or Toonz Raster images and levels.
+- v.\ **vectorize**\ (level or image) - returns the new vectorized level (or image), supports as input: Raster or Smart Raster images and levels.
 
 **Attributes:** 
 

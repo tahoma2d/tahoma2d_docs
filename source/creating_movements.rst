@@ -277,7 +277,7 @@ A hook can be created starting from any frame. Once it is created, it will appea
 
 You can use up to 20 hooks for each level; each hook is labeled with a number, to reference it in each level frame. 
 
-By activating the **Snap** option, hooks for the current level can be accurately placed by snapping them exactly to the same position of hooks defined for the other animation levels visible in the viewer. In case the current level is a Toonz Vector level, hooks will snap also to the center of any closed shapes it may contain (e.g. rectangles, circles or single vector shapes closed with the Tape tool). This option may prove useful especially when defining hooks for cutout animation models (see  :ref:`Creating Cutout Animation <creating_cutout_animation>`  ).
+By activating the **Snap** option, hooks for the current level can be accurately placed by snapping them exactly to the same position of hooks defined for the other animation levels visible in the viewer. In case the current level is a Vector level, hooks will snap also to the center of any closed shapes it may contain (e.g. rectangles, circles or single vector shapes closed with the Tape tool). This option may prove useful especially when defining hooks for cutout animation models (see  :ref:`Creating Cutout Animation <creating_cutout_animation>`  ).
 
 Hook information is saved along with each level, as a file in XML format, named as the file but with the *_hooks* suffix. For example, hooks defined for the level ``mouse``  will be saved in the file ``mouse_hooks.xml`` .
 
@@ -313,7 +313,7 @@ Hook information is saved along with each level, as a file in XML format, named 
 
     - **Shift-drag** to constrain an horizontal or vertical movement.
 
-    - Activate the **Snap** option to place the hook exactly at the same position of hooks defined for other animation levels visible in the viewer, or in case the level is a Toonz Vector level, also at the center of closed shapes.
+    - Activate the **Snap** option to place the hook exactly at the same position of hooks defined for other animation levels visible in the viewer, or in case the level is a Vector level, also at the center of closed shapes.
 
 .. tip:: **To pass a hook from one position to another:**
 

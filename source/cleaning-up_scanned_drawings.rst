@@ -4,7 +4,7 @@ Cleaning-up Scanned Drawings
 ============================
 In order to be painted and edited with Tahoma, scanned drawings have to undergo the cleanup process. The process involves autocentering, to align each drawing according to the pegbar holes; line processing, to recognize the drawing outline; image cropping and re-sizing, to make the drawings fit properly the camera.
 
-The process generates a Toonz raster level (TLV format) and the related default palette (TPL format), where the styles used to paint the level will be stored.
+The process generates a Smart Raster level (TLV format) and the related default palette (TPL format), where the styles used to paint the level will be stored.
 
 
 .. note:: If the computer performance slows down during the cleanup process of very high resolution images, try activating the **Minimize Raster Memory Fragmentation** option in the Files  →  Preferences  →  General dialog (see  :ref:`Optimizing the Memory Usage <optimizing_the_memory_usage>`  ).
@@ -475,7 +475,7 @@ When cleaning up drawings directly in the scene it is possible to perform a sele
 
 You can also select non-consecutive drawings and drawings from different animation levels. Levels will be processed starting from the first selected column/layer, considering only exposed drawings according to their numbering order.
 
-When a drawing is cleaned up, its cell color turns from *light blue* to *green*, the color denoting Toonz raster levels (see  :ref:`Working with Xsheet Columns <working_with_xsheet_columns>`  ). If you cleanup partially an animation level, the remaining cells where the level is exposed will have a double color (*green and blue*), to stress the fact that the level is partially processed.
+When a drawing is cleaned up, its cell color turns from *light blue* to *green*, the color denoting Smart Raster levels (see  :ref:`Working with Xsheet Columns <working_with_xsheet_columns>`  ). If you cleanup partially an animation level, the remaining cells where the level is exposed will have a double color (*green and blue*), to stress the fact that the level is partially processed.
 
 When drawings belonging to partially processed levels are selected to be cleaned up, you are prompted whether to cleanup selected drawings overwriting the previous cleaned up version, or to add non-cleaned up frames to the existing level, or to delete the existing level and create a new level with the selected drawings only.
 

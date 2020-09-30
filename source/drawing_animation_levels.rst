@@ -2,17 +2,17 @@
 
 Drawing Animation Levels
 ========================
-In Tahoma it is possible to create and draw **Toonz Vector** levels (PLI format), **Toonz Raster** levels (TLV format) and standard **Raster** levels (TIF format) directly in the viewer. Drawing tools can also be used for touch-up in cleaned up drawings, and loaded raster images.
+In Tahoma it is possible to create and draw **Vector** levels (PLI format), **Smart Raster** levels (TLV format) and standard **Raster** levels (TIF format) directly in the viewer. Drawing tools can also be used for touch-up in cleaned up drawings, and loaded raster images.
 
 .. _drawing_in_toonz:
 
 Drawing In Tahoma
 --------------------
-To draw an animation level, first you have to define its type: Toonz Vector, Toonz Raster or Raster; and its settings like its name, the number of frames it's made of and the way its drawings are numbered.
+To draw an animation level, first you have to define its type: Vector, Smart Raster or Raster; and its settings like its name, the number of frames it's made of and the way its drawings are numbered.
 
-Toonz Vector levels are defined by drawing of vector strokes; strokes and areas defined by strokes can be painted by using the styles available in the level palette. Toonz Vector levels have an unlimited size and resolution, as they are vector-based. They are saved as PLI files.
+Vector levels are defined by drawing of vector strokes; strokes and areas defined by strokes can be painted by using the styles available in the level palette. Vector levels have an unlimited size and resolution, as they are vector-based. They are saved as PLI files.
 
-Toonz Raster levels are defined by drawing bitmap lines; lines and areas defined by lines can be painted by using the styles available in the level palette. Toonz Raster levels have a specified size and resolution, defined when they are created. They are saved as TLV files.
+Smart Raster levels are defined by drawing bitmap lines; lines and areas defined by lines can be painted by using the styles available in the level palette. Smart Raster levels have a specified size and resolution, defined when they are created. They are saved as TLV files.
 
 Raster levels are defined by drawing bitmap lines using the styles available in the **Raster Drawing Palette**, that is shared by all of the Raster levels of the same project (see  :ref:`Project Default Folders <project_default_folders>`  ). Raster levels have a specified size and resolution, defined when they are created. They are saved as sequences of individual TIF files, one per level frame.
 
@@ -27,13 +27,13 @@ Setting the Default Type of Level to Draw
 '''''''''''''''''''''''''''''''''''''''''
 It's possible to define the default level type that will be created when you draw inside Tahoma.
 
-By default Toonz Vector and Toonz Raster levels are saved in the **+drawing** folder of the current project when the scene is saved, while Raster levels are saved in the **+extras** folder (see  :ref:`Project Default Folders <project_default_folders>`  ).
+By default Vector and Smart Raster levels are saved in the **+drawing** folder of the current project when the scene is saved, while Raster levels are saved in the **+extras** folder (see  :ref:`Project Default Folders <project_default_folders>`  ).
 
 .. tip:: **To define the Default Type of Level to Draw:**
 
     1. Open File  →  Preferences  →  Drawing.
 
-    2. Choose the level type you want to use as default from the **Default Level Type:** option menu. **Width**, **Height** and **DPI** fields are available for **Toonz Raster Level** and **Raster Level** options.
+    2. Choose the level type you want to use as default from the **Default Level Type:** option menu. **Width**, **Height** and **DPI** fields are available for **Smart Raster Level** and **Raster Level** options.
 
 .. note:: The Width, Height and DPI values set in the File  →  Preferences  →  Drawing section will also be used as default for the **New Level** dialog.
 
@@ -55,11 +55,11 @@ Using the New Level Dialog
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 New animation levels can be defined by using a dialog that lets you set the number of drawings the level is made of, the animation step used to expose the frames in the Xsheet/Timeline, and the increment, that sets the way the level drawings are numbered. For example, a **Step** 2 repeats each drawing twice in the Xsheet column or Timeline layer, while an **Increment** 2 will number its drawings as 1, 3, 5, etc. The dialog also allows you to choose a destination folder, different from the default one, by using the **Save In** field.
 
-In case you define a Toonz Raster or a Raster level, you can set its **Width**, **Height** and **DPI** values, according to the way you want to use it in the scene.
+In case you define a Smart Raster or a Raster level, you can set its **Width**, **Height** and **DPI** values, according to the way you want to use it in the scene.
 
 Settings like the length of the level and the numbering order can be edited later, as you are free to arrange the images composing an animation level the way you prefer (see  :ref:`Editing Animation Levels <editing_animation_levels>`  ).
 
-When a new level is created in an empty column, the color of that column header and the cells where the new level gets exposed are colored denoting the type of level: **light yellow** for Toonz Vector levels, **light green** for Toonz Raster levels, and **light blue** for Raster levels (see  :ref:`Working with Xsheet Columns <working_with_xsheet_columns>`  ). 
+When a new level is created in an empty column, the color of that column header and the cells where the new level gets exposed are colored denoting the type of level: **light yellow** for Vector levels, **light green** for Smart Raster levels, and **light blue** for Raster levels (see  :ref:`Working with Xsheet Columns <working_with_xsheet_columns>`  ). 
 
 .. note:: The New Level dialog inherits the **Default Level Type** settings defined in Preferences  →  Drawing.
 
@@ -73,7 +73,7 @@ When a new level is created in an empty column, the color of that column header 
 
     - (If the Xsheet/Timeline toolbar is visible) Click any of the three **New Level buttons** at the leftmost part of it.
 
-    2. Choose the type of level: Toonz Vector, Toonz Raster or Raster, from the **Type:** option menu and define its settings, then click the OK button.
+    2. Choose the type of level: Vector, Smart Raster or Raster, from the **Type:** option menu and define its settings, then click the OK button.
 
     .. note:: When using the Xsheet/Timeline's toolbar buttons to create a new level, the corresponding level type is already preselected in the dialog's dropdown menu.
 
@@ -317,9 +317,9 @@ The set of buttons and information available in the bottom bar of the Viewer can
 
 Drawing Tools
 '''''''''''''
-You can draw by using the **Brush** (|brush|) and **Geometric** (|geometric|) tools. For both tools you can set the thickness of the line you are going to draw: values range from 0 to 100 for Toonz Vector levels, and from 1 to 100 for Toonz Raster and Raster levels.
+You can draw by using the **Brush** (|brush|) and **Geometric** (|geometric|) tools. For both tools you can set the thickness of the line you are going to draw: values range from 0 to 100 for Vector levels, and from 1 to 100 for Smart Raster and Raster levels.
 
-.. note:: For Toonz Raster and Raster levels it's possible to set a Brush tool size higher than 100 by typing it in the Size value fields.
+.. note:: For Smart Raster and Raster levels it's possible to set a Brush tool size higher than 100 by typing it in the Size value fields.
 
 .. note:: **Min** and **Max Size/Thickness** can be modified by either of these methods:
 
@@ -344,39 +344,39 @@ The **Brush** tool (|brush|) allows you to draw freehand lines with the current 
 
 When using a pressure sensitive tablet, and the **Pressure** option is activated, varying the pressure of the pen on the tablet will allow you to create variable-thickness lines that will make your drawings more expressive. 
 
-When using the **Brush** tool (|brush|) on Toonz Raster and Raster drawings, the cursor displays the exact pixel area that will be affected by the brush: the inner jagged circle representing the **Minimum Size**, and the outer one the **Maximum Size** of the brush.
+When using the **Brush** tool (|brush|) on Smart Raster and Raster drawings, the cursor displays the exact pixel area that will be affected by the brush: the inner jagged circle representing the **Minimum Size**, and the outer one the **Maximum Size** of the brush.
 
 In the tool options bar you can set the following:
 
 - **Size Min** and **Max** sets the size of the brush; the size will vary between the two values if you're using a pressure sensitive tablet. If the two values are the same, your lines will have a constant thickness. When using a mouse to draw, the **Maximum** thickness value will be used.
 
-- **Accuracy** sets how accurate the generated line is compared to what you draw with the mouse or tablet pen: a high value will generate lines that completely preserves the movement you perform (even a trembling hand); a low value will simplify the line. This is available for Toonz Vector drawings only.
+- **Accuracy** sets how accurate the generated line is compared to what you draw with the mouse or tablet pen: a high value will generate lines that completely preserves the movement you perform (even a trembling hand); a low value will simplify the line. This is available for Vector drawings only.
 
-- **Smooth** allows for stroke stabilization while drawing. This is available for Toonz Vector and Toonz Raster drawings only.
+- **Smooth** allows for stroke stabilization while drawing. This is available for Vector and Smart Raster drawings only.
 
-- **Hardness** sets the amount of antialiasing along the line border. This is available for Toonz Raster and Raster drawings only.
+- **Hardness** sets the amount of antialiasing along the line border. This is available for Smart Raster and Raster drawings only.
 
 - **Opacity Min** and **Max** sets the opacity of the brush; the opacity will vary between the two values if you're using a pressure sensitive tablet. Overlapping areas are not considered while drawing a single line, but only when different lines are overlapping. This is available for Raster drawings only.
 
-- **Break** automatically breaks the drawn stroke into sections, if very sharp angles are drawn: in this way, drawn shapes may result simpler and easier to fill. This is available for Toonz Vector drawings only.
+- **Break** automatically breaks the drawn stroke into sections, if very sharp angles are drawn: in this way, drawn shapes may result simpler and easier to fill. This is available for Vector drawings only.
 
-- **Draw Order** allows to choose how new drawings will be ordered with respect to already drawn lines. The options are: **Over All**, **Under All** and **Palette Order**. When using **Palette Order** new lines will be drawn above or below already existing ones, using the relative indexes of the palette Styles as the sorting factor. This is available for Toonz Raster drawings only.
+- **Draw Order** allows to choose how new drawings will be ordered with respect to already drawn lines. The options are: **Over All**, **Under All** and **Palette Order**. When using **Palette Order** new lines will be drawn above or below already existing ones, using the relative indexes of the palette Styles as the sorting factor. This is available for Smart Raster drawings only.
 
-- **Pencil** mode draws lines without antialiasing, that is with jagged edges. This is available for Toonz Raster drawings only.
+- **Pencil** mode draws lines without antialiasing, that is with jagged edges. This is available for Smart Raster drawings only.
 
 - **Pressure** detects, in case you are using a graphic tablet, the pressure of the pen on the tablet, allowing the creation of variable-thickness lines.
 
-- **Range** allows for the automatic creation of a series of in-between strokes, by drawing just the extremes of the animation on subsequent frames of a level, in the Level Strip, or subsequent exposed cells of a level in the Xsheet/Timeline. By pressing **Ctrl** key, you can draw intermediate strokes to form a more complex animation sequence. This method is similar to the one used by the **Inbetween** command (see  :ref:`Using the In-betweener with Vector Drawings <using_the_in-betweener_with_vector_drawings>`  ). This is available for Toonz Vector drawings only.
+- **Range** allows for the automatic creation of a series of in-between strokes, by drawing just the extremes of the animation on subsequent frames of a level, in the Level Strip, or subsequent exposed cells of a level in the Xsheet/Timeline. By pressing **Ctrl** key, you can draw intermediate strokes to form a more complex animation sequence. This method is similar to the one used by the **Inbetween** command (see  :ref:`Using the In-betweener with Vector Drawings <using_the_in-betweener_with_vector_drawings>`  ). This is available for Vector drawings only.
 
-- **Snap** allows for the snapping of the cursor to other already drawn strokes of the same level, while drawing a new stroke. It has three levels of sensitivity: **Low**, **Med** and **High**. This is available for Toonz Vector drawings only.
+- **Snap** allows for the snapping of the cursor to other already drawn strokes of the same level, while drawing a new stroke. It has three levels of sensitivity: **Low**, **Med** and **High**. This is available for Vector drawings only.
 
 - **Preset:** let you choose a brush preset in the option menu on the right. You can add or remove a preset clicking the **+** and **-** buttons. A presets list is created *for each level type* and each added preset will be available for next use.
 
-- **Cap** option sets the shape of the ends of the stroke you are going to draw. Options are **Butt** for squared ends, **Round** for semicircular ends, and **Projecting** for squared ends extending beyond the end of the line, according to the vector thickness. This is available for Toonz Vector drawings only.
+- **Cap** option sets the shape of the ends of the stroke you are going to draw. Options are **Butt** for squared ends, **Round** for semicircular ends, and **Projecting** for squared ends extending beyond the end of the line, according to the vector thickness. This is available for Vector drawings only.
 
-- **Join** option sets the shape of the straight corners along the stroke you are going to draw. Options are **Miter** for pointed corners, **Round** for rounded corners, **Bevel** for squared corner. This is available for Toonz Vector drawings only.
+- **Join** option sets the shape of the straight corners along the stroke you are going to draw. Options are **Miter** for pointed corners, **Round** for rounded corners, **Bevel** for squared corner. This is available for Vector drawings only.
 
-- **Miter:** sets the maximum length of a miter join, that is computed multiplying the miter value by the stroke thickness. If the length exceeds the maximum value, the *Miter* join is turned into a *Bevel* join. This is available for Toonz Vector drawings only, and only if the **Join** option is set to miter.
+- **Miter:** sets the maximum length of a miter join, that is computed multiplying the miter value by the stroke thickness. If the length exceeds the maximum value, the *Miter* join is turned into a *Bevel* join. This is available for Vector drawings only, and only if the **Join** option is set to miter.
 
 .. note:: If the tool options bar is too short to display all the tool options, it can be scrolled by using arrow buttons available at its ends.
 
@@ -399,27 +399,27 @@ In the tool options bar you can set the following:
 
 - **Thickness** sets the size of the brush used to draw the geometric shapes.
 
-- **Hardness** sets the amount of antialiasing along the shape border. This is available for Toonz Raster and Raster drawings only.
+- **Hardness** sets the amount of antialiasing along the shape border. This is available for Smart Raster and Raster drawings only.
 
 - **Opacity** sets the opacity of the shape border. Overlapping areas are not considered while drawing over the same shape, but only when different shapes are overlapping. This is available for Raster drawings only.
 
 - **Shape:** sets the type of shape you want to draw. Available options are: Rectangle, Circle, Ellipse, Line, Polyline, Arc and Polygon. In case you want to draw a **Polygon**, the **Polygon Sides:** lets you set the number of sides.
 
-- **Auto Group** automatically defines any drawn closed shape (i.e. rectangles, circles, ellipses, polygons and closed polylines) as a group, *thus creating a new layer that is placed in front of the other drawing vectors*, without intersecting them (see  :ref:`Grouping and Ungrouping Vectors <grouping_and_ungrouping_vectors>`  ). This is available for Toonz Vector drawings only.
+- **Auto Group** automatically defines any drawn closed shape (i.e. rectangles, circles, ellipses, polygons and closed polylines) as a group, *thus creating a new layer that is placed in front of the other drawing vectors*, without intersecting them (see  :ref:`Grouping and Ungrouping Vectors <grouping_and_ungrouping_vectors>`  ). This is available for Vector drawings only.
 
-- **Auto Fill** automatically paints the area defined by any drawn closed shape (i.e. rectangles, circles, ellipses, polygons and closed polylines) with the same style used for drawing. This is available for Toonz Vector drawings only.
+- **Auto Fill** automatically paints the area defined by any drawn closed shape (i.e. rectangles, circles, ellipses, polygons and closed polylines) with the same style used for drawing. This is available for Vector drawings only.
 
-- **Snap** allows for the snapping of the cursor to other already drawn strokes of the same level, while drawing the shape. It has three levels of sensitivity: **Low**, **Med** and **High**. This is available for Toonz Vector drawings only.
+- **Snap** allows for the snapping of the cursor to other already drawn strokes of the same level, while drawing the shape. It has three levels of sensitivity: **Low**, **Med** and **High**. This is available for Vector drawings only.
 
-- **Selective** allows the drawing operations not to affect already drawn lines. This is available for Toonz Raster drawings only.
+- **Selective** allows the drawing operations not to affect already drawn lines. This is available for Smart Raster drawings only.
 
-- **Pencil** mode draws geometric shapes without antialiasing, that is with jagged edges. This is available for Toonz Raster drawings only.
+- **Pencil** mode draws geometric shapes without antialiasing, that is with jagged edges. This is available for Smart Raster drawings only.
 
-- **Cap** option sets the shape of the ends of open shapes you are going to draw. Options are **Butt** for squared ends, **Round** for semicircular ends, and **Projecting** for squared ends extending beyond the end of the line, according to the vector thickness. This is available for Toonz Vector drawings only.
+- **Cap** option sets the shape of the ends of open shapes you are going to draw. Options are **Butt** for squared ends, **Round** for semicircular ends, and **Projecting** for squared ends extending beyond the end of the line, according to the vector thickness. This is available for Vector drawings only.
 
-- **Join** option sets the shape of the straight corners along the shapes you are going to draw. Options are **Miter** for pointed corners, **Round** for rounded corners, **Bevel** for squared corner. This is available for Toonz Vector drawings only.
+- **Join** option sets the shape of the straight corners along the shapes you are going to draw. Options are **Miter** for pointed corners, **Round** for rounded corners, **Bevel** for squared corner. This is available for Vector drawings only.
 
-- **Miter:** sets the maximum length of a miter join, that is computed multiplying the miter value by the stroke thickness. If the length exceeds the maximum value, the *Miter* join is turned into a *Bevel* join. This is available for Toonz Vector levels only, and only if the **Join** option is set to **Miter**.
+- **Miter:** sets the maximum length of a miter join, that is computed multiplying the miter value by the stroke thickness. If the length exceeds the maximum value, the *Miter* join is turned into a *Bevel* join. This is available for Vector levels only, and only if the **Join** option is set to **Miter**.
 
 .. note:: If the tool options bar is too short to display all the tool options, it can be scrolled by using arrow buttons available at its ends.
 
@@ -521,21 +521,21 @@ In the tool options bar you can set the following:
 
 - **Size** sets the eraser size.
 
-- **Hardness** sets the amount of antialiasing along the eraser border. This is available for Toonz Raster and Raster drawings only.
+- **Hardness** sets the amount of antialiasing along the eraser border. This is available for Smart Raster and Raster drawings only.
 
 - **Opacity** set the opacity of the eraser; passing twice on an area is not considered while performing a single erasing operation, but only when performing different erasing operations. This is available for Raster drawings only.
 
 - **Type:** has the options **Normal**, to use the standard eraser; **Rectangular**, to perform the erasing inside the box you define; **Freehand**, to perform the erasing inside the area you outline by clicking and dragging; and **Polyline**, to perform the erasing inside the area you outline by defining a series of lines. In vector drawings, a stroke is erased only if it is fully included in the area you define.
 
-- **Mode:** has the options **Areas**, to erase only areas, **Lines**, to erase only the drawing outline, and **Lines & Areas**, to perform both the operations. This is available only for Toonz Raster drawings.
+- **Mode:** has the options **Areas**, to erase only areas, **Lines**, to erase only the drawing outline, and **Lines & Areas**, to perform both the operations. This is available only for Smart Raster drawings.
 
-- **Selective** allows you to erase only lines or areas made with the current style. This is available only for Toonz Vector and Toonz Raster drawings.
+- **Selective** allows you to erase only lines or areas made with the current style. This is available only for Vector and Smart Raster drawings.
 
 - **Invert** performs the erasing on the outside of the area defined with the Rectangular, Freehand or Polyline options. In vector drawings, a stroke is erased only if it is fully outside of the area you define.
 
 - **Frame Range** allows you to perform Rectangular, Freehand and Polyline erasing on a range of frames, by defining an area in the first and then in the last frame of the range.
 
-- **Pencil** mode erases lines without antialiasing, that is with jagged edges. This is available for Toonz Raster drawings only.
+- **Pencil** mode erases lines without antialiasing, that is with jagged edges. This is available for Smart Raster drawings only.
 
 .. note:: If the tool options bar is too short to display all the tool options, it can be scrolled by using arrow buttons available at its ends.
 
@@ -546,7 +546,7 @@ In the tool options bar you can set the following:
 
 Converting Raster Drawings to Vectors
 '''''''''''''''''''''''''''''''''''''
-Scanned drawings and raster ones, i.e. drawings not based on vectors, can be converted into Toonz Vector levels.
+Scanned drawings and raster ones, i.e. drawings not based on vectors, can be converted into Vector levels.
 
 Two main conversion modes are available: **Centerline** and **Outline**. The choice between the two modes depends on which conversion best fits your needs.
 
@@ -575,12 +575,12 @@ In **Outline** mode the following settings are available:
 
 - **Transparent Color** defines the color that has to be set as the transparent background of the resulting vector level. This is relevant for Raster levels only.
 
-- **Tone Threshold** sets the value of the darkest pixels to be taken into account to detect lines to be converted to vector; for low values only the darkest pixels are considered thus resulting in thinner lines; for high values lighter pixels are considered too, thus resulting in thicker lines. This is relevant for Toonz Raster levels only.
+- **Tone Threshold** sets the value of the darkest pixels to be taken into account to detect lines to be converted to vector; for low values only the darkest pixels are considered thus resulting in thinner lines; for high values lighter pixels are considered too, thus resulting in thicker lines. This is relevant for Smart Raster levels only.
 
 
 In **Centerline** mode the following settings are available:
 
-- **Threshold** sets the value of the darkest pixels to be taken into account to detect lines to be converted to vector strokes; for low values only the darkest pixels are considered thus resulting in thinner strokes; for high values lighter pixels are considered too, thus resulting in thicker strokes. For Toonz Raster levels (TLV files) the process examines only pixels belonging to the lines; for Raster levels it examines pixels of the whole image.
+- **Threshold** sets the value of the darkest pixels to be taken into account to detect lines to be converted to vector strokes; for low values only the darkest pixels are considered thus resulting in thinner strokes; for high values lighter pixels are considered too, thus resulting in thicker strokes. For Smart Raster levels (TLV files) the process examines only pixels belonging to the lines; for Raster levels it examines pixels of the whole image.
 
 - **Accuracy** sets how much the vector stroke will follow the shape of the original drawing lines. High values create more precise strokes but makes them more complex.
 
@@ -590,7 +590,7 @@ In **Centerline** mode the following settings are available:
 
 - **Thickness Calibration Start:** and **End:** calibrates the vector stroke thickness defined according to the **Threshold** value; a low value will reduce the stroke thickness preserving its integrity. A different value inserted in the **Start** / **End** field determines an animation of the thickness along the length of the level.
 
-- **Preserve Painted Areas**, when activated, preserves all painted areas in Toonz Raster levels (TLV files) and all the areas painted with colors different from the line color in Raster levels.
+- **Preserve Painted Areas**, when activated, preserves all painted areas in Smart Raster levels (TLV files) and all the areas painted with colors different from the line color in Raster levels.
 
 - **Add Border** adds a vector stroke along the image border in order to detect also areas bleeding off the image edge.
 
@@ -687,7 +687,7 @@ Loaded Convert To Vector settings can also become the default settings for the s
 
 Changing the Canvas Size
 ------------------------
-It's possible to change the size of Toonz Raster and Raster levels, in order to increase or decrease the area around the images of a level.
+It's possible to change the size of Smart Raster and Raster levels, in order to increase or decrease the area around the images of a level.
 
 |canvas_size|
 
@@ -695,7 +695,7 @@ The new size can be set in any unit supported by Tahoma, by using absolute or re
 
 .. tip:: **To change the canvas size:**
 
-    1. Select the Toonz Raster or Raster level you want to modify in the Xsheet/Timeline.
+    1. Select the Smart Raster or Raster level you want to modify in the Xsheet/Timeline.
 
     2. Choose Level  →  **Canvas Size...**, the Canvas Size dialog opens.
 
@@ -712,7 +712,7 @@ The new size can be set in any unit supported by Tahoma, by using absolute or re
 
 Editing Drawings
 ----------------
-Toonz Vector, Toonz Raster and Raster levels, can be manipulated in Tahoma.
+Vector, Smart Raster and Raster levels, can be manipulated in Tahoma.
 
 To edit a drawing, for example to copy a part of it, you have first to select it in the Xsheet/Timeline or in the Level Strip. When selected in the Xsheet/Timeline, the viewer displays the whole scene contents at the current frame, when selected in the Level Strip, the viewer displays the selected frame of the current animation level only, to let you work more easily on it.
 
@@ -741,9 +741,9 @@ In the tool options bar you can set the following:
 
 - **Type:** has the options **Rectangular**, to select the area of the box you define by clicking and dragging; **Freehand**, to select the area you outline by clicking and dragging; and **Polyline**, to select the area you outline by defining a series of lines. In vector drawings, a vector stroke is selected only if it is fully included in the area you define.
 
-- **Mode:** has the options **Standard**, to select vectors; **Selected Frames**, to edit all the lines of selected frames at once; **Whole Level**, to transform all of the drawings of the current animation level; **Same Style**, to select at once all of the vectors painted with the same style in the current drawing; **Same Style on Selected Frames**, to select at once all of the vector strokes painted with the same style in the selected frames of the current animation level; **Same Style on Whole Level**, to select at once all of the vector strokes painted with the same style in all the drawings of the current animation level; **Boundary Strokes**, to select all the boundary strokes of the current drawing; **Boundary Strokes on Selected Frames**, to select all the boundary strokes of the selected frames; **Boundary Strokes on Whole Level**, to select all the boundary strokes of the whole level.This is available for Toonz Vector drawings only.
+- **Mode:** has the options **Standard**, to select vectors; **Selected Frames**, to edit all the lines of selected frames at once; **Whole Level**, to transform all of the drawings of the current animation level; **Same Style**, to select at once all of the vectors painted with the same style in the current drawing; **Same Style on Selected Frames**, to select at once all of the vector strokes painted with the same style in the selected frames of the current animation level; **Same Style on Whole Level**, to select at once all of the vector strokes painted with the same style in all the drawings of the current animation level; **Boundary Strokes**, to select all the boundary strokes of the current drawing; **Boundary Strokes on Selected Frames**, to select all the boundary strokes of the selected frames; **Boundary Strokes on Whole Level**, to select all the boundary strokes of the whole level.This is available for Vector drawings only.
 
-- **Preserve Thickness** will preserve the original thickness of the drawing vectors while performing resizing operations. This is available for Toonz Vector drawings only.
+- **Preserve Thickness** will preserve the original thickness of the drawing vectors while performing resizing operations. This is available for Vector drawings only.
 
 - **Scale H** and **V** set the horizontal and vertical scaling of the current selection.
 
@@ -753,27 +753,27 @@ In the tool options bar you can set the following:
 
 - **Position N/S** and **E/W** set a vertical and horizontal offset for the selection.
 
-- **Thickness** sets the thickness of the selected vector strokes. In case the selected strokes have variable thickness, or different thickness values, the highest value is displayed, and any change will affect the other values accordingly. This is available for Toonz Vector drawings only.
+- **Thickness** sets the thickness of the selected vector strokes. In case the selected strokes have variable thickness, or different thickness values, the highest value is displayed, and any change will affect the other values accordingly. This is available for Vector drawings only.
 
-- **Cap:** sets the shape of the ends of the selected vector strokes. Options are **Butt** for squared ends, **Round** for semicircular ends, and **Projecting** for squared ends extending beyond the end of the line, according to the stroke thickness. This is available for Toonz Vector drawings only.
+- **Cap:** sets the shape of the ends of the selected vector strokes. Options are **Butt** for squared ends, **Round** for semicircular ends, and **Projecting** for squared ends extending beyond the end of the line, according to the stroke thickness. This is available for Vector drawings only.
 
   .. figure:: /_static/drawing_animation_levels/caps.png
 
      A butt cap, a round cap and a projecting cap.
 
-- **Join:** sets the shape of the straight corners along the selected vector strokes. Options are **Miter** for pointed corners, **Round** for rounded corners, **Bevel** for squared corner. This is available for Toonz Vector drawings only.
+- **Join:** sets the shape of the straight corners along the selected vector strokes. Options are **Miter** for pointed corners, **Round** for rounded corners, **Bevel** for squared corner. This is available for Vector drawings only.
 
   .. figure:: /_static/drawing_animation_levels/joins.png
 
      Miter joins, round joins and bevel joins.
 
-- **Miter:** sets the maximum length of a *Miter* join, that is computed multiplying the Miter value by the stroke thickness. If the length exceeds the maximum value, the *Miter* join is turned into a *Bevel* join. This is available for Toonz Vector drawings only, and only if the **Join:** option is set to **Miter**.
+- **Miter:** sets the maximum length of a *Miter* join, that is computed multiplying the Miter value by the stroke thickness. If the length exceeds the maximum value, the *Miter* join is turned into a *Bevel* join. This is available for Vector drawings only, and only if the **Join:** option is set to **Miter**.
 
-- **Modify Savebox** check box allows you to resize the *Savebox* of a drawing. The drawing part that, because of the editing, falls outside of the savebox will be erased. This is available for Toonz Raster drawings only.
+- **Modify Savebox** check box allows you to resize the *Savebox* of a drawing. The drawing part that, because of the editing, falls outside of the savebox will be erased. This is available for Smart Raster drawings only.
 
   .. note:: The *Savebox* size can be set automatically to the minimum size by activating the Preferences  →  Drawing  →  **Minimize Savebox after Editing** option.
 
-- **No Antialiasing** when activated, the antialiasing is not applied when the selection is deformed or rotated. This is available on Toonz Raster and Raster drawings only.
+- **No Antialiasing** when activated, the antialiasing is not applied when the selection is deformed or rotated. This is available on Smart Raster and Raster drawings only.
 
 .. note:: If the tool options bar is too short to display all the tool options, it can be scrolled by using the arrow buttons available at its ends.
 
@@ -795,7 +795,7 @@ When a selection is made, it is displayed with a bounding box with handles that 
 
      .. note:: Ctrl-click (PC) or Cmd-click (Mac) operations are not allowed in **Whole Level** modes (see above).
 
-    - **Thickness**, click the double arrow-head at the bottom right corner of the selection and drag up to increase the thickness of selected lines, down to decrease it. This option is available for Toonz Vector drawings only.
+    - **Thickness**, click the double arrow-head at the bottom right corner of the selection and drag up to increase the thickness of selected lines, down to decrease it. This option is available for Vector drawings only.
 
 To apply the transformations you can click outside the selection.
 
@@ -815,7 +815,7 @@ When a drawing in a Toonz level, or a section of it is pasted to another one, th
 
     3. Deactivate the **Modify Savebox** option to confirm the changes.
 
-.. tip:: **To select and transform an area in a Toonz Raster or Raster level:**
+.. tip:: **To select and transform an area in a Smart Raster or Raster level:**
 
     1. Select the area by doing one of the following:
 
@@ -835,7 +835,7 @@ When a drawing in a Toonz level, or a section of it is pasted to another one, th
 
        First define the area you want to select, then use the bounding box to make geometric transformations.
 
-.. tip:: **To select and transform vectors in a Toonz Vector level:**
+.. tip:: **To select and transform vectors in a Vector level:**
 
     1. Select the vectors by doing one of the following:
 
@@ -864,7 +864,7 @@ When a drawing in a Toonz level, or a section of it is pasted to another one, th
        First select the vector strokes you want to transform, then use the bounding box to make geometric transformations.
 
 
-.. tip:: **To select and transform all the drawings of a Toonz Vector level:**
+.. tip:: **To select and transform all the drawings of a Vector level:**
 
     1. Do one of the following:
 
@@ -890,7 +890,7 @@ When a drawing in a Toonz level, or a section of it is pasted to another one, th
 
     4. Paste the copied/cut selection.
 
-.. note:: Selections from Toonz Raster and Toonz Vector levels can be pasted in any other type of drawing, automatically converting the pasted selection to the appropriate type; selections from standard Raster levels can only be pasted in other Raster drawings.
+.. note:: Selections from Smart Raster and Vector levels can be pasted in any other type of drawing, automatically converting the pasted selection to the appropriate type; selections from standard Raster levels can only be pasted in other Raster drawings.
 
 .. tip:: **To paste a selection in a new drawing:**
 
@@ -1478,7 +1478,7 @@ The *relative* Onion Skin mode displays frames in relation to the position of th
 
 The *fixed* Onion Skin mode displays the selected frame independently from the current frame. For instance you can activate frame 5, and every time you change the current frame, frame 5 will be displayed in Onion Skin mode.
 
-The way images are displayed in Onion Skin mode can be customized in the Preferences pane. It's possible to define the **Paper Thickness**, to set an independent color correction for previous and following frames, and to **Display Lines Only** for Toonz Vector and Toonz Raster.
+The way images are displayed in Onion Skin mode can be customized in the Preferences pane. It's possible to define the **Paper Thickness**, to set an independent color correction for previous and following frames, and to **Display Lines Only** for Vector and Smart Raster.
 
 .. tip:: **To activate or deactivate frames in Relative Onion Skin mode:**
 
@@ -1528,7 +1528,7 @@ The way images are displayed in Onion Skin mode can be customized in the Prefere
 
     - Use the **Following Frames Correction** to set a color for displaying following frames.
 
-    - Activate the **Display Lines Only** option to display Toonz Vector or Toonz Raster levels with lines only.
+    - Activate the **Display Lines Only** option to display Vector or Smart Raster levels with lines only.
 
 
 .. _using_the_shift_and_trace:

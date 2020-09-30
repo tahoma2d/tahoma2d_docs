@@ -59,7 +59,7 @@ msgstr ""
 
 #: ../../source/painting_animation_levels.rst:11
 msgid ""
-"If the computer performance worsens during the painting process of Toonz Raster "
+"If the computer performance worsens during the painting process of Smart Raster "
 "animation levels, try activating the **Minimize Raster Memory Fragmentation** "
 "option in the Preferences  →  General dialog (see  :ref:`Optimizing the Memory "
 "Usage <optimizing_the_memory_usage>`  )."
@@ -148,7 +148,7 @@ msgid ""
 "the area lines. With low values, even a very thin line made of semitransparent "
 "pixels will be effective to stop de filling operation; with high values, only "
 "the more opaque pixels will stop color from flooding outside. This option "
-"applies to Toonz Raster drawings only. It is possible to set two values: the "
+"applies to Smart Raster drawings only. It is possible to set two values: the "
 "minimum value is used when using the tool with the standard mouse **click**, "
 "the maximum value when using the tool with the **Shift-click**."
 msgstr ""
@@ -166,7 +166,7 @@ msgstr ""
 msgid ""
 "**Segment** lets you apply the fill only to a segment of raster lines. A "
 "segment is determined by an abrupt change of *thickness* or *direction* in the "
-"stroke. This is available for Toonz Raster drawings only."
+"stroke. This is available for Smart Raster drawings only."
 msgstr ""
 "**Segmento** permite aplicar el relleno sólo a un segmento de una línea. Los "
 "segmentos quedarán determinados por cambios abruptos en el *grosor* o la "
@@ -198,7 +198,7 @@ msgstr ""
 #: ../../source/painting_animation_levels.rst:40
 msgid ""
 "The **Paint Brush** tool (|paint_brush|) allows you to paint a drawing area or "
-"a line, as if you were using a brush. It is available for Toonz Raster drawings "
+"a line, as if you were using a brush. It is available for Smart Raster drawings "
 "only. Options are the following:"
 msgstr ""
 "La herramienta **Brocha** (|paint_brush|) permite pintar áreas o líneas de un "
@@ -254,7 +254,7 @@ msgstr ""
 
 #: ../../source/painting_animation_levels.rst:57
 msgid ""
-"In Toonz Raster levels, the areas that can be painted are limited either by the "
+"In Smart Raster levels, the areas that can be painted are limited either by the "
 "image border or by the image Savebox, according to the **Use the TLV Savebox to "
 "Limit Filling Operations** option available in Preferences  →  Tools."
 msgstr ""
@@ -588,7 +588,7 @@ msgstr ""
 
 #: ../../source/painting_animation_levels.rst:144
 msgid ""
-"For Toonz Vector drawings the **Tape** tool (|tape|) allows you to join vector "
+"For Vector drawings the **Tape** tool (|tape|) allows you to join vector "
 "strokes manually or automatically, both considering their endpoints and any "
 "point along the strokes themselves, according to the tool settings. Options "
 "available are the following:"
@@ -666,7 +666,7 @@ msgstr ""
 
 #: ../../source/painting_animation_levels.rst:160
 msgid ""
-"For Toonz Raster drawings the **Tape** tool (|tape|) automatically joins the "
+"For Smart Raster drawings the **Tape** tool (|tape|) automatically joins the "
 "open ends detected in the drawing according to the tool settings. Options "
 "available are the following:"
 msgstr ""
@@ -874,7 +874,7 @@ msgstr ""
 #: ../../source/painting_animation_levels.rst:215
 msgid ""
 "Please note that the **Tape** tool **Opacity** value will affect the display of "
-"the Gap Check in Toonz Raster levels, so if it is set to the default value of "
+"the Gap Check in Smart Raster levels, so if it is set to the default value of "
 "1, you will not be able to see anything with the Gap Check function. Set it to "
 "255 instead, to be able to use this check."
 msgstr ""
@@ -1010,7 +1010,7 @@ msgstr "Pintura de líneas"
 msgid ""
 "Lines of a drawing can be painted with the **Fill** tool (|fill|). For Toonz "
 "Raster drawings, the Fill tool (|fill|) affects continuous lines sharing the "
-"same style; for Toonz Vector drawings, only a single vector stroke at a time."
+"same style; for Vector drawings, only a single vector stroke at a time."
 msgstr ""
 "Es posible pintar las líneas o trazos vectoriales de un dibujo usando la "
 "herramienta **Rellenar** (|fill|). En el caso de niveles de Imagen de Toonz, la "
@@ -1020,7 +1020,7 @@ msgstr ""
 
 #: ../../source/painting_animation_levels.rst:258
 msgid ""
-"For Toonz Raster drawings, lines can be also painted with the **Paint Brush** "
+"For Smart Raster drawings, lines can be also painted with the **Paint Brush** "
 "tool (|paint_brush|) set to **Lines** mode. In this case by setting the size of "
 "the tool, you can paint any section of the lines as if you were using a brush."
 msgstr ""
@@ -1031,7 +1031,7 @@ msgstr ""
 
 #: ../../source/painting_animation_levels.rst:260
 msgid ""
-"For Toonz Vector drawings, a vector stroke can be also painted by selecting it "
+"For Vector drawings, a vector stroke can be also painted by selecting it "
 "first, then selecting the style you want in the level Palette."
 msgstr ""
 "En niveles Vectorial de Toonz, también es posible pintar un trazo "
@@ -1039,7 +1039,7 @@ msgstr ""
 "el mismo en la Paleta del nivel."
 
 #: ../../source/painting_animation_levels.rst:262
-msgid "**To paint a Toonz Raster line:**"
+msgid "**To paint a Smart Raster line:**"
 msgstr "**Para pintar una línea en un nivel de Imagen de Toonz:**"
 
 #: ../../source/painting_animation_levels.rst:264
@@ -1055,7 +1055,7 @@ msgid "Click the line you want to paint."
 msgstr "Hacer clic sobre la línea que se desee pintar."
 
 #: ../../source/painting_animation_levels.rst:268
-msgid "**To paint a Toonz Vector stroke:**"
+msgid "**To paint a Vector stroke:**"
 msgstr "**Para pintar un trazo en un nivel Vectorial de Toonz:**"
 
 #: ../../source/painting_animation_levels.rst:272
@@ -1078,7 +1078,7 @@ msgstr ""
 "herramienta Seleccionar <using_the_selection_tool>`  )."
 
 #: ../../source/painting_animation_levels.rst:276
-msgid "**To partially paint a Toonz Raster line:**"
+msgid "**To partially paint a Smart Raster line:**"
 msgstr "**Para pintar parcialmente una línea en un nivel de Imagen de Toonz:**"
 
 #: ../../source/painting_animation_levels.rst:280
@@ -1302,7 +1302,7 @@ msgstr ""
 "fusionadas."
 
 #: ../../source/painting_animation_levels.rst:345
-msgid "Match lines can only be applied to Toonz Raster (TLV) animation levels."
+msgid "Match lines can only be applied to Smart Raster (TLV) animation levels."
 msgstr ""
 "Sólo es posible aplicar Líneas de coincidencia en niveles de Imagen de Toonz "
 "(TLV)."
@@ -1586,7 +1586,7 @@ msgstr "Uso de la opción Pintar líneas automáticamente al rellenar"
 
 #: ../../source/painting_animation_levels.rst:422
 msgid ""
-"Toonz Raster levels may include colored lines coming from a color cleanup "
+"Smart Raster levels may include colored lines coming from a color cleanup "
 "session, or from some applied match line levels (see  :ref:`Processing Colored "
 "Lineart Drawings <processing_colored_lineart_drawings>`  and  :ref:`Using Match "
 "Lines <using_match_lines>`  for details)."
@@ -1698,7 +1698,7 @@ msgstr ""
 
 #: ../../source/painting_animation_levels.rst:451
 msgid ""
-"If the color model is a Toonz Raster or Vector level (TLV or PLI file), it "
+"If the color model is a Smart Raster or Vector level (TLV or PLI file), it "
 "already comes with a palette, whose style names and page configuration will be "
 "preserved."
 msgstr ""

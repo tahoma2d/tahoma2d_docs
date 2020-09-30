@@ -32,7 +32,7 @@ msgstr ""
 
 #: ../../source/cleaning-up_scanned_drawings.rst:7
 msgid ""
-"The process generates a Toonz raster level (TLV format) and the related "
+"The process generates a Smart Raster level (TLV format) and the related "
 "default palette (TPL format), where the styles used to paint the level "
 "will be stored."
 msgstr ""
@@ -1214,7 +1214,7 @@ msgstr ""
 #: ../../source/cleaning-up_scanned_drawings.rst:496
 msgid ""
 "When a drawing is cleaned up, its cell color turns from light blue to "
-"light green, the color denoting Toonz levels (see  :ref:`Working with "
+"light green, the color denoting Tahoma Levels (see  :ref:`Working with "
 "Xsheet Columns <working_with_xsheet_columns>`  ). If you cleanup "
 "partially an animation level, the remaining cells where the level is "
 "exposed will have a double color (green and blue), to stress the fact "

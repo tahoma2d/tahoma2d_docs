@@ -8,7 +8,7 @@ All Toonz level drawings are made of **lines** (determined by the strokes of sca
 
 .. note:: All the painting work is not saved until you save the related level, or use the **Save All** command (see  :ref:`Saving Levels <saving_levels>`  ).
 
-.. note:: If the computer performance worsens during the painting process of Toonz Raster animation levels, try activating the **Minimize Raster Memory Fragmentation** option in the Preferences  →  General dialog (see  :ref:`Optimizing the Memory Usage <optimizing_the_memory_usage>`  ).
+.. note:: If the computer performance worsens during the painting process of Smart Raster animation levels, try activating the **Minimize Raster Memory Fragmentation** option in the Preferences  →  General dialog (see  :ref:`Optimizing the Memory Usage <optimizing_the_memory_usage>`  ).
 
 
 .. _painting_tools:
@@ -29,15 +29,15 @@ The **Fill** tool (|fill|) allows you to paint a drawing area or line by clickin
 
     - **Selective** prevents the fill operation to be performed on *already filled* areas. 
 
-    - **Fill Depth** sets how much the fill style passes through the antialiasing of the area lines. With low values, even a very thin line made of semitransparent pixels will be effective to stop de filling operation; with high values, only the more opaque pixels will stop color from flooding outside. This option applies to Toonz Raster drawings only. It is possible to set two values: the minimum value is used when using the tool with the standard mouse **click**, the maximum value when using the tool with the **Shift-click**.
+    - **Fill Depth** sets how much the fill style passes through the antialiasing of the area lines. With low values, even a very thin line made of semitransparent pixels will be effective to stop de filling operation; with high values, only the more opaque pixels will stop color from flooding outside. This option applies to Smart Raster drawings only. It is possible to set two values: the minimum value is used when using the tool with the standard mouse **click**, the maximum value when using the tool with the **Shift-click**.
 
-    - **Segment** lets you apply the fill only to a segment of raster lines. A segment is determined by an abrupt change of *thickness* or *direction* in the stroke. This is available for Toonz Raster drawings only.
+    - **Segment** lets you apply the fill only to a segment of raster lines. A segment is determined by an abrupt change of *thickness* or *direction* in the stroke. This is available for Smart Raster drawings only.
 
     - **Onion Skin** lets you pick the style to use for the filling operation from other drawings, visible in onion skin mode, and apply it to the current drawing (see  :ref:`Using Onion Skin <using_onion_skin>`  ).
 
     - **Frame Range** allows you to perform the filling on a range of frames, by clicking in the first and then in the last frame of the range. You can also Shift-click to define the filling position for intermediate frames.
 
-The **Paint Brush** tool (|paint_brush|) allows you to paint a drawing area or a line, as if you were using a brush. It is available for Toonz Raster drawings only. Options are the following:
+The **Paint Brush** tool (|paint_brush|) allows you to paint a drawing area or a line, as if you were using a brush. It is available for Smart Raster drawings only. Options are the following:
 
     - **Size** sets the brush size.
 
@@ -54,7 +54,7 @@ Areas can be filled when their outline is well-defined, with no gaps occurring a
 
 Options available for the painting tools can help you to speed up the painting job. You can decide which options are the most suitable for your task by following the guidelines below.
 
-.. note:: In Toonz Raster levels, the areas that can be painted are limited either by the image border or by the image Savebox, according to the **Use the TLV Savebox to Limit Filling Operations** option available in Preferences  →  Tools.
+.. note:: In Smart Raster levels, the areas that can be painted are limited either by the image border or by the image Savebox, according to the **Use the TLV Savebox to Limit Filling Operations** option available in Preferences  →  Tools.
 
 .. note:: Some styles may not be suitable for filling areas, such as the **Trail** or **Vector** styles or some of the **Generated** styles. If you select one of these styles in the Palette, and you use it to fill an area, no operation will be performed.
 
@@ -141,7 +141,7 @@ Closing Gaps in Drawing Outline
 '''''''''''''''''''''''''''''''
 If the area outline is not perfectly defined, you will not be able to fill it. The gap can be closed by adding a line with the **Brush** (|brush|) or **Geometric** (|geometric|) tools (see :ref:`Drawing Tools <drawing_tools>`  ), or by using the **Tape** tool (|tape|).
 
-For Toonz Vector drawings the **Tape** tool (|tape|) allows you to join vector strokes manually or automatically, both considering their endpoints and any point along the strokes themselves, according to the tool settings. Options available are the following:
+For Vector drawings the **Tape** tool (|tape|) allows you to join vector strokes manually or automatically, both considering their endpoints and any point along the strokes themselves, according to the tool settings. Options available are the following:
 
     - **Type:** has the options **Normal**, to manually define joining vectors, or **Rectangular**, to automatically close all the gaps detected in the box you define. 
 
@@ -157,7 +157,7 @@ For Toonz Vector drawings the **Tape** tool (|tape|) allows you to join vector s
 
     - **Smooth**, when activated, creates a smooth joined stroke with no corners.
 
-For Toonz Raster drawings the **Tape** tool (|tape|) automatically joins the open ends detected in the drawing according to the tool settings. Options available are the following:
+For Smart Raster drawings the **Tape** tool (|tape|) automatically joins the open ends detected in the drawing according to the tool settings. Options available are the following:
 
     - **Type:** has the options **Normal**, to close all the gaps detected in the drawing by clicking in it; **Rectangular**, to close all the gaps detected in the box you define; **Freehand**, to close on all the gaps detected in the area you define by clicking and dragging; and **Polyline**, to close on all the gaps detected in the area you define by drawing a series of straight lines.
 
@@ -212,7 +212,7 @@ To control the drawing outline and see if areas are well-defined in order to be 
 
 - The **Gap Check** highlights with *magenta lines* the gaps that can be automatically closed by using the **Tape** tool (|tape|) with its current settings; if you change the **Distance** and **Angle** values of the Tape tool, while the check is activated, you can check interactively if the gaps that are detected. 
 
- .. note:: Please note that the **Tape** tool **Opacity** value will affect the display of the Gap Check in Toonz Raster levels, so if it is set to the default value of 1, you will not be able to see anything with the Gap Check function. Set it to 255 instead, to be able to use this check.
+ .. note:: Please note that the **Tape** tool **Opacity** value will affect the display of the Gap Check in Smart Raster levels, so if it is set to the default value of 1, you will not be able to see anything with the Gap Check function. Set it to 255 instead, to be able to use this check.
 
 - The **Fill Check** displays all the well-defined areas that can be filled with colors in grey, all the lines or vector strokes in black, and the not well-defined areas and the background in white; if the **Black BG Check** is activated, all the lines or vector strokes are displayed in white (see  :ref:`Checking Painted Drawings <checking_painted_drawings>`  ). 
 
@@ -253,19 +253,19 @@ To control if all the drawings areas are properly painted, and to see if the fil
 Painting Lines
 --------------
 Lines of a drawing can be painted with the **Fill** tool (|fill|).
-For Toonz Raster drawings, the Fill tool (|fill|) affects continuous lines sharing the same style; for Toonz Vector drawings, only a single vector stroke at a time. 
+For Smart Raster drawings, the Fill tool (|fill|) affects continuous lines sharing the same style; for Vector drawings, only a single vector stroke at a time. 
 
-For Toonz Raster drawings, lines can be also painted with the **Paint Brush** tool (|paint_brush|) set to **Lines** mode. In this case by setting the size of the tool, you can paint any section of the lines as if you were using a brush.
+For Smart Raster drawings, lines can be also painted with the **Paint Brush** tool (|paint_brush|) set to **Lines** mode. In this case by setting the size of the tool, you can paint any section of the lines as if you were using a brush.
 
-For Toonz Vector drawings, a vector stroke can be also painted by selecting it first, then selecting the style you want in the level Palette.
+For Vector drawings, a vector stroke can be also painted by selecting it first, then selecting the style you want in the level Palette.
 
-.. tip:: **To paint a Toonz Raster line:**
+.. tip:: **To paint a Smart Raster line:**
 
     1. Select the **Fill** tool (|fill|), set the fill mode to **Lines** and select a style in the palette.
 
     2. Click the line you want to paint. 
 
-.. tip:: **To paint a Toonz Vector stroke:**
+.. tip:: **To paint a Vector stroke:**
 
     Do one of the following:
 
@@ -273,7 +273,7 @@ For Toonz Vector drawings, a vector stroke can be also painted by selecting it f
 
     - With the **Selection** tool (|selection|) select the strokes you want to paint, then select a style in the Palette (see  :ref:`Using the Selection Tool <using_the_selection_tool>`  ).
 
-.. tip:: **To partially paint a Toonz Raster line:**
+.. tip:: **To partially paint a Smart Raster line:**
 
     Do one of the following:
 
@@ -342,7 +342,7 @@ Some other times you may need to merge two or several animation levels into a si
 
 In both cases you can use the match lines feature to achieve your tasks, as it allows you to merge the levels exposed in two columns/layers, and if needed to delete the merged match lines. 
 
-Match lines can only be applied to Toonz Raster (TLV) animation levels.
+Match lines can only be applied to Smart Raster (TLV) animation levels.
 
 In the Xsheet, when two columns are merged, the column drawings on the right are considered as match lines applied to the drawings on the left (in the Timeline, when two layers are merged, the layer drawings on top are considered as match lines applied to the drawings on the bottom).
 
@@ -419,7 +419,7 @@ Applied match lines can be deleted as a whole from the destination level, or it 
 
 Using the Autopaint for Lines Option
 ''''''''''''''''''''''''''''''''''''
-Toonz Raster levels may include colored lines coming from a color cleanup session, or from some applied match line levels (see  :ref:`Processing Colored Lineart Drawings <processing_colored_lineart_drawings>`  and  :ref:`Using Match Lines <using_match_lines>`  for details).
+Smart Raster levels may include colored lines coming from a color cleanup session, or from some applied match line levels (see  :ref:`Processing Colored Lineart Drawings <processing_colored_lineart_drawings>`  and  :ref:`Using Match Lines <using_match_lines>`  for details).
 
 In most of the cases these colored lines are meant to set the outline of the body shadow, or body highlight, and for this reason usually they have to be painted with the same color of the shadow or highlight areas they help define.
 
@@ -448,7 +448,7 @@ Any image or animation level can be used as a reference by loading it in the Col
 
 When a color model is loaded for the current level, you can decide to load its palette, thus overwriting the current level palette, or to keep the current animation level palette. 
 
-If the color model is a Toonz Raster or Vector level (TLV or PLI file), it already comes with a palette, whose style names and page configuration will be preserved.
+If the color model is a Smart Raster or Vector level (TLV or PLI file), it already comes with a palette, whose style names and page configuration will be preserved.
 
 If the color model is a full-color Raster image or animation level, the palette is automatically generated by extracting colors from the image, or the first image of the level. If the full-color image contains many shaded colors, the palette will be optimized to reduce the number of colors.
 

@@ -368,7 +368,7 @@ msgstr ""
 
 #: ../../source/managing_projects.rst:137
 msgid ""
-"+extras is the folder where all the imported non-Toonz levels, images and"
+"+extras is the folder where all the imported non-Tahoma Levels, images and"
 " audio files are saved."
 msgstr ""
 

@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../../source/drawing_animation_levels.rst:5
 msgid ""
-"In Toonz it is possible to draw Toonz vector levels (PLI format), Toonz "
+"In Toonz it is possible to draw Vector levels (PLI format), Toonz "
 "raster levels (TLV format) and standard raster levels (TIF format) "
 "directly in the work area. Drawing tools can also be used for touch-up in"
 " cleaned up drawings, and any loaded raster images."
@@ -37,15 +37,15 @@ msgstr ""
 #: ../../source/drawing_animation_levels.rst:11
 msgid ""
 "To draw an animation level, first you have to define its type, Toonz "
-"vector, Toonz raster or raster, and its settings like its name, the "
+"vector, Smart Raster or raster, and its settings like its name, the "
 "number of frames it is made of and the way its drawings are numbered."
 msgstr ""
 
 #: ../../source/drawing_animation_levels.rst:13
 msgid ""
-"Toonz vector levels are defined by drawing vector strokes; vectors and "
+"Vector levels are defined by drawing vector strokes; vectors and "
 "areas defined by vectors can be painted by using the styles available in "
-"the level palette. Toonz vector levels have unlimited size and "
+"the level palette. Vector levels have unlimited size and "
 "resolution, as they are vector-based. They are saved as PLI files."
 msgstr ""
 
@@ -57,9 +57,9 @@ msgstr ""
 
 #: ../../source/drawing_animation_levels.rst:17
 msgid ""
-"Toonz raster levels are defined by drawing bitmap lines; lines and areas "
+"Smart Raster levels are defined by drawing bitmap lines; lines and areas "
 "defined by lines can be painted by using the styles available in the "
-"level palette. Toonz raster levels have a limited size and resolution, "
+"level palette. Smart Raster levels have a limited size and resolution, "
 "defined when they are created. They are saved as TLV files."
 msgstr ""
 
@@ -100,12 +100,12 @@ msgid ""
 msgstr ""
 
 #: ../../source/drawing_animation_levels.rst:31
-msgid "The choice is among Toonz Vector Leveland Raster Level."
+msgid "The choice is among Vector Leveland Raster Level."
 msgstr ""
 
 #: ../../source/drawing_animation_levels.rst:33
 msgid ""
-"By default Toonz raster and vector levels are saved in the +drawing "
+"By default Smart Raster and vector levels are saved in the +drawing "
 "folder of the current project when the scene is saved, while raster "
 "levels are saved in the +extras folder (see  :ref:`Project Default "
 "Folders <project_default_folders>`  )."
@@ -165,7 +165,7 @@ msgstr ""
 
 #: ../../source/drawing_animation_levels.rst:59
 msgid ""
-"In case you define a Toonz raster or a raster level, you can set its "
+"In case you define a Smart Raster or a raster level, you can set its "
 "Width, Height and DPI values, according to the way you want to use it in "
 "the scene."
 msgstr ""
@@ -180,9 +180,9 @@ msgstr ""
 
 #: ../../source/drawing_animation_levels.rst:63
 msgid ""
-"When a Toonz raster or vector level is defined, the color of the column "
+"When a Smart Raster or vector level is defined, the color of the column "
 "cells where the level is exposed are colored in light green, the color "
-"denoting Toonz levels; when a raster level is defined, the color of the "
+"denoting Tahoma Levels; when a raster level is defined, the color of the "
 "column cells where the level is exposed are colored in light blue, the "
 "color denoting raster images (see  :ref:`Working with Xsheet Columns "
 "<working_with_xsheet_columns>`  )."
@@ -250,7 +250,7 @@ msgstr ""
 
 #: ../../source/drawing_animation_levels.rst:77
 msgid ""
-"Choose the type of level, Toonz Vector, Toonz Raster or Raster, from the "
+"Choose the type of level, Vector, Smart Raster or Raster, from the "
 "Type option menu, and define its settings, then click the OK button."
 msgstr ""
 
@@ -818,7 +818,7 @@ msgstr ""
 #: ../../source/drawing_animation_levels.rst:327
 msgid ""
 "|Toonz71_067| ) tools. For both tools you can set the thickness of the "
-"line you are going to draw: values range from 0 to 100 for Toonz vector "
+"line you are going to draw: values range from 0 to 100 for Vector "
 "levels, and from 1 to 100 for Toonz and standard raster levels."
 msgstr ""
 
@@ -939,13 +939,13 @@ msgstr ""
 #: ../../source/drawing_animation_levels.rst:417
 msgid ""
 "Selective allows the drawing operation without affecting already drawn "
-"lines. This is available for Toonz raster drawings only."
+"lines. This is available for Smart Raster drawings only."
 msgstr ""
 
 #: ../../source/drawing_animation_levels.rst:375
 msgid ""
 "Pencil Mode draws lines without antialiasing, that is with jagged edges. "
-"This is available for Toonz raster drawings only."
+"This is available for Smart Raster drawings only."
 msgstr ""
 
 #: ../../source/drawing_animation_levels.rst:377
@@ -1048,21 +1048,21 @@ msgid ""
 "creating a new layer that is placed in front of the other drawing "
 "vectors, without intersecting them (see  :ref:`Grouping and Ungrouping "
 "Vectors <grouping_and_ungrouping_vectors>`  ). This is available for "
-"Toonz vector drawings only."
+"Vector drawings only."
 msgstr ""
 
 #: ../../source/drawing_animation_levels.rst:415
 msgid ""
 "Auto Fill automatically paints the area defined by any drawn closed shape"
 " (i.e. rectangles, circles, ellipses, polygons and closed polylines) with"
-" the same style used for drawing. This is available for Toonz vector "
+" the same style used for drawing. This is available for Vector "
 "drawings only."
 msgstr ""
 
 #: ../../source/drawing_animation_levels.rst:419
 msgid ""
 "Pencil Mode draws geometric shapes without antialiasing, that is with "
-"jagged edges. This is available for Toonz raster drawings only."
+"jagged edges. This is available for Smart Raster drawings only."
 msgstr ""
 
 #: ../../source/drawing_animation_levels.rst:423
@@ -1303,7 +1303,7 @@ msgstr ""
 #: ../../source/drawing_animation_levels.rst:527
 msgid ""
 "Selective allows you to erase only lines or areas made with the current "
-"style. This is available only for Toonz raster and vector drawings."
+"style. This is available only for Smart Raster and vector drawings."
 msgstr ""
 
 #: ../../source/drawing_animation_levels.rst:529
@@ -1323,7 +1323,7 @@ msgstr ""
 #: ../../source/drawing_animation_levels.rst:533
 msgid ""
 "Pencil Mode erases lines without antialiasing, that is with jagged edges."
-" This is available for Toonz raster drawings only."
+" This is available for Smart Raster drawings only."
 msgstr ""
 
 #: ../../source/drawing_animation_levels.rst:537
@@ -1339,7 +1339,7 @@ msgstr ""
 #: ../../source/drawing_animation_levels.rst:545
 msgid ""
 "Scanned drawings and raster ones, i.e. drawings not based on vectors, can"
-" be converted into Toonz vector-based drawings."
+" be converted into Vector-based drawings."
 msgstr ""
 
 #: ../../source/drawing_animation_levels.rst:547
@@ -1444,7 +1444,7 @@ msgid ""
 "account to detect lines to be converted to vectors; for low values only "
 "the darkest pixels are considered thus resulting in thinner lines; for "
 "high values lighter pixels are considered too, thus resulting in thicker "
-"lines. This is relevant for Toonz raster levels only."
+"lines. This is relevant for Smart Raster levels only."
 msgstr ""
 
 #: ../../source/drawing_animation_levels.rst:589
@@ -1457,7 +1457,7 @@ msgid ""
 "to detect lines to be converted to vectors; for low values only the "
 "darkest pixels are considered thus resulting in thinner vectors; for high"
 " values lighter pixels are considered too, thus resulting in thicker "
-"lines. For Toonz raster levels (TLV files) the process examines only "
+"lines. For Smart Raster levels (TLV files) the process examines only "
 "pixels belonging to the lines; for full-color images, pixels of the whole"
 " image."
 msgstr ""
@@ -1488,7 +1488,7 @@ msgstr ""
 #: ../../source/drawing_animation_levels.rst:601
 msgid ""
 "Preserve Painted Areas, when activated, preserves all painted areas in "
-"Toonz raster levels (TLV files) and all the areas painted with colors "
+"Smart Raster levels (TLV files) and all the areas painted with colors "
 "different from the line color in full-color images."
 msgstr ""
 
@@ -1524,7 +1524,7 @@ msgstr ""
 
 #: ../../source/drawing_animation_levels.rst:611
 msgid ""
-"Toonz vector levels (PLI files) created with Toonz Harlequin 7.0 are not "
+"Vector levels (PLI files) created with Toonz Harlequin 7.0 are not "
 "compatible with previous versions of the software."
 msgstr ""
 
@@ -1784,7 +1784,7 @@ msgstr ""
 
 #: ../../source/drawing_animation_levels.rst:729
 msgid ""
-"Toonz raster and vector drawings, and raster images, can be manipulated "
+"Smart Raster and vector drawings, and raster images, can be manipulated "
 "in Toonz."
 msgstr ""
 
@@ -1866,7 +1866,7 @@ msgid ""
 " the current drawing; Boundary Strokes on Selected Frames, to select all "
 "the bounderies stroke of the Selected Frame; Boundary Strokes on Whole "
 "Level, to select all the bounderies stroke of the Whole Level.This is "
-"available for Toonz vector drawings only."
+"available for Vector drawings only."
 msgstr ""
 
 #: ../../source/drawing_animation_levels.rst:761
@@ -1898,7 +1898,7 @@ msgid ""
 "Thickness sets the thickness of the selected vectors. In case the "
 "selected vectors have a variable thickness, or different thickness "
 "values, the highest value is displayed, and any change will affect the "
-"other values accordingly. This is available for Toonz vector drawings "
+"other values accordingly. This is available for Vector drawings "
 "only."
 msgstr ""
 
@@ -1923,7 +1923,7 @@ msgstr ""
 msgid ""
 "The Modify Savebox check box allows you to resize the Savebox of a "
 "drawing. The drawing part that, because of the editing, falls outside of "
-"the savebox will be erased. This is available for Toonz raster drawings "
+"the savebox will be erased. This is available for Smart Raster drawings "
 "only."
 msgstr ""
 
@@ -1937,7 +1937,7 @@ msgstr ""
 msgid ""
 "When the No Antialias option is activated the antialiasing is not applied"
 " when the selection is deformed or rotated. This is available on Raster "
-"and Toonz raster drawings only."
+"and Smart Raster drawings only."
 msgstr ""
 
 #: ../../source/drawing_animation_levels.rst:791
@@ -1986,7 +1986,7 @@ msgstr ""
 msgid ""
 "Click the double arrow-head at the bottom right corner of the selection "
 "and drag up to increase the thickness of selected lines, down to decrease"
-" it. This is available for Toonz vector drawings only."
+" it. This is available for Vector drawings only."
 msgstr ""
 
 #: ../../source/drawing_animation_levels.rst:807
@@ -2052,7 +2052,7 @@ msgstr ""
 
 #: ../../source/drawing_animation_levels.rst:827
 msgid ""
-"**To select and transform an area in a Toonz raster drawing or in a "
+"**To select and transform an area in a Smart Raster drawing or in a "
 "raster image:**"
 msgstr ""
 
@@ -2096,7 +2096,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/drawing_animation_levels.rst:846
-msgid "**To select and transform vectors in a Toonz vector drawing:**"
+msgid "**To select and transform vectors in a Vector drawing:**"
 msgstr ""
 
 #: ../../source/drawing_animation_levels.rst:848
@@ -2155,7 +2155,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/drawing_animation_levels.rst:873
-msgid "**To select and transform all the drawings of a Toonz vector level:**"
+msgid "**To select and transform all the drawings of a Vector level:**"
 msgstr ""
 
 #: ../../source/drawing_animation_levels.rst:877
@@ -2210,7 +2210,7 @@ msgstr ""
 
 #: ../../source/drawing_animation_levels.rst:899
 msgid ""
-"Selections from Toonz raster and vector levels can be pasted in any other"
+"Selections from Smart Raster and vector levels can be pasted in any other"
 " type of drawing, automatically converting to raster or vector the pasted"
 " selection; selections from standard raster levels can be pasted in other"
 " standard raster drawings only."
@@ -3500,7 +3500,7 @@ msgid ""
 "The way images are displayed in onion skin mode can be customized in the "
 "Preferences dialog: it is possible to define the Paper Thickness, to set "
 "a color correction for previous frames and one for following frames, and "
-"to display Toonz levels with lines only."
+"to display Tahoma Levels with lines only."
 msgstr ""
 
 #: ../../source/drawing_animation_levels.rst:1502
@@ -3616,7 +3616,7 @@ msgstr ""
 
 #: ../../source/drawing_animation_levels.rst:1548
 msgid ""
-"Activate the Display Lines Only option to display Toonz levels with lines"
+"Activate the Display Lines Only option to display Tahoma Levels with lines"
 " only."
 msgstr ""
 

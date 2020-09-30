@@ -276,7 +276,7 @@ When editing a scene file (TNZ format), in the dialog that opens it's possible t
 
 |edit_frame_range|
 
-The **Edit Frame Range** command is available as well, to let a user edit only the *needed frames* of any Toonz Vector or Toonz Raster animation level. This way, different users can work at the same time *on different frame ranges* of the same animation level.
+The **Edit Frame Range** command is available as well, to let a user edit only the *needed frames* of any Vector or Smart Raster animation level. This way, different users can work at the same time *on different frame ranges* of the same animation level.
 
 |unlock|
 

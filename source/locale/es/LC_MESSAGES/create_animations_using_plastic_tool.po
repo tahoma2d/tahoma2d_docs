@@ -210,7 +210,7 @@ msgstr ""
 #: ../../source/create_animations_using_plastic_tool.rst:51
 msgid ""
 "The **Rasterization DPI** parameter is available only when you are creating the "
-"mesh from Toonz Vector levels."
+"mesh from Vector levels."
 msgstr ""
 "El parámetro **PPP de conversión a imagen** se encontrará disponible sólo al "
 "crear una malla a partir de un nivel Vectorial de Toonz."

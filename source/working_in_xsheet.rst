@@ -92,7 +92,7 @@ You can open folders and sub-folders in order to retrieve files that are display
 Loading Levels
 ''''''''''''''
 
-As part of the scene you can load Toonz Vector and Toonz Raster animation levels (PLI and TLV), Toonz palettes (TPL), Raster full-color images or image sequences (BMP, JPG, NOL, PNG, RGB, SGI, TGA, TIF and TIFF), video clips (AVI, MOV, and MP4 and WebM with the aid of FFMPEG, if installed), Photoshop documents (PSD), vector images (SVG) and audio files (AIFF, WAV and MP3 with the aid of FFMPEG, if installed). Images or clips with alpha channel information will retain their transparency information, once imported.
+As part of the scene you can load Vector and Smart Raster animation levels (PLI and TLV), Toonz palettes (TPL), Raster full-color images or image sequences (BMP, JPG, NOL, PNG, RGB, SGI, TGA, TIF and TIFF), video clips (AVI, MOV, and MP4 and WebM with the aid of FFMPEG, if installed), Photoshop documents (PSD), vector images (SVG) and audio files (AIFF, WAV and MP3 with the aid of FFMPEG, if installed). Images or clips with alpha channel information will retain their transparency information, once imported.
 
 .. note:: It is also possible to load legacy TZU and TZP files created with Toonz version 4.x: in this case the files will be automatically converted and loaded in the TLV format.
 
@@ -284,7 +284,7 @@ Executing Tasks in the File Browser
 '''''''''''''''''''''''''''''''''''
 Some tasks concerning files can be executed directly in the File Browser.
 
-Files can be duplicated, converted to a different format, converted to TLV (Toonz raster image) format, renamed, premultiplied, and you can choose to separate their colors. 
+Files can be duplicated, converted to a different format, converted to TLV (Smart Raster image) format, renamed, premultiplied, and you can choose to separate their colors. 
 
 When duplicating files, the new files will be renamed by appending an underscore followed by progressive numbering.
 
@@ -300,9 +300,9 @@ When converting files, a dialog prompts the frame range to convert, a saving loc
 
 When converting files to TLV format, it's possible to choose the painted or unpainted TLV formats; all levels, images and clips supported by Tahoma can be converted, except for PSD files.
 
-The conversion to the unpainted TLV format is available when one or several files are selected and it's meant for lineart images: the images and levels are converted into black lineart images with a transparent background, so that they can be painted with the same techniques and tools you can use for other Toonz Raster levels (see  :ref:`Painting Animation Levels <painting_animation_levels>`  ). In particular if images have some transparency, transparent pixels remain transparent, while solid pixels are transformed into black ones; if images have no transparency, white and lighter pixels will be assumed as transparent, while dark pixels are transformed into black ones. 
+The conversion to the unpainted TLV format is available when one or several files are selected and it's meant for lineart images: the images and levels are converted into black lineart images with a transparent background, so that they can be painted with the same techniques and tools you can use for other Smart Raster levels (see  :ref:`Painting Animation Levels <painting_animation_levels>`  ). In particular if images have some transparency, transparent pixels remain transparent, while solid pixels are transformed into black ones; if images have no transparency, white and lighter pixels will be assumed as transparent, while dark pixels are transformed into black ones. 
 
-The conversion to the painted TLV format is available when two files are selected or when the selected files are Raster Full color without antialiasing. In the case of the two files, one is meant to be the lineart and the other a painted version of the same image: the images and levels are converted into painted lineart images with a palette, so that they can be edited with the same techniques and tools you can use for other Toonz Raster levels (see  :ref:`Managing Palettes and Styles <managing_palettes_and_styles>`  and  :ref:`Painting Animation Levels <painting_animation_levels>`  ). In the case of conversion from Raster Full color without antialiasing, an Heuristic is used to recognize lines and painted areas creating a TLV level where the lines are seen as ink and the painted areas as paint.
+The conversion to the painted TLV format is available when two files are selected or when the selected files are Raster Full color without antialiasing. In the case of the two files, one is meant to be the lineart and the other a painted version of the same image: the images and levels are converted into painted lineart images with a palette, so that they can be edited with the same techniques and tools you can use for other Smart Raster levels (see  :ref:`Managing Palettes and Styles <managing_palettes_and_styles>`  and  :ref:`Painting Animation Levels <painting_animation_levels>`  ). In the case of conversion from Raster Full color without antialiasing, an Heuristic is used to recognize lines and painted areas creating a TLV level where the lines are seen as ink and the painted areas as paint.
 
 In particular if images have some transparency, transparent pixels remains transparent, while solid pixels are transformed into lines according to their color; if images have no transparency, white and lighter pixels will be assumed as transparent, while dark pixels are transformed into black lines. 
 
@@ -711,7 +711,7 @@ Once a level is exposed, its properties (path, DPI, subsampling, etc.), can be c
 
       .. note:: If in the browser you choose any project default folder, in the path field the full path will be replace by the related default folder alias (see  :ref:`Project Default Folders <project_default_folders>`  ).
 
-    - **Scan Path** displays the location of the scanned images that were cleaned up to obtain the actual level (see  :ref:`Cleaning-up Scanned Drawings <cleaning-up_scanned_drawings>`  ). This is available only for Toonz raster levels.
+    - **Scan Path** displays the location of the scanned images that were cleaned up to obtain the actual level (see  :ref:`Cleaning-up Scanned Drawings <cleaning-up_scanned_drawings>`  ). This is available only for Smart Raster levels.
 
     - **DPI** lets you change the level DPI, thus changing its size. To return to the original image DPI set the option menu above to Image DPI. 
 
@@ -727,9 +727,9 @@ Once a level is exposed, its properties (path, DPI, subsampling, etc.), can be c
 
     - **White As Transparent** sets the pure white color (i.e. with red, green and blue values to 255) as transparent and automatically adds some antialiasing to the level images. This option is meant for animation levels generated from third-party software (such as Retas) that do not have a transparent background but a solid white one, and whose lines do not have antialiasing.
 
-    - **Add Antialiasing** gives the user the possibility to add antialiasing to the level. The antialiasing value has to be specified in the **Antialias Softness** field, which can range from 0 to 100. This option is available on Toonz Raster and Raster levels.
+    - **Add Antialiasing** gives the user the possibility to add antialiasing to the level. The antialiasing value has to be specified in the **Antialias Softness** field, which can range from 0 to 100. This option is available on Smart Raster and Raster levels.
 
-    - **Subsampling** sets the simplifying factor to be applied to animation levels, clips and images when displayed in the work area in order to have a faster visualization and playback; for example if it is 2, one pixel every two pixels is displayed. The default values are defined in Xsheet  →  Scene Settings dialog, where values for raster (Image) and toonz raster (TLV) level subsampling can be defined.
+    - **Subsampling** sets the simplifying factor to be applied to animation levels, clips and images when displayed in the work area in order to have a faster visualization and playback; for example if it is 2, one pixel every two pixels is displayed. The default values are defined in Xsheet  →  Scene Settings dialog, where values for raster (Image) and Smart Raster (TLV) level subsampling can be defined.
 
       .. note:: The subsampling factor can also be applied to all the animation levels exposed in selected columns by right-clicking the header of any selected column and choosing one of the **Subsampling** commands from the menu that opens.
 
@@ -794,7 +794,7 @@ When levels are exposed in the Xsheet they are placed in columns (layers, in the
 
 The Xsheet is divided into sections divided by horizontal markers (vertical, in case of the Timeline), whose interval can be customized; at each marker the name of the levels exposed can be displayed, when the option **Display Level Name on Each Marker** is active in the Preferences  →  Interface dialog.
 
-Column/layer cells may have different colors according to the type of level they contain. Toonz Vector levels are displayed in dark yellow; Toonz Raster levels in green; Raster levels in light blue; Sub-Xsheets in violet (see  :ref:`Using Sub-Xsheets <using_sub-xsheets>`  ); Effect levels generated by Tahoma in brown (see  :ref:`Using the FX Schematic <using_the_fx_schematic>`  ); Audio levels in pale green (see  :ref:`Creating a Soundtrack <creating_a_soundtrack>`  ); and Note levels in grey.
+Column/layer cells may have different colors according to the type of level they contain. Vector levels are displayed in dark yellow; Smart Raster levels in green; Raster levels in light blue; Sub-Xsheets in violet (see  :ref:`Using Sub-Xsheets <using_sub-xsheets>`  ); Effect levels generated by Tahoma in brown (see  :ref:`Using the FX Schematic <using_the_fx_schematic>`  ); Audio levels in pale green (see  :ref:`Creating a Soundtrack <creating_a_soundtrack>`  ); and Note levels in grey.
 
 Each column/layer header contains information about its content. These are:
 
