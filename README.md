@@ -1,11 +1,11 @@
-# Tahoma User Manual
+# Tahoma2D User Manual
 
-This repositry is for the documentation of Tahoma, an open-source full-featured 2D animation creation software.
+This repositry is for the documentation of Tahoma2D, an open-source full-featured 2D animation creation software.
 The documentation is written in [reStructuredText](http://docutils.sourceforge.net/rst.html) format, built with [Sphinx](http://www.sphinx-doc.org/en/stable/) and released via [Read the Docs](https://readthedocs.org/).
 
 ## Documentation URL
-- [http://tahoma.readthedocs.io](http://tahoma.readthedocs.io)
-- [http://tahoma.rtfd.io](http://tahoma.rtfd.io)
+- [http://tahoma2d.readthedocs.io](http://tahoma2d.readthedocs.io)
+- [http://tahoma2d.rtfd.io](http://tahoma2d.rtfd.io)
 
 ## How to Build Locally
 
