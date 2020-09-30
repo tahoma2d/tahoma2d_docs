@@ -5,7 +5,7 @@ Interface Overview
 
 |UI_1|
 
-The Tahoma2D interface is organized into rooms, also known as workspaces: each room is a different collection of windows which are laid out at specific positions on the screen. 
+The Tahoma2D interface is organized into rooms, also known as workspaces. Each room is a different collection of window panes which are laid out at specific positions on the screen for a specifc use. 
 
 
 .. _editing_rooms:
@@ -13,7 +13,7 @@ The Tahoma2D interface is organized into rooms, also known as workspaces: each r
 Room Editing Mode
 -----------
 
-|UI_lock| "Room Editing Mode" allows for rooms to be added, removed, and renamed. It also allows for windows to be added, removed, or rearranged. To enter or exit "Room Editing Mode", click on the lock icon on the top right of the workspace.
+|UI_lock| "Room Editing Mode" allows for rooms to be added, removed, and renamed. It also allows for window panes to be added, removed, or rearranged. To enter or exit "Room Editing Mode", click on the lock icon on the top right of the workspace.
 
 .. tip:: **How to identify "Room Editing Mode":**
 
@@ -60,9 +60,9 @@ Rooms can be named and their order can be rearranged. New rooms can be added and
 
 Customizing Rooms
 '''''''''''''''''
-Rooms can be modified by setting different sizes to different panes. When "Room Editing Mode" is active, windows can be pulled out to an undocked position and floating windows can be docked. 
+Rooms can be modified by setting different sizes to different panes. When "Room Editing Mode" is active, panes can be pulled out to become floating windows and floating windows can be docked as panes. 
 
-While "Room Edting Mode", windows can be resized and new floating windows can bea added by using the Windows menu.
+While "Room Edting Mode" is locked, panes can be resized and new floating windows can be added by using the Windows menu.
 
 
 .. tip:: **To resize a pane in the room:**
