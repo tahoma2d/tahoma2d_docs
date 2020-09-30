@@ -3,16 +3,16 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Tahoma User Manual
+Tahoma2D User Manual
 ===================================================
 
-| This is the manual for Tahoma, an open-source full-featured 2D and Stop Motion animation creation software.
-| `http://tahoma.github.io <http://tahoma.github.io>`_
+| This is the manual for Tahoma2D, an open-source full-featured 2D and Stop Motion animation creation software.
+| `https://tahoma2d.org <https://tahoma2d.org>`_
 
-.. note:: This manual is an ongoing project, which aims to provide the first and most complete reference for Tahoma features, and as such there will always be room for improvements and updates. Collaboration is welcome!
+.. note:: This manual is an ongoing project, which aims to provide the first and most complete reference for Tahoma2D features, and as such there will always be room for improvements and updates. Collaboration is welcome!
 
-| To contribute to Tahoma's documentation, please visit the Tahoma docs repository.
-| `https://github.com/tahoma/tahoma_docs <https://github.com/tahoma/tahoma_docs>`_
+| To contribute to Tahoma's documentation, please visit the Tahoma2D docs repository.
+| `https://github.com/tahoma2d/tahoma_docs <https://github.com/tahoma2d/tahoma_docs>`_
 
 
 .. toctree::
