@@ -5,7 +5,7 @@ Interface Overview
 
 |UI_1|
 
-Tahoma interface is organized into rooms, also known as workspaces: each room is a different collection of windows which are laid out at specific positions on the screen. 
+The Tahoma2D interface is organized into rooms, also known as workspaces: each room is a different collection of windows which are laid out at specific positions on the screen. 
 
 
 .. _editing_rooms:
@@ -13,7 +13,7 @@ Tahoma interface is organized into rooms, also known as workspaces: each room is
 Room Editing Mode
 -----------
 
-|UI_lock| "Room Editing Mode" allows for rooms to added, removed, and renamed. It also allows for windows to added, removed, or rearranged. To enter or exit "Room Editing Mode", click on the lock icon on the top right of the workspace.
+|UI_lock| "Room Editing Mode" allows for rooms to be added, removed, and renamed. It also allows for windows to be added, removed, or rearranged. To enter or exit "Room Editing Mode", click on the lock icon on the top right of the workspace.
 
 .. tip:: **How to identify "Room Editing Mode":**
 
@@ -26,9 +26,9 @@ Using Rooms
 
 |UI_rooms|
 
-Available rooms are listed on the far right of the menu bar. Each of them always displays the content of the current scene.
+Available rooms are listed on the far right of the menu bar. Each room always displays the contents of the current scene.
 
-Rooms can be named and their order can be rearranged. New rooms can be added and existing rooms can be deleted. When a room is added it is empty; to configure it, panes can be added one by one (see below).
+Rooms can be named and their order can be rearranged. New rooms can be added and existing rooms can be deleted. When a room is added it is empty; to configure it, windows can be added one by one (see below).
 
 
 .. tip:: **To enter a room:**
