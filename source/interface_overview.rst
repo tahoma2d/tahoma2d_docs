@@ -8,6 +8,17 @@ Interface Overview
 Tahoma interface is organized into rooms, also known as workspaces: each room is a different collection of windows which are laid out at specific positions on the screen. 
 
 
+.. _editing_rooms:
+
+Room Editing Mode
+-----------
+
+|UI_lock| "Room Editing Mode" allows for rooms to added, removed, and renamed. It also allows for windows to added, removed, or rearranged. To enter or exit "Room Editing Mode", click on the lock icon on the top right of the workspace.
+
+.. tip:: **How to identify "Room Editing Mode":**
+
+    When "Room Editing Mode" is unlocked, all of the windows have a visible header.
+    
 .. _using_rooms:
 
 Using Rooms
@@ -22,7 +33,7 @@ Rooms can be named and their order can be rearranged. New rooms can be added and
 
 .. tip:: **To enter a room:**
 
-    Click the related tab on the far right of the menu bar.
+    Click on the related tab on the far right of the menu bar.
 
 .. tip:: **To name a room:**
 
@@ -49,16 +60,16 @@ Rooms can be named and their order can be rearranged. New rooms can be added and
 
 Customizing Rooms
 '''''''''''''''''
-Rooms can be modified by setting different sizes to different panes, and adding or removing panes. To prevent the accidental addition or removal of panes, rooms configuration can be locked.
+Rooms can be modified by setting different sizes to different panes. When "Room Editing Mode" is active, windows can be pulled out to an undocked position and floating windows can be docked. 
 
-Most of the panes can be maximized to fill the full interface, and can be added as floating windows by using the Windows menu.
+While "Room Edting Mode", windows can be resized and new floating windows can bea added by using the Windows menu.
 
 
 .. tip:: **To resize a pane in the room:**
 
     Click any vertical or horizontal separator and drag it to the new position.
 
-.. note:: Some panes like the toolbar and the level strip have some fixed size, therefore they cannot be resized.
+.. note:: Some panes like the toolbar have a fixed width or height, therefore they cannot always be resized.
 
 .. tip:: **To open a pane as a floating window:**
 
@@ -606,8 +617,9 @@ The QSS file can be edited with any text editor software, e.g. Notepad or TextEd
 
 
 
-.. |UI_1| image:: /_static/UI/UI_1.png
-.. |UI_rooms| image:: /_static/UI/UI_rooms.png
+.. |UI_1| image:: /_static/UI/interface.png
+.. |UI_lock| image:: /_static/UI/room_editing.png
+.. |UI_rooms| image:: /_static/UI/room_menu.png
 .. |UI_batch| image:: /_static/UI/UI_batch.png
 .. |UI_cleanup| image:: /_static/UI/UI_cleanup.png
 .. |UI_colormodel| image:: /_static/UI/UI_colormodel.png
