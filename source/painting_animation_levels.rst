@@ -392,7 +392,7 @@ Applied match lines can be deleted as a whole from the destination level, or it 
 
     4. Select the two columns by shift-clicking or click-draging their headers.
 
-    5. Choose Xsheet  →  **Apply Match Lines...**
+    5. Choose Scene  →  **Apply Match Lines...**
 
     6. In the dialog that opens choose the styles to be used for the match lines and the line prevalence, and click the Apply button.
 
@@ -400,13 +400,13 @@ Applied match lines can be deleted as a whole from the destination level, or it 
 
     1. Select the columns/layers, the cells, or the Level Strip frames where the animation level with the applied match lines is.
 
-    2. Choose Xsheet  →  **Delete Match Lines**.
+    2. Choose Scene  →  **Delete Match Lines**.
 
 .. tip:: **To delete lines by selecting the style index:**
 
     1. Select the columns/layers, the cells, or the Level Strip frames where the animation level whose lines you want to delete is.
 
-    2. Choose Xsheet  →  **Delete Lines...**
+    2. Choose Scene  →  **Delete Lines...**
 
     3. In the dialog that opens choose the indexes of the styles used for lines you want to delete, and the frames where you want to apply the deletion.
 

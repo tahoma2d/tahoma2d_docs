@@ -230,7 +230,7 @@ For Vector levels each drawing of the merged levels will be retained as a group 
 
     1. Select the columns where the animation levels you want to merge are exposed.
 
-    2. Choose Xsheet  →  Merge Levels.
+    2. Choose Scene  →  Merge Levels.
 
 .. _merging_toonz_raster_levels:
 

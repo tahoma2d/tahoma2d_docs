@@ -851,7 +851,7 @@ When a multiple key is deleted at the current frame, any key available in any Xs
 
     2. Select the frame where you want to insert keys.
 
-    3. Choose Xsheet  →  **Insert Multiple Keys**.
+    3. Choose Scene  →  **Insert Multiple Keys**.
 
 .. tip:: **To remove several keys at once:**
 
@@ -863,7 +863,7 @@ When a multiple key is deleted at the current frame, any key available in any Xs
 
     2. Select the frame where you want to delete keys.
 
-    3. Choose Xsheet  →  **Remove Multiple Keys**.
+    3. Choose Scene  →  **Remove Multiple Keys**.
 
 
 .. _working_in_a_3d_environment:

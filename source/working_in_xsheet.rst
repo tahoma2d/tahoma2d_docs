@@ -8,7 +8,7 @@ The Timeline is the horizontal counterpart of the Xsheet, it serves the same pur
 
 In both of them, different items, generically called here as levels, can be loaded into the scene: animation levels, images for the background and overlays, and video clips.
 
-Other Tahoma scenes can be loaded there as well: they will be nested inside a column/layer, and considered as a Sub-Xsheet of the current Xsheet/Timeline.
+Other Tahoma scenes can be loaded there as well: they will be nested inside a column/layer, and considered as a Subscene of the current Xsheet/Timeline.
 
 All of the Xsheet/Timeline contents can be checked in the viewer, where the animation can be played back, and the scene contents edited.
 
@@ -60,7 +60,7 @@ You can either use the standard Tahoma file browser to drag and drop levels or f
 
 .. note:: When a level is loaded, Tahoma checks if its syntax matches one of the level formats specified into Preferences  →  Loading  →  **Level Settings by File Format**. In this case the Level Settings specified will be applied. It is possible to add as many formats as you want, defining them by using a Regular Expression. This way, different settings can be automatically applied to different kind of levels.
 
-.. note:: It is possible to **Ignore Alpha Channel on Levels in Column 1** by activating the option in Preferences  →  Xsheet.
+.. note:: It is possible to **Ignore Alpha Channel on Levels in Column 1** by activating the option in Preferences  →  Scene.
 
 In the file tree available on the left there are the following main items:
 
@@ -110,7 +110,7 @@ As part of the scene you can load Vector and Smart Raster animation levels (PLI 
 
 From the browser, you can **View** images and clips you are going to load as levels by opening a flipbook whose default shrink factor and step can be set in the preferences dialog, and see the related file information by opening an **Info** box (see  :ref:`Using the Flipbook <using_the_flipbook>`  ).
 
-Tahoma scenes (TNZ files) can be loaded as part of another scene as well, in such a case they are loaded as Sub-Xsheets (see  :ref:`Loading a Scene as a Sub-Xsheet <loading_a_scene_as_a_sub-xsheet>`  ).
+Tahoma scenes (TNZ files) can be loaded as part of another scene as well, in such a case they are loaded as Subscenes (see  :ref:`Loading a Scene as a Subscene <loading_a_scene_as_a_sub-xsheet>`  ).
 
 When you load levels using the standard Tahoma file browser, you can set whether to automatically expose them in the Xsheet/Timeline or not, by setting the **Expose Loaded Levels in Xsheet** option in the Preferences  →  Loading dialog. If activated, each level will be placed in a different column/layer, starting from the first empty one. If deactivated, the loaded levels will be stored in the Scene Cast, from where they can be selectively exposed in Xsheet columns or Timeline layers (see  :ref:`Using the Scene Cast <using_the_scene_cast>`  ).
 
@@ -257,7 +257,7 @@ When a Photoshop document is loaded, a dialog opens to set the way the document 
 
     - **Frames**, loads each document layer as a frame, and exposes them as a sequence in an Xsheet column. Any layer group defined in the original document is ignored. The level name and path in Level Settings, and the Scene Cast, refer to the original name of the Photoshop document with the #frames suffix (see  :ref:`Editing Level Settings <editing_level_settings>`  and  :ref:`Using the Scene Cast <using_the_scene_cast>`  ).
 
-    - **Columns**, loads each document layer as a column, and it is possible to automatically create a Sub-Xsheet containing the columns by activating the **Expose in a Sub-Xsheet** option.
+    - **Columns**, loads each document layer as a column, and it is possible to automatically create a Subscene containing the columns by activating the **Expose in a Subscene** option.
 
 
 When a Photoshop document is loaded as Columns, it is also possible to set how new Level Names asre assigned. Options are the following:
@@ -271,7 +271,7 @@ When a Photoshop document is loaded as Columns, it is also possible to set the w
 
     - **Ignore groups**, overlooks any group of layers defined in the document, and each layer is exposed in a different column. The level name and path in Level Settings, and the scene cast, for each level refer to the original name of the Photoshop document with the #layerName suffix (see  :ref:`Editing Level Settings <editing_level_settings>`  and  :ref:`Using the Scene Cast <using_the_scene_cast>`  ).
 
-    - **Expose layers in a group as columns in a Sub-Xsheet**, creates for each group a Sub-Xsheet containing each layer of the group as a column. If a group contains other groups, the Sub-Xsheet will contain other Sub-Xsheets that will contain the related layers as columns. The level name and path in Level Settings, and the scene cast, for each level refer to the original name of the Photoshop document with the #layerID suffix (see  :ref:`Editing Level Settings <editing_level_settings>`  and  :ref:`Using the Scene Cast <using_the_scene_cast>`  ).
+    - **Expose layers in a group as columns in a Subscene**, creates for each group a Subscene containing each layer of the group as a column. If a group contains other groups, the Subscene will contain other Subscenes that will contain the related layers as columns. The level name and path in Level Settings, and the scene cast, for each level refer to the original name of the Photoshop document with the #layerID suffix (see  :ref:`Editing Level Settings <editing_level_settings>`  and  :ref:`Using the Scene Cast <using_the_scene_cast>`  ).
 
     - **Expose layers in a group as frames in a column**, creates for each group a column containing each layer of the group as a cell. If a group contains other groups, they will be ignored. The level name and path in Level Settings, and the scene cast, for each level refer to the original name of the Photoshop document with the #groupID#group suffix (see  :ref:`Editing Level Settings <editing_level_settings>`  and  :ref:`Using the Scene Cast <using_the_scene_cast>`  ).
 
@@ -729,7 +729,7 @@ Once a level is exposed, its properties (path, DPI, subsampling, etc.), can be c
 
     - **Add Antialiasing** gives the user the possibility to add antialiasing to the level. The antialiasing value has to be specified in the **Antialias Softness** field, which can range from 0 to 100. This option is available on Smart Raster and Raster levels.
 
-    - **Subsampling** sets the simplifying factor to be applied to animation levels, clips and images when displayed in the work area in order to have a faster visualization and playback; for example if it is 2, one pixel every two pixels is displayed. The default values are defined in Xsheet  →  Scene Settings dialog, where values for raster (Image) and Smart Raster (TLV) level subsampling can be defined.
+    - **Subsampling** sets the simplifying factor to be applied to animation levels, clips and images when displayed in the work area in order to have a faster visualization and playback; for example if it is 2, one pixel every two pixels is displayed. The default values are defined in Scene  →  Scene Settings dialog, where values for raster (Image) and Smart Raster (TLV) level subsampling can be defined.
 
       .. note:: The subsampling factor can also be applied to all the animation levels exposed in selected columns by right-clicking the header of any selected column and choosing one of the **Subsampling** commands from the menu that opens.
 
@@ -763,7 +763,7 @@ The Xsheet Toolbar panel can be toggled depending on user preferences.
 
     - Right click on any column/layer header and choose **Toggle Xsheet Toolbar** from the menu that opens.
 
-    - Activate the File  →  Preferences  →  Xsheet  →  **Show Toolbar in the Xsheet** option.
+    - Activate the File  →  Preferences  →  Scene  →  **Show Toolbar in the Scene** option.
 
     .. note:: When the Xsheet Toolbar is shown, it's also possible to activate the **Expand Function Editor Header to Match Xsheet Toolbar Height** option to correctly match the *frame* rows in both editors, when put side by side.
 
@@ -794,7 +794,7 @@ When levels are exposed in the Xsheet they are placed in columns (layers, in the
 
 The Xsheet is divided into sections divided by horizontal markers (vertical, in case of the Timeline), whose interval can be customized; at each marker the name of the levels exposed can be displayed, when the option **Display Level Name on Each Marker** is active in the Preferences  →  Interface dialog.
 
-Column/layer cells may have different colors according to the type of level they contain. Vector levels are displayed in dark yellow; Smart Raster levels in green; Raster levels in light blue; Sub-Xsheets in violet (see  :ref:`Using Sub-Xsheets <using_sub-xsheets>`  ); Effect levels generated by Tahoma in brown (see  :ref:`Using the FX Schematic <using_the_fx_schematic>`  ); Audio levels in pale green (see  :ref:`Creating a Soundtrack <creating_a_soundtrack>`  ); and Note levels in grey.
+Column/layer cells may have different colors according to the type of level they contain. Vector levels are displayed in dark yellow; Smart Raster levels in green; Raster levels in light blue; Subscenes in violet (see  :ref:`Using Subscenes <using_sub-xsheets>`  ); Effect levels generated by Tahoma in brown (see  :ref:`Using the FX Schematic <using_the_fx_schematic>`  ); Audio levels in pale green (see  :ref:`Creating a Soundtrack <creating_a_soundtrack>`  ); and Note levels in grey.
 
 Each column/layer header contains information about its content. These are:
 
@@ -820,7 +820,7 @@ Each column/layer header contains information about its content. These are:
 
 In the Xsheet, the column on the far left displays the frame number, with the cursor indicating the current frame. The cursor can be used to set the current frame and allows you to activate the onion skin mode to better check the animation (see  :ref:`Using Onion Skin <using_onion_skin>`  ). In the Timeline, the same controls are placed in the time ruler at the top of the Timeline, having an equivalent functionality.
 
-.. note:: When the animation is played back, the Xsheet/Timeline scrolls according to the current frame cursor position, in order to display the current frame. To disable the scrolling deactivate the **Xsheet Autopan during Playback** option available in the Preferences  →  Xsheet dialog.
+.. note:: When the animation is played back, the Xsheet/Timeline scrolls according to the current frame cursor position, in order to display the current frame. To disable the scrolling deactivate the **Xsheet Autopan during Playback** option available in the Preferences  →  Scene dialog.
 
 Above the frame number column, there are buttons for creating and navigating Memos that can be posted in the Xsheet/Timeline (see  :ref:`Using Memos <using_memos>`  ).
 
@@ -850,7 +850,7 @@ Columns/layers you want to hide in the Xsheet/Timeline can be folded in order to
 
 .. tip:: **To set the marker interval:**
 
-    1. Choose Xsheet  →  Scene Settings...
+    1. Choose Scene  →  Scene Settings...
 
     2. In the dialog that opens use the **Marker Interval** to set the frame interval between two markers, and the **Start Frame** to set at which frame the first marker has to be displayed. 
 
@@ -920,7 +920,7 @@ Columns/layers you want to hide in the Xsheet/Timeline can be folded in order to
 
     Click the triangle icon (|additional_settings|) on the column/layer header, and set the **Filter** parameter to one of its predefined colors.
 
-.. note:: You can make Opacity and Color Filter take effect at render time by activating the **Enable Column Color Filter and Transparency for Rendering** option in the Xsheet  →  Scene Settings... dialog.
+.. note:: You can make Opacity and Color Filter take effect at render time by activating the **Enable Column Color Filter and Transparency for Rendering** option in the Scene  →  Scene Settings... dialog.
 
 .. tip:: **To fold columns/layers:**
 
@@ -1045,7 +1045,7 @@ Selected cells can also be dragged to a new position in the Xsheet/Timeline, in 
 
 .. tip:: **To drag a cell selection moving along the column/layer data:**
 
-    1. Choose File  →  Preferences  →  Xsheet.
+    1. Choose File  →  Preferences  →  Scene.
 
     2. Set the Cell-dragging Behaviour option to **Cells and Column Data**.
 
@@ -1138,184 +1138,184 @@ When a frame is removed, the current frame cells are deleted, and the following 
 
     1. Select the frame before which you want to insert a new frame.
 
-    2. Choose Xsheet  →  **Insert Frame**.
+    2. Choose Scene  →  **Insert Frame**.
 
 .. tip:: **To remove a frame:**
 
     1. Select the frame you want to delete.
 
-    2. Choose Xsheet  →  **Remove Frame**.
+    2. Choose Scene  →  **Remove Frame**.
 
 
 .. _using_sub-xsheets:
 
-Using Sub-Xsheets
+Using Subscenes
 -----------------
-A Sub-Xsheet is a scene exposed in a single Xsheet column or Timeline layer. It can contain as many columns/layers as you want, and other Sub-Xsheets as well. 
+A Subscene is a scene exposed in a single Xsheet column or Timeline layer. It can contain as many columns/layers as you want, and other Subscenes as well. 
 
-When it's opened, the Sub-Xsheet contents are displayed in the Xsheet/Timeline pane. When it is closed, it's displayed in the Xsheet/Timeline as a violet column/layer, with its icon displaying a render of its content. The column/layer cells display the name of the Sub-Xsheet, and the cell number is a reference to the frame of the Sub-Xsheet content, i.e. cell 4 is a reference to frame 4 of the Sub-Xsheet. 
+When it's opened, the Subscene contents are displayed in the Xsheet/Timeline pane. When it is closed, it's displayed in the Xsheet/Timeline as a violet column/layer, with its icon displaying a render of its content. The column/layer cells display the name of the Subscene, and the cell number is a reference to the frame of the Subscene content, i.e. cell 4 is a reference to frame 4 of the Subscene. 
 
-The closed Sub-Xsheet level length depends on how many frames its content lasts at the time you create it, and it is not affected when you edit the Sub-Xsheet content.
+The closed Subscene level length depends on how many frames its content lasts at the time you create it, and it is not affected when you edit the Subscene content.
 
-Sub-Xsheet levels can be animated like any other animation level, and FX can be assigned to it, affecting all the Sub-Xsheet content as a whole. 
+Subscene levels can be animated like any other animation level, and FX can be assigned to it, affecting all the Subscene content as a whole. 
 
-Sub-Xsheet level cells can be edited, for example to create a cycle, or cut, copied and pasted like any other exposed level (see  :ref:`Working with Xsheet Cells <working_with_xsheet_cells>`  ). Like any other level, if some editing is performed in its frames, all the cells in the main Xsheet/Timeline referring to that Sub-Xsheet frame will consequently change their content. In case you want to create a copy of a Sub-Xsheet that refers to the same animation level database, but whose content can be edited independently, you can choose to **Clone** it. 
+Subscene level cells can be edited, for example to create a cycle, or cut, copied and pasted like any other exposed level (see  :ref:`Working with Xsheet Cells <working_with_xsheet_cells>`  ). Like any other level, if some editing is performed in its frames, all the cells in the main Xsheet/Timeline referring to that Subscene frame will consequently change their content. In case you want to create a copy of a Subscene that refers to the same animation level database, but whose content can be edited independently, you can choose to **Clone** it. 
 
-If you want to reset the editing of a Sub-Xsheet level, you can **Resequence** it, by resetting it to the original length and order of its contents.
+If you want to reset the editing of a Subscene level, you can **Resequence** it, by resetting it to the original length and order of its contents.
 
-You can load a scene previously created with Tahoma as a level of the current scene. You can also collapse selected columns/layers to form a new Sub-Xsheet to better manage the scene, for example you can collapse into a Sub-Xsheet all the columns/layers used to define a character, or explode a Sub-Xsheet to automatically bring all of its contents into the Xsheet/Timeline where it is exposed.
+You can load a scene previously created with Tahoma as a level of the current scene. You can also collapse selected columns/layers to form a new Subscene to better manage the scene, for example you can collapse into a Subscene all the columns/layers used to define a character, or explode a Subscene to automatically bring all of its contents into the Xsheet/Timeline where it is exposed.
 
-As Sub-Xsheets can be loaded and saved, they can also be used for importing or exporting sections of an Xsheet/Timeline from one scene to another. For example, if you create a scene where several levels compose a character (head, body, shadow, etc.), you can save it and import it later in a different scene as a Sub-Xsheet.
+As Subscenes can be loaded and saved, they can also be used for importing or exporting sections of an Xsheet/Timeline from one scene to another. For example, if you create a scene where several levels compose a character (head, body, shadow, etc.), you can save it and import it later in a different scene as a Subscene.
 
-When working inside a Sub-Xsheet, by default only its own contents are displayed in the viewer. If you need to edit the Sub-Xsheet contents while looking at the whole scene contents, you can activate the **Edit in Place** mode. 
+When working inside a Subscene, by default only its own contents are displayed in the viewer. If you need to edit the Subscene contents while looking at the whole scene contents, you can activate the **Edit in Place** mode. 
 
-Like standard Xsheets/Timelines, Sub-Xsheets can also contain audio files to be used for synchronizing a soundtrack with the animation. However, audio files loaded inside Sub-Xsheets are ignored when an output file supporting audio is rendered, because the possibility to edit the Sub-Xsheet columns/layers frame order could make the resulting soundtrack inconsistent (see  :ref:`Creating a Soundtrack <creating_a_soundtrack>`  ).
+Like standard Xsheets/Timelines, Subscenes can also contain audio files to be used for synchronizing a soundtrack with the animation. However, audio files loaded inside Subscenes are ignored when an output file supporting audio is rendered, because the possibility to edit the Subscene columns/layers frame order could make the resulting soundtrack inconsistent (see  :ref:`Creating a Soundtrack <creating_a_soundtrack>`  ).
 
 
 .. _creating_sub-xsheets:
 
-Creating Sub-Xsheets
+Creating Subscenes
 ''''''''''''''''''''
-Sub-Xsheets are managed by the Xsheet menu commands, and by buttons in the Xsheet Toolbar. 
+Subscenes are managed by the Scene menu commands, and by buttons in the Xsheet Toolbar. 
 
-You can create a Sub-Xsheet by collapsing one or several columns/layers where levels are exposed, choosing to include when needed the pegbars to which the columns are linked; or you can cut or copy columns/layers and drawings outside of the Sub-Xsheet, then paste them inside of it. 
+You can create a Subscene by collapsing one or several columns/layers where levels are exposed, choosing to include when needed the pegbars to which the columns are linked; or you can cut or copy columns/layers and drawings outside of the Subscene, then paste them inside of it. 
 
-.. note:: The main Xsheet/Timeline will share with its Sub-Xsheets the animation level database, so if the same level is exposed in the main Xsheet/Timeline and in one of its Sub-Xsheets, the level and its properties will be shared.
+.. note:: The main Xsheet/Timeline will share with its Subscenes the animation level database, so if the same level is exposed in the main Xsheet/Timeline and in one of its Subscenes, the level and its properties will be shared.
 
-When copying Sub-Xsheet columns/layers and cells, their copies refer always to the same Sub-Xsheet contents: if changes are made in the Sub-Xsheet, all the cells in the main Xsheet/Timeline referring to that Sub-Xsheet will consequently change their content. If you want to create a copy of a Sub-Xsheet whose contents can be changed independently as concerning internal level exposure, object animation and applied FX, it is possible to **Clone** it.
+When copying Subscene columns/layers and cells, their copies refer always to the same Subscene contents: if changes are made in the Subscene, all the cells in the main Xsheet/Timeline referring to that Subscene will consequently change their content. If you want to create a copy of a Subscene whose contents can be changed independently as concerning internal level exposure, object animation and applied FX, it is possible to **Clone** it.
 
-.. tip:: **To create a Sub-Xsheet by collapsing one or several columns:**
+.. tip:: **To create a Subscene by collapsing one or several columns:**
 
-    1. Select the columns you want to be part of the Sub-Xsheet in the Xsheet/Timeline or in the Schematic.
+    1. Select the columns you want to be part of the Subscene in the Xsheet/Timeline or in the Schematic.
 
     2. Do one of the following:
 
-    - Choose Xsheet  →  **Collapse**.
+    - Choose Scene  →  **Collapse**.
 
     - Click the **Collapse** button in the Xsheet Toolbar. 
     
     - Right-click any column header and choose **Collapse** from the menu that opens.
 
-    3. Choose whether to include relevant pegbars in the Sub-Xsheet or collapse selected columns only, then click the OK button.
+    3. Choose whether to include relevant pegbars in the Subscene or collapse selected columns only, then click the OK button.
 
-.. tip:: **To exit a Sub-Xsheet:**
-
-    Do one of the following
-
-    - Choose Xsheet  →  **Close Sub-Xsheet**.
-
-    - Click the **Close Sub-Xsheet** button in the Xsheet Toolbar. 
-
-.. tip:: **To open a closed Sub-Xsheet:**
-
-    1. Select the Sub-Xsheet column in the Xsheet/Timeline, or the Sub-Xsheet node in the Schematic.
-
-    2. Do one of the following:
-
-    - Choose Xsheet  →  **Open Sub-Xsheet**.
-
-    - Click the **Open Sub-Xsheet** button in the Xsheet/Timeline Toolbar. 
-
-    - Right-click the column header and choose **Open Sub-Xsheet** from the menu that opens.
-
-.. tip:: **To clone a Sub-Xsheet:**
-
-    1. Select the Xsheet column (or Timeline layer) where the Sub-Xsheet you want to clone is exposed.
-
-    2. Do one of the following:
-
-    - Choose Xsheet  →  **Clone Sub-Xsheet**.
-
-    - Right-click the column header and choose **Clone Sub-Xsheet** from the menu that opens.
-
-.. tip:: **To toggle edit a Sub-Xsheet in its context:**
+.. tip:: **To exit a Subscene:**
 
     Do one of the following
 
-    - Choose Xsheet  →  **Toggle Edit in Place**.
+    - Choose Scene  →  **Close Subscene**.
+
+    - Click the **Close Subscene** button in the Xsheet Toolbar. 
+
+.. tip:: **To open a closed Subscene:**
+
+    1. Select the Subscene column in the Xsheet/Timeline, or the Subscene node in the Schematic.
+
+    2. Do one of the following:
+
+    - Choose Scene  →  **Open Subscene**.
+
+    - Click the **Open Subscene** button in the Xsheet/Timeline Toolbar. 
+
+    - Right-click the column header and choose **Open Subscene** from the menu that opens.
+
+.. tip:: **To clone a Subscene:**
+
+    1. Select the Xsheet column (or Timeline layer) where the Subscene you want to clone is exposed.
+
+    2. Do one of the following:
+
+    - Choose Scene  →  **Clone Subscene**.
+
+    - Right-click the column header and choose **Clone Subscene** from the menu that opens.
+
+.. tip:: **To toggle edit a Subscene in its context:**
+
+    Do one of the following
+
+    - Choose Scene  →  **Toggle Edit in Place**.
     
     - Click the **Toggle Edit in Place** button in the Xsheet/Timeline Toolbar. 
 
-.. tip:: **To resequence a Sub-Xsheet:**
+.. tip:: **To resequence a Subscene:**
 
-    1. Select the column/layer containing the Sub-Xsheet.
+    1. Select the column/layer containing the Subscene.
 
     2. Do one of the following:
 
-    - Choose Xsheet  →  **Resequence**.
+    - Choose Scene  →  **Resequence**.
 
     - Right-click the column header and choose **Resequence** from the menu that opens.
 
 
 .. _loading_a_scene_as_a_sub-xsheet:
 
-Loading a Scene as a Sub-Xsheet
+Loading a Scene as a Subscene
 '''''''''''''''''''''''''''''''
-Previously saved Tahoma scenes can be loaded in a Xsheet/Timeline as Sub-Xsheets. 
+Previously saved Tahoma scenes can be loaded in a Xsheet/Timeline as Subscenes. 
 
-Every time a scene is loaded as a Sub-Xsheet, its contents are imported into the current project database according to the project default folders, in the same way as it would be if every single level was imported (see  :ref:`Using the File Browser <using_the_file_browser>`  ). 
+Every time a scene is loaded as a Subscene, its contents are imported into the current project database according to the project default folders, in the same way as it would be if every single level was imported (see  :ref:`Using the File Browser <using_the_file_browser>`  ). 
 
-This allows you to create a library of basic animations that can be loaded and edited in other Xsheets/Timelines to create more complex animations without affecting the original files or drawings. Even when the same Sub-Xsheet is loaded twice, it is handled as if two different Sub-Xsheets were loaded, whose contents and levels can be edited separately.
+This allows you to create a library of basic animations that can be loaded and edited in other Xsheets/Timelines to create more complex animations without affecting the original files or drawings. Even when the same Subscene is loaded twice, it is handled as if two different Subscenes were loaded, whose contents and levels can be edited separately.
 
-To keep the database well-ordered you can also activate the **Create Sub-folder when Importing Sub-Xsheet** option in the Preferences  →  Loading dialog, that will automatically create, in the project default folder, a folder named as the Sub-Xsheet you are importing where the levels from the Sub-Xsheet will be copied. 
+To keep the database well-ordered you can also activate the **Create Sub-folder when Importing Subscene** option in the Preferences  →  Loading dialog, that will automatically create, in the project default folder, a folder named as the Subscene you are importing where the levels from the Subscene will be copied. 
 
-Once a Sub-Xsheet is loaded, its levels are available in the Scene Cast in a sub-folder named as the scene you loaded.
+Once a Subscene is loaded, its levels are available in the Scene Cast in a sub-folder named as the scene you loaded.
 
-If the camera settings of the scene you are loading as a Sub-Xsheet are different from those of your current scene, you will be prompted whether to keep the Sub-Xsheet original camera settings, or to apply the camera settings of the current scene to the Sub-Xsheet as well.
+If the camera settings of the scene you are loading as a Subscene are different from those of your current scene, you will be prompted whether to keep the Subscene original camera settings, or to apply the camera settings of the current scene to the Subscene as well.
 
 .. note:: If the scene you import contains a file whose name is the same of a file already existing in the destination default folder, you will prompted whether to keep the existing file, overwrite it with the new one, or rename it adding a suffix you can decide. In this way you can control if files you are importing were already imported previously, or manage files that share the same name. 
 
-.. tip:: **To load a previously saved scene as a Sub-Xsheet:**
+.. tip:: **To load a previously saved scene as a Subscene:**
 
     Do one of the following:
 
     - Choose File  →  **Load Level** and use the browser to load a TNZ file.
 
-    - Choose File  →  **Load As Sub-Xsheet** and use the browser to load a TNZ file.
+    - Choose File  →  **Load As Subscene** and use the browser to load a TNZ file.
 
     - Use the Tahoma standard browser to drag the scene icon to the Scene Cast pane, the Xsheet/Timeline or the viewer.
 
-    - In the file browser right-click the scene icon and select **Load As Sub-Xsheet** in the menu that opens.
+    - In the file browser right-click the scene icon and select **Load As Subscene** in the menu that opens.
 
     .. note:: Tahoma scene files can also be loaded by dragging and dropping them from the Windows Explorer or macOS Finder to the Scene Cast, Xsheet/Timeline, or the viewer.
 
 
 .. _exploding_sub-xsheets:
 
-Exploding Sub-Xsheets
+Exploding Subscenes
 '''''''''''''''''''''
-Sub-Xsheets can be exploded to automatically bring their content into the Xsheet/Timeline where they are exposed. When exploding a Sub-Xsheet it's possible to choose to bring to the main Xsheet/Timeline, when needed, the pegbars to which columns are linked. 
+Subscenes can be exploded to automatically bring their content into the Xsheet/Timeline where they are exposed. When exploding a Subscene it's possible to choose to bring to the main Xsheet/Timeline, when needed, the pegbars to which columns are linked. 
 
-.. note:: When a Sub-Xsheet is exploded, its columns/layers and the related FX nodes are displayed as a group in the FX Schematic, in order to better retrieve them (see  :ref:`Using the FX Schematic <using_the_fx_schematic>`  ).
+.. note:: When a Subscene is exploded, its columns/layers and the related FX nodes are displayed as a group in the FX Schematic, in order to better retrieve them (see  :ref:`Using the FX Schematic <using_the_fx_schematic>`  ).
 
-.. note:: If FXs are applied to the Sub-Xsheet column/layer, they will not be applied to the exploded columns, but the disconnected FX nodes will remain as reference in the FX Schematic.
+.. note:: If FXs are applied to the Subscene column/layer, they will not be applied to the exploded columns, but the disconnected FX nodes will remain as reference in the FX Schematic.
 
-.. tip:: **To explode a Sub-Xsheet:**
+.. tip:: **To explode a Subscene:**
 
-    1. Select the Sub-Xsheet column/layer in the Xsheet/Timeline or in the Schematic.
+    1. Select the Subscene column/layer in the Xsheet/Timeline or in the Schematic.
 
     2. Do one of the following:
 
-    - Choose Xsheet  →  **Explode**.
+    - Choose Scene  →  **Explode**.
 
-    - Right-click the Sub-Xsheet column header and choose **Explode** from the menu that opens.
+    - Right-click the Subscene column header and choose **Explode** from the menu that opens.
 
     3. Choose whether to bring relevant pegbars to the main Xsheet/Timeline, or to bring columns/layers only, then click the OK button.
 
 
 .. _saving_a_sub-xsheet_as_a_scene:
 
-Saving a Sub-Xsheet as a Scene
+Saving a Subscene as a Scene
 ''''''''''''''''''''''''''''''
-The content of a Sub-Xsheet can be saved as a standard scene, i.e. a TNZ file, in order to be loaded as a stand-alone scene or to be available for reuse in other scenes.
+The content of a Subscene can be saved as a standard scene, i.e. a TNZ file, in order to be loaded as a stand-alone scene or to be available for reuse in other scenes.
 
-The Sub-Xsheet content will be saved according to the current project settings for default folders, as if you were saving a scene file (see  :ref:`Project Default Folders <project_default_folders>`  ).
+The Subscene content will be saved according to the current project settings for default folders, as if you were saving a scene file (see  :ref:`Project Default Folders <project_default_folders>`  ).
 
-.. tip:: **To save a Sub-Xsheet as a scene:**
+.. tip:: **To save a Subscene as a scene:**
 
-    1. Open the Sub-Xsheet you want to save, so that its contents are displayed in the Xsheet/Timeline.
+    1. Open the Subscene you want to save, so that its contents are displayed in the Xsheet/Timeline.
 
-    2. Choose Xsheet  →  **Save Sub-Xsheet As...** and use the browser to save the scene file (see  :ref:`Saving and Loading Scenes <saving_and_loading_scenes>`  ).
+    2. Choose Scene  →  **Save Subscene As...** and use the browser to save the scene file (see  :ref:`Saving and Loading Scenes <saving_and_loading_scenes>`  ).
 
 
 .. _creating_a_soundtrack:
@@ -1350,7 +1350,7 @@ The soundtrack you define with audio clips will be created by merging all of the
 
 When a scene is rendered in a file format supporting audio, (MP4, MOV, WebM or AVI), the soundtrack will be included in the file (see  :ref:`Rendering the Animation <rendering_the_animation>`  ). 
 
-.. note:: Audio clips loaded in Sub-Xsheets will not be included in the output soundtrack (see  :ref:`Using Sub-Xsheets <using_sub-xsheets>`  ).
+.. note:: Audio clips loaded in Subscenes will not be included in the output soundtrack (see  :ref:`Using Subscenes <using_sub-xsheets>`  ).
 
 .. note:: As the soundtrack cannot be played back when viewing files in the Tahoma flipbook, you can activate the **Use Default Viewer for Movie Formats** option in the Preferences  →  General dialog, in order to view files with their own default viewer, e.g. QuickTime for the MOV format, thus playing back the soundtrack as well.
 
@@ -1813,7 +1813,7 @@ An Xsheet can be saved as HTML file in order to view it on any computer by using
 
 The HTML file contains a header with general information, several tables, whose length and width you can decide, representing the Xsheet with exposed levels and objects movements, and a list of the levels exposed in the Xsheet with the related location on disk. 
 
-If any Sub-Xsheets are used in the scene, they are displayed after the main Xsheet where they are exposed.
+If any Subscenes are used in the scene, they are displayed after the main Xsheet where they are exposed.
 
 The information displayed in the header and the appearance of the HTML table can be set by editing the following files located in the folder ``Tahoma stuff\profiles\layouts\settings`` :
 
@@ -1902,7 +1902,7 @@ Elements defined in the CSS are the following:
 
 - ``fxcell``  refers to the table cells belonging to special FX columns.
 
-- ``subxsheetcell``  refers to the table cells belonging to Sub-Xsheet columns.
+- ``subxsheetcell``  refers to the table cells belonging to Subscene columns.
 
 - ``TD``  refers to the generic table cells.
 

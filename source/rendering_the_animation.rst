@@ -370,7 +370,7 @@ The colors displayed as background in the flipbook can also be customized so tha
 
 .. tip:: **To define the previewed images background color:**
 
-    1. Choose Xsheet  →  **Scene Settings...**
+    1. Choose Scene  →  **Scene Settings...**
 
     2. Set the **Camera BG Color** by doing one of the following:
 
@@ -382,7 +382,7 @@ The colors displayed as background in the flipbook can also be customized so tha
 
 .. tip:: **To define the Flipbook checkerboard colors:**
 
-    1. Choose Xsheet  →  **Scene Settings...**
+    1. Choose Scene  →  **Scene Settings...**
 
     2. Set the **Checkerboard Color 1** and **Color 2** by doing one of the following:
 
@@ -459,7 +459,7 @@ Camera Settings
 
 - **Output Camera:** sets which camera, among the ones defined in the scene, has to be used to render the animation. 
 
-- **Frame Size** sets the frame size of the current camera, also available in the Xsheet  →  **Camera Settings...** dialog (see  :ref:`Defining Camera Settings <defining_camera_settings>`  ).
+- **Frame Size** sets the frame size of the current camera, also available in the Scene  →  **Camera Settings...** dialog (see  :ref:`Defining Camera Settings <defining_camera_settings>`  ).
 
 - **Frame Start:** and **End:** set the frame range of the scene to render; by default these values refer to the whole scene length.
 
@@ -519,7 +519,7 @@ Other Settings
 
   Field rendering is only relevant for scenes that are intended for video output. Options are **None** (for rendering *progresive* frames), **Even (PAL)** and **Odd (NTSC)** (for chosing which of the rendered *interlaced* fields is to be shown in first place). Usually you should choose it according to the video standard you are outputting to. 
 
-- **Frame Rate**: is the frame rate of the scene, also available in the Xsheet  →  **Scene Settings...** dialog (see  :ref:`Setting the Frame Rate <setting_the_frame_rate>`  ).
+- **Frame Rate**: is the frame rate of the scene, also available in the Scene  →  **Scene Settings...** dialog (see  :ref:`Setting the Frame Rate <setting_the_frame_rate>`  ).
 
 - **Stretch from FPS:  To:** changes the timing of the Xsheet when outputting files; in this way you can output a number of frames that is independent from the frame rate set in the scene settings.
 
@@ -618,7 +618,7 @@ The names of the different output files are automatically generated in order to 
 
 .. note:: No output will be displayed after the rendering, regardless of **Open Flipbook after Rendering** being activated in Preferences  →  Preview dialog.
 
-.. note:: If you need more control on the way scene elements are rendered, you may consider using Sub-Xsheets and the **Over** effect (see  :ref:`Using Sub-Xsheets <using_sub-xsheets>`  and  :ref:`Over <over>`  ). For example if you want a single output for a set of columns/layers, you may collapse them in a Sub-Xsheet (in case of **Flows** type multiple rendering) or connect them to several Over nodes (in case of **Terminal Nodes** type multiple rendering).
+.. note:: If you need more control on the way scene elements are rendered, you may consider using Subscenes and the **Over** effect (see  :ref:`Using Subscenes <using_sub-xsheets>`  and  :ref:`Over <over>`  ). For example if you want a single output for a set of columns/layers, you may collapse them in a Subscene (in case of **Flows** type multiple rendering) or connect them to several Over nodes (in case of **Terminal Nodes** type multiple rendering).
 
 
 .. _rendering_animations_with_alpha_channel_information:
@@ -631,7 +631,7 @@ In this case no image has to be used as background, and the output file format h
 
 .. tip:: **To render animation with alpha channel information:**
 
-    1. Choose Xsheet  →  **Scene Settings...**.
+    1. Choose Scene  →  **Scene Settings...**.
 
     2. Set the alpha channel of the **Camera BG Color** to 0 (i.e. transparent).
 
@@ -648,7 +648,7 @@ By choosing the appropriate range in the Output Settings it's possible to render
 
 If the scene contains some audio files and is rendered in a file format supporting audio (for example MP4), all the audio files will be merged to form the soundtrack of the movie (see  :ref:`Creating a Soundtrack <creating_a_soundtrack>`  ). 
 
-.. note:: Audio files loaded in Sub-Xsheets will not be included in the output soundtrack (see  :ref:`Using Sub-Xsheets <using_sub-xsheets>`  ).
+.. note:: Audio files loaded in Subscenes will not be included in the output soundtrack (see  :ref:`Using Subscenes <using_sub-xsheets>`  ).
 
 As soon as the rendering is over, the rendered animation can be automatically displayed in a Tahoma Flipbook by activating the **Open Flipbook after Rendering** option in the Preferences  →  Preview dialog; it's also possible to display blank frames after each rendering playback when looping. If a soundtrack is available for the rendered scene, it's also possible to listen to it.
 

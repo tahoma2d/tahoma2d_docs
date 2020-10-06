@@ -140,11 +140,11 @@ See  :ref:`Drawing Animation Levels <drawing_animation_levels>`  and  :ref:`Crea
 
 Layout
 ~~~~~~
-In the layout phase, all of the elements that are necessary for the scene (backgrounds, props, characters, reference animations) are loaded from the library in Xsheet, usually as Sub-Xsheets. They are put in place according to the animatic. Basic animation is achieved by setting key positions for animated characters or importing reference animations.
+In the layout phase, all of the elements that are necessary for the scene (backgrounds, props, characters, reference animations) are loaded from the library in Xsheet, usually as Subscenes. They are put in place according to the animatic. Basic animation is achieved by setting key positions for animated characters or importing reference animations.
 
 Camera movements and animation timing previously set in the animatic are refined. 
 
-See  :ref:`Working in Xsheet <working_in_xsheet>`  and  :ref:`Using Sub-Xsheets <using_sub-xsheets>`  .
+See  :ref:`Working in Xsheet <working_in_xsheet>`  and  :ref:`Using Subscenes <using_sub-xsheets>`  .
 
 
 .. _animation:

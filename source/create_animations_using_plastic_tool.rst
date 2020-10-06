@@ -52,7 +52,7 @@ The mesh is the real object that the Plastic tool modifies when a plastic skelet
 
     6. Adjust the **Mesh Margin** value. This parameter is expressed in *pixels* because it's used when the texture is projected on the mesh, an appropriate amount of margin will be needed to preserve the aliasing of the picture.
 
-    7. If you are creating a mesh from a **Sub-Xsheet**, you can choose which elements of the Sub-Xsheet will be used by the Plastic tool for computing the mesh: simply turn off visibility for the elements that will not contribute to the mesh outline.
+    7. If you are creating a mesh from a **Subscene**, you can choose which elements of the Subscene will be used by the Plastic tool for computing the mesh: simply turn off visibility for the elements that will not contribute to the mesh outline.
 
     8. Click the **Apply** button to create the mesh. Now you can see the mesh drawn in *green* colour in the Viewer, and a new *purple* column in the Xsheet (or layer in the Timeline) next to the TC.
 
@@ -544,9 +544,9 @@ For more information about the *mathematical expressions* usage refer to (See  :
 
 .. _plastic_and_subxsheets:
 
-Plastic and Sub-Xsheets
+Plastic and Subscenes
 -----------------------
-A Sub-Xsheet is a valid object for the Plastic tool, and all or some of its columns can have a mesh for animating. When a Sub-Xsheet is selected as a starting element, all of the columns in the Sub-Xsheet visible when the **Create Mesh** button is pressed, are taken into count for the creation of the Mesh. These levels will be visible in render and will be deformed by Mesh transformations. If, after creating the Mesh, hidden levels are set to visible, they will behave in a slightly different way: they will be deformed by Mesh transformations, but they will be shown in render *only inside the mesh boundaries* (i.e. the Mesh acts as a *mask* that determines what is visible in the rendered image, even if the newly-shown levels are placed into a nested Sub-Xsheet with its own mesh and skeleton).
+A Subscene is a valid object for the Plastic tool, and all or some of its columns can have a mesh for animating. When a Subscene is selected as a starting element, all of the columns in the Subscene visible when the **Create Mesh** button is pressed, are taken into count for the creation of the Mesh. These levels will be visible in render and will be deformed by Mesh transformations. If, after creating the Mesh, hidden levels are set to visible, they will behave in a slightly different way: they will be deformed by Mesh transformations, but they will be shown in render *only inside the mesh boundaries* (i.e. the Mesh acts as a *mask* that determines what is visible in the rendered image, even if the newly-shown levels are placed into a nested Subscene with its own mesh and skeleton).
 
 
 

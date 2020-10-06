@@ -32,7 +32,7 @@ In the Files  →  Preferences  →  Interface dialog you can set the following 
 
 - The Unit is used to display all measures in text fields, and applied when moving or changing the size of stage objects.
 
-- The Camera Unit is used to display and define the camera size in the Xsheet  →  Camera Settings... dialog (see  :ref:`Defining Camera Settings <defining_camera_settings>`  ).
+- The Camera Unit is used to display and define the camera size in the Scene  →  Camera Settings... dialog (see  :ref:`Defining Camera Settings <defining_camera_settings>`  ).
 
 You can also express values in an unit different from the default one by entering any of the following units and abbreviations: in, inch, " , ' ' (two apostrophes), cm, mm, fld, field and px, after the input value itself. As soon as the value is entered it's converted in the default unit.
 
@@ -68,7 +68,7 @@ Even if a scene has been composited with a specific frame rate for a certain out
 
 .. tip:: **To set the frame rate:**
 
-    1. Choose Xsheet  →  Scene Settings...
+    1. Choose Scene  →  Scene Settings...
 
     2. In the Frame Rate text field set the frame rate value.
 
@@ -79,7 +79,7 @@ Defining Camera Settings
 ------------------------
 |camera_settings|
 
-The Current Camera Settings dialog, that can be opened from the Xsheet menu, contains parameters for defining the current camera frame size and resolution. 
+The Current Camera Settings dialog, that can be opened from the Scene menu, contains parameters for defining the current camera frame size and resolution. 
 
 More than one camera can be defined for each scene, in order to have different output resolutions, or to shot only a particular area of the scene (see  :ref:`Using the Stage Schematic <using_the_stage_schematic>`  ).
 

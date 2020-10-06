@@ -248,7 +248,7 @@ The set of buttons and information available in the bottom bar of the Viewer can
 
 .. tip:: **To change the Camera Box Background color:**
 
-    1. Open the Xsheet  →  **Scene Settings...** dialog.
+    1. Open the Scene  →  **Scene Settings...** dialog.
 
     2. Define the **Camera BG Color** by doing one of the following:
 
@@ -274,7 +274,7 @@ The set of buttons and information available in the bottom bar of the Viewer can
 
 .. tip:: **To define the displayed Field Guide:**
 
-    1. Open the Xsheet  →  **Scene Settings...** dialog.
+    1. Open the Scene  →  **Scene Settings...** dialog.
 
     2. Define the **Field Guide Size:** and **A/R:**. **Size** is the number of width fields of the field guide (1 field is equal to 1 inch), and the **A/R** is the ratio between the field guide width and height.
 

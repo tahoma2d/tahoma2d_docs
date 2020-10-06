@@ -143,7 +143,7 @@ For example in case of a Matte In effect, the column to be matted has to be link
 
     Do one of the following:
 
-    - Choose Xsheet  →  **New FX...**
+    - Choose Scene  →  **New FX...**
 
     - Click the **New FX** button (|fx|) in the bottom bar of the FX Schematic panel.
 
