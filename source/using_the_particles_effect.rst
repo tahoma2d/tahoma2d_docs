@@ -36,7 +36,7 @@ For example if the level exposed in the column/layer is animated, and the column
 
 To use a column/layer contents as a Control Image, connect the column/layer node to a **Control** input port of the Particles effect node. As soon as the column/layer is linked to the Control input port, a new Control port is available: in this way it's possible to use the contents of several columns/layers to control the Particles effect.
 
-To apply the control image to a parameter, use the related field available in the *FX Settings* pane: to specify a **Control Image**, type the number related to the control image port; to use no control image, type the number **0**.
+To apply the control image to a parameter, use the related field available in the *FX Settings* panel: to specify a **Control Image**, type the number related to the control image port; to use no control image, type the number **0**.
 
 .. note:: When the control images brightness is used to affect a particles parameter, transparent areas are considered as being completely black.
 

@@ -30,18 +30,12 @@ Available rooms are listed on the far right of the menu bar. Each room always di
 
 Rooms can be named and their order can be rearranged. New rooms can be added and existing rooms can be deleted. When a room is added it is empty; to configure it, panels can be added one by one (see below).
 
+To enter a room, click on the related tab on the far right of the menu bar. If "Room Editing Mode" is active, room tabs can be reordered by clicking & dragging the tabs to a new position.
 
-.. tip:: **To enter a room:**
-
-    Click on the related tab on the far right of the menu bar.
 
 .. tip:: **To name a room:**
 
     Double-click the tab and type the name you want to assign to the room.
-
-.. tip:: **To order room tabs:**
-
-    Click and drag the tab to the new position.
 
 .. tip:: **To add a new room:**
 
@@ -97,7 +91,7 @@ While "Room Edting Mode" is locked, panels can be resized and new floating panel
 
     2. Close the floating panel.
 
-.. tip:: **To maximize, or minimize a maximized panel:**
+.. tip:: **To maximize, or minimize a panel:**
 
     Double-click its title bar (for floating panels, the Viewer and the ComboViewer). If there is no title bar, press **`**.
 
