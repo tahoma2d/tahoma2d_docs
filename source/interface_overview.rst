@@ -97,20 +97,17 @@ While "Room Edting Mode" is locked, panels can be resized and new floating panel
 
     2. Close the floating panel.
 
-.. tip:: **To maximize, or minimize a maximized pane:**
+.. tip:: **To maximize, or minimize a maximized panel:**
 
-    Double-click its title bar.
+    Double-click its title bar (for floating panels, the Viewer and the ComboViewer). If there is no title bar, press **`**.
 
-.. note:: Some panels like the toolbar and the level strip have some fixed size, therefore they cannot be maximized. 
+.. note:: Some panels like the toolbar and the command bar have a fixed size in one dimension, therefore they cannot be maximized. 
 
-.. tip:: **To lock/unlock the rooms configuration:**
-
-    Activate/deactivate the Panels  →  Lock Room Panes option.
 
 
 .. _room_panes:
 
-Room Panes
+Room Panels
 ----------
 Below there is a list of the panels (in the same order in which they appear in the Panels menu) that can be used to build rooms and that can be opened as floating panels.
 
@@ -212,7 +209,7 @@ Palette
 
 It displays the styles defined for the current level, or in case it is inactive the styles defined for a previously selected level.
 
-See  :ref:`The Palette Window <the_palette_window>`  .
+See  :ref:`The Palette Panel<the_palette_window>`  .
 
 
 .. _scene_cast:

@@ -31,7 +31,7 @@ It's also possible to *group* several nodes into one single node, in order to be
 
 .. tip:: **To access the stage schematic:**
 
-    - Go to the Window menu, and choose the Schematic option.
+    - Go to the Panels menu, and choose the Schematic option.
     
     - If necessary, click the FX/Stage toggle button (|schematic|) in the bottom bar of the Schematic panel until the title bar displays Stage Schematic.
 

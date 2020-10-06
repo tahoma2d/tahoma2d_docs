@@ -40,7 +40,7 @@ The background colors of the preview panel, including the colors of the camera b
 
 .. note:: The Camera Box, the Field Guide, the Safe Area and the Guides can be shown or hidden in the Viewer during Preview as well (see  :ref:`Customizing the Viewer <customizing_the_work_area>`  ).
 
-.. note:: If the **Apply Shrink to Main Viewer** option is activated in the Preview Settings dialog, the previewed frames may have a reduced resolution (see  :ref:`Using the Preview Window <using_the_preview_window>`  ).
+.. note:: If the **Apply Shrink to Main Viewer** option is activated in the Preview Settings dialog, the previewed frames may have a reduced resolution (see  :ref:`Using the Preview Panel<using_the_preview_window>`  ).
 
 .. tip:: **To activate and deactivate the preview:**
 
@@ -174,9 +174,9 @@ The Preview Settings dialog lets you define the resolution, range, step and shri
 
 Previewing and Caching Effect Nodes in the Schematic
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-The Preview window can also be opened from the FX Schematic, to check the compositing result up to a specific node. The behaviour of the FX Schematic Preview window is the same as the standard one (see  :ref:`Using the Preview Window <using_the_preview_window>`  ).
+The Preview window can also be opened from the FX Schematic, to check the compositing result up to a specific node. The behaviour of the FX Schematic Preview window is the same as the standard one (see  :ref:`Using the Preview Panel<using_the_preview_window>`  ).
 
-.. note:: In case the Sub-camera is used, the Preview window will fit the Sub-camera area (see  :ref:`Using the Preview Window <using_the_preview_window>`  ).
+.. note:: In case the Sub-camera is used, the Preview window will fit the Sub-camera area (see  :ref:`Using the Preview Panel<using_the_preview_window>`  ).
 
 It is also possible to cache the preview up to a specific node, so that the result of the compositing up to that node is stored in the computer memory and will be reused with no need to recompute it the next time the preview is run.
 
@@ -236,7 +236,7 @@ The colors displayed as background in the flipbook can also be customized so tha
 
 .. tip:: **To open a Flipbook:**
 
-    Choose Window  →  **Flipbook**.
+    Choose Panels  →  **Flipbook**.
 
 .. tip:: **To load some contents into a Flipbook:**
 

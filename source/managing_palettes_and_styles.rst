@@ -166,7 +166,7 @@ Using the Studio Palette
 
 The Studio Palette allows you to store and manage an unlimited number of palettes. It is intended as a library of character and prop palettes related to one or more specific productions. From here Palettes, or Styles contained in them, can be *retrieved*, *assigned*, or *merged* to the current level palette, with no need to define the same styles again and again. 
 
-It consists of a Palette Tree and a Palette Viewer: the **Palette Tree** lists two main folders: **Global Palettes** and **Project Palettes**, and all the folders and palettes you add; the **Palette Viewer** displays the currently selected palette and allows you to edit it as a standard palette (see  :ref:`The Palette Window <the_palette_window>`  ).
+It consists of a Palette Tree and a Palette Viewer: the **Palette Tree** lists two main folders: **Global Palettes** and **Project Palettes**, and all the folders and palettes you add; the **Palette Viewer** displays the currently selected palette and allows you to edit it as a standard palette (see  :ref:`The Palette Panel<the_palette_window>`  ).
 
 Any level palette can be added to the Studio Palette; if a **Color Model** is defined for that level, it will be saved along with the palette and retrieved any time that palette will be assigned to a level (see  :ref:`Using a Color Model <using_a_color_model>`  ).
 
