@@ -197,7 +197,7 @@ Adjusting the Viewer Visualization
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The way the viewer visualizes the scene content can be adjusted according to the task to perform.
 
-**Full Screen** mode can be entered to maximize the viewer to the monitor screen, hiding any interface panel border. This is available only on the Windows platform.
+**Full Screen** mode can be entered to maximize the viewer to the monitor screen, hiding any interface panel border.
 
 Vector drawings, that can slow down the visualization performance when used in large amounts in a scene, can be visualized as raster drawings, faster to visualize, still preserving their vector nature, by using the **Visualize Vector As Raster** option.
 
@@ -207,13 +207,13 @@ Raster drawings and images that usually are displayed in the viewer according to
 
 .. note:: Visualizing an image at its actual pixel size is different from zooming in because zooming always takes into account the image DPI information.
 
-.. tip:: **Windows only - To enter the viewer full screen mode:**
+.. tip:: **To enter the viewer full screen mode:**
 
-    Right-click the viewer and choose **Full Screen Mode** from the menu that opens.
+    Right-click the viewer and choose **Full Screen Mode** from the menu that opens or use ALT+F | Option+F.
 
-.. tip:: **Windows only - To exit the viewer full screen mode:**
+.. tip:: **To exit the viewer full screen mode:**
 
-    Right-click the viewer and choose **Exit Full Screen Mode** from the menu that opens.
+    Right-click the viewer and choose **Exit Full Screen Mode** from the menu that opens or use ALT+F | Option+F.
 
 .. tip:: **To activate or deactivate the raster visualization for vector drawings:**
 
