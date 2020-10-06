@@ -207,7 +207,7 @@ If the computer is neither a controller nor a server (rendering) node for the To
 
 Using the Toonz Farm
 --------------------
-In Tahoma you can find the **Farm** room that allows you to monitor the farm processes. This room contains two main windows: the Tasks window and the Batch Servers window.
+In Tahoma you can find the **Farm** room that allows you to monitor the farm processes. This room contains two main panels: the Tasks window and the Batch Servers window.
 
 The render farm can be monitored by using both the Tasks pane, where the list of tasks can be managed and executed, and the Servers pane, where the computers executing the tasks can be managed.
 
@@ -218,7 +218,7 @@ The render farm can be monitored by using both the Tasks pane, where the list of
 
 Monitoring the Server Nodes
 '''''''''''''''''''''''''''
-The Batch Servers pane is divided in three areas: at the top there’s an option menu to set whether the tasks execution has to be performed with the Local computer or with the Render Farm; then there is the list of server (rendering) nodes in the farm; at the bottom you can see information about the server currently selected in the list. 
+The Batch Servers panel is divided in three areas: at the top there’s an option menu to set whether the tasks execution has to be performed with the Local computer or with the Render Farm; then there is the list of server (rendering) nodes in the farm; at the bottom you can see information about the server currently selected in the list. 
 
 The server (rendering) nodes included in the list are those defined in the ``server.txt``  configuration file (see  :ref:`Defining the Server Nodes <defining_the_server_nodes>`  ). If a server node is down at the controller startup, it will not be available in the farm: this means that all the server nodes *must be up before* starting up the controller node. For the same reason if you want to restart or shut down a server (rendering) node, you have to restart the controller node in order to make the changes effective.
 

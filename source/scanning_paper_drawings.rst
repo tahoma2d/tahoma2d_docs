@@ -124,7 +124,7 @@ In case you use the **New Level** dialog you can set the number of drawings the 
 
 By default scanned drawings are saved in the **+inputs** directory of the current project; if the *+inputs* definition uses the $scenepath variable, they are saved only if the scene is saved (see  :ref:`Project Default Folders <project_default_folders>`  ). 
 
-You can change the location by using either the **Path:** field in the **New Level** dialog, or the **Level Settings** window in case you define a level directly in Xsheet/Timeline. 
+You can change the location by using either the **Path:** field in the **New Level** dialog, or the **Level Settings** panel in case you define a level directly in Xsheet/Timeline. 
 
 Settings such as the length of the level and the numbering order can be edited later, as you are free to arrange the images composing your animation level the way you prefer (see  :ref:`Editing Animation Levels <editing_animation_levels>`  ).
 
@@ -158,7 +158,7 @@ When an animation level is defined, the name and numbers for the drawings of the
 
     - If you are using the **New Level** dialog, type in the **Path:** field, or use the browser button, to set the path for the saving location.
 
-    - If you are defining the level directly in Xsheet/Timeline, right-click the level cells and select **Level Settings** from the menu that opens. In the Level Settings window, type in the **Path:** field, or use the browser button, to set the path for the saving location.
+    - If you are defining the level directly in Xsheet/Timeline, right-click the level cells and select **Level Settings** from the menu that opens. In the Level Settings panel, type in the **Path:** field, or use the browser button, to set the path for the saving location.
 
 .. note:: If in the browser you choose any project default folder, in the **Path:** field the full path will be replace by the related default folder alias (see  :ref:`Project Default Folders <project_default_folders>`  ).
 

@@ -21,7 +21,7 @@ When one or more frames are selected you can perform standard cut, copy, paste, 
 
 When you change the order of the drawings in the Level Strip, or when a drawing is cut, deleted or inserted, and drawings are exposed in the scene, the Xsheet/Timeline will continue to contain a reference to that particular frame of the animation level, whatever its content is. When the Xsheet/Timeline contains a reference to a drawing that is eliminated in the Level Strip, the level name and number turn red, to warn you that there is no drawing available for that cell anymore.
 
-The width of the level strip pane cannot be resized freely, because it depends on the size of the animation level preview icons, but it can be customized in the Preferences  →  Interface dialog.
+The width of the level strip panel cannot be resized freely, because it depends on the size of the animation level preview icons, but it can be customized in the Preferences  →  Interface dialog.
 
 .. tip:: **To edit an animation level in the Level Strip:**
 
@@ -276,9 +276,9 @@ The processed images are stored in the cache and will be saved on disk using the
 
     - Click and drag the horizontal separator. 
 
-    - Click and drag the separator toward the window border to hide the preview area.
+    - Click and drag the separator toward the panel border to hide the preview area.
 
-    - Click and drag the separator collapsed to the window border toward the window center to display again the preview area.
+    - Click and drag the separator collapsed to the panel border toward the panel center to display again the preview area.
 
 .. tip:: **To navigate the preview area:**
 

@@ -19,7 +19,7 @@ Shortcuts are specific to each user, meaning that each user in the system can ha
 
     1. Choose File  →  **Configure Shortcuts...**
 
-    2. Search for the command or tool you want to configure the shortcut for in the appropriate folder, or by using the Search field at the top of the window.
+    2. Search for the command or tool you want to configure the shortcut for in the appropriate folder, or by using the Search field at the top of the panel.
 
     3. Select the command or tool name in the list.
 
@@ -29,7 +29,7 @@ Shortcuts are specific to each user, meaning that each user in the system can ha
 
     1. Choose File  →  **Configure Shortcuts...**
 
-    2. Search for the command or tool you want to configure the shortcut for in the appropriate folder, or by using the Search field at the top of the window.
+    2. Search for the command or tool you want to configure the shortcut for in the appropriate folder, or by using the Search field at the top of the panel.
 
     3. Select the command or tool name in the list.
     
@@ -204,7 +204,7 @@ Fast Render to MP4                **Alt/⌥ Option**     **+**  **R**
 
 
 ===============================   =================  =====  ======
-**Windows Menu**    
+**Panels Menu**    
 ===============================   =================  =====  ======
 History                           **Ctrl/⌘ Cmd**     **+**  **H**
 Record Audio                      **Alt/⌥ Option**   **+**  **A**

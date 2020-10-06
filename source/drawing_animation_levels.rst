@@ -197,7 +197,7 @@ Adjusting the Viewer Visualization
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The way the viewer visualizes the scene content can be adjusted according to the task to perform.
 
-**Full Screen** mode can be entered to maximize the viewer to the monitor screen, hiding any interface window border. This is available only on the Windows platform.
+**Full Screen** mode can be entered to maximize the viewer to the monitor screen, hiding any interface panel border. This is available only on the Windows platform.
 
 Vector drawings, that can slow down the visualization performance when used in large amounts in a scene, can be visualized as raster drawings, faster to visualize, still preserving their vector nature, by using the **Visualize Vector As Raster** option.
 
@@ -617,7 +617,7 @@ When a conversion is performed, a new level is created according to the selectio
 
 Checking the Convert to Vectors Process
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-At the bottom of the **Convert-to-Vectors Settings** window a preview area is available to display the drawing selected in the Xsheet/Timeline, as it will be after the conversion according to the defined settings. At the same time it allows you to compare the final result with the original Raster drawing that is displayed on the left side, and to highlight the vector strokes structure by clicking the **Centerlines Check** button (|check|).
+At the bottom of the **Convert-to-Vectors Settings** panel a preview area is available to display the drawing selected in the Xsheet/Timeline, as it will be after the conversion according to the defined settings. At the same time it allows you to compare the final result with the original Raster drawing that is displayed on the left side, and to highlight the vector strokes structure by clicking the **Centerlines Check** button (|check|).
 
 You can activate or deactivate it, resize it or navigate its content.
 
@@ -627,11 +627,11 @@ If you change any parameter in the **Convert-to-Vector Settings**, the previewed
 
     1. In the Xsheet/Timeline select the drawing you want to preview. 
 
-    2. Click the **Preview** button (|preview|) in the bottom bar of the Convert-to-Vector Settings window.
+    2. Click the **Preview** button (|preview|) in the bottom bar of the Convert-to-Vector Settings panel.
 
 .. tip:: **To deactivate the preview area:**
 
-    Click the **Preview** button (|preview|) in the bottom bar of the Convert-to-Vector Settings window.
+    Click the **Preview** button (|preview|) in the bottom bar of the Convert-to-Vector Settings panel.
 
 .. tip:: **To resize the preview area:**
 
@@ -639,9 +639,9 @@ If you change any parameter in the **Convert-to-Vector Settings**, the previewed
 
     - Click and drag the horizontal separator.
 
-    - Click and drag the separator toward the window border to hide the preview area.
+    - Click and drag the separator toward the panel border to hide the preview area.
 
-    - Click and drag the separator collapsed to the window border toward the window center to display again the preview area.
+    - Click and drag the separator collapsed to the panel border toward the panel center to display again the preview area.
 
 .. tip:: **To navigate the preview area:**
 

@@ -33,7 +33,7 @@ It's also possible to *group* several nodes into one single node, in order to be
 
     - Go to the Window menu, and choose the Schematic option.
     
-    - If necessary, click the FX/Stage toggle button (|schematic|) in the bottom bar of the Schematic pane until the title bar displays Stage Schematic.
+    - If necessary, click the FX/Stage toggle button (|schematic|) in the bottom bar of the Schematic panel until the title bar displays Stage Schematic.
 
 .. tip:: **To navigate the stage schematic:**
 
@@ -43,13 +43,13 @@ It's also possible to *group* several nodes into one single node, in order to be
 
     - Middle-click and drag to scroll in any direction.
 
-    - Use the **Fit to Window** button (|fit_to_window|) in the bottom bar of the stage window to display all the objects in the current window.
+    - Use the **Fit to Window** button (|fit_to_panel|) in the bottom bar of the stage panel to display all the objects in the current panel.
 
-    - Use the **Focus on Current** button (|focus_on_current|) in the bottom bar of the stage window to center the stage on the current object.
+    - Use the **Focus on Current** button (|focus_on_current|) in the bottom bar of the stage panel to center the stage on the current object.
 
-    - Use the **Reorder Nodes** button (|reorder_nodes|) in the bottom bar of the stage window to change the position of the nodes in the schematic to a default arrangement.
+    - Use the **Reorder Nodes** button (|reorder_nodes|) in the bottom bar of the stage panel to change the position of the nodes in the schematic to a default arrangement.
 
-    - Use the **Reset Size** button (|reset|) in the bottom bar of the stage window, or use the reset view shortcut (by default the 0 key) to display all the objects at the default size.
+    - Use the **Reset Size** button (|reset|) in the bottom bar of the stage panel, or use the reset view shortcut (by default the 0 key) to display all the objects at the default size.
 
 .. tip:: **To add a column/layer:**
 
@@ -59,7 +59,7 @@ It's also possible to *group* several nodes into one single node, in order to be
 
     Do one of the following:
 
-    - Click the **New Pegbar** button (|pegbar|) in the bottom bar of the Stage Schematic window.
+    - Click the **New Pegbar** button (|pegbar|) in the bottom bar of the Stage Schematic panel.
 
     - Right-click in the Stage Schematic and choose **New Pegbar** from the menu that opens.
 
@@ -67,7 +67,7 @@ It's also possible to *group* several nodes into one single node, in order to be
 
     Do one of the following:
 
-    - Click the **New Camera** button (|camera|) in the bottom bar of the Stage Schematic window.
+    - Click the **New Camera** button (|camera|) in the bottom bar of the Stage Schematic panel.
 
     - Right-click in the Stage Schematic and choose **New Camera** from the menu that opens.
 
@@ -85,7 +85,7 @@ It's also possible to *group* several nodes into one single node, in order to be
 
     - Click the arrowhead button to the left of the node name to minimize/maximize it selectively.
 
-    - Click the **Maximize Nodes** (|maximize|) button in the bottom bar of the Stage Schematic pane to minimize/maximize all of the nodes.
+    - Click the **Maximize Nodes** (|maximize|) button in the bottom bar of the Stage Schematic panel to minimize/maximize all of the nodes.
 
 .. tip:: **To select objects and links:**
 
@@ -141,7 +141,7 @@ It's also possible to *group* several nodes into one single node, in order to be
 
 .. tip:: **To reorder nodes in the Stage Schematic:**
 
-    Click the **Reorder Nodes** button (|reorder_nodes|) in the bottom bar of the stage window.
+    Click the **Reorder Nodes** button (|reorder_nodes|) in the bottom bar of the stage panel.
 
 
 .. _linking_objects:
@@ -234,7 +234,7 @@ Apart from letters, columns have also numbered centers as well; these serve for 
 
 .. tip:: **To switch the connector ports display mode:**
 
-    - Click the **Switch Output Port Display Mode** button (|switch_output_port|) in the bottom bar of the Stage Schematic pane until you see the letters on each side of the nodes, instead of the default circles.
+    - Click the **Switch Output Port Display Mode** button (|switch_output_port|) in the bottom bar of the Stage Schematic panel until you see the letters on each side of the nodes, instead of the default circles.
 
 .. tip:: **To set the center of an object:**
 
@@ -659,7 +659,7 @@ It's also possible to link the keyframes of the objects to the positions of the 
 
     2. Do one of the following:
 
-    - Click the **New Motion Path** button (|new_motion_path|) in the bottom bar of the stage window.
+    - Click the **New Motion Path** button (|new_motion_path|) in the bottom bar of the stage panel.
 
     - Right-click in the stage and choose **New Motion Path** from the menu that opens.
 

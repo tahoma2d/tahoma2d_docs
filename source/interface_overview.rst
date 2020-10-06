@@ -5,7 +5,7 @@ Interface Overview
 
 |UI_1|
 
-The Tahoma2D interface is organized into rooms, also known as workspaces. Each room is a different collection of window panes which are laid out at specific positions on the screen for a specifc use. 
+The Tahoma2D interface is organized into rooms, also known as workspaces. Each room is a different collection of panels which are laid out at specific positions on the screen for a specifc use. 
 
 
 .. _editing_rooms:
@@ -13,11 +13,11 @@ The Tahoma2D interface is organized into rooms, also known as workspaces. Each r
 Room Editing Mode
 -----------
 
-|UI_lock| "Room Editing Mode" allows for rooms to be added, removed, and renamed. It also allows for window panes to be added, removed, or rearranged. To enter or exit "Room Editing Mode", click on the lock icon on the top right of the workspace.
+|UI_lock| "Room Editing Mode" allows for rooms to be added, removed, and renamed. It also allows for panels to be added, removed, or rearranged. To enter or exit "Room Editing Mode", click on the lock icon on the top right of the workspace.
 
 .. tip:: **How to identify "Room Editing Mode":**
 
-    When "Room Editing Mode" is unlocked, all of the windows have a visible header.
+    When "Room Editing Mode" is unlocked, all of the panels have a visible header.
     
 .. _using_rooms:
 
@@ -28,7 +28,7 @@ Using Rooms
 
 Available rooms are listed on the far right of the menu bar. Each room always displays the contents of the current scene.
 
-Rooms can be named and their order can be rearranged. New rooms can be added and existing rooms can be deleted. When a room is added it is empty; to configure it, windows can be added one by one (see below).
+Rooms can be named and their order can be rearranged. New rooms can be added and existing rooms can be deleted. When a room is added it is empty; to configure it, panels can be added one by one (see below).
 
 
 .. tip:: **To enter a room:**
@@ -53,66 +53,66 @@ Rooms can be named and their order can be rearranged. New rooms can be added and
 
 .. tip:: **To return to the set of rooms provided with Tahoma2D:**
 
-    Choose Windows  →  Reset to Default Rooms.
+    Choose Panels  →  Reset to Default Rooms.
 
 
 .. _customizing_rooms:
 
 Customizing Rooms
 '''''''''''''''''
-Rooms can be modified by setting different sizes to different panes. When "Room Editing Mode" is active, panes can be pulled out to become floating windows and floating windows can be docked as panes. 
+Rooms can be modified by setting different sizes to different panes. When "Room Editing Mode" is active, docked panels can be pulled out to become floating panels and floating panels can be docked. 
 
-While "Room Edting Mode" is locked, panes can be resized and new floating windows can be added by using the Windows menu.
+While "Room Edting Mode" is locked, panels can be resized and new floating panels can be added by using the Panels menu.
 
 
-.. tip:: **To resize a pane in the room:**
+.. tip:: **To resize a panel in the room:**
 
     Click any vertical or horizontal separator and drag it to the new position.
 
-.. note:: Some panes like the toolbar have a fixed width or height, therefore they cannot always be resized.
+.. note:: Some panels like the toolbar have a fixed width or height, therefore they cannot always be resized.
 
-.. tip:: **To open a pane as a floating window:**
+.. tip:: **To open a panel as a floating panel:**
 
-    Select in the Windows menu the pane you want to open.
+    Select in the Panels menu the panel you want to open.
 
-.. tip:: **To resize a floating window:**
+.. tip:: **To resize a floating panel:**
 
-    Click and drag the border or corner of a window.
+    Click and drag the border or corner of a panel.
 
-.. tip:: **To close a floating window or a dialog:**
+.. tip:: **To close a floating panel or a dialog:**
 
     Click the close button at the right of the title bar.
 
-.. tip:: **To add a pane to a room:**
+.. tip:: **To add a panel to a room:**
 
-    1. Use the Windows menu to open the pane as a floating window.
+    1. Use the Panels menu to open the panel as a floating panel.
 
     2. Click and drag its title bar to move it around and release to dock it according to the highlighted insertion point.
 
-.. note:: Trying to dock a pane to the leftmost/rightmost part of the interface may fail if the main Tahoma window is maximized at that moment. To overcome this, you can restore the main window size, dock the desired pane, and then maximize it back.
+.. note:: Trying to dock a panel to the leftmost/rightmost part of the interface may fail if the main Tahoma window is maximized at that moment. To overcome this, you can restore the main window size, dock the desired pane, and then maximize it back.
 
-.. tip:: **To remove a pane from a room:**
+.. tip:: **To remove a panel from a room:**
 
-    1. Click and drag the title bar of the pane you want to remove to undock it from the room.
+    1. Click and drag the title bar of the panel you want to remove to undock it from the room.
 
-    2. Close the floating window.
+    2. Close the floating panel.
 
 .. tip:: **To maximize, or minimize a maximized pane:**
 
     Double-click its title bar.
 
-.. note:: Some panes like the toolbar and the level strip have some fixed size, therefore they cannot be maximized. 
+.. note:: Some panels like the toolbar and the level strip have some fixed size, therefore they cannot be maximized. 
 
 .. tip:: **To lock/unlock the rooms configuration:**
 
-    Activate/deactivate the Windows  →  Lock Room Panes option.
+    Activate/deactivate the Panels  →  Lock Room Panes option.
 
 
 .. _room_panes:
 
 Room Panes
 ----------
-Below there is a list of the panes (in the same order in which they appear in the Windows menu) that can be used to build rooms and that can be opened as floating windows.
+Below there is a list of the panels (in the same order in which they appear in the Panels menu) that can be used to build rooms and that can be opened as floating panels.
 
 
 .. _batch_servers:
@@ -122,7 +122,7 @@ Batch Servers
 
 |UI_batch|
 
-The Batch Servers window allows you to process the batch list by using the render farm, and contains information about the list of server (rendering) nodes defined for the farm. 
+The Batch Servers panel allows you to process the batch list by using the render farm, and contains information about the list of server (rendering) nodes defined for the farm. 
 
 See  :ref:`Monitoring the Server Nodes <monitoring_the_server_nodes>`  .
 
@@ -134,7 +134,7 @@ Cleanup Settings
 
 |UI_cleanup|
 
-The Cleanup Settings pane allows you to define the parameters for the clean-up process of scanned raster images, in order to convert them into Smart Raster images, ready to be painted in Tahoma. 
+The Cleanup Settings panel allows you to define the parameters for the clean-up process of scanned raster images, in order to convert them into Smart Raster images, ready to be painted in Tahoma. 
 
 See  :ref:`Cleaning-up Scanned Drawings <cleaning-up_scanned_drawings>`  .
 
@@ -222,7 +222,7 @@ Scene Cast
 
 |UI_scenecast|
 
-The scene cast pane lets you control the files loaded in the scene, save them and load new ones. It can be organized in folders and sub-folders. 
+The scene cast panel lets you control the files loaded in the scene, save them and load new ones. It can be organized in folders and sub-folders. 
 
 See  :ref:`Using the Scene Cast <using_the_scene_cast>`  .
 
@@ -274,7 +274,7 @@ Tasks
 
 |UI_tasks|
 
-The Tasks window contains the task tree with all the tasks submitted to the batch processing, and information about the task currently selected in the tree. From the task tree you can start or stop a task execution, or remove it.
+The Tasks panel contains the task tree with all the tasks submitted to the batch processing, and information about the task currently selected in the tree. From the task tree you can start or stop a task execution, or remove it.
 
 See  :ref:`Managing and Executing Render Tasks <managing_and_executing_render_tasks>`  .
 
@@ -286,7 +286,7 @@ Message Center
 
 |UI_messagecenter|
 
-The message center displays in a list the messages Tahoma is sending to the user. You can set filters on the messages showed in the window using the appropriate radio buttons, or you can clear completely the list pressing the Clear button.
+The message center displays in a list the messages Tahoma is sending to the user. You can set filters on the messages showed in the panel using the appropriate radio buttons, or you can clear completely the list pressing the Clear button.
 
 
 .. _toolbar:
@@ -446,19 +446,19 @@ Command Bar
 
 The Command Bar is a place where the user can display favorite Tahoma tools and commands to have them readily available.
 
-The Command Bar pane can be docked in any part of the Tahoma UI.
+The Command Bar panel can be docked in any part of the Tahoma UI.
 
 .. note:: If the Command Bar is too short to display all the command buttons, a double-arrow symbol will appear at the right end of it, allowing to display a drop down menu with the rest of them.
 
 .. tip:: **To display the Command Bar:**
 
-    - Choose Windows  →  Command Bar.
+    - Choose Panels  →  Command Bar.
 
 .. tip:: **To customize the Command Bar buttons:**
 
-    1. Choose Windows  →  Command Bar to open the Command Bar.
+    1. Choose Panels  →  Command Bar to open the Command Bar.
 
-    2. Right click on it and select **Customize Command Bar** from the menu that opens. The Customize Command Bar window will open.
+    2. Right click on it and select **Customize Command Bar** from the menu that opens. The Customize Command Bar panel will open.
 
     |UI_commandbar_window|
 
@@ -492,7 +492,7 @@ ComboViewer
 
 |UI_comboviewer|
 
-The comboviewer integrates in a single pane a viewer, horizontal toolbar and a tool options bar.
+The comboviewer integrates in a single panel a viewer, horizontal toolbar and a tool options bar.
 It's and alternative work area where you can draw images and see at the same time the result of your compositing. It is endless and you can scroll, zoom in, zoom out and rotate it the way you prefer.
 
 It has different modes of visualization among which you can choose the more suitable to the operation you are performing.
@@ -551,10 +551,10 @@ Record Audio
 
 |UI_recordaudio|
 
-The record audio window, lets you record a live audio source, listen to it, and insert it into a new audio column of the Xsheet.
+The record audio panel, lets you record a live audio source, listen to it, and insert it into a new audio column of the Xsheet.
 The insertion point will be located at the right of the selected cell column, and starting at the selected cell frame.
 
-.. note:: Currently, this window cannot be docked to form part of a room, like the other ones in the Windows menu. Instead it must be opened as a floating window, when needed.
+.. note:: Currently, this panel cannot be docked to form part of a room, like the other ones in the Panels menu. Instead it must be opened as a floating panel, when needed.
 
 
 .. _customizing_the_interface_appearance:
@@ -577,7 +577,7 @@ These files are stored in a folder named as the QSS file, and located in the ``C
 
 .. note:: The QSS file for Macintosh is named with the _mac suffix.
 
-The QSS file can be edited with any text editor software, e.g. Notepad or TextEdit; the PNG images with any image editor software. Editing the QSS file requires some skill in CSS language, but some changes like colors of pane elements, can be easily done by expressing them with red, green and blue values.
+The QSS file can be edited with any text editor software, e.g. Notepad or TextEdit; the PNG images with any image editor software. Editing the QSS file requires some skill in CSS language, but some changes like colors of panel elements, can be easily done by expressing them with red, green and blue values.
 
 .. note:: The QSS files defining the colors and the images used in the Tahoma interface have to be written according to a specific syntax, otherwise Tahoma interface will not be displayed properly. If you decide to edit a QSS file, make a backup copy first in case you need to revert the file to the original version.
 

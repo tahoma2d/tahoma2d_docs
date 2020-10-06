@@ -726,7 +726,7 @@ This example explains how to load an image and then create an animation in a lev
 	print("saved\n",b);
 
 	
-	//Shows the resulting level in a flipbook window
+	//Shows the resulting level in a flipbook panel
 
 	view(b);
 

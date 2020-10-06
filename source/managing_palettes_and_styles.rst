@@ -259,11 +259,11 @@ These folders can be used, for example, to move your Studio Palette, or the Proj
 
     1. Select the level that uses the palette that has to be modified.
 
-    2. Select into the **Studio Palette** pane the palette you want to use as reference.
+    2. Select into the **Studio Palette** panel the palette you want to use as reference.
 
     3. Right-click the palette and select **Adjust Current Level to This Palette**. 
 
-    4. Insert a **Tolerance** value in the window that opens. 
+    4. Insert a **Tolerance** value in the panel that opens. 
 
     .. note:: The **Tolerance** parameter defines the range of RGB values that will be used for matching colors from the curret palette to those of the Studio Palette. Default value of 0 means no range use, so just colors with the same RGB values will be reordered and all the others will be added as new colors.
 
@@ -317,9 +317,9 @@ These folders can be used, for example, to move your Studio Palette, or the Proj
 
     - Click and drag the separator to resize sections. 
 
-    - Click and drag the separator towards the pane border to hide a section.
+    - Click and drag the separator towards the panel border to hide a section.
 
-    - Click and drag the separator collapsed to the pane border towards the pane center to display again the hidden section.
+    - Click and drag the separator collapsed to the panel border towards the panel center to display again the hidden section.
 
 
 .. _animating_palettes:
@@ -370,11 +370,11 @@ An **Auto** button lets you decide whether the edits have to be assigned automat
 
 Only the first style in the palette, labeled **Color_0**, cannot be edited: instead, it allows you to remove any style from lines and filled areas.
 
-.. tip:: **To open the Style Editor as a floating window:**
+.. tip:: **To open the Style Editor as a floating panel:**
 
     Do one of the following:
 
-    - Choose Windows  →  **Style Editor**.
+    - Choose Panels  →  **Style Editor**.
 
     - Double-click the style you want to edit in the Palette Editor.
 
@@ -593,7 +593,7 @@ Raster Brushes
 
 Raster brushes are available to paint in Raster levels and, with some limitations, in Smart Raster levels. They are essentially brushes compatible with the `MyPaint <http://mypaint.org/about/>`_ open source painting software.
 
-The Raster brushes use the **Color** from the current style as a base, and all its remaining options can be found in the **Settings** tab of the Style Editor pane (see  :ref:`Settings for Raster Brushes <settings_for_raster_brushes>`  ).
+The Raster brushes use the **Color** from the current style as a base, and all its remaining options can be found in the **Settings** tab of the Style Editor panel (see  :ref:`Settings for Raster Brushes <settings_for_raster_brushes>`  ).
 
 .. note:: In Smart Raster levels, currently only *additive* Raster brushes can be used (i.e. brushes that add paint to a level, not the ones that erase, blend or blur already painted strokes).
 

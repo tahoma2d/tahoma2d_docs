@@ -64,7 +64,7 @@ Autocenter parameters are the following:
 
 Other Cleanup Parameters
 ~~~~~~~~~~~~~~~~~~~~~~~~
-The Cleanup pane contains also other parameters that can be activated regardless of the autocenter, as they will affect processed images even if the Autocenter option is not activated. Parameters are the following:
+The Cleanup panel contains also other parameters that can be activated regardless of the autocenter, as they will affect processed images even if the Autocenter option is not activated. Parameters are the following:
 
  |rotate|
  
@@ -298,7 +298,7 @@ Loaded cleanup settings can also become the default settings for the scene or fo
 
     1. Select an empty cell in the Xsheet/Timeline.
 
-    2. Click the **Save Settings** button in the bottom bar of the Cleanup Settings window.
+    2. Click the **Save Settings** button in the bottom bar of the Cleanup Settings panel.
 
     3. In the browser that opens choose for the CLN file a location and name, and click the **Save** button.
 
@@ -306,7 +306,7 @@ Loaded cleanup settings can also become the default settings for the scene or fo
 
     1. Select an empty cell in the Xsheet/Timeline.
 
-    2. Click the **Load Settings** button in the bottom bar of the Cleanup Settings window.
+    2. Click the **Load Settings** button in the bottom bar of the Cleanup Settings panel.
 
     3. In the browser that opens retrieve the CLN file you want to load, and click the **Load** button.
 
@@ -314,7 +314,7 @@ Loaded cleanup settings can also become the default settings for the scene or fo
 
     1. Select any cell where the level is exposed in the Xsheet/Timeline.
 
-    2. Click the **Save Settings** button in the bottom bar of the Cleanup Settings window.
+    2. Click the **Save Settings** button in the bottom bar of the Cleanup Settings panel.
 
     3. In the browser that opens save the CLN file in the same location and with the same name as the level, and click the **Save** button.
 
@@ -322,7 +322,7 @@ Loaded cleanup settings can also become the default settings for the scene or fo
 
     1. Select any cell where the level is exposed in the Xsheet/Timeline.
 
-    2. Click the **Load Settings** button in the bottom bar of the Cleanup Settings window.
+    2. Click the **Load Settings** button in the bottom bar of the Cleanup Settings panel.
 
     3. In the browser that opens retrieve the CLN file you want to load, and click the **Load** button.
 
@@ -330,7 +330,7 @@ Loaded cleanup settings can also become the default settings for the scene or fo
 
 .. tip:: **To reset cleanup settings to the scene default:**
 
-    Click the **Reset Settings** button in the bottom bar of the Cleanup Settings window.
+    Click the **Reset Settings** button in the bottom bar of the Cleanup Settings panel.
 
 
 
@@ -518,7 +518,7 @@ The cleanup of drawings exposed in a scene can be added to a task list and perfo
 
 |tasks_cleanup|
 
-The **Tasks** pane is divided into two sections: on the left there is the task tree where all of the *cleanup tasks* are displayed with a brush icon and all of the *render tasks* with a clapboard icon; on the right there is information about the task selected in the tree.
+The **Tasks** panel is divided into two sections: on the left there is the task tree where all of the *cleanup tasks* are displayed with a brush icon and all of the *render tasks* with a clapboard icon; on the right there is information about the task selected in the tree.
 
 The Task list can be saved as TNZBAT files and loaded back later in case you want to manage it through different working sessions.
 
@@ -542,22 +542,22 @@ The Task list can be saved as TNZBAT files and loaded back later in case you wan
 
     2. Use the browser that opens to retrieve and load a previously saved list.
 
-.. tip:: **To resize the tasks pane sections:**
+.. tip:: **To resize the tasks panel sections:**
 
     Do any of the following:
 
     - Click and drag the separator to resize sections. 
 
-    - Click and drag the separator toward the window border to hide a section.
+    - Click and drag the separator toward the panel border to hide a section.
 
-    - Click and drag the separator collapsed to the window border toward the window center to display again the hidden section.
+    - Click and drag the separator collapsed to the panel border toward the panel center to display again the hidden section.
 
 
 .. _managing_and_executing_cleanup_tasks:
 
 Managing and Executing Cleanup Tasks
 ''''''''''''''''''''''''''''''''''''
-When a *cleanup task* is selected in the tree, in the section on the right of the Tasks pane task-related properties are displayed, some of which can be edited to configure the task. Properties are the following:
+When a *cleanup task* is selected in the tree, in the section on the right of the Tasks panel task-related properties are displayed, some of which can be edited to configure the task. Properties are the following:
 
 - **Name:**, displays the tasks name; it can be edited to better identify the task. 
 
@@ -611,7 +611,7 @@ When the tasks are executed, the icon color tells the status of the task accordi
 
     Do one of the following:
 
-    - Click the **Add Cleanup Task** button (|add_cleanup|) in the bottom bar of the Tasks pane and use the browser to select a scene file.
+    - Click the **Add Cleanup Task** button (|add_cleanup|) in the bottom bar of the Tasks panel and use the browser to select a scene file.
 
     - Select the scenes in the Tahoma Browser, then right-click any of them and choose **Add As Cleanup Task** from the menu that opens.
 

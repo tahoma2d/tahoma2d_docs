@@ -3,7 +3,7 @@
 Editing Using Spreadsheet and Curves
 ====================================
 
-| Changes in Object transformations and effects parameters are shown in the **Function Editor** window, where keyframes and their related interpolations can be controlled and modified by using a *Spreadsheet* of numerical columns or a *Graph Editor*.
+| Changes in Object transformations and effects parameters are shown in the **Function Editor** panel, where keyframes and their related interpolations can be controlled and modified by using a *Spreadsheet* of numerical columns or a *Graph Editor*.
 
 | The **Spreadsheet** displays changes in columns where each column represents a single animatable parameter and each row shows the value of a parameter at each frame.
 | Blank cells represent the absence of a change in a parameters value due to no keyframes being defined.
@@ -21,7 +21,7 @@ Using the Function Editor
  
 |function_editor_1|
 
-The function editor window is divided into three sections. On the left there is an area where the Spreadsheet or Graph Editor is displayed, on the right top is an area where the interpolation of the current transformation segment is displayed, and on the right bottom is the objects/effects tree.
+The function editor panel is divided into three sections. On the left there is an area where the Spreadsheet or Graph Editor is displayed, on the right top is an area where the interpolation of the current transformation segment is displayed, and on the right bottom is the objects/effects tree.
 
 The tree has two main item folders, *Stage* and *FX*: in the first you can find folders for the defined cameras, the table, used pegbars and columns; in the second one you can find folders for each used effect. Each folder contains the related transformation parameters.
 
@@ -45,9 +45,9 @@ Transformation data can be saved and loaded as a CURVE file, to allow the export
 
     - Click and drag the separators to resize sections. 
 
-    - Click and drag a separator toward the window border to hide a section.
+    - Click and drag a separator toward the panel border to hide a section.
 
-    - Click and drag the separator collapsed to the window border toward the window center to display again the hidden section.
+    - Click and drag the separator collapsed to the panel border toward the panel center to display again the hidden section.
 
 .. tip:: **To display or hide column parameters:**
 
@@ -65,13 +65,13 @@ Transformation data can be saved and loaded as a CURVE file, to allow the export
 
     - Right-click the folder and choose **Show All** from the menu that opens to display or hide all columns or curves related to its parameters.
 
-.. tip:: **To open the Graph Editor in a separate window:**
+.. tip:: **To open the Graph Editor in a separate panel:**
 
     1. Make sure the option **Graph Editor Opens in Popup** is selected from the **Function Editor:** dropdown menu, in the Preferences  →  Interface window. (Restart Tahoma).
     
     2. Click the **Function Editor Toggle** button (|schematic|) in the top bar of the Function Editor.
 
-.. tip:: **To open the Spreadsheet in a separate window:**
+.. tip:: **To open the Spreadsheet in a separate panel:**
 
     1. Make sure the option **Spreadsheet Opens in Popup** is selected from the **Function Editor:** dropdown menu, in the Preferences  →  Interface window. (Restart Tahoma).
     
@@ -110,7 +110,7 @@ Transformation data can be saved and loaded as a CURVE file, to allow the export
 
     - Middle-click and drag the graph area to scroll in any direction, the horizontal ruler to scroll horizontally, and the vertical ruler to scroll vertically.
 
-    - Use the reset view shortcut (by default the **Alt + 0** key) or right-click the graph area and choose Fit from the menu that opens, to display all the visible curves in the current Function Curve Editor window.
+    - Use the reset view shortcut (by default the **Alt + 0** key) or right-click the graph area and choose Fit from the menu that opens, to display all the visible curves in the current Function Curve Editor panel.
 
 .. tip:: **To save transformation data:**
 
@@ -135,7 +135,7 @@ Transformation data can be saved and loaded as a CURVE file, to allow the export
 
 Defining keyframes
 -------------------
-Keyframes, including those belonging to object transformations done by using the **Animate** tool (|animate|) and those defined for effects parameters in the **FX Settings** window, can be controlled and edited both using the Spreadsheet's numerical columns and the Graph Editor's curves (see :ref:`Animating Objects <animating_objects>` and :ref:`Editing FX Settings <editing_fx_settings>`  ). 
+Keyframes, including those belonging to object transformations done by using the **Animate** tool (|animate|) and those defined for effects parameters in the **FX Settings** panel, can be controlled and edited both using the Spreadsheet's numerical columns and the Graph Editor's curves (see :ref:`Animating Objects <animating_objects>` and :ref:`Editing FX Settings <editing_fx_settings>`  ). 
 
 In the Spreadsheet, keyframes are displayed as orange cells; in the Graph Editor, keyframes are represented as control points along the curve. In both cases they can be added, edited, moved and deleted.
 
@@ -296,7 +296,7 @@ Setting Segment Interpolations
 ------------------------------
 A transformation segment, that is to say the section between two keyframes, can have different interpolations affecting the way the value changes from one key to another. The set interpolation will be displayed graphically in the Graph Editor, and as a series of values, one for each frame, in the Spreadsheet.
 
-Available interpolations are the following: **Linear**, **Speed In / Speed Out**, **Ease In / Ease Out**, **Ease In / Ease Out %**, **Exponential**, **Expression**, **File**, **Constant** and **Similar Shape**. The *default interpolation* can be set in the Preferences  →  Animation window, but the interpolation can be changed at any time in the interpolation area of the Function Editor, on the top right of the window.
+Available interpolations are the following: **Linear**, **Speed In / Speed Out**, **Ease In / Ease Out**, **Ease In / Ease Out %**, **Exponential**, **Expression**, **File**, **Constant** and **Similar Shape**. The *default interpolation* can be set in the Preferences  →  Animation panel, but the interpolation can be changed at any time in the interpolation area of the Function Editor, on the top right of the panel.
 
 In the same area it is also possible to define an interpolation **Step**, that is to say the number of frames for which the interpolation values have to be repeated, for instance to match a movement with an animation level exposed at a specific step. The default animation step can be set in the Preferences  →  Animation window.
 

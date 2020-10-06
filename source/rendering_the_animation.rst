@@ -11,9 +11,9 @@ It is also possible to *preview* the animation for performing checks and tune-up
 
 Previewing the Animation
 ------------------------
-Animations can be previewed directly in the Tahoma Viewer, including in the **Preview** mode all the Flipbook features, or by rendering a preview and visualizing it in a separate Flipbook window.
+Animations can be previewed directly in the Tahoma Viewer, including in the **Preview** mode all the Flipbook features, or by rendering a preview and visualizing it in a separate Flipbook panel.
 
-In both cases the Flipbook window tools can be used, and its appearance can be customized (see  :ref:`Using the Flipbook <using_the_flipbook>`  ). 
+In both cases the Flipbook panel tools can be used, and its appearance can be customized (see  :ref:`Using the Flipbook <using_the_flipbook>`  ). 
 
 .. note:: If the computer performance worsens during the preview process of raster animation levels, try activating the **Minimize Raster Memory Fragmentation** option in the Preferences  →  General dialog (see  :ref:`Optimizing the Memory Usage <optimizing_the_memory_usage>`  ).
 
@@ -34,7 +34,7 @@ When the **Preview mode** is activated, every change made in the scene will caus
 
 Once the frames are previewed, the results can be saved to disk.
 
-The background colors of the preview window, including the colors of the camera background, the window background and the checkerboard visible when transparent images are rendered, are those defined for the Flipbook (see  :ref:`Using the Flipbook <using_the_flipbook>`  ).
+The background colors of the preview panel, including the colors of the camera background, the panel background and the checkerboard visible when transparent images are rendered, are those defined for the Flipbook (see  :ref:`Using the Flipbook <using_the_flipbook>`  ).
 
 .. note:: When previewing frames in the Viewer it is possible to display blank frames after each preview playback, when looping (see  :ref:`Using the Flipbook <using_the_flipbook>`  ), and to limit the range of frames to be considered when playing back the animation by using the **Playback Markers** (see  :ref:`Using the Playback Markers <using_the_playback_markers>`  ).
 
@@ -87,21 +87,21 @@ The background colors of the preview window, including the colors of the camera 
 
 Using the Preview Window
 ''''''''''''''''''''''''
-The animation can be previewed in a separate window according to specific *Preview Settings*, that can be different from the *Output Settings*. In this way the preview can be configured so that it is faster to compute then the final output, for example because it uses a camera with a smaller resolution.
+The animation can be previewed in a separate panel according to specific *Preview Settings*, that can be different from the *Output Settings*. In this way the preview can be configured so that it is faster to compute then the final output, for example because it uses a camera with a smaller resolution.
 
 It is possible to define the range of previewed frames both in the Preview Settings and by using the Playback Markers in the Xsheet/Timeline: any change made in one mode is reflected in the other one as well (see  :ref:`Using the Playback Markers <using_the_playback_markers>`  ). It is also possible to display blank frames after each preview playback, when looping.
 
-It is possible to activate the Preferences  →  Preview  →  **Fit to Flipbook** option to ensure that the previewed images fit the size of the preview window, regardless their resolution.
+It is possible to activate the Preferences  →  Preview  →  **Fit to Flipbook** option to ensure that the previewed images fit the size of the preview panel, regardless their resolution.
 
-It is possible to clone the Preview window, or to automatically open as many Preview windows as needed by activating the Preferences  →  Preview  →  **Display in a New Flipbook Window** option, for example to examine or compare specific frames by using the Flipbook tools (see  :ref:`Using the Flipbook <using_the_flipbook>` ). 
+It is possible to clone the Preview panel, or to automatically open as many Preview panels as needed by activating the Preferences  →  Preview  →  **Display in a New Flipbook Window** option, for example to examine or compare specific frames by using the Flipbook tools (see  :ref:`Using the Flipbook <using_the_flipbook>` ). 
 
  |preview_settings_dialog| 
 
-.. note:: As when changes are made in the scene all the preview windows automatically update, it is possible to check the animation before and after some editing by freezing any of the Previews. 
+.. note:: As when changes are made in the scene all the preview panels automatically update, it is possible to check the animation before and after some editing by freezing any of the Previews. 
 
-The Preview window framebar displays rendered frames in *grey*, frames that have yet to be rendered in *light red*, and the current frame that is being rendered in *light green*.
+The Preview panel framebar displays rendered frames in *grey*, frames that have yet to be rendered in *light red*, and the current frame that is being rendered in *light green*.
 
-.. note:: To optimize the preview time, only the area visible in the Preview window will be rendered: if you zoom out the Viewer the preview will resume to render the new visualized area.
+.. note:: To optimize the preview time, only the area visible in the Preview panel will be rendered: if you zoom out the Viewer the preview will resume to render the new visualized area.
 
 The Preview Settings dialog lets you define the resolution, range, step and shrink of the preview frames. Settings are the following:
 
@@ -135,19 +135,19 @@ The Preview Settings dialog lets you define the resolution, range, step and shri
 
     2. Set the options you want to use for the preview.
 
-.. tip:: **To open the preview window:**
+.. tip:: **To open the preview panel:**
 
     Choose File  →  **Preview**.
 
-.. tip:: **To clone the preview window:**
+.. tip:: **To clone the preview panel:**
 
-    Right-click in the Flipbook window and choose **Clone Preview** from the menu that opens.
+    Right-click in the Flipbook panel and choose **Clone Preview** from the menu that opens.
 
 .. tip:: **To freeze the preview rendering:**
 
-    Right-click in the Flipbook window and choose **Freeze Preview** from the menu that opens.
+    Right-click in the Flipbook panel and choose **Freeze Preview** from the menu that opens.
 
-.. tip:: **To open a new Flipbook window every time you run a preview:**
+.. tip:: **To open a new Flipbook panel every time you run a preview:**
 
     1. In File  →  Preferences  →  Preview.
 
@@ -264,7 +264,7 @@ The colors displayed as background in the flipbook can also be customized so tha
 
     - Middle-click and drag to scroll in any direction.
 
-.. tip:: **To fit the size of the Flipbook window to its content:**
+.. tip:: **To fit the size of the Flipbook panel to its content:**
 
     Double-click the Flipbook title bar.
 
@@ -300,7 +300,7 @@ The colors displayed as background in the flipbook can also be customized so tha
 
     - Type in the frame bar field the number of the frame you want to view.
 
-.. tip:: **To link the playback of all the open Flipbook windows:**
+.. tip:: **To link the playback of all the open Flipbook panels:**
 
     Choose View  →  **Link Flipbooks** to activate or deactivate the linked playback mode.
 
@@ -492,7 +492,7 @@ File Settings
 
 - **Resample Balance:** controls the resample that is used when images are scaled or rotated. In scenes where images are strongly resampled, for instance when their size changes dramatically, the final rendering may appear slightly out of focus. By chosing a different resampling algorithm you can give some sharpness back to the rendered frames. 
 
-  There are several options to choose from. Originally Toonz provided only three options: **Standard**, **Improved**, and **High**. The higher the balance chosen, the longer the time needed for rendering the output. Currently Tahoma also provides several other standard resampling options that could help improve the final results in a wider range of situations. These include: **Triange filter**, **Mitchell-Netravali filter**, **Cubic convolution**, **Hann window**, **Hamming window**, **Lanczos window**, **Gaussian convolution**, **Closest Pixel** and **Bilinear**.
+  There are several options to choose from. Originally Toonz provided only three options: **Standard**, **Improved**, and **High**. The higher the balance chosen, the longer the time needed for rendering the output. Currently Tahoma also provides several other standard resampling options that could help improve the final results in a wider range of situations. These include: **Triange filter**, **Mitchell-Netravali filter**, **Cubic convolution**, **Hann window**, **Hamming panel**, **Lanczos window**, **Gaussian convolution**, **Closest Pixel** and **Bilinear**.
 
 - **Channel Width:** sets the color depth for rendered images; choices are **8 bit** and **16 bit** per color channel. If using the 16 bit channel width, be sure to select an output file format supporting it, for example the **TIF** format with the **64(RGBA)** option activated.
 
@@ -681,7 +681,7 @@ The rendering of a scene can be added to a task list and performed in batch mode
 
 |tasks_render|
 
-The Tasks pane is divided into two sections: on the left there is the Task tree where all of the *Render tasks* are displayed with a clapboard icon and all the *Cleanup tasks* with a brush icon; on the right there is Information about the task selected in the Task tree.
+The Tasks panel is divided into two sections: on the left there is the Task tree where all of the *Render tasks* are displayed with a clapboard icon and all the *Cleanup tasks* with a brush icon; on the right there is Information about the task selected in the Task tree.
 
 The Task list can be saved as TNZBAT files and loaded back later, in case you want to manage it through different working sessions.
 
@@ -705,22 +705,22 @@ The Task list can be saved as TNZBAT files and loaded back later, in case you wa
 
     2. Use the Browser that opens to retrieve and load a previously saved list.
 
-.. tip:: **To resize the Tasks pane sections:**
+.. tip:: **To resize the Tasks panel sections:**
 
     Do any of the following:
 
     - Click and drag the separator to resize sections. 
 
-    - Click and drag the separator toward the window border to hide a section.
+    - Click and drag the separator toward the panel border to hide a section.
 
-    - Click and drag the separator collapsed to the window border toward the window center to display again the hidden section.
+    - Click and drag the separator collapsed to the panel border toward the panel center to display again the hidden section.
 
 
 .. _managing_and_executing_render_tasks:
 
 Managing and Executing Render Tasks
 '''''''''''''''''''''''''''''''''''
-When a *Render task* is selected in the tree, in the section on the right of the Tasks pane task-related properties are displayed, some of which can be edited to configure the task. Properties are the following:
+When a *Render task* is selected in the tree, in the section on the right of the Tasks panel task-related properties are displayed, some of which can be edited to configure the task. Properties are the following:
 
 - **Name** displays the task name; it can be edited to better identify the task. 
 
@@ -784,7 +784,7 @@ When the tasks are executed, the icon color tells the status of the task accordi
 
     Do one of the following:
 
-    - Click the **Add Render** button (|add_render|) in the top bar of the Tasks pane and use the Browser to select a scene file.
+    - Click the **Add Render** button (|add_render|) in the top bar of the Tasks panel and use the Browser to select a scene file.
 
     - Select the scenes in the Tahoma Browser, then right-click any of them and choose **Add As Render Task** from the menu that opens.
 

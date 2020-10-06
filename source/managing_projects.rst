@@ -34,7 +34,7 @@ The projectroot information can be changed at any moment, for instance if you ne
 
     2. Type ``regedit``  in the text box and click OK. This will open the Registry Editor application.
 
-    3. Navigate to the ``HKEY_LOCAL_MACHINE\SOFTWARE\Tahoma\Tahoma`` and double-click TOONZPROJECTS in the right part of the window: the Edit String dialog opens.
+    3. Navigate to the ``HKEY_LOCAL_MACHINE\SOFTWARE\Tahoma\Tahoma`` and double-click TOONZPROJECTS in the right part of the panel: the Edit String dialog opens.
 
     4. Enter the new path for the projectroot. 
 

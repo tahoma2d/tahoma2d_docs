@@ -65,7 +65,7 @@ After adding and arranging the required elements to the Xsheet as layered column
 
 Special FX, such as blurs, lights, keys, masks, warps, gradients, etc. can be applied to the content of Xsheet columns, and can also be animated by setting key value to the parameters.
 
-Object and special FX transformations are mapped in the function editor window, where set key values and related interpolations can be controlled and modified by using function curves or numerical columns.
+Object and special FX transformations are mapped in the function editor panel, where set key values and related interpolations can be controlled and modified by using function curves or numerical columns.
 
 See  :ref:`Working in Xsheet <working_in_xsheet>` ,  :ref:`Creating Movements <creating_movements>` ,  :ref:`Applying Special FX <applying_special_fx>`  and  :ref:`Editing Using Spreadsheet and Curves <editing_curves_and_numerical_columns>`  .
 

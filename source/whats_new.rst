@@ -56,7 +56,7 @@ Usability
 
 - |new| Projects can now be saved anywhere in a much more simplified way.
 - |new| Render is now Save and Render - Scenes are saved before rendering to prevent lost work.
-- |new| The lock in the top right now locks rooms and panes at the same time. No more lock options in two places.
+- |new| The lock in the top right now locks rooms and panels at the same time. No more lock options in two places.
 - |new| Pixels are the only supported unit - no inches or mm
 - |enhancement| Simplified list of supported export types
 - |new| Double clicking in graph window fits the contents to the window

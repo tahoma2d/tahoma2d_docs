@@ -56,7 +56,7 @@ All the elements you need for a scene can be retrieved by using a file browser.
 
 |file_browser|
 
-You can either use the standard Tahoma file browser to drag and drop levels or folders to the Xsheet/Timeline or the Scene Cast window, or use the Load Level... and Load Folder... commands from the File menu. In both cases you can perform a multiple selection to load several levels or folders at the same time, that will be exposed each in a separate column; if you use the Load Level... command, when loading an animation level you can also specify the frame range to load. When you use the Load Folder... command all the files contained in the folder (if supported) are loaded into the Xsheet/Timeline.
+You can either use the standard Tahoma file browser to drag and drop levels or folders to the Xsheet/Timeline or the Scene Cast panel, or use the Load Level... and Load Folder... commands from the File menu. In both cases you can perform a multiple selection to load several levels or folders at the same time, that will be exposed each in a separate column; if you use the Load Level... command, when loading an animation level you can also specify the frame range to load. When you use the Load Folder... command all the files contained in the folder (if supported) are loaded into the Xsheet/Timeline.
 
 .. note:: When a level is loaded, Tahoma checks if its syntax matches one of the level formats specified into Preferences  →  Loading  →  **Level Settings by File Format**. In this case the Level Settings specified will be applied. It is possible to add as many formats as you want, defining them by using a Regular Expression. This way, different settings can be automatically applied to different kind of levels.
 
@@ -138,9 +138,9 @@ If any of the files you want to import has the same name of a file already exist
 
     - Click and drag the separator to resize sections. 
 
-    - Click and drag the separator towards the window border to hide a section.
+    - Click and drag the separator towards the panel border to hide a section.
 
-    - Click and drag the separator collapsed to the window border toward the window center to display again the hidden section.
+    - Click and drag the separator collapsed to the panel border toward the panel center to display again the hidden section.
 
 .. tip:: **To rename an existing folder:**
 
@@ -176,7 +176,7 @@ If any of the files you want to import has the same name of a file already exist
 
     3. Do one of the following:
 
-    - Drag and drop the selection to the Scene Cast pane or to the Viewer. 
+    - Drag and drop the selection to the Scene Cast panel or to the Viewer. 
 
     - Drag and drop the selection to the Xsheet/Timeline cell where you want to start exposing it. 
 
@@ -220,9 +220,9 @@ If any of the files you want to import has the same name of a file already exist
 
     - In the Tahoma browser or in the Xsheet right-click the level you want to view and choose View from the menu that opens.
 
-    - Choose Windows  →  Flipbook and drag and drop in the window the file you want to view.
+    - Choose Panels  →  Flipbook and drag and drop in the panel the file you want to view.
 
-  .. note:: By opening several Flipbook windows you can view several levels at the same time.
+  .. note:: By opening several Flipbook panels you can view several levels at the same time.
 
 .. tip:: **To set the default shrink factor and step for the file viewer:**
 
@@ -514,7 +514,7 @@ Exposing Levels
 ---------------
 Toonz level files, images for backgrounds and overlays, audio files, video clips, and other Tahoma scenes, have to be exposed in the Xsheet/Timeline columns in order to be part of the scene.
 
-If the asset you want to use has already been loaded but not exposed, or it was removed from the scene, it can be retrieved from the Scene Cast window. 
+If the asset you want to use has already been loaded but not exposed, or it was removed from the scene, it can be retrieved from the Scene Cast panel. 
 
 In case you need to retrieve some specific drawings from an animation level, you can display it in the Level Strip, in order to select the drawings to expose.
 
@@ -563,9 +563,9 @@ You can create new folders and sub-folders where animation levels can be arrange
 
     - Click and drag the separator to resize sections. 
 
-    - Click and drag the separator towards the window border to hide a section.
+    - Click and drag the separator towards the panel border to hide a section.
 
-    - Click and drag the separator collapsed to the window border towards the window center to display again the hidden section.
+    - Click and drag the separator collapsed to the panel border towards the panel center to display again the hidden section.
 
 .. tip:: **To rename an existing folder:**
 
@@ -753,7 +753,7 @@ Xsheet Toolbar
 
 The Xsheet Toolbar, at the top of the Xsheet and Timeline panes, is a place where the user can display favorite Tahoma tools and commands to have them readily available.
 
-The Xsheet Toolbar pane can be toggled depending on user preferences.
+The Xsheet Toolbar panel can be toggled depending on user preferences.
 
 .. note:: If the Xsheet Toolbar is too short to display all the command buttons, a double-arrow symbol will appear at the right end of it, allowing to display a drop down menu with the rest of them.
 
@@ -769,7 +769,7 @@ The Xsheet Toolbar pane can be toggled depending on user preferences.
 
 .. tip:: **To customize the Xsheet Toolbar buttons:**
 
-    1. Right click on it and select **Customize Xsheet Toolbar** from the menu that opens. The Customize Xsheet Toolbar window will open.
+    1. Right click on it and select **Customize Xsheet Toolbar** from the menu that opens. The Customize Xsheet Toolbar panel will open.
 
     |xsheet_toolbar_window|
 
@@ -1588,7 +1588,7 @@ When editing a memo its color can be set, and the text you write can be formatte
 
     1. Click the **Add New Memo** button at the top of the frame number column in the Xsheet (or at the top of the layers headers, in the Timeline).
 
-    2. Type the memo text in the window that opens, format it and choose the memo color (see below) then click the **Post** button: the memo is posted at the current frame in the current column.
+    2. Type the memo text in the panel that opens, format it and choose the memo color (see below) then click the **Post** button: the memo is posted at the current frame in the current column.
 
     3. Click and drag the posted memo to change its position.
 

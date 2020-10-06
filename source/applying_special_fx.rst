@@ -23,7 +23,7 @@ Nodes can be easily selected and arranged. When selected, nodes are highlighted 
 
 .. tip:: **To access the FX Schematic:**
 
-    Click the Schematic toggle button (|schematic|) at the right of the bottom bar of the Schematic window until the title bar displays **FX Schematic**.
+    Click the Schematic toggle button (|schematic|) at the right of the bottom bar of the Schematic panel until the title bar displays **FX Schematic**.
 
 .. tip:: **To navigate the FX Schematic:**
 
@@ -33,13 +33,13 @@ Nodes can be easily selected and arranged. When selected, nodes are highlighted 
 
     - Middle-click and drag to scroll in any direction.
 
-    - Use the **Fit to Window** button (|fit_to_window|) in the bottom bar of the Schematic window to display all of the nodes in the current window.
+    - Use the **Fit to Window** button (|fit_to_window|) in the bottom bar of the Schematic panel to display all of the nodes in the current panel.
 
-    - Use the **Focus on Current** button (|focus_on_current|) in the bottom bar of the Schematic window to center the Schematic on the current node.
+    - Use the **Focus on Current** button (|focus_on_current|) in the bottom bar of the Schematic panel to center the Schematic on the current node.
 
-    - Use the **Reorder Nodes** button (|reorder_nodes|) in the bottom bar of the Schematic window to reorder all the nodes.
+    - Use the **Reorder Nodes** button (|reorder_nodes|) in the bottom bar of the Schematic panel to reorder all the nodes.
 
-    - Use the **Reset Size** button (|reset|) in the bottom bar of the Schematic window, or use the **Reset View** shortcut (by default the **Alt + 0** key) to display all of the nodes at the default size.
+    - Use the **Reset Size** button (|reset|) in the bottom bar of the Schematic panel, or use the **Reset View** shortcut (by default the **Alt + 0** key) to display all of the nodes at the default size.
 
 .. tip:: **To rename a node:**
 
@@ -51,7 +51,7 @@ Nodes can be easily selected and arranged. When selected, nodes are highlighted 
 
     - Click the arrowhead to the left of the node name to minimize/maximize columns selectively.
 
-    - Click the **Minimize/Maximize** (|minimize|/|maximize|) button in the bottom bar of the Schematic window to minimize/maximize all the column nodes.
+    - Click the **Minimize/Maximize** (|minimize|/|maximize|) button in the bottom bar of the Schematic panel to minimize/maximize all the column nodes.
 
 .. tip:: **To select nodes:**
 
@@ -107,7 +107,7 @@ It's possible to group several nodes into one single node, in order to better ma
 
 Inserting Effects
 '''''''''''''''''
-You can **Insert** effects to selected nodes, **Add** effects to the Schematic, or **Replace** previously added effect nodes. This can be done from the **FX Browser** window or by using the drop-down menu that opens when right-clicking nodes or an empty area of the FX Schematic. Both are organized in folders/submenus containing sets of effects; if some *Presets* are defined for an effect, an additional folder/submenu is available (see  :ref:`Creating Presets <creating_presets>`  ).
+You can **Insert** effects to selected nodes, **Add** effects to the Schematic, or **Replace** previously added effect nodes. This can be done from the **FX Browser** panel or by using the drop-down menu that opens when right-clicking nodes or an empty area of the FX Schematic. Both are organized in folders/submenus containing sets of effects; if some *Presets* are defined for an effect, an additional folder/submenu is available (see  :ref:`Creating Presets <creating_presets>`  ).
 
  |FX_Browser| 
 
@@ -145,7 +145,7 @@ For example in case of a Matte In effect, the column to be matted has to be link
 
     - Choose Xsheet  →  **New FX...**
 
-    - Click the **New FX** button (|fx|) in the bottom bar of the FX Schematic window.
+    - Click the **New FX** button (|fx|) in the bottom bar of the FX Schematic panel.
 
 .. tip:: **To Insert an effect:**
 
@@ -313,7 +313,7 @@ When more than one Output node is defined, you can set which is the *active* one
 
     2. Do one of the following:
 
-    - Click the **New Output** button (|output|) in the bottom bar of the schematic window.
+    - Click the **New Output** button (|output|) in the bottom bar of the schematic panel.
 
     - Right-click the node and choose **New Output** from the menu that opens.
 
@@ -321,7 +321,7 @@ When more than one Output node is defined, you can set which is the *active* one
 
     Do one of the following:
 
-    - Click the **New Output** button (|output|) in the bottom bar of the schematic window.
+    - Click the **New Output** button (|output|) in the bottom bar of the schematic panel.
 
     - Right-click in the schematic and choose **New Output** from the menu that opens.
 
@@ -348,12 +348,12 @@ When more than one Output node is defined, you can set which is the *active* one
 
 Editing Effects Settings
 ------------------------
-Effects parameters and their animation can be controlled in the **FX Settings** window. According to the selected effect, it displays a different layout of sliders, check boxes, text fields, etc.
+Effects parameters and their animation can be controlled in the **FX Settings** panel. According to the selected effect, it displays a different layout of sliders, check boxes, text fields, etc.
 
-At the bottom of the window a *preview area* is available to check the result of the applied effect: you can expand it or contract it, activate it or deactivate it, navigate its content, set its size, its background color, and limit it to the camera shot.
-The preview area can be expanded or contracted by clicking on the **+**/**-** symbol to the left of the **Swatch Viewer** text, at the bottom left of the FX Settings window.
+At the bottom of the panel a *preview area* is available to check the result of the applied effect: you can expand it or contract it, activate it or deactivate it, navigate its content, set its size, its background color, and limit it to the camera shot.
+The preview area can be expanded or contracted by clicking on the **+**/**-** symbol to the left of the **Swatch Viewer** text, at the bottom left of the FX Settings panel.
 
-Parameters can be animated by setting keyframes at specific frames. A **Set Key** button (|key|) is available in the preview area, at the bottom bar of the window, to set keyframes for *all* of the parameters. For each of the parameters that can be animated there is also a specific **Set Key** button (|key|) to the right of the parameter name, in order to set keyframes for each parameter independently. 
+Parameters can be animated by setting keyframes at specific frames. A **Set Key** button (|key|) is available in the preview area, at the bottom bar of the panel, to set keyframes for *all* of the parameters. For each of the parameters that can be animated there is also a specific **Set Key** button (|key|) to the right of the parameter name, in order to set keyframes for each parameter independently. 
 
 The **Set Key** button (|key|) may have the following colors:
 
@@ -373,13 +373,13 @@ The parameter specific **Set Key** button (|key|) may have the following colors:
 
     - It is **yellow** if you changed the parameter value and the current frame does not have a key for the parameter.
 
-Frames and keyframes can be navigated by using the related buttons in the bottom bar of the window. The **Next Key** (|next_key|) and **Previous Key** buttons (|prevkey|) are available only if more than one keyframe is defined.  
+Frames and keyframes can be navigated by using the related buttons in the bottom bar of the panel. The **Next Key** (|next_key|) and **Previous Key** buttons (|prevkey|) are available only if more than one keyframe is defined.  
 
 |FX_Settings_Example| 
 
 If no keyframes are defined, parameters you set will be used throughout the scene.
 
-.. tip:: **To open the FX Settings window:**
+.. tip:: **To open the FX Settings panel:**
 
     Do one of the following:
 
@@ -395,7 +395,7 @@ If no keyframes are defined, parameters you set will be used throughout the scen
 
     Do one of the following:
 
-    - Type the frame number or use the **Next Frame** and **Previous Frame** buttons available in the bottom bar of the window.
+    - Type the frame number or use the **Next Frame** and **Previous Frame** buttons available in the bottom bar of the panel.
 
     - Move the current frame cursor in the Xsheet/Timeline or in the Function Editor.
 
@@ -405,7 +405,7 @@ If no keyframes are defined, parameters you set will be used throughout the scen
 
     1. Do one of the following:
 
-    - If the current frame is not a key, click the **Set Key** button (|key|) in the bottom bar of the window: it turns from *grey* to *blue* and current values become keyframes for all the parameters at the current frame. 
+    - If the current frame is not a key, click the **Set Key** button (|key|) in the bottom bar of the panel: it turns from *grey* to *blue* and current values become keyframes for all the parameters at the current frame. 
 
     - If the current frame is a keyframe for some parameters only, click the **Set Key** button (|key|): it turns from *blue-striped* to *blue* and current values become keyframes for all the parameters at the current frame. 
 
@@ -423,9 +423,9 @@ If no keyframes are defined, parameters you set will be used throughout the scen
 
     Do one of the following:
 
-    - If the keyframes are set for all the parameters, click the **Set Key** button (|key|) in the bottom bar of the window: it turns from *blue* to *grey*.
+    - If the keyframes are set for all the parameters, click the **Set Key** button (|key|) in the bottom bar of the panel: it turns from *blue* to *grey*.
 
-    - If the keyframes are set for some parameters only, click twice the **Set Key** button (|key|) in the bottom bar of the window: with the first click it turns from *blue-striped* to *blue* (as you set keys for all the parameters); with the second click, it turns from *blue* to *grey*.
+    - If the keyframes are set for some parameters only, click twice the **Set Key** button (|key|) in the bottom bar of the panel: with the first click it turns from *blue-striped* to *blue* (as you set keys for all the parameters); with the second click, it turns from *blue* to *grey*.
 
 .. tip:: **To remove a keyframe for a specific parameter at the current frame:**
 
@@ -439,9 +439,9 @@ If no keyframes are defined, parameters you set will be used throughout the scen
 
     Do any of the following:
 
-    - Click the **Camera Preview** button (|camera|) in the bottom bar of the FX Settings window to limit the preview to the camera shot.
+    - Click the **Camera Preview** button (|camera|) in the bottom bar of the FX Settings panel to limit the preview to the camera shot.
 
-    - Click the **Preview** button (|preview|) in the bottom bar of the FX Settings window to preview the results regardless of the camera shot.
+    - Click the **Preview** button (|preview|) in the bottom bar of the FX Settings panel to preview the results regardless of the camera shot.
 
 .. tip:: **To resize the preview area:**
 
@@ -449,15 +449,15 @@ If no keyframes are defined, parameters you set will be used throughout the scen
 
     - Click and drag the horizontal separator. 
 
-    - Click and drag the separator toward the window border to hide the preview area.
+    - Click and drag the separator toward the panel border to hide the preview area.
 
-    - Click and drag the separator collapsed to the window border toward the window center to display again the preview area.
+    - Click and drag the separator collapsed to the panel border toward the panel center to display again the preview area.
 
     .. note:: The A/R of the preview area depends on the A/R of the current camera.
 
 .. tip:: **To change the background color of the preview area:**
 
-    Use the buttons in the bottom bar of the FX Settings window to choose a **White** (|preview_white|), **Black** (|preview_black|) or **Transparent** (|preview_checkbox|) background.
+    Use the buttons in the bottom bar of the FX Settings panel to choose a **White** (|preview_white|), **Black** (|preview_black|) or **Transparent** (|preview_checkbox|) background.
 
 .. tip:: **To navigate the preview area:**
 
@@ -569,7 +569,7 @@ Creating Macro FX
 -----------------
 Effects can be combined to create a *macro effect* that can be saved and retrieved when needed.
 
-When a macro effect is defined, you can edit its settings either in the standard way with the FX Settings window that contains a tab for each effect combined to define the macro, or by opening it and editing one effect at a time.
+When a macro effect is defined, you can edit its settings either in the standard way with the FX Settings panel that contains a tab for each effect combined to define the macro, or by opening it and editing one effect at a time.
 
 A macro effect can be opened also to check how the effect nodes are connected, and can be exploded to dissolve it and put its effect nodes back in the Schematic.
 
@@ -1188,7 +1188,7 @@ Body Highlight
 
 Creates a highlighted area for the Source node content, according to its alpha channel. You can set the Color of the highlight, as well as a Transparency and a Blur value to be applied.
 
-The shifting of the highlighted area is defined by horizontal (X) and vertical (Y) Offset values, that can also be interactively set in the preview of the FX Settings window, where the offset center is displayed with a cross.
+The shifting of the highlighted area is defined by horizontal (X) and vertical (Y) Offset values, that can also be interactively set in the preview of the FX Settings panel, where the offset center is displayed with a cross.
 
 Enabling the Invert option the effected areas will be toggled.
 
