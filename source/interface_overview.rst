@@ -95,7 +95,7 @@ While "Room Edting Mode" is locked, panels can be resized and new floating panel
 
     Double-click its title bar (for floating panels, the Viewer and the ComboViewer). If there is no title bar, press **`**.
 
-.. note:: Some panels like the toolbar and the command bar have a fixed size in one dimension, therefore they cannot be maximized. 
+.. note:: Some panels like the toolbar and the quick toolbar have a fixed size in one dimension, therefore they cannot be maximized. 
 
 
 
@@ -430,34 +430,34 @@ For example it lets you set the thickness and other properties of the Brush tool
 
 .. _command_bar:
 
-Command Bar
+Quick Toolbar
 '''''''''''
 
 |UI_commandbar|
 
-The Command Bar is a place where the user can display favorite Tahoma tools and commands to have them readily available.
+The Quick Toolbar is a place where the user can display favorite Tahoma tools and commands to have them readily available.
 
-The Command Bar panel can be docked in any part of the Tahoma UI.
+The Quick Toolbar panel can be docked in any part of the Tahoma UI.
 
-.. note:: If the Command Bar is too short to display all the command buttons, a double-arrow symbol will appear at the right end of it, allowing to display a drop down menu with the rest of them.
+.. note:: If the Quick Toolbar is too short to display all the command buttons, a double-arrow symbol will appear at the right end of it, allowing to display a drop down menu with the rest of them.
 
-.. tip:: **To display the Command Bar:**
+.. tip:: **To display the Quick Toolbar:**
 
-    - Choose Panels  →  Command Bar.
+    - Choose Panels  →  Quick Toolbar.
 
-.. tip:: **To customize the Command Bar buttons:**
+.. tip:: **To customize the Quick Toolbar buttons:**
 
-    1. Choose Panels  →  Command Bar to open the Command Bar.
+    1. Choose Panels  →  Quick Toolbar to open the Quick Toolbar.
 
-    2. Right click on it and select **Customize Command Bar** from the menu that opens. The Customize Command Bar panel will open.
+    2. Right click on it and select **Customize Quick Toolbar** from the menu that opens. The Customize Quick Toolbar panel will open.
 
     |UI_commandbar_window|
 
-    3. To *add* a command: Search for a command in the **Toolbar Items** list (right) and drag it to the **Command Bar** list (left).
+    3. To *add* a command: Search for a command in the **Toolbar Items** list (right) and drag it to the **Quick Toolbar** list (left).
     
-    4. To *add* a separator: At the end of the **Toolbar Items** list (right), drag the **----Separator----** item to the **Command Bar** list (left).
+    4. To *add* a separator: At the end of the **Toolbar Items** list (right), drag the **----Separator----** item to the **Quick Toolbar** list (left).
     
-    5. To *delete* a command: Locate the command in the **Command Bar** list (left), right click on it and select **Remove** from the menu that opens.
+    5. To *delete* a command: Locate the command in the **Quick Toolbar** list (left), right click on it and select **Remove** from the menu that opens.
     
     6. Click **OK** to accept the changes or **Cancel** to discard them.
     
