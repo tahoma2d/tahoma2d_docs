@@ -119,7 +119,7 @@ To globally apply effects it's possible to use the **Xsheet** node as if it were
 
 Three different types of effects can be used in the Schematic, each with a different type of node:
 
-- **Basic effects**, such as the Blur effect, that simply modify the contents of a column; they are displayed as a yellow node with an input port on the left, labelled *Source*, and an output port on the right. 
+- **Basic effects**, such as the Blur effect, that simply modify the contents of a column; they are displayed as a blue node with an input port on the left, labelled *Source*, and an output port on the right. 
 
  |Basic_FX_Example| 
 
@@ -127,7 +127,7 @@ To affect a column/layer, they have to be inserted in the link from the column/l
 
 If several effects are applied in a chain, they will be applied one after the other, following the order from the column/layer node to the Xsheet node.
 
-- **Combined effects**, such as the Matte In effect, that modify the column/layer contents according to the contents other columns/layers; they are displayed with a yellow node with two or more input ports on the left, and one output port on the right. 
+- **Combined effects**, such as the Matte In effect, that modify the column/layer contents according to the contents other columns/layers; they are displayed with a pink colored node with two or more input ports on the left, and one output port on the right. 
 
 To affect a column/layer, they have to be inserted into the link from the column/layer node to the Xsheet node, so that the column/layer node is connected to the first effect input port labelled *Source*, while the other columns/layers are connected to the other input ports, whose labels depend on the effect; the effect node output port has to be connected to the Xsheet node. 
 
@@ -135,7 +135,7 @@ To affect a column/layer, they have to be inserted into the link from the column
 
 For example in case of a Matte In effect, the column to be matted has to be linked to the *Source* input port, the matte column has to be linked to the *Matte* input port, and the output port has to be connected to the Xsheet node.
 
-- **Effects that create computer generated images**, such as the Radial Gradient, that are exposed in Xsheet columns (and Timeline layers) and therefore are similar to columns; they are displayed with an orange node with only an output port on the right. These effect nodes have to be connected to the Xsheet node to be rendered, or can be connected to other effect nodes.
+- **Effects that create computer generated images**, such as the Radial Gradient, that are exposed in Xsheet columns (and Timeline layers) and therefore are similar to columns; they are displayed with a brown node with only an output port on the right. These effect nodes have to be connected to the Xsheet node to be rendered, or can be connected to other effect nodes.
 
  |Generated_FX_Example| 
 
@@ -305,7 +305,7 @@ In the FX Schematic by default the Xsheet node is connected to an Output node: t
 
 The scene rendering can be limited to a specific node of the schematic by creating additional Output nodes, connected to the node where you want to limit the rendering. 
 
-When more than one Output node is defined, you can set which is the *active* one (the one that will be considered for previewing or rendering the scene); the active output node is displayed in *blue*, while the others in *grey*. 
+When more than one Output node is defined, you can set which is the *active* one (the one that will be considered for previewing or rendering the scene); the active output node is displayed in *blue*, while the others in a *dull cyan*. 
 
 .. tip:: **To limit the output to a specific node:**
 
@@ -359,9 +359,9 @@ The **Set Key** button (|key|) may have the following colors:
 
     - It is **grey** when no keyframes for any parameter is defined at the current frame.
 
-    - It is **blue-striped** when keyframes are defined at least for one parameter.
+    - It is **half-orange** when keyframes are defined at least for one parameter.
 
-    - It is **blue** when keyframes are defined for all the parameters.
+    - It is **orange** when keyframes are defined for all the parameters.
 
 The parameter specific **Set Key** button (|key|) may have the following colors:
 
@@ -369,9 +369,9 @@ The parameter specific **Set Key** button (|key|) may have the following colors:
 
     - It is **orange** when a key value is defined for the parameter at the current frame.
 
-    - It is **pale yellow** if the parameter is animated but no key value is defined at the current frame.
+    - It is **dull brown** if the parameter is animated but no key value is defined at the current frame.
 
-    - It is **yellow** if you changed the parameter value and the current frame does not have a key for the parameter.
+    - It is **dull yellow with a circle in center** if you changed the parameter value and the current frame does not have a key for the parameter.
 
 Frames and keyframes can be navigated by using the related buttons in the bottom bar of the panel. The **Next Key** (|next_key|) and **Previous Key** buttons (|prevkey|) are available only if more than one keyframe is defined.  
 
@@ -405,9 +405,9 @@ If no keyframes are defined, parameters you set will be used throughout the scen
 
     1. Do one of the following:
 
-    - If the current frame is not a key, click the **Set Key** button (|key|) in the bottom bar of the panel: it turns from *grey* to *blue* and current values become keyframes for all the parameters at the current frame. 
+    - If the current frame is not a key, click the **Set Key** button (|key|) in the bottom bar of the panel: it turns from *grey* to *orange* and current values become keyframes for all the parameters at the current frame. 
 
-    - If the current frame is a keyframe for some parameters only, click the **Set Key** button (|key|): it turns from *blue-striped* to *blue* and current values become keyframes for all the parameters at the current frame. 
+    - If the current frame is a keyframe for some parameters only, click the **Set Key** button (|key|): it turns from *half-orange* to *orange* and current values become keyframes for all the parameters at the current frame. 
 
     2. Define the values for the parameters.
 
@@ -417,15 +417,15 @@ If no keyframes are defined, parameters you set will be used throughout the scen
 
     2. Define the value for the parameter.
 
-.. note:: If the current frame is not a keyframe for the parameter, and you changed it, the **Set Key** button (|key|) to the right of the parameter turns *yellow*. Click it to set the key.
+.. note:: If the current frame is not a keyframe for the parameter, and you changed it, the **Set Key** button (|key|) to the right of the parameter turns *dull yellow*. Click it to set the key.
 
 .. tip:: **To remove all keyframes for the effect parameters at the current frame:**
 
     Do one of the following:
 
-    - If the keyframes are set for all the parameters, click the **Set Key** button (|key|) in the bottom bar of the panel: it turns from *blue* to *grey*.
+    - If the keyframes are set for all the parameters, click the **Set Key** button (|key|) in the bottom bar of the panel: it turns from *orange* to *grey*.
 
-    - If the keyframes are set for some parameters only, click twice the **Set Key** button (|key|) in the bottom bar of the panel: with the first click it turns from *blue-striped* to *blue* (as you set keys for all the parameters); with the second click, it turns from *blue* to *grey*.
+    - If the keyframes are set for some parameters only, click twice the **Set Key** button (|key|) in the bottom bar of the panel: with the first click it turns from *half-orange* to *orange* (as you set keys for all the parameters); with the second click, it turns from *orange* to *grey*.
 
 .. tip:: **To remove a keyframe for a specific parameter at the current frame:**
 
