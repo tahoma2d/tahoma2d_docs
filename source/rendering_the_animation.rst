@@ -131,13 +131,13 @@ The Preview Settings dialog lets you define the resolution, range, step and shri
 
 .. tip:: **To set the scene preview settings:**
 
-    1. Choose File  →  **Preview Settings**.
+    1. Choose Render  →  **Preview Settings**.
 
     2. Set the options you want to use for the preview.
 
 .. tip:: **To open the preview panel:**
 
-    Choose File  →  **Preview**.
+    Choose Render  →  **Preview**.
 
 .. tip:: **To clone the preview panel:**
 
@@ -149,19 +149,19 @@ The Preview Settings dialog lets you define the resolution, range, step and shri
 
 .. tip:: **To open a new Flipbook panel every time you run a preview:**
 
-    1. In File  →  Preferences  →  Preview.
+    1. In File  →  Preferences  →  Preview or (for macOS) Tahoma2D  →  Preferences  →  Preview.
 
     2. Activate the **Display in a New Flipbook Window** option.
 
 .. tip:: **To rewind the preview content automatically after playback:**
 
-    1. In File  →  Preferences  →  Preview.
+    1. In File  →  Preferences  →  Preview or (for macOS) Tahoma2D  →  Preferences  →  Preview.
 
     2. Activate the **Rewind After Playback** option.
 
 .. tip:: **To display blank frames after each preview playback when looping:**
 
-    1. In File  →  Preferences  →  Preview.
+    1. In File  →  Preferences  →  Preview or (for macOS) Tahoma2D  →  Preferences  →  Preview.
 
     2. Do any of the following:
 
@@ -286,7 +286,7 @@ The colors displayed as background in the flipbook can also be customized so tha
 
 .. tip:: **To rewind the Flipbook content automatically after playback:**
 
-    1. In File  →  Preferences  →  Preview.
+    1. In File  →  Preferences  →  Preview or (for macOS) Tahoma2D  →  Preferences  →  Preview.
 
     2. Activate the **Rewind after Playback** option.
 
@@ -541,9 +541,11 @@ Other Settings
 
 - **Render** button, starts rendering the scene using the current render settings.
 
+- **Save and Render** button, saves any changes before rendering the scene using the current render settings. This prevents losing any changes if the render is interrupted.
+
 .. tip:: **To set the scene output settings:**
 
-    1. Choose File  →  Output Settings.
+    1. Choose Render  →  Output Settings.
 
     2. Set the options you want to use for the final rendering.
 
@@ -565,13 +567,13 @@ Each item has an information **Type:**. Most of them will automatically retrieve
 Other types, such as **Text** or **Image** allow to input user defined data to be displayed in the Clapperboard.
 
 The settings can be saved as a *Preset* in order to be reused later, using the **Save as Preset** and **Load Preset** buttons.
-They can also be stored in the project's default settings by using the File  →  **Save Default Settings** command.
+They can also be stored in the project's default settings by using the File  →  Project Management  →  **Save Default Settings** command.
 
 .. note:: WARNING: Adding the Clapperboard will make the scene file to lose compatibility with older versions of Tahoma. Setting the **Duration:** back to 0 will remove the clapperboard data from the scene, so that compatibility can be restored.
 
 .. tip:: **To Add a Clapperboard:**
 
-    1. Open the File  →  Output Settings... dialog.
+    1. Open the Render  →  Output Settings... dialog.
     
     2. Select the output file format to any movie type (3GP, AVI, MOV, MP4 or WebM).
     
@@ -587,13 +589,13 @@ They can also be stored in the project's default settings by using the File  →
 
 .. tip:: **To temporarily deactivate the Clapperboard:**
 
-    1. Open the File  →  Output Settings... dialog.
+    1. Open the Render  →  Output Settings... dialog.
     
     2. Disable the **Add Clapperboard** option.
     
 .. tip:: **To Delete the Clapperboard:**
 
-    1. Open the File  →  Output Settings... dialog.
+    1. Open the Render  →  Output Settings... dialog.
     
     2. Open **Other Settings** group box.
     
@@ -658,11 +660,19 @@ You can also activate the **Use Default Viewer for Movie Format** option in the 
 
 .. tip:: **To render the currently loaded scene:**
 
-    Choose File  →  **Render**.
+    Choose Render  →  **Render**.
+    
+.. tip:: **To save and render the currently loaded scene:**
+
+    Choose Render  →  **Save and Render**.
+    
+.. tip:: **To render the currently loaded scene as an mp4 onto the Desktop:**
+
+    Choose Render  →  **Fast Render to MP4**.
 
 .. tip:: **To display blank frames after each rendering playback when looping:**
 
-    1. Choose File  →  Preferences  →  **Preview**.
+    1. Choose File  →  Preferences  →  **Preview** or (for macOS) Tahoma2D  →  Preferences  →  **Preview**. 
 
     2. Do any of the following:
 
