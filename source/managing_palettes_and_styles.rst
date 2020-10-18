@@ -44,7 +44,7 @@ Palettes also can be saved as independent files in TPL format to be loaded back 
 
     Do one of the following:
     
-    - Click the option button (|option|) on the right of the top bar of the **Palette Editor**, and choose a display mode from the menu that opens.
+    - Click the option button (|option|) on the right of the bottom bar of the **Palette Editor**, and choose a display mode from the menu that opens.
     
     - Use the standard zoom **+** or **-** shortcut keys in the **Palette Editor** to increase or decrease the styles chips size.
 
@@ -92,7 +92,7 @@ Palette styles can be added, named, reordered and arranged in pages. They can be
 
 .. tip:: **To add a new style:**
 
-    Click the **New Style** button (|new_style|) in the top bar of the palette editor. 
+    Click the **New Style** button (|new_style|) after the last existing style - or right-click in the palette panel's background and choose **New Style**. 
 
 .. tip:: **To name a style:**
 
@@ -140,7 +140,7 @@ Palette styles can be added, named, reordered and arranged in pages. They can be
 
     Do one of the following:
 
-    - Click the **New Page** button (|new_page|) in the top bar of the Palette Editor.
+    - Click the **New Page** button (|new_page|) in the bottom bar of the Palette Editor.
 
     - Right-click in the palette area where page tabs are displayed and choose **New Page** from the menu that opens.
 
@@ -213,7 +213,7 @@ These folders can be used, for example, to move your Studio Palette, or the Proj
 
     2. Do one of the following:
 
-    - Click the **Palette** button (|drag_palette|) in the top bar of the palette editor and drag the current palette to the **Studio Palette** folder where you want to locate it. The palette will retain its name.
+    - Click the **Palette** button (|drag_palette|) in the bottom bar of the palette editor and drag the current palette to the **Studio Palette** folder where you want to locate it. The palette will retain its name.
 
     - Add an empty palette in the Studio Palette editor, right-click it and select **Replace with Current Palette** from the menu that opens.
 
@@ -249,7 +249,7 @@ These folders can be used, for example, to move your Studio Palette, or the Proj
 
     Do one of the following:
 
-    - Click and drag the palette, from the **Studio Palette Tree** to the **Palette** button (|drag_palette|) in the top bar of the **Palette Editor**.
+    - Click and drag the palette, from the **Studio Palette Tree** to the **Palette** button (|drag_palette|) in the bottom bar of the **Palette Editor**.
 
     - Right-click the palette you want to use and select **Load into Current Palette** from the menu that opens.
 
@@ -338,15 +338,15 @@ Keys are set for *all* the palette Colors and Settings (in the case of **Generat
 
     1. Select in the Xsheet/Timeline the frame where you want to define the key.
 
-    2. Click the **Key** button (|key|) in the top bar of the Palette Editor.
+    2. Click the **Key** button (|key|) in the bottom bar of the Palette Editor.
 
 .. tip:: **To check if the palette has a key at a specific frame:**
 
-    Select the frame you want to check: if the **Key** button (|key|) in the top bar of the Palette Editor is blue, the colors have a key at the current frame.
+    Select the frame you want to check: if the **Key** button (|key|) in the bottom bar of the Palette Editor is blue, the colors have a key at the current frame.
 
 .. tip:: **To navigate the palette keys:**
 
-    Use the **Previous Key** (|next_key|) and **Next Key** buttons (|prevkey|) available at the side of the key button in the top bar of the palette editor.
+    Use the **Previous Key** (|next_key|) and **Next Key** buttons (|prevkey|) available at the side of the key button in the bottom bar of the palette editor.
 
 .. tip:: **To remove a palette key:**
 
@@ -356,7 +356,7 @@ Keys are set for *all* the palette Colors and Settings (in the case of **Generat
 
     - Navigate the palette keys.
 
-    2. Click the **Key** button (|key|) in the top bar of the **Palette Editor** to remove it.
+    2. Click the **Key** button (|key|) in the bottom bar of the **Palette Editor** to remove it.
 
 
 .. _editing_styles:
