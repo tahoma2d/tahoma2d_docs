@@ -51,11 +51,11 @@ Palettes also can be saved as independent files in TPL format to be loaded back 
 
 .. tip:: **To make the Palette editor inactive or active:**
 
-    Click the **Switch** button (|switch|) on the right of the **Palette Editor** title bar.
+    Click the **Pause** button on the right of the undocked **Palette Editor** title bar.
 
 .. tip:: **To save a palette with a different name in a different location:**
 
-    1. Click the **Save Palette As** button (|save_as|) in the top bar of the **Palette Editor**.
+    1. In the **Options** menu (|option|) in the bottom bar of the **Palette Editor**, choose **Save Palette As**.
 
     2. In the browser that opens choose a location and name for the palette you want to save, and click the **Save** button.
 
