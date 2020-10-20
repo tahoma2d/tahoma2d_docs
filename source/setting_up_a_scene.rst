@@ -20,34 +20,6 @@ If you want to change the default values you can save current scene settings as 
     Select File  →  Save Default Settings: all the settings from the current scene will become the project default.
 
 
-.. _choosing_the_working_unit:
-
-Choosing the Working Unit
--------------------------
-Positions, distances and sizes can be expressed in several units of measure: inches, millimeters, centimeters, fields and pixels. 
-
-The field unit is equal to 1/2 inch on the horizontal dimension, and it depends on the A/R set in the field guide information of the Scene Settings... dialog on the vertical dimension (see  :ref:`Using the Viewer <using_the_work_area>`  ). For example if the A/R value is 1.77778, two horizontal fields are equal to an inch, while one vertical field equals to an inch divided by 1.77778.
-
-In the Files  →  Preferences  →  Interface dialog you can set the following default units:
-
-- The Unit is used to display all measures in text fields, and applied when moving or changing the size of stage objects.
-
-- The Camera Unit is used to display and define the camera size in the Scene  →  Camera Settings... dialog (see  :ref:`Defining Camera Settings <defining_camera_settings>`  ).
-
-You can also express values in an unit different from the default one by entering any of the following units and abbreviations: in, inch, " , ' ' (two apostrophes), cm, mm, fld, field and px, after the input value itself. As soon as the value is entered it's converted in the default unit.
-
-If a value without a specific unit is used, it is supposed to be expressed in the default unit.
-
-.. tip:: **To set the default working units:**
-
-    1. Choose File  →  Preferences  →  Interface.
-
-    2. Do one of the following:
-
-    - In the Unit option menu choose the unit you want to use as default.
-
-    - In the Camera Unit option menu choose the unit you want to use to express the camera size.
-
 
 .. _setting_the_frame_rate:
 
