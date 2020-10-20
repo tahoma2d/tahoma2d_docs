@@ -112,6 +112,36 @@ Installing
 
 |output_settings_mac|
 
+Installing FFmpeg for Linux
+---------------------------
+
+| To install FFmpeg, enter the following command in the shell depending on your distribution.
+
+Arch Linux: ``# pacman -S extra/ffmpeg``
+
+Debian GNU/Linux: ``# apt install ffmpeg``
+
+Gentoo Linux: ``# emerge media-video/ffmpeg``
+
+Solus: ``# eopkg install ffmpeg``
+
+| If you are using a other Linux distribution please refer to its documentation or visit the `FFmpeg website <https://www.ffmpeg.org/download.html>`_.
+
+.. tip:: To make it possible to export files in **mp4**, **webm** or **gif** formats, you need to specify the path to FFmpeg installed on your system, usually it is **/usr/bin/ffmpeg**. Enter command ``which ffmpeg`` in the shell to find out.
+
+- Start Tahoma and open the **Preferences** window with File  →  **Preferences...**
+- Navigate to the **Import/Export** category; at the top you will see a box with the text **FFmpeg path**.
+- Insert the path **/usr/bin**.
+
+|ffmpeg_path_linux|
+
+- Restart Tahoma.
+- Open the **Output Settings** window with Render  →  **Output Settings...**
+
+| In the **File Settings** subsection, you should now see **mp4**, **webm** and **gif**.
+
+|output_settings_linux|
+
 .. Images
 
 .. |get_the_packages| image:: /_static/using_ffmpeg_with_tahoma/get_the_packages.png
@@ -132,6 +162,15 @@ Installing
 .. |ffmpeg_extracted_mac| image:: /_static/using_ffmpeg_with_tahoma/mac/ffmpeg_extracted.png
 .. |ffmpeg_path_mac| image:: /_static/using_ffmpeg_with_tahoma/mac/ffmpeg_path.png
 .. |output_settings_mac| image:: /_static/using_ffmpeg_with_tahoma/mac/output_settings.png
+
+.. Linux images
+
+.. |ffmpeg_path_linux| image:: /_static/using_ffmpeg_with_tahoma/linux/ffmpeg_path.png
+.. |output_settings_linux| image:: /_static/using_ffmpeg_with_tahoma/linux/output_settings.png
+
+.. Note from Wolf_In_A_Bowl
+.. This is a work-in-progress page, please contribute to its development by adding the guide section for and Linux.
+.. Once the remaining section has been added, please remove this note.
 
 .. Need new output_settings_mac image
 
