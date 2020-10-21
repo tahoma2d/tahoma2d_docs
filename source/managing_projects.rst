@@ -33,9 +33,9 @@ If you want a new scene to be part of a new project, first you have to define a 
 
     2. Type the name of the project.
 
-    3. Click on **...** to choose a project location (Documents is the default location).
+    3. Click on **...** to choose a project location.
 
-    4. Click on the OK button.
+    4. Click on the **OK** button.
 
 .. tip:: **To create a new project from the startup window:**
 
@@ -43,15 +43,19 @@ If you want a new scene to be part of a new project, first you have to define a 
 
     2. Type a name for project.
 
-    3. Click on **...** to choose a project location (Documents is the default location).
+    3. Click on **...** to choose a project location.
 
-    4. Click on the OK button.
+    4. Click on the **OK** button.
+
+.. note:: Documents is the default project location.
 
 .. tip:: **To change the current project from the menu:**
 
     1.  Choose File  →  Project Management  →  Switch Project.
     
-    2.  Click on **...** to choose a different project.
+    2.  Click on **...** then choose a different project.
+    
+    3.  Click on the **OK** button.
     
 .. tip:: **To change the current project from the browser:**
 
@@ -61,7 +65,7 @@ If you want a new scene to be part of a new project, first you have to define a 
 
     Click on **...** next to the project name to choose a different project.
     
-..note:: Opening a scene in a different project will also change the active project.
+.. note:: Opening a scene in a different project will also change the active project.
 
 .. tip:: **To add a scene to a project from the menu:**
 
