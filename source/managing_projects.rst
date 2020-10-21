@@ -17,9 +17,7 @@ Setting up Projects
 -------------------
  |new_project| 
 
-When you define a new project you can specify its default folders, while its default settings will be inherited from the current project. Default folders and settings can be modified at any time to satisfy new production needs.
-
-Project information is stored in an XML file named as the project with the ``_otprj``  suffix, in a folder named as the project located in the projectroot (see  :ref:`Setting the Projectroot <setting_the_projectroot>`  ).
+Project information is stored in an XML file named tahomaproject, in the project directory.
 
 Projects can be organized in folders and can contain sub-projects that can be browsed in the Tahoma file browser. This allows you to customize the project structures in order to follow your production needs, for instance creating a folder for each episode, then a project for each scene belonging to that episode. As the project browser will display the project tree and all the folders contained in the projectroot, you can also organize your folder structure in the projectroot by using the OS file system.
 
@@ -27,33 +25,55 @@ There is always one current project selected in the project browser: when you st
 
 If you want a new scene to be part of a new project, first you have to define a new project. If you want it to be part of a previously created project, first you have to set that project as the current one.
 
-.. note:: If you want to use the farm for rendering scenes, all the server (rendering) nodes of the farm have to share the same projectroot (see  :ref:`Installing the Toonz Farm on Windows <installing_the_toonz_farm_on_windows>`  ) and all the drives containing the projects database, have to be shared on the network.
+.. note:: If you want to use the farm for rendering scenes, all the server (rendering) nodes of the farm have to share the same projectroot (see  :ref:`Installing the Tahoma Farm on Windows <installing_the_toonz_farm_on_windows>`  ) and all the drives containing the projects database, have to be shared on the network.
 
-.. tip:: **To create a new project:**
+.. tip:: **To create a new project from the menu:**
 
-    1. Choose File  →  New Project. 
+    1. Choose File  →  Project Management  →  New Project. 
 
-    2. Select the projectroot or repository (see  :ref:`Configuring the Version Control in Tahoma <configuring_the_version_control_in_toonz>`  ), and the project or folder where you want to create the new project.
+    2. Type the name of the project.
 
-    3. Type the name of the project and set the path to the folders you want to use as default. 
+    3. Click on **...** to choose a project location (Documents is the default location).
 
-    4. Click the OK button.
+    4. Click on the OK button.
 
-.. tip:: **To change the current project:**
+.. tip:: **To create a new project from the startup window:**
+
+    1. Click on the **New Project** button. 
+
+    2. Type a name for project.
+
+    3. Click on **...** to choose a project location (Documents is the default location).
+
+    4. Click on the OK button.
+
+.. tip:: **To change the current project from the menu:**
+
+    1.  Choose File  →  Project Management  →  Switch Project.
+    
+    2.  Click on **...** to choose a different project.
+    
+.. tip:: **To change the current project from the browser:**
 
     Click the small round button on the left of the project name in the project tree available in the Tahoma file browser. It becomes red when selected.
+    
+.. tip:: **To change the current project from the startup window:**
 
-.. tip:: **To add a scene to a project:**
+    Click on **...** next to the project name to choose a different project.
+    
+..note:: Opening a scene in a different project will also change the active project.
+
+.. tip:: **To add a scene to a project from the menu:**
 
     1. Set the project as the current one.
 
-    2. Choose File  →  New Scene.
+    2. Choose File  →  New Scene (Ctrl+N | Cmd+N).
+    
+.. tip:: **To add a scene to the active project from the startup window:**
 
-.. tip:: **To change project default folders:**
+    1. Add a scene name.
 
-    Select File  →  Project Settings and change default folders paths.
-
-.. note:: When changing default folders, scenes previously created in the same project may fail retrieving used files.
+    2. Click on **Create Scene**.
 
 
 .. _project_default_folders:
