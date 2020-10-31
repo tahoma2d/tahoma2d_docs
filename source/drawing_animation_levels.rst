@@ -71,11 +71,11 @@ When a new level is created in an empty column, the color of that column header 
 
     - Right-click the cell in the Xsheet/Timeline where you want to place your animation level and choose **New Level...** from the menu that opens.
 
-    - (If the Xsheet/Timeline toolbar is visible) Click any of the three **New Level buttons** at the leftmost part of it.
+    - (If the Quick toolbar or Command bar is visible) Click any of the three **New Level buttons** at the leftmost part of it.
 
     2. Choose the type of level: Vector, Smart Raster or Raster, from the **Type:** option menu and define its settings, then click the OK button.
 
-    .. note:: When using the Xsheet/Timeline's toolbar buttons to create a new level, the corresponding level type is already preselected in the dialog's dropdown menu.
+    .. note:: When using the Quick toolbar or Command bar's buttons to create a new level, the corresponding level type is already preselected in the dialog's dropdown menu.
 
     .. note:: If a level is already exposed in the cell column, the new level will be created in an empty column.
 

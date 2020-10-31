@@ -746,38 +746,38 @@ Once a level is exposed, its properties (path, DPI, subsampling, etc.), can be c
 
 .. _xsheet_toolbar:
 
-Xsheet Toolbar
+Quick Toolbar
 --------------
 
 |xsheet_toolbar|
 
-The Xsheet Toolbar, at the top of the Xsheet and Timeline panes, is a place where the user can display favorite Tahoma tools and commands to have them readily available.
+The Quick Toolbar, at the top of the Xsheet and Timeline panes, is a place where the user can display favorite Tahoma tools and commands to have them readily available.
 
-The Xsheet Toolbar panel can be toggled depending on user preferences.
+The Quick Toolbar panel can be toggled depending on user preferences.
 
-.. note:: If the Xsheet Toolbar is too short to display all the command buttons, a double-arrow symbol will appear at the right end of it, allowing to display a drop down menu with the rest of them.
+.. note:: If the Quick Toolbar is too short to display all the command buttons, a double-arrow symbol will appear at the right end of it, allowing to display a drop down menu with the rest of them.
 
-.. tip:: **To toggle the Xsheet Toolbar:**
+.. tip:: **To toggle the Quick Toolbar:**
 
     Do one of the following:
 
-    - Right click on any column/layer header and choose **Toggle Xsheet Toolbar** from the menu that opens.
+    - Right click on any column/layer header and choose **Toggle Quick Toolbar** from the menu that opens.
 
     - Activate the File  →  Preferences  →  Scene  →  **Show Toolbar in the Scene** option.
 
-    .. note:: When the Xsheet Toolbar is shown, it's also possible to activate the **Expand Function Editor Header to Match Xsheet Toolbar Height** option to correctly match the *frame* rows in both editors, when put side by side.
+    .. note:: When the Quick Toolbar is shown, it's also possible to activate the **Expand Function Editor Header to Match Quick Toolbar Height** option to correctly match the *frame* rows in both editors, when put side by side.
 
-.. tip:: **To customize the Xsheet Toolbar buttons:**
+.. tip:: **To customize the Quick Toolbar buttons:**
 
-    1. Right click on it and select **Customize Xsheet Toolbar** from the menu that opens. The Customize Xsheet Toolbar panel will open.
+    1. Right click on it and select **Customize Quick Toolbar** from the menu that opens. The Customize Quick Toolbar panel will open.
 
     |xsheet_toolbar_window|
 
-    2. To *add* a command: Search for a command in the **Toolbar Items** list (right) and drag it to the **Xsheet Toolbar** list (left).
+    2. To *add* a command: Search for a command in the **Toolbar Items** list (right) and drag it to the **Quick Toolbar** list (left).
     
-    3. To *add* a separator: At the end of the **Toolbar Items** list (right), drag the **----Separator----** item to the **Xsheet Toolbar** list (left).
+    3. To *add* a separator: At the end of the **Toolbar Items** list (right), drag the **----Separator----** item to the **Quick Toolbar** list (left).
     
-    4. To *delete* a command: Locate the command in the **Xsheet Toolbar** list (left), right click on it and select **Remove** from the menu that opens.
+    4. To *delete* a command: Locate the command in the **Quick Toolbar** list (left), right click on it and select **Remove** from the menu that opens.
     
     5. Click **OK** to accept the changes or **Cancel** to discard them.
     
@@ -1176,7 +1176,7 @@ Like standard Xsheets/Timelines, Subscenes can also contain audio files to be us
 
 Creating Subscenes
 ''''''''''''''''''''
-Subscenes are managed by the Scene menu commands, and by buttons in the Xsheet Toolbar. 
+Subscenes are managed by the Scene menu commands, and by buttons in the Quick Toolbar. 
 
 You can create a Subscene by collapsing one or several columns/layers where levels are exposed, choosing to include when needed the pegbars to which the columns are linked; or you can cut or copy columns/layers and drawings outside of the Subscene, then paste them inside of it. 
 
@@ -1192,7 +1192,7 @@ When copying Subscene columns/layers and cells, their copies refer always to the
 
     - Choose Scene  →  **Collapse**.
 
-    - Click the **Collapse** button in the Xsheet Toolbar. 
+    - Click the **Collapse** button in the Quick Toolbar. 
     
     - Right-click any column header and choose **Collapse** from the menu that opens.
 
@@ -1204,7 +1204,7 @@ When copying Subscene columns/layers and cells, their copies refer always to the
 
     - Choose Scene  →  **Close Subscene**.
 
-    - Click the **Close Subscene** button in the Xsheet Toolbar. 
+    - Click the **Close Subscene** button in the Quick Toolbar. 
 
 .. tip:: **To open a closed Subscene:**
 
