@@ -321,11 +321,10 @@ You can draw by using the **Brush** (|brush|) and **Geometric** (|geometric|) to
 
 .. note:: For Smart Raster and Raster levels it's possible to set a Brush tool size higher than 100 by typing it in the Size value fields.
 
-.. note:: **Min** and **Max Size/Thickness** can be modified by either of these methods:
-
-    - Pressing **Ctrl + Alt** and moving the mouse. *Moving horizontally* changes the **Max** value, while *moving vertically* changes the **Min** value.
+.. note:: **Min** and **Max Size/Thickness** can be modified using the predefined keyboard shortcuts:
     
-    - Using the predefined keyboard shortcuts. **U** and **I** for respectively decreasing and increasing the **Max** value, or **H** and **J** for respectively decreasing and increasing the **Min** value.
+    - **U** and **I** for respectively decreasing and increasing the **Max** value
+    - **H** and **J** for respectively decreasing and increasing the **Min** value.
 
 With the **Brush** tool (|brush|), you can take full advantage of the pressure sensitivity if you are using a pressure sensitive tablet. The more you press on the tablet, the thicker the line you draw. 
 
