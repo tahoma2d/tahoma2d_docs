@@ -54,7 +54,7 @@ To enter a room, click on the related tab on the far right of the menu bar. If "
 
 Customizing Rooms
 '''''''''''''''''
-Rooms can be modified by setting different sizes to different panes. When "Room Editing Mode" is active, docked panels can be pulled out to become floating panels and floating panels can be docked. 
+Rooms can be modified by setting different sizes to different panels. When "Room Editing Mode" is active, docked panels can be pulled out to become floating panels and floating panels can be docked. 
 
 While "Room Edting Mode" is locked, panels can be resized and new floating panels can be added by using the Panels menu.
 
@@ -83,7 +83,7 @@ While "Room Edting Mode" is locked, panels can be resized and new floating panel
 
     2. Click and drag its title bar to move it around and release to dock it according to the highlighted insertion point.
 
-.. note:: Trying to dock a panel to the leftmost/rightmost part of the interface may fail if the main Tahoma window is maximized at that moment. To overcome this, you can restore the main window size, dock the desired pane, and then maximize it back.
+.. note:: Trying to dock a panel to the leftmost/rightmost part of the interface may fail if the main Tahoma2D window is maximized at that moment. To overcome this, you can restore the main window size, dock the desired pane, and then maximize it back.
 
 .. tip:: **To remove a panel from a room:**
 
@@ -95,7 +95,7 @@ While "Room Edting Mode" is locked, panels can be resized and new floating panel
 
     Double-click its title bar (for floating panels, the Viewer and the ComboViewer). If there is no title bar, press **`**.
 
-.. note:: Some panels like the toolbar and the command toolbar have a fixed size in one dimension, therefore they cannot be maximized. 
+.. note:: Some panels like the toolbar and the command bar have a fixed size in one dimension, therefore they cannot be maximized. 
 
 
 
@@ -125,7 +125,7 @@ Cleanup Settings
 
 |UI_cleanup|
 
-The Cleanup Settings panel allows you to define the parameters for the clean-up process of scanned raster images, in order to convert them into Smart Raster images, ready to be painted in Tahoma. 
+The Cleanup Settings panel allows you to define the parameters for the clean-up process of scanned raster images, in order to convert them into Smart Raster images, ready to be painted in Tahoma2D. 
 
 See  :ref:`Cleaning-up Scanned Drawings <cleaning-up_scanned_drawings>`  .
 
@@ -277,7 +277,7 @@ Message Center
 
 |UI_messagecenter|
 
-The message center displays in a list the messages Tahoma is sending to the user. You can set filters on the messages showed in the panel using the appropriate radio buttons, or you can clear completely the list pressing the Clear button.
+The message center displays in a list the messages Tahoma2D is sending to the user. You can set filters on the messages showed in the panel using the appropriate radio buttons, or you can clear completely the list pressing the Clear button.
 
 
 .. _toolbar:
@@ -306,7 +306,7 @@ The toolbar contains tools to draw, select and edit drawings, and to animate obj
 
 
 
-|geometric| **Geometric** draws geometric shapes (see  :ref:`Drawing with the Geometric Tool <drawing_with_the_geometric_tool>`  ).
+|geometric| **Geometry** draws geometric shapes (see  :ref:`Drawing with the Geometric Tool <drawing_with_the_geometric_tool>`  ).
 
 
 
@@ -321,7 +321,7 @@ The toolbar contains tools to draw, select and edit drawings, and to animate obj
 
 
 
-|paint_brush| **Paint Brush** paints lines and areas in Smart Raster drawings in freehand mode. (see  :ref:`Filling Areas <filling_areas>`  ).
+|paint_brush| **Smart Raster Paint** paints lines and areas in Smart Raster drawings in freehand mode. (see  :ref:`Filling Areas <filling_areas>`  ).
 
 
 
@@ -386,12 +386,12 @@ The toolbar contains tools to draw, select and edit drawings, and to animate obj
 
 
 
-|hook| **Hook** defines reference points to be used in the stage schematic to move an object, or link one object to another (see  :ref:`Using Hooks <using_hooks>`  ).
-
-
-
-
 |tracker| **Tracker** tracks specific regions in a sequence of images (see  :ref:`Tracking Points <tracking_points>`  ).
+
+
+
+
+|hook| **Hook** defines reference points to be used in the stage schematic to move an object, or link one object to another (see  :ref:`Using Hooks <using_hooks>`  ).
 
 
 
@@ -406,12 +406,12 @@ The toolbar contains tools to draw, select and edit drawings, and to animate obj
 
 
 
-|hand| **Hand** pans over the viewer content; if the 3D view is activated, the Hand tool lets you pan over the 3D view as well.
-
-
-
-
 |rotate| **Rotate** rotates the viewer content; if the 3D view is activated, the Rotate tool lets you change the point of view.
+
+
+
+
+|hand| **Hand** pans over the viewer content; if the 3D view is activated, the Hand tool lets you pan over the 3D view as well.
 
 
 .. _tool_options_bar:
@@ -430,34 +430,34 @@ For example it lets you set the thickness and other properties of the Brush tool
 
 .. _command_bar:
 
-Command Toolbar
+Command Bar
 '''''''''''
 
 |UI_commandbar|
 
-The Command Toolbar is a place where the user can display favorite Tahoma tools and commands to have them readily available.
+The Command Bar is a place where the user can display favorite Tahoma2D tools and commands to have them readily available.
 
-The Command Toolbar panel can be docked in any part of the Tahoma UI.
+The Command Bar panel can be docked in any part of the Tahoma2D UI.
 
-.. note:: If the Command Toolbar is too short to display all the command buttons, a double-arrow symbol will appear at the right end of it, allowing to display a drop down menu with the rest of them.
+.. note:: If the Command Bar is too short to display all the command buttons, a double-arrow symbol will appear at the right end of it, allowing to display a drop down menu with the rest of them.
 
-.. tip:: **To display the Command Toolbar:**
+.. tip:: **To display the Command Bar:**
 
-    - Choose Panels  →  Command Toolbar.
+    - Choose Panels  →  Command Bar.
 
-.. tip:: **To customize the Command Toolbar buttons:**
+.. tip:: **To customize the Command Bar buttons:**
 
-    1. Choose Panels  →  Command Toolbar to open the Command Toolbar.
+    1. Choose Panels  →  Command Bar to open the Command Bar.
 
-    2. Right click on it and select **Customize Command Toolbar** from the menu that opens. The Customize Command Toolbar panel will open.
+    2. Right click on it and select **Customize Command Bar** from the menu that opens. The Customize Command Bar panel will open.
 
     |UI_commandbar_window|
 
-    3. To *add* a command: Search for a command in the **Toolbar Items** list (right) and drag it to the **Command Toolbar** list (left).
+    3. To *add* a command: Search for a command in the **Commands** list (left) and drag it to the **Command Bar** list (right).
     
-    4. To *add* a separator: At the end of the **Toolbar Items** list (right), drag the **----Separator----** item to the **Command Toolbar** list (left).
+    4. To *add* a separator: At the end of the **Commands** list (left), drag the **----Separator----** item to the **Command Bar** list (right).
     
-    5. To *delete* a command: Locate the command in the **Command Toolbar** list (left), right click on it and select **Remove** from the menu that opens.
+    5. To *delete* a command: Locate the command in the **Command Bar** list (right), right click on it and select **Remove** from the menu that opens.
     
     6. Click **OK** to accept the changes or **Cancel** to discard them.
     
@@ -530,7 +530,7 @@ History
 
 |UI_history|
 
-The history pane, lets you check and undo/redo the history of the latest actions performed in the current Tahoma scene.
+The history pane, lets you check and undo/redo the history of the latest actions performed in the current Tahoma2D scene.
 
 See  :ref:`Assigning Memory for the Undo Operation <assigning_memory_for_the_undo_operations>`  .
 
@@ -552,15 +552,15 @@ The insertion point will be located at the right of the selected cell column, an
 
 Customizing the Interface Appearance
 ------------------------------------
-The appearance of the Tahoma interface can be customized to suit any production need by choosing a specific language and interface theme.
+The appearance of the Tahoma2D interface can be customized to suit any production need by choosing a specific language and interface theme.
 
-Tahoma allows users to choose a specific language for the software interface, including menus, commands, tooltips, and on-screen messages. Currently available languages are: English, German, Spanish, French, Italian, Russian, Japanese and Chinese.
+Tahoma2D allows users to choose a specific language for the software interface, including menus, commands, tooltips, and on-screen messages. Currently available languages are: English, German, Spanish, French, Italian, Czech, Russian, Chinese, Japanese and Korean.
 
-There are also several included themes to choose from: Default, Blue, Dark and Light.
+There are also several included themes to choose from: Dark, Darker, Light, Medium and Neutral.
 
 .. figure:: /_static/UI/themes.png
 
-   The Tahoma interface theme set to Default and to Light.
+   The Tahoma2D interface theme set to Default and to Light.
 
 The interface themes are defined by means of a QSS file, whose concepts, terminology, and syntax are inspired by CSS files (HTML Cascading Style Sheets). The QSS files also refers to a set of PNG images that are used to create interface widgets. 
 
@@ -570,7 +570,7 @@ These files are stored in a folder named as the QSS file, and located in the ``C
 
 The QSS file can be edited with any text editor software, e.g. Notepad or TextEdit; the PNG images with any image editor software. Editing the QSS file requires some skill in CSS language, but some changes like colors of panel elements, can be easily done by expressing them with red, green and blue values.
 
-.. note:: The QSS files defining the colors and the images used in the Tahoma interface have to be written according to a specific syntax, otherwise Tahoma interface will not be displayed properly. If you decide to edit a QSS file, make a backup copy first in case you need to revert the file to the original version.
+.. note:: The QSS files defining the colors and the images used in the Tahoma2D interface have to be written according to a specific syntax, otherwise Tahoma2D interface will not be displayed properly. If you decide to edit a QSS file, make a backup copy first in case you need to revert the file to the original version.
 
 .. tip:: **To choose the interface language:**
 
@@ -578,7 +578,7 @@ The QSS file can be edited with any text editor software, e.g. Notepad or TextEd
 
     2. In the Language* option menu choose the language you want to use in the interface.
 
-    3. Restart Tahoma to have the interface in the selected language.
+    3. Restart Tahoma2D to have the interface in the selected language.
 
 .. tip:: **To choose the interface theme:**
 
@@ -596,7 +596,7 @@ The QSS file can be edited with any text editor software, e.g. Notepad or TextEd
 
     4. Edit the QSS file and the PNG images contained in the new folder.
 
-.. note:: The new style will be available in the Preferences dialog the next time you run Tahoma.
+.. note:: The new style will be available in the Preferences dialog the next time you run Tahoma2D.
 
 .. tip:: **To edit style QSS file:**
 
