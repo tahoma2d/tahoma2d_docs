@@ -235,7 +235,9 @@ This technique can be used in any case you need the sound to be perfectly synchr
 
 Using Rhubarb Lip Sync for Automated Lip-Synching
 '''''''''''''''''''''''''''
-Rhubarb Lip Sync is bundled with Tahoma2D and analyzes audio tracks and then automatically exposes the drawings for each pre-assigned phoneme to the corresponding frames for the audio level. 
+Rhubarb Lip Sync is bundled with Tahoma2D, as of the 1.2 release. It analyzes audio tracks and automatically exposes the drawings for each phoneme to the corresponding frames for the audio track. 
+
+.. note:: If for some reason Rhubarb is missing, it can be downloaded and then the path to Rhubarb can be set in **Preferences** under **3rd Party Apps**. The timeout for analyzing audio with Rhubarb can be set in the same place. By default, timeout is set to 0 seconds so there is no timeout.
 
     1. Load the audio track onto its own layer if it is not already there (right-click on the cell the audio should begin and select "Load Level")
     
