@@ -38,6 +38,7 @@ Tahoma2D User Manual
    managing_palettes_and_styles
    painting_animation_levels
    working_in_xsheet
+   audio_and_lip_synching
    creating_movements
    editing_curves_and_numerical_columns
    creating_cutout_animation

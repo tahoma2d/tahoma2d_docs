@@ -1679,9 +1679,6 @@ Elements defined in the CSS are the following:
 .. |xsheet| image:: /_static/xsheet/xsheet.png
 .. |timeline| image:: /_static/xsheet/timeline.png
 .. |time_stretch| image:: /_static/xsheet/time_stretch.png
-.. |audio| image:: /_static/xsheet/audio.png
-.. |magpie_import| image:: /_static/xsheet/magpie_import.png
-.. |apply_lip_sync_data| image:: /_static/xsheet/apply_lip_sync_data.png
 .. |memo| image:: /_static/xsheet/memo.png
 .. |memo_text_format| image:: /_static/xsheet/memo_text_format.png
 .. |export_scene| image:: /_static/xsheet/export_scene.png
