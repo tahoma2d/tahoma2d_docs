@@ -83,7 +83,7 @@ While "Room Edting Mode" is locked, panels can be resized and new floating panel
 
     2. Click and drag its title bar to move it around and release to dock it according to the highlighted insertion point.
 
-.. note:: Trying to dock a panel to the leftmost/rightmost part of the interface may fail if the main Tahoma2D window is maximized at that moment. To overcome this, you can restore the main window size, dock the desired pane, and then maximize it back.
+.. note:: Trying to dock a panel to the leftmost/rightmost part of the interface may fail if the main Tahoma2D window is maximized at that moment. To overcome this, you can restore the main window size, dock the desired panel, and then maximize it back.
 
 .. tip:: **To remove a panel from a room:**
 
@@ -530,7 +530,7 @@ History
 
 |UI_history|
 
-The history pane, lets you check and undo/redo the history of the latest actions performed in the current Tahoma2D scene.
+The history panel, lets you check and undo/redo the history of the latest actions performed in the current Tahoma2D scene.
 
 See  :ref:`Assigning Memory for the Undo Operation <assigning_memory_for_the_undo_operations>`  .
 
