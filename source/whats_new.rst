@@ -1,16 +1,16 @@
 .. _whats_new:
 
-What's New in Tahoma
+What's New in Tahoma2D
 =======================
 
-Tahoma includes a number of improvements from OpenToonz.  It also includes the latest features and bug fixes from OpenToonz.
+Tahoma2D includes a number of improvements from OpenToonz.  It also includes the latest features and bug fixes from OpenToonz.
 
 In this section you can find a list of Highlights in the latest release of Tahoma; these may include New Features, Bug Fixes or Enhancements to already existent features.
-Here, you can also find links to past versions' Release Notes, to keep track of Tahoma development history throughout time.
+Here, you can also find links to past versions' Release Notes, to keep track of Tahoma2D development history throughout time.
 
-.. _v1.0:
+.. _v1.1:
 
-New in Tahoma 1.0
+New in Tahoma2D 1.1
 -----------------
 
 UI
@@ -93,23 +93,7 @@ Previous Versions
 
 Here you can find links to previous versions' full Release Notes, hosted in GitHub:
 
-`v1.4 Release Notes <https://github.com/opentoonz/opentoonz/releases/tag/v1.4.0>`_
-
-`v1.3 Release Notes <https://github.com/opentoonz/opentoonz/releases/tag/v1.3.0>`_
-
-`v1.2.1 Release Notes <https://github.com/opentoonz/opentoonz/releases/tag/v1.2.1>`_
-
-`v1.2 Release Notes <https://github.com/opentoonz/opentoonz/releases/tag/v1.2.0>`_
-
-`v1.1.3 Release Notes <https://github.com/opentoonz/opentoonz/releases/tag/v1.1.3>`_
-
-`v1.1.2 Release Notes <https://github.com/tahoma/tahoma/releases/tag/v1.1.2>`_
-
-`v1.1 Release Notes <https://github.com/tahoma/tahoma/releases/tag/v1.1.0>`_
-
-`v1.0.3 Release Notes <https://github.com/tahoma/tahoma/releases/tag/v1.0.3>`_
-
-`v1.0.2 Release Notes <https://github.com/tahoma/tahoma/releases/tag/v1.0.2>`_
+`v1.0.1 Release Notes <https://github.com/tahoma2d/tahoma2d/releases/tag/v1.0.1>`_
 
 `v1.0 Release Notes <https://github.com/tahoma/tahoma/releases/tag/v1.0>`_
 
