@@ -321,6 +321,6 @@ While Magpie takes care of the audio file analysis and phoneme recognition, impo
     4. Click the **Import** button.
 
 
-.. |audio| image:: /_static/xsheet/audio.png
-.. |magpie_import| image:: /_static/xsheet/magpie_import.png
-.. |apply_lip_sync_data| image:: /_static/xsheet/apply_lip_sync_data.png
+.. |audio| image:: /_static/audio_and_lip_synching/audio.png
+.. |magpie_import| image:: /_static/audio_and_lip_synching/magpie_import.png
+.. |apply_lip_sync_data| image:: /_static/audio_and_lip_synching/apply_lip_sync_data.png
