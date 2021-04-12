@@ -197,7 +197,7 @@ Lip Synching
 ------------
 When you need to synchronize the movement of a character’s lips with the sound of the speech, you can take advantage of the possibility to examine the audio files loaded in the scene.
 
-Once you have created different mouth images, you can analyze the audio files to find where to place specific mouth drawings. If mouth drawings belong to one single animation level, you can quickly change the mouth drawing at a specific frame by picking drawings from the level strip or by flipping through drawings using one of the **Skeleton** tool (|skeleton|) features (see :ref:`Using the Level Strip <using_the_level_strip>`  and :ref:`Animating Models <animating_models>`  ).
+Once you have created different mouth images, you can analyze the audio files to find where to place specific mouth drawings. If mouth drawings belong to one single animation level, you can quickly change the mouth drawing at a specific frame by picking drawings from the level strip or by flipping through drawings using one of the **Skeleton** tool features (see :ref:`Using the Level Strip <using_the_level_strip>`  and :ref:`Animating Models <animating_models>`  ).
 
 The breakdown of audio files can be done by looking at the sound wave in the scene column, for example to spot where each word starts; by scrubbing the loaded audio clips with the current frame cursor either in the Xsheet/Timeline frame ruler or in the Viewer framebar; and by listening to specific sections of the audio files.
 
@@ -231,31 +231,35 @@ This technique can be used in any case you need the sound to be perfectly synchr
 
     - Click the up or down arrowheads.
     
+    4. Press the **Drawing Substitution Backward** and **Drawing Substitution Forward** hotkeys, ``Q`` and ``W`` respectively.
+    
  .. _using_Rhubarb:
 
 Using Rhubarb Lip Sync for Automated Lip-Synching
 '''''''''''''''''''''''''''
 Rhubarb Lip Sync is bundled with Tahoma2D, as of the 1.2 release. It analyzes audio tracks and automatically exposes the drawings for each phoneme to the corresponding frames for the audio track. 
 
-.. note:: If for some reason Rhubarb is missing, it can be downloaded and then the path to Rhubarb can be set in **Preferences** under **3rd Party Apps**. The timeout for analyzing audio with Rhubarb can be set in the same place. By default, timeout is set to 0 seconds so there is no timeout.
 
-    1. Load the audio track onto its own layer if it is not already there (right-click on the cell the audio should begin and select "Load Level")
+    1. Load the audio track onto its own layer, if it is not already there (right-click on the cell the audio should begin and select "Load Level")
     
     2. Expose in the Xsheet/Timeline at least one drawing of the level containing the mouth shapes set.
     
-    3. Select the cell of the column/layer where you want the lip sync to start, and using the right click menu choose the **Apply Lip Sync Data to Column** option.
+    3. Select the cell of the column/layer where you want the lip sync to start, and using the right-click menu, choose the **Apply Lip Sync Data to Column** option.
     
     4. In the Lip Sync Dialog, in the **From Audio** tab, choose the correct audio track
     
     .. note:: Press play to preview the track if needed
     
-    .. note:: Typing the dialog in the audio script field is optional but increases the accuracy
+    .. note:: Typing dialog in the audio script field is optional but increases the accuracy
     
     5. Choose which level drawings to assign to each phoneme using the arrows below each phoneme
     
     .. note:: Rhubarb utilizes its own phoneomes that have been interpreted as the Preston Blair phoneomes, without a unique phoneome for **WQ**
     
     6. Click the "Apply" button
+    
+    .. note:: If for some reason Rhubarb is missing, it can be downloaded and then the path to Rhubarb can be set in **Preferences** under **3rd Party Apps**. The timeout for analyzing audio with Rhubarb can be set in the same place. By default, timeout is set to 0 seconds so there is no timeout.
+    
 
 .. _importing_papagayo_files:
 
