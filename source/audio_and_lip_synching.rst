@@ -1,6 +1,6 @@
 .. _audio_and_lip_synching:
 
-Audio in Tahoma2D
+Working with Audio
 ==========================
 Audio tracks can be imported into or recorded directly in Tahoma2D. Basic editing to the track can be done in the Timeline or Xsheet.
 
