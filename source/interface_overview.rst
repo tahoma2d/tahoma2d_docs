@@ -560,7 +560,7 @@ There are also several included themes to choose from: Dark, Darker, Light, Medi
 
 .. figure:: /_static/UI/themes.png
 
-   The Tahoma2D interface theme set to Default and to Light.
+   The Tahoma2D interface theme set to Dark and to Light.
 
 The interface themes are defined by means of a QSS file, whose concepts, terminology, and syntax are inspired by CSS files (HTML Cascading Style Sheets). The QSS files also refers to a set of PNG images that are used to create interface widgets. 
 
