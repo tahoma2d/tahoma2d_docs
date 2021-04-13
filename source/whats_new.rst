@@ -5,7 +5,7 @@ What's New in Tahoma2D
 
 Tahoma2D includes a number of improvements from OpenToonz.  It also includes the latest features and bug fixes from OpenToonz.
 
-In this section you can find a list of Highlights in the latest release of Tahoma; these may include New Features, Bug Fixes or Enhancements to already existent features.
+In this section you can find a list of Highlights in the latest release of Tahoma2D; these may include New Features, Bug Fixes or Enhancements to already existent features.
 Here, you can also find links to past versions' Release Notes, to keep track of Tahoma2D development history throughout time.
 
 .. _v1.1:
@@ -95,7 +95,7 @@ Here you can find links to previous versions' full Release Notes, hosted in GitH
 
 `v1.0.1 Release Notes <https://github.com/tahoma2d/tahoma2d/releases/tag/v1.0.1>`_
 
-`v1.0 Release Notes <https://github.com/tahoma/tahoma/releases/tag/v1.0>`_
+`v1.0 Release Notes <https://github.com/tahoma2d/tahoma2d/releases/tag/v1.0>`_
 
 
 
