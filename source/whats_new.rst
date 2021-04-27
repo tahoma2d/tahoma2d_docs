@@ -126,7 +126,7 @@ Previous Versions
 
 Here you can find links to previous versions' full Release Notes, hosted in GitHub:
 
-`v1.1 Beta Release Notes <https://github.com/tahoma2d/tahoma2d/releases/tag/v1.1>`_
+`v1.1 Release Notes <https://github.com/tahoma2d/tahoma2d/releases/tag/v1.1>`_
 
 `v1.0.1 Release Notes <https://github.com/tahoma2d/tahoma2d/releases/tag/v1.0.1>`_
 
