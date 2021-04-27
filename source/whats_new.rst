@@ -14,7 +14,7 @@ New in Tahoma2D 1.2 Beta
 -----------------
 
 Animation
-''
+'''''''''''
 
 - |new| Motion Path Panel
 
