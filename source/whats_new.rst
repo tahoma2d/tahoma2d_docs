@@ -111,11 +111,11 @@ Fixes
 Deprecated
 '''''''
 
-- Remove Camera Capture Popup Window
-- Remove all things Quicktime
-- Remove libusb from scripts and fix some name references
-- Remove some using declaration of std (OpenToonz port)
-- Remove unused directory and some unused files (OpenToonz port)
+- |removed| Remove Camera Capture Popup Window
+- |removed| Remove all things Quicktime
+- |removed| Remove libusb from scripts and fix some name references
+- |removed| Remove some using declaration of std (OpenToonz port)
+- |removed| Remove unused directory and some unused files (OpenToonz port)
 
 Please see the `v1.2 Beta Release Notes <https://github.com/tahoma2d/tahoma2d/releases/tag/v1.2-beta.1>`_  hosted in GitHub, for the full list of new features, enhancements and bug fixes.
 
@@ -138,6 +138,7 @@ Here you can find links to previous versions' full Release Notes, hosted in GitH
 .. |new| image:: /_static/whats_new/new.png
 .. |enhancement| image:: /_static/whats_new/enhancement.png
 .. |fix| image:: /_static/whats_new/fix.png
+.. |removed| image:: /_static/whats_new/removed.png
 
 .. |new_es| image:: /_static/whats_new/es/new.png
 .. |enhancement_es| image:: /_static/whats_new/es/enhancement.png
