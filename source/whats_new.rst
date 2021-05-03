@@ -10,7 +10,7 @@ Here, you can also find links to past versions' Release Notes, to keep track of 
 
 .. _v1.2:
 
-New in Tahoma2D 1.2 Beta
+New in Tahoma2D 1.2
 -----------------
 
 Animation
@@ -24,6 +24,11 @@ Preferences
 - |new| Add Import Preferences option
 - |new| Add temp tool hold switch time as preference
 - |enhancement| Update external app handling
+
+Import/Export
+'''''''
+
+- |new| Support MOV formats through ffmpeg
 
 Commands
 '''''''
@@ -95,7 +100,6 @@ Other
 ''''
 
 - |new| Add CrashRpt (Windows only)
-- |new| Support MOV formats through ffmpeg
 
 Fixes
 '''''''''
@@ -117,7 +121,7 @@ Deprecated
 - |removed| Remove some using declaration of std (OpenToonz port)
 - |removed| Remove unused directory and some unused files (OpenToonz port)
 
-Please see the `v1.2 Beta Release Notes <https://github.com/tahoma2d/tahoma2d/releases/tag/v1.2-beta.1>`_  hosted in GitHub, for the full list of new features, enhancements and bug fixes.
+Please see the `v1.2 Release Notes <https://github.com/tahoma2d/tahoma2d/releases/tag/v1.2>`_  hosted in GitHub, for the full list of new features, enhancements and bug fixes.
 
 
 
