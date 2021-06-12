@@ -2,7 +2,7 @@
 
 Drawing Animation Levels
 ========================
-In Tahoma it is possible to create and draw **Vector** levels (PLI format), **Smart Raster** levels (TLV format) and standard **Raster** levels (TIF format) directly in the viewer. Drawing tools can also be used for touch-up in cleaned up drawings, and loaded raster images.
+In Tahoma2D it is possible to create and draw **Vector** levels (PLI format), **Smart Raster** levels (TLV format) and standard **Raster** levels (TIF format) directly in the viewer. Drawing tools can also be used for touch-up in cleaned up drawings, and loaded raster images.
 
 .. _drawing_in_toonz:
 
@@ -479,7 +479,7 @@ Adding Text
 ~~~~~~~~~~~
 Text can be added by using the **Type** tool (|type|). 
 
-.. note:: It is also possible to work with editable and animatable text in Tahoma through the use of the **Text Iwa** effect. For more information, please see  :ref:`Text Iwa <text_iwa>`  .
+.. note:: It is also possible to work with editable and animatable text in Tahoma2D through the use of the **Text Iwa** effect. For more information, please see  :ref:`Text Iwa <text_iwa>`  .
 
 In the tool options bar you can set the following:
 
@@ -1310,7 +1310,7 @@ The best solution for this kind of issue is to overlap the final section of stro
 
 Animation Techniques
 --------------------
-Besides drawing frame by frame, one image at a time, until you achieve the animation you want, some other techniques are easier to achieve thanks to Tahoma features.
+Besides drawing frame by frame, one image at a time, until you achieve the animation you want, some other techniques are easier to achieve thanks to Tahoma2D features.
 
 Whatever the technique is, you can control your work and how smooth the animation is by using the onion skin, that allows you to view more than one image in the viewer at the same time as reference.
 

@@ -67,7 +67,7 @@ When a scene is rendered in a file format supporting audio, (MP4, MOV, WebM or A
 
 .. note:: Audio clips loaded in Subscenes will not be included in the output soundtrack (see  :ref:`Using Subscenes <using_sub-xsheets>`  ).
 
-.. note:: As the soundtrack cannot be played back when viewing files in the Tahoma flipbook, you can activate the **Use Default Viewer for Movie Formats** option in the Preferences  →  General dialog, in order to view files with their own default viewer, e.g. QuickTime for the MOV format, thus playing back the soundtrack as well.
+.. note:: As the soundtrack cannot be played back when viewing files in the Tahoma2D flipbook, you can activate the **Use Default Viewer for Movie Formats** option in the Preferences  →  General dialog, in order to view files with their own default viewer, e.g. QuickTime for the MOV format, thus playing back the soundtrack as well.
 
 .. tip:: **To play the contents of an audio column/layer back:**
 
@@ -269,9 +269,9 @@ It is possible to import into the Xsheet/Timeline DAT files exported from Papaga
 
 |apply_lip_sync_data| 
 
-While Papagayo-NG takes care of the audio file analysis and phoneme recognition, importing the DAT file into Tahoma allows you to assign a frame from an animation level to each phoneme and automatically expose the result in an Xsheet column or Timeline layer; to be able to hear the synched sound, the correspondent sound level should be manually loaded too.
+While Papagayo-NG takes care of the audio file analysis and phoneme recognition, importing the DAT file into Tahoma2D allows you to assign a frame from an animation level to each phoneme and automatically expose the result in an Xsheet column or Timeline layer; to be able to hear the synched sound, the correspondent sound level should be manually loaded too.
 
-.. tip:: **To export the Tahoma lip sync file in Papagayo-NG:**
+.. tip:: **To export the Tahoma2D lip sync file in Papagayo-NG:**
 
     1. In Papagayo-NG, from the **Export:** dropdown menu, select **MOHO**.
 
@@ -304,11 +304,11 @@ It is possible to import into the Xsheet/Timeline .TLS files (i.e. Toonz Lip Syn
 
 |magpie_import| 
 
-While Magpie takes care of the audio file analysis and phoneme recognition, importing the .TLS file into Tahoma allows you to assign a frame from an animation level to each phoneme and automatically expose the result in an Xsheet column or Timeline layer; an additional column/layer displaying the speech text (as recognized in Magpie) is created for reference.
+While Magpie takes care of the audio file analysis and phoneme recognition, importing the .TLS file into Tahoma2D allows you to assign a frame from an animation level to each phoneme and automatically expose the result in an Xsheet column or Timeline layer; an additional column/layer displaying the speech text (as recognized in Magpie) is created for reference.
 
-.. tip:: **To export the Tahoma lip sync file in Magpie:**
+.. tip:: **To export the Tahoma2D lip sync file in Magpie:**
 
-    1. Copy the file ``export-toonz.lua``  available in ``Tahoma stuff\config``  folder into the ``C:\Program Files (x86)\Third Wish Software & Animation\Magpie Pro\Scripts\Export``  folder.
+    1. Copy the file ``export-toonz.lua``  available in ``tahomastuff\config``  folder into the ``C:\Program Files (x86)\Third Wish Software & Animation\Magpie Pro\Scripts\Export``  folder.
 
     2. In Magpie choose File  →  Export and choose Toonz among the 2D software list to export the TLS file.
 

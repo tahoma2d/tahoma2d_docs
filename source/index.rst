@@ -1,4 +1,4 @@
-.. Tahoma documentation master file, created by
+.. Tahoma2D documentation master file, created by
    sphinx-quickstart on Tue Aug 22 21:37:33 2017.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
@@ -12,15 +12,15 @@ Tahoma2D User Manual
 .. note:: This manual is an ongoing project, which aims to provide the first and most complete reference for Tahoma2D features, and as such there will always be room for improvements and updates. Collaboration is welcome!
 
 | To contribute to Tahoma's documentation, please visit the Tahoma2D docs repository.
-| `https://github.com/tahoma2d/tahoma_docs <https://github.com/tahoma2d/tahoma_docs>`_
+| `https://github.com/tahoma2d/tahoma2D_docs <https://github.com/tahoma2d/tahoma2D_docs>`_
 
 
 .. toctree::
    :maxdepth: 2
    :caption: Getting Started:
 
-   installing_tahoma
-   using_ffmpeg_with_tahoma
+   installing_tahoma2D
+   using_ffmpeg_with_tahoma2D
    whats_new
    
 .. toctree::

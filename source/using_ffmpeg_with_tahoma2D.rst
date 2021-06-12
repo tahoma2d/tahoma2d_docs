@@ -1,14 +1,14 @@
-.. _using_ffmpeg_with_tahoma:
+.. _using_ffmpeg_with_tahoma2D:
 
-Using FFmpeg with Tahoma
+Using FFmpeg with Tahoma2D
 ===========================
 
 What is FFmpeg?
 ---------------
-| To render your animation as an **mp4** or **webm**, or also as a **gif** on Mac, Tahoma requires the FFmpeg multimedia framework to be installed on your machine.
+| To render your animation as an **mp4** or **webm**, or also as a **gif** on Mac, Tahoma2D requires the FFmpeg multimedia framework to be installed on your machine.
 | For more information, please visit this page: `About FFmpeg <https://www.ffmpeg.org/about.html>`_
 
-Tahoma ships with a version of FFmpeg that is licensed under the LGPL license.  This version can export .mp4 videos, but may not deliver as high quality videos as the GPL version of FFmpeg.
+Tahoma2D ships with a version of FFmpeg that is licensed under the LGPL license.  This version can export .mp4 videos, but may not deliver as high quality videos as the GPL version of FFmpeg.
 You may want to change the version of FFmpeg that is used in Tahoma.  To do so, follow the instructions below.
 
 Installing FFmpeg for Windows
@@ -45,7 +45,7 @@ Installing
 
 |ffmpeg_extracted_windows|
 
-- Next, start Tahoma and open the **Preferences** window with File  →  **Preferences...**
+- Next, start Tahoma2D and open the **Preferences** window with File  →  **Preferences...**
 - Navigate to the **Import/Export** category; at the top you will see a box with the text **FFmpeg path**.
 - Insert the path to your FFmpeg folder that you created earlier, if you have used the recommended path, this will be **C:\\FFmpeg\\**:
 
@@ -96,10 +96,10 @@ Installing
 
 |ffmpeg_extracted_mac|
 
-.. tip:: For macOS 10.15 and later, each executable within the FFmpeg folder needs to be opened before using Tahoma (this only needs to be done one time, due to security features). In Finder, right-click on each executable (ffmpeg, ffprobe, and etc.) and select ``Open With → Terminal``. Once the Terminal windows have launched successfully, Terminal can be closed.
+.. tip:: For macOS 10.15 and later, each executable within the FFmpeg folder needs to be opened before using Tahoma2D (this only needs to be done one time, due to security features). In Finder, right-click on each executable (ffmpeg, ffprobe, and etc.) and select ``Open With → Terminal``. Once the Terminal windows have launched successfully, Terminal can be closed.
 
 
-- Next, start Tahoma and open the **Preferences** window with File  →  **Preferences...**
+- Next, start Tahoma2D and open the **Preferences** window with File  →  **Preferences...**
 - Navigate to the **Import/Export** category; at the top you will see a box with the text **FFmpeg path**.
 - Insert the path to your FFmpeg folder that you created earlier, if you have used the recommended path, this will be **/Applications/Tahoma/FFmpeg**:
 
@@ -129,7 +129,7 @@ Solus: ``# eopkg install ffmpeg``
 
 .. tip:: To make it possible to export files in **mp4**, **webm** or **gif** formats, you need to specify the path to FFmpeg installed on your system, usually it is **/usr/bin/ffmpeg**. Enter command ``which ffmpeg`` in the shell to find out.
 
-- Start Tahoma and open the **Preferences** window with File  →  **Preferences...**
+- Start Tahoma2D and open the **Preferences** window with File  →  **Preferences...**
 - Navigate to the **Import/Export** category; at the top you will see a box with the text **FFmpeg path**.
 - Insert the path **/usr/bin**.
 

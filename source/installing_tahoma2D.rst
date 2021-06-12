@@ -1,14 +1,14 @@
-.. _installing_tahoma:
+.. _installing_tahoma2D:
 
-Installing Tahoma
+Installing Tahoma2D
 ====================
 
 
-.. _downloading_tahoma:
+.. _downloading_tahoma2D:
 
-Downloading Tahoma
+Downloading Tahoma2D
 ---------------------
-You can download the appropriate version of Tahoma for your operating system from the `Download page <https://tahoma2d.org/download>`_ in the official Tahoma web site. Choose either the Windows or macOS version to start downloading the application.
+You can download the appropriate version of Tahoma2D for your operating system from the `Download page <https://tahoma2d.org/download>`_ in the official Tahoma2D web site. Choose either the Windows or macOS version to start downloading the application.
 
 .. note:: All other builds apart from the ones downloaded from the official web site ARE NOT officially supported.
 
@@ -24,7 +24,7 @@ Download the Windows zipped file and follow these steps:
 1. Extract the zip file.  
  
 
-2. Find the file called Tahoma 
+2. Find the file called Tahoma2D 
  
 
 3. Double click and start drawing.
@@ -40,14 +40,14 @@ Download the macOS dmg file and follow these steps:
 1. Double click on the dmg package.
 
 
-2. Drag the Tahoma program to the Applications folder 
+2. Drag the Tahoma2D program to the Applications folder (or wherever you would like it placed)
  
 
 3. Double click and start drawing.
 
-.. tip:: For macOS 10.15 and later, the first time you open Tahoma, there may be an error message saying Tahoma cannot be opened. Choose “Cancel” and open System Preferences. Under ``Security & Privacy --> General``, select “Open Anyway.” Then choose “Open” in the next dialog. Afterwards, Tahoma will open normally. 
+.. tip:: For macOS 10.15 and later, the first time you open Tahoma, there may be an error message saying Tahoma2D cannot be opened. Choose “Cancel” and open System Preferences. Under ``Security & Privacy --> General``, select “Open Anyway.” Then choose “Open” in the next dialog. Afterwards, Tahoma2D will open normally. 
 
-.. tip:: For older versions of macOS, open through Finder the first time. Right-click on Tahoma and select “Open”. Then choose “Open Anyway”. Afterwards, Tahoma will open normally. 
+.. tip:: For older versions of macOS, open through Finder the first time. Right-click on Tahoma2D and select “Open”. Then choose “Open Anyway”. Afterwards, Tahoma2D will open normally. 
 
 
 
