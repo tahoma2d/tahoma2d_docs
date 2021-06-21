@@ -181,4 +181,4 @@ texinfo_documents = [
 ]
 
 def setup(app):
-    app.add_stylesheet('css/theme_extra.css')  # may also be an URL
+    app.add_css_file('css/theme_extra.css')  # may also be an URL
