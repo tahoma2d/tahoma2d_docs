@@ -128,7 +128,7 @@ First , launch Git Bash and move to `tahoma2d_docs` folder using `cd` command
       
     - Use `$ git status` to list conflicted files
     
-    - Open the conflicted file and resolve the coflicted part (appears as below) manually
+    - Open the conflicted file and resolve the conflicted part (appears as below) manually
       
       ```
       path/to/conflicted/file.rst
