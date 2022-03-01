@@ -1,0 +1,880 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
+# This file is distributed under the same license as the Tahoma package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Tahoma 1.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-24 05:16+0330\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/keyboard_shortcuts.rst:4
+msgid "Keyboard Shortcuts"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:10
+msgid "Configuring Shortcuts"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:12
+msgid "|configure_shortcuts_window|"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:227
+msgid "configure_shortcuts_window"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:14
+msgid ""
+"Predefined shortcuts are available for Tahoma tools, modifiers and menu "
+"commands. They can be customized, and new shortcuts can be added for "
+"undefined items."
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:16
+msgid ""
+"Shortcuts are specific to each user, meaning that each user in the system"
+" can have a different set of shortcuts."
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:18
+msgid "**To configure a shortcut:**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:20
+#: ../../source/keyboard_shortcuts.rst:30
+msgid "Choose File  →  **Configure Shortcuts...**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:22
+#: ../../source/keyboard_shortcuts.rst:32
+msgid ""
+"Search for the command or tool you want to configure the shortcut for in "
+"the appropriate folder, or by using the Search field at the top of the "
+"panel."
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:24
+#: ../../source/keyboard_shortcuts.rst:34
+msgid "Select the command or tool name in the list."
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:26
+msgid ""
+"Press the keyboard key, or combination of keys, you want to assign as "
+"shortcut."
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:28
+msgid "**To remove a configured shortcut:**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:36
+msgid "Click the Remove button."
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:42
+msgid "Predefined Keyboard Shortcuts"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:43
+msgid ""
+"The following are **some** of the predefined shortcuts available in "
+"Tahoma."
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:49
+msgid "**Tools**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:51
+msgid "|animate|  Animate"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:228
+msgid "animate"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:51
+#: ../../source/keyboard_shortcuts.rst:141
+#: ../../source/keyboard_shortcuts.rst:210
+msgid "**A**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:52
+msgid "|selection|  Selection"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:240
+msgid "selection"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:52
+#: ../../source/keyboard_shortcuts.rst:122
+#: ../../source/keyboard_shortcuts.rst:123
+#: ../../source/keyboard_shortcuts.rst:211
+msgid "**S**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:53
+msgid "|brush|  Brush"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:229
+msgid "brush"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:53
+msgid "**B**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:54
+msgid "|geometric|  Geometric"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:233
+msgid "geometric"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:54
+#: ../../source/keyboard_shortcuts.rst:142
+#: ../../source/keyboard_shortcuts.rst:143
+msgid "**G**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:55
+msgid "|type|  Type"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:245
+msgid "type"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:55
+#: ../../source/keyboard_shortcuts.rst:133
+msgid "**Y**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:56
+msgid "|fill|  Fill"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:232
+msgid "fill"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:56
+#: ../../source/keyboard_shortcuts.rst:98
+#: ../../source/keyboard_shortcuts.rst:162
+msgid "**F**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:57
+msgid "|eraser|  Eraser"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:231
+msgid "eraser"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:57
+msgid "**E**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:58
+msgid "|tape|  Tape"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:243
+msgid "tape"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:58
+msgid "**T**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:59
+msgid "|style_picker|  Style Picker"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:242
+msgid "style_picker"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:59
+#: ../../source/keyboard_shortcuts.rst:163
+msgid "**K**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:60
+msgid "|RGB_picker|  RGB Picker"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:238
+msgid "RGB_picker"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:60
+#: ../../source/keyboard_shortcuts.rst:199
+#: ../../source/keyboard_shortcuts.rst:201
+#: ../../source/keyboard_shortcuts.rst:202
+msgid "**R**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:61
+msgid "|cpe|  Control Point Editor"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:230
+msgid "cpe"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:61
+#: ../../source/keyboard_shortcuts.rst:135
+msgid "**C**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:62
+msgid "|pinch|  Pinch"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:236
+msgid "pinch"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:62
+msgid "**M**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:63
+msgid "|skeleton|  Skeleton"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:241
+msgid "skeleton"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:63
+#: ../../source/keyboard_shortcuts.rst:136
+#: ../../source/keyboard_shortcuts.rst:137
+msgid "**V**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:64
+msgid "|hook|  Hook"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:235
+msgid "hook"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:64
+#: ../../source/keyboard_shortcuts.rst:200
+msgid "**O**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:65
+msgid "|plastic|  Plastic"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:237
+msgid "plastic"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:65
+#: ../../source/keyboard_shortcuts.rst:134
+msgid "**X**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:66
+msgid "|zoom|  Zoom"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:246
+msgid "zoom"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:66
+#: ../../source/keyboard_shortcuts.rst:110
+#: ../../source/keyboard_shortcuts.rst:111
+#: ../../source/keyboard_shortcuts.rst:123
+#: ../../source/keyboard_shortcuts.rst:137
+#: ../../source/keyboard_shortcuts.rst:140
+#: ../../source/keyboard_shortcuts.rst:143
+#: ../../source/keyboard_shortcuts.rst:188
+#: ../../source/keyboard_shortcuts.rst:189
+#: ../../source/keyboard_shortcuts.rst:201
+msgid "**Shift**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:66
+#: ../../source/keyboard_shortcuts.rst:67
+#: ../../source/keyboard_shortcuts.rst:92
+#: ../../source/keyboard_shortcuts.rst:93
+#: ../../source/keyboard_shortcuts.rst:94
+#: ../../source/keyboard_shortcuts.rst:98
+#: ../../source/keyboard_shortcuts.rst:99
+#: ../../source/keyboard_shortcuts.rst:110
+#: ../../source/keyboard_shortcuts.rst:111
+#: ../../source/keyboard_shortcuts.rst:112
+#: ../../source/keyboard_shortcuts.rst:113
+#: ../../source/keyboard_shortcuts.rst:120
+#: ../../source/keyboard_shortcuts.rst:121
+#: ../../source/keyboard_shortcuts.rst:122
+#: ../../source/keyboard_shortcuts.rst:123
+#: ../../source/keyboard_shortcuts.rst:124
+#: ../../source/keyboard_shortcuts.rst:125
+#: ../../source/keyboard_shortcuts.rst:132
+#: ../../source/keyboard_shortcuts.rst:133
+#: ../../source/keyboard_shortcuts.rst:134
+#: ../../source/keyboard_shortcuts.rst:135
+#: ../../source/keyboard_shortcuts.rst:136
+#: ../../source/keyboard_shortcuts.rst:137
+#: ../../source/keyboard_shortcuts.rst:140
+#: ../../source/keyboard_shortcuts.rst:141
+#: ../../source/keyboard_shortcuts.rst:142
+#: ../../source/keyboard_shortcuts.rst:143
+#: ../../source/keyboard_shortcuts.rst:144
+#: ../../source/keyboard_shortcuts.rst:147
+#: ../../source/keyboard_shortcuts.rst:154
+#: ../../source/keyboard_shortcuts.rst:162
+#: ../../source/keyboard_shortcuts.rst:163
+#: ../../source/keyboard_shortcuts.rst:164
+#: ../../source/keyboard_shortcuts.rst:186
+#: ../../source/keyboard_shortcuts.rst:187
+#: ../../source/keyboard_shortcuts.rst:188
+#: ../../source/keyboard_shortcuts.rst:189
+#: ../../source/keyboard_shortcuts.rst:190
+#: ../../source/keyboard_shortcuts.rst:191
+#: ../../source/keyboard_shortcuts.rst:199
+#: ../../source/keyboard_shortcuts.rst:200
+#: ../../source/keyboard_shortcuts.rst:201
+#: ../../source/keyboard_shortcuts.rst:202
+#: ../../source/keyboard_shortcuts.rst:209
+#: ../../source/keyboard_shortcuts.rst:210
+#: ../../source/keyboard_shortcuts.rst:211
+#: ../../source/keyboard_shortcuts.rst:213
+msgid "**+**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:66
+#: ../../source/keyboard_shortcuts.rst:67
+#: ../../source/keyboard_shortcuts.rst:68
+msgid "**Space**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:67
+msgid "|rotate|  Rotate"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:239
+msgid "rotate"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:67
+#: ../../source/keyboard_shortcuts.rst:99
+#: ../../source/keyboard_shortcuts.rst:112
+#: ../../source/keyboard_shortcuts.rst:113
+#: ../../source/keyboard_shortcuts.rst:120
+#: ../../source/keyboard_shortcuts.rst:121
+#: ../../source/keyboard_shortcuts.rst:122
+#: ../../source/keyboard_shortcuts.rst:123
+#: ../../source/keyboard_shortcuts.rst:124
+#: ../../source/keyboard_shortcuts.rst:125
+#: ../../source/keyboard_shortcuts.rst:132
+#: ../../source/keyboard_shortcuts.rst:133
+#: ../../source/keyboard_shortcuts.rst:134
+#: ../../source/keyboard_shortcuts.rst:135
+#: ../../source/keyboard_shortcuts.rst:136
+#: ../../source/keyboard_shortcuts.rst:137
+#: ../../source/keyboard_shortcuts.rst:141
+#: ../../source/keyboard_shortcuts.rst:142
+#: ../../source/keyboard_shortcuts.rst:143
+#: ../../source/keyboard_shortcuts.rst:144
+#: ../../source/keyboard_shortcuts.rst:147
+#: ../../source/keyboard_shortcuts.rst:162
+#: ../../source/keyboard_shortcuts.rst:163
+#: ../../source/keyboard_shortcuts.rst:190
+#: ../../source/keyboard_shortcuts.rst:191
+#: ../../source/keyboard_shortcuts.rst:199
+#: ../../source/keyboard_shortcuts.rst:200
+#: ../../source/keyboard_shortcuts.rst:201
+#: ../../source/keyboard_shortcuts.rst:209
+#: ../../source/keyboard_shortcuts.rst:213
+msgid "**Ctrl/⌘ Cmd**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:68
+msgid "|hand|  Hand"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:234
+msgid "hand"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:71
+msgid ""
+"If you **press and hold** a tool keyboard shortcut, you perform a "
+"temporary tool selection: when you release the key you will return to the"
+" previously selected tool."
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:75
+msgid "**Tool Modifiers**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:77
+msgid "Brush Size - Decrease max"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:77
+#: ../../source/keyboard_shortcuts.rst:124
+msgid "**U**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:78
+msgid "Brush Size - Increase max"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:78
+msgid "**I**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:79
+msgid "Brush Size - Decrease min"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:79
+#: ../../source/keyboard_shortcuts.rst:209
+msgid "**H**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:80
+msgid "Brush Size - Increase min"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:80
+msgid "**J**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:81
+msgid "Rectangular/Normal type"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:81
+msgid "**F5**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:82
+msgid "Frame Range"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:82
+msgid "**F6**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:83
+msgid "Selective"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:83
+msgid "**F7**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:84
+msgid "Segment"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:84
+msgid "**F8**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:89
+msgid "**Visualization**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:91
+msgid "Actual Pixel Size"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:91
+#: ../../source/keyboard_shortcuts.rst:120
+#: ../../source/keyboard_shortcuts.rst:154
+msgid "**N**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:92
+msgid "Fit to Window"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:92
+#: ../../source/keyboard_shortcuts.rst:93
+#: ../../source/keyboard_shortcuts.rst:98
+#: ../../source/keyboard_shortcuts.rst:154
+#: ../../source/keyboard_shortcuts.rst:164
+#: ../../source/keyboard_shortcuts.rst:186
+#: ../../source/keyboard_shortcuts.rst:187
+#: ../../source/keyboard_shortcuts.rst:202
+#: ../../source/keyboard_shortcuts.rst:210
+#: ../../source/keyboard_shortcuts.rst:211
+msgid "**Alt/⌥ Option**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:92
+msgid "**9**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:93
+msgid "Reset View"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:93
+msgid "**0**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:94
+msgid "Zoom in"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:95
+msgid "Zoom out"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:95
+msgid "**-**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:96
+msgid "Onion Skin Toggle"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:96
+msgid "**/**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:97
+#: ../../source/keyboard_shortcuts.rst:212
+msgid "Maximize Panel"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:97
+#: ../../source/keyboard_shortcuts.rst:99
+#: ../../source/keyboard_shortcuts.rst:212
+#: ../../source/keyboard_shortcuts.rst:213
+msgid "**`**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:98
+msgid "Full Screen Mode"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:99
+#: ../../source/keyboard_shortcuts.rst:213
+msgid "Main Window Full Screen Mode"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:104
+msgid "**Playback Controls**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:106
+#: ../../source/keyboard_shortcuts.rst:184
+msgid "Play"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:106
+#: ../../source/keyboard_shortcuts.rst:184
+msgid "**P**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:107
+#: ../../source/keyboard_shortcuts.rst:185
+msgid "Loop"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:107
+#: ../../source/keyboard_shortcuts.rst:121
+#: ../../source/keyboard_shortcuts.rst:164
+#: ../../source/keyboard_shortcuts.rst:185
+msgid "**L**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:108
+#: ../../source/keyboard_shortcuts.rst:192
+msgid "Previous Drawing"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:108
+#: ../../source/keyboard_shortcuts.rst:110
+#: ../../source/keyboard_shortcuts.rst:112
+#: ../../source/keyboard_shortcuts.rst:186
+#: ../../source/keyboard_shortcuts.rst:188
+#: ../../source/keyboard_shortcuts.rst:190
+#: ../../source/keyboard_shortcuts.rst:192
+msgid "**,**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:109
+#: ../../source/keyboard_shortcuts.rst:193
+msgid "Next Drawing"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:109
+#: ../../source/keyboard_shortcuts.rst:111
+#: ../../source/keyboard_shortcuts.rst:113
+#: ../../source/keyboard_shortcuts.rst:187
+#: ../../source/keyboard_shortcuts.rst:189
+#: ../../source/keyboard_shortcuts.rst:191
+#: ../../source/keyboard_shortcuts.rst:193
+msgid "**.**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:110
+#: ../../source/keyboard_shortcuts.rst:188
+msgid "Previous Frame"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:111
+#: ../../source/keyboard_shortcuts.rst:189
+msgid "Next Frame"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:112
+#: ../../source/keyboard_shortcuts.rst:190
+msgid "Previous Keyframe"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:113
+#: ../../source/keyboard_shortcuts.rst:191
+msgid "Next Keyframe"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:118
+msgid "**File Menu**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:120
+msgid "New Scene"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:121
+msgid "Load Scene..."
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:122
+msgid "Save All"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:123
+msgid "Save Scene"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:124
+msgid "Preferences..."
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:125
+msgid "Quit"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:125
+msgid "**Q**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:130
+msgid "**Edit Menu**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:132
+msgid "Undo"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:132
+#: ../../source/keyboard_shortcuts.rst:161
+msgid "**Z**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:133
+msgid "Redo"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:134
+msgid "Cut"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:135
+msgid "Copy"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:136
+msgid "Paste Insert"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:137
+msgid "Paste Insert Above/After"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:138
+msgid "Delete"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:138
+msgid "**Del**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:139
+msgid "Insert"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:139
+#: ../../source/keyboard_shortcuts.rst:140
+msgid "**Ins**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:140
+msgid "Insert Above/After"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:141
+msgid "Select All"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:142
+msgid "Group"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:143
+msgid "Ungroup"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:144
+msgid "Bring to Front"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:144
+#: ../../source/keyboard_shortcuts.rst:145
+msgid "**]**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:145
+msgid "Bring Forward"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:146
+msgid "Send Backward"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:146
+#: ../../source/keyboard_shortcuts.rst:147
+msgid "**[**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:147
+msgid "Send to Back"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:152
+msgid "**Level Menu**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:154
+msgid "New Level..."
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:159
+msgid "**Xsheet Menu**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:161
+msgid "Set Key"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:162
+msgid "New FX..."
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:163
+msgid "Edit FX..."
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:164
+msgid "Apply Lip Sync Data to Column"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:182
+msgid "**Play Menu**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:186
+msgid "First Frame"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:187
+msgid "Last Frame"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:197
+msgid "**Render Menu**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:199
+msgid "Preview"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:200
+msgid "Output Settings..."
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:201
+msgid "Render"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:202
+msgid "Fast Render to MP4"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:207
+msgid "**Panels Menu**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:209
+msgid "History"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:210
+msgid "Record Audio"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:211
+msgid "Startup Popup..."
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:218
+msgid "**Help Menu**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:220
+msgid "Online Manual..."
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:220
+msgid "**F1**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:244
+msgid "tracker"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:248
+msgid "configure_shortcuts_window_es"
+msgstr ""
+

@@ -1,0 +1,43 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
+# This file is distributed under the same license as the Tahoma package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Tahoma 1.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-24 05:16+0330\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../source/example_expressions.rst:4
+msgid "Example Expressions"
+msgstr ""
+
+#: ../../source/example_expressions.rst:7
+msgid "Aim At"
+msgstr ""
+
+#: ../../source/example_expressions.rst:8
+msgid "This expression rotates column 1 (col1) to face column 2 (col2):"
+msgstr ""
+
+#: ../../source/example_expressions.rst:10
+msgid "``atan2(col2.ns - col1.ns, col2.ew - col1.ew)``"
+msgstr ""
+
+#: ../../source/example_expressions.rst:12
+msgid "|rotate_towards|"
+msgstr ""
+
+#: ../../source/example_expressions.rst:20
+msgid "rotate_towards"
+msgstr ""
+
