@@ -1,0 +1,82 @@
+# Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
+# This file is distributed under the same license as the Tahoma package.
+#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+# Pikhosh <pikhosh@gmail.com>, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: Tahoma 1.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-24 05:16+0330\n"
+"PO-Revision-Date: 2022-03-01 21:23+0330\n"
+"Last-Translator: Pikhosh <pikhosh@gmail.com>\n"
+"Language-Team: Persian <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+"Language: fa\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 21.12.2\n"
+
+#: ../../source/index.rst:18
+msgid "Getting Started:"
+msgstr "شروع کردن:"
+
+#: ../../source/index.rst:26
+msgid "Sections:"
+msgstr "بخش ها:"
+
+#: ../../source/index.rst:7
+msgid "Tahoma2D User Manual"
+msgstr "کتابچه راهنمای کاربر Tahoma2D"
+
+#: ../../source/index.rst:9
+msgid ""
+"This is the manual for Tahoma2D, an open-source full-featured 2D and Stop"
+" Motion animation creation software."
+msgstr ""
+"این کتابچه راهنما برای Tahoma2D است، یک نرم افزار ایجاد انیمیشن دو بعدی و"
+" استاپ"
+" موشن منبع باز با ویژگی های کامل."
+
+#: ../../source/index.rst:10
+msgid "`https://tahoma2d.org <https://tahoma2d.org>`_"
+msgstr ""
+
+#: ../../source/index.rst:12
+msgid ""
+"This manual is an ongoing project, which aims to provide the first and "
+"most complete reference for Tahoma2D features, and as such there will "
+"always be room for improvements and updates. Collaboration is welcome!"
+msgstr ""
+"این کتابچه راهنما یک پروژه در حال پیشرفت است، که هدف دارد تا اولین و "
+"کامل ترین مرجع برای ویژگی های Tahoma2D را ارائه بدهد؛ و به همین ترتیب همیشه "
+"جا برای بهبود ها و بروزرسانی ها وجود خواهد داشت. از همکاری استقبال می شود!"
+
+#: ../../source/index.rst:14
+msgid ""
+"To contribute to Tahoma's documentation, please visit the Tahoma2D docs "
+"repository."
+msgstr ""
+"برای مشارکت در مستندات Tahoma، لطفا از مخزن Tahoma2D docs "
+"دیدن کنید."
+
+#: ../../source/index.rst:15
+msgid ""
+"`https://github.com/tahoma2d/tahoma2D_docs "
+"<https://github.com/tahoma2d/tahoma2D_docs>`_"
+msgstr ""
+
+#: ../../source/index.rst:56
+msgid "Special Thanks"
+msgstr "تشکر ویژه"
+
+#: ../../source/index.rst:58
+msgid ""
+"This documentation is based on Toonz Harlequin 7.1 User Guide, originally"
+" created by Digital Video S.p.A., Rome Italy."
+msgstr ""
+"این مستندات بر پایه راهنمای کاربر Toonz Harlequin 7.1؛ اصالتا"
+" ساخته شده توسط Digital Video S.p.A., Rome Italy می باشد."
+

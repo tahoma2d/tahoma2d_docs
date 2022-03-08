@@ -1,0 +1,1665 @@
+# Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
+# This file is distributed under the same license as the Tahoma package.
+#
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+# Pikhosh <pikhosh@gmail.com>, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: Tahoma 1.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-24 05:16+0330\n"
+"PO-Revision-Date: 2022-03-02 03:17+0330\n"
+"Last-Translator: Pikhosh <pikhosh@gmail.com>\n"
+"Language-Team: Persian <>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+"Language: fa\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 21.12.2\n"
+
+#: ../../source/interface_overview.rst:4
+msgid "Interface Overview"
+msgstr "بررسی اجمالی رابط"
+
+#: ../../source/interface_overview.rst:6
+msgid "|UI_1|"
+msgstr ""
+
+#: ../../source/interface_overview.rst:611
+msgid "UI_1"
+msgstr ""
+
+#: ../../source/interface_overview.rst:8
+msgid ""
+"The Tahoma2D interface is organized into rooms, also known as workspaces."
+" Each room is a different collection of panels which are laid out at "
+"specific positions on the screen for a specifc use."
+msgstr ""
+"رابط Tahoma2D در Room ها سازمان دهی شده است؛ همچنین شناخته شده به عنوان"
+" Workspace ها."
+" هر Room یک مجموعه متفاوت از Panel ها است که در موقعیت "
+"های مشخص روی صفحه برای یک استفاده مشخص چیده شده اند."
+
+#: ../../source/interface_overview.rst:14
+msgid "Room Editing Mode"
+msgstr "حالت ویرایش Room"
+
+#: ../../source/interface_overview.rst:16
+msgid ""
+"|UI_lock| \"Room Editing Mode\" allows for rooms to be added, removed, "
+"and renamed. It also allows for panels to be added, removed, or "
+"rearranged. To enter or exit \"Room Editing Mode\", click on the lock "
+"icon on the top right of the workspace."
+msgstr ""
+"|UI_lock| «حالت ویرایش Room» برای Room ها اجازه می دهد تا اضافه بشوند، حذف"
+" بشوند "
+"و تغییر نام بشوند. آن همچنین برای Panelها اجازه می دهد تا اضافه بشوند، حذف"
+" بشوند یا "
+"باز چینش بشوند. برای ورود یا خروج از «حالت ویرایش Room»، روی آیکون قفل "
+"در بالا سمت راست Workspace کلیک کنید."
+
+#: ../../source/interface_overview.rst:612
+msgid "UI_lock"
+msgstr ""
+
+#: ../../source/interface_overview.rst:18
+msgid "**How to identify \"Room Editing Mode\":**"
+msgstr "**نحوه شناسایی «حالت ویرایش Room»:**"
+
+#: ../../source/interface_overview.rst:20
+msgid ""
+"When \"Room Editing Mode\" is unlocked, all of the panels have a visible "
+"header."
+msgstr ""
+"موقعی که «حالت ویرایش Room» باز است، تمام Panel ها یک "
+"سربرگ قابل رویت دارند."
+
+#: ../../source/interface_overview.rst:25
+msgid "Using Rooms"
+msgstr "استفاده از Room ها"
+
+#: ../../source/interface_overview.rst:27
+msgid "|UI_rooms|"
+msgstr ""
+
+#: ../../source/interface_overview.rst:613
+msgid "UI_rooms"
+msgstr ""
+
+#: ../../source/interface_overview.rst:29
+msgid ""
+"Available rooms are listed on the far right of the menu bar. Each room "
+"always displays the contents of the current scene."
+msgstr ""
+"Room های در دسترس در منتهی علیه سمت راست منو بار لیست شدن. هر Room "
+"همیشه محتویات صحنه فعلی را نمایش می دهد."
+
+#: ../../source/interface_overview.rst:31
+msgid ""
+"Rooms can be named and their order can be rearranged. New rooms can be "
+"added and existing rooms can be deleted. When a room is added it is "
+"empty; to configure it, panels can be added one by one (see below)."
+msgstr ""
+"Room ها می توانند نام گذاری بشوند و ترتیب بندی شان می تواند باز چینش بشود."
+" Room های جدید می توانند "
+"اضافه بشوند و Room های موجود می توانند حذف بشوند. موقعی که یک Room اضافه می"
+" شود آن "
+"خالی است؛ برای پیکربندی آن، Panel ها می توانند یکی یکی اضافه بشوند (پایین را"
+" ببینید)."
+
+#: ../../source/interface_overview.rst:33
+msgid ""
+"To enter a room, click on the related tab on the far right of the menu "
+"bar. If \"Room Editing Mode\" is active, room tabs can be reordered by "
+"clicking & dragging the tabs to a new position."
+msgstr ""
+"برای ورود به یک Room، روی تب مربوطه در منتهی علیه سمت راست منو بار کلیک "
+"کنید. اگر «حالت ویرایش Room» فعال باشد، Room Tab ها می توانند "
+"با کلیک و درگ Tab ها به یک موقعیت جدید ترتیب بندی مجدد بشوند."
+
+#: ../../source/interface_overview.rst:36
+msgid "**To name a room:**"
+msgstr "**برای نام گذاری یک Room:**"
+
+#: ../../source/interface_overview.rst:38
+msgid "Double-click the tab and type the name you want to assign to the room."
+msgstr ""
+"Tab را دابل کلیک کنید و اسمی که می خواهید را برای اختصاص دادن به"
+" Room تایپ کنید."
+
+#: ../../source/interface_overview.rst:40
+msgid "**To add a new room:**"
+msgstr "**برای اضافه کردن یک Room جدید:**"
+
+#: ../../source/interface_overview.rst:42
+msgid ""
+"Right-click in the room tab area and choose New Room from the menu that "
+"opens."
+msgstr ""
+"در ناحیه Room Tab راست کلیک کنید و New Room را از منو ای که "
+"باز شده است انتخاب کنید."
+
+#: ../../source/interface_overview.rst:44
+msgid "**To delete a room:**"
+msgstr "**برای حذف یک Room:**"
+
+#: ../../source/interface_overview.rst:46
+msgid ""
+"Right-click the room tab and choose Delete Room \"<Name>\" from the menu "
+"that opens. The current room cannot be deleted."
+msgstr ""
+"Room Tab را راست کلیک کنید و Delete Room “<Name>” را از منو ای "
+"که باز شده است انتخاب کنید. Room فعلی نمی تواند حذف بشود."
+
+#: ../../source/interface_overview.rst:48
+msgid "**To return to the set of rooms provided with Tahoma2D:**"
+msgstr "**برای بازگشت به مجموعه ی Room های ارائه شده با Tahoma2D:**"
+
+#: ../../source/interface_overview.rst:50
+msgid "Choose Panels  →  Reset to Default Rooms."
+msgstr "انتخاب کنید Panels  →  Reset to Default Rooms."
+
+#: ../../source/interface_overview.rst:56
+msgid "Customizing Rooms"
+msgstr "سفارشی سازی Room ها"
+
+#: ../../source/interface_overview.rst:57
+msgid ""
+"Rooms can be modified by setting different sizes to different panels. "
+"When \"Room Editing Mode\" is active, docked panels can be pulled out to "
+"become floating panels and floating panels can be docked."
+msgstr ""
+"Room ها می توانند با تنظیم اندازه های متفاوت برای Panel های متفاوت اصلاح"
+" بشوند. "
+"هنگامی که «حالت ویرایش Room» فعال است، Panel های Dock شده می توانند "
+"برای تبدیل شدن به Panel های شناور بیرون کشیده بشوند و Panel های شناور می"
+" توانند Dock بشوند."
+
+#: ../../source/interface_overview.rst:59
+msgid ""
+"While \"Room Edting Mode\" is locked, panels can be resized and new "
+"floating panels can be added by using the Panels menu."
+msgstr ""
+"هنگامی که «حالت ویرایش Room» قفل است، Panel ها می توانند تغییر اندازه بشوند و"
+" Panel "
+"های شناور جدید می توانند با استفاده از منوی Panels اضافه بشوند."
+
+#: ../../source/interface_overview.rst:62
+msgid "**To resize a panel in the room:**"
+msgstr "**برای تغییر اندازه یک پنل در Room:**"
+
+#: ../../source/interface_overview.rst:64
+msgid ""
+"Click any vertical or horizontal separator and drag it to the new "
+"position."
+msgstr ""
+"هر Separator عمودی یا افقی را کلیک کنید و درگ کنید به موقعیت "
+"جدید."
+
+#: ../../source/interface_overview.rst:66
+msgid ""
+"Some panels like the toolbar have a fixed width or height, therefore they"
+" cannot always be resized."
+msgstr ""
+"یکسری Panel ها مثل Toolbar یک عرض یا طول ثابت دارند، به همین دلیل آنها"
+" نمی توانند همواره تغییر اندازه بشوند."
+
+#: ../../source/interface_overview.rst:68
+msgid "**To open a panel as a floating panel:**"
+msgstr "**برای باز کردن یک Panel به عنوان یک Panel شناور:**"
+
+#: ../../source/interface_overview.rst:70
+msgid "Select in the Panels menu the panel you want to open."
+msgstr "در منوی Panels پنل ای که می خواهید باز کنید را انتخاب کنید."
+
+#: ../../source/interface_overview.rst:72
+msgid "**To resize a floating panel:**"
+msgstr "**برای تغییر اندازه یک Panel شناور:**"
+
+#: ../../source/interface_overview.rst:74
+msgid "Click and drag the border or corner of a panel."
+msgstr "حاشیه یا گوشه ی یک Panel را کلیک و درگ کنید."
+
+#: ../../source/interface_overview.rst:76
+msgid "**To close a floating panel or a dialog:**"
+msgstr "**برای بستن یک پنل شناور یا یک Dialog:**"
+
+#: ../../source/interface_overview.rst:78
+msgid "Click the close button at the right of the title bar."
+msgstr "دکمه بستن در سمت راست نوار عنوان را کلیک کنید."
+
+#: ../../source/interface_overview.rst:80
+msgid "**To add a panel to a room:**"
+msgstr "**برای اضافه کردن یک پنل به یک Room:**"
+
+#: ../../source/interface_overview.rst:82
+msgid "Use the Panels menu to open the panel as a floating panel."
+msgstr ""
+"برای باز کردن Panel به عنوان یک Panel شناور از منوی Panels استفاده کنید."
+
+#: ../../source/interface_overview.rst:84
+msgid ""
+"Click and drag its title bar to move it around and release to dock it "
+"according to the highlighted insertion point."
+msgstr ""
+"برای حرکت دادن اش نوار عنوان اش را کلیک و درگ کنید و برای Dock کردنش "
+"با توجه به نقطه الحاق هایلایت شده رها کنید."
+
+#: ../../source/interface_overview.rst:86
+msgid ""
+"Trying to dock a panel to the leftmost/rightmost part of the interface "
+"may fail if the main Tahoma2D window is maximized at that moment. To "
+"overcome this, you can restore the main window size, dock the desired "
+"panel, and then maximize it back."
+msgstr ""
+"تلاش برای Dock کردن یک Panel به چپ ترین/راست ترین بخش رابط "
+"ممکن است که شکست بخورد اگر پنجره اصلی Tahoma2D در آن لحظه Maximize شده باشد."
+" برای "
+"غلبه بر این، شما می توانید اندازه پنجره اصلی را بازیابی کنید، Panel دلخواه را "
+"Dock کنین، و سپس دوباره Maximize اش کنید."
+
+#: ../../source/interface_overview.rst:88
+msgid "**To remove a panel from a room:**"
+msgstr "**برای حذف یک پنل از یک Room:**"
+
+#: ../../source/interface_overview.rst:90
+msgid ""
+"Click and drag the title bar of the panel you want to remove to undock it"
+" from the room."
+msgstr ""
+"پنل ای که می خواهید حذف کنید را برای Undock کردن اش"
+" از Room کلیک و درگ کنید."
+
+#: ../../source/interface_overview.rst:92
+msgid "Close the floating panel."
+msgstr "Panel شناور را ببندید."
+
+#: ../../source/interface_overview.rst:94
+msgid "**To maximize, or minimize a panel:**"
+msgstr "**برای Maximize، یا Minimize یک Panel:**"
+
+#: ../../source/interface_overview.rst:96
+msgid ""
+"Double-click its title bar (for floating panels, the Viewer and the "
+"ComboViewer). If there is no title bar, press **`**."
+msgstr ""
+"نوار عنوان اش را دابل کلیک کنید (برای Panel های شناور، Viewer و "
+"ComboViewer). اگر نوار عنوان ای وجود ندارد، **`** را فشار بدهید."
+
+#: ../../source/interface_overview.rst:98
+msgid ""
+"Some panels like the toolbar and the command bar have a fixed size in one"
+" dimension, therefore they cannot be maximized."
+msgstr ""
+"یکسری Panel ها مثل Toolbar و Command Toolbar یک اندازه ثابت در یک"
+" ابعاد دارند، به همین دلیل آنها نمی توانند Maximize بشوند."
+
+#: ../../source/interface_overview.rst:105
+msgid "Room Panels"
+msgstr "Panel های Room"
+
+#: ../../source/interface_overview.rst:106
+msgid ""
+"Below there is a list of the panels (in the same order in which they "
+"appear in the Panels menu) that can be used to build rooms and that can "
+"be opened as floating panels."
+msgstr ""
+"در زیر یک لیست از Panel ها وجود دارد (در ترتیب یکسانی که آنها "
+"در منوی Panels ظاهر می شوند) که می توانند برای ساخت Room ها استفاده بشوند و"
+" که می توانند "
+"به عنوان Panel های شناور باز بشوند."
+
+#: ../../source/interface_overview.rst:112
+msgid "Batch Servers"
+msgstr ""
+
+#: ../../source/interface_overview.rst:114
+msgid "|UI_batch|"
+msgstr ""
+
+#: ../../source/interface_overview.rst:614
+msgid "UI_batch"
+msgstr ""
+
+#: ../../source/interface_overview.rst:116
+msgid ""
+"The Batch Servers panel allows you to process the batch list by using the"
+" render farm, and contains information about the list of server "
+"(rendering) nodes defined for the farm."
+msgstr ""
+"پنل Batch Servers به شما اجازه می دهد تا Batch List را با استفاده از"
+" رندر فارم پردازش کنید، و حاوی اطلاعاتی درباره لیست Server "
+"(Rendering) Node های تعریف شده برای Farm است."
+
+#: ../../source/interface_overview.rst:118
+msgid ""
+"See  :ref:`Monitoring the Server Nodes <monitoring_the_server_nodes>`  ."
+msgstr ""
+"ببینید  :ref:`Monitoring the Server Nodes <monitoring_the_server_nodes>`  ."
+
+#: ../../source/interface_overview.rst:124
+msgid "Cleanup Settings"
+msgstr ""
+
+#: ../../source/interface_overview.rst:126
+msgid "|UI_cleanup|"
+msgstr ""
+
+#: ../../source/interface_overview.rst:615
+msgid "UI_cleanup"
+msgstr ""
+
+#: ../../source/interface_overview.rst:128
+msgid ""
+"The Cleanup Settings panel allows you to define the parameters for the "
+"clean-up process of scanned raster images, in order to convert them into "
+"Smart Raster images, ready to be painted in Tahoma2D."
+msgstr ""
+"پنل Cleanup Settings به شما اجازه می دهد تا پارامتر ها را برای "
+"پروسه Clean-Up تصاویر Raster اسکن شده تعریف کنید، به منظور تبدیل آنها به "
+"تصاویر Smart Raster، آماده برای رنگ آمیزی شدن در Tahoma2D."
+
+#: ../../source/interface_overview.rst:130
+msgid ""
+"See  :ref:`Cleaning-up Scanned Drawings <cleaning-up_scanned_drawings>`  ."
+msgstr ""
+"ببینید  :ref:`Cleaning-up Scanned Drawings <cleaning-up_scanned_drawings>`  ."
+
+#: ../../source/interface_overview.rst:136
+msgid "Color Model"
+msgstr ""
+
+#: ../../source/interface_overview.rst:138
+msgid "|UI_colormodel|"
+msgstr ""
+
+#: ../../source/interface_overview.rst:616
+msgid "UI_colormodel"
+msgstr ""
+
+#: ../../source/interface_overview.rst:140
+msgid ""
+"The color model viewer displays the image, or animation level, you loaded"
+" as reference to paint the current animation level."
+msgstr ""
+"Color Model Viewer تصویر، یا Animation Level ای که شما لود کردید را"
+" به عنوان رفرنس برای رنگ آمیزی Animation Level فعلی نمایش می دهد."
+
+#: ../../source/interface_overview.rst:142
+msgid "See  :ref:`Using a Color Model <using_a_color_model>`  ."
+msgstr "ببینید  :ref:`Using a Color Model <using_a_color_model>`  ."
+
+#: ../../source/interface_overview.rst:148
+msgid "File Browser"
+msgstr ""
+
+#: ../../source/interface_overview.rst:150
+msgid "|UI_filebrowser|"
+msgstr ""
+
+#: ../../source/interface_overview.rst:617
+msgid "UI_filebrowser"
+msgstr ""
+
+#: ../../source/interface_overview.rst:152
+msgid ""
+"The file browser allows you to load and save files, and to access "
+"projects."
+msgstr ""
+"File Browser به شما برای لود و ذخیره فایل ها، و برای دسترسی به "
+"پروژه ها اجازه می دهد."
+
+#: ../../source/interface_overview.rst:154
+msgid ""
+"On the left there is a file tree with some main folders containing "
+"material stored on your computer: My Computer, Network, My Documents, "
+"History, Library and Projects. You can open folders and sub-folders in "
+"order to retrieve files that are displayed in the area on the right."
+msgstr ""
+"سمت چپ یک File Tree با یکسری پوشه های اصلی حاوی "
+"مواد ذخیره شده روی کامپیوتر شماست: My Computer, Network, My Documents, "
+"History, Library و Projects. شما می توانید پوشه ها و زیر پوشه ها را "
+" به "
+"منظور بازیابی فایل هایی که در ناحیه سمت راست نمایش داده می شوند باز کنید."
+
+#: ../../source/interface_overview.rst:156
+msgid ""
+"See  :ref:`Managing Projects <managing_projects>`  and  :ref:`Using the "
+"File Browser <using_the_file_browser>`  ."
+msgstr ""
+"ببینید  :ref:`Managing Projects <managing_projects>`  و  :ref:`Using the "
+"File Browser <using_the_file_browser>`  ."
+
+#: ../../source/interface_overview.rst:162
+msgid "Flipbook"
+msgstr ""
+
+#: ../../source/interface_overview.rst:164
+msgid "|UI_flipbook|"
+msgstr ""
+
+#: ../../source/interface_overview.rst:618
+msgid "UI_flipbook"
+msgstr ""
+
+#: ../../source/interface_overview.rst:166
+msgid ""
+"The flipbook can display animation levels, clips or sequences of images. "
+"It can be used to check levels for instance before loading them, or to "
+"control a rendered sequence."
+msgstr ""
+"FlipBook می تواند Animation Level ها، کلیپ ها یا توالی های تصاویر را نمایش"
+" بدهد. "
+" اون می تواند استفاده بشود برای بررسی Level ها برای نمونه قبل لود شان، یا"
+" برای "
+"کنترل یک سکانس رندر شده."
+
+#: ../../source/interface_overview.rst:168
+msgid "See  :ref:`Using the Flipbook <using_the_flipbook>`  ."
+msgstr "ببینید  :ref:`Using the Flipbook <using_the_flipbook>`  ."
+
+#: ../../source/interface_overview.rst:174
+msgid "Function Editor"
+msgstr ""
+
+#: ../../source/interface_overview.rst:176
+msgid "|UI_functioneditor|"
+msgstr ""
+
+#: ../../source/interface_overview.rst:619
+msgid "UI_functioneditor"
+msgstr ""
+
+#: ../../source/interface_overview.rst:178
+msgid ""
+"The function editor maps objects and FX transformations with key values "
+"and related interpolations by using a spreadsheet or a graph editor. It "
+"is divided into two sections: on the left there is an area where the "
+"spreadsheet or graph editor is displayed, on the right top is an area "
+"where the interpolation of the current transformation segment is "
+"displayed, and on the right bottom is the objects/FX tree."
+msgstr ""
+"ویرایشگر عملکرد Transformation های اشیاء و افکت ها را با Key Value ها، "
+"و Interpolation های مربوطه را با استفاده از یک SpreadSheet یا یک Graph Editor"
+" ترسیم می کند. اون "
+"به دو بخش تقسیم شده است: در سمت چپ ناحیه ای است که "
+"SpreadSheet یا Graph Editor نمایش داده می شود، در بالا سمت راست ناحیه ای است "
+"که Interpolation ئه Transformation Segment فعلی نمایش "
+"داده می شود، و در پایین سمت راست Objects/FX Tree می باشد."
+
+#: ../../source/interface_overview.rst:180
+msgid "See  :ref:`Using the Function Editor <using_the_function_editor>`  ."
+msgstr ""
+"ببینید  :ref:`Using the Function Editor <using_the_function_editor>`  ."
+
+#: ../../source/interface_overview.rst:186
+msgid "Level Strip"
+msgstr ""
+
+#: ../../source/interface_overview.rst:188
+msgid "|UI_levelstrip|"
+msgstr ""
+
+#: ../../source/interface_overview.rst:620
+msgid "UI_levelstrip"
+msgstr ""
+
+#: ../../source/interface_overview.rst:190
+msgid ""
+"The level strip displays the sequence of drawings belonging to the level "
+"currently selected in the Xsheet."
+msgstr ""
+"Level Strip توالی نقاشی های متعلق به Level ای که "
+"در حال حاضر در Xsheet انتخاب شده است را نمایش می دهد."
+
+#: ../../source/interface_overview.rst:192
+msgid ""
+"It helps you to edit the sequence of drawings and to see all the drawings"
+" of the current level, even if those drawings are not exposed in a "
+"Xsheet."
+msgstr ""
+"اون به شما کمک می کند تا توالی نقاشی ها را ویرایش کنید و تا تمام نقاشی"
+" های Level فعلی را، حتی اگر آن نقاشی ها در یک "
+"Xsheet نمایان نشدند ببینید."
+
+#: ../../source/interface_overview.rst:194
+msgid "See  :ref:`Editing Animation Levels <editing_animation_levels>`  ."
+msgstr "ببینید  :ref:`Editing Animation Levels <editing_animation_levels>`  ."
+
+#: ../../source/interface_overview.rst:200
+msgid "Palette"
+msgstr ""
+
+#: ../../source/interface_overview.rst:202
+msgid "|UI_palette|"
+msgstr ""
+
+#: ../../source/interface_overview.rst:621
+msgid "UI_palette"
+msgstr ""
+
+#: ../../source/interface_overview.rst:204
+msgid ""
+"It displays the styles defined for the current level, or in case it is "
+"inactive the styles defined for a previously selected level."
+msgstr ""
+"اون Style های تعریف شده برای Level فعلی را نمایش می دهد، یا در موردی که آن "
+"غیر فعال است Style های تعریف شده برای یک Level انتخاب شده قبلی (فقط Raster)."
+
+#: ../../source/interface_overview.rst:206
+msgid "See  :ref:`The Palette Panel<the_palette_window>`  ."
+msgstr "ببینید  :ref:`The Palette Panel<the_palette_window>`  ."
+
+#: ../../source/interface_overview.rst:212
+msgid "Scene Cast"
+msgstr ""
+
+#: ../../source/interface_overview.rst:214
+msgid "|UI_scenecast|"
+msgstr ""
+
+#: ../../source/interface_overview.rst:622
+msgid "UI_scenecast"
+msgstr ""
+
+#: ../../source/interface_overview.rst:216
+msgid ""
+"The scene cast panel lets you control the files loaded in the scene, save"
+" them and load new ones. It can be organized in folders and sub-folders."
+msgstr ""
+"پنل Scene Cast می گذارد شما فایل هایی که در صحنه لود شدند را کنترل کنید،"
+" ذخیره کنید"
+" شان و جدید ها را لود کنید. اون می تواند در پوشه ها و زیر پوشه ها سازمان دهی"
+" بشود."
+
+#: ../../source/interface_overview.rst:218
+msgid "See  :ref:`Using the Scene Cast <using_the_scene_cast>`  ."
+msgstr "ببینید  :ref:`Using the Scene Cast <using_the_scene_cast>`  ."
+
+#: ../../source/interface_overview.rst:224
+msgid "Schematic"
+msgstr ""
+
+#: ../../source/interface_overview.rst:226
+msgid "|UI_schematic|"
+msgstr ""
+
+#: ../../source/interface_overview.rst:623
+msgid "UI_schematic"
+msgstr ""
+
+#: ../../source/interface_overview.rst:228
+msgid ""
+"The schematic can alternatively display stage information or special FX "
+"usage."
+msgstr ""
+"Schematic می تواند متناوبا اطلاعات Stage یا استفاده ی "
+"جلوه های ویژه را نمایش بدهد."
+
+#: ../../source/interface_overview.rst:230
+msgid ""
+"The stage schematic displays as nodes all the objects defined in a scene,"
+" i.e. columns, pegbars, cameras, the table and motion paths, and allows "
+"you to manage the way they are linked to each other."
+msgstr ""
+"Stage Schematic تمام اشیاء تعریف شده در یک صحنه را به عنوان Node ها نمایش می"
+" دهد،"
+" یعنی Column ها، PegBar ها، دوربین ها، Table و Motion Path ها، و به شما اجازه"
+" می دهد "
+"تا راهی که آنها به یکدیگر لینک شدن را مدیریت کنید."
+
+#: ../../source/interface_overview.rst:232
+msgid ""
+"The FX schematic allows you to apply FX to the content of Xsheet columns,"
+" and to manage the way they are applied. All the columns and FX are "
+"displayed as nodes that can be connected in order to set the way FX "
+"affect the scene content."
+msgstr ""
+"FX Schematic به شما اجازه می دهد تا افکت ها را به محتوای Xsheet Column ها "
+" اعمال کنید"
+" و راهی که آنها اعمال شدند را مدیریت کنید. تمام Column ها و افکت ها به "
+"عنوان Node هایی نمایش داده می شوند که می توانند به منظور تنظیم راهی که افکت"
+" ها "
+"روی محتوای صحنه اثر می گذارند متصل بشوند."
+
+#: ../../source/interface_overview.rst:234
+msgid ""
+"See  :ref:`Using the Stage Schematic <using_the_stage_schematic>`  and  "
+":ref:`Using the FX Schematic <using_the_fx_schematic>`  ."
+msgstr ""
+"ببینید  :ref:`Using the Stage Schematic <using_the_stage_schematic>`  و  "
+":ref:`Using the FX Schematic <using_the_fx_schematic>`  ."
+
+#: ../../source/interface_overview.rst:240
+msgid "Studio Palette"
+msgstr ""
+
+#: ../../source/interface_overview.rst:242
+msgid "|UI_studiopalette|"
+msgstr ""
+
+#: ../../source/interface_overview.rst:625
+msgid "UI_studiopalette"
+msgstr ""
+
+#: ../../source/interface_overview.rst:244
+msgid ""
+"The studio palette allows you to store an unlimited number of level "
+"palettes. From here any palette can be retrieved and assigned to the "
+"current level in order to paint it, with no need to define the same "
+"styles again and again. It also includes a viewer displaying the styles "
+"of the currently selected palette."
+msgstr ""
+"Studio Palette به شما اجازه می دهد تا تعداد نامحدودی از Level "
+"Palette ها را  ذخیره کنید. از اینجا هر Palette می تواند بازیابی و اختصاص داده"
+" بشود به "
+"Level فعلی به منظور رنگ آمیزی آن، بدون هیچ نیازی به تعریف "
+"Style های یکسان از دوباره و دوباره. اون همچنین شامل یک Viewer است که Style "
+"های Palette انتخاب شده فعلی را نمایش می دهد."
+
+#: ../../source/interface_overview.rst:246
+msgid "See  :ref:`Using the Studio Palette <using_the_studio_palette>`  ."
+msgstr "ببینید  :ref:`Using the Studio Palette <using_the_studio_palette>`  ."
+
+#: ../../source/interface_overview.rst:252
+msgid "Style Editor"
+msgstr ""
+
+#: ../../source/interface_overview.rst:254
+msgid "|UI_styleeditor|"
+msgstr ""
+
+#: ../../source/interface_overview.rst:624
+msgid "UI_styleeditor"
+msgstr ""
+
+#: ../../source/interface_overview.rst:256
+msgid ""
+"The style editor allows you to modify the palette styles. You can choose "
+"the type of style among color, texture, vector and raster. There also is "
+"a settings tab where you can decide some parameters for the style."
+msgstr ""
+"Style Editor به شما اجازه می دهد تا Style های Palette را اصلاح کنید. شما می"
+" توانید "
+"نوع Style را بین Color, Texture, Vector و Raster انتخاب کنید. همچنین "
+"یک تب Settings وجود دارد که شما می توانید یکسری پارامتر ها را برای Style"
+" تصمیم بگیرید."
+
+#: ../../source/interface_overview.rst:258
+msgid "See  :ref:`Editing Styles <editing_styles>`  ."
+msgstr "ببینید  :ref:`Editing Styles <editing_styles>`  ."
+
+#: ../../source/interface_overview.rst:264
+msgid "Tasks"
+msgstr ""
+
+#: ../../source/interface_overview.rst:266
+msgid "|UI_tasks|"
+msgstr ""
+
+#: ../../source/interface_overview.rst:626
+msgid "UI_tasks"
+msgstr ""
+
+#: ../../source/interface_overview.rst:268
+msgid ""
+"The Tasks panel contains the task tree with all the tasks submitted to "
+"the batch processing, and information about the task currently selected "
+"in the tree. From the task tree you can start or stop a task execution, "
+"or remove it."
+msgstr ""
+"پنل Tasks حاوی Task Tree با تمام Task های ارسال شده به "
+"Batch Processing، و اطلاعات درباره Task ئه در حال حاضر انتخاب شده "
+"در Tree می باشد. از Task Tree شما می توانید یک اجرای Task را شروع یا متوقف"
+" کنید، "
+"یا آن را حذف کنید."
+
+#: ../../source/interface_overview.rst:270
+msgid ""
+"See  :ref:`Managing and Executing Render Tasks "
+"<managing_and_executing_render_tasks>`  ."
+msgstr ""
+"ببینید  :ref:`Managing and Executing Render Tasks "
+"<managing_and_executing_render_tasks>`  ."
+
+#: ../../source/interface_overview.rst:276
+msgid "Message Center"
+msgstr ""
+
+#: ../../source/interface_overview.rst:278
+msgid "|UI_messagecenter|"
+msgstr ""
+
+#: ../../source/interface_overview.rst:627
+msgid "UI_messagecenter"
+msgstr ""
+
+#: ../../source/interface_overview.rst:280
+msgid ""
+"The message center displays in a list the messages Tahoma2D is sending to"
+" the user. You can set filters on the messages showed in the panel using "
+"the appropriate radio buttons, or you can clear completely the list "
+"pressing the Clear button."
+msgstr ""
+"Message Center پیغام هایی که Tahoma2D به"
+" کاربر ارسال می کند را در یک لیست نمایش می دهد. شما می توانید فیلتر ها را روی"
+" پیغام های نمایش داده شده در پنل با استفاده از "
+"Radio Button های مناسب تنظیم کنید، یا شما می توانید لیست را کاملا "
+"با فشار دادن دکمه Clear پاک کنید."
+
+#: ../../source/interface_overview.rst:286
+msgid "Toolbar"
+msgstr ""
+
+#: ../../source/interface_overview.rst:288
+msgid "|UI_toolbar|"
+msgstr ""
+
+#: ../../source/interface_overview.rst:628
+msgid "UI_toolbar"
+msgstr ""
+
+#: ../../source/interface_overview.rst:290
+msgid ""
+"The toolbar contains tools to draw, select and edit drawings, and to "
+"animate objects like the camera, columns and pegbars. The tools in the "
+"toolbar can only be used in the main viewer."
+msgstr ""
+"ToolBar حاوی ابزار هایی برای نقاشی، انتخاب و ویرایش نقاشی ها، و برای "
+"انیمیت آبجکت هایی مثل دوربین، Column ها و PegBar ها می باشد. ابزار های در "
+"ToolBar فقط می توانند در Viewer اصلی استفاده بشوند."
+
+#: ../../source/interface_overview.rst:292
+msgid ""
+"If the toolbar is too short to display all the tools, it can be scrolled "
+"by using arrow buttons available at its ends."
+msgstr ""
+"اگر ToolBar برای نمایش تمام ابزار ها خیلی کوتاه است، اون می تواند "
+"با استفاده از Arrow Button های در دسترس در انتهای اون اسکرول بشود. (درباره"
+" اوپن تونز - برای تاهوما یادداشت کامند تولبار صدق می کند)"
+
+#: ../../source/interface_overview.rst:294
+msgid ""
+"|animate| **Animate** modifies the position, rotation and size of the "
+"current objects (see  :ref:`Animating Objects <animating_objects>`  )."
+msgstr ""
+"|animate| **Animate** موقعیت، چرخش، و اندازه "
+"آبجکت های فعلی را اصلاح می کند (ببینید  :ref:`Animating Objects <"
+"animating_objects>`  )."
+
+#: ../../source/interface_overview.rst:638
+msgid "animate"
+msgstr ""
+
+#: ../../source/interface_overview.rst:299
+msgid ""
+"|selection| **Selection** performs a selection and transforms it (see  "
+":ref:`Using the Selection Tool <using_the_selection_tool>`  )."
+msgstr ""
+"|selection| **Selection** یک Selection اجرا می کند و Transform اش می کند (روی"
+" وکتور ها خودش کامل آبجکت را انتخاب می کند - تغییر ضخامت هم می دهد) (ببینید  "
+":ref:`Using the Selection Tool <using_the_selection_tool>`  )."
+
+#: ../../source/interface_overview.rst:656
+msgid "selection"
+msgstr ""
+
+#: ../../source/interface_overview.rst:304
+msgid ""
+"|brush| **Brush** draws in the work area in freehand mode (see  "
+":ref:`Drawing with the Brush Tool <drawing_with_the_brush_tool>`  )."
+msgstr ""
+"|brush| **Brush** در ناحیه کار در حالت FreeHand نقاشی می کند (ببینید  "
+":ref:`Drawing with the Brush Tool <drawing_with_the_brush_tool>`  )."
+
+#: ../../source/interface_overview.rst:640
+msgid "brush"
+msgstr ""
+
+#: ../../source/interface_overview.rst:309
+msgid ""
+"|geometric| **Geometry** draws geometric shapes (see  :ref:`Drawing with "
+"the Geometric Tool <drawing_with_the_geometric_tool>`  )."
+msgstr ""
+"|geometric| **Geometry** اشکال هندسی می کشد (ببینید  :ref:`Drawing with "
+"the Geometric Tool <drawing_with_the_geometric_tool>`  )."
+
+#: ../../source/interface_overview.rst:645
+msgid "geometric"
+msgstr ""
+
+#: ../../source/interface_overview.rst:314
+msgid ""
+"|type| **Type** adds text by setting the font and size (see  :ref:`Adding"
+" Text <adding_text>`  )."
+msgstr ""
+"|type| **Type** با تنظیم فونت و اندازه متن اضافه می کند (ببینید  :ref:`Adding"
+" Text <adding_text>`  )."
+
+#: ../../source/interface_overview.rst:661
+msgid "type"
+msgstr ""
+
+#: ../../source/interface_overview.rst:319
+msgid ""
+"|fill| **Fill** fills drawing areas with the current style (see  "
+":ref:`Filling Areas <filling_areas>`  )."
+msgstr ""
+"|fill| **Fill** ناحیه های نقاشی را با Style فعلی پر می کند (ببینید  "
+":ref:`Filling Areas <filling_areas>`  )."
+
+#: ../../source/interface_overview.rst:644
+msgid "fill"
+msgstr ""
+
+#: ../../source/interface_overview.rst:324
+msgid ""
+"|paint_brush| **Smart Raster Paint** paints lines and areas in Smart "
+"Raster drawings in freehand mode. (see  :ref:`Filling Areas "
+"<filling_areas>`  )."
+msgstr ""
+"|paint_brush| **Smart Raster Paint** خطوط و ناحیه ها را در نقاشی های Smart "
+"Raster در حالت FreeHand رنگ آمیزی می کند. (ببینید  :ref:`Filling Areas "
+"<filling_areas>`  )."
+
+#: ../../source/interface_overview.rst:650
+msgid "paint_brush"
+msgstr ""
+
+#: ../../source/interface_overview.rst:329
+msgid ""
+"|eraser| **Eraser** deletes vectors in vector drawings, and painted areas"
+" and lines in raster drawings (see  :ref:`Drawing Tools <drawing_tools>`"
+"  )."
+msgstr ""
+"|eraser| **Eraser** بردار ها را در نقاشی های Vector حذف می کند، و ناحیه های"
+" رنگ آمیزی شده"
+" و خطوط را در نقاشی های Raster (ببینید  :ref:`Drawing Tools <drawing_tools>`"
+"  )."
+
+#: ../../source/interface_overview.rst:643
+msgid "eraser"
+msgstr ""
+
+#: ../../source/interface_overview.rst:334
+msgid ""
+"|tape| **Tape** joins two open ends of one or two vectors in vector "
+"drawings, or closes gaps in raster drawings (see  :ref:`Joining and "
+"Splitting <joining_and_splitting>`  )."
+msgstr ""
+"|tape| **Tape** دو انتهای باز یک یا دو بردار را در نقاشی "
+"های Vector پیوند می دهد، یا شکاف ها را در نقاشی های Raster می بندد (فقط"
+" اسمارت رستر - روی اسمارت هم خوب کار نمی کند) (ببینید  :ref:`Joining and "
+"Splitting <joining_and_splitting>`  )."
+
+#: ../../source/interface_overview.rst:659
+msgid "tape"
+msgstr ""
+
+#: ../../source/interface_overview.rst:339
+msgid ""
+"|style_picker| **Style Picker** picks a style from the current drawing, "
+"that becomes the current style in the palette and in the style editor."
+msgstr ""
+"|style_picker| **Style Picker** یک Style از نقاشی فعلی را انتخاب می کند، "
+"که به Style فعلی در Palette و در Style Editor تبدیل می شود."
+
+#: ../../source/interface_overview.rst:658
+msgid "style_picker"
+msgstr ""
+
+#: ../../source/interface_overview.rst:344
+msgid ""
+"|RGB_picker| **RGB Picker** picks red, green and blue values from the "
+"viewer content, and applies them to the current style (see  :ref:`Plain "
+"Colors <plain_colors>`  )."
+msgstr ""
+"|RGB_picker| **RGB Picker** مقادیر قرمز، سبز و آبی را از "
+"محتوای Viewer انتخاب می کند، و به Style فعلی اعمال شان می کند (ببینید "
+" :ref:`Plain "
+"Colors <plain_colors>`  )."
+
+#: ../../source/interface_overview.rst:654
+msgid "RGB_picker"
+msgstr ""
+
+#: ../../source/interface_overview.rst:349
+msgid ""
+"|cpe| **Control Point Editor** modifies the vector shape by editing its "
+"control points (see  :ref:`Editing Vector Control Points "
+"<editing_vector_control_points>`  )."
+msgstr ""
+"|cpe| **Control Point Editor** شکل Vector را با ویرایش "
+"Control Point هایش اصلاح می کند (ببینید  :ref:`Editing Vector Control Points "
+"<editing_vector_control_points>`  )."
+
+#: ../../source/interface_overview.rst:641
+msgid "cpe"
+msgstr ""
+
+#: ../../source/interface_overview.rst:354
+msgid ""
+"|pinch| **Pinch** modifies the vector shape by clicking and dragging "
+"anywhere on the vector (see  :ref:`Changing the Bend of Vectors "
+"<changing_the_bend_of_vectors>`  )."
+msgstr ""
+"|pinch| **Pinch** شکل Vector را با کلیک و درگ "
+"هر جایی روی بردار اصلاح می کند (ببینید  :ref:`Changing the Bend of Vectors "
+"<changing_the_bend_of_vectors>`  )."
+
+#: ../../source/interface_overview.rst:651
+msgid "pinch"
+msgstr ""
+
+#: ../../source/interface_overview.rst:359
+msgid ""
+"|pump| **Pump** locally modifies the vector thickness by clicking on the "
+"section you want to affect and then dragging up or down (see  :ref:`Using"
+" Other Modifier Tools <using_other_modifier_tools>`  )."
+msgstr ""
+"|pump| **Pump** به طور محلی ضخامت بردار را با کلیک روی "
+"بخشی که می خواهید تاثیر بگیرد و بعد درگ به بالا یا پایین اصلاح می کند (ببینید"
+"  :ref:`Using"
+" Other Modifier Tools <using_other_modifier_tools>`  )."
+
+#: ../../source/interface_overview.rst:653
+msgid "pump"
+msgstr ""
+
+#: ../../source/interface_overview.rst:364
+msgid ""
+"|magnet| **Magnet** deforms several vectors at once by clicking the area "
+"you want to affect and dragging (see  :ref:`Using Other Modifier Tools "
+"<using_other_modifier_tools>`  )."
+msgstr ""
+"|magnet| **Magnet** چندین بردار را با کلیک روی ناحیه ای که "
+"می خواهید تاثیر بگیرد و درگ به یک باره Deform می کند (ببینید  :ref:`Using"
+" Other Modifier Tools "
+"<using_other_modifier_tools>`  )."
+
+#: ../../source/interface_overview.rst:649
+msgid "magnet"
+msgstr ""
+
+#: ../../source/interface_overview.rst:369
+msgid ""
+"|bender| **Bender** bends vectors in vector drawings (see  :ref:`Using "
+"Other Modifier Tools <using_other_modifier_tools>`  )."
+msgstr ""
+"|bender| **Bender** بردار ها را در نقاشی های Vector خم می کند (ببینید "
+" :ref:`Using "
+"Other Modifier Tools <using_other_modifier_tools>`  )."
+
+#: ../../source/interface_overview.rst:639
+msgid "bender"
+msgstr ""
+
+#: ../../source/interface_overview.rst:374
+msgid ""
+"|iron| **Iron** removes creases from vectors by moving the cursor on the "
+"vector you want to flatten (see  :ref:`Using Other Modifier Tools "
+"<using_other_modifier_tools>`  )."
+msgstr ""
+"|iron| **Iron** چروک ها را از بردار ها با حرکت Cursor روی "
+"بردار ای که می خواهید صاف بشود حذف می کند (ببینید  :ref:`Using Other Modifier"
+" Tools "
+"<using_other_modifier_tools>`  )."
+
+#: ../../source/interface_overview.rst:648
+msgid "iron"
+msgstr ""
+
+#: ../../source/interface_overview.rst:379
+msgid ""
+"|cutter| **Cutter** splits a vector in two sections when clicking on it "
+"(see  :ref:`Joining and Splitting <joining_and_splitting>`  )."
+msgstr ""
+"|cutter| **Cutter** یک بردار را هنگام کلیک روی آن در دو بخش Split می کند"
+" (صرفا از نظر برداری) "
+"(ببینید  :ref:`Joining and Splitting <joining_and_splitting>`  )."
+
+#: ../../source/interface_overview.rst:642
+msgid "cutter"
+msgstr ""
+
+#: ../../source/interface_overview.rst:384
+msgid ""
+"|skeleton| **Skeleton** defines character models, and animates them as in"
+" cutout animation (see  :ref:`Using the Skeleton Tool "
+"<using_the_skeleton_tool>`  )"
+msgstr ""
+"|skeleton| **Skeleton** تعریف می کند Character Model ها را، و آنها را به مثال"
+" انیمیشن CutOut انیمیت می کند (ببینید  :ref:`Using the Skeleton Tool "
+"<using_the_skeleton_tool>`  )"
+
+#: ../../source/interface_overview.rst:657
+msgid "skeleton"
+msgstr ""
+
+#: ../../source/interface_overview.rst:389
+msgid ""
+"|tracker| **Tracker** tracks specific regions in a sequence of images "
+"(see  :ref:`Tracking Points <tracking_points>`  )."
+msgstr ""
+"|tracker| **Tracker** مناطق بخصوص را در یک توالی از تصاویر Track می کند "
+"(ببینید  :ref:`Tracking Points <tracking_points>`  )."
+
+#: ../../source/interface_overview.rst:660
+msgid "tracker"
+msgstr ""
+
+#: ../../source/interface_overview.rst:394
+msgid ""
+"|hook| **Hook** defines reference points to be used in the stage "
+"schematic to move an object, or link one object to another (see  "
+":ref:`Using Hooks <using_hooks>`  )."
+msgstr ""
+"|hook| **Hook** نقاط Reference را برای استفاده شدن در Stage "
+"Schematic برای حرکت آبجکتی، یا لینک کردن یک آبجکت به یکی دیگر تعریف می کند"
+" (ببینید  "
+":ref:`Using Hooks <using_hooks>`  )."
+
+#: ../../source/interface_overview.rst:647
+msgid "hook"
+msgstr ""
+
+#: ../../source/interface_overview.rst:399
+msgid ""
+"|plastic| **Plastic** builds a mesh that allows to deform and animate a "
+"character or part of it (see  :ref:`Using Plastic tool "
+"<using_plastic_tool>`  )."
+msgstr ""
+"|plastic| **Plastic** یک Mesh می سازد که برای DeForm و انیمیت یک "
+"کاراکتر یا بخشی از آن اجازه می دهد (ببینید  :ref:`Using Plastic tool "
+"<using_plastic_tool>`  )."
+
+#: ../../source/interface_overview.rst:652
+msgid "plastic"
+msgstr ""
+
+#: ../../source/interface_overview.rst:404
+msgid ""
+"|zoom| **Zoom** zooms in and out the viewer content; after you click you "
+"can drag up to zoom in the work area, or drag down to zoom out."
+msgstr ""
+"|zoom| **Zoom** محتوای Viewer را Zoom In و Out می کند؛ بعد از کلیک "
+"می توانید برای Zoom In کردن ناحیه کاری به بالا درگ کنید، یا برای Zoom Out به"
+" پایین درگ کنید."
+
+#: ../../source/interface_overview.rst:662
+msgid "zoom"
+msgstr ""
+
+#: ../../source/interface_overview.rst:409
+msgid ""
+"|rotate| **Rotate** rotates the viewer content; if the 3D view is "
+"activated, the Rotate tool lets you change the point of view."
+msgstr ""
+"|rotate| **Rotate** محتوای Viewer را می چرخاند؛ اگر 3D View فعال "
+"باشد، Rotate Tool می گذارد زاویه دید را تغییر بدهید."
+
+#: ../../source/interface_overview.rst:655
+msgid "rotate"
+msgstr ""
+
+#: ../../source/interface_overview.rst:414
+msgid ""
+"|hand| **Hand** pans over the viewer content; if the 3D view is "
+"activated, the Hand tool lets you pan over the 3D view as well."
+msgstr ""
+"|hand| **Hand** بر روی محتوای Viewer جا به جا می کند؛ اگر 3D View فعال "
+"باشد، Hand Tool می گذارد بر روی نمای سه بعدی جا به جا کنید همچنین."
+
+#: ../../source/interface_overview.rst:646
+msgid "hand"
+msgstr ""
+
+#: ../../source/interface_overview.rst:420
+msgid "Tool Options Bar"
+msgstr ""
+
+#: ../../source/interface_overview.rst:422
+msgid "|UI_tooloptionsbar|"
+msgstr ""
+
+#: ../../source/interface_overview.rst:630
+msgid "UI_tooloptionsbar"
+msgstr ""
+
+#: ../../source/interface_overview.rst:424
+msgid ""
+"The tool options bar displays settings for the current tool, if it has "
+"any."
+msgstr ""
+"Tool Options Bar تنظیمات را برای ابزار فعلی نمایش می دهد، اگر داشته "
+"باشد."
+
+#: ../../source/interface_overview.rst:426
+msgid ""
+"For example it lets you set the thickness and other properties of the "
+"Brush tool."
+msgstr ""
+"برای مثال اون می گذارد ضخامت و خصوصیات دیگر "
+"Brush Tool را تنظیم کنید."
+
+#: ../../source/interface_overview.rst:428
+msgid ""
+"If the tool options bar is too short to display all the tool options, it "
+"can be scrolled by using arrow buttons available at its ends."
+msgstr ""
+"اگر Tool Options Bar برای نمایش تمام گزینه های ابزار خیلی کوتاه است، اون "
+"می تواند با استفاده از Arrow Button های در دسترس در انتهای اون اسکرول بشود."
+
+#: ../../source/interface_overview.rst:434
+msgid "Command Bar"
+msgstr ""
+
+#: ../../source/interface_overview.rst:436
+msgid "|UI_commandbar|"
+msgstr ""
+
+#: ../../source/interface_overview.rst:629
+msgid "UI_commandbar"
+msgstr ""
+
+#: ../../source/interface_overview.rst:438
+msgid ""
+"The Command Bar is a place where the user can display favorite Tahoma2D "
+"tools and commands to have them readily available."
+msgstr ""
+"Command Bar جایی است که کاربر می تواند ابزار ها و دستورات موردعلاقه Tahoma2D "
+"را نمایش بدهد برای داشتن آنها به راحتی در دسترس."
+
+#: ../../source/interface_overview.rst:440
+msgid "The Command Bar panel can be docked in any part of the Tahoma2D UI."
+msgstr "پنل Command Bar می تواند Dock بشود در هر بخشی از رابط کاربری Tahoma2D."
+
+#: ../../source/interface_overview.rst:442
+msgid ""
+"If the Command Bar is too short to display all the command buttons, a "
+"double-arrow symbol will appear at the right end of it, allowing to "
+"display a drop down menu with the rest of them."
+msgstr ""
+"اگر Command Bar برای نمایش تمام دکمه های دستور خیلی کوتاه است، یک "
+"نماد Double-Arrow در انتهای سمت راست آن ظاهر می شود، که برای "
+"نمایش یک منو Drop Down با بقیه آنها اجازه می دهد."
+
+#: ../../source/interface_overview.rst:444
+msgid "**To display the Command Bar:**"
+msgstr "**برای نمایش Command Bar:**"
+
+#: ../../source/interface_overview.rst:446
+msgid "Choose Panels  →  Command Bar."
+msgstr "انتخاب کنید Panels  →  Command Bar."
+
+#: ../../source/interface_overview.rst:448
+msgid "**To customize the Command Bar buttons:**"
+msgstr "**برای سفارشی سازی دکمه های Command Bar:**"
+
+#: ../../source/interface_overview.rst:450
+msgid "Choose Panels  →  Command Bar to open the Command Bar."
+msgstr "انتخاب کنید Panels  →  Command Bar را برای باز کردن Command Bar."
+
+#: ../../source/interface_overview.rst:452
+msgid ""
+"Right click on it and select **Customize Command Bar** from the menu that"
+" opens. The Customize Command Bar panel will open."
+msgstr ""
+"روی آن راست کلیک کنید و **Customize Command Bar** را از منو ای که"
+" باز می شود انتخاب کنید. پنل Customize Command Bar باز می شود."
+
+#: ../../source/interface_overview.rst:454
+msgid "|UI_commandbar_window|"
+msgstr ""
+
+#: ../../source/interface_overview.rst:631
+msgid "UI_commandbar_window"
+msgstr ""
+
+#: ../../source/interface_overview.rst:456
+msgid ""
+"To *add* a command: Search for a command in the **Commands** list (left) "
+"and drag it to the **Command Bar** list (right)."
+msgstr ""
+"برای *اضافه کردن* یک دستور: برای یک دستور در لیست **Commands** (چپ) جست و جو"
+" کنید "
+"و آن را به لیست **Command Bar** (راست) درگ کنید."
+
+#: ../../source/interface_overview.rst:458
+msgid ""
+"To *add* a separator: At the end of the **Commands** list (left), drag "
+"the **----Separator----** item to the **Command Bar** list (right)."
+msgstr ""
+"برای *اضافه کردن* یک جدا کننده: در انتهای لیست **Commands** (چپ)، "
+"آیتم **----Separator----** را به لیست **Command Bar** (راست) درگ کنید."
+
+#: ../../source/interface_overview.rst:460
+msgid ""
+"To *delete* a command: Locate the command in the **Command Bar** list "
+"(right), right click on it and select **Remove** from the menu that "
+"opens."
+msgstr ""
+"برای *حذف کردن* یک دستور: دستور را در لیست **Command Bar** "
+"(راست) مکان یابی کنید، روی آن راست کلیک کنید و **Remove** را از منو ای که "
+"باز می شود انتخاب کنید."
+
+#: ../../source/interface_overview.rst:462
+msgid "Click **OK** to accept the changes or **Cancel** to discard them."
+msgstr ""
+"**OK** را برای پذیرفتن تغییرات کلیک کنید یا **Cancel** را برای Discard کردن"
+" آنها."
+
+#: ../../source/interface_overview.rst:468
+msgid "Viewer"
+msgstr ""
+
+#: ../../source/interface_overview.rst:470
+msgid "|UI_viewer|"
+msgstr ""
+
+#: ../../source/interface_overview.rst:632
+msgid "UI_viewer"
+msgstr ""
+
+#: ../../source/interface_overview.rst:472
+msgid ""
+"The viewer is the work area where you can draw images and see at the same"
+" time the result of your compositing. It is endless and you can scroll, "
+"zoom in, zoom out and rotate it the way you prefer."
+msgstr ""
+"Viewer ناحیه کاری ای است که شما می توانید تصاویر بکشید و همزمان"
+" نتیجه Composite کردن تان را ببینید. اون بی پایان است و شما می توانید طوری که"
+" ترجیح می دهید Scroll, "
+"Zoom In, Zoom Out و Rotate اش کنید."
+
+#: ../../source/interface_overview.rst:474
+#: ../../source/interface_overview.rst:489
+msgid ""
+"It has different modes of visualization among which you can choose the "
+"more suitable to the operation you are performing."
+msgstr ""
+"اون حالت های متفاوتی از Visualization دارد که از این میان شما می توانید "
+"حالت مناسب تر را برای عملیاتی که دارید اجرا می کنید انتخاب کنید."
+
+#: ../../source/interface_overview.rst:476
+#: ../../source/interface_overview.rst:491
+msgid ""
+"See  :ref:`Using the Viewer <using_the_work_area>`  and  :ref:`Previewing"
+" the Animation <previewing_the_animation>`  ."
+msgstr ""
+"ببینید  :ref:`Using the Viewer <using_the_work_area>`  و  :ref:`Previewing"
+" the Animation <previewing_the_animation>`  ."
+
+#: ../../source/interface_overview.rst:482
+msgid "ComboViewer"
+msgstr ""
+
+#: ../../source/interface_overview.rst:484
+msgid "|UI_comboviewer|"
+msgstr ""
+
+#: ../../source/interface_overview.rst:633
+msgid "UI_comboviewer"
+msgstr ""
+
+#: ../../source/interface_overview.rst:486
+msgid ""
+"The comboviewer integrates in a single panel a viewer, horizontal toolbar"
+" and a tool options bar. It's and alternative work area where you can "
+"draw images and see at the same time the result of your compositing. It "
+"is endless and you can scroll, zoom in, zoom out and rotate it the way "
+"you prefer."
+msgstr ""
+"ComboViewer در یک Panel واحد یک Viewer، یک ToolBar افقی"
+" و یک Tool Options Bar را ادغام می کند. اون یک ناحیه کاری جایگزین است که شما"
+" می توانید "
+"تصاویر بکشید و همزمان نتیجه Composite کردن تان را ببینید. اون "
+"بی پایان است و شما می توانید طوری که ترجیح می دهید Scroll, Zoom In, Zoom Out"
+" و Rotate اش کنید."
+
+#: ../../source/interface_overview.rst:497
+msgid "Xsheet"
+msgstr ""
+
+#: ../../source/interface_overview.rst:499
+msgid "|UI_xsheet|"
+msgstr ""
+
+#: ../../source/interface_overview.rst:634
+msgid "UI_xsheet"
+msgstr ""
+
+#: ../../source/interface_overview.rst:501
+msgid ""
+"The Xsheet allows you to manage the scene content, in the same manner as "
+"the timeline. It is organized in columns, and columns are divided into "
+"cells, representing the content of that column in that particular frame. "
+"In the columns you can load animation levels, clips, images, audio files "
+"or other Xsheets."
+msgstr ""
+"Xsheet به شما اجازه می دهد تا محتوای صحنه را، در شیوه یکسان "
+"با TimeLine مدیریت کنید. اون در Column ها سازمان دهی شده، و Column ها به "
+"Cell ها تقسیم می شوند، نمایانگر محتوای آن Column در آن فریم بخصوص. "
+"در Column ها شما می توانید Animation Level ها، کلیپ ها، تصاویر، فایل های صدا "
+"یا Xsheet های دیگر را لود کنید."
+
+#: ../../source/interface_overview.rst:503
+msgid ""
+"Each column has its own header containing information about its content. "
+"The column on the far left displays the frame number, with a cursor "
+"placed on the current frame. The headers area and the frame column are "
+"always visible, even when scrolling the Xsheet area; in this way it's "
+"easier to understand how the scene is built."
+msgstr ""
+"هر Column هدر خودش را دارد حاوی اطلاعاتی درباره محتوایش. "
+"Column ئه در منتهی علیه سمت چپ شماره فریم را نمایش می دهد، با یک Cursor "
+"قرار داده شده روی فریم فعلی. ناحیه Header ها و Column ئه فریم "
+"همیشه قابل مشاهده اند، حتی موقع اسکرول ناحیه Xsheet؛ در این روش اون "
+"برای فهمیدن اینکه صحنه چجوری ساخته شده است آسان تر می باشد."
+
+#: ../../source/interface_overview.rst:505
+msgid "Frames are rendered reading images from left to right in each cell row."
+msgstr "فریم ها با خواندن تصاویر از چپ به راست در هر ردیف Cell رندر می شوند."
+
+#: ../../source/interface_overview.rst:507
+#: ../../source/interface_overview.rst:523
+msgid "See  :ref:`Working in Xsheet <working_in_xsheet>`  ."
+msgstr "ببینید  :ref:`Working in Xsheet <working_in_xsheet>`  ."
+
+#: ../../source/interface_overview.rst:513
+msgid "Timeline"
+msgstr ""
+
+#: ../../source/interface_overview.rst:515
+msgid "|UI_timeline|"
+msgstr ""
+
+#: ../../source/interface_overview.rst:635
+msgid "UI_timeline"
+msgstr ""
+
+#: ../../source/interface_overview.rst:517
+msgid ""
+"The timeline allows you to manage the scene content, in the same manner "
+"as the Xsheet. It is organized in horizontal layers, and layers are "
+"divided into cells, representing the content of that layer in that "
+"particular frame. In the layers you can load animation levels, clips, "
+"images, audio files or other timelines."
+msgstr ""
+"TimeLine به شما اجازه می دهد تا محتوای صحنه را، در شیوه یکسان "
+"با Xsheet مدیریت کنید. اون در Layer های افقی سازمان دهی شده، و Layer ها "
+"به Cell ها تقسیم می شوند، نمایانگر محتوای آن Layer در آن "
+"فریم بخصوص. در Layer ها شما می توانید Animation Level ها، کلیپ ها، "
+"تصاویر، فایل های صدا یا TimeLine های دیگر را لود کنید."
+
+#: ../../source/interface_overview.rst:519
+msgid ""
+"At the leftmost part each layer has its own header containing information"
+" about its content. At the top part of the timeline there is a time ruler"
+" that displays the frame number, with a cursor placed on the current "
+"frame. The headers area and the time ruler are always visible, even when "
+"scrolling the timeline area; in this way it's easier to understand how "
+"the scene is built."
+msgstr ""
+"در چپ ترین بخش هر Layer هدر خودش را دارد حاوی اطلاعاتی"
+" درباره محتوایش. در بخش بالای TimeLine یک Time Ruler است"
+" که شماره فریم را نمایش می دهد، با یک Cursor قرار داده شده روی فریم "
+"فعلی. ناحیه Header ها و Time Ruler همیشه قابل مشاهده اند، حتی موقع "
+"اسکرول ناحیه TimeLine؛ در این روش اون برای فهمیدن اینکه "
+"صحنه چجوری ساخته شده است آسان تر می باشد."
+
+#: ../../source/interface_overview.rst:521
+msgid ""
+"Frames are rendered reading images from bottom to top in each cell column."
+msgstr ""
+"فریم ها با خواندن تصاویر از پایین به بالا در هر ستون Cell رندر می شوند."
+
+#: ../../source/interface_overview.rst:529
+msgid "History"
+msgstr ""
+
+#: ../../source/interface_overview.rst:531
+msgid "|UI_history|"
+msgstr ""
+
+#: ../../source/interface_overview.rst:636
+msgid "UI_history"
+msgstr ""
+
+#: ../../source/interface_overview.rst:533
+msgid ""
+"The history panel, lets you check and undo/redo the history of the latest"
+" actions performed in the current Tahoma2D scene."
+msgstr ""
+"پنل History، می گذارد تاریخچه ی آخرین"
+" اعمال اجرا شده در Tahoma2D scene فعلی را بررسی و Undo/Redo کنید."
+
+#: ../../source/interface_overview.rst:535
+msgid ""
+"See  :ref:`Assigning Memory for the Undo Operation "
+"<assigning_memory_for_the_undo_operations>`  ."
+msgstr ""
+"ببینید  :ref:`Assigning Memory for the Undo Operation "
+"<assigning_memory_for_the_undo_operations>`  ."
+
+#: ../../source/interface_overview.rst:541
+msgid "Record Audio"
+msgstr ""
+
+#: ../../source/interface_overview.rst:543
+msgid "|UI_recordaudio|"
+msgstr ""
+
+#: ../../source/interface_overview.rst:637
+msgid "UI_recordaudio"
+msgstr ""
+
+#: ../../source/interface_overview.rst:545
+msgid ""
+"The record audio panel, lets you record a live audio source, listen to "
+"it, and insert it into a new audio column of the Xsheet. The insertion "
+"point will be located at the right of the selected cell column, and "
+"starting at the selected cell frame."
+msgstr ""
+"پنل Record Audio، می گذارد یک منبع صدای زنده را ضبط کنید، به آن گوش "
+"بدهید، و آن را به یک Audio Column جدید از Xsheet الحاق کنید. نقطه "
+"الحاق در سمت راست Column ئه Cell انتخاب شده واقع می شود، و "
+"در فریم Cell انتخاب شده شروع می شود."
+
+#: ../../source/interface_overview.rst:548
+msgid ""
+"Currently, this panel cannot be docked to form part of a room, like the "
+"other ones in the Panels menu. Instead it must be opened as a floating "
+"panel, when needed."
+msgstr ""
+"در حال حاضر، این Panel برای شکل دادن بخشی از یک Room، مثل "
+"بقیه در منوی Panels نمی تواند Dock بشود. در عوض اون باید به عنوان یک Panel "
+"شناور، وقتی که نیاز است باز شود."
+
+#: ../../source/interface_overview.rst:554
+msgid "Customizing the Interface Appearance"
+msgstr "سفارشی سازی ظاهر رابط"
+
+#: ../../source/interface_overview.rst:555
+msgid ""
+"The appearance of the Tahoma2D interface can be customized to suit any "
+"production need by choosing a specific language and interface theme."
+msgstr ""
+"ظاهر رابط Tahoma2D می تواند برای تناسب با هر "
+"نیاز تولید با انتخاب یک زبان مشخص و تم رابط سفارشی سازی بشود."
+
+#: ../../source/interface_overview.rst:557
+msgid ""
+"Tahoma2D allows users to choose a specific language for the software "
+"interface, including menus, commands, tooltips, and on-screen messages. "
+"Currently available languages are: English, German, Spanish, French, "
+"Italian, Czech, Russian, Chinese, Japanese and Korean."
+msgstr ""
+"Tahoma2D به کاربران اجازه می دهد برای انتخاب یک زبان مشخص برای رابط "
+"نرم افزار، شامل منو ها، Command ها، Tooltip ها، و پیغام های On-Screen. "
+"در حال حاضر زبان های در دسترس به این شرح می باشند: انگلیسی، آلمانی،"
+" اسپانیایی، فرانسوی، "
+"ایتالیایی، چکی، روسی، چینی، ژاپنی و کره ای."
+
+#: ../../source/interface_overview.rst:559
+msgid ""
+"There are also several included themes to choose from: Dark, Darker, "
+"Light, Medium and Neutral."
+msgstr ""
+"همچنین چندین تم گنجانده شده برای انتخاب از بین شان وجود دارد: Dark, Darker, "
+"Light, Medium و Neutral."
+
+#: ../../source/interface_overview.rst:563
+msgid "The Tahoma2D interface theme set to Dark and to Light."
+msgstr "تم رابط Tahoma2D تنظیم شده روی Dark و روی Light."
+
+#: ../../source/interface_overview.rst:565
+msgid ""
+"The interface themes are defined by means of a QSS file, whose concepts, "
+"terminology, and syntax are inspired by CSS files (HTML Cascading Style "
+"Sheets). The QSS files also refers to a set of PNG images that are used "
+"to create interface widgets."
+msgstr ""
+"تم های رابط به وسیله یک فایل QSS تعریف می شوند، که کانسپت ها، "
+"ترمینولوژی، و سینتکس از فایل های سی اس اس (HTML Cascading Style "
+"Sheets) الهام گرفته شده اند. فایل های QSS همچنین به یک مجموعه از تصاویر PNG"
+" که "
+"برای ایجاد Widget های رابط استفاده شده اند اشاره دارند."
+
+#: ../../source/interface_overview.rst:567
+msgid ""
+"These files are stored in a folder named as the QSS file, and located in "
+"the ``C:\\Tahoma stuff\\config\\qss``  folder on Windows and ``Tahoma "
+"stuff\\config\\qss``  folder on Macintosh."
+msgstr ""
+"این فایل ها در یک پوشه به اسم فایل QSS ذخیره می شوند، و واقع شده اند در "
+"پوشه ``C:\\Tahoma stuff\\config\\qss``  روی ویندوز و پوشه ``Tahoma "
+"stuff\\config\\qss``  روی مکینتاش."
+
+#: ../../source/interface_overview.rst:569
+msgid "The QSS file for Macintosh is named with the _mac suffix."
+msgstr "فایل QSS برای مکینتاش با پسوند _mac نام گذاری شده است."
+
+#: ../../source/interface_overview.rst:571
+msgid ""
+"The QSS file can be edited with any text editor software, e.g. Notepad or"
+" TextEdit; the PNG images with any image editor software. Editing the QSS"
+" file requires some skill in CSS language, but some changes like colors "
+"of panel elements, can be easily done by expressing them with red, green "
+"and blue values."
+msgstr ""
+"فایل QSS می تواند با هر نرم افزار Text Editor ای، برای مثال NotePad یا"
+" TextEdit  ویرایش بشود؛ تصاویر PNG با هر نرم افزار Image Editor ای. ویرایش"
+" فایل QSS"
+" یکسری مهارت در زبان CSS لازم دارد، ولی یکسری تغییرات مثل رنگ های "
+"المان های Panel، می توانند به آسانی با بیان آنها با مقادیر قرمز، سبز "
+"و آبی انجام بشوند."
+
+#: ../../source/interface_overview.rst:573
+msgid ""
+"The QSS files defining the colors and the images used in the Tahoma2D "
+"interface have to be written according to a specific syntax, otherwise "
+"Tahoma2D interface will not be displayed properly. If you decide to edit "
+"a QSS file, make a backup copy first in case you need to revert the file "
+"to the original version."
+msgstr ""
+"فایل های QSS ای که رنگ ها و تصاویر استفاده شده در رابط Tahoma2D "
+"را تعریف می کنند باید با توجه به یک سینتکس مشخص نوشته بشوند، در غیر این صورت"
+" رابط Tahoma2D به درستی نمایش داده نمی شود. اگر شما تصمیم گرفتید تا یک "
+"فایل QSS را ویرایش کنید، اول یک نسخه پشتیبان تهیه کنید برای موردی که نیاز"
+" دارید تا فایل را "
+"به نسخه اصلی برگردانید."
+
+#: ../../source/interface_overview.rst:575
+msgid "**To choose the interface language:**"
+msgstr "**برای انتخاب زبان رابط:**"
+
+#: ../../source/interface_overview.rst:577
+#: ../../source/interface_overview.rst:585
+msgid "Choose File  →  Preferences  →  Interface."
+msgstr "انتخاب کنید File  →  Preferences  →  Interface."
+
+#: ../../source/interface_overview.rst:579
+msgid ""
+"In the Language* option menu choose the language you want to use in the "
+"interface."
+msgstr ""
+"در منوی گزینه Language* زبانی که می خواهید در رابط استفاده کنید را انتخاب "
+"کنید."
+
+#: ../../source/interface_overview.rst:581
+msgid "Restart Tahoma2D to have the interface in the selected language."
+msgstr "Tahoma2D را برای داشتن رابط در زبان انتخاب شده راه اندازی مجدد کنید."
+
+#: ../../source/interface_overview.rst:583
+msgid "**To choose the interface theme:**"
+msgstr "**برای انتخاب Theme رابط:**"
+
+#: ../../source/interface_overview.rst:587
+msgid ""
+"In the Theme option menu choose the style to be applied to the interface."
+msgstr "در منوی گزینه Theme استایل را انتخاب کنید تا به رابط اعمال بشود."
+
+#: ../../source/interface_overview.rst:589
+msgid "**To create a new theme:**"
+msgstr "**برای ایجاد یک Theme جدید:**"
+
+#: ../../source/interface_overview.rst:591
+msgid ""
+"Navigate to ``C:\\Tahoma stuff\\config\\qss``  folder on Windows and "
+"``Tahoma stuff\\config\\qss``  folder on Macintosh."
+msgstr ""
+"پیمایش کنید به پوشه ``C:\\Tahoma stuff\\config\\qss``  روی ویندوز و "
+"پوشه ``Tahoma stuff\\config\\qss``  روی مکینتاش."
+
+#: ../../source/interface_overview.rst:593
+msgid "Duplicate one of the already existing style folder."
+msgstr "یکی از پوشه های استایل در حال حاضر موجود را Duplicate کنید."
+
+#: ../../source/interface_overview.rst:595
+msgid ""
+"Rename the folder and the QSS files inside it with the name you want to "
+"assign to the style."
+msgstr ""
+"پوشه و فایل های QSS داخل آن را با اسمی که می خواهید "
+"به استایل اختصاص بدهید ReName کنید."
+
+#: ../../source/interface_overview.rst:597
+msgid "Edit the QSS file and the PNG images contained in the new folder."
+msgstr "فایل QSS و تصاویر PNG موجود در پوشه جدید را ویرایش کنید."
+
+#: ../../source/interface_overview.rst:599
+msgid ""
+"The new style will be available in the Preferences dialog the next time "
+"you run Tahoma2D."
+msgstr ""
+"استایل جدید دفعه بعدی که شما "
+"Tahoma2D را اجرا کنید در Preferences Dialog در دسترس خواهد بود."
+
+#: ../../source/interface_overview.rst:601
+msgid "**To edit style QSS file:**"
+msgstr "**برای ویرایش فایل QSS استایل:**"
+
+#: ../../source/interface_overview.rst:603
+msgid ""
+"Open and edit with a text editor software (e.g. Notepad or TextEdit) the "
+"QSS files available in the style folder."
+msgstr ""
+"فایل های QSS در دسترس در پوشه استایل را با یک نرم افزار Text Editor (برای"
+" مثال NotePad یا TextEdit) باز "
+"و ویرایش کنید."
+
+#: ../../source/interface_overview.rst:605
+msgid "**To edit style images:**"
+msgstr "**برای ویرایش تصاویر Style:**"
+
+#: ../../source/interface_overview.rst:607
+msgid ""
+"Open and edit with an image editor software the PNG files available in "
+"the style folder."
+msgstr ""
+"فایل های PNG در دسترس در پوشه استایل را با نرم افزار Image Editor ای باز "
+"و ویرایش کنید."
+
