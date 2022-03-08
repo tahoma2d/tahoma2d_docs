@@ -1,3 +1,4 @@
+@import url(https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@32/Vazirmatn-font-face.css);
 .wy-side-nav-search {
     background: #f6821f;
 }
@@ -5,10 +6,9 @@
 
 /* RTL language support */
 
-@import url(https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.1.0/dist/font-face.css);
 html[lang="fa"] :is(.wy-menu-vertical a, .document, footer, .wy-side-nav-search input[type=text], .caption, .wy-breadcrumbs :nth-child(2)) {
     direction: rtl;
-    font-family: 'Vazir', sans-serif;
+    font-family: Vazirmatn, sans-serif;
 }
 
 html[lang="fa"] :is(.rst-footer-buttons, .highlight) {
@@ -31,5 +31,5 @@ html[lang="fa"] :is(.rst-content .code-block-caption .headerlink, .rst-content .
 }
 
 html[lang="fa"] :is(h1, h2, h3, a, #opentoonz-user-manual span, .btn) {
-    font-family: 'Vazir', sans-serif;
+    font-family: Vazirmatn, sans-serif;
 }
