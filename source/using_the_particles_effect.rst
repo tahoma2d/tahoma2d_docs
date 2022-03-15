@@ -73,7 +73,7 @@ If used, particles are generated only inside the *opaque areas* of the **Control
 
 Threshold
 ~~~~~~~~~
-This value defines which pixels of the Control Image are to be used for placing the paricles, defining a range based on the opacity value of its pixels. Lower the value and more opaque the pixels have to be for being used as particles generators.
+This value defines which pixels of the Control Image are to be used for placing the particles, defining a range based on the opacity value of its pixels. Lower the value and more opaque the pixels have to be for being used as particles generators.
 
 
 .. _multiple_generators_in_control_image:
@@ -256,7 +256,7 @@ Assigns randomly a size to each particle, according to the minimum and maximum v
 
 Perspective Distribution
 ~~~~~~~~~~~~~~~~~~~~~~~~
-When activated, and if a Control Image for **Size** is conected, particles size will be inversely proportional to their density. It can be used for placement of depth particles, as in a sea waves level. When this option is active, the **Use Control Image Gradation** option will be ignored.
+When activated, and if a Control Image for **Size** is connected, particles size will be inversely proportional to their density. It can be used for placement of depth particles, as in a sea waves level. When this option is active, the **Use Control Image Gradation** option will be ignored.
 
 
 Control Image

@@ -33,7 +33,7 @@ The objects/effects tree tells if the object/effect is animated and which parame
 
 - An icon with a dotted straight line is for non-animated parameters.
 
-- An icon with a continuos curve is for animated parameters.
+- An icon with a continuous curve is for animated parameters.
 
 Clicking these icons allows you to select which object/effect and which parameters have to be displayed as a spreadsheet or curves in the area on the left.
 
@@ -310,7 +310,7 @@ In the same area it is also possible to define an interpolation **Step**, that i
 
 .. tip:: **To set the type of interpolation for multiple segments in the Spreadsheet:**
 
-    1. Make a cell selection that encompases multiple keyframe segments.
+    1. Make a cell selection that encompasses multiple keyframe segments.
 
     2. Right click on one of the selected cells and choose the desired interpolation type in the menu that opens.
 
@@ -564,7 +564,7 @@ Supported terms are the following:
 ====================  ==============================================================================================  
 **Variables**                                                                                                         
 ====================  ==============================================================================================  
-``t``                 Ranges from 0.0 to 1.0 along the transition allowing position/lenght-independent transitions.   
+``t``                 Ranges from 0.0 to 1.0 along the transition allowing position/length-independent transitions.   
 ``f`` , ``frame``     The current frame number.                                                                       
 ``r`` , ``rframe``    It is relative to the transition.                                                               
 ====================  ==============================================================================================  
