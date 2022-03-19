@@ -6,19 +6,22 @@ Troubleshooting
 Windows
 ---------------
 
+
+
 The code execution cannot proceed because MSVCP140.dll was not found. Reinstalling the program may fix the issue
-~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
 
 **Cause:** Newer systems no longer ship with these DLLs
 
 .. tip:: Download and install the `Microsoft Visual C++ 2015 Redistributable Update 3 RC <https://www.microsoft.com/en-us/download/details.aspx?id=52685>`_.
-
-
 
 
 
 The code execution cannot proceed because VCRUNTIME140.dll was not found. Reinstalling the program may fix the issue
-~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
 
 **Cause:** Newer systems no longer ship with these DLLs
@@ -27,9 +30,11 @@ The code execution cannot proceed because VCRUNTIME140.dll was not found. Reinst
 
 
 
-
 The code execution cannot proceed because Qt*.dll was not found. Reinstalling the program may fix the issue
-~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
 **Cause 1:** You did not unzip the Tahoma2D-win.zip but tried to run it from within the zip'd folder instead
 
 .. tip:: Uncompress the Tahoma2D-win.zip to create the Tahoma2D folder
@@ -40,12 +45,11 @@ The code execution cannot proceed because Qt*.dll was not found. Reinstalling th
 
 
 
-
-
-
-
 Undefined or empty: "SOFTWARE\\Tahoma2D\\Tahoma2D\\TAHOMA2DROOT" Installing Tahoma2D 1.x again could fix the problem.
-~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
 **Cause 1:** You moved the Tahoma2D.exe out of the Tahoma2D folder and away from the tahomastuff folder
 
 .. tip:: Move the Tahoma2d.exe back to the Tahoma2D folder so it's in the same directory as the tahomastuff folder
@@ -56,12 +60,11 @@ Undefined or empty: "SOFTWARE\\Tahoma2D\\Tahoma2D\\TAHOMA2DROOT" Installing Taho
 
 
 
-
-
-
-
 The Tahoma2D splash screen shows then disappears but never opens
-~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
 **Cause 1:** Anti-virus software may be blocking it
 
 .. tip:: Temporarily disable anti-virus software and attempt to start again.  If it starts normally, then add Tahoma2d.exe as an exception in your anti-virus
@@ -84,15 +87,17 @@ Linux
 
 
 
-
 Undefined or empty: "SOFTWARE\\Tahoma2D\\Tahoma2D\\TAHOMA2DROOT" Installing Tahoma2D 1.x again could Solution the problem.
-~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
 **Cause 1:** You moved the Tahoma2D.app out of the Tahoma2D folder and away from the tahomastuff folder
 
 .. tip:: Move the Tahoma2d.AppImage back to the Tahoma2D folder so it's in the same directory as the tahomastuff folder
 
 **Cause 2:** If the directory path to Tahoma2D contains your username, certain special characters in your username may cause the path to the tahomastuff folder to not be found
 
-.. tip:: Move the entire Tahoma2D folder to a directory whose path does not contain your username, like */usr/local/bin* or some appropriate directory.
+.. tip:: Move the entire Tahoma2D folder to a directory whose path does not contain your username, like /usr/local/bin or some appropriate directory.
 
 
