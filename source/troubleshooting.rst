@@ -32,7 +32,7 @@ The code execution cannot proceed because VCRUNTIME140.dll was not found. Reinst
 
 The code execution cannot proceed because Qt*.dll was not found. Reinstalling the program may fix the issue
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+|qt_dll|
 
 
 **Cause 1:** You did not unzip the Tahoma2D-win.zip but tried to run it from within the zip'd folder instead
@@ -47,7 +47,7 @@ The code execution cannot proceed because Qt*.dll was not found. Reinstalling th
 
 Undefined or empty: "SOFTWARE\\Tahoma2D\\Tahoma2D\\TAHOMA2DROOT" Installing Tahoma2D 1.x again could fix the problem.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+|undefined|
 
 
 **Cause 1:** You moved the Tahoma2D.exe out of the Tahoma2D folder and away from the tahomastuff folder
@@ -100,4 +100,7 @@ Undefined or empty: "SOFTWARE\\Tahoma2D\\Tahoma2D\\TAHOMA2DROOT" Installing Taho
 
 .. tip:: Move the entire Tahoma2D folder to a directory whose path does not contain your username, like /usr/local/bin or some appropriate directory.
 
+
+.. |qt_dll| image:: /_static/troubleshooting/qt_dll.png
+.. |undefined| image:: /_static/troubleshooting/undefined.png
 
