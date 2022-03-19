@@ -484,7 +484,7 @@ File Settings
 
   .. note:: Tahoma supports the 3GP and MOV formats by using the 32-bit version of QuickTime.
   
-  To save in other popular video formats, like MP4 and WebM, Tahoma uses FFmpeg (a free software project that produces libraries and programs for handling multimedia data). Once FFmpeg is installed in the system, and configured to work with Tahoma, MP4 and WebM will be listed along the other standard output file formats. For detailed instructions on how to install and configure FFmpeg, please see  :ref:`Using FFmpeg with Tahoma <using_ffmpeg_with_tahoma>`  .
+  To save in other popular video formats, like MP4 and WebM, Tahoma uses FFmpeg (a free software project that produces libraries and programs for handling multimedia data). Once FFmpeg is installed in the system, and configured to work with Tahoma, MP4 and WebM will be listed along the other standard output file formats. For detailed instructions on how to install and configure FFmpeg, please see  :ref:`Using FFmpeg with Tahoma2D <using_ffmpeg_with_tahoma2d>`  .
 
   .. note:: Apart from 3GP, AVI, GIF, MOV, MP4 and WebM, all other formats will output image sequences.
 

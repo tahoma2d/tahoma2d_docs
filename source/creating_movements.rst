@@ -43,7 +43,7 @@ It's also possible to *group* several nodes into one single node, in order to be
 
     - Middle-click and drag to scroll in any direction.
 
-    - Use the **Fit to Window** button (|fit_to_panel|) in the bottom bar of the stage panel to display all the objects in the current panel.
+    - Use the **Fit to Window** button (|fit_to_window|) in the bottom bar of the stage panel to display all the objects in the current panel.
 
     - Use the **Focus on Current** button (|focus_on_current|) in the bottom bar of the stage panel to center the stage on the current object.
 
@@ -461,7 +461,7 @@ In the **Animate tool** (|animate|) options bar you can set the following:
 
 .. note:: If the tool options bar is too short to display all the tool options, it can be scrolled by using arrow buttons available at its ends.
 
-.. note:: Position values are expressed in the default unit of measure set in the Preferences  →  Interface dialog (see  :ref:`Choosing the Working Unit <choosing_the_working_unit>`  ).
+.. note:: Position values are expressed in the default unit of measure set in the Preferences  →  Interface dialog.
 
 
 .. _animate_tool_handle:

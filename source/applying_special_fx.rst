@@ -536,7 +536,7 @@ When a preset for a particular effect is saved, in the FX Browser the effect ico
 
  |Creating_Presets_Example| 
 
-Presets are saved in the ``<projectroot>\fxs\preset`` folder. This allow the presets to be available on all the computers sharing the same *Projectroot* (see  :ref:`Setting the Projectroot <setting_the_projectroot>`  ).
+Presets are saved in the ``<projectroot>\fxs\preset`` folder. This allow the presets to be available on all the computers sharing the same *Projectroot*.
 
 .. note:: Currently the statement above if not true, as by default presets are being saved in ``Tahoma stuff\fxs\presets``. On Windows it can be changed to any other path by going to the registry and changing the ``System\HKEY_LOCAL_MACHINE\SOFTWARE\Tahoma\Tahoma\TOONZFXPRESETS`` key to the desired location.
 
@@ -1478,7 +1478,7 @@ Blends a negative and a positive version of the Source content, as if exposing a
 .. _toonz_level:
 
 Tahoma Level
-'''''''''''
+''''''''''''
 Tahoma Level type of effects can be applied only to Vector and Smart Raster (PLI and TLV files). They usually affect the drawings they are applied to according to Style indexes. Style indexes can be retrieved in the Palette after the # symbol in the Style tooltip, or in the *bottom right corner* of the style in any of the **Thumbnails View** modes. 
 
 Index numbers can be specified in the related text field, separated by a comma. To define a range of indexes, you should type the first and last separated by a dash (e.g. 4-7 will refer to indexes 4, 5, 6 and 7). To select all indexes, type ``all`` ; to select no index, type ``none`` .

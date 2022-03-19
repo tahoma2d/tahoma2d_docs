@@ -21,7 +21,6 @@ Hand-drawn elements are first defined in an Tahoma Xsheet, and then acquired by 
 
 The scanned images then pass through a cleanup process, and are auto centered when necessary, using their pegbar holes as a guide and their related field guide setting. In the case of lineart drawings, these are further prepared for the painting process.
 
-See  :ref:`Scanning Paper Drawings <scanning_paper_drawings>`  .
 
 
 .. _paperless_drawing:

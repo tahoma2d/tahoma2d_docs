@@ -55,7 +55,7 @@ The Current Camera Settings dialog, that can be opened from the Scene menu, cont
 
 More than one camera can be defined for each scene, in order to have different output resolutions, or to shot only a particular area of the scene (see  :ref:`Using the Stage Schematic <using_the_stage_schematic>`  ).
 
-The camera frame size can be expressed in any unit, but will be visualized in the default one chosen in the Preferences  →  Interface dialog (see  :ref:`Choosing the Working Unit <choosing_the_working_unit>`  ). 
+The camera frame size can be expressed in any unit, but will be visualized in the default one chosen in the Preferences  →  Interface dialog. 
 
 In Tahoma2D the Camera is defined by different parameters:
 
@@ -73,7 +73,7 @@ The **Use Current Level Settings** button let you set the camera for framing exa
 
 Camera resolutions can also be selected from a list of predefined camera settings. You can add any camera preset you define to the list, as well as remove any predefined camera from it.
 
-.. note:: The predefined cameras list is saved in the file ``reslist.txt``  stored in the projectroot (see  :ref:`Setting the Projectroot <setting_the_projectroot>`  ).
+.. note:: The predefined cameras list is saved in the file ``reslist.txt``  stored in the projectroot.
 
 .. tip:: **To add a preset camera resolution:**
 
