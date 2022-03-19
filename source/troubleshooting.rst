@@ -11,7 +11,7 @@ The code execution cannot proceed because MSVCP140.dll was not found. Reinstalli
 
 **Cause:** Newer systems no longer ship with these DLLs
 
-.. tip:: Download and install the Microsoft Visual C++ 2015 Redistributable Update 3 RC. (https://www.microsoft.com/en-us/download/details.aspx?id=52685)
+.. tip:: Download and install the `Microsoft Visual C++ 2015 Redistributable Update 3 RC <https://www.microsoft.com/en-us/download/details.aspx?id=52685>`_.
 
 
 
@@ -23,7 +23,7 @@ The code execution cannot proceed because VCRUNTIME140.dll was not found. Reinst
 
 **Cause:** Newer systems no longer ship with these DLLs
 
-.. tip:: Download and install the Microsoft Visual C++ 2015 Redistributable Update 3 RC. (https://www.microsoft.com/en-us/download/details.aspx?id=52685)
+.. tip:: Download and install the `Microsoft Visual C++ 2015 Redistributable Update 3 RC <https://www.microsoft.com/en-us/download/details.aspx?id=52685>`_.
 
 
 
@@ -93,6 +93,6 @@ Undefined or empty: "SOFTWARE\\Tahoma2D\\Tahoma2D\\TAHOMA2DROOT" Installing Taho
 
 **Cause 2:** If the directory path to Tahoma2D contains your username, certain special characters in your username may cause the path to the tahomastuff folder to not be found
 
-.. tip:: Move the entire Tahoma2D folder to a directory whose path does not contain your username, like /usr/local/bin or some appropriate directory.
+.. tip:: Move the entire Tahoma2D folder to a directory whose path does not contain your username, like */usr/local/bin* or some appropriate directory.
 
 
