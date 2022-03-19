@@ -44,7 +44,7 @@ The code execution cannot proceed because Qt*.dll was not found. Reinstalling th
 
 
 
-Undefined or empty: "SOFTWARE\Tahoma2D\Tahoma2D\TAHOMA2DROOT" Installing Tahoma2D 1.x again could fix the problem.
+Undefined or empty: "SOFTWARE\\Tahoma2D\\Tahoma2D\\TAHOMA2DROOT" Installing Tahoma2D 1.x again could fix the problem.
 ~~~~~~
 **Cause 1:** You moved the Tahoma2D.exe out of the Tahoma2D folder and away from the tahomastuff folder
 
@@ -68,7 +68,7 @@ The Tahoma2D splash screen shows then disappears but never opens
 
 **Cause 2:** The tahomastuff folder does not have the proper permissions
 
-.. tip:: Right-click the Tahoma2D\tahomastuff folder, select Properties, click on the Security tab and make sure your username exists in the list and has full permissions.  If not found, add it.  Alternatively, run Tahoma2D.exe as Administrator
+.. tip:: Right-click the Tahoma2D\\tahomastuff folder, select Properties, click on the Security tab and make sure your username exists in the list and has full permissions.  If not found, add it.  Alternatively, run Tahoma2D.exe as Administrator
 
 **Cause 3:** Unknown
 
@@ -85,7 +85,7 @@ Linux
 
 
 
-Undefined or empty: "SOFTWARE\Tahoma2D\Tahoma2D\TAHOMA2DROOT" Installing Tahoma2D 1.x again could Solution the problem.
+Undefined or empty: "SOFTWARE\\Tahoma2D\\Tahoma2D\\TAHOMA2DROOT" Installing Tahoma2D 1.x again could Solution the problem.
 ~~~~~~
 **Cause 1:** You moved the Tahoma2D.app out of the Tahoma2D folder and away from the tahomastuff folder
 
