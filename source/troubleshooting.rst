@@ -52,7 +52,7 @@ Undefined or empty: "SOFTWARE\Tahoma2D\Tahoma2D\TAHOMA2DROOT" Installing Tahoma2
 
 **Cause 2:** If the directory path to Tahoma2D contains your username, certain special characters in your username may cause the path to the tahomastuff folder to not be found
 
-.. tip:: Move the entire Tahoma2D folder to a directory whose path does not contain your username, like C:\ or C:\Program Files
+.. tip:: Move the entire Tahoma2D folder to a directory whose path does not contain your username, like C:\\ or C:\\Program Files
 
 
 
