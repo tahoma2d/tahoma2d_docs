@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tahoma 1.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-24 05:16+0330\n"
+"POT-Creation-Date: 2022-03-19 07:31+0330\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -116,8 +116,7 @@ msgstr ""
 #: ../../source/cleaning-up_scanned_drawings.rst:41
 msgid ""
 "Pegbar holes have to be included properly during the scanning process in "
-"order to be recognized during the process (see  :ref:`Scanning Guidelines"
-" for Autocentering <scanning_guidelines_for_autocentering>`  )."
+"order to be recognized during the process."
 msgstr ""
 
 #: ../../source/cleaning-up_scanned_drawings.rst:43
@@ -1725,4 +1724,13 @@ msgstr ""
 #: ../../source/cleaning-up_scanned_drawings.rst:703
 msgid "tasks_cleanup_es"
 msgstr ""
+
+#~ msgid ""
+#~ "Pegbar holes have to be included "
+#~ "properly during the scanning process in"
+#~ " order to be recognized during the"
+#~ " process (see  :ref:`Scanning Guidelines "
+#~ "for Autocentering <scanning_guidelines_for_autocentering>`"
+#~ "  )."
+#~ msgstr ""
 

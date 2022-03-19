@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tahoma 1.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-24 05:16+0330\n"
+"POT-Creation-Date: 2022-03-19 07:48+0330\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -181,8 +181,12 @@ msgstr ""
 
 #: ../../source/creating_movements.rst:46
 msgid ""
-"Use the **Fit to Window** button (|fit_to_panel|) in the bottom bar of "
+"Use the **Fit to Window** button (|fit_to_window|) in the bottom bar of "
 "the stage panel to display all the objects in the current panel."
+msgstr ""
+
+#: ../../source/creating_movements.rst:964
+msgid "fit_to_window"
 msgstr ""
 
 #: ../../source/creating_movements.rst:48
@@ -1330,8 +1334,7 @@ msgstr ""
 #: ../../source/creating_movements.rst:464
 msgid ""
 "Position values are expressed in the default unit of measure set in the "
-"Preferences  →  Interface dialog (see  :ref:`Choosing the Working Unit "
-"<choosing_the_working_unit>`  )."
+"Preferences  →  Interface dialog."
 msgstr ""
 
 #: ../../source/creating_movements.rst:470
@@ -2529,10 +2532,6 @@ msgstr ""
 msgid "camera_view"
 msgstr ""
 
-#: ../../source/creating_movements.rst:964
-msgid "fit_to_window"
-msgstr ""
-
 #: ../../source/creating_movements.rst:970
 msgid "minimize"
 msgstr ""
@@ -2540,4 +2539,19 @@ msgstr ""
 #: ../../source/creating_movements.rst:973
 msgid "option"
 msgstr ""
+
+#~ msgid ""
+#~ "Use the **Fit to Window** button "
+#~ "(|fit_to_panel|) in the bottom bar of"
+#~ " the stage panel to display all "
+#~ "the objects in the current panel."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Position values are expressed in the "
+#~ "default unit of measure set in the"
+#~ " Preferences  →  Interface dialog (see  "
+#~ ":ref:`Choosing the Working Unit "
+#~ "<choosing_the_working_unit>`  )."
+#~ msgstr ""
 
