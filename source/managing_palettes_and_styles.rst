@@ -890,7 +890,6 @@ The **Name Editor** allows to systematize the naming of styles used in a product
 .. |next_key| image:: /_static/palettes_styles/next_key.png
 .. |option| image:: /_static/palettes_styles/option.png
 .. |prevkey| image:: /_static/palettes_styles/prevkey.png
-.. |save_as| image:: /_static/palettes_styles/save_as.png
 .. |switch| image:: /_static/palettes_styles/switch.png
 
 
