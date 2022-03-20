@@ -165,6 +165,51 @@ Please see [Sphinx/reStructuredText documentation](https://www.sphinx-doc.org/en
   then make a folder named `installing_tahoma` under `source/_static` and store the image file in it
   (i.e. `source/_static/installing_tahoma/some_image.png` ).
 
+### Editing with Visual Studio Code (Optional)
+You can use any editor you wish, but the following is recommended.
+
+- Install [Visual Studio Code](https://code.visualstudio.com/) by Microsoft.
+- Add the [reStructuredText](https://marketplace.visualstudio.com/items?itemName=lextudio.restructuredtext) extension from the marketplace which will be used as the compiler.
+  - Install anything this extension prompts you to install
+  - Additional recommended extensions:
+    - [Extension Pack for reStructuredText](https://marketplace.visualstudio.com/items?itemName=lextudio.restructuredtext-pack)
+    - [reStructuredText Syntax highlighting](https://marketplace.visualstudio.com/items?itemName=trond-snekvik.simple-rst )
+  
+- In VSCode, navigate to your Tahoma2D Docs folder and open folder `source`.
+  
+
+A `settings.json` file is already included to ensure developers work to the same standards located in `.vscode`. If the file must be created manually then the following should apply.
+
+``` json
+{
+    "esbonio.sphinx.buildDir": "..\\build",
+    "esbonio.sphinx.confDir": "",
+    "restructuredtext.linter.disabledLinters": [
+        "doc8",
+        "rstcheck",
+        "rst-lint"
+    ]
+}
+```
+
+NOTE: In Preview mode, you may see the following which is normal:
+  - Directive: `ref`
+    ```
+    System Message: ERROR/3 (c:\...\*.rst, line 41); backlink
+
+    Unknown interpreted text role "ref".
+    ```
+  - Directive: `toctree`
+    ```
+    System Message: ERROR/3 (c:\...\*.rst, line 18)
+
+    Unknown directive type "toctree".
+
+    .. toctree::
+      :maxdepth: 2
+      :caption:
+    ```
+
 ## Internationalization (i18n) of the Manual
 
 - On Anaconda Prompt, move to `tahoma2d_docs` folder using `cd` command

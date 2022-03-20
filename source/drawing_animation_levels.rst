@@ -756,13 +756,13 @@ In the tool options bar you can set the following:
 
 - **Cap:** sets the shape of the ends of the selected vector strokes. Options are **Butt** for squared ends, **Round** for semicircular ends, and **Projecting** for squared ends extending beyond the end of the line, according to the stroke thickness. This is available for Vector drawings only.
 
-  .. figure:: /_static/drawing_animation_levels/caps.png
+  .. figure:: ./_static/drawing_animation_levels/caps.png
 
      A butt cap, a round cap and a projecting cap.
 
 - **Join:** sets the shape of the straight corners along the selected vector strokes. Options are **Miter** for pointed corners, **Round** for rounded corners, **Bevel** for squared corner. This is available for Vector drawings only.
 
-  .. figure:: /_static/drawing_animation_levels/joins.png
+  .. figure:: ./_static/drawing_animation_levels/joins.png
 
      Miter joins, round joins and bevel joins.
 
@@ -830,7 +830,7 @@ When a drawing in a Toonz level, or a section of it is pasted to another one, th
 
     - Edit the scale, rotation and position values available in the tool options bar.
     
-    .. figure:: /_static/drawing_animation_levels/select_transform_raster.png
+    .. figure:: ./_static/drawing_animation_levels/select_transform_raster.png
 
        First define the area you want to select, then use the bounding box to make geometric transformations.
 
@@ -858,7 +858,7 @@ When a drawing in a Toonz level, or a section of it is pasted to another one, th
 
     - Edit the scale, rotation, position and thickness values available in the tool options bar.
     
-    .. figure:: /_static/drawing_animation_levels/select_transform_vector.png
+    .. figure:: ./_static/drawing_animation_levels/select_transform_vector.png
 
        First select the vector strokes you want to transform, then use the bounding box to make geometric transformations.
 
@@ -926,7 +926,7 @@ Grouping and Ungrouping Vectors
 '''''''''''''''''''''''''''''''
 All the vector strokes of a drawing lie on the same plane, therefore drawing *areas* are outlined by segments defined by strokes intersections. This means that if you draw two intersecting squares, automatically three areas are defined: one belonging only to the first square, one to the second one, and another defined by the intersection.
 
-.. figure:: /_static/drawing_animation_levels/grouping_problem.png
+.. figure:: ./_static/drawing_animation_levels/grouping_problem.png
 
    Painting a drawing that contains intersecting vector strokes and shapes may be an issue, because all of them lie on the same layer.
 
@@ -936,7 +936,7 @@ In the case of two intersecting squares, if you want the two squares to be overl
 
 It's possible to create as many groups as you want in any drawing; groups can be made of one stroke only as well, for instance a circle, or a line.
 
-.. figure:: /_static/drawing_animation_levels/grouping_solution.png
+.. figure:: ./_static/drawing_animation_levels/grouping_solution.png
 
    First define groups, then set a proper layering order to solve the intersection problems.
 
@@ -1021,7 +1021,7 @@ Setting Stroke and Group Sorting Order
 ''''''''''''''''''''''''''''''''''''''
 For each vector drawing, strokes and groups sorting order can be changed by setting what has to lie in front of, and what behind.
 
-.. figure:: /_static/drawing_animation_levels/layering_order.png
+.. figure:: ./_static/drawing_animation_levels/layering_order.png
 
    Select vector strokes, create groups and set their layering order to better manage the drawing.
 
@@ -1079,7 +1079,7 @@ Control point handles may be linked, that is to say they share the same directio
 
 The option Auto Select Drawing is available to automatically select any vector of any drawing visible in the viewer.
 
-.. figure:: /_static/drawing_animation_levels/edit_control_points.png
+.. figure:: ./_static/drawing_animation_levels/edit_control_points.png
 
    Click to select a vector stroke and edit its control points; Alt-click to unlink control point handles; Ctrl-click (PC) or Cmd-click (Mac) the selected stroke to add a control point.
 
@@ -1180,7 +1180,7 @@ In both Automatic and Manual modes, different types of editing can be performed 
 
     2. Click, Shift-click, or Ctrl-click (Pc) or Cmd-click (Mac) and drag to modify the bend of the highlighted segment.
 
-.. figure:: /_static/drawing_animation_levels/pinch_example.png
+.. figure:: ./_static/drawing_animation_levels/pinch_example.png
 
    Click and drag to change the bend; Shift-click to add a cusp; Ctrl-click (PC) or Cmd-click (Mac) to add a corner.
 
@@ -1227,7 +1227,7 @@ To smooth a stroke, you can use the **Iron** tool (|iron|). When used again and 
 
     3. Click the point of the stroke where you want to modify the thickness and drag up to increase it, or down to decrease it. 
     
-    .. figure:: /_static/drawing_animation_levels/pump_example.png
+    .. figure:: ./_static/drawing_animation_levels/pump_example.png
 
        Using the Pump tool to change the thickness of drawn strokes.
 
@@ -1358,7 +1358,7 @@ An animation technique reserved to vector animation levels is the use of the **I
 
 When more than two frames are selected in the Level Strip, a vertical strip labeled **INBETWEEN** is displayed on the right of each frame. By clicking on it, all frames between the first and the last selected, will be overwritten by images interpolating from the first to the last drawings. 
 
-.. figure:: /_static/drawing_animation_levels/inbetween.png
+.. figure:: ./_static/drawing_animation_levels/inbetween.png
 
    Duplicate a drawing; modify it; insert blank frames; select the frame range, then click the INBETWEEN vertical bar.
 
@@ -1411,7 +1411,7 @@ Rotoscoping
 '''''''''''
 Rotoscoping consists of tracing drawings taking a live clip as reference. 
 
-.. figure:: /_static/drawing_animation_levels/rotoscoping.png
+.. figure:: ./_static/drawing_animation_levels/rotoscoping.png
 
    Using the rotoscoping technique to trace the movement of a hand.
 
@@ -1465,7 +1465,7 @@ If you want to view more than one level drawing at the same time in the Viewer a
 
 The Onion Skin is available both in the Xsheet/Timeline and in the Level Strip, according to where the cursor showing the current frame is displayed, as the onion skin can be activated starting from the cursor and managed in the frame number column/bar. 
 
-.. figure:: /_static/drawing_animation_levels/onion_skin.png
+.. figure:: ./_static/drawing_animation_levels/onion_skin.png
 
    A column animation displayed with the relative Onion Skin set for 6 previous frames, step two, and an absolute Onion Skin set at frame 35.
 
@@ -1612,30 +1612,30 @@ To better check the new drawing and the animation, you can toggle the Shift and 
 
 
 
-.. |canvas_size| image:: /_static/drawing_animation_levels/canvas_size.png
-.. |animate| image:: /_static/drawing_animation_levels/animate.png
-.. |bender| image:: /_static/drawing_animation_levels/bender.png
-.. |brush| image:: /_static/drawing_animation_levels/brush.png
-.. |cpe| image:: /_static/drawing_animation_levels/cpe.png
-.. |cutter| image:: /_static/drawing_animation_levels/cutter.png
-.. |eraser| image:: /_static/drawing_animation_levels/eraser.png
-.. |fill| image:: /_static/drawing_animation_levels/fill.png
-.. |geometric| image:: /_static/drawing_animation_levels/geometric.png
-.. |hand| image:: /_static/drawing_animation_levels/hand.png
-.. |iron| image:: /_static/drawing_animation_levels/iron.png
-.. |magnet| image:: /_static/drawing_animation_levels/magnet.png
-.. |pinch| image:: /_static/drawing_animation_levels/pinch.png
-.. |pump| image:: /_static/drawing_animation_levels/pump.png
-.. |rotate| image:: /_static/drawing_animation_levels/rotate.png
-.. |selection| image:: /_static/drawing_animation_levels/selection.png
-.. |tape| image:: /_static/drawing_animation_levels/tape.png
-.. |type| image:: /_static/drawing_animation_levels/type.png
-.. |zoom| image:: /_static/drawing_animation_levels/zoom.png
-.. |check| image:: /_static/drawing_animation_levels/check.png
-.. |load| image:: /_static/drawing_animation_levels/load.png
-.. |option| image:: /_static/drawing_animation_levels/option.png
-.. |preview| image:: /_static/drawing_animation_levels/preview.png
-.. |reset| image:: /_static/drawing_animation_levels/reset.png
-.. |save| image:: /_static/drawing_animation_levels/save.png
+.. |canvas_size| image:: ./_static/drawing_animation_levels/canvas_size.png
+.. |animate| image:: ./_static/drawing_animation_levels/animate.png
+.. |bender| image:: ./_static/drawing_animation_levels/bender.png
+.. |brush| image:: ./_static/drawing_animation_levels/brush.png
+.. |cpe| image:: ./_static/drawing_animation_levels/cpe.png
+.. |cutter| image:: ./_static/drawing_animation_levels/cutter.png
+.. |eraser| image:: ./_static/drawing_animation_levels/eraser.png
+.. |fill| image:: ./_static/drawing_animation_levels/fill.png
+.. |geometric| image:: ./_static/drawing_animation_levels/geometric.png
+.. |hand| image:: ./_static/drawing_animation_levels/hand.png
+.. |iron| image:: ./_static/drawing_animation_levels/iron.png
+.. |magnet| image:: ./_static/drawing_animation_levels/magnet.png
+.. |pinch| image:: ./_static/drawing_animation_levels/pinch.png
+.. |pump| image:: ./_static/drawing_animation_levels/pump.png
+.. |rotate| image:: ./_static/drawing_animation_levels/rotate.png
+.. |selection| image:: ./_static/drawing_animation_levels/selection.png
+.. |tape| image:: ./_static/drawing_animation_levels/tape.png
+.. |type| image:: ./_static/drawing_animation_levels/type.png
+.. |zoom| image:: ./_static/drawing_animation_levels/zoom.png
+.. |check| image:: ./_static/drawing_animation_levels/check.png
+.. |load| image:: ./_static/drawing_animation_levels/load.png
+.. |option| image:: ./_static/drawing_animation_levels/option.png
+.. |preview| image:: ./_static/drawing_animation_levels/preview.png
+.. |reset| image:: ./_static/drawing_animation_levels/reset.png
+.. |save| image:: ./_static/drawing_animation_levels/save.png
 
-.. |canvas_size_es| image:: /_static/drawing_animation_levels/es/canvas_size.png
+.. |canvas_size_es| image:: ./_static/drawing_animation_levels/es/canvas_size.png

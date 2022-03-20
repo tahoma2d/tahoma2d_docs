@@ -33,7 +33,7 @@ Download the Windows zipped file and follow these steps:
 .. _installing_on_os_x:
 
 Installing on macOS
-------------------
+-------------------
 Download the macOS dmg file and follow these steps:
 
 
@@ -51,16 +51,16 @@ Download the macOS dmg file and follow these steps:
 
 
 
-.. |win_setup_1| image:: /_static/installing/windows_setup_1.png
-.. |win_setup_2| image:: /_static/installing/windows_setup_2.png
-.. |win_setup_3| image:: /_static/installing/windows_setup_3.png
-.. |win_setup_4| image:: /_static/installing/windows_setup_4.png
-.. |win_setup_5| image:: /_static/installing/windows_setup_5.png
-.. |win_setup_6| image:: /_static/installing/windows_setup_6.png
-.. |osx_setup_2| image:: /_static/installing/osx_setup_2.png
-.. |osx_setup_3| image:: /_static/installing/osx_setup_3.png
-.. |osx_setup_4| image:: /_static/installing/osx_setup_4.png
-.. |osx_setup_5| image:: /_static/installing/osx_setup_5.png
-.. |osx_setup_6| image:: /_static/installing/osx_setup_6.png
-.. |osx_setup_7| image:: /_static/installing/osx_setup_7.png
+.. |win_setup_1| image:: ./_static/installing/windows_setup_1.png
+.. |win_setup_2| image:: ./_static/installing/windows_setup_2.png
+.. |win_setup_3| image:: ./_static/installing/windows_setup_3.png
+.. |win_setup_4| image:: ./_static/installing/windows_setup_4.png
+.. |win_setup_5| image:: ./_static/installing/windows_setup_5.png
+.. |win_setup_6| image:: ./_static/installing/windows_setup_6.png
+.. |osx_setup_2| image:: ./_static/installing/osx_setup_2.png
+.. |osx_setup_3| image:: ./_static/installing/osx_setup_3.png
+.. |osx_setup_4| image:: ./_static/installing/osx_setup_4.png
+.. |osx_setup_5| image:: ./_static/installing/osx_setup_5.png
+.. |osx_setup_6| image:: ./_static/installing/osx_setup_6.png
+.. |osx_setup_7| image:: ./_static/installing/osx_setup_7.png
 

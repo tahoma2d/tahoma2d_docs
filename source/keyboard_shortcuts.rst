@@ -173,8 +173,8 @@ Increase Step                           **'**
 Decrease Step                           **;**
 Drawing Substitution Backward           **Q**
 Drawing Substitution Forward            **W**
-Similar Drawing Substitution Backward   **Alt/⌥ Option**   **+**  **Q**
-Similar Drawing Substitution Forward    **Alt/⌥ Option**   **+**  **W**
+Similar Drawing Substitution Backward   **Alt/⌥ Option**    **+**  **Q**
+Similar Drawing Substitution Forward    **Alt/⌥ Option**    **+**  **W**
 =====================================   =================   =====  =====
 
 
@@ -224,25 +224,25 @@ Online Manual...                  **F1**
 
 
 
-.. |configure_shortcuts_window| image:: /_static/configure_shortcuts/configure_shortcuts_window.png
-.. |animate| image:: /_static/configure_shortcuts/animate.png
-.. |brush| image:: /_static/configure_shortcuts/brush.png
-.. |cpe| image:: /_static/configure_shortcuts/cpe.png
-.. |eraser| image:: /_static/configure_shortcuts/eraser.png
-.. |fill| image:: /_static/configure_shortcuts/fill.png
-.. |geometric| image:: /_static/configure_shortcuts/geometric.png
-.. |hand| image:: /_static/configure_shortcuts/hand.png
-.. |hook| image:: /_static/configure_shortcuts/hook.png
-.. |pinch| image:: /_static/configure_shortcuts/pinch.png
-.. |plastic| image:: /_static/configure_shortcuts/plastic.png
-.. |RGB_picker| image:: /_static/configure_shortcuts/RGB_picker.png
-.. |rotate| image:: /_static/configure_shortcuts/rotate.png
-.. |selection| image:: /_static/configure_shortcuts/selection.png
-.. |skeleton| image:: /_static/configure_shortcuts/skeleton.png
-.. |style_picker| image:: /_static/configure_shortcuts/style_picker.png
-.. |tape| image:: /_static/configure_shortcuts/tape.png
-.. |tracker| image:: /_static/configure_shortcuts/tracker.png
-.. |type| image:: /_static/configure_shortcuts/type.png
-.. |zoom| image:: /_static/configure_shortcuts/zoom.png
+.. |configure_shortcuts_window| image:: ./_static/configure_shortcuts/configure_shortcuts_window.png
+.. |animate| image:: ./_static/configure_shortcuts/animate.png
+.. |brush| image:: ./_static/configure_shortcuts/brush.png
+.. |cpe| image:: ./_static/configure_shortcuts/cpe.png
+.. |eraser| image:: ./_static/configure_shortcuts/eraser.png
+.. |fill| image:: ./_static/configure_shortcuts/fill.png
+.. |geometric| image:: ./_static/configure_shortcuts/geometric.png
+.. |hand| image:: ./_static/configure_shortcuts/hand.png
+.. |hook| image:: ./_static/configure_shortcuts/hook.png
+.. |pinch| image:: ./_static/configure_shortcuts/pinch.png
+.. |plastic| image:: ./_static/configure_shortcuts/plastic.png
+.. |RGB_picker| image:: ./_static/configure_shortcuts/RGB_picker.png
+.. |rotate| image:: ./_static/configure_shortcuts/rotate.png
+.. |selection| image:: ./_static/configure_shortcuts/selection.png
+.. |skeleton| image:: ./_static/configure_shortcuts/skeleton.png
+.. |style_picker| image:: ./_static/configure_shortcuts/style_picker.png
+.. |tape| image:: ./_static/configure_shortcuts/tape.png
+.. |tracker| image:: ./_static/configure_shortcuts/tracker.png
+.. |type| image:: ./_static/configure_shortcuts/type.png
+.. |zoom| image:: ./_static/configure_shortcuts/zoom.png
 
-.. |configure_shortcuts_window_es| image:: /_static/configure_shortcuts/es/configure_shortcuts_window.png
+.. |configure_shortcuts_window_es| image:: ./_static/configure_shortcuts/es/configure_shortcuts_window.png

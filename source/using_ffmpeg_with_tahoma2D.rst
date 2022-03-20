@@ -144,29 +144,29 @@ Solus: ``# eopkg install ffmpeg``
 
 .. Images
 
-.. |get_the_packages| image:: /_static/using_ffmpeg_with_tahoma/get_the_packages.png
+.. |get_the_packages| image:: ./_static/using_ffmpeg_with_tahoma/get_the_packages.png
 
 
 .. Windows images
-.. |packages_windows| image:: /_static/using_ffmpeg_with_tahoma/windows/ffmpeg_packages.png
-.. |ffmpeg_builds_windows| image:: /_static/using_ffmpeg_with_tahoma/windows/ffmpeg_builds.png
-.. |ffmpeg_extracted_windows| image:: /_static/using_ffmpeg_with_tahoma/windows/ffmpeg_extracted.png
-.. |ffmpeg_path_windows| image:: /_static/using_ffmpeg_with_tahoma/windows/ffmpeg_path.png
-.. |output_settings_windows| image:: /_static/using_ffmpeg_with_tahoma/windows/output_settings.png
+.. |packages_windows| image:: ./_static/using_ffmpeg_with_tahoma/windows/ffmpeg_packages.png
+.. |ffmpeg_builds_windows| image:: ./_static/using_ffmpeg_with_tahoma/windows/ffmpeg_builds.png
+.. |ffmpeg_extracted_windows| image:: ./_static/using_ffmpeg_with_tahoma/windows/ffmpeg_extracted.png
+.. |ffmpeg_path_windows| image:: ./_static/using_ffmpeg_with_tahoma/windows/ffmpeg_path.png
+.. |output_settings_windows| image:: ./_static/using_ffmpeg_with_tahoma/windows/output_settings.png
 
 
 .. Mac images
-.. |packages_mac| image:: /_static/using_ffmpeg_with_tahoma/mac/ffmpeg_packages.png
-.. |ffmpeg_builds_mac| image:: /_static/using_ffmpeg_with_tahoma/mac/ffmpeg_builds.png
-.. |ffmpeg_finder| image:: /_static/using_ffmpeg_with_tahoma/mac/ffmpeg_finder.png
-.. |ffmpeg_extracted_mac| image:: /_static/using_ffmpeg_with_tahoma/mac/ffmpeg_extracted.png
-.. |ffmpeg_path_mac| image:: /_static/using_ffmpeg_with_tahoma/mac/ffmpeg_path.png
-.. |output_settings_mac| image:: /_static/using_ffmpeg_with_tahoma/mac/output_settings.png
+.. |packages_mac| image:: ./_static/using_ffmpeg_with_tahoma/mac/ffmpeg_packages.png
+.. |ffmpeg_builds_mac| image:: ./_static/using_ffmpeg_with_tahoma/mac/ffmpeg_builds.png
+.. |ffmpeg_finder| image:: ./_static/using_ffmpeg_with_tahoma/mac/ffmpeg_finder.png
+.. |ffmpeg_extracted_mac| image:: ./_static/using_ffmpeg_with_tahoma/mac/ffmpeg_extracted.png
+.. |ffmpeg_path_mac| image:: ./_static/using_ffmpeg_with_tahoma/mac/ffmpeg_path.png
+.. |output_settings_mac| image:: ./_static/using_ffmpeg_with_tahoma/mac/output_settings.png
 
 .. Linux images
 
-.. |ffmpeg_path_linux| image:: /_static/using_ffmpeg_with_tahoma/linux/ffmpeg_path.png
-.. |output_settings_linux| image:: /_static/using_ffmpeg_with_tahoma/linux/output_settings.png
+.. |ffmpeg_path_linux| image:: ./_static/using_ffmpeg_with_tahoma/linux/ffmpeg_path.png
+.. |output_settings_linux| image:: ./_static/using_ffmpeg_with_tahoma/linux/output_settings.png
 
 .. Note from Wolf_In_A_Bowl
 .. This is a work-in-progress page, please contribute to its development by adding the guide section for and Linux.

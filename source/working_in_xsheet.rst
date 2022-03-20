@@ -19,7 +19,7 @@ Using the Viewer
 ----------------
 The viewer has different modes of visualizing the scene contents. According to your needs you can view the whole work area, only the elements included in the current camera shot, or visualize the whole scene in a 3D environment. The viewer can also be frozen, so that the visualization is not updated until you enter with the pointer in the viewer. When the preview mode is activated, the viewer can display the rendered animation as in the final render (see  :ref:`Previewing the Animation <previewing_the_animation>`  ).
 
-.. figure:: /_static/xsheet/viewer_modes.png
+.. figure:: ./_static/xsheet/viewer_modes.png
 
    Camera Stand view, 3D view and Camera view modes.
 
@@ -1662,36 +1662,36 @@ Elements defined in the CSS are the following:
 
 
 
-.. |file_browser| image:: /_static/xsheet/file_browser.png
-.. |load_psd| image:: /_static/xsheet/load_psd.png
-.. |rename| image:: /_static/xsheet/rename.png
-.. |convert| image:: /_static/xsheet/convert.png
-.. |convert_several| image:: /_static/xsheet/convert_several.png
-.. |convert_tlv_unpainted| image:: /_static/xsheet/convert_tlv_unpainted.png
-.. |convert_tlv_painted| image:: /_static/xsheet/convert_tlv_painted.png
-.. |convert_tlv_painted_noaa| image:: /_static/xsheet/convert_tlv_painted_noaa.png
-.. |scene_cast| image:: /_static/xsheet/scene_cast.png
-.. |separate_colors| image:: /_static/xsheet/separate_colors.png
-.. |level_strip| image:: /_static/xsheet/level_strip.png
-.. |level_settings| image:: /_static/xsheet/level_settings.png
-.. |xsheet_toolbar| image:: /_static/xsheet/xsheet_toolbar.png
-.. |xsheet_toolbar_window| image:: /_static/xsheet/xsheet_toolbar_window.png
-.. |xsheet| image:: /_static/xsheet/xsheet.png
-.. |timeline| image:: /_static/xsheet/timeline.png
-.. |time_stretch| image:: /_static/xsheet/time_stretch.png
-.. |memo| image:: /_static/xsheet/memo.png
-.. |memo_text_format| image:: /_static/xsheet/memo_text_format.png
-.. |export_scene| image:: /_static/xsheet/export_scene.png
-.. |animate| image:: /_static/xsheet/animate.png
-.. |skeleton| image:: /_static/xsheet/skeleton.png
-.. |3d| image:: /_static/xsheet/3d.png
-.. |camera_view| image:: /_static/xsheet/camera_view.png
-.. |freeze| image:: /_static/xsheet/freeze.png
-.. |preview| image:: /_static/xsheet/preview.png
-.. |camera_stand| image:: /_static/xsheet/camera_stand.png
-.. |lock| image:: /_static/xsheet/lock.png
-.. |additional_settings| image:: /_static/xsheet/additional_settings.png
-.. |folder_up| image:: /_static/xsheet/folder_up.png
-.. |thumbnails| image:: /_static/xsheet/thumbnails.png
-.. |list| image:: /_static/xsheet/list.png
-.. |new_folder| image:: /_static/xsheet/new_folder.png
+.. |file_browser| image:: ./_static/xsheet/file_browser.png
+.. |load_psd| image:: ./_static/xsheet/load_psd.png
+.. |rename| image:: ./_static/xsheet/rename.png
+.. |convert| image:: ./_static/xsheet/convert.png
+.. |convert_several| image:: ./_static/xsheet/convert_several.png
+.. |convert_tlv_unpainted| image:: ./_static/xsheet/convert_tlv_unpainted.png
+.. |convert_tlv_painted| image:: ./_static/xsheet/convert_tlv_painted.png
+.. |convert_tlv_painted_noaa| image:: ./_static/xsheet/convert_tlv_painted_noaa.png
+.. |scene_cast| image:: ./_static/xsheet/scene_cast.png
+.. |separate_colors| image:: ./_static/xsheet/separate_colors.png
+.. |level_strip| image:: ./_static/xsheet/level_strip.png
+.. |level_settings| image:: ./_static/xsheet/level_settings.png
+.. |xsheet_toolbar| image:: ./_static/xsheet/xsheet_toolbar.png
+.. |xsheet_toolbar_window| image:: ./_static/xsheet/xsheet_toolbar_window.png
+.. |xsheet| image:: ./_static/xsheet/xsheet.png
+.. |timeline| image:: ./_static/xsheet/timeline.png
+.. |time_stretch| image:: ./_static/xsheet/time_stretch.png
+.. |memo| image:: ./_static/xsheet/memo.png
+.. |memo_text_format| image:: ./_static/xsheet/memo_text_format.png
+.. |export_scene| image:: ./_static/xsheet/export_scene.png
+.. |animate| image:: ./_static/xsheet/animate.png
+.. |skeleton| image:: ./_static/xsheet/skeleton.png
+.. |3d| image:: ./_static/xsheet/3d.png
+.. |camera_view| image:: ./_static/xsheet/camera_view.png
+.. |freeze| image:: ./_static/xsheet/freeze.png
+.. |preview| image:: ./_static/xsheet/preview.png
+.. |camera_stand| image:: ./_static/xsheet/camera_stand.png
+.. |lock| image:: ./_static/xsheet/lock.png
+.. |additional_settings| image:: ./_static/xsheet/additional_settings.png
+.. |folder_up| image:: ./_static/xsheet/folder_up.png
+.. |thumbnails| image:: ./_static/xsheet/thumbnails.png
+.. |list| image:: ./_static/xsheet/list.png
+.. |new_folder| image:: ./_static/xsheet/new_folder.png

@@ -733,6 +733,6 @@ This example explains how to load an image and then create an animation in a lev
 
 
 
-.. |toonz_script_console| image:: /_static/toonz_script/toonz_script_console.png
-.. |toonz_script_runscript| image:: /_static/toonz_script/toonz_script_runscript.png
+.. |toonz_script_console| image:: ./_static/toonz_script/toonz_script_console.png
+.. |toonz_script_runscript| image:: ./_static/toonz_script/toonz_script_runscript.png
 

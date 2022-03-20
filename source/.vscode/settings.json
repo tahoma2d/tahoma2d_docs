@@ -1,0 +1,9 @@
+{
+    "esbonio.sphinx.buildDir": "..\\build",
+    "esbonio.sphinx.confDir": "",
+    "restructuredtext.linter.disabledLinters": [
+        "doc8",
+        "rstcheck",
+        "rst-lint"
+    ]
+}

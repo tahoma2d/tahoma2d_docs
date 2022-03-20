@@ -179,8 +179,8 @@ The Tahoma render farm allows you to batch-render Tahoma scenes by using a serie
 See  :ref:`Rendering the Animation <rendering_the_animation>`  and  :ref:`Using the Toonz Farm <using_the_toonz_farm>`  .
 
 
-.. |traditional_workflow| image:: /_static/production_workflow/traditional_workflow.png
-.. |paperless_workflow| image:: /_static/production_workflow/paperless_workflow.png
+.. |traditional_workflow| image:: ./_static/production_workflow/traditional_workflow.png
+.. |paperless_workflow| image:: ./_static/production_workflow/paperless_workflow.png
 
-.. |traditional_workflow_es| image:: /_static/production_workflow/es/traditional_workflow.png
-.. |paperless_workflow_es| image:: /_static/production_workflow/es/paperless_workflow.png
+.. |traditional_workflow_es| image:: ./_static/production_workflow/es/traditional_workflow.png
+.. |paperless_workflow_es| image:: ./_static/production_workflow/es/paperless_workflow.png

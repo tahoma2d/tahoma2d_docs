@@ -1098,10 +1098,10 @@ Compares the pixels color of the Up and Down node content and selects the lighte
 
 If only one node is defined, the lightening operation is applied to all the images underlaying the connected node according to the Xsheet/Timeline layering order.
 
-.. _local_transparency:
+.. _local_transparency_fx:
 
-Local Transparency
-~~~~~~~~~~~~~~~~~~
+Local Transparency FX
+~~~~~~~~~~~~~~~~~~~~~
  |Local_Transparency| 
 
 Applies a transparency to the Source content according to the brightness value of the node content connected to the Reference input port.
@@ -1158,10 +1158,10 @@ Subtracts the red, green and blue values of the Up node content from the Down on
 
 If only one node is defined, the subtraction operation is applied to all the images underlaying connected node content according to the Xsheet/Timeline layering order.
 
-.. _transparency:
+.. _transparency_fx:
 
-Transparency
-~~~~~~~~~~~~
+Transparency FX
+~~~~~~~~~~~~~~~
  |Transparency| 
 
 Sets the transparency of the Source content. The Intensity, expressed as a percentage, ranges from 0, fully opaque, to 100, fully transparent.
@@ -1669,134 +1669,134 @@ Blurs along concentric circular lines as if the Source content turns around the 
 
 
 
-.. |FX_Browser| image:: /_static/sfx/fx_browser.png
-.. |Basic_FX_Example| image:: /_static/sfx/fx_example_basic.png
-.. |Combined_FX_Example| image:: /_static/sfx/fx_example_combined.png
-.. |Generated_FX_Example| image:: /_static/sfx/fx_example_generated.png
-.. |FX_Settings_Example| image:: /_static/sfx/fx_example_settings.png
-.. |Defining_Colors_Example| image:: /_static/sfx/fx_example_defining_colors.png
-.. |Creating_Presets_Example| image:: /_static/sfx/fx_example_creating_presets.png
-.. |Checkerboard| image:: /_static/sfx/Special_FX_List/Background/Checkerboard.png
-.. |Color_Card| image:: /_static/sfx/Special_FX_List/Background/Color_Card.png
-.. |Kaleido| image:: /_static/sfx/Special_FX_List/Background/Kaleido.png
-.. |Tile| image:: /_static/sfx/Special_FX_List/Background/Tile.png
-.. |Blur| image:: /_static/sfx/Special_FX_List/Blur/Blur.png
-.. |Directional_Blur| image:: /_static/sfx/Special_FX_List/Blur/Directional_Blur.png
-.. |Local_Blur| image:: /_static/sfx/Special_FX_List/Blur/Local_Blur.png
-.. |Radial_Blur| image:: /_static/sfx/Special_FX_List/Blur/Radial_Blur.png
-.. |Spin_Blur| image:: /_static/sfx/Special_FX_List/Blur/Spin_Blur.png
-.. |Free_Distort| image:: /_static/sfx/Special_FX_List/Distort/Free_Distort.png
-.. |Linear_Wave| image:: /_static/sfx/Special_FX_List/Distort/Linear_Wave.png
-.. |Perlin_Noise| image:: /_static/sfx/Special_FX_List/Distort/Perlin_Noise.png
-.. |Random_Wave| image:: /_static/sfx/Special_FX_List/Distort/Random_Wave.png
-.. |Ripple| image:: /_static/sfx/Special_FX_List/Distort/Ripple.png
-.. |Warp| image:: /_static/sfx/Special_FX_List/Distort/Warp.png
-.. |Diamond_Gradient| image:: /_static/sfx/Special_FX_List/Gradients/Diamond_Gradient.png
-.. |Four_Points_Gradient| image:: /_static/sfx/Special_FX_List/Gradients/Four_Points_Gradient.png
-.. |Linear_Gradient| image:: /_static/sfx/Special_FX_List/Gradients/Linear_Gradient.png
-.. |Multi_Linear_Gradient| image:: /_static/sfx/Special_FX_List/Gradients/Multi_Linear_Gradient.png
-.. |Multi_Radial_Gradient| image:: /_static/sfx/Special_FX_List/Gradients/Multi_Radial_Gradient.png
-.. |Radial_Gradient| image:: /_static/sfx/Special_FX_List/Gradients/Radial_Gradient.png
-.. |Spiral| image:: /_static/sfx/Special_FX_List/Gradients/Spiral.png
-.. |Square_Gradient| image:: /_static/sfx/Special_FX_List/Gradients/Square_Gradient.png
-.. |Adjust_Levels| image:: /_static/sfx/Special_FX_List/Image_Adjust/Adjust_Levels.png
-.. |Brightness_&_Contrast| image:: /_static/sfx/Special_FX_List/Image_Adjust/Brightness_&_Contrast.png
-.. |Despeckle| image:: /_static/sfx/Special_FX_List/Image_Adjust/Despeckle.png
-.. |Channel_Mixer| image:: /_static/sfx/Special_FX_List/Image_Adjust/Channel_Mixer.png
-.. |Curves| image:: /_static/sfx/Special_FX_List/Image_Adjust/Curves.png
-.. |Gamma| image:: /_static/sfx/Special_FX_List/Image_Adjust/Gamma.png
-.. |Invert| image:: /_static/sfx/Special_FX_List/Image_Adjust/Invert.png
-.. |Multitone| image:: /_static/sfx/Special_FX_List/Image_Adjust/Multitone.png
-.. |RGBA_Cut| image:: /_static/sfx/Special_FX_List/Image_Adjust/RGBA_Cut.png
-.. |RGB_Fade| image:: /_static/sfx/Special_FX_List/Image_Adjust/RGBA_Fade.png
-.. |RGBA_Scale| image:: /_static/sfx/Special_FX_List/Image_Adjust/RGBA_Scale.png
-.. |HSV_Scale| image:: /_static/sfx/Special_FX_List/Image_Adjust/HSV_Scale.png
-.. |Sharpen| image:: /_static/sfx/Special_FX_List/Image_Adjust/Sharpen.png
-.. |Add| image:: /_static/sfx/Special_FX_List/Layer_Blending/Add.png
-.. |Color_Burn| image:: /_static/sfx/Special_FX_List/Layer_Blending/Color_Burn.png
-.. |Color_Dodge| image:: /_static/sfx/Special_FX_List/Layer_Blending/Color_Dodge.png
-.. |Cross_Dissolve| image:: /_static/sfx/Special_FX_List/Layer_Blending/Cross_Dissolve.png
-.. |Darken| image:: /_static/sfx/Special_FX_List/Layer_Blending/Darken.png
-.. |Dissolve| image:: /_static/sfx/Special_FX_List/Layer_Blending/Dissolve.png
-.. |Lighten| image:: /_static/sfx/Special_FX_List/Layer_Blending/Lighten.png
-.. |Local_Transparency| image:: /_static/sfx/Special_FX_List/Layer_Blending/Local_Transparency.png
-.. |Multiply| image:: /_static/sfx/Special_FX_List/Layer_Blending/Multiply.png
-.. |Over| image:: /_static/sfx/Special_FX_List/Layer_Blending/Over.png
-.. |Screen| image:: /_static/sfx/Special_FX_List/Layer_Blending/Screen.png
-.. |Subtract| image:: /_static/sfx/Special_FX_List/Layer_Blending/Subtract.png
-.. |Transparency| image:: /_static/sfx/Special_FX_List/Layer_Blending/Transparency.png
-.. |Backlit| image:: /_static/sfx/Special_FX_List/Light/Backlit.png
-.. |Body_Highlight| image:: /_static/sfx/Special_FX_List/Light/Body_Highlight.png
-.. |Cast_Shadow| image:: /_static/sfx/Special_FX_List/Light/Cast_Shadow.png
-.. |Glow| image:: /_static/sfx/Special_FX_List/Light/Glow.png
-.. |Light_Spot| image:: /_static/sfx/Special_FX_List/Light/Light_Spot.png
-.. |Raylit| image:: /_static/sfx/Special_FX_List/Light/Raylit.png
-.. |Color_Raylit| image:: /_static/sfx/Special_FX_List/Light/Color_Raylit.png
-.. |Target_Spot| image:: /_static/sfx/Special_FX_List/Light/Target_Spot.png
-.. |Erode_Dilate| image:: /_static/sfx/Special_FX_List/Matte/Erode_Dilate.png
-.. |HSV_Key| image:: /_static/sfx/Special_FX_List/Matte/HSV_Key.png
-.. |Matte_In| image:: /_static/sfx/Special_FX_List/Matte/Matte_In.png
-.. |Matte_Out| image:: /_static/sfx/Special_FX_List/Matte/Matte_Out.png
-.. |RGB_Key| image:: /_static/sfx/Special_FX_List/Matte/RGB_Key.png
-.. |Visible_Matte_In| image:: /_static/sfx/Special_FX_List/Matte/Visible_Matte_In.png
-.. |Noise| image:: /_static/sfx/Special_FX_List/Noise/Noise.png
-.. |Salt_&_Pepper_Noise| image:: /_static/sfx/Special_FX_List/Noise/Salt_&_Pepper_Noise.png
-.. |Clouds| image:: /_static/sfx/Special_FX_List/Render/Clouds.png
-.. |particles| image:: /_static/sfx/Special_FX_List/Render/particles.png
-.. |text_1| image:: /_static/sfx/Special_FX_List/Render/text_1.png
-.. |text_2| image:: /_static/sfx/Special_FX_List/Render/text_2.png
-.. |Color_Emboss| image:: /_static/sfx/Special_FX_List/Stylize/Color_Emboss.png
-.. |Emboss| image:: /_static/sfx/Special_FX_List/Stylize/Emboss.png
-.. |Mosaic| image:: /_static/sfx/Special_FX_List/Stylize/Mosaic.png
-.. |Posterize| image:: /_static/sfx/Special_FX_List/Stylize/Posterize.png
-.. |Solarize| image:: /_static/sfx/Special_FX_List/Stylize/Solarize.png
-.. |Art_Contour| image:: /_static/sfx/Special_FX_List/Toonz_Level/Art_Contour.png
-.. |Calligraphic_Line| image:: /_static/sfx/Special_FX_List/Toonz_Level/Calligraphic_Line.png
-.. |Color_Blending| image:: /_static/sfx/Special_FX_List/Toonz_Level/Color_Blending.png
-.. |External_Palette| image:: /_static/sfx/Special_FX_List/Toonz_Level/External_Palette.png
-.. |Outline| image:: /_static/sfx/Special_FX_List/Toonz_Level/Outline.png
-.. |Palette_Filter| image:: /_static/sfx/Special_FX_List/Toonz_Level/Palette_Filter.png
-.. |Pinned_Texture| image:: /_static/sfx/Special_FX_List/Toonz_Level/Pinned_Texture.png
+.. |FX_Browser| image:: ./_static/sfx/fx_browser.png
+.. |Basic_FX_Example| image:: ./_static/sfx/fx_example_basic.png
+.. |Combined_FX_Example| image:: ./_static/sfx/fx_example_combined.png
+.. |Generated_FX_Example| image:: ./_static/sfx/fx_example_generated.png
+.. |FX_Settings_Example| image:: ./_static/sfx/fx_example_settings.png
+.. |Defining_Colors_Example| image:: ./_static/sfx/fx_example_defining_colors.png
+.. |Creating_Presets_Example| image:: ./_static/sfx/fx_example_creating_presets.png
+.. |Checkerboard| image:: ./_static/sfx/Special_FX_List/Background/Checkerboard.png
+.. |Color_Card| image:: ./_static/sfx/Special_FX_List/Background/Color_Card.png
+.. |Kaleido| image:: ./_static/sfx/Special_FX_List/Background/Kaleido.png
+.. |Tile| image:: ./_static/sfx/Special_FX_List/Background/Tile.png
+.. |Blur| image:: ./_static/sfx/Special_FX_List/Blur/Blur.png
+.. |Directional_Blur| image:: ./_static/sfx/Special_FX_List/Blur/Directional_Blur.png
+.. |Local_Blur| image:: ./_static/sfx/Special_FX_List/Blur/Local_Blur.png
+.. |Radial_Blur| image:: ./_static/sfx/Special_FX_List/Blur/Radial_Blur.png
+.. |Spin_Blur| image:: ./_static/sfx/Special_FX_List/Blur/Spin_Blur.png
+.. |Free_Distort| image:: ./_static/sfx/Special_FX_List/Distort/Free_Distort.png
+.. |Linear_Wave| image:: ./_static/sfx/Special_FX_List/Distort/Linear_Wave.png
+.. |Perlin_Noise| image:: ./_static/sfx/Special_FX_List/Distort/Perlin_Noise.png
+.. |Random_Wave| image:: ./_static/sfx/Special_FX_List/Distort/Random_Wave.png
+.. |Ripple| image:: ./_static/sfx/Special_FX_List/Distort/Ripple.png
+.. |Warp| image:: ./_static/sfx/Special_FX_List/Distort/Warp.png
+.. |Diamond_Gradient| image:: ./_static/sfx/Special_FX_List/Gradients/Diamond_Gradient.png
+.. |Four_Points_Gradient| image:: ./_static/sfx/Special_FX_List/Gradients/Four_Points_Gradient.png
+.. |Linear_Gradient| image:: ./_static/sfx/Special_FX_List/Gradients/Linear_Gradient.png
+.. |Multi_Linear_Gradient| image:: ./_static/sfx/Special_FX_List/Gradients/Multi_Linear_Gradient.png
+.. |Multi_Radial_Gradient| image:: ./_static/sfx/Special_FX_List/Gradients/Multi_Radial_Gradient.png
+.. |Radial_Gradient| image:: ./_static/sfx/Special_FX_List/Gradients/Radial_Gradient.png
+.. |Spiral| image:: ./_static/sfx/Special_FX_List/Gradients/Spiral.png
+.. |Square_Gradient| image:: ./_static/sfx/Special_FX_List/Gradients/Square_Gradient.png
+.. |Adjust_Levels| image:: ./_static/sfx/Special_FX_List/Image_Adjust/Adjust_Levels.png
+.. |Brightness_&_Contrast| image:: ./_static/sfx/Special_FX_List/Image_Adjust/Brightness_&_Contrast.png
+.. |Despeckle| image:: ./_static/sfx/Special_FX_List/Image_Adjust/Despeckle.png
+.. |Channel_Mixer| image:: ./_static/sfx/Special_FX_List/Image_Adjust/Channel_Mixer.png
+.. |Curves| image:: ./_static/sfx/Special_FX_List/Image_Adjust/Curves.png
+.. |Gamma| image:: ./_static/sfx/Special_FX_List/Image_Adjust/Gamma.png
+.. |Invert| image:: ./_static/sfx/Special_FX_List/Image_Adjust/Invert.png
+.. |Multitone| image:: ./_static/sfx/Special_FX_List/Image_Adjust/Multitone.png
+.. |RGBA_Cut| image:: ./_static/sfx/Special_FX_List/Image_Adjust/RGBA_Cut.png
+.. |RGB_Fade| image:: ./_static/sfx/Special_FX_List/Image_Adjust/RGBA_Fade.png
+.. |RGBA_Scale| image:: ./_static/sfx/Special_FX_List/Image_Adjust/RGBA_Scale.png
+.. |HSV_Scale| image:: ./_static/sfx/Special_FX_List/Image_Adjust/HSV_Scale.png
+.. |Sharpen| image:: ./_static/sfx/Special_FX_List/Image_Adjust/Sharpen.png
+.. |Add| image:: ./_static/sfx/Special_FX_List/Layer_Blending/Add.png
+.. |Color_Burn| image:: ./_static/sfx/Special_FX_List/Layer_Blending/Color_Burn.png
+.. |Color_Dodge| image:: ./_static/sfx/Special_FX_List/Layer_Blending/Color_Dodge.png
+.. |Cross_Dissolve| image:: ./_static/sfx/Special_FX_List/Layer_Blending/Cross_Dissolve.png
+.. |Darken| image:: ./_static/sfx/Special_FX_List/Layer_Blending/Darken.png
+.. |Dissolve| image:: ./_static/sfx/Special_FX_List/Layer_Blending/Dissolve.png
+.. |Lighten| image:: ./_static/sfx/Special_FX_List/Layer_Blending/Lighten.png
+.. |Local_Transparency| image:: ./_static/sfx/Special_FX_List/Layer_Blending/Local_Transparency.png
+.. |Multiply| image:: ./_static/sfx/Special_FX_List/Layer_Blending/Multiply.png
+.. |Over| image:: ./_static/sfx/Special_FX_List/Layer_Blending/Over.png
+.. |Screen| image:: ./_static/sfx/Special_FX_List/Layer_Blending/Screen.png
+.. |Subtract| image:: ./_static/sfx/Special_FX_List/Layer_Blending/Subtract.png
+.. |Transparency| image:: ./_static/sfx/Special_FX_List/Layer_Blending/Transparency.png
+.. |Backlit| image:: ./_static/sfx/Special_FX_List/Light/Backlit.png
+.. |Body_Highlight| image:: ./_static/sfx/Special_FX_List/Light/Body_Highlight.png
+.. |Cast_Shadow| image:: ./_static/sfx/Special_FX_List/Light/Cast_Shadow.png
+.. |Glow| image:: ./_static/sfx/Special_FX_List/Light/Glow.png
+.. |Light_Spot| image:: ./_static/sfx/Special_FX_List/Light/Light_Spot.png
+.. |Raylit| image:: ./_static/sfx/Special_FX_List/Light/Raylit.png
+.. |Color_Raylit| image:: ./_static/sfx/Special_FX_List/Light/Color_Raylit.png
+.. |Target_Spot| image:: ./_static/sfx/Special_FX_List/Light/Target_Spot.png
+.. |Erode_Dilate| image:: ./_static/sfx/Special_FX_List/Matte/Erode_Dilate.png
+.. |HSV_Key| image:: ./_static/sfx/Special_FX_List/Matte/HSV_Key.png
+.. |Matte_In| image:: ./_static/sfx/Special_FX_List/Matte/Matte_In.png
+.. |Matte_Out| image:: ./_static/sfx/Special_FX_List/Matte/Matte_Out.png
+.. |RGB_Key| image:: ./_static/sfx/Special_FX_List/Matte/RGB_Key.png
+.. |Visible_Matte_In| image:: ./_static/sfx/Special_FX_List/Matte/Visible_Matte_In.png
+.. |Noise| image:: ./_static/sfx/Special_FX_List/Noise/Noise.png
+.. |Salt_&_Pepper_Noise| image:: ./_static/sfx/Special_FX_List/Noise/Salt_&_Pepper_Noise.png
+.. |Clouds| image:: ./_static/sfx/Special_FX_List/Render/Clouds.png
+.. |particles| image:: ./_static/sfx/Special_FX_List/Render/particles.png
+.. |text_1| image:: ./_static/sfx/Special_FX_List/Render/text_1.png
+.. |text_2| image:: ./_static/sfx/Special_FX_List/Render/text_2.png
+.. |Color_Emboss| image:: ./_static/sfx/Special_FX_List/Stylize/Color_Emboss.png
+.. |Emboss| image:: ./_static/sfx/Special_FX_List/Stylize/Emboss.png
+.. |Mosaic| image:: ./_static/sfx/Special_FX_List/Stylize/Mosaic.png
+.. |Posterize| image:: ./_static/sfx/Special_FX_List/Stylize/Posterize.png
+.. |Solarize| image:: ./_static/sfx/Special_FX_List/Stylize/Solarize.png
+.. |Art_Contour| image:: ./_static/sfx/Special_FX_List/Toonz_Level/Art_Contour.png
+.. |Calligraphic_Line| image:: ./_static/sfx/Special_FX_List/Toonz_Level/Calligraphic_Line.png
+.. |Color_Blending| image:: ./_static/sfx/Special_FX_List/Toonz_Level/Color_Blending.png
+.. |External_Palette| image:: ./_static/sfx/Special_FX_List/Toonz_Level/External_Palette.png
+.. |Outline| image:: ./_static/sfx/Special_FX_List/Toonz_Level/Outline.png
+.. |Palette_Filter| image:: ./_static/sfx/Special_FX_List/Toonz_Level/Palette_Filter.png
+.. |Pinned_Texture| image:: ./_static/sfx/Special_FX_List/Toonz_Level/Pinned_Texture.png
 	:width: 45%
-.. |Pinned_Texture_2| image:: /_static/sfx/Special_FX_List/Toonz_Level/Pinned_Texture_2.png
+.. |Pinned_Texture_2| image:: ./_static/sfx/Special_FX_List/Toonz_Level/Pinned_Texture_2.png
 	:width: 45%
-.. |Texture| image:: /_static/sfx/Special_FX_List/Toonz_Level/Texture.png
-.. |Caustic| image:: /_static/sfx/Special_FX_List/Shaders/Caustic.png
-.. |Fireball| image:: /_static/sfx/Special_FX_List/Shaders/Fireball.png
-.. |Glitter| image:: /_static/sfx/Special_FX_List/Shaders/Glitter.png
-.. |Star_Sky| image:: /_static/sfx/Special_FX_List/Shaders/Star_Sky.png
-.. |Sun_Flare| image:: /_static/sfx/Special_FX_List/Shaders/Sun_Flare.png
-.. |Wavy| image:: /_static/sfx/Special_FX_List/Shaders/Wavy.png
-.. |GPU_Radial_Blur| image:: /_static/sfx/Special_FX_List/Shaders/GPU_Radial_Blur.png
-.. |GPU_Spin_Blur| image:: /_static/sfx/Special_FX_List/Shaders/GPU_Spin_Blur.png
-.. |camera| image:: /_static/sfx/camera.png
-.. |camera_stand| image:: /_static/sfx/camera_stand.png
-.. |fit_to_window| image:: /_static/sfx/fit_to_window.png
-.. |focus_on_current| image:: /_static/sfx/focus_on_current.png
-.. |fx| image:: /_static/sfx/fx.png
-.. |key| image:: /_static/sfx/key.png
-.. |maximize| image:: /_static/sfx/maximize.png
-.. |minimize| image:: /_static/sfx/minimize.png
-.. |next_key| image:: /_static/sfx/next_key.png
-.. |output| image:: /_static/sfx/output.png
-.. |preview_black| image:: /_static/sfx/preview_black.png
-.. |preview_checkbox| image:: /_static/sfx/preview_checkbox.png
-.. |preview_white| image:: /_static/sfx/preview_white.png
-.. |preview| image:: /_static/sfx/preview.png
-.. |prevkey| image:: /_static/sfx/prevkey.png
-.. |reorder_nodes| image:: /_static/sfx/reorder_nodes.png
-.. |reset| image:: /_static/sfx/reset.png
-.. |schematic| image:: /_static/sfx/schematic.png
-.. |dwanko_before_fx| image:: /_static/sfx/dwanko_before_fx.png
+.. |Texture| image:: ./_static/sfx/Special_FX_List/Toonz_Level/Texture.png
+.. |Caustic| image:: ./_static/sfx/Special_FX_List/Shaders/Caustic.png
+.. |Fireball| image:: ./_static/sfx/Special_FX_List/Shaders/Fireball.png
+.. |Glitter| image:: ./_static/sfx/Special_FX_List/Shaders/Glitter.png
+.. |Star_Sky| image:: ./_static/sfx/Special_FX_List/Shaders/Star_Sky.png
+.. |Sun_Flare| image:: ./_static/sfx/Special_FX_List/Shaders/Sun_Flare.png
+.. |Wavy| image:: ./_static/sfx/Special_FX_List/Shaders/Wavy.png
+.. |GPU_Radial_Blur| image:: ./_static/sfx/Special_FX_List/Shaders/GPU_Radial_Blur.png
+.. |GPU_Spin_Blur| image:: ./_static/sfx/Special_FX_List/Shaders/GPU_Spin_Blur.png
+.. |camera| image:: ./_static/sfx/camera.png
+.. |camera_stand| image:: ./_static/sfx/camera_stand.png
+.. |fit_to_window| image:: ./_static/sfx/fit_to_window.png
+.. |focus_on_current| image:: ./_static/sfx/focus_on_current.png
+.. |fx| image:: ./_static/sfx/fx.png
+.. |key| image:: ./_static/sfx/key.png
+.. |maximize| image:: ./_static/sfx/maximize.png
+.. |minimize| image:: ./_static/sfx/minimize.png
+.. |next_key| image:: ./_static/sfx/next_key.png
+.. |output| image:: ./_static/sfx/output.png
+.. |preview_black| image:: ./_static/sfx/preview_black.png
+.. |preview_checkbox| image:: ./_static/sfx/preview_checkbox.png
+.. |preview_white| image:: ./_static/sfx/preview_white.png
+.. |preview| image:: ./_static/sfx/preview.png
+.. |prevkey| image:: ./_static/sfx/prevkey.png
+.. |reorder_nodes| image:: ./_static/sfx/reorder_nodes.png
+.. |reset| image:: ./_static/sfx/reset.png
+.. |schematic| image:: ./_static/sfx/schematic.png
+.. |dwanko_before_fx| image:: ./_static/sfx/dwanko_before_fx.png
 	:width: 45%
-.. |dwanko_after_fx| image:: /_static/sfx/dwanko_after_fx.png
+.. |dwanko_after_fx| image:: ./_static/sfx/dwanko_after_fx.png
 	:width: 45%
 
 
-.. |FX_Browser_es| image:: /_static/sfx/es/fx_browser.png
-.. |Basic_FX_Example_es| image:: /_static/sfx/es/fx_example_basic.png
-.. |Combined_FX_Example_es| image:: /_static/sfx/es/fx_example_combined.png
-.. |Generated_FX_Example_es| image:: /_static/sfx/es/fx_example_generated.png
-.. |FX_Settings_Example_es| image:: /_static/sfx/es/fx_example_settings.png
-.. |Defining_Colors_Example_es| image:: /_static/sfx/es/fx_example_defining_colors.png
-.. |Creating_Presets_Example_es| image:: /_static/sfx/es/fx_example_creating_presets.png
+.. |FX_Browser_es| image:: ./_static/sfx/es/fx_browser.png
+.. |Basic_FX_Example_es| image:: ./_static/sfx/es/fx_example_basic.png
+.. |Combined_FX_Example_es| image:: ./_static/sfx/es/fx_example_combined.png
+.. |Generated_FX_Example_es| image:: ./_static/sfx/es/fx_example_generated.png
+.. |FX_Settings_Example_es| image:: ./_static/sfx/es/fx_example_settings.png
+.. |Defining_Colors_Example_es| image:: ./_static/sfx/es/fx_example_defining_colors.png
+.. |Creating_Presets_Example_es| image:: ./_static/sfx/es/fx_example_creating_presets.png

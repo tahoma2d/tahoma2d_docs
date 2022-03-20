@@ -268,7 +268,7 @@ In the second case, the hook is used as the center of the column/layer where the
 Hooks can also be split and passed from one drawing feature to another, automatically creating an offset position. For example, the hook following the character’s foot feature can pass from one foot to another, in order to make the character move continuously onward.
 
 
-.. figure:: /_static/movements/hooks.png
+.. figure:: ./_static/movements/hooks.png
 
    The hook set 2 follows the lamp, while the hook set 1 follows the character’s feet, passing from one feet to another when both are on the ground.
 
@@ -336,7 +336,7 @@ Hook information is saved along with each level, as a file in XML format, named 
     3. **Click and drag up** the double-arrow button to scroll the numbers available before letter A, and release the mouse button to define the hook number to be used.
 
 
-    .. figure:: /_static/movements/link_to_hooks.png
+    .. figure:: ./_static/movements/link_to_hooks.png
 
        Column 3 is linked to the hook set 2 of column 2, while column 2 is moving according to its own hook set 1.
 
@@ -638,7 +638,7 @@ Objects can be moved along a motion path according to two different type of move
 A motion path can be assigned to an object node in the Stage Schematic, and it can be defined with drawing tools and edited in the viewer as if it was a vector drawing. Once defined, it's displayed as a dashed red line, with small numbers indicating the control points defining the vector stroke.
 
 
-.. figure:: /_static/movements/motion_path.png
+.. figure:: ./_static/movements/motion_path.png
 
    A motion path assigned to pegbar 2.
 
@@ -931,54 +931,54 @@ The size of the objects changes according to its Z position, like in a real 3D e
 
 
 
-.. |stage_schematic| image:: /_static/movements/stage_schematic.png
-.. |adv_linking_1| image:: /_static/movements/adv_linking_1.png
-.. |adv_linking_2| image:: /_static/movements/adv_linking_2.png
-.. |tracking_regions| image:: /_static/movements/tracking_regions.png
-.. |tracking_options| image:: /_static/movements/tracking_options.png
-.. |animate_tool_position| image:: /_static/movements/animate_tool_position.png
-.. |animate_tool_rotation| image:: /_static/movements/animate_tool_rotation.png
-.. |animate_tool_scale| image:: /_static/movements/animate_tool_scale.png
-.. |animate_tool_shear| image:: /_static/movements/animate_tool_shear.png
-.. |animate_tool_center| image:: /_static/movements/animate_tool_center.png
-.. |animate_tool_all| image:: /_static/movements/animate_tool_all.png
-.. |animate_tool_handle| image:: /_static/movements/animate_tool_handle.png
-.. |animate_tool_handle_rotate| image:: /_static/movements/animate_tool_handle_rotate.png
-.. |animate_tool_handle_scale| image:: /_static/movements/animate_tool_handle_scale.png
-.. |animate_tool_handle_scaleHV| image:: /_static/movements/animate_tool_handle_scaleHV.png
-.. |animate_tool_handle_shear| image:: /_static/movements/animate_tool_handle_shear.png
-.. |animate_tool_handle_center| image:: /_static/movements/animate_tool_handle_center.png
-.. |using_column_keys| image:: /_static/movements/using_column_keys.png
+.. |stage_schematic| image:: ./_static/movements/stage_schematic.png
+.. |adv_linking_1| image:: ./_static/movements/adv_linking_1.png
+.. |adv_linking_2| image:: ./_static/movements/adv_linking_2.png
+.. |tracking_regions| image:: ./_static/movements/tracking_regions.png
+.. |tracking_options| image:: ./_static/movements/tracking_options.png
+.. |animate_tool_position| image:: ./_static/movements/animate_tool_position.png
+.. |animate_tool_rotation| image:: ./_static/movements/animate_tool_rotation.png
+.. |animate_tool_scale| image:: ./_static/movements/animate_tool_scale.png
+.. |animate_tool_shear| image:: ./_static/movements/animate_tool_shear.png
+.. |animate_tool_center| image:: ./_static/movements/animate_tool_center.png
+.. |animate_tool_all| image:: ./_static/movements/animate_tool_all.png
+.. |animate_tool_handle| image:: ./_static/movements/animate_tool_handle.png
+.. |animate_tool_handle_rotate| image:: ./_static/movements/animate_tool_handle_rotate.png
+.. |animate_tool_handle_scale| image:: ./_static/movements/animate_tool_handle_scale.png
+.. |animate_tool_handle_scaleHV| image:: ./_static/movements/animate_tool_handle_scaleHV.png
+.. |animate_tool_handle_shear| image:: ./_static/movements/animate_tool_handle_shear.png
+.. |animate_tool_handle_center| image:: ./_static/movements/animate_tool_handle_center.png
+.. |using_column_keys| image:: ./_static/movements/using_column_keys.png
 
-.. |animate| image:: /_static/movements/animate.png
-.. |hand| image:: /_static/movements/hand.png
-.. |hook| image:: /_static/movements/hook.png
-.. |rotate| image:: /_static/movements/rotate.png
-.. |tracker| image:: /_static/movements/tracker.png
-.. |selection| image:: /_static/movements/selection.png
-.. |3d| image:: /_static/movements/3d.png
-.. |camera_stand| image:: /_static/movements/camera_stand.png
-.. |camera_view| image:: /_static/movements/camera_view.png
-.. |camera| image:: /_static/movements/camera.png
-.. |circular_arrow| image:: /_static/movements/circular_arrow.png
-.. |fit_to_window| image:: /_static/movements/fit_to_window.png
-.. |focus_on_current| image:: /_static/movements/focus_on_current.png
-.. |key| image:: /_static/movements/key.png
-.. |link_to_control_points| image:: /_static/movements/link_to_control_points.png
-.. |lock| image:: /_static/movements/lock.png
-.. |maximize| image:: /_static/movements/maximize.png
-.. |minimize| image:: /_static/movements/minimize.png
-.. |new_motion_path| image:: /_static/movements/new_motion_path.png
-.. |next_key| image:: /_static/movements/next_key.png
-.. |option| image:: /_static/movements/option.png
-.. |pegbar| image:: /_static/movements/pegbar.png
-.. |preview| image:: /_static/movements/preview.png
-.. |prevkey| image:: /_static/movements/prevkey.png
-.. |reorder_nodes| image:: /_static/movements/reorder_nodes.png
-.. |reset| image:: /_static/movements/reset.png
-.. |rhomb| image:: /_static/movements/rhomb.png
-.. |schematic| image:: /_static/movements/schematic.png
-.. |side_view| image:: /_static/movements/side_view.png
-.. |square| image:: /_static/movements/square.png
-.. |switch_output_port| image:: /_static/movements/switch_output_port.png
-.. |top_view| image:: /_static/movements/top_view.png
+.. |animate| image:: ./_static/movements/animate.png
+.. |hand| image:: ./_static/movements/hand.png
+.. |hook| image:: ./_static/movements/hook.png
+.. |rotate| image:: ./_static/movements/rotate.png
+.. |tracker| image:: ./_static/movements/tracker.png
+.. |selection| image:: ./_static/movements/selection.png
+.. |3d| image:: ./_static/movements/3d.png
+.. |camera_stand| image:: ./_static/movements/camera_stand.png
+.. |camera_view| image:: ./_static/movements/camera_view.png
+.. |camera| image:: ./_static/movements/camera.png
+.. |circular_arrow| image:: ./_static/movements/circular_arrow.png
+.. |fit_to_window| image:: ./_static/movements/fit_to_window.png
+.. |focus_on_current| image:: ./_static/movements/focus_on_current.png
+.. |key| image:: ./_static/movements/key.png
+.. |link_to_control_points| image:: ./_static/movements/link_to_control_points.png
+.. |lock| image:: ./_static/movements/lock.png
+.. |maximize| image:: ./_static/movements/maximize.png
+.. |minimize| image:: ./_static/movements/minimize.png
+.. |new_motion_path| image:: ./_static/movements/new_motion_path.png
+.. |next_key| image:: ./_static/movements/next_key.png
+.. |option| image:: ./_static/movements/option.png
+.. |pegbar| image:: ./_static/movements/pegbar.png
+.. |preview| image:: ./_static/movements/preview.png
+.. |prevkey| image:: ./_static/movements/prevkey.png
+.. |reorder_nodes| image:: ./_static/movements/reorder_nodes.png
+.. |reset| image:: ./_static/movements/reset.png
+.. |rhomb| image:: ./_static/movements/rhomb.png
+.. |schematic| image:: ./_static/movements/schematic.png
+.. |side_view| image:: ./_static/movements/side_view.png
+.. |square| image:: ./_static/movements/square.png
+.. |switch_output_port| image:: ./_static/movements/switch_output_port.png
+.. |top_view| image:: ./_static/movements/top_view.png

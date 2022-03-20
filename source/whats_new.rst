@@ -11,7 +11,7 @@ Here, you can also find links to past versions' Release Notes, to keep track of 
 .. _v1.2:
 
 New in Tahoma2D 1.2
------------------
+-------------------
 
 Animation
 '''''''''''
@@ -26,12 +26,12 @@ Preferences
 - |enhancement| Update external app handling
 
 Import/Export
-'''''''
+'''''''''''''
 
 - |new| Support MOV formats through ffmpeg
 
 Commands
-'''''''
+''''''''
 
 - |enhancement| Export Scene enhancements
 
@@ -50,7 +50,7 @@ Level
 - |new| Convert To Vector : Align Boundary Strokes Direction Option (OpenToonz port)
 
 Lip Sync
-'''''''
+''''''''
 
 - |new| Incorporate Rhubarb Lip Sync
 
@@ -60,7 +60,7 @@ Palette
 - |new| New Color Keys Global Palette (OpenToonz port)
 
 Project Management
-'''''''
+''''''''''''''''''
 
 - |new| Restore and update project management
 - |new| Recent Projects and Default Project Location
@@ -74,7 +74,7 @@ Rooms
 - |new| Added Command Bar to 2D room. Added History Room.
 
 Timeline/Xsheet
-'''''''
+'''''''''''''''
 
 - |enhancement| Make setting markers easier
 - |new| Option to show the color of the parent column in the header
@@ -97,7 +97,7 @@ UI
 - |enhancement| Display file paths in Scene Cast
 
 Other
-''''
+'''''
 
 - |new| Add CrashRpt (Windows only)
 
@@ -113,7 +113,7 @@ Fixes
 - Many more…
 
 Deprecated
-'''''''
+''''''''''
 
 - |removed| Remove Camera Capture Popup Window
 - |removed| Remove all things Quicktime
@@ -139,12 +139,12 @@ Here you can find links to previous versions' full Release Notes, hosted in GitH
 
 
 
-.. |new| image:: /_static/whats_new/new.png
-.. |enhancement| image:: /_static/whats_new/enhancement.png
-.. |fix| image:: /_static/whats_new/fix.png
-.. |removed| image:: /_static/whats_new/removed.png
+.. |new| image:: ./_static/whats_new/new.png
+.. |enhancement| image:: ./_static/whats_new/enhancement.png
+.. |fix| image:: ./_static/whats_new/fix.png
+.. |removed| image:: ./_static/whats_new/removed.png
 
-.. |new_es| image:: /_static/whats_new/es/new.png
-.. |enhancement_es| image:: /_static/whats_new/es/enhancement.png
-.. |fix_es| image:: /_static/whats_new/es/fix.png
+.. |new_es| image:: ./_static/whats_new/es/new.png
+.. |enhancement_es| image:: ./_static/whats_new/es/enhancement.png
+.. |fix_es| image:: ./_static/whats_new/es/fix.png
 
