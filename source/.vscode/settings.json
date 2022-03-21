@@ -1,5 +1,5 @@
 {
-    "esbonio.sphinx.buildDir": "..\\build",
+    "esbonio.sphinx.buildDir": "${confDir}\\..\\build",
     "esbonio.sphinx.confDir": "",
     "restructuredtext.linter.disabledLinters": [
         "doc8",
