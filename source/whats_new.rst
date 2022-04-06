@@ -1,7 +1,7 @@
 .. _whats_new:
 
 What's New in Tahoma2D
-=======================
+======================
 
 Tahoma2D includes a number of improvements from OpenToonz.  It also includes the latest features and bug fixes from OpenToonz.
 
@@ -11,10 +11,10 @@ Here, you can also find links to past versions' Release Notes, to keep track of 
 .. _v1.3:
 
 New in Tahoma2D 1.3
------------------
+-------------------
 
 Timeline/Xsheet
-'''''''''''
+'''''''''''''''
 
 - |new| Implicit Frame Hold
 - |new| Timeline/Xsheet navigation tags
@@ -31,7 +31,7 @@ Timeline/Xsheet
  
 
 Tools/Tool Options
-'''''''''''
+''''''''''''''''''
 
 - |new| Add referenced fills
 - |new| Perspective Grid Tool
@@ -49,13 +49,13 @@ Tools/Tool Options
 
 
 Command/Quick Toolbar
-'''''''
+'''''''''''''''''''''
 
 - |new| Add Auto creation option commands/buttons
 - |enhancement| Enable single click expansion on Quicktoolbar categories
 
 Preferences/Settings
-'''''''
+''''''''''''''''''''
 
 - |enhancement| Change Default Level Type to Raster
 - |new| Current Column/Cell Indicator color
@@ -64,13 +64,13 @@ Preferences/Settings
 - Project Settings-aware Frame Number Field Width *(OpenToonz port)*
 
 Stop Motion
-'''''''''
+'''''''''''
 
 - |new| Stop Motion Camera Calibration
 - |enhancement| Stop motion play sound on capture and deciseconds resolution *(OpenToonz port)*
 
 Style Editor/Palette
-'''''''
+''''''''''''''''''''
 
 - |new| Style set management
 - |new| Hex color names editor *(OpenToonz port)*
@@ -80,14 +80,14 @@ Style Editor/Palette
 - |enhancement| Style Editor: Move "toggle orientation" button in the menu *(OpenToonz port)*
 
 Viewer
-'''''''
+''''''
 
 - Add View Check indicators to Viewer
 - |enhancement| Add additional zoom levels to the zoom in/out commands.
 - |new| 30 bit display feature *(OpenToonz port)*
 
 Fx
-'''''''
+'''
 
 - |enhancement| Allow renaming of revamped Pass Through Fx nodes
 - |new| Add Fx Global Controls *(OpenToonz port)*
@@ -106,26 +106,26 @@ Fx
 - Update Shader Fx: HSL Blend GPU *(OpenToonz port)*
 
 File Browser
-'''''''
+''''''''''''
 
 - |new| Add Tahoma2D Stuff and Downloads folder access from Browser
 - |enhancement| Enable To View Palette Files From the File Browser *(OpenToonz port)*
 
 Flipbook
-'''''''
+''''''''
 
 - |enhancement| Enhance Flipbook playback *(OpenToonz port)*
 - |enhancement| Modify Flipbook Histogram *(OpenToonz port)*
 
 Audio
-'''''''
+'''''
 
 - |enhancement| Enhanced WAV support
 - |enhancement| Changed default sound column volume to 100%.
 - |enhancement| Improvements to Audio Recording *(OpenToonz port)*
 
 Export
-'''''''
+''''''
 
 - |new| Export Xsheet to PDF *(OpenToonz port)*
 - |new| TVPaint JSON export (Experimental feature) *(OpenToonz port)*
@@ -133,7 +133,7 @@ Export
 - |enhancement| Modify Export Xsheet PDF feature *(OpenToonz port)*
 
 UI
-'''''''
+'''
 
 - |enhancement| Change Level Editor background for Vector levels
 - |enhancement| Change UI highlight color
@@ -144,7 +144,7 @@ UI
 - |enhancement| Update labels to Guided Tweening
 
 Other
-''''
+'''''
 
 - |new| Update ffmpeg to v5.0
 - |new| Add FreeBSD support *(OpenToonz port)*
@@ -155,7 +155,7 @@ Other
 - |enhancement| Improve Tablet Response (Windows Only) *(OpenToonz port)*
 
 Fixes
-'''''''''
+'''''
 
 - |fix| Fix crash adding Fx while on Camera column
 - |fix| Fix loading plugins on Linux
