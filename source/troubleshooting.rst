@@ -5,7 +5,7 @@ Troubleshooting
 
 Below is a list of potential problems with each operating system and how to fix them.
 
-If you encounter a problem that is not mentioned below, please `open an issue in GitHub <https://github.com/tahoma2d/tahoma2d/issues/new?assignees=&labels=bug&template=bug_report.md&title=>`_ so that the developers can work on the problem and others can help you with a solution.
+If you encounter a problem that is not mentioned below, please `submit an issue on GitHub <https://github.com/tahoma2d/tahoma2d/issues/new?assignees=&labels=bug&template=bug_report.md&title=>`_ so that the developers can work on the problem and others can help you with a solution.
 
 If you have a solution to a problem that is not listed below, we appreciate your help in improving this section by clicking the *Edit on GitHub* button at the top of this page.
 
