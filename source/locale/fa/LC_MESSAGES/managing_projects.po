@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tahoma 1.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-24 05:16+0330\n"
+"POT-Creation-Date: 2022-03-19 07:31+0330\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -61,7 +61,7 @@ msgstr ""
 msgid "|new_project|"
 msgstr ""
 
-#: ../../source/managing_projects.rst:281
+#: ../../source/managing_projects.rst:280
 msgid "new_project"
 msgstr ""
 
@@ -457,7 +457,7 @@ msgstr ""
 msgid "|scenepath_variable|"
 msgstr ""
 
-#: ../../source/managing_projects.rst:282
+#: ../../source/managing_projects.rst:281
 msgid "scenepath_variable"
 msgstr ""
 
@@ -519,7 +519,7 @@ msgstr ""
 msgid "|append_scenepath|"
 msgstr ""
 
-#: ../../source/managing_projects.rst:283
+#: ../../source/managing_projects.rst:282
 msgid "append_scenepath"
 msgstr ""
 
@@ -563,8 +563,7 @@ msgstr ""
 #: ../../source/managing_projects.rst:203
 msgid ""
 "In case more than one projectroot is defined, each will be listed with "
-"the related projectroot value in brackets (see  :ref:`Setting the "
-"Projectroot <setting_the_projectroot>`  )."
+"the related projectroot value in brackets."
 msgstr ""
 
 #: ../../source/managing_projects.rst:208
@@ -734,15 +733,22 @@ msgid ""
 "drawings/seq01/scene01`` on Macintosh."
 msgstr ""
 
-#: ../../source/managing_projects.rst:280
-msgid "additional_project_locations"
-msgstr ""
-
-#: ../../source/managing_projects.rst:285
+#: ../../source/managing_projects.rst:284
 msgid "additional_project_locations_es"
 msgstr ""
 
-#: ../../source/managing_projects.rst:286
+#: ../../source/managing_projects.rst:285
 msgid "new_project_es"
 msgstr ""
+
+#~ msgid ""
+#~ "In case more than one projectroot "
+#~ "is defined, each will be listed "
+#~ "with the related projectroot value in"
+#~ " brackets (see  :ref:`Setting the "
+#~ "Projectroot <setting_the_projectroot>`  )."
+#~ msgstr ""
+
+#~ msgid "additional_project_locations"
+#~ msgstr ""
 

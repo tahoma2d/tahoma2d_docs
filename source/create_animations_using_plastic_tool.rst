@@ -552,28 +552,28 @@ A Subscene is a valid object for the Plastic tool, and all or some of its column
 
 
 
-.. |plastic| image:: /_static/plastic_tool/plastic.png
-.. |plastic_tool_example| image:: /_static/plastic_tool/plastic_tool_example.png
-.. |create_mesh| image:: /_static/plastic_tool/create_mesh.png
-.. |create_mesh_options| image:: /_static/plastic_tool/create_mesh_options.png
-.. |create_mesh_warning| image:: /_static/plastic_tool/create_mesh_warning.png
-.. |edit_mesh_mode| image:: /_static/plastic_tool/edit_mesh_mode.png
-.. |swap-collapse-split_edge| image:: /_static/plastic_tool/swap-collapse-split_edge.png
-.. |cut_mesh| image:: /_static/plastic_tool/cut_mesh.png
-.. |build_skeleton_mode| image:: /_static/plastic_tool/build_skeleton_mode.png
-.. |build_skeleton| image:: /_static/plastic_tool/build_skeleton.png
-.. |multiple_skeletons| image:: /_static/plastic_tool/multiple_skeletons.png
-.. |copy_skeleton| image:: /_static/plastic_tool/copy_skeleton.png
-.. |animate_mode| image:: /_static/plastic_tool/animate_mode.png
-.. |set_keys| image:: /_static/plastic_tool/set_keys.png
-.. |keep_distance| image:: /_static/plastic_tool/keep_distance.png
-.. |paint_rigid_mode| image:: /_static/plastic_tool/paint_rigid_mode.png
-.. |paint_rigid_options_rigid| image:: /_static/plastic_tool/paint_rigid_options_rigid.png
-.. |paint_rigid_options_flex| image:: /_static/plastic_tool/paint_rigid_options_flex.png
-.. |display_options| image:: /_static/plastic_tool/display_options.png
-.. |display_options_mesh| image:: /_static/plastic_tool/display_options_mesh.png
-.. |display_options_rigidity| image:: /_static/plastic_tool/display_options_rigidity.png
-.. |display_options_so| image:: /_static/plastic_tool/display_options_so.png
-.. |display_options_onion_skin| image:: /_static/plastic_tool/display_options_onion_skin.png
-.. |plastic_data_in_function_editor| image:: /_static/plastic_tool/plastic_data_in_function_editor.png
+.. |plastic| image:: ./_static/plastic_tool/plastic.png
+.. |plastic_tool_example| image:: ./_static/plastic_tool/plastic_tool_example.png
+.. |create_mesh| image:: ./_static/plastic_tool/create_mesh.png
+.. |create_mesh_options| image:: ./_static/plastic_tool/create_mesh_options.png
+.. |create_mesh_warning| image:: ./_static/plastic_tool/create_mesh_warning.png
+.. |edit_mesh_mode| image:: ./_static/plastic_tool/edit_mesh_mode.png
+.. |swap-collapse-split_edge| image:: ./_static/plastic_tool/swap-collapse-split_edge.png
+.. |cut_mesh| image:: ./_static/plastic_tool/cut_mesh.png
+.. |build_skeleton_mode| image:: ./_static/plastic_tool/build_skeleton_mode.png
+.. |build_skeleton| image:: ./_static/plastic_tool/build_skeleton.png
+.. |multiple_skeletons| image:: ./_static/plastic_tool/multiple_skeletons.png
+.. |copy_skeleton| image:: ./_static/plastic_tool/copy_skeleton.png
+.. |animate_mode| image:: ./_static/plastic_tool/animate_mode.png
+.. |set_keys| image:: ./_static/plastic_tool/set_keys.png
+.. |keep_distance| image:: ./_static/plastic_tool/keep_distance.png
+.. |paint_rigid_mode| image:: ./_static/plastic_tool/paint_rigid_mode.png
+.. |paint_rigid_options_rigid| image:: ./_static/plastic_tool/paint_rigid_options_rigid.png
+.. |paint_rigid_options_flex| image:: ./_static/plastic_tool/paint_rigid_options_flex.png
+.. |display_options| image:: ./_static/plastic_tool/display_options.png
+.. |display_options_mesh| image:: ./_static/plastic_tool/display_options_mesh.png
+.. |display_options_rigidity| image:: ./_static/plastic_tool/display_options_rigidity.png
+.. |display_options_so| image:: ./_static/plastic_tool/display_options_so.png
+.. |display_options_onion_skin| image:: ./_static/plastic_tool/display_options_onion_skin.png
+.. |plastic_data_in_function_editor| image:: ./_static/plastic_tool/plastic_data_in_function_editor.png
 

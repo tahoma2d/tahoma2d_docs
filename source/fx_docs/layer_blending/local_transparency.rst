@@ -38,15 +38,15 @@ Here is the result; the red circle is visible within the black areas of the chec
 
 
 .. Images
-.. |node| image:: /_static/fx_docs/layer_blending/local_transparency/local_transparency_node.png
+.. |node| image:: ../../_static/fx_docs/layer_blending/local_transparency/local_transparency_node.png
 	:scale: 150%
-.. |circle| image:: /_static/fx_docs/layer_blending/local_transparency/local_transparency_circle.png 
+.. |circle| image:: ../../_static/fx_docs/layer_blending/local_transparency/local_transparency_circle.png 
 	:scale: 50%
-.. |checker| image:: /_static/fx_docs/layer_blending/local_transparency/local_transparency_checker.png 
+.. |checker| image:: ../../_static/fx_docs/layer_blending/local_transparency/local_transparency_checker.png 
 	:scale: 50%
-.. |graph| image:: /_static/fx_docs/layer_blending/local_transparency/local_transparency_graph.png
+.. |graph| image:: ../../_static/fx_docs/layer_blending/local_transparency/local_transparency_graph.png
 	:scale: 100%
-.. |example| image:: /_static/fx_docs/layer_blending/local_transparency/local_transparency_example.png
+.. |example| image:: ../../_static/fx_docs/layer_blending/local_transparency/local_transparency_example.png
 	:scale: 50%
-.. |example_2| image:: /_static/fx_docs/layer_blending/local_transparency/local_transparency_example_2.png
+.. |example_2| image:: ../../_static/fx_docs/layer_blending/local_transparency/local_transparency_example_2.png
 	:scale: 50%

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tahoma 1.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-24 05:16+0330\n"
+"POT-Creation-Date: 2022-03-19 07:40+0330\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -242,8 +242,7 @@ msgstr ""
 #: ../../source/working_in_xsheet.rst:73
 msgid ""
 "**Library** displays files and folder located in the "
-"``Projectroot\\library``  folder (see  :ref:`Setting the Projectroot "
-"<setting_the_projectroot>`  )."
+"``Projectroot\\library``  folder."
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:75
@@ -263,8 +262,7 @@ msgstr ""
 #: ../../source/working_in_xsheet.rst:79
 msgid ""
 "In case more than one projectroot is defined, each will be displayed with"
-" the related projectroot path in brackets (see  :ref:`Setting the "
-"Projectroot <setting_the_projectroot>`  )."
+" the related projectroot path in brackets."
 msgstr ""
 
 #: ../../source/working_in_xsheet.rst:81
@@ -4389,4 +4387,19 @@ msgstr ""
 #: ../../source/working_in_xsheet.rst:1686
 msgid "skeleton"
 msgstr ""
+
+#~ msgid ""
+#~ "**Library** displays files and folder "
+#~ "located in the ``Projectroot\\library``  "
+#~ "folder (see  :ref:`Setting the Projectroot "
+#~ "<setting_the_projectroot>`  )."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In case more than one projectroot "
+#~ "is defined, each will be displayed "
+#~ "with the related projectroot path in "
+#~ "brackets (see  :ref:`Setting the Projectroot"
+#~ " <setting_the_projectroot>`  )."
+#~ msgstr ""
 

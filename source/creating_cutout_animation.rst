@@ -285,16 +285,16 @@ The pinned centers information and coordinates are saved along with the scene; i
 
 
 
-.. |animate| image:: /_static/cutout_animation/animate.png
-.. |hook| image:: /_static/cutout_animation/hook.png
-.. |skeleton| image:: /_static/cutout_animation/skeleton.png
-.. |key| image:: /_static/cutout_animation/key.png
-.. |character_model_sample| image:: /_static/cutout_animation/character_model_sample.png
-.. |handle| image:: /_static/cutout_animation/handle.png
-.. |basic_model| image:: /_static/cutout_animation/basic_model.png
-.. |hook_model_0| image:: /_static/cutout_animation/hook_model_0.png
-.. |hook_model_1| image:: /_static/cutout_animation/hook_model_1.png
-.. |hook_model_2| image:: /_static/cutout_animation/hook_model_2.png
-.. |hook_model_3| image:: /_static/cutout_animation/hook_model_3.png
-.. |inverse_kinematics| image:: /_static/cutout_animation/inverse_kinematics.png
+.. |animate| image:: ./_static/cutout_animation/animate.png
+.. |hook| image:: ./_static/cutout_animation/hook.png
+.. |skeleton| image:: ./_static/cutout_animation/skeleton.png
+.. |key| image:: ./_static/cutout_animation/key.png
+.. |character_model_sample| image:: ./_static/cutout_animation/character_model_sample.png
+.. |handle| image:: ./_static/cutout_animation/handle.png
+.. |basic_model| image:: ./_static/cutout_animation/basic_model.png
+.. |hook_model_0| image:: ./_static/cutout_animation/hook_model_0.png
+.. |hook_model_1| image:: ./_static/cutout_animation/hook_model_1.png
+.. |hook_model_2| image:: ./_static/cutout_animation/hook_model_2.png
+.. |hook_model_3| image:: ./_static/cutout_animation/hook_model_3.png
+.. |inverse_kinematics| image:: ./_static/cutout_animation/inverse_kinematics.png
 

@@ -833,20 +833,20 @@ Example expressions
    example_expressions
 
 
-.. |function_editor_1| image:: /_static/function_editor/function_editor_1.png
-.. |function_editor_spreadsheet| image:: /_static/function_editor/function_editor_spreadsheet.png
-.. |function_editor_grapheditor| image:: /_static/function_editor/function_editor_grapheditor.png
-.. |function_editor_iLinear| image:: /_static/function_editor/function_editor_iLinear.png
-.. |function_editor_iSpeed| image:: /_static/function_editor/function_editor_iSpeed.png
-.. |function_editor_iEase| image:: /_static/function_editor/function_editor_iEase.png
-.. |function_editor_iEasePer| image:: /_static/function_editor/function_editor_iEasePer.png
-.. |function_editor_iExpon| image:: /_static/function_editor/function_editor_iExpon.png
-.. |function_editor_iExpres| image:: /_static/function_editor/function_editor_iExpres.png
-.. |function_editor_iFile| image:: /_static/function_editor/function_editor_iFile.png
-.. |function_editor_iConst| image:: /_static/function_editor/function_editor_iConst.png
-.. |function_editor_iSimilar| image:: /_static/function_editor/function_editor_iSimilar.png
-.. |animate| image:: /_static/function_editor/animate.png
-.. |key| image:: /_static/function_editor/key.png
-.. |next_key| image:: /_static/function_editor/next_key.png
-.. |prevkey| image:: /_static/function_editor/prevkey.png
-.. |schematic| image:: /_static/function_editor/schematic.png
+.. |function_editor_1| image:: ./_static/function_editor/function_editor_1.png
+.. |function_editor_spreadsheet| image:: ./_static/function_editor/function_editor_spreadsheet.png
+.. |function_editor_grapheditor| image:: ./_static/function_editor/function_editor_grapheditor.png
+.. |function_editor_iLinear| image:: ./_static/function_editor/function_editor_iLinear.png
+.. |function_editor_iSpeed| image:: ./_static/function_editor/function_editor_iSpeed.png
+.. |function_editor_iEase| image:: ./_static/function_editor/function_editor_iEase.png
+.. |function_editor_iEasePer| image:: ./_static/function_editor/function_editor_iEasePer.png
+.. |function_editor_iExpon| image:: ./_static/function_editor/function_editor_iExpon.png
+.. |function_editor_iExpres| image:: ./_static/function_editor/function_editor_iExpres.png
+.. |function_editor_iFile| image:: ./_static/function_editor/function_editor_iFile.png
+.. |function_editor_iConst| image:: ./_static/function_editor/function_editor_iConst.png
+.. |function_editor_iSimilar| image:: ./_static/function_editor/function_editor_iSimilar.png
+.. |animate| image:: ./_static/function_editor/animate.png
+.. |key| image:: ./_static/function_editor/key.png
+.. |next_key| image:: ./_static/function_editor/next_key.png
+.. |prevkey| image:: ./_static/function_editor/prevkey.png
+.. |schematic| image:: ./_static/function_editor/schematic.png

@@ -484,7 +484,7 @@ File Settings
 
   .. note:: Tahoma supports the 3GP and MOV formats by using the 32-bit version of QuickTime.
   
-  To save in other popular video formats, like MP4 and WebM, Tahoma uses FFmpeg (a free software project that produces libraries and programs for handling multimedia data). Once FFmpeg is installed in the system, and configured to work with Tahoma, MP4 and WebM will be listed along the other standard output file formats. For detailed instructions on how to install and configure FFmpeg, please see  :ref:`Using FFmpeg with Tahoma <using_ffmpeg_with_tahoma>`  .
+  To save in other popular video formats, like MP4 and WebM, Tahoma uses FFmpeg (a free software project that produces libraries and programs for handling multimedia data). Once FFmpeg is installed in the system, and configured to work with Tahoma, MP4 and WebM will be listed along the other standard output file formats. For detailed instructions on how to install and configure FFmpeg, please see  :ref:`Using FFmpeg with Tahoma2D <using_ffmpeg_with_tahoma2d>`  .
 
   .. note:: Apart from 3GP, AVI, GIF, MOV, MP4 and WebM, all other formats will output image sequences.
 
@@ -866,30 +866,30 @@ If you are not using the Tahoma render farm, dividing the task into chunks is no
 .. note:: Chunk size is relevant only when animations are rendered as image sequences (for example in TIF or TGA formats).
 
 
-.. |preview_settings_dialog| image:: /_static/rendering/preview_settings_dialog.png
-.. |output_settings_dialog| image:: /_static/rendering/output_settings_dialog.png
-.. |clapperboard| image:: /_static/rendering/clapperboard.png
-.. |tasks_render| image:: /_static/rendering/tasks_render.png
-.. |compare| image:: /_static/rendering/compare.png
-.. |define_preview_subcamera| image:: /_static/rendering/define_preview_subcamera.png
-.. |histogram| image:: /_static/rendering/histogram.png
-.. |option| image:: /_static/rendering/option.png
-.. |preview_black| image:: /_static/rendering/preview_black.png
-.. |preview_checkboard| image:: /_static/rendering/preview_checkboard.png
-.. |preview_white| image:: /_static/rendering/preview_white.png
-.. |preview| image:: /_static/rendering/preview.png
-.. |snapshot| image:: /_static/rendering/snapshot.png
-.. |subcamera_preview| image:: /_static/rendering/subcamera_preview.png
-.. |save| image:: /_static/rendering/save.png
-.. |save_as| image:: /_static/rendering/save_as.png
-.. |load| image:: /_static/rendering/load.png
-.. |add_render| image:: /_static/rendering/add_render.png
-.. |start| image:: /_static/rendering/start.png
-.. |stop| image:: /_static/rendering/stop.png
-.. |remove| image:: /_static/rendering/remove.png
+.. |preview_settings_dialog| image:: ./_static/rendering/preview_settings_dialog.png
+.. |output_settings_dialog| image:: ./_static/rendering/output_settings_dialog.png
+.. |clapperboard| image:: ./_static/rendering/clapperboard.png
+.. |tasks_render| image:: ./_static/rendering/tasks_render.png
+.. |compare| image:: ./_static/rendering/compare.png
+.. |define_preview_subcamera| image:: ./_static/rendering/define_preview_subcamera.png
+.. |histogram| image:: ./_static/rendering/histogram.png
+.. |option| image:: ./_static/rendering/option.png
+.. |preview_black| image:: ./_static/rendering/preview_black.png
+.. |preview_checkboard| image:: ./_static/rendering/preview_checkboard.png
+.. |preview_white| image:: ./_static/rendering/preview_white.png
+.. |preview| image:: ./_static/rendering/preview.png
+.. |snapshot| image:: ./_static/rendering/snapshot.png
+.. |subcamera_preview| image:: ./_static/rendering/subcamera_preview.png
+.. |save| image:: ./_static/rendering/save.png
+.. |save_as| image:: ./_static/rendering/save_as.png
+.. |load| image:: ./_static/rendering/load.png
+.. |add_render| image:: ./_static/rendering/add_render.png
+.. |start| image:: ./_static/rendering/start.png
+.. |stop| image:: ./_static/rendering/stop.png
+.. |remove| image:: ./_static/rendering/remove.png
 
 
-.. |preview_settings_dialog_es| image:: /_static/rendering/es/preview_settings_dialog.png
-.. |output_settings_dialog_es| image:: /_static/rendering/es/output_settings_dialog.png
-.. |clapperboard_es| image:: /_static/rendering/es/clapperboard.png
-.. |tasks_render_es| image:: /_static/rendering/es/tasks_render.png
+.. |preview_settings_dialog_es| image:: ./_static/rendering/es/preview_settings_dialog.png
+.. |output_settings_dialog_es| image:: ./_static/rendering/es/output_settings_dialog.png
+.. |clapperboard_es| image:: ./_static/rendering/es/clapperboard.png
+.. |tasks_render_es| image:: ./_static/rendering/es/tasks_render.png

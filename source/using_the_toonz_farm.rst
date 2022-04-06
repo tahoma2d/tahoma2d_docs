@@ -20,7 +20,7 @@ The Toonz Farm is composed by the following:
 
 - **Client program**: is the program run by the user to queue new tasks and to monitor the Toonz Farm. Tahoma itself is the client program of the Toonz Farm, and can be run on any computer on the network, not necessarily on a controller node or a sever (rendering) node. 
 
-.. note:: In order to render the scenes successfully all the computers involved in the Toonz Farm, controller, servers and clients have to share the same projectroot folders (see  :ref:`Setting the Projectroot <setting_the_projectroot>`  ).
+.. note:: In order to render the scenes successfully all the computers involved in the Toonz Farm, controller, servers and clients have to share the same projectroot folders.
 
 
 .. _installing_the_toonz_farm_on_windows:

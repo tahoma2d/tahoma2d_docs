@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tahoma 1.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-24 05:16+0330\n"
+"POT-Creation-Date: 2022-03-19 07:31+0330\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2263,62 +2263,61 @@ msgid ""
 msgstr ""
 
 #: ../../source/managing_palettes_and_styles.rst:893
-msgid "save_as"
-msgstr ""
-
-#: ../../source/managing_palettes_and_styles.rst:894
 msgid "switch"
 msgstr ""
 
-#: ../../source/managing_palettes_and_styles.rst:897
+#: ../../source/managing_palettes_and_styles.rst:896
 msgid "palette_es"
 msgstr ""
 
-#: ../../source/managing_palettes_and_styles.rst:898
+#: ../../source/managing_palettes_and_styles.rst:897
 msgid "studio_palette_es"
 msgstr ""
 
-#: ../../source/managing_palettes_and_styles.rst:899
+#: ../../source/managing_palettes_and_styles.rst:898
 msgid "regular-imported-linked_style_es"
 msgstr ""
 
-#: ../../source/managing_palettes_and_styles.rst:900
+#: ../../source/managing_palettes_and_styles.rst:899
 msgid "style_editor_color_es"
 msgstr ""
 
-#: ../../source/managing_palettes_and_styles.rst:901
+#: ../../source/managing_palettes_and_styles.rst:900
 msgid "style_editor_texture_es"
 msgstr ""
 
-#: ../../source/managing_palettes_and_styles.rst:902
+#: ../../source/managing_palettes_and_styles.rst:901
 msgid "style_editor_generated_es"
 msgstr ""
 
-#: ../../source/managing_palettes_and_styles.rst:903
+#: ../../source/managing_palettes_and_styles.rst:902
 msgid "style_editor_trail_es"
 msgstr ""
 
-#: ../../source/managing_palettes_and_styles.rst:904
+#: ../../source/managing_palettes_and_styles.rst:903
 msgid "style_editor_vectorbrush_es"
 msgstr ""
 
-#: ../../source/managing_palettes_and_styles.rst:905
+#: ../../source/managing_palettes_and_styles.rst:904
 msgid "style_editor_raster_es"
 msgstr ""
 
-#: ../../source/managing_palettes_and_styles.rst:906
+#: ../../source/managing_palettes_and_styles.rst:905
 msgid "style_editor_settings_es"
 msgstr ""
 
-#: ../../source/managing_palettes_and_styles.rst:907
+#: ../../source/managing_palettes_and_styles.rst:906
 msgid "style_editor_settings-raster_es"
 msgstr ""
 
-#: ../../source/managing_palettes_and_styles.rst:908
+#: ../../source/managing_palettes_and_styles.rst:907
 msgid "palette_gizmo_es"
 msgstr ""
 
-#: ../../source/managing_palettes_and_styles.rst:909
+#: ../../source/managing_palettes_and_styles.rst:908
 msgid "name_editor_es"
 msgstr ""
+
+#~ msgid "save_as"
+#~ msgstr ""
 

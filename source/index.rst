@@ -31,7 +31,6 @@ Tahoma2D User Manual
    interface_overview
    managing_projects
    setting_up_a_scene
-   scanning_paper_drawings
    cleaning-up_scanned_drawings
    drawing_animation_levels
    editing_animation_levels

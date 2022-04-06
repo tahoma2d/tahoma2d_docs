@@ -200,7 +200,7 @@ The project browser is available at the end of the file browser tree. It lists a
 
 The name of the folders which the aliases point to are displayed in blue. 
 
-.. note:: In case more than one projectroot is defined, each will be listed with the related projectroot value in brackets (see  :ref:`Setting the Projectroot <setting_the_projectroot>`  ).
+.. note:: In case more than one projectroot is defined, each will be listed with the related projectroot value in brackets.
 
 .. _default_folders_with_relative_paths:
 
@@ -277,10 +277,9 @@ If the $scenepath is used in the folder definition, with **+drawings** that is `
 
 
 
-.. |additional_project_locations| image:: /_static/managing_projects/additional_project_locations.png
-.. |new_project| image:: /_static/managing_projects/new_project_dialog.png
-.. |scenepath_variable| image:: /_static/managing_projects/scenepath_variable.png
-.. |append_scenepath| image:: /_static/managing_projects/append_scenepath.png
+.. |new_project| image:: ./_static/managing_projects/new_project_dialog.png
+.. |scenepath_variable| image:: ./_static/managing_projects/scenepath_variable.png
+.. |append_scenepath| image:: ./_static/managing_projects/append_scenepath.png
 
-.. |additional_project_locations_es| image:: /_static/managing_projects/es/additional_project_locations.png
-.. |new_project_es| image:: /_static/managing_projects/es/new_project_dialog.png
+.. |additional_project_locations_es| image:: ./_static/managing_projects/es/additional_project_locations.png
+.. |new_project_es| image:: ./_static/managing_projects/es/new_project_dialog.png

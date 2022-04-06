@@ -10,7 +10,7 @@ Lip-sync files generated from Papagayo or Magpie can be applied to a level to sy
 .. _recording_an_audio_track:
 
 Recording an Audio Track
----------------------
+------------------------
 Audio clips can be recorded directly in Tahoma. They will save in the ``WAV`` format.
 
     1. Click in an empty cell, where the audio track should start
@@ -236,7 +236,7 @@ This technique can be used in any case you need the sound to be perfectly synchr
  .. _using_Rhubarb:
 
 Using Rhubarb Lip Sync for Automated Lip-Synching
-'''''''''''''''''''''''''''
+'''''''''''''''''''''''''''''''''''''''''''''''''
 Rhubarb Lip Sync is bundled with Tahoma2D, as of the 1.2 release. It analyzes audio tracks and automatically exposes the drawings for each phoneme to the corresponding frames for the audio track. 
 
 
@@ -327,6 +327,11 @@ While Magpie takes care of the audio file analysis and phoneme recognition, impo
     4. Click the **Import** button.
 
 
-.. |audio| image:: /_static/audio_and_lip_synching/audio.png
-.. |magpie_import| image:: /_static/audio_and_lip_synching/magpie_import.png
-.. |apply_lip_sync_data| image:: /_static/audio_and_lip_synching/apply_lip_sync_data.png
+.. |audio| image:: ./_static/audio_and_lip_synching/audio.png
+.. |magpie_import| image:: ./_static/audio_and_lip_synching/magpie_import.png
+.. |apply_lip_sync_data| image:: ./_static/audio_and_lip_synching/apply_lip_sync_data.png
+.. |preview| image:: ./_static/audio_and_lip_synching/preview.png
+.. |camera_stand| image:: ./_static/audio_and_lip_synching/camera_stand.png
+.. |lock| image:: ./_static/audio_and_lip_synching/lock.png
+.. |additional_settings| image:: ./_static/audio_and_lip_synching/additional_settings.png
+.. |skeleton| image:: ./_static/audio_and_lip_synching/skeleton.png

@@ -7,10 +7,10 @@ Once you have created your animation levels, you may need to work on them in ord
 All the editing can be saved by saving the level, or by saving the scene with the Save All command, thus automatically saving all of its levels.
 
 
-.. _using_the_level_strip:
+.. _editing_in_the_level_strip:
 
-Using the Level Strip
----------------------
+Editing in the Level Strip
+--------------------------
 An animation level can be managed in the Level Strip. The Level Strip shows all of the drawings of the current level (even drawings not currently exposed in the Xsheet/Timeline) according to their numbering order. 
 
 .. note:: In case a frame range of the animation level has been loaded with the Load Level dialog, only the frames within the allocated frame range will be visible in the level strip (see  :ref:`Using the File Browser <using_the_file_browser>`  ).

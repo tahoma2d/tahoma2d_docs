@@ -38,7 +38,7 @@ Autocentering
  
 The **Autocenter** option aligns lineart drawings and full-color images according to the shape and position of the pegbar holes, in order to set the correct registration for them, once they are used in an animation scene.
 
-Pegbar holes have to be included properly during the scanning process in order to be recognized during the process (see  :ref:`Scanning Guidelines for Autocentering <scanning_guidelines_for_autocentering>`  ). 
+Pegbar holes have to be included properly during the scanning process in order to be recognized during the process. 
 
 In case the autocenter fails because it's not possible to recognize properly the pegbar holes, an error message is displayed; yet the drawings and images are processed according to the other set parameters.
 
@@ -667,37 +667,37 @@ When the tasks are executed, the icon color tells the status of the task accordi
 
 
 
-.. |cleanup_settings| image:: /_static/cleanup/cleanup_settings_pane.png
-.. |autocentering| image:: /_static/cleanup/cleanup_autocentering.png
-.. |rotate| image:: /_static/cleanup/cleanup_rotate.png
-.. |savein| image:: /_static/cleanup/cleanup_savein.png
-.. |greyscale| image:: /_static/cleanup/cleanup_greyscale.png
-.. |greyscale_sample| image:: /_static/cleanup/cleanup_greyscale_sample.png
-.. |color| image:: /_static/cleanup/cleanup_color.png
-.. |color_sample| image:: /_static/cleanup/cleanup_color_sample.png
-.. |camera| image:: /_static/cleanup/cleanup_camera.png
-.. |saveloadreset| image:: /_static/cleanup/cleanup_saveloadreset.png
-.. |progress| image:: /_static/cleanup/cleanup_progress.png
-.. |tasks_cleanup| image:: /_static/cleanup/tasks_cleanup.png
-.. |RGB_picker| image:: /_static/cleanup/RGB_picker.png
-.. |add_cleanup| image:: /_static/cleanup/add_cleanup.png
-.. |camera_stand| image:: /_static/cleanup/camera_stand.png
-.. |load| image:: /_static/cleanup/load.png
-.. |check| image:: /_static/cleanup/check.png
-.. |preview| image:: /_static/cleanup/preview.png
-.. |remove| image:: /_static/cleanup/remove.png
-.. |save| image:: /_static/cleanup/save.png
-.. |save_as| image:: /_static/cleanup/save_as.png
-.. |start| image:: /_static/cleanup/start.png
-.. |stop| image:: /_static/cleanup/stop.png
+.. |cleanup_settings| image:: ./_static/cleanup/cleanup_settings_pane.png
+.. |autocentering| image:: ./_static/cleanup/cleanup_autocentering.png
+.. |rotate| image:: ./_static/cleanup/cleanup_rotate.png
+.. |savein| image:: ./_static/cleanup/cleanup_savein.png
+.. |greyscale| image:: ./_static/cleanup/cleanup_greyscale.png
+.. |greyscale_sample| image:: ./_static/cleanup/cleanup_greyscale_sample.png
+.. |color| image:: ./_static/cleanup/cleanup_color.png
+.. |color_sample| image:: ./_static/cleanup/cleanup_color_sample.png
+.. |camera| image:: ./_static/cleanup/cleanup_camera.png
+.. |saveloadreset| image:: ./_static/cleanup/cleanup_saveloadreset.png
+.. |progress| image:: ./_static/cleanup/cleanup_progress.png
+.. |tasks_cleanup| image:: ./_static/cleanup/tasks_cleanup.png
+.. |RGB_picker| image:: ./_static/cleanup/RGB_picker.png
+.. |add_cleanup| image:: ./_static/cleanup/add_cleanup.png
+.. |camera_stand| image:: ./_static/cleanup/camera_stand.png
+.. |load| image:: ./_static/cleanup/load.png
+.. |check| image:: ./_static/cleanup/check.png
+.. |preview| image:: ./_static/cleanup/preview.png
+.. |remove| image:: ./_static/cleanup/remove.png
+.. |save| image:: ./_static/cleanup/save.png
+.. |save_as| image:: ./_static/cleanup/save_as.png
+.. |start| image:: ./_static/cleanup/start.png
+.. |stop| image:: ./_static/cleanup/stop.png
 
-.. |cleanup_settings_es| image:: /_static/cleanup/es/cleanup_settings_pane.png
-.. |autocentering_es| image:: /_static/cleanup/es/cleanup_autocentering.png
-.. |rotate_es| image:: /_static/cleanup/es/cleanup_rotate.png
-.. |savein_es| image:: /_static/cleanup/es/cleanup_savein.png
-.. |greyscale_es| image:: /_static/cleanup/es/cleanup_greyscale.png
-.. |color_es| image:: /_static/cleanup/es/cleanup_color.png
-.. |camera_es| image:: /_static/cleanup/es/cleanup_camera.png
-.. |saveloadreset_es| image:: /_static/cleanup/es/cleanup_saveloadreset.png
-.. |progress_es| image:: /_static/cleanup/es/cleanup_progress.png
-.. |tasks_cleanup_es| image:: /_static/cleanup/es/tasks_cleanup.png
+.. |cleanup_settings_es| image:: ./_static/cleanup/es/cleanup_settings_pane.png
+.. |autocentering_es| image:: ./_static/cleanup/es/cleanup_autocentering.png
+.. |rotate_es| image:: ./_static/cleanup/es/cleanup_rotate.png
+.. |savein_es| image:: ./_static/cleanup/es/cleanup_savein.png
+.. |greyscale_es| image:: ./_static/cleanup/es/cleanup_greyscale.png
+.. |color_es| image:: ./_static/cleanup/es/cleanup_color.png
+.. |camera_es| image:: ./_static/cleanup/es/cleanup_camera.png
+.. |saveloadreset_es| image:: ./_static/cleanup/es/cleanup_saveloadreset.png
+.. |progress_es| image:: ./_static/cleanup/cleanup_progress.png
+.. |tasks_cleanup_es| image:: ./_static/cleanup/es/tasks_cleanup.png

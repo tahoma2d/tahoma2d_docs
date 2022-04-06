@@ -11,7 +11,7 @@ The Tahoma2D interface is organized into rooms, also known as workspaces. Each r
 .. _editing_rooms:
 
 Room Editing Mode
------------
+-----------------
 
 |UI_lock| "Room Editing Mode" allows for rooms to be added, removed, and renamed. It also allows for panels to be added, removed, or rearranged. To enter or exit "Room Editing Mode", click on the lock icon on the top right of the workspace.
 
@@ -102,7 +102,7 @@ While "Room Edting Mode" is locked, panels can be resized and new floating panel
 .. _room_panes:
 
 Room Panels
-----------
+-----------
 Below there is a list of the panels (in the same order in which they appear in the Panels menu) that can be used to build rooms and that can be opened as floating panels.
 
 
@@ -558,7 +558,7 @@ Tahoma2D allows users to choose a specific language for the software interface, 
 
 There are also several included themes to choose from: Dark, Darker, Light, Medium and Neutral.
 
-.. figure:: /_static/UI/themes.png
+.. figure:: ./_static/UI/themes.png
 
    The Tahoma2D interface theme set to Dark and to Light.
 
@@ -608,55 +608,55 @@ The QSS file can be edited with any text editor software, e.g. Notepad or TextEd
 
 
 
-.. |UI_1| image:: /_static/UI/interface.png
-.. |UI_lock| image:: /_static/UI/room_editing.png
-.. |UI_rooms| image:: /_static/UI/room_menu.png
-.. |UI_batch| image:: /_static/UI/UI_batch.png
-.. |UI_cleanup| image:: /_static/UI/UI_cleanup.png
-.. |UI_colormodel| image:: /_static/UI/UI_colormodel.png
-.. |UI_filebrowser| image:: /_static/UI/UI_filebrowser.png
-.. |UI_flipbook| image:: /_static/UI/UI_flipbook.png
-.. |UI_functioneditor| image:: /_static/UI/UI_functioneditor.png
-.. |UI_levelstrip| image:: /_static/UI/UI_levelstrip.png
-.. |UI_palette| image:: /_static/UI/UI_palette.png
-.. |UI_scenecast| image:: /_static/UI/UI_scenecast.png
-.. |UI_schematic| image:: /_static/UI/UI_schematic.png
-.. |UI_styleeditor| image:: /_static/UI/UI_styleeditor.png
-.. |UI_studiopalette| image:: /_static/UI/UI_studiopalette.png
-.. |UI_tasks| image:: /_static/UI/UI_tasks.png
-.. |UI_messagecenter| image:: /_static/UI/UI_messagecenter.png
-.. |UI_toolbar| image:: /_static/UI/UI_toolbar.png
-.. |UI_commandbar| image:: /_static/UI/UI_commandbar.png
-.. |UI_tooloptionsbar| image:: /_static/UI/UI_tooloptionsbar.png
-.. |UI_commandbar_window| image:: /_static/UI/UI_commandbar_window.png
-.. |UI_viewer| image:: /_static/UI/UI_viewer.png
-.. |UI_comboviewer| image:: /_static/UI/UI_comboviewer.png
-.. |UI_xsheet| image:: /_static/UI/UI_xsheet.png
-.. |UI_timeline| image:: /_static/UI/UI_timeline.png
-.. |UI_history| image:: /_static/UI/UI_history.png
-.. |UI_recordaudio| image:: /_static/UI/UI_recordaudio.png
-.. |animate| image:: /_static/UI/animate.png
-.. |bender| image:: /_static/UI/bender.png
-.. |brush| image:: /_static/UI/brush.png
-.. |cpe| image:: /_static/UI/cpe.png
-.. |cutter| image:: /_static/UI/cutter.png
-.. |eraser| image:: /_static/UI/eraser.png
-.. |fill| image:: /_static/UI/fill.png
-.. |geometric| image:: /_static/UI/geometric.png
-.. |hand| image:: /_static/UI/hand.png
-.. |hook| image:: /_static/UI/hook.png
-.. |iron| image:: /_static/UI/iron.png
-.. |magnet| image:: /_static/UI/magnet.png
-.. |paint_brush| image:: /_static/UI/paint_brush.png
-.. |pinch| image:: /_static/UI/pinch.png
-.. |plastic| image:: /_static/UI/plastic.png
-.. |pump| image:: /_static/UI/pump.png
-.. |RGB_picker| image:: /_static/UI/RGB_picker.png
-.. |rotate| image:: /_static/UI/rotate.png
-.. |selection| image:: /_static/UI/selection.png
-.. |skeleton| image:: /_static/UI/skeleton.png
-.. |style_picker| image:: /_static/UI/style_picker.png
-.. |tape| image:: /_static/UI/tape.png
-.. |tracker| image:: /_static/UI/tracker.png
-.. |type| image:: /_static/UI/type.png
-.. |zoom| image:: /_static/UI/zoom.png
+.. |UI_1| image:: ./_static/UI/interface.png
+.. |UI_lock| image:: ./_static/UI/room_editing.png
+.. |UI_rooms| image:: ./_static/UI/room_menu.png
+.. |UI_batch| image:: ./_static/UI/UI_batch.png
+.. |UI_cleanup| image:: ./_static/UI/UI_cleanup.png
+.. |UI_colormodel| image:: ./_static/UI/UI_colormodel.png
+.. |UI_filebrowser| image:: ./_static/UI/UI_filebrowser.png
+.. |UI_flipbook| image:: ./_static/UI/UI_flipbook.png
+.. |UI_functioneditor| image:: ./_static/UI/UI_functioneditor.png
+.. |UI_levelstrip| image:: ./_static/UI/UI_levelstrip.png
+.. |UI_palette| image:: ./_static/UI/UI_palette.png
+.. |UI_scenecast| image:: ./_static/UI/UI_scenecast.png
+.. |UI_schematic| image:: ./_static/UI/UI_schematic.png
+.. |UI_styleeditor| image:: ./_static/UI/UI_styleeditor.png
+.. |UI_studiopalette| image:: ./_static/UI/UI_studiopalette.png
+.. |UI_tasks| image:: ./_static/UI/UI_tasks.png
+.. |UI_messagecenter| image:: ./_static/UI/UI_messagecenter.png
+.. |UI_toolbar| image:: ./_static/UI/UI_toolbar.png
+.. |UI_commandbar| image:: ./_static/UI/UI_commandbar.png
+.. |UI_tooloptionsbar| image:: ./_static/UI/UI_tooloptionsbar.png
+.. |UI_commandbar_window| image:: ./_static/UI/UI_commandbar_window.png
+.. |UI_viewer| image:: ./_static/UI/UI_viewer.png
+.. |UI_comboviewer| image:: ./_static/UI/UI_comboviewer.png
+.. |UI_xsheet| image:: ./_static/UI/UI_xsheet.png
+.. |UI_timeline| image:: ./_static/UI/UI_timeline.png
+.. |UI_history| image:: ./_static/UI/UI_history.png
+.. |UI_recordaudio| image:: ./_static/UI/UI_recordaudio.png
+.. |animate| image:: ./_static/UI/animate.png
+.. |bender| image:: ./_static/UI/bender.png
+.. |brush| image:: ./_static/UI/brush.png
+.. |cpe| image:: ./_static/UI/cpe.png
+.. |cutter| image:: ./_static/UI/cutter.png
+.. |eraser| image:: ./_static/UI/eraser.png
+.. |fill| image:: ./_static/UI/fill.png
+.. |geometric| image:: ./_static/UI/geometric.png
+.. |hand| image:: ./_static/UI/hand.png
+.. |hook| image:: ./_static/UI/hook.png
+.. |iron| image:: ./_static/UI/iron.png
+.. |magnet| image:: ./_static/UI/magnet.png
+.. |paint_brush| image:: ./_static/UI/paint_brush.png
+.. |pinch| image:: ./_static/UI/pinch.png
+.. |plastic| image:: ./_static/UI/plastic.png
+.. |pump| image:: ./_static/UI/pump.png
+.. |RGB_picker| image:: ./_static/UI/RGB_picker.png
+.. |rotate| image:: ./_static/UI/rotate.png
+.. |selection| image:: ./_static/UI/selection.png
+.. |skeleton| image:: ./_static/UI/skeleton.png
+.. |style_picker| image:: ./_static/UI/style_picker.png
+.. |tape| image:: ./_static/UI/tape.png
+.. |tracker| image:: ./_static/UI/tracker.png
+.. |type| image:: ./_static/UI/type.png
+.. |zoom| image:: ./_static/UI/zoom.png

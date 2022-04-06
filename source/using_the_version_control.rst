@@ -37,7 +37,7 @@ Installing the Version Control Client on Windows
 ''''''''''''''''''''''''''''''''''''''''''''''''
 On Windows the setup of a version control client requires the download and installation of the **Subversion client 1.6** or later. 
 
-You can go to the `Subversion download page <http://subversion.apache.org/packages.html#windows>`_ for downloading it. There you should look for the available binary packages and download a version control client for Windows. We suggest the use of **CollabNet Subversion Command-Line Client**.
+You can go to the `Subversion download page for Windows <http://subversion.apache.org/packages.html#windows>`_ for downloading it. There you should look for the available binary packages and download a version control client for Windows. We suggest the use of **CollabNet Subversion Command-Line Client**.
 
 .. note:: If an older Subversion release is used some version control features might not work.
 
@@ -52,7 +52,7 @@ If the OS is Snow Leopard (version 10.6) or later, the setup requires no install
 
 If the OS is *older* than Snow Leopard, the setup requires the download and installation of the **Subversion client 1.6** or later. 
 
-You can go to the `Subversion download page <http://subversion.apache.org/packages.html#osx>`_ for downloading it. There you should look for the available binary packages and download a version control client for Macintosh.
+You can go to the `Subversion download page for OSX <http://subversion.apache.org/packages.html#osx>`_ for downloading it. There you should look for the available binary packages and download a version control client for Macintosh.
 
 After the installation is very important to check where Subversion is installed, as this information is needed to configure the version control in Tahoma: this information is displayed in the last page of the installation process and by default is usually ``/opt/subversion/bin`` .
 
@@ -204,7 +204,7 @@ Using the Version Control System
 --------------------------------
 The *central repository* and the local *working copy* are displayed in the Tahoma browser at the end of the folder tree as one single folder. By navigating the contents of this folder it's possible to retrieve the folders and files. 
 
-.. figure:: /_static/version_control/browser_tree_svn.png
+.. figure:: ./_static/version_control/browser_tree_svn.png
 
    One online repository defined (**svn_test**) hosting the active project (**mySVNproject**). 
 
@@ -410,26 +410,26 @@ For **files** the following icons are used:
 
 
 
-.. |put| image:: /_static/version_control/put.png
-.. |put_scene| image:: /_static/version_control/put_scene.png
-.. |edit| image:: /_static/version_control/edit.png
-.. |edit_scene| image:: /_static/version_control/edit_scene.png
-.. |edit_frame_range| image:: /_static/version_control/edit_frame_range.png
-.. |unlock| image:: /_static/version_control/unlock.png
-.. |get_revision| image:: /_static/version_control/get_revision.png
-.. |get_revision_multiple_files| image:: /_static/version_control/get_revision_multiple_files.png
-.. |grey_folder| image:: /_static/version_control/grey_folder.png
-.. |blue_plus_mark| image:: /_static/version_control/blue_plus_mark.png
-.. |colored_folder_with_green_mark| image:: /_static/version_control/colored_folder_with_green_mark.png
-.. |colored_folder_with_plus_mark| image:: /_static/version_control/colored_folder_with_plus_mark.png
-.. |colored_folder_with_yellow_mark| image:: /_static/version_control/colored_folder_with_yellow_mark.png
-.. |green_mark_check| image:: /_static/version_control/green_mark_check.png
-.. |grey_mark_check| image:: /_static/version_control/grey_mark_check.png
-.. |half_grey_lock_mark| image:: /_static/version_control/half_grey_lock_mark.png
-.. |half_grey_mark_check| image:: /_static/version_control/half_grey_mark_check.png
-.. |lock_mark| image:: /_static/version_control/lock_mark.png
-.. |orange_exclamation_mark_check| image:: /_static/version_control/orange_exclamation_mark_check.png
-.. |red_exclamation_mark_check| image:: /_static/version_control/red_exclamation_mark_check.png
-.. |half_grey_red_exclamation_mark_check| image:: /_static/version_control/half_grey_red_exclamation_mark_check.png
+.. |put| image:: ./_static/version_control/put.png
+.. |put_scene| image:: ./_static/version_control/put_scene.png
+.. |edit| image:: ./_static/version_control/edit.png
+.. |edit_scene| image:: ./_static/version_control/edit_scene.png
+.. |edit_frame_range| image:: ./_static/version_control/edit_frame_range.png
+.. |unlock| image:: ./_static/version_control/unlock.png
+.. |get_revision| image:: ./_static/version_control/get_revision.png
+.. |get_revision_multiple_files| image:: ./_static/version_control/get_revision_multiple_files.png
+.. |grey_folder| image:: ./_static/version_control/grey_folder.png
+.. |blue_plus_mark| image:: ./_static/version_control/blue_plus_mark.png
+.. |colored_folder_with_green_mark| image:: ./_static/version_control/colored_folder_with_green_mark.png
+.. |colored_folder_with_plus_mark| image:: ./_static/version_control/colored_folder_with_plus_mark.png
+.. |colored_folder_with_yellow_mark| image:: ./_static/version_control/colored_folder_with_yellow_mark.png
+.. |green_mark_check| image:: ./_static/version_control/green_mark_check.png
+.. |grey_mark_check| image:: ./_static/version_control/grey_mark_check.png
+.. |half_grey_lock_mark| image:: ./_static/version_control/half_grey_lock_mark.png
+.. |half_grey_mark_check| image:: ./_static/version_control/half_grey_mark_check.png
+.. |lock_mark| image:: ./_static/version_control/lock_mark.png
+.. |orange_exclamation_mark_check| image:: ./_static/version_control/orange_exclamation_mark_check.png
+.. |red_exclamation_mark_check| image:: ./_static/version_control/red_exclamation_mark_check.png
+.. |half_grey_red_exclamation_mark_check| image:: ./_static/version_control/half_grey_red_exclamation_mark_check.png
 
 

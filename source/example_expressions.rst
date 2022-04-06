@@ -17,4 +17,4 @@ This expression rotates column 1 (col1) to face column 2 (col2):
 
 
 
-.. |rotate_towards| image:: /_static/example_expressions/rotate_towards.gif
+.. |rotate_towards| image:: ./_static/example_expressions/rotate_towards.gif

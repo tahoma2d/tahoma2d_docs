@@ -195,4 +195,3 @@ Here you can find links to previous versions' full Release Notes, hosted in GitH
 .. |new_es| image:: /_static/whats_new/es/new.png
 .. |enhancement_es| image:: /_static/whats_new/es/enhancement.png
 .. |fix_es| image:: /_static/whats_new/es/fix.png
-
