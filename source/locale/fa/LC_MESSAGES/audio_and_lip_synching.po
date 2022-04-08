@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tahoma 1.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-24 05:16+0330\n"
+"POT-Creation-Date: 2022-04-09 00:33+0430\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -153,11 +153,19 @@ msgid ""
 "column/layer content in the rendering."
 msgstr ""
 
+#: ../../source/audio_and_lip_synching.rst:333
+msgid "preview"
+msgstr ""
+
 #: ../../source/audio_and_lip_synching.rst:54
 msgid ""
 "**Camera stand toggle** (|camera_stand|) allowing you to include or not "
 "the column/layer content when scrubbing the audio with the current frame "
 "cursor (see below)."
+msgstr ""
+
+#: ../../source/audio_and_lip_synching.rst:334
+msgid "camera_stand"
 msgstr ""
 
 #: ../../source/audio_and_lip_synching.rst:56
@@ -166,10 +174,18 @@ msgid ""
 "column/layer."
 msgstr ""
 
+#: ../../source/audio_and_lip_synching.rst:335
+msgid "lock"
+msgstr ""
+
 #: ../../source/audio_and_lip_synching.rst:58
 msgid ""
 "**Additional settings** button (|additional_settings|) allowing you to "
 "set the volume."
+msgstr ""
+
+#: ../../source/audio_and_lip_synching.rst:336
+msgid "additional_settings"
 msgstr ""
 
 #: ../../source/audio_and_lip_synching.rst:60
@@ -631,6 +647,10 @@ msgstr ""
 msgid ""
 "Choose the **Skeleton** tool (|skeleton|) and set the tool mode to "
 "**Animate**."
+msgstr ""
+
+#: ../../source/audio_and_lip_synching.rst:337
+msgid "skeleton"
 msgstr ""
 
 #: ../../source/audio_and_lip_synching.rst:228

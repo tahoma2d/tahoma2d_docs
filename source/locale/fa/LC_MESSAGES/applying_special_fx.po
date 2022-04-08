@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tahoma 1.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-19 07:34+0330\n"
+"POT-Creation-Date: 2022-04-09 00:33+0430\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2736,7 +2736,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/applying_special_fx.rst:1104
-msgid "Local Transparency"
+msgid "Local Transparency FX"
 msgstr ""
 
 #: ../../source/applying_special_fx.rst:1105
@@ -2883,12 +2883,15 @@ msgid ""
 msgstr ""
 
 #: ../../source/applying_special_fx.rst:1164
-#: ../../source/applying_special_fx.rst:1727
-msgid "Transparency"
+msgid "Transparency FX"
 msgstr ""
 
 #: ../../source/applying_special_fx.rst:1165
 msgid "|Transparency|"
+msgstr ""
+
+#: ../../source/applying_special_fx.rst:1727
+msgid "Transparency"
 msgstr ""
 
 #: ../../source/applying_special_fx.rst:1167
@@ -4153,5 +4156,8 @@ msgstr ""
 #~ "all the computers sharing the same "
 #~ "*Projectroot* (see  :ref:`Setting the "
 #~ "Projectroot <setting_the_projectroot>`  )."
+#~ msgstr ""
+
+#~ msgid "Local Transparency"
 #~ msgstr ""
 

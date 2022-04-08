@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tahoma 1.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-24 05:16+0330\n"
+"POT-Creation-Date: 2022-04-09 00:33+0430\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -349,6 +349,8 @@ msgstr ""
 #: ../../source/keyboard_shortcuts.rst:162
 #: ../../source/keyboard_shortcuts.rst:163
 #: ../../source/keyboard_shortcuts.rst:164
+#: ../../source/keyboard_shortcuts.rst:176
+#: ../../source/keyboard_shortcuts.rst:177
 #: ../../source/keyboard_shortcuts.rst:186
 #: ../../source/keyboard_shortcuts.rst:187
 #: ../../source/keyboard_shortcuts.rst:188
@@ -521,6 +523,8 @@ msgstr ""
 #: ../../source/keyboard_shortcuts.rst:98
 #: ../../source/keyboard_shortcuts.rst:154
 #: ../../source/keyboard_shortcuts.rst:164
+#: ../../source/keyboard_shortcuts.rst:176
+#: ../../source/keyboard_shortcuts.rst:177
 #: ../../source/keyboard_shortcuts.rst:186
 #: ../../source/keyboard_shortcuts.rst:187
 #: ../../source/keyboard_shortcuts.rst:202
@@ -687,6 +691,8 @@ msgid "Quit"
 msgstr ""
 
 #: ../../source/keyboard_shortcuts.rst:125
+#: ../../source/keyboard_shortcuts.rst:174
+#: ../../source/keyboard_shortcuts.rst:176
 msgid "**Q**"
 msgstr ""
 
@@ -808,6 +814,55 @@ msgstr ""
 
 #: ../../source/keyboard_shortcuts.rst:164
 msgid "Apply Lip Sync Data to Column"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:169
+msgid "**Cells Menu**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:171
+msgid "Duplicate Drawing"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:171
+msgid "**D**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:172
+msgid "Increase Step"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:172
+msgid "**'**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:173
+msgid "Decrease Step"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:173
+msgid "**;**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:174
+msgid "Drawing Substitution Backward"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:175
+msgid "Drawing Substitution Forward"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:175
+#: ../../source/keyboard_shortcuts.rst:177
+msgid "**W**"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:176
+msgid "Similar Drawing Substitution Backward"
+msgstr ""
+
+#: ../../source/keyboard_shortcuts.rst:177
+msgid "Similar Drawing Substitution Forward"
 msgstr ""
 
 #: ../../source/keyboard_shortcuts.rst:182

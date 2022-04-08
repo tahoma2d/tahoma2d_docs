@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tahoma 1.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-24 05:16+0330\n"
+"POT-Creation-Date: 2022-04-09 00:33+0430\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,7 +34,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/editing_animation_levels.rst:13
-msgid "Using the Level Strip"
+msgid "Editing in the Level Strip"
 msgstr ""
 
 #: ../../source/editing_animation_levels.rst:14
@@ -1118,4 +1118,7 @@ msgstr ""
 #: ../../source/editing_animation_levels.rst:477
 msgid "Set the options for the format you want to use for exporting levels."
 msgstr ""
+
+#~ msgid "Using the Level Strip"
+#~ msgstr ""
 
