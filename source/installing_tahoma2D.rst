@@ -8,7 +8,7 @@ Installing Tahoma2D
 
 Downloading Tahoma2D
 ---------------------
-You can download the appropriate version of Tahoma2D for your operating system from the `Download page <https://tahoma2d.org/download>`_ in the official Tahoma2D web site. Choose either the Windows or macOS version to start downloading the application.
+You can download the appropriate version of Tahoma2D for your operating system from the `Download page <https://tahoma2d.org/download/official_releases>`_ in the official Tahoma2D web site. Choose either the Windows or macOS version to start downloading the application.
 
 .. note:: All other builds apart from the ones downloaded from the official web site ARE NOT officially supported.
 
