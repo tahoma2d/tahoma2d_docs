@@ -490,7 +490,7 @@ File Settings
 
 - **Options** button, opens a dialog to set specific properties related to the chosen file format, such as codecs for video files, color depth for TIF images, etc.
 
-- **Resample Balance:** controls the resample that is used when images are scaled or rotated. In scenes where images are strongly resampled, for instance when their size changes dramatically, the final rendering may appear slightly out of focus. By chosing a different resampling algorithm you can give some sharpness back to the rendered frames. 
+- **Resample Balance:** controls the resample that is used when images are scaled or rotated. In scenes where images are strongly resampled, for instance when their size changes dramatically, the final rendering may appear slightly out of focus. By choosing a different resampling algorithm you can give some sharpness back to the rendered frames. 
 
   There are several options to choose from. Originally Toonz provided only three options: **Standard**, **Improved**, and **High**. The higher the balance chosen, the longer the time needed for rendering the output. Currently Tahoma also provides several other standard resampling options that could help improve the final results in a wider range of situations. These include: **Triange filter**, **Mitchell-Netravali filter**, **Cubic convolution**, **Hann window**, **Hamming panel**, **Lanczos window**, **Gaussian convolution**, **Closest Pixel** and **Bilinear**.
 
@@ -515,9 +515,9 @@ Other Settings
 
 - **Dominant Field:** allows you to render two images per frame, then keeping only *odd* lines from one image, and *even* lines from the other to compose a final frame. This process is called *interlacing*.
 
-  *Interlaced* images are useful when experiencing a strobe effect due to a fast camera or object movement, as all movement interpolation will be effectively doubled (having one *odd-lines image* and one *even-lines image*, instead of just one full *progresive* frame), thus becoming smoother.
+  *Interlaced* images are useful when experiencing a strobe effect due to a fast camera or object movement, as all movement interpolation will be effectively doubled (having one *odd-lines image* and one *even-lines image*, instead of just one full *progressive* frame), thus becoming smoother.
 
-  Field rendering is only relevant for scenes that are intended for video output. Options are **None** (for rendering *progresive* frames), **Even (PAL)** and **Odd (NTSC)** (for chosing which of the rendered *interlaced* fields is to be shown in first place). Usually you should choose it according to the video standard you are outputting to. 
+  Field rendering is only relevant for scenes that are intended for video output. Options are **None** (for rendering *progressive* frames), **Even (PAL)** and **Odd (NTSC)** (for choosing which of the rendered *interlaced* fields is to be shown in first place). Usually you should choose it according to the video standard you are outputting to. 
 
 - **Frame Rate**: is the frame rate of the scene, also available in the Scene  →  **Scene Settings...** dialog (see  :ref:`Setting the Frame Rate <setting_the_frame_rate>`  ).
 

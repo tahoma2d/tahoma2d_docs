@@ -350,7 +350,7 @@ The Adjust Thickness command allows to modify the thickness of all the lines of 
 
     2. Choose Level  →  Adjust Thickness.
 
-    3. Choose a mode. The modes are: Scale Thickness that scale lines up or down using a percentage value, Add Thickness that add an amount of thickness to the lines using the current unit, Costant Thickness that apply a thickness value, ignoring its variations, using the current unit.
+    3. Choose a mode. The modes are: Scale Thickness that scale lines up or down using a percentage value, Add Thickness that add an amount of thickness to the lines using the current unit, Constant Thickness that apply a thickness value, ignoring its variations, using the current unit.
 
     4. Sets a starting and an ending value.
 

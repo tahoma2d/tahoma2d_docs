@@ -5,7 +5,7 @@ Interface Overview
 
 |UI_1|
 
-The Tahoma2D interface is organized into rooms, also known as workspaces. Each room is a different collection of panels which are laid out at specific positions on the screen for a specifc use. 
+The Tahoma2D interface is organized into rooms, also known as workspaces. Each room is a different collection of panels which are laid out at specific positions on the screen for a specific use. 
 
 
 .. _editing_rooms:
@@ -56,7 +56,7 @@ Customizing Rooms
 '''''''''''''''''
 Rooms can be modified by setting different sizes to different panels. When "Room Editing Mode" is active, docked panels can be pulled out to become floating panels and floating panels can be docked. 
 
-While "Room Edting Mode" is locked, panels can be resized and new floating panels can be added by using the Panels menu.
+While "Room Editing Mode" is locked, panels can be resized and new floating panels can be added by using the Panels menu.
 
 
 .. tip:: **To resize a panel in the room:**

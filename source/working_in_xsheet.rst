@@ -118,7 +118,7 @@ If you are loading one or several files located outside the default current proj
 
 If any of the files you want to import has the same name of a file already existing in the destination project folder, you will prompted whether to keep the existing file, overwrite it with the new one, or rename it by adding a suffix you can choose. In this way you can control if files you are importing have already been imported previously, or manage files that just share the same name. 
 
-.. note:: **WARNING:** It is heavily recomended to **Import** assets to the current project folders, as Tahoma can ovewrite the files associated with levels exposed in the Xsheet/Timeline, each time the **Save Level**, **Save All Levels**, or **Save All** commands are invoked.
+.. note:: **WARNING:** It is heavily recommended to **Import** assets to the current project folders, as Tahoma can overwrite the files associated with levels exposed in the Xsheet/Timeline, each time the **Save Level**, **Save All Levels**, or **Save All** commands are invoked.
 
 .. note:: Files loaded in a scene without importing can be imported later all at once by using the **Collect Assets** command (see  :ref:`Collecting Assets <collecting_assets>`  ).
 
@@ -260,7 +260,7 @@ When a Photoshop document is loaded, a dialog opens to set the way the document 
     - **Columns**, loads each document layer as a column, and it is possible to automatically create a Subscene containing the columns by activating the **Expose in a Subscene** option.
 
 
-When a Photoshop document is loaded as Columns, it is also possible to set how new Level Names asre assigned. Options are the following:
+When a Photoshop document is loaded as Columns, it is also possible to set how new Level Names are assigned. Options are the following:
 
     - **FileName#LayerName**, uses the PSD file name and layer names as the names of newly created levels.
 
@@ -340,7 +340,7 @@ In particular if images have some transparency, transparent pixels remains trans
 
     2. Choose the frame range to convert, the saving location, a name, the new format, and the background color of the converted file.
 
-    3. Activate the Skip Existing Files to to prevent overwriting already exixting files.
+    3. Activate the Skip Existing Files to to prevent overwriting already existing files.
 
     4. If needed, set the options for the file format chosen pressing the Options button and inserting the new values.
 
@@ -358,7 +358,7 @@ In particular if images have some transparency, transparent pixels remains trans
 
     4. Choose the saving location, the new format, and the background color of the converted files.
 
-    5. Activate the Skip Existing Files to to prevent overwriting already exixting files.
+    5. Activate the Skip Existing Files to to prevent overwriting already existing files.
 
     6. If needed, set the options for the file format chosen pressing the Options button and inserting the new values.
 
@@ -380,7 +380,7 @@ In particular if images have some transparency, transparent pixels remains trans
 
     6. Activate the Apply Autoclose.
     
-    7. Choose how to manage Antialiasing fom the drop down menu. You can preserve the original antialiasing selecting Keep Original; add some antialiasing selecting Add and writing an Intensity value in the following text input field; remove the antialiasing selecting the Remove option and writing a Threshold value in the following text input field.
+    7. Choose how to manage Antialiasing from the drop down menu. You can preserve the original antialiasing selecting Keep Original; add some antialiasing selecting Add and writing an Intensity value in the following text input field; remove the antialiasing selecting the Remove option and writing a Threshold value in the following text input field.
 
     8. Choose how to manage the palette of the tlv file/s you are going to create. By default a new palette is created. If you prefer to use an existing palette press the button next the palette field and use the browser to locate the palette file you desire to use.
 
@@ -402,11 +402,11 @@ In particular if images have some transparency, transparent pixels remains trans
 
     6. Choose the folder where the unpainted files are located.
 
-    7. Specify the Suffix used for namig the unpainted version of the files (default is _u, but you can use anything you like when preparing the files for convertion).
+    7. Specify the Suffix used for naming the unpainted version of the files (default is _u, but you can use anything you like when preparing the files for convertion).
 
     8. Activate the Apply Autoclose.
 
-    9. Choose how to manage Antialiasing fom the drop down menu. You can preserve the original antialiasing selecting Keep Original; add some antialiasing selecting Add and writing an Intensity value in the following text input field; remove the antialiasing selecting the Remove option and writing a Threshold value in the following text input field.
+    9. Choose how to manage Antialiasing from the drop down menu. You can preserve the original antialiasing selecting Keep Original; add some antialiasing selecting Add and writing an Intensity value in the following text input field; remove the antialiasing selecting the Remove option and writing a Threshold value in the following text input field.
 
     10. Choose how to manage the palette of the tlv file/s you are going to create. By default a new palette is created. If you prefer to use an existing palette press the button next the palette field and use the browser to locate the palette file you desire to use.
 
@@ -463,7 +463,7 @@ The available parameters are:
 
 - **Main Color:**, allows to define the color for the main ink in the drawings. For better results, it's advised to pick the darkest color possible.
 
-- **Sub Color1:**, **Sub Color2:** and **Sub Color3:**, allows to define the color for the other respective color inks in the drawings you whish to separate. For better results, it's advised to pick the deepest (darkest, more saturated) color possible.
+- **Sub Color1:**, **Sub Color2:** and **Sub Color3:**, allows to define the color for the other respective color inks in the drawings you wish to separate. For better results, it's advised to pick the deepest (darkest, more saturated) color possible.
 
  .. note:: The **Sub Color3:** parameters will only show when **Sub3** suffix is enabled, in the **File Suffix:** parameters area.
 
@@ -471,7 +471,7 @@ The available parameters are:
 
 - **Border Smooth**, allows to make the intersection of lines having different colors smoother.
 
-- **Alpha Matting**, allows to better remove noisy backgrounds, while preserving subtle faint parts of the pencil's stroke at the sme time.
+- **Alpha Matting**, allows to better remove noisy backgrounds, while preserving subtle faint parts of the pencil's stroke at the same time.
 
   .. note:: To be able to preview the Alpha Matting, the **Show Mask** option at the top of the preview area should be activated.
 
@@ -965,7 +965,7 @@ Selected cells can also be dragged to a new position in the Xsheet/Timeline, in 
 
     - Click the vertical strip available on the left of the cells in the Xsheet, to select the continuous sequence of drawings belonging to the same animation level.
 
-    - Click the horizontal strip available on thetop of the cells in the Timeline, to select the continuous sequence of drawings belonging to the same animation level.
+    - Click the horizontal strip available on the top of the cells in the Timeline, to select the continuous sequence of drawings belonging to the same animation level.
 
 .. tip:: **To edit cells with the Edit menu commands:**
 
