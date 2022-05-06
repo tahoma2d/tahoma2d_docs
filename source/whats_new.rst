@@ -60,6 +60,7 @@ Preferences/Settings
 - |enhancement| Change Default Level Type to Raster
 - |new| Current Column/Cell Indicator color
 - |enhancement| Allow multiple key stroke shortcuts
+- |new| Additional Style Sheet *(OpenToonz port)*
 - |enhancement| Raster level frame number format & PNG for new Raster level *(OpenToonz port)*
 - Project Settings-aware Frame Number Field Width *(OpenToonz port)*
 
@@ -187,11 +188,11 @@ Here you can find links to previous versions' full Release Notes, hosted in GitH
 
 
 
-.. |new| image:: /_static/whats_new/new.png
-.. |enhancement| image:: /_static/whats_new/enhancement.png
-.. |fix| image:: /_static/whats_new/fix.png
-.. |removed| image:: /_static/whats_new/removed.png
+.. |new| image:: ./_static/whats_new/new.png
+.. |enhancement| image:: ./_static/whats_new/enhancement.png
+.. |fix| image:: ./_static/whats_new/fix.png
+.. |removed| image:: ./_static/whats_new/removed.png
 
-.. |new_es| image:: /_static/whats_new/es/new.png
-.. |enhancement_es| image:: /_static/whats_new/es/enhancement.png
-.. |fix_es| image:: /_static/whats_new/es/fix.png
+.. |new_es| image:: ./_static/whats_new/es/new.png
+.. |enhancement_es| image:: ./_static/whats_new/es/enhancement.png
+.. |fix_es| image:: ./_static/whats_new/es/fix.png
