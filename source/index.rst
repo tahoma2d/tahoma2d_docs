@@ -20,6 +20,7 @@ Tahoma2D User Manual
    :caption: Getting Started:
 
    installing_tahoma2D
+   troubleshooting
    using_ffmpeg_with_tahoma2D
    whats_new
    
