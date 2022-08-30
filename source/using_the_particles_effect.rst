@@ -38,6 +38,8 @@ To use a column/layer contents as a Control Image, connect the column/layer node
 
 To apply the control image to a parameter, use the related field available in the *FX Settings* panel: to specify a **Control Image**, type the number related to the control image port; to use no control image, type the number **0**.
 
+.. note:: Some particles presets, such as the grass, have a default value set to `1` in the "Control Image" field. If you're not using one, make sure to set that value back to `0` in order for the preset to work correctly.
+
 .. note:: When the control images brightness is used to affect a particles parameter, transparent areas are considered as being completely black.
 
 
