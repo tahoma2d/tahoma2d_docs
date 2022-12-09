@@ -8,6 +8,30 @@ Tahoma2D includes a number of improvements from OpenToonz.  It also includes the
 In this section you can find a list of Highlights in the latest release of Tahoma2D; these may include New Features, Bug Fixes or Enhancements to already existent features.
 Here, you can also find links to past versions' Release Notes, to keep track of Tahoma2D development history throughout time.
 
+.. _v1.3.1:
+
+New in Tahoma2D 1.3.1
+---------------------
+
+Fixes
+'''''
+
+- |fix| Fix software version check 
+- |fix| Fix Canon Import Image crash
+- |fix| Fix parent column indicators
+- |fix| Update thirdparty library binaries
+   - Includes updating libtiff to v4.2.0 to address security vulnerabilities
+- |fix| Fix pen issues
+   - Fixes Drawing delay on vector and smart raster levels (Linux issue)
+   - Pen doesn't work in Schematic Viewer. (macOS/Linux issue)
+- |fix| Fix Implicit Hold issues
+- |fix| Fix Autofill toggle command crash
+- |fix| Fix Linux plastic tool crash
+- |fix| Fix MeshImage compression crash
+- Many more…
+
+Please see the `v1.3.1 Release Notes <https://github.com/tahoma2d/tahoma2d/releases/tag/v1.3.1>`_  hosted in GitHub, for the full list of bug fixes.
+
 .. _v1.3:
 
 New in Tahoma2D 1.3
