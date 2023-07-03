@@ -365,7 +365,7 @@ In the tool options bar you can set the following:
 
 - **Pressure** detects, in case you are using a graphic tablet, the pressure of the pen on the tablet, allowing the creation of variable-thickness lines.
 
-- **Range** allows for the automatic creation of a series of in-between strokes, by drawing just the extremes of the animation on subsequent frames of a level, in the Level Strip, or subsequent exposed cells of a level in the Xsheet/Timeline. By pressing **Ctrl** key, you can draw intermediate strokes to form a more complex animation sequence. This method is similar to the one used by the **Inbetween** command (see  :ref:`Using the In-betweener with Vector Drawings <using_the_in-betweener_with_vector_drawings>`  ). This is available for Vector drawings only.
+- **Range** allows for the automatic creation of a series of in-between strokes, by drawing just the extremes of the animation on subsequent frames of a level, in the Level Strip, or subsequent exposed cells of a level in the Xsheet/Timeline. By pressing and holding the **Ctrl+Alt+Shift** keys, you can draw intermediate strokes to form a more complex animation sequence. This method is similar to the one used by the **Inbetween** command (see  :ref:`Using the In-betweener with Vector Drawings <using_the_in-betweener_with_vector_drawings>`  ). This is available for Vector drawings only.
 
 - **Snap** allows for the snapping of the cursor to other already drawn strokes of the same level, while drawing a new stroke. It has three levels of sensitivity: **Low**, **Med** and **High**. This is available for Vector drawings only.
 
