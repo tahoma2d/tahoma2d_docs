@@ -40,14 +40,20 @@ Download the macOS dmg file and follow these steps:
 1. Double click on the dmg package.
 
 
-2. Drag the Tahoma2D program to the Applications folder (or wherever you would like it placed)
+2. Drag the Tahoma2D program to the Applications folder (or wherever you would like it placed).
  
 
-3. Double click and start drawing.
+3. Double click to open the app.
 
-.. tip:: For macOS 10.15 and later, the first time you open Tahoma, there may be an error message saying Tahoma2D cannot be opened. Choose “Cancel” and open System Preferences. Under ``Security & Privacy --> General``, select “Open Anyway.” Then choose “Open” in the next dialog. Afterwards, Tahoma2D will open normally. 
+4. Grant any necessary permissions.
 
-.. tip:: For older versions of macOS, open through Finder the first time. Right-click on Tahoma2D and select “Open”. Then choose “Open Anyway”. Afterwards, Tahoma2D will open normally. 
+5. Start drawing!
+
+.. tip:: For macOS 15.0 and later, on the first open there might be a dialog with a warning message, since Tahoma2D is not part of the Apple Developer program. Choose “Cancel” or "Done" and then open ``System Settings --> Privacy & Security``. Towards the bottom, next to Tahoma2D, select “Open Anyway.” Then in the next dialog, provide an administrative password or choose “Open”. Afterwards, Tahoma2D will open normally. 
+
+.. tip:: For most older versions of macOS, open through Finder the first time. Right-click on Tahoma2D and select “Open”. Then choose “Open Anyway”. Afterwards, Tahoma2D will open normally. 
+
+.. tip:: Some versions of macOS will ask for permission to access the Desktop, Documents, and Downloads directories on the first time opening. If you decline permission, you may have trouble saving your work. Visit ``System Settings --> Privacy & Security --> Files & Folders`` if you need to fix folder permissions.
 
 
 
