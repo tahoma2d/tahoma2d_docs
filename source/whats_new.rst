@@ -10,97 +10,31 @@ Here, you can also find links to past versions' Release Notes, to keep track of 
 
 .. _v1.5:
 
-New in Tahoma2D 1.5
--------------------
+New in Tahoma2D 1.5.1
+---------------------
 
-New Features
-''''''''''''
 
-- Timeline/Xsheet Folders
-- Clipping Mask Column (Raster/Smart Raster)
-- Relative Drawing Onion Skin Mode
-- Ping Pong command/button
-- Inbetween Flip
-- Vector Control Point/Stroke Alignment Commands
-- Undo/Redo Touch Gestures
-- OCA Import
-- Tips popup
-- Vector Inspector Initial Release
-- Zoom in/out and fit floating panel geometry commands *(OpenToonz port)*
-
-Enhancements
-''''''''''''
-
-- Add option to increase the size of the Edit & Control Point Editor tool widgets
-- Change eraser tools resize binding to CTRL+ALT in Normal Mode only.
-- Clip with Vector Strokes
-- Clip ZeraryFx Columns
-- Control Point Editor Tool enhancements
-- Dockable Locator panel
-- Dockable Output/Preview settings panels
-- Eraser Tool Pressure and Frame Range Interpolation settings
-- Frame Range tool option enhancements
-- Fx Browser enhancement and Fx Room update
-- Inbetween from Timeline/Xsheet and Hook movement tweening
-- Move Columns and Cells without Drag Bars + selection/drag fixes
-- Onion Skin Opacity control
-- Raster/MyPaint style brush Smooth option
-- Reenable arrow keys as shortcuts and fixes
-- saveLevelsOnSaveAs + UHD capture cam + clean debug asserts
-- Shift and Trace - Hide original position
-- Show Symmetry and Perspective Grids commands and buttons
-- Update default layout and command bars
-- [ui] Decouple x-sheet text colors *(OpenToonz port)*
-- [ui] Extra x-sheet colors *(OpenToonz port)*
-- Studio Palette Tweaks *(OpenToonz port)*
-
-Fixes
+Added
 '''''
-- Fix Cleanup Palette switching issues
-- Fix Create Blank Drawing making new level after Stop Frame
-- Fix displaying plastic deformed level in Linux
-- Fix edit missing controlpoint crash
-- Fix enabling tool options on Vector Select All
-- Fix missing undo with temp tool release
-- Fix multi-screen detection issues
-- Fix Note Cell Extending
-- Fix palette style animation keys management
-- Fix palette viewer's Save Palette/Save Palette As options
-- Fix pasting external clipboard image
-- Fix pinching at end of line
-- Fix preview undo collapse crash
-- Fix raster eraser crash
-- Fix SHIFT + Cell Dragging clearing cells
-- Fix Smart Raster Freehand/Polyline Fill
-- Fix Smart Raster Freehand/Polyline Fill Redo and gap closure lines
-- Fix Vector Stroke Group/Ungroup issues
-- Fix zoom out with small movements
-- Ignore Auto-Stretch while in Implicit Mode
-- Correct Minor Typos (OpenToonz port)
-- Fix the dialogs to be closed when clicking the buttons, instead of pressing. *(OpenToonz port)*
-- Fix typo *(OpenToonz port)*
-- Fix update sound after editing cells *(OpenToonz port)*
-- Macos undo freeze *(OpenToonz port)*
+- High DPI Scaling preference
+- Added CHANGELOG.md
+
+Changed
+'''''''
+- Fix Gap Closure results (Tape Tool)
+
+Fixed
+'''''
+- Fix relative drawing onion skin guided drawing
+- Fix update folder delay *(OpenToonz port)*
 
 Other
 '''''
-- Qt 5.15
-- Allow to run packaging script from any dir
-- Appimage fix: Allow to pass filename as argument for Tahoma binary
-- Fix hdiutil resource busy
-- Install and link libdeflate (macOS)
-- Russian translation updates by @beeheemooth
-- Update macOS build environment to Ventura
-- Update to custom rhubarb v1.13.0
-- Update translation files for v1.5
-- Refactor FFmpeg format check on launch *(OpenToonz port)*
-- Remove TSmartObject from TProject *(OpenToonz port)*
-- Update cleanup_default.tpl to be empty *(OpenToonz port)*
-- windows configure ThirdParty *(OpenToonz port)*
+- Brazilian Portuguese Translation - Review + Update to 1.5
+- Update Canon EDSDK to v13.18.40
 
 
-
-For more detailed information of these changes, visit the links provided in the `v1.5 Release Notes <https://github.com/tahoma2d/tahoma2d/releases/tag/v1.5>`_ hosted in GitHub.
+For more detailed information of these changes, visit the links provided in the `v1.5.1 Release Notes <https://github.com/tahoma2d/tahoma2d/releases/tag/v1.5.1>`_ hosted in GitHub.
 
 
 
@@ -109,6 +43,8 @@ Previous Versions
 -----------------
 
 Here you can find links to previous versions' full Release Notes, hosted in GitHub:
+
+`v1.5 Release Notes <https://github.com/tahoma2d/tahoma2d/releases/tag/v1.5>`_
 
 `v1.4.5 Release Notes <https://github.com/tahoma2d/tahoma2d/releases/tag/v1.4.5>`_
 
