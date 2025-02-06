@@ -118,27 +118,30 @@ Together with the configuration file, version control *users* must be defined by
      
      type between the tags the URL of the central repository according to how it was defined on the version control server (e.g. ``http://10.0.0.1/mySVNrepository/``  for a repository located in the local network; ``file:///C:/mySVNrepository``  for a repository located in the local Windows computer or ``file:///mySVNrepository``  for a repository located in the local Macintosh computer; and ``https://subversion.assembla.com/svn/mySVNrepository``  for an internet-based repository).
 
-     For Macintosh only, if the OS is *older* than Snow Leopard and you installed the **Subversion client 1.6** or later, in the line 
+    6. In the line 
 
-      ``<svnPath></svnPath>``
+     ``<svnPath></svnPath>``
 
      type between the tags the path to the folder where Subversion is installed (this information is displayed in the last page of the installation process and by default is ``/opt/subversion/bin`` ). 
 
-    6. Save the ``versioncontrol.xml``  file.
+    7. Save the ``versioncontrol.xml``  file.
 
 
 .. tip:: **To define the version control users:**
 
     1. Open the ``permissions.xml``  file located in the ``Tahoma stuff\config`` folder with a text editor.
 
-    2. In the user section define a user and assign him the version control user name and password as configured on the server. For example to assign to the user JohnDoe the user johnd whose password is johndpassword, add the following user:
+    2. In the user section define an OS user and assign their SVN user name and password as configured on the SVN server.
+ 
+     For example to assign to the OS user ``JohnDoe`` the SVN user ``johnd`` whose password is ``johndpassword``, add the following:
     
         .. code-block:: xml
 
             <user name="JohnDoe">
-                <roles>toonzer</roles>
                 <svn name="johnd" password="johndpassword" />
             </user>
+
+     NOTE: The ``<user name="guest">`` entry is the default SVN user credentials used by any OS user not specifically configured. If it's only you on this machine, you can just enter your svn name and password. Leave user name as ``guest``
 
     3. Save the ``permissions.xml``  file.
 
@@ -166,12 +169,13 @@ Together with the configuration file, version control *users* must be defined by
 
     1. Open the ``permissions.xml``  file located in the ``Tahoma stuff\config`` folder with a text editor.
 
-    2. In the user section assign to a user the version control user name and password as configured on the server of the second repository. For example to assign to the user JohnDoe the user johnd2 whose password is johndpassword2 defined for the second repository, add a ``svn name``  line so that the ``user name``  section in the ``permissions.xml``  file will look like the following:
+    2. In the user section assign to a user the version control user name and password as configured on the server of the second repository.
+   
+      For example to assign to the OS user ``JohnDoe`` the SVN user ``johnd2`` whose password is ``johndpassword2`` defined for the second repository, add a ``svn name``  line so that the ``user name``  section in the ``permissions.xml``  file will look like the following:
     
         .. code-block:: xml
 
             <user name="JohnDoe">
-                <roles>toonzer</roles>
                 <svn name="johnd" password="johndpassword" />
                 <svn name="johnd2" password="johndpassword2" />
             </user>
