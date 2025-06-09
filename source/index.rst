@@ -44,6 +44,7 @@ Tahoma2D User Manual
    creating_cutout_animation
    create_animations_using_plastic_tool
    applying_special_fx
+   glsl_shaders_intro
    using_the_particles_effect
    rendering_the_animation
    using_the_toonz_farm

@@ -1590,7 +1590,7 @@ The Mode option menu lets you set how the texture node content will be applied: 
 
 Shaders
 '''''''
-Tahoma enables support for effects rendered through hardware-accelerated pixelshaders. Shaders are simple programs compiled by a graphics processing unit that harness the massively parallel architecture of modern graphics devices, to execute with extreme speed. Tahoma's shader effects are written in the OpenGL Shading Language (GLSL), and are located in ``Tahoma stuff/library/shaders``. Refer to the readme.txt file there for further details on editing or creating new shader effects.
+Tahoma enables support for effects rendered through hardware-accelerated pixelshaders. Shaders are simple programs compiled by a graphics processing unit that harness the massively parallel architecture of modern graphics devices, to execute with extreme speed. Tahoma's shader effects are written in the OpenGL Shading Language (GLSL), and are located in ``Tahoma stuff/library/shaders``. Refer to the readme.txt file there for further details on editing or creating new shader effects as well as read :ref:`GLSL_SHADERS_INTRO`.
 
 .. _caustic:
 
