@@ -15,7 +15,7 @@ OpenGL is an API for rendering graphics through your GPU. It used to have a very
    :width: 500
    :alt: Pipeline
 
-All you need to be concerned about are Vertex and Fragment shaders.
+All you need to be concerned about are Vertex and Fragment shaders. The depth of OpenGL is rather limited to the basics such as affine transformations because Tahoma2D is strictly 2D, not 3D.
 
 
 How Tahoma2D Uses GLSL
