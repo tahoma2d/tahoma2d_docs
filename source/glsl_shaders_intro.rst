@@ -29,6 +29,9 @@ There are a few terms to be familiar with.
 
 outputToWorld would be placing the output boundaries onto the world space.
 
+First the ports vert is calculated because it needs to know input. Then is the bbox vert. Lastly is the frag shader.
+
+You are NOT supposed to return anything with the main function. All you need to worry about is filling in variables its going to look for.
 
 Example
 ----------------------
