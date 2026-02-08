@@ -7,17 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tahoma 1.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-06 15:56-0300\n"
-"PO-Revision-Date: 2019-12-06 16:01-0300\n"
-"Last-Translator: Gabriel Gazzan <gabcorreo@gmail.com>\n"
-"Language: es\n"
+"POT-Creation-Date: 2026-01-30 22:32-0300\n"
+"PO-Revision-Date: 2026-02-01 18:48-0300\n"
+"Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Español\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
-"X-Generator: Poedit 2.2.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.17.0\n"
+"X-Generator: Poedit 3.8\n"
 
 #: ../../source/creating_movements.rst:4
 msgid "Creating Movements"
@@ -30,7 +30,7 @@ msgid ""
 msgstr ""
 "Cada escena contiene una serie de *objetos* que pueden ser transformados; éstos "
 "pueden ser: columnas de la Planilla (capas de la Línea de tiempo), barras de "
-"sujeción, cámaras o la propia mesa."
+"sujeción, cámaras o la propia Mesa."
 
 #: ../../source/creating_movements.rst:7
 msgid ""
@@ -72,7 +72,11 @@ msgstr ""
 
 #: ../../source/creating_movements.rst:18
 msgid "|stage_schematic|"
-msgstr ""
+msgstr "|stage_schematic|"
+
+#: ../../source/creating_movements.rst:934
+msgid "stage_schematic"
+msgstr "stage_schematic"
 
 #: ../../source/creating_movements.rst:20
 msgid "By default the Stage Schematic contains the table node and one camera node."
@@ -102,8 +106,8 @@ msgstr ""
 "Cuando se cree más de una cámara, será posible definir la cámara *activa* usada "
 "en el Visor; el nodo de la cámara activa será mostrado en *azul*, mientras los "
 "de las demás cámaras serán mostrados en *gris*. Cada cámara podrá tener un "
-"tamaño y resolución distintos y ser animada de forma independiente (ver  :ref:"
-"`Definición de Opciones de cámara <defining_camera_settings>`  )."
+"tamaño y resolución distintos y ser animada de forma independiente "
+"(ver  :ref:`Definición de Opciones de cámara <defining_camera_settings>`  )."
 
 #: ../../source/creating_movements.rst:26
 msgid ""
@@ -145,22 +149,34 @@ msgstr ""
 "columnas/capas de la Planilla/Línea de tiempo (ver :ref:`Trabajo con columnas/"
 "capas <working_with_xsheet_columns>` )."
 
+#: ../../source/creating_movements.rst:960
+msgid "camera_stand"
+msgstr "camera_stand"
+
+#: ../../source/creating_movements.rst:975
+msgid "preview"
+msgstr "preview"
+
 #: ../../source/creating_movements.rst:32
 msgid "**To access the stage schematic:**"
 msgstr "**Para acceder al Diagrama de escenario:**"
 
 #: ../../source/creating_movements.rst:34
-msgid "Go to the Window menu, and choose the Schematic option."
-msgstr "Elegir la opción Ventanas → Diagrama."
+msgid "Go to the Panels menu, and choose the Schematic option."
+msgstr "Elegir la opción Paneles → Diagrama."
 
 #: ../../source/creating_movements.rst:36
 msgid ""
 "If necessary, click the FX/Stage toggle button (|schematic|) in the bottom bar "
-"of the Schematic pane until the title bar displays Stage Schematic."
+"of the Schematic panel until the title bar displays Stage Schematic."
 msgstr ""
 "Si fuera necesario, hacer clic en el botón **Diagrama de efectos/escenario** (|"
 "schematic|) en la esquina inferior derecha del panel Diagrama, hasta que en la "
-"barra se lea Diagrama de escenario."
+"barra de título se lea Diagrama de escenario."
+
+#: ../../source/creating_movements.rst:980
+msgid "schematic"
+msgstr "schematic"
 
 #: ../../source/creating_movements.rst:38
 msgid "**To navigate the stage schematic:**"
@@ -188,7 +204,7 @@ msgid ""
 "in and zoom out."
 msgstr ""
 "Usar la rueda del ratón o los atajos (de forma predefinida las teclas **+** y **-"
-"**) para usar el zoom."
+"**) para usar la ampliación/reducción."
 
 #: ../../source/creating_movements.rst:44
 msgid "Middle-click and drag to scroll in any direction."
@@ -198,38 +214,54 @@ msgstr ""
 #: ../../source/creating_movements.rst:46
 msgid ""
 "Use the **Fit to Window** button (|fit_to_window|) in the bottom bar of the "
-"stage window to display all the objects in the current window."
+"stage panel to display all the objects in the current panel."
 msgstr ""
 "Usar el botón **Ajustar a ventana** (|fit_to_window|) en la esquina inferior "
 "izquierda del Diagrama, para mostrar todos los objetos en la ventana."
 
+#: ../../source/creating_movements.rst:964
+msgid "fit_to_window"
+msgstr "fit_to_window"
+
 #: ../../source/creating_movements.rst:48
 msgid ""
 "Use the **Focus on Current** button (|focus_on_current|) in the bottom bar of "
-"the stage window to center the stage on the current object."
+"the stage panel to center the stage on the current object."
 msgstr ""
 "Usar el botón **Enfocar en nodo actual** (|focus_on_current|) en la esquina "
 "inferior izquierda del Diagrama, para centrar la vista en el nodo actual."
 
+#: ../../source/creating_movements.rst:965
+msgid "focus_on_current"
+msgstr "focus_on_current"
+
 #: ../../source/creating_movements.rst:50
 msgid ""
 "Use the **Reorder Nodes** button (|reorder_nodes|) in the bottom bar of the "
-"stage window to change the position of the nodes in the schematic to a default "
+"stage panel to change the position of the nodes in the schematic to a default "
 "arrangement."
 msgstr ""
 "Usar el botón **Reordenar nodos** (|reorder_nodes|) en la esquina inferior "
 "izquierda del Diagrama, para reorganizar automáticamente los nodos en el "
 "Diagrama."
 
+#: ../../source/creating_movements.rst:977
+msgid "reorder_nodes"
+msgstr "reorder_nodes"
+
 #: ../../source/creating_movements.rst:52
 msgid ""
-"Use the **Reset Size** button (|reset|) in the bottom bar of the stage window, "
-"or use the reset view shortcut (by default the 0 key) to display all the objects "
-"at the default size."
+"Use the **Reset Size** button (|reset|) in the bottom bar of the stage panel, or "
+"use the reset view shortcut (by default the 0 key) to display all the objects at "
+"the default size."
 msgstr ""
 "Usar el botón **Restablecer tamaño** (|reset|) en la esquina inferior izquierda "
 "del Diagrama (o su atajo predefinido **Alt + 0**), para visualizar todos los "
 "nodos a su tamaño predefinido."
+
+#: ../../source/creating_movements.rst:978
+msgid "reset"
+msgstr "reset"
 
 #: ../../source/creating_movements.rst:54
 msgid "**To add a column/layer:**"
@@ -250,10 +282,14 @@ msgstr "**Para agregar una barra de sujeción:**"
 #: ../../source/creating_movements.rst:62
 msgid ""
 "Click the **New Pegbar** button (|pegbar|) in the bottom bar of the Stage "
-"Schematic window."
+"Schematic panel."
 msgstr ""
 "Hacer clic en el botón **Nueva barra de sujeción** (|pegbar|) en la esquina "
 "inferior derecha del Diagrama de escenario."
+
+#: ../../source/creating_movements.rst:974
+msgid "pegbar"
+msgstr "pegbar"
 
 #: ../../source/creating_movements.rst:64
 msgid ""
@@ -270,10 +306,14 @@ msgstr "**Para agregar una cámara:**"
 #: ../../source/creating_movements.rst:70
 msgid ""
 "Click the **New Camera** button (|camera|) in the bottom bar of the Stage "
-"Schematic window."
+"Schematic panel."
 msgstr ""
 "Hacer clic en el botón *Nueva cámara** (|camera|) en la esquina inferior derecha "
 "del Diagrama de escenario."
+
+#: ../../source/creating_movements.rst:962
+msgid "camera"
+msgstr "camera"
 
 #: ../../source/creating_movements.rst:72
 msgid ""
@@ -318,10 +358,14 @@ msgstr ""
 #: ../../source/creating_movements.rst:88
 msgid ""
 "Click the **Maximize Nodes** (|maximize|) button in the bottom bar of the Stage "
-"Schematic pane to minimize/maximize all of the nodes."
+"Schematic panel to minimize/maximize all of the nodes."
 msgstr ""
 "Hacer clic en el botón **Maximizar nodos** (|maximize|) en la esquina inferior "
 "izquierda del Diagrama, para maximizar/minimizar todos los nodos."
+
+#: ../../source/creating_movements.rst:969
+msgid "maximize"
+msgstr "maximize"
 
 #: ../../source/creating_movements.rst:90
 msgid "**To select objects and links:**"
@@ -348,8 +392,8 @@ msgid ""
 "Links can be selected together with objects (see  :ref:`Linking Objects "
 "<linking_objects>`  )."
 msgstr ""
-"Es posible seleccionar líneas de vínculo conjuntamente con nodos (ver  :ref:"
-"`Vinculación de objetos <linking_objects>`  )."
+"Es posible seleccionar líneas de vínculo conjuntamente con nodos "
+"(ver  :ref:`Vinculación de objetos <linking_objects>`  )."
 
 #: ../../source/creating_movements.rst:102
 msgid "**To move the selection:**"
@@ -476,7 +520,7 @@ msgstr "**Para reordenar los nodos en el Diagrama de escenario:**"
 #: ../../source/creating_movements.rst:144
 msgid ""
 "Click the **Reorder Nodes** button (|reorder_nodes|) in the bottom bar of the "
-"stage window."
+"stage panel."
 msgstr ""
 "Usar el botón **Reordenar nodos** (|reorder_nodes|) en la esquina inferior "
 "izquierda del Diagrama."
@@ -608,6 +652,10 @@ msgstr ""
 "**Seleccionar:** en **Columnas**, en el Visor hacer **Mayúsculas-clic** sobre el "
 "contenido de la columna/capa a la cual se desee vincular la columna actual."
 
+#: ../../source/creating_movements.rst:953
+msgid "animate"
+msgstr "animate"
+
 #: ../../source/creating_movements.rst:181
 msgid "**To select the linked object to edit in the hierarchy:**"
 msgstr "**Para seleccionar un objeto vinculado a otro en una jerarquía:**"
@@ -661,8 +709,8 @@ msgid ""
 "Objects can be selected together with links (see  :ref:`Using the Stage "
 "Schematic <using_the_stage_schematic>`  )."
 msgstr ""
-"Es posible seleccionar objetos conjuntamente con líneas de vínculo (ver  :ref:"
-"`Uso del Diagrama de escenario <using_the_stage_schematic>`  )."
+"Es posible seleccionar objetos conjuntamente con líneas de vínculo "
+"(ver  :ref:`Uso del Diagrama de escenario <using_the_stage_schematic>`  )."
 
 #: ../../source/creating_movements.rst:203
 msgid "**To remove selected links:**"
@@ -692,11 +740,19 @@ msgstr ""
 
 #: ../../source/creating_movements.rst:214
 msgid "|adv_linking_1|"
-msgstr ""
+msgstr "|adv_linking_1|"
+
+#: ../../source/creating_movements.rst:935
+msgid "adv_linking_1"
+msgstr "adv_linking_1"
 
 #: ../../source/creating_movements.rst:216
 msgid "|adv_linking_2|"
-msgstr ""
+msgstr "|adv_linking_2|"
+
+#: ../../source/creating_movements.rst:936
+msgid "adv_linking_2"
+msgstr "adv_linking_2"
 
 #: ../../source/creating_movements.rst:218
 msgid ""
@@ -741,8 +797,8 @@ msgstr ""
 #: ../../source/creating_movements.rst:225
 msgid ""
 "Apart from letters, columns have also numbered centers as well; these serve for "
-"setting links relative to the position of Hooks assigned to these columns (see  :"
-"ref:`Using Hooks <using_hooks>` )."
+"setting links relative to the position of Hooks assigned to these columns "
+"(see  :ref:`Using Hooks <using_hooks>` )."
 msgstr ""
 "Además de letras, el centro de las columnas/capas también podrá contener "
 "números; estos servirán para definir centros relativos a la posición de "
@@ -771,8 +827,8 @@ msgstr ""
 
 #: ../../source/creating_movements.rst:233
 msgid ""
-"By defining parent and child objects you can also create cutout animation (see  :"
-"ref:`Creating Cutout Animation <creating_cutout_animation>`  )."
+"By defining parent and child objects you can also create cutout animation "
+"(see  :ref:`Creating Cutout Animation <creating_cutout_animation>`  )."
 msgstr ""
 "Mediante la definición de jerarquías de objetos será posible instrumentar una "
 "animación de recortes (ver  :ref:`Creación de animación de recortes "
@@ -785,12 +841,16 @@ msgstr "**Para cambiar el modo de visualización de los conectores:**"
 #: ../../source/creating_movements.rst:237
 msgid ""
 "Click the **Switch Output Port Display Mode** button (|switch_output_port|) in "
-"the bottom bar of the Stage Schematic pane until you see the letters on each "
+"the bottom bar of the Stage Schematic panel until you see the letters on each "
 "side of the nodes, instead of the default circles."
 msgstr ""
-"Hacer clic en el botón **Cambiar visualización de puertos de salida** (|"
+"Hacer clic en el botón **Cambiar visualización de conectores** (|"
 "switch_output_port|) en la barra inferior del Diagrama de escenario, hasta que "
 "se vean letras en los conectores, en vez de los círculos predefinidos."
+
+#: ../../source/creating_movements.rst:983
+msgid "switch_output_port"
+msgstr "switch_output_port"
 
 #: ../../source/creating_movements.rst:239
 msgid "**To set the center of an object:**"
@@ -862,6 +922,10 @@ msgstr ""
 "Los enganches son puntos de referencia que pueden ser definidos para cualquier "
 "nivel de animación, directamente en el Visor, usando la herramienta **Enganche** "
 "(|hook|)."
+
+#: ../../source/creating_movements.rst:955
+msgid "hook"
+msgstr "hook"
 
 #: ../../source/creating_movements.rst:262
 msgid ""
@@ -950,19 +1014,19 @@ msgid ""
 "By activating the **Snap** option, hooks for the current level can be accurately "
 "placed by snapping them exactly to the same position of hooks defined for the "
 "other animation levels visible in the viewer. In case the current level is a "
-"Vector level, hooks will snap also to the center of any closed shapes it "
-"may contain (e.g. rectangles, circles or single vector shapes closed with the "
-"Tape tool). This option may prove useful especially when defining hooks for "
-"cutout animation models (see  :ref:`Creating Cutout Animation "
+"Vector level, hooks will snap also to the center of any closed shapes it may "
+"contain (e.g. rectangles, circles or single vector shapes closed with the Tape "
+"tool). This option may prove useful especially when defining hooks for cutout "
+"animation models (see  :ref:`Creating Cutout Animation "
 "<creating_cutout_animation>`  )."
 msgstr ""
 "Al activar la opción **Adherencia**, será posible ubicar de forma precisa "
 "enganches en el nivel actual adhiriéndolos de forma exacta a las posiciones de "
 "enganches definidos en otros niveles de animación visibles en el Visor. En caso "
-"de que el nivel actual sea un nivel Vectorial de Toonz, los enganches también se "
-"adherirán al centro de cualquier figura cerrada que pueda contener el mismo (p."
-"ej: rectángulos, círculos o figuras libres creadas a partir de un solo trazo y "
-"cerradas mediante la herramienta Cinta). Esta opción puede resultar útil "
+"de que el nivel actual sea un nivel Vectorial, los enganches también se "
+"adherirán al centro de cualquier figura cerrada que pueda contener el mismo "
+"(p.ej: rectángulos, círculos o figuras libres creadas a partir de un solo trazo "
+"y cerradas mediante la herramienta Cinta). Esta opción puede resultar útil "
 "especialmente al definir enganches cuando se construyen modelos para animación "
 "de recortes (ver  :ref:`Creación de animación de recortes "
 "<creating_cutout_animation>`  )."
@@ -1057,8 +1121,8 @@ msgid ""
 msgstr ""
 "Activar la opción **Adherencia** para ubicar el enganche de forma precisa en la "
 "posición de enganches definidos en otros niveles de animación visibles en el "
-"Visor. En caso de que el nivel actual fuera un nivel Vectorial de Toonz, los "
-"enganches también se adherirán al centro de cualquier figura cerrada."
+"Visor. En caso de que el nivel actual fuera un nivel Vectorial, los enganches "
+"también se adherirán al centro de cualquier figura cerrada."
 
 #: ../../source/creating_movements.rst:318
 msgid "**To pass a hook from one position to another:**"
@@ -1211,9 +1275,17 @@ msgstr ""
 "posible definir una serie de enganches que podrán ser usados para subordinar "
 "objetos (ver más arriba)."
 
+#: ../../source/creating_movements.rst:957
+msgid "tracker"
+msgstr "tracker"
+
 #: ../../source/creating_movements.rst:369
 msgid "|tracking_regions|"
-msgstr ""
+msgstr "|tracking_regions|"
+
+#: ../../source/creating_movements.rst:937
+msgid "tracking_regions"
+msgstr "tracking_regions"
 
 #: ../../source/creating_movements.rst:371
 msgid ""
@@ -1247,7 +1319,11 @@ msgstr ""
 
 #: ../../source/creating_movements.rst:375
 msgid "|tracking_options|"
-msgstr ""
+msgstr "|tracking_options|"
+
+#: ../../source/creating_movements.rst:938
+msgid "tracking_options"
+msgstr "tracking_options"
 
 #: ../../source/creating_movements.rst:377
 msgid ""
@@ -1390,8 +1466,8 @@ msgstr "**Para subordinar un objeto a la región rastreada:**"
 
 #: ../../source/creating_movements.rst:417
 msgid ""
-"Link the object to one of the hooks defined by the tracking process (see  :ref:"
-"`Using Hooks <using_hooks>`  )."
+"Link the object to one of the hooks defined by the tracking process "
+"(see  :ref:`Using Hooks <using_hooks>`  )."
 msgstr ""
 "Vincular el objeto a uno de los enganches definidos durante el proceso de "
 "rastreo (ver  :ref:`Uso de Enganches <using_hooks>`  )."
@@ -1443,23 +1519,27 @@ msgstr ""
 #: ../../source/creating_movements.rst:432
 msgid ""
 "**Position**, **N/S:** and **E/W:** set the vertical and horizontal positions of "
-"the selected object, position **Z:** sets its position along the Z axis (see  :"
-"ref:`Working in a 3D Environment <working_in_a_3d_environment>`  ), and **SO:** "
-"sets the column/layer stacking order, that can be different from the one defined "
-"in the Xsheet/Timeline (see  :ref:`Changing Columns Stacking Order "
+"the selected object, position **Z:** sets its position along the Z axis "
+"(see  :ref:`Working in a 3D Environment <working_in_a_3d_environment>`  ), and "
+"**SO:** sets the column/layer stacking order, that can be different from the one "
+"defined in the Xsheet/Timeline (see  :ref:`Changing Columns Stacking Order "
 "<changing_columns_stacking_order>`  )."
 msgstr ""
 "**Posición**, **X:** e **Y:** permiten definir las posiciones horizontal y "
-"vertical del objeto seleccionado, **Z:** permite definir la profundidad (ver  :"
-"ref:`Trabajo en un entorno 3D <working_in_a_3d_environment>`  ), y **Orden:** "
-"permite definir el orden de composición de la columna/capa, cuando éste deba ser "
-"distinto al naturalmente definido por su posición en la Planilla/Línea de tiempo "
-"(ver  :ref:`Changing Columns Stacking Order "
+"vertical del objeto seleccionado, **Z:** permite definir la profundidad "
+"(ver  :ref:`Trabajo en un entorno 3D <working_in_a_3d_environment>`  ), y "
+"**Orden:** permite definir el orden de composición de la columna/capa, cuando "
+"éste deba ser distinto al naturalmente definido por su posición en la Planilla/"
+"Línea de tiempo (ver  :ref:`Changing Columns Stacking Order "
 "<changing_columns_stacking_order>`  )."
 
 #: ../../source/creating_movements.rst:434
 msgid "|animate_tool_position|"
-msgstr ""
+msgstr "|animate_tool_position|"
+
+#: ../../source/creating_movements.rst:939
+msgid "animate_tool_position"
+msgstr "animate_tool_position"
 
 #: ../../source/creating_movements.rst:436
 msgid "**Rotation:**, sets the rotation of the selected object."
@@ -1467,7 +1547,11 @@ msgstr "**Rotación:**, permite definir la rotación del objeto seleccionado."
 
 #: ../../source/creating_movements.rst:438
 msgid "|animate_tool_rotation|"
-msgstr ""
+msgstr "|animate_tool_rotation|"
+
+#: ../../source/creating_movements.rst:940
+msgid "animate_tool_rotation"
+msgstr "animate_tool_rotation"
 
 #: ../../source/creating_movements.rst:440
 msgid ""
@@ -1486,7 +1570,11 @@ msgstr ""
 
 #: ../../source/creating_movements.rst:442
 msgid "|animate_tool_scale|"
-msgstr ""
+msgstr "|animate_tool_scale|"
+
+#: ../../source/creating_movements.rst:941
+msgid "animate_tool_scale"
+msgstr "animate_tool_scale"
 
 #: ../../source/creating_movements.rst:444
 msgid ""
@@ -1498,7 +1586,11 @@ msgstr ""
 
 #: ../../source/creating_movements.rst:446
 msgid "|animate_tool_shear|"
-msgstr ""
+msgstr "|animate_tool_shear|"
+
+#: ../../source/creating_movements.rst:942
+msgid "animate_tool_shear"
+msgstr "animate_tool_shear"
 
 #: ../../source/creating_movements.rst:448
 msgid ""
@@ -1511,7 +1603,11 @@ msgstr ""
 
 #: ../../source/creating_movements.rst:450
 msgid "|animate_tool_center|"
-msgstr ""
+msgstr "|animate_tool_center|"
+
+#: ../../source/creating_movements.rst:943
+msgid "animate_tool_center"
+msgstr "animate_tool_center"
 
 #: ../../source/creating_movements.rst:452
 msgid ""
@@ -1526,7 +1622,11 @@ msgstr ""
 
 #: ../../source/creating_movements.rst:454
 msgid "|animate_tool_all|"
-msgstr ""
+msgstr "|animate_tool_all|"
+
+#: ../../source/creating_movements.rst:944
+msgid "animate_tool_all"
+msgstr "animate_tool_all"
 
 #: ../../source/creating_movements.rst:456
 msgid ""
@@ -1555,6 +1655,10 @@ msgid ""
 msgstr ""
 "Botones de **Bloqueo** (|lock|), permiten definir qué valores permanecerán "
 "bloqueados al transformar el objeto seleccionado."
+
+#: ../../source/creating_movements.rst:968
+msgid "lock"
+msgstr "lock"
 
 #: ../../source/creating_movements.rst:460
 msgid ""
@@ -1588,8 +1692,7 @@ msgstr ""
 #: ../../source/creating_movements.rst:464
 msgid ""
 "Position values are expressed in the default unit of measure set in the "
-"Preferences  →  Interface dialog (see  :ref:`Choosing the Working Unit "
-"<choosing_the_working_unit>`  )."
+"Preferences  →  Interface dialog."
 msgstr ""
 "Los valores de Posición estarán expresados en la unidad predefinida en el "
 "diálogo Archivo → Preferencias → Interfaz (ver  :ref:`Elección de unidades de "
@@ -1614,7 +1717,11 @@ msgstr ""
 
 #: ../../source/creating_movements.rst:473
 msgid "|animate_tool_handle|"
-msgstr ""
+msgstr "|animate_tool_handle|"
+
+#: ../../source/creating_movements.rst:945
+msgid "animate_tool_handle"
+msgstr "animate_tool_handle"
 
 #: ../../source/creating_movements.rst:475
 msgid ""
@@ -1652,7 +1759,11 @@ msgstr ""
 
 #: ../../source/creating_movements.rst:483
 msgid "|animate_tool_handle_rotate|"
-msgstr ""
+msgstr "|animate_tool_handle_rotate|"
+
+#: ../../source/creating_movements.rst:946
+msgid "animate_tool_handle_rotate"
+msgstr "animate_tool_handle_rotate"
 
 #: ../../source/creating_movements.rst:485
 msgid ""
@@ -1672,7 +1783,15 @@ msgstr ""
 
 #: ../../source/creating_movements.rst:487
 msgid "|animate_tool_handle_scale| |animate_tool_handle_scaleHV|"
-msgstr ""
+msgstr "|animate_tool_handle_scale| |animate_tool_handle_scaleHV|"
+
+#: ../../source/creating_movements.rst:947
+msgid "animate_tool_handle_scale"
+msgstr "animate_tool_handle_scale"
+
+#: ../../source/creating_movements.rst:948
+msgid "animate_tool_handle_scaleHV"
+msgstr "animate_tool_handle_scaleHV"
 
 #: ../../source/creating_movements.rst:490
 msgid ""
@@ -1687,7 +1806,11 @@ msgstr ""
 
 #: ../../source/creating_movements.rst:492
 msgid "|animate_tool_handle_shear|"
-msgstr ""
+msgstr "|animate_tool_handle_shear|"
+
+#: ../../source/creating_movements.rst:949
+msgid "animate_tool_handle_shear"
+msgstr "animate_tool_handle_shear"
 
 #: ../../source/creating_movements.rst:494
 msgid ""
@@ -1699,7 +1822,11 @@ msgstr ""
 
 #: ../../source/creating_movements.rst:496
 msgid "|animate_tool_handle_center|"
-msgstr ""
+msgstr "|animate_tool_handle_center|"
+
+#: ../../source/creating_movements.rst:950
+msgid "animate_tool_handle_center"
+msgstr "animate_tool_handle_center"
 
 #: ../../source/creating_movements.rst:498
 msgid ""
@@ -1746,10 +1873,15 @@ msgstr ""
 "crearán claves para todas las transformaciones del objeto seleccionado, "
 "independientemente del estado de la opción **Clave global**."
 
+#: ../../source/creating_movements.rst:966
+msgid "key"
+msgstr "key"
+
 #: ../../source/creating_movements.rst:504
 msgid ""
-"Objects can also be animated by working in the Function Editor (see  :ref:"
-"`Editing Curves and Numerical Columns <editing_curves_and_numerical_columns>`  )."
+"Objects can also be animated by working in the Function Editor "
+"(see  :ref:`Editing Curves and Numerical Columns "
+"<editing_curves_and_numerical_columns>`  )."
 msgstr ""
 "También será posible animar objetos mediante el uso de las características del "
 "Editor de funciones (ver  :ref:`Edición usando la planilla de valores y curvas "
@@ -1844,8 +1976,8 @@ msgstr ""
 #: ../../source/creating_movements.rst:534
 msgid "When animating columns only, select the related cell in the column/layer."
 msgstr ""
-"Únicamente al animar columnas/capas, seleccionar el acetato correspondiente en "
-"la columna/capa."
+"Únicamente al animar columnas/capas, seleccionar la celda correspondiente en la "
+"columna/capa."
 
 #: ../../source/creating_movements.rst:536
 msgid "Define a keyframe."
@@ -2006,10 +2138,18 @@ msgstr ""
 "Usar los botones **Clave anterior** (|prevkey|) y **Clave siguiente** (|"
 "next_key|) disponibles a los lados del botón **Marcar fotograma clave**."
 
+#: ../../source/creating_movements.rst:976
+msgid "prevkey"
+msgstr "prevkey"
+
+#: ../../source/creating_movements.rst:972
+msgid "next_key"
+msgstr "next_key"
+
 #: ../../source/creating_movements.rst:594
 msgid ""
-"Keys can also be removed or navigated by working in the Function Editor (see  :"
-"ref:`Editing Curves and Numerical Columns "
+"Keys can also be removed or navigated by working in the Function Editor "
+"(see  :ref:`Editing Curves and Numerical Columns "
 "<editing_curves_and_numerical_columns>`  )."
 msgstr ""
 "También será posible eliminar o recorrer fotogramas clave usando el Editor de "
@@ -2106,8 +2246,8 @@ msgstr ""
 "En caso de que se hubiera editado la **Posición Z** de una columna/capa, las "
 "columnas/capas que se encontraran más cerca de la cámara serán compuestas por "
 "encima de las otras, ignorando tanto el valor de la propiedad **Orden:**, como "
-"el orden natural de las mismas en la Planilla/Línea de tiempo (ver  :ref:"
-"`Trabajo en un entorno 3D <working_in_a_3d_environment>` )."
+"el orden natural de las mismas en la Planilla/Línea de tiempo "
+"(ver  :ref:`Trabajo en un entorno 3D <working_in_a_3d_environment>` )."
 
 #: ../../source/creating_movements.rst:619
 msgid "**To edit and animate a column/layer SO value:**"
@@ -2237,10 +2377,14 @@ msgstr ""
 #: ../../source/creating_movements.rst:662
 msgid ""
 "Click the **New Motion Path** button (|new_motion_path|) in the bottom bar of "
-"the stage window."
+"the stage panel."
 msgstr ""
 "Hacer clic en el botón **Nueva trayectoria de movimiento** (|new_motion_path|) "
 "en la barra inferior del Diagrama de escenario."
+
+#: ../../source/creating_movements.rst:971
+msgid "new_motion_path"
+msgstr "new_motion_path"
 
 #: ../../source/creating_movements.rst:664
 msgid ""
@@ -2310,6 +2454,14 @@ msgstr ""
 "inalterada la orientación del objeto, mientras el **Rombo** (|rhomb|) permitirá "
 "que el objeto rote para mantenerse perpendicular a la trayectoria."
 
+#: ../../source/creating_movements.rst:982
+msgid "square"
+msgstr "square"
+
+#: ../../source/creating_movements.rst:979
+msgid "rhomb"
+msgstr "rhomb"
+
 #: ../../source/creating_movements.rst:690
 msgid ""
 "**To link the object keyframes to the control points defining the motion path:**"
@@ -2325,6 +2477,10 @@ msgstr ""
 "Hacer clic en el botón *a la izquierda* del conector inferior del objeto, para "
 "activar o desactivar la opción **Vincular a puntos de control** (|"
 "link_to_control_points|)."
+
+#: ../../source/creating_movements.rst:967
+msgid "link_to_control_points"
+msgstr "link_to_control_points"
 
 #: ../../source/creating_movements.rst:694
 msgid "**To change the center of the object:**"
@@ -2349,8 +2505,8 @@ msgstr "**Para guardar una trayectoria de movimiento:**"
 #: ../../source/creating_movements.rst:704
 msgid "Right-click it and select **Save Motion Path** from the menu that opens."
 msgstr ""
-"Hacer clic derecho sobre su nodo y elegir **Guardar trayectoria de movimiento..."
-"** en el menú."
+"Hacer clic derecho sobre su nodo y elegir **Guardar trayectoria de "
+"movimiento...** en el menú."
 
 #: ../../source/creating_movements.rst:706
 msgid ""
@@ -2369,8 +2525,8 @@ msgid ""
 "Right-click the motion path and select **Load Motion Path** from the menu that "
 "opens."
 msgstr ""
-"Hacer clic derecho sobre su nodo y elegir **Cargar trayectoria de movimiento..."
-"** en el menú."
+"Hacer clic derecho sobre su nodo y elegir **Cargar trayectoria de "
+"movimiento...** en el menú."
 
 #: ../../source/creating_movements.rst:712
 msgid ""
@@ -2392,6 +2548,10 @@ msgid ""
 msgstr ""
 "Seleccionar el trazo vectorial que se desee usar como trayectoria de movimiento, "
 "mediante la herramienta **Seleccionar** (|selection|)."
+
+#: ../../source/creating_movements.rst:958
+msgid "selection"
+msgstr "selection"
 
 #: ../../source/creating_movements.rst:718 ../../source/creating_movements.rst:730
 msgid "Copy/cut it."
@@ -2476,16 +2636,20 @@ msgid ""
 "from one cell to another."
 msgstr ""
 "Tan pronto como se haya creado un fotograma clave para una columna de la "
-"Planilla, se mostrará un **ícono de fotograma clave** del lado derecho del "
-"acetato correspondiente (en el caso de la Línea de tiempo, el ícono aparecerá "
-"centrado en el acetato); el ícono tendrá la misma apariencia, sin importar "
-"cuántos parámetros tuvieran claves en ese mismo fotograma. Será posible mover "
-"los claves dentro de la columna/capa correspondiente, así como ser seleccionados "
-"para poder ser cortados/copiados y pegados de un acetato a otro."
+"Planilla, se mostrará un **ícono de fotograma clave** del lado derecho de la "
+"celda correspondiente (en el caso de la Línea de tiempo, el ícono aparecerá "
+"centrado en la celda); el ícono tendrá la misma apariencia, sin importar cuántos "
+"parámetros tuvieran claves en ese mismo fotograma. Será posible mover los claves "
+"dentro de la columna/capa correspondiente, así como ser seleccionados para poder "
+"ser cortados/copiados y pegados de una celda a otra."
 
 #: ../../source/creating_movements.rst:753
 msgid "|using_column_keys|"
-msgstr ""
+msgstr "|using_column_keys|"
+
+#: ../../source/creating_movements.rst:951
+msgid "using_column_keys"
+msgstr "using_column_keys"
 
 #: ../../source/creating_movements.rst:755
 msgid ""
@@ -2502,8 +2666,8 @@ msgstr ""
 "Cuando la opción **Clave global** se encuentre activada en la herramienta "
 "**Animar**, y la interpolación predefinida estuviera establecida en **Lineal**, "
 "tan pronto se creen al menos dos fotogramas clave para una columna/capa, "
-"aparecerá una **línea vertical con dos flechas**, conectándolos (ver  :ref:"
-"`Animación de objetos <animating_objects>`  y  :ref:`Definición de la "
+"aparecerá una **línea vertical con dos flechas**, conectándolos "
+"(ver  :ref:`Animación de objetos <animating_objects>`  y  :ref:`Definición de la "
 "interpolación de segmentos <setting_segment_interpolations>`  ). Las dos flechas "
 "dividirán la línea en tres secciones, indicando las fases de aceleración, "
 "velocidad constante y desaceleración *de todas las transformaciones definidas* "
@@ -2519,7 +2683,7 @@ msgid ""
 msgstr ""
 "También será posible repetir los fotogramas clave creados previamente, para "
 "extender la animación más allá del rango cubierto por los fotogramas clave, sin "
-"necesidad de copiar y pegar los mismos una y otra vez de un acetato a otro."
+"necesidad de copiar y pegar los mismos una y otra vez de una celda a otra."
 
 #: ../../source/creating_movements.rst:759
 msgid ""
@@ -2549,7 +2713,7 @@ msgstr "**Para modificar un fotograma clave:**"
 
 #: ../../source/creating_movements.rst:763
 msgid "Select the cell the key refers to."
-msgstr "Seleccionar el acetato donde se encuentra el fotograma clave."
+msgstr "Seleccionar la celda donde se encuentra el fotograma clave."
 
 #: ../../source/creating_movements.rst:767
 msgid "Use the **Animate** tool (|animate|) to modify position and size."
@@ -2636,7 +2800,7 @@ msgid ""
 "the selected cell."
 msgstr ""
 "Usar el comando **Pegar** para pegar la selección en memoria, comenzando a "
-"partir del acetato seleccionado."
+"partir de la celda seleccionada."
 
 #: ../../source/creating_movements.rst:801
 msgid ""
@@ -2711,9 +2875,13 @@ msgid ""
 "*a zigzagged line*."
 msgstr ""
 "Hacer clic en el ícono de **Flecha circular** (|circular_arrow|) visible a "
-"continuación del último fotograma clave de una columna/capa. Los acetatos "
-"afectados por la repetición cíclica del movimiento, serán marcados con una "
+"continuación del último fotograma clave de una columna/capa. Las celdas "
+"afectadas por la repetición cíclica del movimiento, serán marcadas con una "
 "*línea zigzagueante*."
+
+#: ../../source/creating_movements.rst:963
+msgid "circular_arrow"
+msgstr "circular_arrow"
 
 #: ../../source/creating_movements.rst:821
 msgid "**To open the Function Editor:**"
@@ -2806,8 +2974,8 @@ msgid "Select the frame where you want to insert keys."
 msgstr "Seleccionar el fotograma donde se desee insertar los claves."
 
 #: ../../source/creating_movements.rst:854
-msgid "Choose Xsheet  →  **Insert Multiple Keys**."
-msgstr "Elegir Planilla → **Insertar múltiples claves**."
+msgid "Choose Scene  →  **Insert Multiple Keys**."
+msgstr "Elegir Escena → **Insertar múltiples claves**."
 
 #: ../../source/creating_movements.rst:856
 msgid "**To remove several keys at once:**"
@@ -2830,8 +2998,8 @@ msgid "Select the frame where you want to delete keys."
 msgstr "Seleccionar el fotograma donde se desee eliminar los claves."
 
 #: ../../source/creating_movements.rst:866
-msgid "Choose Xsheet  →  **Remove Multiple Keys**."
-msgstr "Elegir Planilla → **Eliminar múltiples claves**."
+msgid "Choose Scene  →  **Remove Multiple Keys**."
+msgstr "Elegir Escena → **Eliminar múltiples claves**."
 
 #: ../../source/creating_movements.rst:872
 msgid "Working in a 3D Environment"
@@ -2873,15 +3041,20 @@ msgstr ""
 "desplazar y rotar el Visor para encontrar el mejor ángulo de visualización, así "
 "como obtener una vista superior o lateral."
 
+#: ../../source/creating_movements.rst:959
+msgid "3d"
+msgstr "3d"
+
 #: ../../source/creating_movements.rst:879
 msgid ""
 "By default all the pegbars and columns are on the table: their Z position is "
 "equal to the number of horizontal fields defined for the default camera (as the "
-"value represents the size of the area that is shot by the camera) (see  :ref:"
-"`Defining Camera Settings <defining_camera_settings>`  ). By increasing the "
-"field value, objects are placed farther from the camera; by decreasing it, "
-"objects are placed closer to the camera; at zero they are at the same Z position "
-"as the camera, and for negative values they are behind the camera."
+"value represents the size of the area that is shot by the camera) "
+"(see  :ref:`Defining Camera Settings <defining_camera_settings>`  ). By "
+"increasing the field value, objects are placed farther from the camera; by "
+"decreasing it, objects are placed closer to the camera; at zero they are at the "
+"same Z position as the camera, and for negative values they are behind the "
+"camera."
 msgstr ""
 "De forma predefinida todas las barras de sujeción y columnas/capas se encuentran "
 "sobre la mesa, y el valor de su Posición Z será igual al número de campos "
@@ -2948,10 +3121,10 @@ msgstr ""
 "composición en la Planilla/Línea de tiempo. En caso de que dos o más columnas/"
 "capas estuvieran exactamente a la misma distancia, el valor de su propiedad "
 "**Orden:** será tomado en cuenta; en caso de que dos o más columnas/capas "
-"estuvieran exactamente a la misma distancia y tuvieran el mismo valor de **Orden:"
-"**, el orden natural de composición de la Planilla/Línea de tiempo será tomado "
-"en cuenta (ver  :ref:`Cambio del Orden de composición de las columnas/capas "
-"<changing_columns_stacking_order>`  )."
+"estuvieran exactamente a la misma distancia y tuvieran el mismo valor de "
+"**Orden:**, el orden natural de composición de la Planilla/Línea de tiempo será "
+"tomado en cuenta (ver  :ref:`Cambio del Orden de composición de las columnas/"
+"capas <changing_columns_stacking_order>`  )."
 
 #: ../../source/creating_movements.rst:889
 msgid "**To enter the 3D environment:**"
@@ -3021,6 +3194,10 @@ msgstr "**Para mover el área de trabajo del entorno 3D:**"
 msgid "Select the **Hand** tool (|hand|) and drag in the viewer."
 msgstr "Seleccionar la herramienta **Desplazar** (|hand|) y arrastrar en el Visor."
 
+#: ../../source/creating_movements.rst:954
+msgid "hand"
+msgstr "hand"
+
 #: ../../source/creating_movements.rst:915
 msgid "**To rotate the work area displayed in 3D:**"
 msgstr "**Para rotar el área de trabajo del entorno 3D:**"
@@ -3028,6 +3205,10 @@ msgstr "**Para rotar el área de trabajo del entorno 3D:**"
 #: ../../source/creating_movements.rst:917
 msgid "Select the **Rotate** tool (|rotate|) and drag in the viewer."
 msgstr "Seleccionar la herramienta **Rotar** (|rotate|) y arrastrar en el Visor."
+
+#: ../../source/creating_movements.rst:956
+msgid "rotate"
+msgstr "rotate"
 
 #: ../../source/creating_movements.rst:919
 msgid "**To set a side or a top view:**"
@@ -3041,6 +3222,10 @@ msgstr ""
 "Usar el botón **Vista lateral** (|side_view|) disponible en la pared lateral del "
 "entorno 3D."
 
+#: ../../source/creating_movements.rst:981
+msgid "side_view"
+msgstr "side_view"
+
 #: ../../source/creating_movements.rst:925
 msgid ""
 "To set a **Top view** use the button (|top_view|) available on the floor of the "
@@ -3048,6 +3233,10 @@ msgid ""
 msgstr ""
 "Usar el botón **Vista superior** (|top_view|) disponible en el suelo del entorno "
 "3D."
+
+#: ../../source/creating_movements.rst:984
+msgid "top_view"
+msgstr "top_view"
 
 #: ../../source/creating_movements.rst:927
 msgid "**To exit the 3D environment:**"
@@ -3061,6 +3250,10 @@ msgstr ""
 "Hacer clic en los botones **Vista de mesa de trabajo** (|camera_stand|) o "
 "**Vista de cámara** (|camera_view|) disponibles a la derecha de la barra de "
 "título del Visor."
+
+#: ../../source/creating_movements.rst:961
+msgid "camera_view"
+msgstr "camera_view"
 
 #~ msgid ""
 #~ "The right-click menu lists in first place all the columns/layers containing "
@@ -3090,8 +3283,8 @@ msgstr ""
 #~ msgstr ""
 #~ "Hacer clic derecho sobre el dibujo en el Visor para poder seleccionar desde "
 #~ "la lista un objeto vinculado jerárquicamente a la columna/capa "
-#~ "correspondiente, desde el primero hasta la mesa y la cámara actual (ver  :ref:"
-#~ "`Vinculación de objetos <linking_objects>`  )."
+#~ "correspondiente, desde el primero hasta la mesa y la cámara actual "
+#~ "(ver  :ref:`Vinculación de objetos <linking_objects>`  )."
 
 #~ msgid "Select the object you want to edit."
 #~ msgstr "Seleccionar el objeto que se desee animar."

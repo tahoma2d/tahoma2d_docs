@@ -8,20 +8,20 @@ msgstr ""
 "Project-Id-Version: Tahoma 1.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-04 21:33-0300\n"
-"PO-Revision-Date: 2020-02-04 21:35-0300\n"
-"Last-Translator: Gabriel Gazzan <gabcorreo@gmail.com>\n"
-"Language: es\n"
+"PO-Revision-Date: 2026-01-31 00:42-0300\n"
+"Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Español\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.7.0\n"
-"X-Generator: Poedit 2.2.4\n"
+"X-Generator: Poedit 3.8\n"
 
 #: ../../source/using_ffmpeg_with_tahoma.rst:4
 msgid "Using FFmpeg with Tahoma"
-msgstr "Uso de FFmpeg con Tahoma"
+msgstr "Uso de FFmpeg con Tahoma2D"
 
 #: ../../source/using_ffmpeg_with_tahoma.rst:7
 msgid "What is FFmpeg?"
@@ -34,13 +34,13 @@ msgid ""
 "machine."
 msgstr ""
 "Para poder procesar y exportar una animación en formatos como **mp4** o "
-"**webm** (o también como **gif**, en macOS), Tahoma necesita que FFmpeg esté "
+"**webm** (o también como **gif**, en macOS), Tahoma2D necesita que FFmpeg esté "
 "instalado en el sistema."
 
 #: ../../source/using_ffmpeg_with_tahoma.rst:9
 msgid ""
-"For more information, please visit this page: `About FFmpeg <https://www.ffmpeg."
-"org/about.html>`_"
+"For more information, please visit this page: `About FFmpeg <https://"
+"www.ffmpeg.org/about.html>`_"
 msgstr ""
 "Para más información, por favor visitar la siguiente página (en inglés): `About "
 "FFmpeg <https://www.ffmpeg.org/about.html>`_"
@@ -57,8 +57,8 @@ msgstr "Descarga"
 #: ../../source/using_ffmpeg_with_tahoma.rst:17
 #: ../../source/using_ffmpeg_with_tahoma.rst:64
 msgid ""
-"To download FFmpeg, first visit this page: `Download FFmpeg <https://www.ffmpeg."
-"org/download.html>`_"
+"To download FFmpeg, first visit this page: `Download FFmpeg <https://"
+"www.ffmpeg.org/download.html>`_"
 msgstr ""
 "Para descargar FFmpeg, primero visitar la siguiente página (en inglés): "
 "`Download FFmpeg <https://www.ffmpeg.org/download.html>`_"
@@ -66,7 +66,7 @@ msgstr ""
 #: ../../source/using_ffmpeg_with_tahoma.rst:19
 #: ../../source/using_ffmpeg_with_tahoma.rst:66
 msgid "|get_the_packages|"
-msgstr ""
+msgstr "|get_the_packages|"
 
 #: ../../source/using_ffmpeg_with_tahoma.rst:21
 msgid "Select the Windows icon and then select the **Windows builds** link:"
@@ -76,7 +76,7 @@ msgstr ""
 
 #: ../../source/using_ffmpeg_with_tahoma.rst:23
 msgid "|packages_windows|"
-msgstr ""
+msgstr "|packages_windows|"
 
 #: ../../source/using_ffmpeg_with_tahoma.rst:25
 #: ../../source/using_ffmpeg_with_tahoma.rst:72
@@ -89,7 +89,7 @@ msgstr ""
 
 #: ../../source/using_ffmpeg_with_tahoma.rst:27
 msgid "|ffmpeg_builds_windows|"
-msgstr ""
+msgstr "|ffmpeg_builds_windows|"
 
 #: ../../source/using_ffmpeg_with_tahoma.rst:29
 msgid "In the majority of cases, the default choices are fine."
@@ -145,7 +145,7 @@ msgstr ""
 
 #: ../../source/using_ffmpeg_with_tahoma.rst:43
 msgid "|ffmpeg_extracted_windows|"
-msgstr ""
+msgstr "|ffmpeg_extracted_windows|"
 
 #: ../../source/using_ffmpeg_with_tahoma.rst:45
 #: ../../source/using_ffmpeg_with_tahoma.rst:99
@@ -153,7 +153,7 @@ msgid ""
 "Next, start Tahoma and open the **Preferences** window with File  →  "
 "**Preferences...**"
 msgstr ""
-"A continuación, ejecutar Tahoma y abrir la ventana Archivo → "
+"A continuación, ejecutar Tahoma2D y abrir la ventana Archivo → "
 "**Preferencias...**"
 
 #: ../../source/using_ffmpeg_with_tahoma.rst:46
@@ -176,13 +176,13 @@ msgstr ""
 
 #: ../../source/using_ffmpeg_with_tahoma.rst:49
 msgid "|ffmpeg_path_windows|"
-msgstr ""
+msgstr "|ffmpeg_path_windows|"
 
 #: ../../source/using_ffmpeg_with_tahoma.rst:51
 #: ../../source/using_ffmpeg_with_tahoma.rst:105
 #: ../../source/using_ffmpeg_with_tahoma.rst:135
 msgid "Restart Tahoma."
-msgstr "Reiniciar Tahoma."
+msgstr "Reiniciar Tahoma2D."
 
 #: ../../source/using_ffmpeg_with_tahoma.rst:52
 #: ../../source/using_ffmpeg_with_tahoma.rst:106
@@ -199,7 +199,7 @@ msgstr ""
 
 #: ../../source/using_ffmpeg_with_tahoma.rst:56
 msgid "|output_settings_windows|"
-msgstr ""
+msgstr "|output_settings_windows|"
 
 #: ../../source/using_ffmpeg_with_tahoma.rst:59
 msgid "Installing FFmpeg for Mac"
@@ -213,7 +213,7 @@ msgstr ""
 
 #: ../../source/using_ffmpeg_with_tahoma.rst:70
 msgid "|packages_mac|"
-msgstr ""
+msgstr "|packages_mac|"
 
 #: ../../source/using_ffmpeg_with_tahoma.rst:74
 msgid "Make sure **macOS 64-bit** is selected under the **Architecture** column."
@@ -223,19 +223,19 @@ msgstr ""
 
 #: ../../source/using_ffmpeg_with_tahoma.rst:76
 msgid "|ffmpeg_builds_mac|"
-msgstr ""
+msgstr "|ffmpeg_builds_mac|"
 
 #: ../../source/using_ffmpeg_with_tahoma.rst:87
 msgid ""
-"Open Finder and create a new folder, the **Applications/Tahoma** folder is "
-"the recommended location."
+"Open Finder and create a new folder, the **Applications/Tahoma** folder is the "
+"recommended location."
 msgstr ""
 "Abrir el Finder y crear una nueva carpeta, la ubicación recomendada es la "
 "carpeta **Applications/Tahoma**."
 
 #: ../../source/using_ffmpeg_with_tahoma.rst:89
 msgid "|ffmpeg_finder|"
-msgstr ""
+msgstr "|ffmpeg_finder|"
 
 #: ../../source/using_ffmpeg_with_tahoma.rst:91
 msgid "Name the new folder **FFmpeg**"
@@ -243,7 +243,7 @@ msgstr "Nombrar a la nueva carpeta **FFmpeg**."
 
 #: ../../source/using_ffmpeg_with_tahoma.rst:94
 msgid "|ffmpeg_extracted_mac|"
-msgstr ""
+msgstr "|ffmpeg_extracted_mac|"
 
 #: ../../source/using_ffmpeg_with_tahoma.rst:96
 msgid ""
@@ -254,7 +254,7 @@ msgid ""
 "launched successfully, Terminal can be closed."
 msgstr ""
 "Para macOS 10.15 y posteriores, cada ejecutable dentro de la carpeta FFmpeg "
-"necesitará ser abierto antes de usar Tahoma (sólo se necesitará hacer esto "
+"necesitará ser abierto antes de usar Tahoma2D (sólo se necesitará hacer esto "
 "una única vez, debido a funciones de seguridad del sistema). En el Finder, "
 "hacer clic derecho en cada uno de los ejecutables (ffmpeg, ffprobe, etc.) y "
 "seleccionar ``Abrir con → Terminal``. Una vez que las ventanas de la Terminal "
@@ -270,7 +270,7 @@ msgstr ""
 
 #: ../../source/using_ffmpeg_with_tahoma.rst:103
 msgid "|ffmpeg_path_mac|"
-msgstr ""
+msgstr "|ffmpeg_path_mac|"
 
 #: ../../source/using_ffmpeg_with_tahoma.rst:108
 #: ../../source/using_ffmpeg_with_tahoma.rst:138
@@ -283,7 +283,7 @@ msgstr ""
 
 #: ../../source/using_ffmpeg_with_tahoma.rst:110
 msgid "|output_settings_mac|"
-msgstr ""
+msgstr "|output_settings_mac|"
 
 #: ../../source/using_ffmpeg_with_tahoma.rst:113
 msgid "Installing FFmpeg for Linux"
@@ -319,8 +319,8 @@ msgid ""
 "or visit the `FFmpeg website <https://www.ffmpeg.org/download.html>`_."
 msgstr ""
 "Si se está usando otra distribución de Linux, por favor referirse a su "
-"documentación o visitar `el sitio de FFmpeg <https://www.ffmpeg.org/download."
-"html>`_."
+"documentación o visitar `el sitio de FFmpeg <https://www.ffmpeg.org/"
+"download.html>`_."
 
 #: ../../source/using_ffmpeg_with_tahoma.rst:127
 msgid ""
@@ -337,7 +337,7 @@ msgstr ""
 msgid ""
 "Start Tahoma and open the **Preferences** window with File  →  "
 "**Preferences...**"
-msgstr "Ejecutar Tahoma y abrir la ventana Archivo → **Preferencias...**"
+msgstr "Ejecutar Tahoma2D y abrir la ventana Archivo → **Preferencias...**"
 
 #: ../../source/using_ffmpeg_with_tahoma.rst:131
 msgid "Insert the path **/usr/bin**."
@@ -345,11 +345,11 @@ msgstr "Ingresar la ruta **/usr/bin**."
 
 #: ../../source/using_ffmpeg_with_tahoma.rst:133
 msgid "|ffmpeg_path_linux|"
-msgstr ""
+msgstr "|ffmpeg_path_linux|"
 
 #: ../../source/using_ffmpeg_with_tahoma.rst:140
 msgid "|output_settings_linux|"
-msgstr ""
+msgstr "|output_settings_linux|"
 
 #~ msgid ""
 #~ "Open the **Output Settings** window with ``File  →  Output Settings...``"

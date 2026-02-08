@@ -7,17 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tahoma 1.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-04 20:33-0300\n"
-"PO-Revision-Date: 2020-02-04 20:41-0300\n"
-"Last-Translator: Gabriel Gazzan <gabcorreo@gmail.com>\n"
-"Language: es\n"
+"POT-Creation-Date: 2026-01-30 22:32-0300\n"
+"PO-Revision-Date: 2026-02-01 19:00-0300\n"
+"Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Español\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
-"X-Generator: Poedit 2.2.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.17.0\n"
+"X-Generator: Poedit 3.8\n"
 
 #: ../../source/editing_curves_and_numerical_columns.rst:4
 msgid "Editing Using Spreadsheet and Curves"
@@ -26,7 +26,7 @@ msgstr "Edición usando la planilla de tiempos y curvas"
 #: ../../source/editing_curves_and_numerical_columns.rst:6
 msgid ""
 "Changes in Object transformations and effects parameters are shown in the "
-"**Function Editor** window, where keyframes and their related interpolations can "
+"**Function Editor** panel, where keyframes and their related interpolations can "
 "be controlled and modified by using a *Spreadsheet* of numerical columns or a "
 "*Graph Editor*."
 msgstr ""
@@ -87,20 +87,24 @@ msgstr "Uso del Editor de funciones"
 
 #: ../../source/editing_curves_and_numerical_columns.rst:22
 msgid "|function_editor_1|"
-msgstr ""
+msgstr "|function_editor_1|"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:836
+msgid "function_editor_1"
+msgstr "function_editor_1"
 
 #: ../../source/editing_curves_and_numerical_columns.rst:24
 msgid ""
-"The function editor window is divided into three sections. On the left there is "
+"The function editor panel is divided into three sections. On the left there is "
 "an area where the Spreadsheet or Graph Editor is displayed, on the right top is "
 "an area where the interpolation of the current transformation segment is "
 "displayed, and on the right bottom is the objects/effects tree."
 msgstr ""
 "El panel del Editor de funciones se encuentra dividido en tres secciones. A la "
-"izquierda se muestra la Planilla de tiempos o el Editor de gráficas, en la "
-"esquina superior derecha hay un área donde se muestran los datos de "
-"Interpolación del segmento actual de la transformación actual y sobre la esquina "
-"inferior derecha se encuentra el árbol de objetos/efectos."
+"derecha se muestra la Planilla de tiempos o el Editor de gráficas, en la esquina "
+"superior izquierda se encuentra el árbol de objetos y efectos, y sobre la "
+"esquina inferior izquierda hay un área en donde se muestran los datos de "
+"Interpolación del segmento actual de la transformación activa."
 
 #: ../../source/editing_curves_and_numerical_columns.rst:26
 msgid ""
@@ -138,7 +142,7 @@ msgstr ""
 "Un ícono con una línea punteada indicará un parámetro que no ha sido animado."
 
 #: ../../source/editing_curves_and_numerical_columns.rst:36
-msgid "An icon with a continuos curve is for animated parameters."
+msgid "An icon with a continuous curve is for animated parameters."
 msgstr "Un ícono con una curva continua indicará un parámetro que ha sido animado."
 
 #: ../../source/editing_curves_and_numerical_columns.rst:38
@@ -148,8 +152,8 @@ msgid ""
 "left."
 msgstr ""
 "Es posible seleccionar qué objeto/efecto y qué parámetros deberán ser "
-"visualizados en la planilla de tiempos o el editor de gráficas, haciendo clic "
-"sobre estos íconos."
+"visualizados en la planilla de tiempos o el editor de gráficas de la derecha, "
+"haciendo clic sobre estos íconos."
 
 #: ../../source/editing_curves_and_numerical_columns.rst:40
 msgid ""
@@ -175,18 +179,18 @@ msgid "Click and drag the separators to resize sections."
 msgstr "Hacer clic y arrastrar los separadores para redimensionar las secciones."
 
 #: ../../source/editing_curves_and_numerical_columns.rst:48
-msgid "Click and drag a separator toward the window border to hide a section."
+msgid "Click and drag a separator toward the panel border to hide a section."
 msgstr ""
 "Hacer clic y arrastrar un separador hacia el borde del panel para ocultar una "
 "sección."
 
 #: ../../source/editing_curves_and_numerical_columns.rst:50
 msgid ""
-"Click and drag the separator collapsed to the window border toward the window "
+"Click and drag the separator collapsed to the panel border toward the panel "
 "center to display again the hidden section."
 msgstr ""
-"Hacer clic y arrastrar el separador oculto hacia el centro del panel para volver "
-"a mostrar una sección."
+"Hacer clic y arrastrar el separador colapsado hacia el centro del panel para "
+"volver a mostrar una sección oculta."
 
 #: ../../source/editing_curves_and_numerical_columns.rst:52
 msgid "**To display or hide column parameters:**"
@@ -194,7 +198,7 @@ msgstr "**Para mostrar u ocultar parámetros de un objeto o efecto:**"
 
 #: ../../source/editing_curves_and_numerical_columns.rst:54
 msgid "Retrieve the object or the effect in the objects/effect tree."
-msgstr "Ubicar el objeto o el efecto en el árbol de objetos/efectos."
+msgstr "Ubicar el objeto o efecto en el árbol de objetos/efectos."
 
 #: ../../source/editing_curves_and_numerical_columns.rst:56
 #: ../../source/editing_curves_and_numerical_columns.rst:88
@@ -264,8 +268,8 @@ msgstr ""
 "afectará los parámetros visualizados en las columnas o la gráfica)."
 
 #: ../../source/editing_curves_and_numerical_columns.rst:68
-msgid "**To open the Graph Editor in a separate window:**"
-msgstr "**Para abrir el Editor de gráficas en una ventana flotante:**"
+msgid "**To open the Graph Editor in a separate panel:**"
+msgstr "**Para abrir el Editor de gráficas en un panel flotante:**"
 
 #: ../../source/editing_curves_and_numerical_columns.rst:70
 msgid ""
@@ -274,8 +278,8 @@ msgid ""
 "(Restart Tahoma)."
 msgstr ""
 "Seleccionar **Editor de gráficas en una ventana** en la opción **Editor de "
-"funciones:**, del diálogo Archivo → Preferencias → Interfaz. (Reiniciar "
-"Tahoma para que la opción entre en vigor)."
+"funciones:**, del diálogo Archivo → Preferencias → Interfaz. (Reiniciar Tahoma2D "
+"para que la opción entre en vigor)."
 
 #: ../../source/editing_curves_and_numerical_columns.rst:72
 #: ../../source/editing_curves_and_numerical_columns.rst:78
@@ -284,12 +288,16 @@ msgid ""
 "Click the **Function Editor Toggle** button (|schematic|) in the top bar of the "
 "Function Editor."
 msgstr ""
-"Hacer clic en el botón **Abrir editor de curvas de función** (|schematic|) en la "
-"barra superior del Editor de funciones."
+"Hacer clic en el botón **Alternar editor de curvas de función** (|schematic|) en "
+"la esquina superior derecha del Editor de funciones."
+
+#: ../../source/editing_curves_and_numerical_columns.rst:852
+msgid "schematic"
+msgstr "schematic"
 
 #: ../../source/editing_curves_and_numerical_columns.rst:74
-msgid "**To open the Spreadsheet in a separate window:**"
-msgstr "**Para abrir la Planilla de tiempos en una ventana flotante:**"
+msgid "**To open the Spreadsheet in a separate panel:**"
+msgstr "**Para abrir la Planilla de tiempos en un panel flotante:**"
 
 #: ../../source/editing_curves_and_numerical_columns.rst:76
 msgid ""
@@ -298,8 +306,8 @@ msgid ""
 "(Restart Tahoma)."
 msgstr ""
 "Seleccionar **Planilla de tiempos en una ventana** en la opción **Editor de "
-"funciones:**, del diálogo Archivo → Preferencias → Interfaz. (Reiniciar "
-"Tahoma para que la opción entre en vigor)."
+"funciones:**, del diálogo Archivo → Preferencias → Interfaz. (Reiniciar Tahoma2D "
+"para que la opción entre en vigor)."
 
 #: ../../source/editing_curves_and_numerical_columns.rst:80
 msgid "**To switch between Spreadsheet and Graph Editor in the Function Editor:**"
@@ -315,7 +323,7 @@ msgid ""
 msgstr ""
 "Seleccionar **Alternar entre Planilla de tiempos y Editor de gráficas** en la "
 "opción **Editor de funciones:**, del diálogo Archivo → Preferencias → Interfaz. "
-"(Reiniciar Tahoma para que la opción entre en vigor)."
+"(Reiniciar Tahoma2D para que la opción entre en vigor)."
 
 #: ../../source/editing_curves_and_numerical_columns.rst:86
 msgid "**To scroll the Spreadsheet:**"
@@ -357,15 +365,15 @@ msgstr ""
 
 #: ../../source/editing_curves_and_numerical_columns.rst:103
 msgid "**To navigate the Graph Editor:**"
-msgstr "**Para ajustar el Editor de gráficas:**"
+msgstr "**Para navegar por el Editor de gráficas:**"
 
 #: ../../source/editing_curves_and_numerical_columns.rst:107
 msgid ""
 "Use the mouse wheel, or the zoom shortcut keys (by default **+** and **-** keys) "
 "to zoom in and zoom out."
 msgstr ""
-"Usar la rueda del ratón o los atajos de la función zoom (de forma predefinida **"
-"+** y **-**) para acercar o alejar la vista."
+"Usar la rueda del ratón o los atajos de la función de ampliación (de forma "
+"predefinida **+** y **-**) para ampliar o reducir la vista."
 
 #: ../../source/editing_curves_and_numerical_columns.rst:109
 msgid ""
@@ -374,8 +382,8 @@ msgid ""
 "to zoom out."
 msgstr ""
 "Hacer clic en la regla horizontal y arrastrar hacia la izquierda/derecha para "
-"ajustar el zoom; hacer clic en la regla vertical y arrastrar hacia arriba y "
-"arrastrar hacia la arriba/abajo para ajustar el zoom."
+"ajustar el nivel de ampliación; hacer clic en la regla vertical y arrastrar "
+"hacia arriba y arrastrar hacia la arriba/abajo para ajustar la ampliación."
 
 #: ../../source/editing_curves_and_numerical_columns.rst:111
 msgid ""
@@ -390,11 +398,11 @@ msgstr ""
 msgid ""
 "Use the reset view shortcut (by default the **Alt + 0** key) or right-click the "
 "graph area and choose Fit from the menu that opens, to display all the visible "
-"curves in the current Function Curve Editor window."
+"curves in the current Function Curve Editor panel."
 msgstr ""
 "Hacer clic derecho en el área de la gráfica y elegir **Ajustar a ventana** en el "
-"menú, para ajustar la vista para mostrar todas las curvas visibles en el Editor "
-"de gráficas."
+"menú, para ajustar la ampliación de la vista para que muestre todas las curvas "
+"visibles en el Editor de gráficas."
 
 #: ../../source/editing_curves_and_numerical_columns.rst:115
 msgid "**To save transformation data:**"
@@ -465,18 +473,21 @@ msgstr "Definición de fotogramas clave"
 msgid ""
 "Keyframes, including those belonging to object transformations done by using the "
 "**Animate** tool (|animate|) and those defined for effects parameters in the "
-"**FX Settings** window, can be controlled and edited both using the "
-"Spreadsheet's numerical columns and the Graph Editor's curves (see :ref:"
-"`Animating Objects <animating_objects>` and :ref:`Editing FX Settings "
-"<editing_fx_settings>`  )."
+"**FX Settings** panel, can be controlled and edited both using the Spreadsheet's "
+"numerical columns and the Graph Editor's curves (see :ref:`Animating Objects "
+"<animating_objects>` and :ref:`Editing FX Settings <editing_fx_settings>`  )."
 msgstr ""
 "Es posible controlar y editar los fotogramas clave (incluyendo aquellos "
 "pertenecientes a las transformaciones de objetos realizadas mediante la "
 "herramienta **Animar** (|animate|) y los definidos para parámetros de efectos, "
-"en la ventana **Opciones de efecto**), tanto a través de las columnas de valores "
-"de la Planilla de tiempo, como de las curvas del Editor de gráficas (ver :ref:"
-"`Animación de objetos <animating_objects>` y :ref:`Edición de Opciones de "
-"efectos <editing_fx_settings>`  )."
+"en la ventana **Opciones de efectos**), tanto a través de las columnas de "
+"valores de la Planilla de tiempo, como de las curvas del Editor de gráficas "
+"(ver :ref:`Animación de objetos <animating_objects>` y :ref:`Edición de Opciones "
+"de efectos <editing_fx_settings>`  )."
+
+#: ../../source/editing_curves_and_numerical_columns.rst:848
+msgid "animate"
+msgstr "animate"
 
 #: ../../source/editing_curves_and_numerical_columns.rst:140
 msgid ""
@@ -494,7 +505,11 @@ msgstr "Uso de la Planilla de tiempos"
 
 #: ../../source/editing_curves_and_numerical_columns.rst:148
 msgid "|function_editor_spreadsheet|"
-msgstr ""
+msgstr "|function_editor_spreadsheet|"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:837
+msgid "function_editor_spreadsheet"
+msgstr "function_editor_spreadsheet"
 
 #: ../../source/editing_curves_and_numerical_columns.rst:150
 msgid ""
@@ -511,8 +526,8 @@ msgstr ""
 msgid ""
 "Keyframes are displayed in different-colored cells, and can be moved along the "
 "column to different frames positions. In-between values are automatically "
-"generated according to the keyframes and to the set interpolation (see  :ref:"
-"`Setting Segment Interpolations <setting_segment_interpolations>`  )."
+"generated according to the keyframes and to the set interpolation "
+"(see  :ref:`Setting Segment Interpolations <setting_segment_interpolations>`  )."
 msgstr ""
 "Los fotogramas clave serán mostrados en celdas identificadas con colores y "
 "podrán ser movidas dentro de la columna hacia la posición de otros fotogramas. "
@@ -645,7 +660,11 @@ msgstr "Uso del Editor de gráficas"
 
 #: ../../source/editing_curves_and_numerical_columns.rst:192
 msgid "|function_editor_grapheditor|"
-msgstr ""
+msgstr "|function_editor_grapheditor|"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:838
+msgid "function_editor_grapheditor"
+msgstr "function_editor_grapheditor"
 
 #: ../../source/editing_curves_and_numerical_columns.rst:194
 msgid ""
@@ -666,6 +685,10 @@ msgstr ""
 "fotogramas clave. Es posible agregar puntos directamente a la curva o mediante "
 "el uso del botón **Marcar fotograma clave** (|key|) en la parte superior de la "
 "barra del **Editor de funciones**."
+
+#: ../../source/editing_curves_and_numerical_columns.rst:849
+msgid "key"
+msgstr "key"
 
 #: ../../source/editing_curves_and_numerical_columns.rst:198
 msgid ""
@@ -695,6 +718,14 @@ msgstr ""
 "superior del editor. El botón **Clave siguiente** (|next_key|) y **Clave "
 "anterior** (|prevkey|) se encontrarán habilitados sólo en caso de que haya "
 "definidos más de un fotograma."
+
+#: ../../source/editing_curves_and_numerical_columns.rst:850
+msgid "next_key"
+msgstr "next_key"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:851
+msgid "prevkey"
+msgstr "prevkey"
 
 #: ../../source/editing_curves_and_numerical_columns.rst:204
 msgid "**To set the current curve:**"
@@ -910,7 +941,7 @@ msgid ""
 "right-clicking in the Xsheet/Timeline cells."
 msgstr ""
 "Todos los comandos del menú **Editar** también se encuentran disponibles en el "
-"menú contextual que se invoca al hacer clic derecho sobre los acetatos de la "
+"menú contextual que se invoca al hacer clic derecho sobre las celdas de la "
 "Planilla/Línea de tiempo."
 
 #: ../../source/editing_curves_and_numerical_columns.rst:296
@@ -936,11 +967,11 @@ msgid ""
 "Available interpolations are the following: **Linear**, **Speed In / Speed "
 "Out**, **Ease In / Ease Out**, **Ease In / Ease Out %**, **Exponential**, "
 "**Expression**, **File**, **Constant** and **Similar Shape**. The *default "
-"interpolation* can be set in the Preferences  →  Animation window, but the "
+"interpolation* can be set in the Preferences  →  Animation panel, but the "
 "interpolation can be changed at any time in the interpolation area of the "
-"Function Editor, on the top right of the window."
+"Function Editor, on the top right of the panel."
 msgstr ""
-"Las interpolaciones disponibles son las siguientes: **Lineal**, **Bézier**, "
+"Las interpolaciones disponibles son las siguientes: **Lineal**, **Bezier**, "
 "**Suave**, **Suave %**, **Exponencial**, **Expresión**, **Archivo**, "
 "**Constante** y **Forma similar**. Es posible definir la *interpolación "
 "predefinida* en el diálogo Archivo → Preferencias → Animación, pero la "
@@ -975,8 +1006,8 @@ msgstr ""
 
 #: ../../source/editing_curves_and_numerical_columns.rst:307
 msgid ""
-"Choose the interpolation from the option menu available in the **Interpolation:"
-"** area of the Function Editor."
+"Choose the interpolation from the option menu available in the "
+"**Interpolation:** area of the Function Editor."
 msgstr ""
 "Elegir la interpolación usando el menú desplegable disponible en el área de "
 "**Interpolación** del Editor de funciones."
@@ -996,7 +1027,7 @@ msgstr ""
 "tiempos:**"
 
 #: ../../source/editing_curves_and_numerical_columns.rst:313
-msgid "Make a cell selection that encompases multiple keyframe segments."
+msgid "Make a cell selection that encompasses multiple keyframe segments."
 msgstr "Realizar una selección de celdas que abarque varios segmentos de claves."
 
 #: ../../source/editing_curves_and_numerical_columns.rst:315
@@ -1029,8 +1060,8 @@ msgstr ""
 
 #: ../../source/editing_curves_and_numerical_columns.rst:325
 msgid ""
-"Choose the interpolation from the dropdown menu available in the **Interpolation:"
-"** area of the Function Editor."
+"Choose the interpolation from the dropdown menu available in the "
+"**Interpolation:** area of the Function Editor."
 msgstr ""
 "Elegir el tipo de interpolación, usando el menú desplegable disponible en el "
 "área de **Interpolación** del Editor de funciones."
@@ -1058,7 +1089,11 @@ msgstr "Uso de interpolación Lineal"
 
 #: ../../source/editing_curves_and_numerical_columns.rst:343
 msgid "|function_editor_iLinear|"
-msgstr ""
+msgstr "|function_editor_iLinear|"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:839
+msgid "function_editor_iLinear"
+msgstr "function_editor_iLinear"
 
 #: ../../source/editing_curves_and_numerical_columns.rst:345
 msgid ""
@@ -1090,11 +1125,15 @@ msgstr ""
 
 #: ../../source/editing_curves_and_numerical_columns.rst:359
 msgid "Using Speed In / Speed Out Interpolations"
-msgstr "Uso de interpolación Bézier"
+msgstr "Uso de interpolación Bezier"
 
 #: ../../source/editing_curves_and_numerical_columns.rst:361
 msgid "|function_editor_iSpeed|"
-msgstr ""
+msgstr "|function_editor_iSpeed|"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:840
+msgid "function_editor_iSpeed"
+msgstr "function_editor_iSpeed"
 
 #: ../../source/editing_curves_and_numerical_columns.rst:363
 msgid ""
@@ -1104,7 +1143,7 @@ msgid ""
 "length can be set by entering values in the Interpolation area of the Function "
 "Editor, or by dragging the handles themselves."
 msgstr ""
-"Cuando la interpolación es *Bézier* los puntos de control del segmento de curva "
+"Cuando la interpolación es *Bezier* los puntos de control del segmento de curva "
 "tendrán tangentes, cuya dirección y longitud definirá la pendiente de la curva "
 "y, por lo tanto, la velocidad de la transformación. La dirección de las "
 "tangentes y su longitud podrán ser establecidas ingresando valores en el área de "
@@ -1123,7 +1162,7 @@ msgstr ""
 "grado de movimiento sea dependiente de los segmentos adyacentes, de forma de "
 "producir curvas suaves, pero es posible romper dicho vínculo para poder moverlas "
 "de forma independiente. Por ejemplo, cuando dos segmentos consecutivos tuvieran "
-"una interpolación de tipo Bézier y las tangentes de su punto de control "
+"una interpolación de tipo Bezier y las tangentes de su punto de control "
 "compartido tuvieran la misma dirección, será posible romper el vínculo entre "
 "ellas para poder darle a cada una una dirección distinta."
 
@@ -1139,14 +1178,14 @@ msgstr ""
 
 #: ../../source/editing_curves_and_numerical_columns.rst:369
 msgid "**To set a Speed In / Speed Out interpolation:**"
-msgstr "**Para definir una interpolación Bézier:**"
+msgstr "**Para definir una interpolación Bezier:**"
 
 #: ../../source/editing_curves_and_numerical_columns.rst:373
 msgid ""
 "Choose **Speed In / Speed Out** from the dropdown menu available in the "
 "Interpolation area of the Function Editor and click the **Apply** button."
 msgstr ""
-"Elegir **Bézier** en el menú de opciones en el área de Interpolación del Editor "
+"Elegir **Bezier** en el menú de opciones en el área de Interpolación del Editor "
 "de funciones y hacer clic en el botón **Aplicar**."
 
 #: ../../source/editing_curves_and_numerical_columns.rst:375
@@ -1155,7 +1194,7 @@ msgid ""
 "**Speed In / Speed Out Interpolation** from the menu that opens."
 msgstr ""
 "Hacer clic derecho sobre el segmento de curva para el que se desee definir la "
-"interpolación y elegir **Interpolación Bézier** en el menú."
+"interpolación y elegir **Interpolación Bezier** en el menú."
 
 #: ../../source/editing_curves_and_numerical_columns.rst:377
 msgid "**To set the speed of the interpolation:**"
@@ -1254,7 +1293,11 @@ msgstr "Uso de interpolación Suave"
 
 #: ../../source/editing_curves_and_numerical_columns.rst:413
 msgid "|function_editor_iEase|"
-msgstr ""
+msgstr "|function_editor_iEase|"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:841
+msgid "function_editor_iEase"
+msgstr "function_editor_iEase"
 
 #: ../../source/editing_curves_and_numerical_columns.rst:415
 msgid ""
@@ -1329,7 +1372,11 @@ msgstr "Uso de interpolación Suave %"
 
 #: ../../source/editing_curves_and_numerical_columns.rst:441
 msgid "|function_editor_iEasePer|"
-msgstr ""
+msgstr "|function_editor_iEasePer|"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:842
+msgid "function_editor_iEasePer"
+msgstr "function_editor_iEasePer"
 
 #: ../../source/editing_curves_and_numerical_columns.rst:443
 msgid ""
@@ -1364,8 +1411,8 @@ msgstr ""
 #: ../../source/editing_curves_and_numerical_columns.rst:453
 msgid "**To set the Ease In / Ease Out % of the interpolation:**"
 msgstr ""
-"**Para definir el porcentaje de aceleración y desaceleración de la interpolación:"
-"**"
+"**Para definir el porcentaje de aceleración y desaceleración de la "
+"interpolación:**"
 
 #: ../../source/editing_curves_and_numerical_columns.rst:461
 msgid ""
@@ -1382,7 +1429,11 @@ msgstr "Uso de interpolación Exponencial"
 
 #: ../../source/editing_curves_and_numerical_columns.rst:469
 msgid "|function_editor_iExpon|"
-msgstr ""
+msgstr "|function_editor_iExpon|"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:843
+msgid "function_editor_iExpon"
+msgstr "function_editor_iExpon"
 
 #: ../../source/editing_curves_and_numerical_columns.rst:471
 msgid ""
@@ -1422,7 +1473,11 @@ msgstr "Uso de interpolación basada en una Expresión"
 
 #: ../../source/editing_curves_and_numerical_columns.rst:487
 msgid "|function_editor_iExpres|"
-msgstr ""
+msgstr "|function_editor_iExpres|"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:844
+msgid "function_editor_iExpres"
+msgstr "function_editor_iExpres"
 
 #: ../../source/editing_curves_and_numerical_columns.rst:489
 msgid ""
@@ -1751,7 +1806,7 @@ msgstr "``t``"
 
 #: ../../source/editing_curves_and_numerical_columns.rst:567
 msgid ""
-"Ranges from 0.0 to 1.0 along the transition allowing position/lenght-independent "
+"Ranges from 0.0 to 1.0 along the transition allowing position/length-independent "
 "transitions."
 msgstr ""
 "Va entre 0.0 y 1.0 a lo largo de la transición, permitiendo obtener transiciones "
@@ -2283,7 +2338,11 @@ msgstr "Uso de interpolación basada en datos de un Archivo"
 
 #: ../../source/editing_curves_and_numerical_columns.rst:712
 msgid "|function_editor_iFile|"
-msgstr ""
+msgstr "|function_editor_iFile|"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:845
+msgid "function_editor_iFile"
+msgstr "function_editor_iFile"
 
 #: ../../source/editing_curves_and_numerical_columns.rst:714
 msgid ""
@@ -2400,8 +2459,8 @@ msgstr ""
 #: ../../source/editing_curves_and_numerical_columns.rst:748
 msgid ""
 "If in the Browser you choose any project default folder, in the path field the "
-"full path will be replaced by the related default folder alias (see  :ref:"
-"`Project Default Folders <project_default_folders>`  )."
+"full path will be replaced by the related default folder alias "
+"(see  :ref:`Project Default Folders <project_default_folders>`  )."
 msgstr ""
 "Si en el Explorador se escogiera cualquier carpeta predefinida del proyecto "
 "activo, en el campo **Ruta:** la ruta completa será reemplazada por la "
@@ -2414,7 +2473,11 @@ msgstr "Uso de interpolación Constante"
 
 #: ../../source/editing_curves_and_numerical_columns.rst:756
 msgid "|function_editor_iConst|"
-msgstr ""
+msgstr "|function_editor_iConst|"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:846
+msgid "function_editor_iConst"
+msgstr "function_editor_iConst"
 
 #: ../../source/editing_curves_and_numerical_columns.rst:758
 msgid ""
@@ -2450,7 +2513,11 @@ msgstr "Uso de interpolación basada en una Forma similar"
 
 #: ../../source/editing_curves_and_numerical_columns.rst:774
 msgid "|function_editor_iSimilar|"
-msgstr ""
+msgstr "|function_editor_iSimilar|"
+
+#: ../../source/editing_curves_and_numerical_columns.rst:847
+msgid "function_editor_iSimilar"
+msgstr "function_editor_iSimilar"
 
 #: ../../source/editing_curves_and_numerical_columns.rst:776
 msgid ""
@@ -2590,13 +2657,13 @@ msgstr ""
 "Con respecto a la interpolación, si todas las curvas visibles contuvieran un "
 "clave en el mismo fotograma, y el segmento tuviera el mismo valor de "
 "*Aceleración suave** o **Desaceleración suave** o el mismo componente horizontal "
-"de su interpolación **Bézier** en todas las curvas, se visualizarán en dicho "
+"de su interpolación **Bezier** en todas las curvas, se visualizarán en dicho "
 "segmento de la banda superior unos marcadores. El marcador con forma de "
 "*paréntesis recto de apertura* se usará para controlar la interpolación al "
 "inicio del segmento, mientras que el que tiene forma de *paréntesis recto de "
 "cierre* se usará para controlar la interpolación hacia el final del mismo. Será "
 "posible mover estos marcadores, cambiando automáticamente los valores de "
-"Aceleración/Desaceleración suave o de las tangentes Bézier, en los segmentos "
+"Aceleración/Desaceleración suave o de las tangentes Bezier, en los segmentos "
 "correspondientes."
 
 #: ../../source/editing_curves_and_numerical_columns.rst:811

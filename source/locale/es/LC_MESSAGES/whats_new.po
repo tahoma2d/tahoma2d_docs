@@ -7,367 +7,438 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tahoma 1.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-01 16:19-0300\n"
-"PO-Revision-Date: 2020-02-01 16:21-0300\n"
-"Last-Translator: Gabriel Gazzan <gabcorreo@gmail.com>\n"
-"Language: new\n"
+"POT-Creation-Date: 2026-01-30 22:32-0300\n"
+"PO-Revision-Date: 2026-01-31 00:03-0300\n"
+"Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Español\n"
+"Language: new\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
-"X-Generator: Poedit 2.2.4\n"
+"Generated-By: Babel 2.17.0\n"
+"X-Generator: Poedit 3.8\n"
 
 #: ../../source/whats_new.rst:4
-msgid "What's New in Tahoma"
+msgid "What's New in Tahoma2D"
 msgstr "Novedades"
 
 #: ../../source/whats_new.rst:6
 msgid ""
-"In this section you can find a list of Highlights in the latest release of "
-"Tahoma; these may include New Features, Bug Fixes or Enhancements to already "
-"existent features. Here, you can also find links to past versions' Release "
-"Notes, to keep track of Tahoma development history throughout time."
+"Tahoma2D includes a number of improvements from OpenToonz.  It also includes "
+"the latest features and bug fixes from OpenToonz."
 msgstr ""
-"En esta sección se podrá encontrar una lista de las novedades Destacadas de la "
-"última versión de Tahoma; éstas podrán incluir Nuevas Características, "
-"Correcciones de Errores o Mejoras a funciones ya existentes. También podrán "
-"encontrarse aquí enlaces a las Notas de cada versión, para poder llevar la "
-"cuenta de la historia de desarrollo de Tahoma a lo largo del tiempo."
+"Tahoma2D incluye una cantidad de mejoras provenientes de OpenToonz. También "
+"incluye las últimas características y correcciones de errores de OpenToonz."
 
-#: ../../source/whats_new.rst:13
-msgid "v1.4"
-msgstr "v1.4"
+#: ../../source/whats_new.rst:8
+msgid ""
+"In this section you can find a list of Highlights in the latest release of "
+"Tahoma2D; these may include New Features, Bug Fixes or Enhancements to already "
+"existent features. Here, you can also find links to past versions' Release "
+"Notes, to keep track of Tahoma2D development history throughout time."
+msgstr ""
+"En esta sección se podrá encontrar una lista de las novedades destacadas de la "
+"última versión de Tahoma2D; éstas podrán incluir Nuevas funciones, Correcciones "
+"de errores o Mejoras a funciones ya existentes. También podrán encontrarse aquí "
+"enlaces a las novedades de las versiones anteriores, para poder llevar un "
+"recuento de la historia de desarrollo de Tahoma2D a lo largo del tiempo."
+
+#: ../../source/whats_new.rst:14
+msgid "New in Tahoma2D 1.5.1"
+msgstr "Novedades en Tahoma2D 1.5.1"
 
 #: ../../source/whats_new.rst:18
-msgid "Highlights"
-msgstr "Destacadas"
+msgid "Added"
+msgstr "Nuevo"
+
+#: ../../source/whats_new.rst:19
+msgid "High DPI Scaling preference"
+msgstr ""
+"Opción en preferencias para el escalado en monitores con alta densidad de PPP"
 
 #: ../../source/whats_new.rst:20
-msgid "|new| **Vector Guided Drawing Controls** panel and options."
-msgstr ""
-"|new_es| Panel y opciones de **Controles de asistencia para dibujo vectorial**."
-
-#: ../../source/whats_new.rst:21
-msgid ""
-"|new| **Stop-Motion panel** & Canon DSLR Camera Capture support (Windows only)."
-msgstr ""
-"|new_es| **Panel de Stop-Motion** y soporte para captura con cámaras Canon DSLR "
-"(sólo Windows)."
-
-#: ../../source/whats_new.rst:22
-msgid "|new| Toolbar: Now tool availability is **Context Aware**."
-msgstr ""
-"|new_es| Barra de herramientas: Ahora la disponibilidad de las herramientas es "
-"**sensible al contexto**."
+msgid "Added CHANGELOG.md"
+msgstr "Se agregó un archivo CHANGELOG.md"
 
 #: ../../source/whats_new.rst:23
-msgid "|new| Fill Tool: Can now be used in **Raster Levels**."
-msgstr ""
-"|new_es| Herramienta Rellenar: Ahora puede ser usada en **niveles de Imagen**."
+msgid "Changed"
+msgstr "Cambios"
 
 #: ../../source/whats_new.rst:24
-msgid ""
-"|new| Eraser Tool: **Pencil Mode** for Smart Raster levels, also in Freehand and "
-"Polyline types."
-msgstr ""
-"|new_es| Herramienta Borrador: Modo **Lápiz** en niveles de Imagen de Toonz, "
-"también al usarla en Tipos: Lazo y Línea poligonal."
-
-#: ../../source/whats_new.rst:25
-msgid ""
-"|new| Xsheet/Timeline: **Camera Column** to see and edit animation keyframes."
-msgstr ""
-"|new_es| Planilla/Línea de tiempo: **Columna de Cámara** para poder ver y editar "
-"sus fotogramas clave de animación."
-
-#: ../../source/whats_new.rst:26
-msgid "|new| Xsheet/Timeline: **Create Blank Drawing** command."
-msgstr ""
-"|new_es| Planilla/Línea de tiempo: Nuevo comando **Crear dibujo en blanco**."
+msgid "Fix Gap Closure results (Tape Tool)"
+msgstr "Se corrigió el resultado al cerrar huecos (herramienta Cinta)"
 
 #: ../../source/whats_new.rst:27
-msgid "|new| Playback: New **Short Play** command."
-msgstr "|new_es| Reproducción: Nuevo comando **Reproducción breve**."
+msgid "Fixed"
+msgstr "Correciones"
 
 #: ../../source/whats_new.rst:28
-msgid ""
-"|new| Import/Export: **XDTS File Support** (Celsys and Toei Animation xsheet "
-"file format)."
-msgstr ""
-"|new_es| Importación/Exportación: **Soporte para archivos XDTS** (formato de "
-"planilla de Celsys y Toei Animation)."
+msgid "Fix relative drawing onion skin guided drawing"
+msgstr "Se corrigió el dibujado de la piel de cebolla relativa en modo Dibujos"
 
 #: ../../source/whats_new.rst:29
-msgid "|new| Effects: **Corridor Gradient Iwa**."
-msgstr "|new_es| Efectos: **Corridor Gradient Iwa** (Gradiente corredor Iwa)."
-
-#: ../../source/whats_new.rst:30
-msgid "|new| Effects: **Spin Gradient Iwa**."
-msgstr "|new_es| Efectos: **Spin Gradient Iwa** (Gradiente de giro Iwa)."
-
-#: ../../source/whats_new.rst:31
-msgid "|new| Motion Paths: Now can be created using the **Geometry Tool**."
+msgid "Fix update folder delay *(OpenToonz port)*"
 msgstr ""
-"|new_es| Trayectorias de movimiento: Ahora pueden ser creadas usando la "
-"**Herramienta Geometría**."
+"Se corrigió retraso en actualizar carpeta *(transportado desde OpenToonz)*"
 
 #: ../../source/whats_new.rst:32
-msgid "|new| Shortcuts: New shortcuts for **Next/Previous Keyframe** commands."
-msgstr ""
-"|new_es| Atajos: Nuevos atajos para los comandos **Clave anterior/siguiente**."
+msgid "Other"
+msgstr "Otros"
 
 #: ../../source/whats_new.rst:33
-msgid ""
-"|new| Viewer: **Color settings** for Viewer Background in Level editing mode."
-msgstr ""
-"|new_es| Visor: **Preferencias de Color** para el Fondo del Visor en modo de "
-"edición de Niveles."
+msgid "Brazilian Portuguese Translation - Review + Update to 1.5"
+msgstr "Traducción al portugués de Brasil - Revisión + actualización a 1.5"
 
 #: ../../source/whats_new.rst:34
-msgid ""
-"|new| Cleanup: **\"None\" line processing mode**, for applying only autocenter/"
-"rotation/flipping."
-msgstr ""
-"|new_es| Limpieza: **Modo de procesamiento de líneas \"No\"**, para aplicar "
-"solamente centrado automático/rotación/dar vuelta."
-
-#: ../../source/whats_new.rst:35
-msgid "|new| Palette Editor: **Delete Unused Styles** right-click command."
-msgstr ""
-"|new_es| Editor de Paleta: Comando de clic derecho **Borrar estilos no usados**."
-
-#: ../../source/whats_new.rst:36
-msgid "|new| Cache folder location & **Clear Cache Command**."
-msgstr ""
-"|new_es| Nueva ubicación de carpeta de caché y nuevo comando **Limpiar carpeta "
-"de caché**."
+msgid "Update Canon EDSDK to v13.18.40"
+msgstr "Se actualizó el EDSDK de Canon a v13.18.40"
 
 #: ../../source/whats_new.rst:37
-msgid "|new| Execute Toonz **scripts from commandline**."
-msgstr ""
-"|new_es| Ahora es posible ejecutar Toonz **scripts desde la línea de comandos**."
-
-#: ../../source/whats_new.rst:38
 msgid ""
-"|new| UI: New Help menu options **Online Manual**, **What's New**, **Community "
-"Forum** and **Report a Bug**."
+"For more detailed information of these changes, visit the links provided in the "
+"`v1.5.1 Release Notes <https://github.com/tahoma2d/tahoma2d/releases/tag/"
+"v1.5.1>`_ hosted in GitHub."
 msgstr ""
-"|new_es| Interfaz: Nuevas opciones del menú Ayuda, **Manual en línea**, "
-"**Novedades**, **Foro de la comunidad** y **Reportar un error**."
-
-#: ../../source/whats_new.rst:39
-msgid "|new| UI: New **Korean** translation. (Initial version)"
-msgstr "|new_es| Interfaz: Nueva traducción al **Coreano** (versión inicial)"
-
-#: ../../source/whats_new.rst:40
-msgid "|new| Effects: **Help in English and Spanish**."
-msgstr "|new_es| Efectos: **Ayuda en Español e Inglés**."
-
-#: ../../source/whats_new.rst:41
-msgid "|new| Tahoma Manual: New **Spanish** translation."
-msgstr "|new_es| Manual de Tahoma: Nueva traducción al **Español**."
-
-#: ../../source/whats_new.rst:42
-msgid "|enhancement| UI: **Updated/Reorganized Menus**."
-msgstr "|enhancement_es| Interfaz: **Actualización/reorganización de los menúes**."
+"Para información más detallada de estos cambios, visitar los enlaces "
+"proporcionados en las `Novedades de la v1.5.1 <https://github.com/tahoma2d/"
+"tahoma2d/releases/tag/v1.5.1>`_ alojadas en GitHub."
 
 #: ../../source/whats_new.rst:43
-msgid ""
-"|enhancement| File Browser: **Double-click in Load Scene and Load Level "
-"dialogs** to open files."
-msgstr ""
-"|enhancement_es| Explorador de archivos: **Doble-clic en diálogos Cargar escena "
-"y Cargar nivel** para abrir archivos."
-
-#: ../../source/whats_new.rst:44
-msgid ""
-"|enhancement| Level Settings window: Now can act upon **Multiple Selected "
-"levels**."
-msgstr ""
-"|enhancement_es| Ventana Opciones de nivel: Ahora puede actuar sobre **múltiples "
-"niveles seleccionados**."
+msgid "Previous Versions"
+msgstr "Versiones anteriores"
 
 #: ../../source/whats_new.rst:45
-msgid "|enhancement| Startup Popup: Now **Scenes are Saved on Creation**."
-msgstr ""
-"|enhancement_es| Diálogo inicial: Ahora las **escenas son guardadas al ser "
-"creadas**."
-
-#: ../../source/whats_new.rst:46
-msgid "|enhancement| Effects: Added **Swap Colors Button** in Gradient effects."
-msgstr ""
-"|enhancement_es| Efectos: Se agregaron botones **Swap Colors** (intercambiar "
-"colores) a los efectos de tipo Gradiente."
-
-#: ../../source/whats_new.rst:47
-msgid ""
-"|enhancement| Read Only levels: Allow to **Copy Selections from Read Only "
-"Levels**."
-msgstr ""
-"|enhancement_es| Niveles de Sólo Lectura: Ahora se permite **Copiar la selección "
-"en niveles de sólo lectura**."
-
-#: ../../source/whats_new.rst:48
-msgid ""
-"|enhancement| Read Only levels: PSD and FFmpeg-loaded levels are now **Read "
-"Only**."
-msgstr ""
-"|enhancement_es| Niveles de Sólo Lectura: Ahora los niveles PSD y los cargados a "
-"través de FFmpeg son de **Sólo Lectura**."
-
-#: ../../source/whats_new.rst:49
-msgid ""
-"|enhancement| Function Editor: **Hide Inbetween Values** option in Spreadsheet "
-"mode."
-msgstr ""
-"|enhancement_es| Editor de funciones: Nueva opción **Ocultar valores "
-"intermedios** en el modo Planilla de tiempos."
-
-#: ../../source/whats_new.rst:50
-msgid ""
-"|enhancement| Function Editor: **Step / Interpolation change** for multiple "
-"selected Keyframes."
-msgstr ""
-"|enhancement_es| Editor de funciones: Ahora es posible **cambiar la Exposición / "
-"Interpolación** de varios segmentos de animación seleccionados."
-
-#: ../../source/whats_new.rst:51
-msgid "|enhancement| Animate Tool: Precise control using **Alt** key."
-msgstr ""
-"|enhancement_es| Herramienta Animar: Control preciso usando la tecla **Alt**."
-
-#: ../../source/whats_new.rst:52
-msgid "|enhancement| Brush Tool: Remember last brush preset used."
-msgstr ""
-"|enhancement_es| Herramienta Pincel: Ahora recordará el último Ajuste de pincel "
-"usado."
-
-#: ../../source/whats_new.rst:53
-msgid ""
-"|enhancement| Control Point Editor Tool: Make **Control Points easier to "
-"select**."
-msgstr ""
-"|enhancement_es| Herramienta Editar puntos de control: Ahora **es más sencillo "
-"seleccionar los puntos de control**."
-
-#: ../../source/whats_new.rst:54
-msgid ""
-"|enhancement| Sound: **Improved Sound Quality** for Playback and Scrubbing. "
-"(Linux only)"
-msgstr ""
-"|enhancement_es| Sonido: **Calidad de sonido mejorada** durante la reproducción "
-"y el arrastre. (sólo Linux)"
-
-#: ../../source/whats_new.rst:55
-msgid ""
-"|fix| Brush Tool: **Center mouse cursor on brush preview** (for pixel-art work)"
-msgstr ""
-"|fix_es| Herramienta Pincel: **Cursor del ratón centrado en el contorno de "
-"previsualización del pincel** (necesario para trabajo en pixel-art)"
-
-#: ../../source/whats_new.rst:56
-msgid "|fix| **Transparent QuickTime Output**."
-msgstr "|fix_es| **Salida a formato QuickTime con transparencia**."
-
-#: ../../source/whats_new.rst:58
-msgid "...and much more!"
-msgstr "...y mucho más!"
-
-#: ../../source/whats_new.rst:60
-msgid ""
-"Please see the `v1.4 Release Notes <https://github.com/tahoma/tahoma/"
-"releases/tag/v1.4.0>`_  hosted in GitHub, for the full list of new features, "
-"enhancements and bug fixes."
-msgstr ""
-"Por favor ver las `Notas de la versión 1.4 (en inglés) <https://github.com/"
-"tahoma/tahoma/releases/tag/v1.4.0>`_  alojadas en GitHub, para obtener la "
-"lista completa de nuevas características, mejoras y correcciones de errores."
-
-#: ../../source/whats_new.rst:67
-msgid "Previous Versions of Tahoma"
-msgstr "Versiones anteriores de Tahoma"
-
-#: ../../source/whats_new.rst:69
 msgid ""
 "Here you can find links to previous versions' full Release Notes, hosted in "
 "GitHub:"
 msgstr ""
-"Aquí es posible encontrar enlaces a las Notas de las versiones anteriores (en "
-"inglés), alojadas en GitHub:"
+"Aquí es posible encontrar enlaces a las Novedades de las versiones anteriores "
+"(en inglés), alojadas en GitHub:"
+
+#: ../../source/whats_new.rst:47
+msgid ""
+"`v1.5 Release Notes <https://github.com/tahoma2d/tahoma2d/releases/tag/v1.5>`_"
+msgstr ""
+"`Novedades de la v1.5 <https://github.com/tahoma2d/tahoma2d/releases/tag/v1.5>`_"
+
+#: ../../source/whats_new.rst:49
+msgid ""
+"`v1.4.5 Release Notes <https://github.com/tahoma2d/tahoma2d/releases/tag/"
+"v1.4.5>`_"
+msgstr ""
+"`Novedades de la v1.4.5 <https://github.com/tahoma2d/tahoma2d/releases/tag/"
+"v1.4.5>`_"
+
+#: ../../source/whats_new.rst:51
+msgid ""
+"`v1.4.4 Release Notes <https://github.com/tahoma2d/tahoma2d/releases/tag/"
+"v1.4.4>`_"
+msgstr ""
+"`Novedades de la v1.4.4 <https://github.com/tahoma2d/tahoma2d/releases/tag/"
+"v1.4.4>`_"
+
+#: ../../source/whats_new.rst:53
+msgid ""
+"`v1.4.3 Release Notes <https://github.com/tahoma2d/tahoma2d/releases/tag/"
+"v1.4.3>`_"
+msgstr ""
+"`Novedades de la v1.4.3 <https://github.com/tahoma2d/tahoma2d/releases/tag/"
+"v1.4.3>`_"
+
+#: ../../source/whats_new.rst:55
+msgid ""
+"`v1.4.2 Release Notes <https://github.com/tahoma2d/tahoma2d/releases/tag/"
+"v1.4.2>`_"
+msgstr ""
+"`Novedades de la v1.4.2 <https://github.com/tahoma2d/tahoma2d/releases/tag/"
+"v1.4.2>`_"
+
+#: ../../source/whats_new.rst:57
+msgid ""
+"`v1.4.1 Release Notes <https://github.com/tahoma2d/tahoma2d/releases/tag/"
+"v1.4.1>`_"
+msgstr ""
+"`Novedades de la v1.4.1 <https://github.com/tahoma2d/tahoma2d/releases/tag/"
+"v1.4.1>`_"
+
+#: ../../source/whats_new.rst:59
+msgid ""
+"`v1.4 Release Notes <https://github.com/tahoma2d/tahoma2d/releases/tag/v1.4>`_"
+msgstr ""
+"`Novedades de la v1.4 <https://github.com/tahoma2d/tahoma2d/releases/tag/v1.4>`_"
+
+#: ../../source/whats_new.rst:61
+msgid ""
+"`v1.3.1 Release Notes <https://github.com/tahoma2d/tahoma2d/releases/tag/"
+"v1.3.1>`_"
+msgstr ""
+"`Novedades de la v1.3.1 <https://github.com/tahoma2d/tahoma2d/releases/tag/"
+"v1.3.1>`_"
+
+#: ../../source/whats_new.rst:63
+msgid ""
+"`v1.3 Release Notes <https://github.com/tahoma2d/tahoma2d/releases/tag/v1.3>`_"
+msgstr ""
+"`Novedades de la v1.3 <https://github.com/tahoma2d/tahoma2d/releases/tag/v1.3>`_"
+
+#: ../../source/whats_new.rst:65
+msgid ""
+"`v1.2 Release Notes <https://github.com/tahoma2d/tahoma2d/releases/tag/v1.2>`_"
+msgstr ""
+"`Novedades de la v1.2 <https://github.com/tahoma2d/tahoma2d/releases/tag/v1.2>`_"
+
+#: ../../source/whats_new.rst:67
+msgid ""
+"`v1.1 Release Notes <https://github.com/tahoma2d/tahoma2d/releases/tag/v1.1>`_"
+msgstr ""
+"`Novedades de la v1.1 <https://github.com/tahoma2d/tahoma2d/releases/tag/v1.1>`_"
+
+#: ../../source/whats_new.rst:69
+msgid ""
+"`v1.0.1 Release Notes <https://github.com/tahoma2d/tahoma2d/releases/tag/"
+"v1.0.1>`_"
+msgstr ""
+"`Novedades de la v1.0.1 <https://github.com/tahoma2d/tahoma2d/releases/tag/"
+"v1.0.1>`_"
 
 #: ../../source/whats_new.rst:71
 msgid ""
-"`v1.3 Release Notes <https://github.com/tahoma/tahoma/releases/tag/"
-"v1.3.0>`_"
+"`v1.0 Release Notes <https://github.com/tahoma2d/tahoma2d/releases/tag/v1.0>`_"
 msgstr ""
-"`Notas de la versión 1.3 <https://github.com/tahoma/tahoma/releases/tag/"
-"v1.3.0>`_"
-
-#: ../../source/whats_new.rst:73
-msgid ""
-"`v1.2.1 Release Notes <https://github.com/tahoma/tahoma/releases/tag/"
-"v1.2.1>`_"
-msgstr ""
-"`Notas de la versión 1.2.1 <https://github.com/tahoma/tahoma/releases/tag/"
-"v1.2.1>`_"
-
-#: ../../source/whats_new.rst:75
-msgid ""
-"`v1.2 Release Notes <https://github.com/tahoma/tahoma/releases/tag/"
-"v1.2.0>`_"
-msgstr ""
-"`Notas de la versión 1.2 <https://github.com/tahoma/tahoma/releases/tag/"
-"v1.2.0>`_"
-
-#: ../../source/whats_new.rst:77
-msgid ""
-"`v1.1.3 Release Notes <https://github.com/tahoma/tahoma/releases/tag/"
-"v1.1.3>`_"
-msgstr ""
-"`Notas de la versión 1.1.3 <https://github.com/tahoma/tahoma/releases/tag/"
-"v1.1.3>`_"
-
-#: ../../source/whats_new.rst:79
-msgid ""
-"`v1.1.2 Release Notes <https://github.com/tahoma/tahoma/releases/tag/"
-"v1.1.2>`_"
-msgstr ""
-"`Notas de la versión 1.1.2 <https://github.com/tahoma/tahoma/releases/tag/"
-"v1.1.2>`_"
-
-#: ../../source/whats_new.rst:81
-msgid ""
-"`v1.1 Release Notes <https://github.com/tahoma/tahoma/releases/tag/"
-"v1.1.0>`_"
-msgstr ""
-"`Notas de la versión 1.1 <https://github.com/tahoma/tahoma/releases/tag/"
-"v1.1.0>`_"
-
-#: ../../source/whats_new.rst:83
-msgid ""
-"`v1.0.3 Release Notes <https://github.com/tahoma/tahoma/releases/tag/"
-"v1.0.3>`_"
-msgstr ""
-"`Notas de la versión 1.0.3 <https://github.com/tahoma/tahoma/releases/tag/"
-"v1.0.3>`_"
-
-#: ../../source/whats_new.rst:85
-msgid ""
-"`v1.0.2 Release Notes <https://github.com/tahoma/tahoma/releases/tag/"
-"v1.0.2>`_"
-msgstr ""
-"`Notas de la versión 1.0.2 <https://github.com/tahoma/tahoma/releases/tag/"
-"v1.0.2>`_"
-
-#: ../../source/whats_new.rst:87
-msgid ""
-"`v1.0 Release Notes <https://github.com/tahoma/tahoma/releases/tag/v1.0>`_"
-msgstr ""
-"`Notas de la versión 1.0 <https://github.com/tahoma/tahoma/releases/tag/"
-"v1.0>`_"
+"`Novedades de la v1.0 <https://github.com/tahoma2d/tahoma2d/releases/tag/v1.0>`_"
 
 #~ msgid "WARNING: This is a Preview page, not fully functional yet. Stay tuned!"
 #~ msgstr ""
 #~ "ADVERTENCIA: Esta es una página aún no definitiva y no completamente "
 #~ "funcional. ¡Estén atentos!"
+
+#~ msgid "v1.4"
+#~ msgstr "v1.4"
+
+#~ msgid "Highlights"
+#~ msgstr "Destacadas"
+
+#~ msgid "|new| **Vector Guided Drawing Controls** panel and options."
+#~ msgstr ""
+#~ "|new_es| Panel y opciones de **Controles de asistencia para dibujo "
+#~ "vectorial**."
+
+#~ msgid ""
+#~ "|new| **Stop-Motion panel** & Canon DSLR Camera Capture support (Windows "
+#~ "only)."
+#~ msgstr ""
+#~ "|new_es| **Panel de Stop-Motion** y soporte para captura con cámaras Canon "
+#~ "DSLR (sólo Windows)."
+
+#~ msgid "|new| Toolbar: Now tool availability is **Context Aware**."
+#~ msgstr ""
+#~ "|new_es| Barra de herramientas: Ahora la disponibilidad de las herramientas "
+#~ "es **sensible al contexto**."
+
+#~ msgid "|new| Fill Tool: Can now be used in **Raster Levels**."
+#~ msgstr ""
+#~ "|new_es| Herramienta Rellenar: Ahora puede ser usada en **niveles de "
+#~ "Imagen**."
+
+#~ msgid ""
+#~ "|new| Eraser Tool: **Pencil Mode** for Smart Raster levels, also in Freehand "
+#~ "and Polyline types."
+#~ msgstr ""
+#~ "|new_es| Herramienta Borrador: Modo **Lápiz** en niveles de Imagen de Toonz, "
+#~ "también al usarla en Tipos: Lazo y Línea poligonal."
+
+#~ msgid ""
+#~ "|new| Xsheet/Timeline: **Camera Column** to see and edit animation keyframes."
+#~ msgstr ""
+#~ "|new_es| Planilla/Línea de tiempo: **Columna de Cámara** para poder ver y "
+#~ "editar sus fotogramas clave de animación."
+
+#~ msgid "|new| Xsheet/Timeline: **Create Blank Drawing** command."
+#~ msgstr ""
+#~ "|new_es| Planilla/Línea de tiempo: Nuevo comando **Crear dibujo en blanco**."
+
+#~ msgid "|new| Playback: New **Short Play** command."
+#~ msgstr "|new_es| Reproducción: Nuevo comando **Reproducción breve**."
+
+#~ msgid ""
+#~ "|new| Import/Export: **XDTS File Support** (Celsys and Toei Animation xsheet "
+#~ "file format)."
+#~ msgstr ""
+#~ "|new_es| Importación/Exportación: **Soporte para archivos XDTS** (formato de "
+#~ "planilla de Celsys y Toei Animation)."
+
+#~ msgid "|new| Effects: **Corridor Gradient Iwa**."
+#~ msgstr "|new_es| Efectos: **Corridor Gradient Iwa** (Gradiente corredor Iwa)."
+
+#~ msgid "|new| Effects: **Spin Gradient Iwa**."
+#~ msgstr "|new_es| Efectos: **Spin Gradient Iwa** (Gradiente de giro Iwa)."
+
+#~ msgid "|new| Motion Paths: Now can be created using the **Geometry Tool**."
+#~ msgstr ""
+#~ "|new_es| Trayectorias de movimiento: Ahora pueden ser creadas usando la "
+#~ "**Herramienta Geometría**."
+
+#~ msgid "|new| Shortcuts: New shortcuts for **Next/Previous Keyframe** commands."
+#~ msgstr ""
+#~ "|new_es| Atajos: Nuevos atajos para los comandos **Clave anterior/"
+#~ "siguiente**."
+
+#~ msgid ""
+#~ "|new| Viewer: **Color settings** for Viewer Background in Level editing mode."
+#~ msgstr ""
+#~ "|new_es| Visor: **Preferencias de Color** para el Fondo del Visor en modo de "
+#~ "edición de Niveles."
+
+#~ msgid ""
+#~ "|new| Cleanup: **\"None\" line processing mode**, for applying only "
+#~ "autocenter/rotation/flipping."
+#~ msgstr ""
+#~ "|new_es| Limpieza: **Modo de procesamiento de líneas \"No\"**, para aplicar "
+#~ "solamente centrado automático/rotación/dar vuelta."
+
+#~ msgid "|new| Palette Editor: **Delete Unused Styles** right-click command."
+#~ msgstr ""
+#~ "|new_es| Editor de Paleta: Comando de clic derecho **Borrar estilos no "
+#~ "usados**."
+
+#~ msgid "|new| Cache folder location & **Clear Cache Command**."
+#~ msgstr ""
+#~ "|new_es| Nueva ubicación de carpeta de caché y nuevo comando **Limpiar "
+#~ "carpeta de caché**."
+
+#~ msgid "|new| Execute Toonz **scripts from commandline**."
+#~ msgstr ""
+#~ "|new_es| Ahora es posible ejecutar Toonz **scripts desde la línea de "
+#~ "comandos**."
+
+#~ msgid ""
+#~ "|new| UI: New Help menu options **Online Manual**, **What's New**, "
+#~ "**Community Forum** and **Report a Bug**."
+#~ msgstr ""
+#~ "|new_es| Interfaz: Nuevas opciones del menú Ayuda, **Manual en línea**, "
+#~ "**Novedades**, **Foro de la comunidad** y **Reportar un error**."
+
+#~ msgid "|new| UI: New **Korean** translation. (Initial version)"
+#~ msgstr "|new_es| Interfaz: Nueva traducción al **Coreano** (versión inicial)"
+
+#~ msgid "|new| Effects: **Help in English and Spanish**."
+#~ msgstr "|new_es| Efectos: **Ayuda en Español e Inglés**."
+
+#~ msgid "|new| Tahoma Manual: New **Spanish** translation."
+#~ msgstr "|new_es| Manual de Tahoma: Nueva traducción al **Español**."
+
+#~ msgid "|enhancement| UI: **Updated/Reorganized Menus**."
+#~ msgstr ""
+#~ "|enhancement_es| Interfaz: **Actualización/reorganización de los menúes**."
+
+#~ msgid ""
+#~ "|enhancement| File Browser: **Double-click in Load Scene and Load Level "
+#~ "dialogs** to open files."
+#~ msgstr ""
+#~ "|enhancement_es| Explorador de archivos: **Doble-clic en diálogos Cargar "
+#~ "escena y Cargar nivel** para abrir archivos."
+
+#~ msgid ""
+#~ "|enhancement| Level Settings window: Now can act upon **Multiple Selected "
+#~ "levels**."
+#~ msgstr ""
+#~ "|enhancement_es| Ventana Opciones de nivel: Ahora puede actuar sobre "
+#~ "**múltiples niveles seleccionados**."
+
+#~ msgid "|enhancement| Startup Popup: Now **Scenes are Saved on Creation**."
+#~ msgstr ""
+#~ "|enhancement_es| Diálogo inicial: Ahora las **escenas son guardadas al ser "
+#~ "creadas**."
+
+#~ msgid ""
+#~ "|enhancement| Effects: Added **Swap Colors Button** in Gradient effects."
+#~ msgstr ""
+#~ "|enhancement_es| Efectos: Se agregaron botones **Swap Colors** (intercambiar "
+#~ "colores) a los efectos de tipo Gradiente."
+
+#~ msgid ""
+#~ "|enhancement| Read Only levels: Allow to **Copy Selections from Read Only "
+#~ "Levels**."
+#~ msgstr ""
+#~ "|enhancement_es| Niveles de Sólo Lectura: Ahora se permite **Copiar la "
+#~ "selección en niveles de sólo lectura**."
+
+#~ msgid ""
+#~ "|enhancement| Read Only levels: PSD and FFmpeg-loaded levels are now **Read "
+#~ "Only**."
+#~ msgstr ""
+#~ "|enhancement_es| Niveles de Sólo Lectura: Ahora los niveles PSD y los "
+#~ "cargados a través de FFmpeg son de **Sólo Lectura**."
+
+#~ msgid ""
+#~ "|enhancement| Function Editor: **Hide Inbetween Values** option in "
+#~ "Spreadsheet mode."
+#~ msgstr ""
+#~ "|enhancement_es| Editor de funciones: Nueva opción **Ocultar valores "
+#~ "intermedios** en el modo Planilla de tiempos."
+
+#~ msgid ""
+#~ "|enhancement| Function Editor: **Step / Interpolation change** for multiple "
+#~ "selected Keyframes."
+#~ msgstr ""
+#~ "|enhancement_es| Editor de funciones: Ahora es posible **cambiar la "
+#~ "Exposición / Interpolación** de varios segmentos de animación seleccionados."
+
+#~ msgid "|enhancement| Animate Tool: Precise control using **Alt** key."
+#~ msgstr ""
+#~ "|enhancement_es| Herramienta Animar: Control preciso usando la tecla **Alt**."
+
+#~ msgid "|enhancement| Brush Tool: Remember last brush preset used."
+#~ msgstr ""
+#~ "|enhancement_es| Herramienta Pincel: Ahora recordará el último Ajuste de "
+#~ "pincel usado."
+
+#~ msgid ""
+#~ "|enhancement| Control Point Editor Tool: Make **Control Points easier to "
+#~ "select**."
+#~ msgstr ""
+#~ "|enhancement_es| Herramienta Editar puntos de control: Ahora **es más "
+#~ "sencillo seleccionar los puntos de control**."
+
+#~ msgid ""
+#~ "|enhancement| Sound: **Improved Sound Quality** for Playback and Scrubbing. "
+#~ "(Linux only)"
+#~ msgstr ""
+#~ "|enhancement_es| Sonido: **Calidad de sonido mejorada** durante la "
+#~ "reproducción y el arrastre. (sólo Linux)"
+
+#~ msgid ""
+#~ "|fix| Brush Tool: **Center mouse cursor on brush preview** (for pixel-art "
+#~ "work)"
+#~ msgstr ""
+#~ "|fix_es| Herramienta Pincel: **Cursor del ratón centrado en el contorno de "
+#~ "previsualización del pincel** (necesario para trabajo en pixel-art)"
+
+#~ msgid "|fix| **Transparent QuickTime Output**."
+#~ msgstr "|fix_es| **Salida a formato QuickTime con transparencia**."
+
+#~ msgid "...and much more!"
+#~ msgstr "...y mucho más!"
+
+#~ msgid ""
+#~ "Please see the `v1.4 Release Notes <https://github.com/tahoma/tahoma/"
+#~ "releases/tag/v1.4.0>`_  hosted in GitHub, for the full list of new features, "
+#~ "enhancements and bug fixes."
+#~ msgstr ""
+#~ "Por favor ver las `Notas de la versión 1.4 (en inglés) <https://github.com/"
+#~ "tahoma/tahoma/releases/tag/v1.4.0>`_  alojadas en GitHub, para obtener la "
+#~ "lista completa de nuevas características, mejoras y correcciones de errores."
+
+#~ msgid ""
+#~ "`v1.0.3 Release Notes <https://github.com/tahoma/tahoma/releases/tag/"
+#~ "v1.0.3>`_"
+#~ msgstr ""
+#~ "`Notas de la versión 1.0.3 <https://github.com/tahoma/tahoma/releases/tag/"
+#~ "v1.0.3>`_"
+
+#~ msgid ""
+#~ "`v1.0.2 Release Notes <https://github.com/tahoma/tahoma/releases/tag/"
+#~ "v1.0.2>`_"
+#~ msgstr ""
+#~ "`Notas de la versión 1.0.2 <https://github.com/tahoma/tahoma/releases/tag/"
+#~ "v1.0.2>`_"

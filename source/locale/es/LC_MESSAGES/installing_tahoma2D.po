@@ -1,0 +1,145 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
+# This file is distributed under the same license as the Tahoma package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Tahoma 1.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-01-30 22:32-0300\n"
+"PO-Revision-Date: 2026-01-31 00:33-0300\n"
+"Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
+"Language-Team: es <LL@li.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.17.0\n"
+"X-Generator: Poedit 3.8\n"
+
+#: ../../source/installing_tahoma2D.rst:4
+msgid "Installing Tahoma2D"
+msgstr "Instalación"
+
+#: ../../source/installing_tahoma2D.rst:10
+msgid "Downloading Tahoma2D"
+msgstr "Descarga"
+
+#: ../../source/installing_tahoma2D.rst:11
+msgid ""
+"You can download the appropriate version of Tahoma2D for your operating "
+"system from the `Download page <https://tahoma2d.org/download/"
+"official_releases>`_ in the official Tahoma2D web site. Choose either "
+"the Windows or macOS version to start downloading the application."
+msgstr ""
+"Será posible descargar la versión correspondiente de Tahoma2D para el "
+"sistema operativo, en uso desde la `página de Descargas <https://"
+"tahoma2d.org/download.html>`_ del sitio oficial de Tahoma2D. Desde allí "
+"se podrá escoger la versión para Windows, macOS o Linux, y comenzar a "
+"descargar el programa."
+
+#: ../../source/installing_tahoma2D.rst:13
+msgid ""
+"All other builds apart from the ones downloaded from the official web "
+"site ARE NOT officially supported."
+msgstr ""
+"Toda versión que no sea descargada desde el sitio oficial CARECERÁ de "
+"soporte oficial."
+
+#: ../../source/installing_tahoma2D.rst:20
+msgid "Installing on Windows"
+msgstr "Instalación en Windows"
+
+#: ../../source/installing_tahoma2D.rst:21
+msgid "Download the Windows zipped file and follow these steps:"
+msgstr "Descargar el archivo zip de Windows y seguir los siguientes pasos:"
+
+#: ../../source/installing_tahoma2D.rst:24
+msgid "Extract the zip file."
+msgstr "Extraer el archivo zip."
+
+#: ../../source/installing_tahoma2D.rst:27
+msgid "Find the file called Tahoma2D"
+msgstr "Buscar el archivo llamado Tahoma2D.exe"
+
+#: ../../source/installing_tahoma2D.rst:30
+msgid "Double click and start drawing."
+msgstr "Hacer doble clic y ¡comenzar a dibujar!"
+
+#: ../../source/installing_tahoma2D.rst:36
+msgid "Installing on macOS"
+msgstr "Instalación en macOS"
+
+#: ../../source/installing_tahoma2D.rst:37
+msgid "Download the macOS dmg file and follow these steps:"
+msgstr "Descargar el archivo dmg de macOS y seguir los siguientes pasos:"
+
+#: ../../source/installing_tahoma2D.rst:40
+msgid "Double click on the dmg package."
+msgstr "Hacer doble clic en el paquete dmg."
+
+#: ../../source/installing_tahoma2D.rst:43
+msgid ""
+"Drag the Tahoma2D program to the Applications folder (or wherever you "
+"would like it placed)."
+msgstr ""
+"Arrastrar el programa Tahoma2D a la carpeta Aplicaciones (o donde se "
+"desee colocar)."
+
+#: ../../source/installing_tahoma2D.rst:46
+msgid "Double click to open the app."
+msgstr "Hacer doble clic para abrir el programa."
+
+#: ../../source/installing_tahoma2D.rst:48
+msgid "Grant any necessary permissions."
+msgstr "Otorgar cualquier permiso necesario."
+
+#: ../../source/installing_tahoma2D.rst:50
+msgid "Start drawing!"
+msgstr "¡Comenzar a dibujar!"
+
+#: ../../source/installing_tahoma2D.rst:52
+msgid ""
+"For macOS 15.0 and later, on the first open there might be a dialog with "
+"a warning message, since Tahoma2D is not part of the Apple Developer "
+"program. Choose “Cancel” or \"Done\" and then open ``System Settings --> "
+"Privacy & Security``. Towards the bottom, next to Tahoma2D, select “Open "
+"Anyway.” Then in the next dialog, provide an administrative password or "
+"choose “Open”. Afterwards, Tahoma2D will open normally."
+msgstr ""
+"En macOS 15.0 y posteriores, al abrir el programa por primera vez, es "
+"posible que aparezca un diálogo mostrando un mensaje de advertencia, "
+"debido a que Tahoma2D no forma parte del Programa de Desarrolladores de "
+"Apple. Elegir “Cancelar” o \"Listo\" y luego abrir ``Ajustes del sistema "
+"--> Privacidad y seguridad``. Hacia la parte inferior, al lado de "
+"Tahoma2D, seleccionar “Abrir igualmente”. Después, en el siguiente "
+"diálogo, proporcionar una clave administrativa o escoger “Abrir”. "
+"Después de esto, Tahoma2D se abrirá normalmente."
+
+#: ../../source/installing_tahoma2D.rst:54
+msgid ""
+"For most older versions of macOS, open through Finder the first time. "
+"Right-click on Tahoma2D and select “Open”. Then choose “Open Anyway”. "
+"Afterwards, Tahoma2D will open normally."
+msgstr ""
+"En versiones más antiguas de macOS, abrir mediante el Finder la primera "
+"vez. Hacer clic derecho en Tahoma2D y seleccionar “Abrir”. Luego, "
+"escoger “Abrir igualmente”. Después de esto, Tahoma2D abrirá normalmente."
+
+#: ../../source/installing_tahoma2D.rst:56
+msgid ""
+"Some versions of macOS will ask for permission to access the Desktop, "
+"Documents, and Downloads directories on the first time opening. If you "
+"decline permission, you may have trouble saving your work. Visit "
+"``System Settings --> Privacy & Security --> Files & Folders`` if you "
+"need to fix folder permissions."
+msgstr ""
+"Algunas versiones de macOS solicitarán permisos para acceder a las "
+"carpetas Escritorio, Documentos y Descargas la primera vez que se use el "
+"programa. En caso de haberse denegado estos permisos, es posible que se "
+"presenten problemas al guardar el trabajo. Visitar ``Ajustes del sistema "
+"--> Privacidad y seguridad --> Archivos y carpetas`` para corregir los "
+"permisos de carpetas."

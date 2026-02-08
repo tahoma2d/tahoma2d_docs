@@ -1,0 +1,135 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
+# This file is distributed under the same license as the Tahoma package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Tahoma 1.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-01-30 22:32-0300\n"
+"PO-Revision-Date: 2026-02-02 00:17-0300\n"
+"Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
+"Language-Team: es <LL@li.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.17.0\n"
+"X-Generator: Poedit 3.8\n"
+
+#: ../../source/fx_docs/layer_blending/local_transparency.rst:4
+msgid "Local Transparency"
+msgstr "Transparencia local"
+
+#: ../../source/fx_docs/layer_blending/local_transparency.rst:6
+msgid "|node|"
+msgstr "|node|"
+
+#: ../../source/fx_docs/layer_blending/local_transparency.rst:41
+msgid "node"
+msgstr "node"
+
+#: ../../source/fx_docs/layer_blending/local_transparency.rst:9
+msgid "Inputs:"
+msgstr "Entradas:"
+
+#: ../../source/fx_docs/layer_blending/local_transparency.rst:11
+msgid "**Source ->** The image that will be affected."
+msgstr "**Source (Origen) ->** La imagen que será afectada."
+
+#: ../../source/fx_docs/layer_blending/local_transparency.rst:13
+msgid ""
+"**Reference ->** The luminance of the Reference image will control the "
+"opacity of the Source."
+msgstr ""
+"**Reference (Referencia) ->** La luminancia de la imagen conectada aquí "
+"controlará la opacidad de la imagen conectada a *Source*."
+
+#: ../../source/fx_docs/layer_blending/local_transparency.rst:14
+msgid ""
+"The Source will be made transparent where the Reference is light, and "
+"opaque where the Reference is dark."
+msgstr ""
+"La imagen conectada a *Source* se tornará transparente en donde la "
+"imagen conectada a *Reference* sea más clara y será más opaca en donde "
+"esta imagen sea más oscura."
+
+#: ../../source/fx_docs/layer_blending/local_transparency.rst:17
+msgid "Parameters:"
+msgstr "Parámetros:"
+
+#: ../../source/fx_docs/layer_blending/local_transparency.rst:19
+msgid "**Intensity ->** Controls the overall strength of the effect."
+msgstr "**Intensidad ->** Controla la intensidad general del efecto."
+
+#: ../../source/fx_docs/layer_blending/local_transparency.rst:20
+msgid ""
+"A value of 50 will produce a result halfway between the Source image and "
+"the full effect."
+msgstr ""
+"Un valor de 50 producirá un resultado a mitad de camino entre la imagen "
+"original y el efecto completo."
+
+#: ../../source/fx_docs/layer_blending/local_transparency.rst:23
+msgid "Usage Example:"
+msgstr "Ejemplo de uso:"
+
+#: ../../source/fx_docs/layer_blending/local_transparency.rst:25
+msgid "We can use a checker pattern to control the opacity of a circle"
+msgstr ""
+"Se podrá usar un patrón de damero para controlar la opacidad de un "
+"círculo"
+
+#: ../../source/fx_docs/layer_blending/local_transparency.rst:27
+msgid "|circle| |checker|"
+msgstr "|circle| |checker|"
+
+#: ../../source/fx_docs/layer_blending/local_transparency.rst:43
+msgid "circle"
+msgstr "circle"
+
+#: ../../source/fx_docs/layer_blending/local_transparency.rst:45
+msgid "checker"
+msgstr "checker"
+
+#: ../../source/fx_docs/layer_blending/local_transparency.rst:30
+msgid ""
+"This is how the two levels are connected in the FX Schematic; by "
+"connecting the checker level to the Reference input, we will use its "
+"luminance to mask portions of the circle"
+msgstr ""
+"Esta es la forma en que los niveles de la imagen se encuentran "
+"conectados en el Diagrama de efectos; al conectar el nivel con el damero "
+"a la entrada *Reference*, se usará su luminosidad para enmascarar "
+"porciones del círculo"
+
+#: ../../source/fx_docs/layer_blending/local_transparency.rst:32
+msgid "|graph|"
+msgstr "|graph|"
+
+#: ../../source/fx_docs/layer_blending/local_transparency.rst:47
+msgid "graph"
+msgstr "graph"
+
+#: ../../source/fx_docs/layer_blending/local_transparency.rst:34
+msgid ""
+"Here is the result; the red circle is visible within the black areas of "
+"the checker pattern and not in the white areas"
+msgstr ""
+"Aquí el resultado; el círculo rojo es visible dentro de las áreas negras "
+"del patrón de damero, pero no en sus áreas blancas"
+
+#: ../../source/fx_docs/layer_blending/local_transparency.rst:36
+msgid "|example| |example_2|"
+msgstr "|example| |example_2|"
+
+#: ../../source/fx_docs/layer_blending/local_transparency.rst:49
+msgid "example"
+msgstr "example"
+
+#: ../../source/fx_docs/layer_blending/local_transparency.rst:51
+msgid "example_2"
+msgstr "example_2"

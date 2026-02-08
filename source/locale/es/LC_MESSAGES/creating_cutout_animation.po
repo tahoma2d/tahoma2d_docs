@@ -7,16 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tahoma 1.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-05-06 16:58+0800\n"
-"PO-Revision-Date: 2019-08-27 13:13-0300\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
-"Last-Translator: Gabriel Gazzan <gabcorreo@gmail.com>\n"
+"POT-Creation-Date: 2026-01-30 22:32-0300\n"
+"PO-Revision-Date: 2026-02-01 22:21-0300\n"
+"Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Español\n"
 "Language: es\n"
-"X-Generator: Poedit 2.2.3\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.17.0\n"
+"X-Generator: Poedit 3.8\n"
 
 #: ../../source/creating_cutout_animation.rst:4
 msgid "Creating Cutout Animation"
@@ -47,7 +48,11 @@ msgstr ""
 
 #: ../../source/creating_cutout_animation.rst:9
 msgid "|character_model_sample|"
-msgstr ""
+msgstr "|character_model_sample|"
+
+#: ../../source/creating_cutout_animation.rst:292
+msgid "character_model_sample"
+msgstr "character_model_sample"
 
 #: ../../source/creating_cutout_animation.rst:11
 msgid ""
@@ -59,8 +64,8 @@ msgid ""
 "the shoulder and the hand will follow its movement; when you move the hand, it "
 "will turn around the wrist."
 msgstr ""
-"En Tahoma es posible crear vínculos entre las distintas partes de un modelo "
-"y establecer puntos de pivote para cada una de ellas, pudiendo así manipular su "
+"En Tahoma2D es posible crear vínculos entre las distintas partes de un modelo y "
+"establecer puntos de pivote para cada una de ellas, pudiendo así manipular su "
 "animación de una forma más conveniente. Por ejemplo, será posible vincular una "
 "mano con un brazo, a la altura de la muñeca, y vincular el brazo con el torso, "
 "en el hombro: de esta manera al mover el tronco, se moverá también el brazo y "
@@ -86,6 +91,10 @@ msgid ""
 msgstr ""
 "Usar la herramienta **Esqueleto** (|skeleton|) para vincular cada parte a otra "
 "y establecer los puntos de pivote correspondientes."
+
+#: ../../source/creating_cutout_animation.rst:290
+msgid "skeleton"
+msgstr "skeleton"
 
 #: ../../source/creating_cutout_animation.rst:19
 msgid ""
@@ -128,6 +137,10 @@ msgstr ""
 "cualquier edición realizada con la herramienta **Esqueleto** (|skeleton|), en "
 "el Diagrama de escenario y los valores de las transformaciones de las columnas/"
 "capas, y viceversa."
+
+#: ../../source/creating_cutout_animation.rst:288
+msgid "animate"
+msgstr "animate"
 
 #: ../../source/creating_cutout_animation.rst:30
 msgid "In the tool options bar you can set the following:"
@@ -188,7 +201,11 @@ msgstr ""
 
 #: ../../source/creating_cutout_animation.rst:45
 msgid "|handle|"
-msgstr ""
+msgstr "|handle|"
+
+#: ../../source/creating_cutout_animation.rst:293
+msgid "handle"
+msgstr "handle"
 
 #: ../../source/creating_cutout_animation.rst:47
 msgid ""
@@ -260,7 +277,11 @@ msgstr ""
 
 #: ../../source/creating_cutout_animation.rst:64
 msgid "|basic_model|"
-msgstr ""
+msgstr "|basic_model|"
+
+#: ../../source/creating_cutout_animation.rst:294
+msgid "basic_model"
+msgstr "basic_model"
 
 #: ../../source/creating_cutout_animation.rst:66
 msgid ""
@@ -312,8 +333,8 @@ msgstr ""
 "definir los puntos de pivote y los vínculos. Si no lo estuvieran, será posible "
 "establecer su posición correcta tanto antes como después de definir los "
 "vínculos, mediante el uso de las herramientas **Animar** o **Esqueleto** (en "
-"modo **Animar**) (ver  :ref:`Animación de objetos <animating_objects>`  y  :ref:"
-"`Animación de modelos <animating_models>`  )."
+"modo **Animar**) (ver  :ref:`Animación de objetos <animating_objects>`  "
+"y  :ref:`Animación de modelos <animating_models>`  )."
 
 #: ../../source/creating_cutout_animation.rst:74
 #: ../../source/creating_cutout_animation.rst:136
@@ -405,7 +426,11 @@ msgstr ""
 
 #: ../../source/creating_cutout_animation.rst:103
 msgid "|hook_model_0|"
-msgstr ""
+msgstr "|hook_model_0|"
+
+#: ../../source/creating_cutout_animation.rst:295
+msgid "hook_model_0"
+msgstr "hook_model_0"
 
 #: ../../source/creating_cutout_animation.rst:105
 msgid ""
@@ -422,7 +447,11 @@ msgstr ""
 
 #: ../../source/creating_cutout_animation.rst:107
 msgid "|hook_model_1|"
-msgstr ""
+msgstr "|hook_model_1|"
+
+#: ../../source/creating_cutout_animation.rst:296
+msgid "hook_model_1"
+msgstr "hook_model_1"
 
 #: ../../source/creating_cutout_animation.rst:109
 msgid ""
@@ -477,25 +506,29 @@ msgid ""
 "sections, the **Snap** option can be activated (see :ref:`Using Hooks "
 "<using_hooks>`  ). In this way it's possible to place hooks exactly in the same "
 "position of hooks already defined for other animation levels visible in the "
-"Viewer, or, in case the level is a Vector level, at the center of closed "
-"shapes (e.g. rectangles, circles or single vector shapes closed with the "
-"**Tape** tool)."
+"Viewer, or, in case the level is a Vector level, at the center of closed shapes "
+"(e.g. rectangles, circles or single vector shapes closed with the **Tape** "
+"tool)."
 msgstr ""
 "Al usar la herramienta **Enganche** (|hook|) para definir enganches para las "
 "partes de un modelo, la opción **Adherencia** podrá ser activada (ver :ref:`Uso "
 "de Enganches <using_hooks>`  ). De esta forma será posible ubicar enganches "
 "exactamente en la misma posición de enganches definidos para otros niveles de "
 "animación visibles en el Visor o, en caso de que el nivel fuera de tipo "
-"Vectorial de Toonz, en el centro de formas cerradas que pudiera contener (p.ej: "
+"Vectorial, en el centro de formas cerradas que pudiera contener (p.ej: "
 "rectángulos, círculos o formas compuestas por un único vector cerradas con la "
 "herramienta **Cinta**)."
+
+#: ../../source/creating_cutout_animation.rst:289
+msgid "hook"
+msgstr "hook"
 
 #: ../../source/creating_cutout_animation.rst:119
 msgid ""
 "This means that, in case the model sections are drawn in the right place, you "
 "can define perfectly overlapping hooks, so that limbs preserve their position "
-"when hooks are linked; or you can use regular shapes in Vector drawings "
-"(such as circles), to define the overlapping areas of the model limbs, and "
+"when hooks are linked; or you can use regular shapes in Vector drawings (such "
+"as circles), to define the overlapping areas of the model limbs, and "
 "consequently place hooks exactly at their center to achieve a perfect match "
 "when hooks are linked."
 msgstr ""
@@ -537,7 +570,11 @@ msgstr ""
 
 #: ../../source/creating_cutout_animation.rst:127
 msgid "|hook_model_2|"
-msgstr ""
+msgstr "|hook_model_2|"
+
+#: ../../source/creating_cutout_animation.rst:297
+msgid "hook_model_2"
+msgstr "hook_model_2"
 
 #: ../../source/creating_cutout_animation.rst:129
 msgid ""
@@ -573,7 +610,11 @@ msgstr ""
 
 #: ../../source/creating_cutout_animation.rst:133
 msgid "|hook_model_3|"
-msgstr ""
+msgstr "|hook_model_3|"
+
+#: ../../source/creating_cutout_animation.rst:298
+msgid "hook_model_3"
+msgstr "hook_model_3"
 
 #: ../../source/creating_cutout_animation.rst:140
 msgid "**To set a hook as the pivot point of the selected section:**"
@@ -720,6 +761,10 @@ msgstr ""
 "de sus columnas/capas (ver :ref:`Trabajo con claves de varias columnas/capas "
 "<working_with_multiple_column_keys>`  )."
 
+#: ../../source/creating_cutout_animation.rst:291
+msgid "key"
+msgstr "key"
+
 #: ../../source/creating_cutout_animation.rst:185
 msgid ""
 "Keys and interpolations you define in this way are displayed in Xsheet columns "
@@ -742,12 +787,12 @@ msgstr ""
 
 #: ../../source/creating_cutout_animation.rst:189
 msgid ""
-"Columns/layers can also be animated by working in the Function Editor (see  :"
-"ref:`Editing Using Spreadsheet and Curves "
+"Columns/layers can also be animated by working in the Function Editor "
+"(see  :ref:`Editing Using Spreadsheet and Curves "
 "<editing_curves_and_numerical_columns>`  )"
 msgstr ""
-"También es posible animar columnas/capas mediante el Editor de funciones (ver  :"
-"ref:`Edición usando la planilla de tiempos y curvas "
+"También es posible animar columnas/capas mediante el Editor de funciones "
+"(ver  :ref:`Edición usando la planilla de tiempos y curvas "
 "<editing_curves_and_numerical_columns>`  )"
 
 #: ../../source/creating_cutout_animation.rst:191
@@ -870,7 +915,11 @@ msgstr ""
 
 #: ../../source/creating_cutout_animation.rst:226
 msgid "|inverse_kinematics|"
-msgstr ""
+msgstr "|inverse_kinematics|"
+
+#: ../../source/creating_cutout_animation.rst:299
+msgid "inverse_kinematics"
+msgstr "inverse_kinematics"
 
 #: ../../source/creating_cutout_animation.rst:228
 msgid ""

@@ -1,0 +1,264 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) : This page is licensed under a CC-BY-NC 4.0 Int. License
+# This file is distributed under the same license as the Tahoma package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Tahoma 1.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-01-30 22:32-0300\n"
+"PO-Revision-Date: 2026-01-31 01:37-0300\n"
+"Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
+"Language-Team: es <LL@li.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.17.0\n"
+"X-Generator: Poedit 3.8\n"
+
+#: ../../source/troubleshooting.rst:4
+msgid "Troubleshooting"
+msgstr "Solución de problemas"
+
+#: ../../source/troubleshooting.rst:6
+msgid ""
+"Below is a list of potential problems with each operating system and how "
+"to fix them."
+msgstr ""
+"Debajo se presenta una lista de potenciales problemas con cada sistema "
+"operativo y cómo solucionarlos."
+
+#: ../../source/troubleshooting.rst:8
+msgid ""
+"If you encounter a problem that is not mentioned below, please `submit "
+"an issue on GitHub <https://github.com/tahoma2d/tahoma2d/issues/new?"
+"assignees=&labels=bug&template=bug_report.md&title=>`_ so that the "
+"developers can work on the problem and others can help you with a "
+"solution."
+msgstr ""
+"En caso de encontrar un problema que no esté mencionado debajo, por "
+"favor `abrir un incidente al respecto en GitHub <https://github.com/"
+"tahoma2d/tahoma2d/issues/new?"
+"assignees=&labels=bug&template=bug_report.md&title=>`_ para que los "
+"desarrolladores puedan trabajar en él y otros usuarios puedan "
+"potencialmente ayudar con alguna solución."
+
+#: ../../source/troubleshooting.rst:10
+msgid ""
+"If you have a solution to a problem that is not listed below, we "
+"appreciate your help in improving this section by clicking the *Edit on "
+"GitHub* button at the top of this page."
+msgstr ""
+"En caso de tener la solución a algún problema que no se encuentre "
+"listado debajo, apreciaríamos la ayuda para mejorar esta sección, "
+"haciendo clic en el botón *Edit on GitHub* en la parte superior de esta "
+"página."
+
+#: ../../source/troubleshooting.rst:13
+msgid "Windows"
+msgstr "Windows"
+
+#: ../../source/troubleshooting.rst:15 ../../source/troubleshooting.rst:39
+msgid "Problem"
+msgstr "Problema"
+
+#: ../../source/troubleshooting.rst:15 ../../source/troubleshooting.rst:39
+msgid "Cause"
+msgstr "Causa"
+
+#: ../../source/troubleshooting.rst:15 ../../source/troubleshooting.rst:39
+msgid "Solution"
+msgstr "Solución"
+
+#: ../../source/troubleshooting.rst:17
+msgid ""
+"The code execution cannot proceed because MSVCP140.dll was not found. "
+"Reinstalling the program may fix the issue"
+msgstr ""
+"La ejecución del programa no puede continuar porque la biblioteca "
+"MSVCP140.dll no fue encontrada. Reinstalar el programa podría solucionar "
+"este problema"
+
+#: ../../source/troubleshooting.rst:17 ../../source/troubleshooting.rst:19
+msgid "Newer systems no longer ship with these DLLs"
+msgstr "Los sistemas más nuevos ya no vienen con estas bibliotecas DLL"
+
+#: ../../source/troubleshooting.rst:17 ../../source/troubleshooting.rst:19
+msgid ""
+"Download and install the `Microsoft Visual C++ 2015 Redistributable "
+"Update 3 RC <https://www.microsoft.com/en-us/download/details.aspx?"
+"id=52685>`_."
+msgstr ""
+"Descargar e instalar el paquete `Microsoft Visual C++ 2015 "
+"Redistributable Update 3 RC <https://www.microsoft.com/en-us/download/"
+"details.aspx?id=52685>`_."
+
+#: ../../source/troubleshooting.rst:19
+msgid ""
+"The code execution cannot proceed because VCRUNTIME140.dll was not "
+"found. Reinstalling the program may fix the issue"
+msgstr ""
+"La ejecución del programa no puede continuar porque la biblioteca "
+"VCRUNTIME140.dll no fue encontrada. Reinstalar el programa podría "
+"solucionar este problema"
+
+#: ../../source/troubleshooting.rst:21
+msgid ""
+"The code execution cannot proceed because Qt*.dll was not found. "
+"Reinstalling the program may fix the issue"
+msgstr ""
+"La ejecución del programa no puede continuar porque la biblioteca "
+"Qt*.dll no fue encontrada. Reinstalar el programa podría solucionar este "
+"problema"
+
+#: ../../source/troubleshooting.rst:21
+msgid ""
+"You did not unzip the Tahoma2D-win.zip but tried to run it from within "
+"the zip'd folder instead"
+msgstr ""
+"No se extrajo el archivo Tahoma2D-portable-win.zip, sino que se ejecutó "
+"el programa desde dentro mismo del archivo comprimido zip"
+
+#: ../../source/troubleshooting.rst:21
+msgid "Uncompress the Tahoma2D-win.zip to create the Tahoma2D folder"
+msgstr ""
+"Descomprimir el archivo Tahoma2D-portable-win.zip para crear la carpeta "
+"Tahoma2D"
+
+#: ../../source/troubleshooting.rst:23 ../../source/troubleshooting.rst:25
+msgid ""
+"You moved the Tahoma2D.exe out of the Tahoma2D folder and away from the "
+"tahomastuff folder"
+msgstr ""
+"Se movió el archivo Tahoma2D.exe fuera de la carpeta Tahoma2D y lejos de "
+"la carpeta tahomastuff"
+
+#: ../../source/troubleshooting.rst:23 ../../source/troubleshooting.rst:25
+msgid ""
+"Move the Tahoma2d.exe back to the Tahoma2D folder so it's in the same "
+"directory as the tahomastuff folder"
+msgstr ""
+"Mover el archivo Tahoma2d.exe de vuelta a la carpeta Tahoma2D para que "
+"esté en la misma carpeta que la carpeta tahomastuff"
+
+#: ../../source/troubleshooting.rst:25
+msgid ""
+"Undefined or empty: \"SOFTWARE\\\\Tahoma2D\\\\Tahoma2D\\\\TAHOMA2DROOT\" "
+"Installing Tahoma2D 1.x again could fix the problem."
+msgstr ""
+"\"SOFTWARE\\\\Tahoma2D\\\\Tahoma2D\\\\TAHOMA2DROOT\" no definido o "
+"vacío. Instalar nuevamente Tahoma2D 1.x podría solucionar el problema."
+
+#: ../../source/troubleshooting.rst:27 ../../source/troubleshooting.rst:43
+msgid ""
+"If the directory path to Tahoma2D contains your username, certain "
+"special characters in your username may cause the path to the "
+"tahomastuff folder to not be found"
+msgstr ""
+"En caso de que la ruta a la carpeta Tahoma2D contuviera el nombre de "
+"usuario, ciertos caracteres especiales en dicho nombre podrían causar "
+"que la ruta hasta la carpeta tahomastuff no fuera correctamente "
+"interpretada"
+
+#: ../../source/troubleshooting.rst:27
+msgid ""
+"Move the entire Tahoma2D folder to a directory whose path does not "
+"contain your username, like C:\\\\ or C:\\\\Program Files"
+msgstr ""
+"Mover la carpeta Tahoma2D hacia una carpeta cuya ruta no contenga "
+"caracteres especiales, tal como C:\\\\ o C:\\\\Archivos de programa"
+
+#: ../../source/troubleshooting.rst:29
+msgid "The Tahoma2D splash screen shows then disappears but never opens"
+msgstr ""
+"La imagen de inicio de Tahoma2D es mostrada, luego desaparece, pero el "
+"programa nunca arranca"
+
+#: ../../source/troubleshooting.rst:29
+msgid "Anti-virus software may be blocking it"
+msgstr "Un programa antivirus podría estar bloqueándolo"
+
+#: ../../source/troubleshooting.rst:29
+msgid ""
+"Temporarily disable anti-virus software and attempt to start again.  If "
+"it starts normally, then add Tahoma2d.exe as an exception in your anti-"
+"virus"
+msgstr ""
+"Deshabilitar temporalmente el antivirus e intentar iniciar nuevamente el "
+"programa.  Si se ejecutara normalmente, se deberá agregar una excepción "
+"para Tahoma2d.exe en el antivirus"
+
+#: ../../source/troubleshooting.rst:31
+msgid "The tahomastuff folder does not have the proper permissions"
+msgstr "La carpeta tahomastuff no tiene los permisos adecuados"
+
+#: ../../source/troubleshooting.rst:31
+msgid ""
+"Right-click the Tahoma2D\\\\tahomastuff folder, select Properties, click "
+"on the Security tab and make sure your username exists in the list and "
+"has full permissions.  If not found, add it.  Alternatively, run "
+"Tahoma2D.exe as Administrator"
+msgstr ""
+"Hacer clic derecho sobre la carpeta Tahoma2D\\\\tahomastuff, seleccionar "
+"Propiedades, hacer clic en la pestaña Seguridad y asegurarse de que el "
+"nombre del usuario que está siendo usado exista en la lista y tenga "
+"permisos completos sobre la carpeta.  En caso de no estar, agregarlo.  "
+"Alternativamente, ejecutar Tahoma2D.exe como Administrador"
+
+#: ../../source/troubleshooting.rst:33
+msgid "Unknown"
+msgstr "Desconocida"
+
+#: ../../source/troubleshooting.rst:33
+msgid ""
+"Open Window's Event Viewer, click Windows Logs, click on Application.  "
+"Look for an Error log for Tahoma2D and see what it says.  If you are not "
+"sure what it means or how to resolve it, open an issue here: https://"
+"github.com/tahoma2d/tahoma2d/issues"
+msgstr ""
+"Abrir el Visor de eventos de Windows, hacer clic en Registros de "
+"Windows, luego hacer clic en Aplicación.  Buscar un registro de Error de "
+"Tahoma2D y ver lo que dice.  En caso de no estar seguro de su "
+"significado o de cómo resolverlo, abrir un incidente aquí: https://"
+"github.com/tahoma2d/tahoma2d/issues"
+
+#: ../../source/troubleshooting.rst:37
+msgid "Linux"
+msgstr "Linux"
+
+#: ../../source/troubleshooting.rst:41
+msgid ""
+"Undefined or empty: \"SOFTWARE\\\\Tahoma2D\\\\Tahoma2D\\\\TAHOMA2DROOT\" "
+"Installing Tahoma2D 1.x again could Solution the problem."
+msgstr ""
+"\"SOFTWARE\\\\Tahoma2D\\\\Tahoma2D\\\\TAHOMA2DROOT\" no definido o "
+"vacío. Instalar nuevamente Tahoma2D 1.x podría solucionar el problema."
+
+#: ../../source/troubleshooting.rst:41
+msgid ""
+"You moved the Tahoma2D.app out of the Tahoma2D folder and away from the "
+"tahomastuff folder"
+msgstr ""
+"Se movió Tahoma2D.app fuera de la carpeta Tahoma2D y lejos de la carpeta "
+"tahomastuff"
+
+#: ../../source/troubleshooting.rst:41
+msgid ""
+"Move the Tahoma2d.AppImage back to the Tahoma2D folder so it's in the "
+"same directory as the tahomastuff folder"
+msgstr ""
+"Mover Tahoma2d.AppImage de nuevo a la carpeta Tahoma2D, para que esté en "
+"la misma carpeta que la carpeta tahomastuff"
+
+#: ../../source/troubleshooting.rst:43
+msgid ""
+"Move the entire Tahoma2D folder to a directory whose path does not "
+"contain your username, like /usr/local/bin or some appropriate directory."
+msgstr ""
+"Mover la carpeta Tahoma2D hacia una carpeta cuya ruta no contenga "
+"caracteres especiales, tal como /usr/local/bin o algún otro directorio "
+"apropiado."

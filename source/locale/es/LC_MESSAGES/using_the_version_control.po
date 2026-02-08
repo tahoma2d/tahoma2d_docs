@@ -7,19 +7,20 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tahoma 1.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-28 21:03-0300\n"
-"PO-Revision-Date: 2019-07-21 21:51-0300\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
-"Last-Translator: Gabriel Gazzan <gabcorreo@gmail.com>\n"
+"POT-Creation-Date: 2026-01-30 22:32-0300\n"
+"PO-Revision-Date: 2026-02-01 22:17-0300\n"
+"Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Español\n"
 "Language: es\n"
-"X-Generator: Poedit 2.2.3\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.17.0\n"
+"X-Generator: Poedit 3.8\n"
 
 #: ../../source/using_the_version_control.rst:4
-#: ../../source/using_the_version_control.rst:204
+#: ../../source/using_the_version_control.rst:208
 msgid "Using the Version Control System"
 msgstr "Uso del Sistema de Control de Versiones"
 
@@ -28,34 +29,34 @@ msgid ""
 "The version control system keeps in a central repository a constant history of "
 "revisions for every file in the production database."
 msgstr ""
-"El sistema de control de versiones mantiene, en un repositorio centralizado, "
-"una historia permanente de las revisiones de cada archivo de la base de datos "
-"de una producción."
+"El sistema de control de versiones mantiene, en un repositorio centralizado, una "
+"historia permanente de las revisiones de cada archivo de la base de datos de una "
+"producción."
 
 #: ../../source/using_the_version_control.rst:7
 msgid ""
 "The **central repository** must be located in a shared resource (that can be a "
-"computer in your local network or an internet-based repository), while the "
-"local copy of files, called **working copy**, at a specific time or revision, "
-"should be located on the computer you use."
+"computer in your local network or an internet-based repository), while the local "
+"copy of files, called **working copy**, at a specific time or revision, should "
+"be located on the computer you use."
 msgstr ""
-"El **repositorio central** debe estar ubicado en un recurso compartido (tanto "
-"en una computadora de la red local, como en una ubicación remota accesible a "
-"través de Internet), mientras que una **copia de trabajo** local de los "
-"archivos del mismo, debe estar ubicada en la computadora que se está "
-"utilizando, y representa al estado o versión del proyecto en el momento en que "
-"la copia local fue realizada."
+"El **repositorio central** debe estar ubicado en un recurso compartido (tanto en "
+"una computadora de la red local, como en una ubicación remota accesible a través "
+"de Internet), mientras que una **copia de trabajo** local de los archivos del "
+"mismo, debe estar ubicada en la computadora que se está utilizando, y representa "
+"al estado o versión del proyecto en el momento en que la copia local fue "
+"realizada."
 
 #: ../../source/using_the_version_control.rst:9
 msgid ""
-"When you need to work on a file, you can *get* it from the central repository "
-"to your working copy, and *edit* it; when you finish working on the file and "
-"you want to submit the changes, you can *put* it back from your working copy to "
-"the central repository."
+"When you need to work on a file, you can *get* it from the central repository to "
+"your working copy, and *edit* it; when you finish working on the file and you "
+"want to submit the changes, you can *put* it back from your working copy to the "
+"central repository."
 msgstr ""
 "Cuando se necesita trabajar en un archivo, es posible *obtenerlo* desde el "
-"repositorio central para copiarlo localmente y poder *editarlo*; al finalizar "
-"el trabajo, el archivo deberá ser *enviado* nuevamente al repositorio central."
+"repositorio central para copiarlo localmente y poder *editarlo*; al finalizar el "
+"trabajo, el archivo deberá ser *enviado* nuevamente al repositorio central."
 
 #: ../../source/using_the_version_control.rst:11
 msgid ""
@@ -74,28 +75,27 @@ msgstr ""
 
 #: ../../source/using_the_version_control.rst:13
 msgid ""
-"Tahoma supports the **Subversion** version control system, which is one of "
-"the most popular version control systems, used in many high-scale open source "
+"Tahoma supports the **Subversion** version control system, which is one of the "
+"most popular version control systems, used in many high-scale open source "
 "projects."
 msgstr ""
-"Tahoma soporta el sistema de control de versiones **Subversión**, que es uno "
+"Tahoma2D soporta el sistema de control de versiones **Subversión**, que es uno "
 "de los sistemas más populares y es utilizado en diversos proyectos de código "
 "abierto de gran escala."
 
 #: ../../source/using_the_version_control.rst:15
 msgid ""
-"The *central repository* defined for your version control system behaves "
-"exactly as an Tahoma projectroot, therefore the project management under the "
-"version control system is the same, only referencing to the central repository "
-"instead of the projectroot (see  :ref:`Managing Projects "
-"<managing_projects>`  )."
+"The *central repository* defined for your version control system behaves exactly "
+"as an Tahoma projectroot, therefore the project management under the version "
+"control system is the same, only referencing to the central repository instead "
+"of the projectroot (see  :ref:`Managing Projects <managing_projects>`  )."
 msgstr ""
 "El *repositorio central* definido en el sistema de control de versiones se "
 "comportará exactamente igual que cualquier otra carpeta principal de proyectos "
-"de Tahoma, por lo tanto la administración de proyectos bajo control de "
+"de Tahoma2D, por lo tanto la administración de proyectos bajo control de "
 "versiones se realiza de una forma idéntica a la de cualquier otro proyecto, con "
-"la diferencia de estar haciendo referencia a un repositorio central, en vez de "
-"a una carpeta principal de proyectos normal (ver  :ref:`Administración de "
+"la diferencia de estar haciendo referencia a un repositorio central, en vez de a "
+"una carpeta principal de proyectos normal (ver  :ref:`Administración de "
 "proyectos <managing_projects>`  )."
 
 #: ../../source/using_the_version_control.rst:21
@@ -156,24 +156,25 @@ msgstr ""
 
 #: ../../source/using_the_version_control.rst:40
 msgid ""
-"You can go to the `Subversion download page <http://subversion.apache.org/"
-"packages.html#windows>`_ for downloading it. There you should look for the "
-"available binary packages and download a version control client for Windows. We "
-"suggest the use of **CollabNet Subversion Command-Line Client**."
+"You can go to the `Subversion download page for Windows <http://"
+"subversion.apache.org/packages.html#windows>`_ for downloading it. There you "
+"should look for the available binary packages and download a version control "
+"client for Windows. We suggest the use of **CollabNet Subversion Command-Line "
+"Client**."
 msgstr ""
 "Para su descarga se debe ir a `la página de descargas de Subversion (en inglés) "
-"<http://subversion.apache.org/packages.html#windows>`_ . Ahí se deben buscar "
-"los paquetes binarios disponibles y descargar un cliente de control de "
-"versiones para Windows. Se sugiere el uso del cliente **CollabNet Subversion "
-"Command-Line Client**."
+"<http://subversion.apache.org/packages.html#windows>`_ . Ahí se deben buscar los "
+"paquetes binarios disponibles y descargar un cliente de control de versiones "
+"para Windows. Se sugiere el uso del cliente **CollabNet Subversion Command-Line "
+"Client**."
 
 #: ../../source/using_the_version_control.rst:42
 msgid ""
 "If an older Subversion release is used some version control features might not "
 "work."
 msgstr ""
-"Si se estuviera utilizando una versión más antigua de Subversion, es posible "
-"que algunas de las funciones de control de versiones no funcionen."
+"Si se estuviera utilizando una versión más antigua de Subversion, es posible que "
+"algunas de las funciones de control de versiones no funcionen."
 
 #: ../../source/using_the_version_control.rst:48
 msgid "Installing the Version Control Client on Macintosh"
@@ -191,9 +192,9 @@ msgid ""
 "If the OS is Snow Leopard (version 10.6) or later, the setup requires no "
 "installation as the version control client is included in the operating system."
 msgstr ""
-"Si el sistema usado es Snow Leopard (versión 10.6) o posterior, la "
-"configuración no requerirá de una instalación, ya que el cliente de control de "
-"versiones viene incluido en el sistema operativo."
+"Si el sistema usado es Snow Leopard (versión 10.6) o posterior, la configuración "
+"no requerirá de una instalación, ya que el cliente de control de versiones viene "
+"incluido en el sistema operativo."
 
 #: ../../source/using_the_version_control.rst:53
 msgid ""
@@ -205,9 +206,10 @@ msgstr ""
 
 #: ../../source/using_the_version_control.rst:55
 msgid ""
-"You can go to the `Subversion download page <http://subversion.apache.org/"
-"packages.html#osx>`_ for downloading it. There you should look for the "
-"available binary packages and download a version control client for Macintosh."
+"You can go to the `Subversion download page for OSX <http://"
+"subversion.apache.org/packages.html#osx>`_ for downloading it. There you should "
+"look for the available binary packages and download a version control client for "
+"Macintosh."
 msgstr ""
 "Se deberá ir a la `página de descargas de Subversion (en inglés) <http://"
 "subversion.apache.org/packages.html#osx>`_ para realizar la descarga. Ahí se "
@@ -216,16 +218,15 @@ msgstr ""
 
 #: ../../source/using_the_version_control.rst:57
 msgid ""
-"After the installation is very important to check where Subversion is "
-"installed, as this information is needed to configure the version control in "
-"Tahoma: this information is displayed in the last page of the installation "
-"process and by default is usually ``/opt/subversion/bin`` ."
+"After the installation is very important to check where Subversion is installed, "
+"as this information is needed to configure the version control in Tahoma: this "
+"information is displayed in the last page of the installation process and by "
+"default is usually ``/opt/subversion/bin`` ."
 msgstr ""
-"Luego de la instalación es muy importante comprobar dónde se encuentra "
-"instalado Subversion, ya que esa información será necesaria para configurar el "
-"control de versiones en Tahoma: esta información es mostrada en la última "
-"página del proceso de instalación, de forma predefinida suele ser ``/opt/"
-"subversion/bin`` ."
+"Luego de la instalación es muy importante comprobar dónde se encuentra instalado "
+"Subversion, ya que esa información será necesaria para configurar el control de "
+"versiones en Tahoma2D: esta información es mostrada en la última página del "
+"proceso de instalación, de forma predefinida suele ser ``/opt/subversion/bin`` ."
 
 #: ../../source/using_the_version_control.rst:59
 msgid ""
@@ -237,25 +238,24 @@ msgstr ""
 
 #: ../../source/using_the_version_control.rst:65
 msgid "Configuring the Version Control in Tahoma"
-msgstr "Configuración del control de versiones en Tahoma"
+msgstr "Configuración del control de versiones en Tahoma2D"
 
 #: ../../source/using_the_version_control.rst:66
 msgid ""
 "Once the version control server is configured and the version control client is "
-"installed it's possible to configure Tahoma in order to use the version "
-"control."
+"installed it's possible to configure Tahoma in order to use the version control."
 msgstr ""
-"Una vez que el servidor de control de versiones esté configurado y el cliente "
-"de control de versiones esté instalado, será posible configurar Tahoma para "
-"que haga uso del control de versiones."
+"Una vez que el servidor de control de versiones esté configurado y el cliente de "
+"control de versiones esté instalado, será posible configurar Tahoma2D para que "
+"haga uso del control de versiones."
 
 #: ../../source/using_the_version_control.rst:68
 msgid ""
-"In Tahoma the version control information is stored in the ``versioncontrol."
-"xml``  file located in the ``Tahoma stuff\\config`` folder. By default the "
-"file has the following content:"
+"In Tahoma the version control information is stored in the "
+"``versioncontrol.xml``  file located in the ``Tahoma stuff\\config`` folder. By "
+"default the file has the following content:"
 msgstr ""
-"En Tahoma la información de control de veriones es almacenada en el archivo "
+"En Tahoma2D la información de control de veriones es almacenada en el archivo "
 "``versioncontrol.xml``  ubicado en la carpeta ``Tahoma stuff\\config`` . De "
 "forma predefinida el archivo contiene lo siguiente:"
 
@@ -270,9 +270,9 @@ msgstr ""
 
 #: ../../source/using_the_version_control.rst:87
 msgid ""
-"Together with the configuration file, version control *users* must be defined "
-"by editing the ``permissions.xml``  file located in the ``Tahoma stuff"
-"\\config`` folder."
+"Together with the configuration file, version control *users* must be defined by "
+"editing the ``permissions.xml``  file located in the ``Tahoma stuff\\config`` "
+"folder."
 msgstr ""
 "Conjuntamente con el archivo de configuración, deben definirse *usuarios* de "
 "control de versiones, editando el archivo ``permissions.xml``  ubicado en la "
@@ -282,28 +282,28 @@ msgstr ""
 msgid ""
 "The ``versioncontrol.xml``  and ``permissions.xml``  file have to be well-"
 "formed, and so cannot contain an opening tag without its related closing tag, "
-"otherwise Tahoma will not run. If you decide to edit the files, make a "
-"backup copy first in case you need to revert the file to the original version."
+"otherwise Tahoma will not run. If you decide to edit the files, make a backup "
+"copy first in case you need to revert the file to the original version."
 msgstr ""
 "Los archivos ``versioncontrol.xml``  y ``permissions.xml``  deben estar bien "
 "formados, por lo tanto no podrán contener una etiqueta de apertura sin su "
-"correspondiente de cierre, de otro modo Tahoma no podrá ejecutarse. Si se "
+"correspondiente de cierre, de otro modo Tahoma2D no podrá ejecutarse. Si se "
 "decide editar estos archivos, es una buena práctica realizar previamente una "
 "copia de respaldo de los mismos, en caso de necesitar volver a la versión "
 "original de los archivos."
 
 #: ../../source/using_the_version_control.rst:91
 msgid "**To configure the version control in Tahoma:**"
-msgstr "**Para configurar el control de versiones en Tahoma:**"
+msgstr "**Para configurar el control de versiones en Tahoma2D:**"
 
 #: ../../source/using_the_version_control.rst:93
-#: ../../source/using_the_version_control.rst:148
+#: ../../source/using_the_version_control.rst:151
 msgid ""
-"Open the ``versioncontrol.xml``  file located in the ``Tahoma stuff"
-"\\config`` folder with a text editor."
+"Open the ``versioncontrol.xml``  file located in the ``Tahoma stuff\\config`` "
+"folder with a text editor."
 msgstr ""
-"Abrir el archivo ``versioncontrol.xml``  ubicado en la carpeta ``Tahoma stuff"
-"\\config`` con un editor de texto."
+"Abrir el archivo ``versioncontrol.xml``  ubicado en la carpeta ``Tahoma "
+"stuff\\config`` con un editor de texto."
 
 #: ../../source/using_the_version_control.rst:95
 msgid "Delete the line"
@@ -324,6 +324,7 @@ msgstr "``REMOVE ENTIRELY THIS LINE TO ENABLE SVN -->``"
 #: ../../source/using_the_version_control.rst:103
 #: ../../source/using_the_version_control.rst:109
 #: ../../source/using_the_version_control.rst:115
+#: ../../source/using_the_version_control.rst:121
 msgid "In the line"
 msgstr "En la línea"
 
@@ -337,7 +338,7 @@ msgid ""
 "browser."
 msgstr ""
 "ingresar entre las etiquetas <name> el nombre con que se desea que el "
-"repositorio aparezca en el Explorador de archivos de Tahoma."
+"repositorio aparezca en el Explorador de archivos de Tahoma2D."
 
 #: ../../source/using_the_version_control.rst:111
 msgid "``<localPath>putYourWorkingCopyPath</localPath>``"
@@ -370,19 +371,10 @@ msgstr ""
 "ingresar entre las etiquetas <repoPath> la URL del repositorio central, de "
 "acuerdo a cómo haya sido definido en el servidor de control de versiones (p.ej: "
 "``http://10.0.0.1/mirepositorioSVN/``  para un repositorio ubicado en la red "
-"local; ``file:///C:/mirepositorioSVN``  para uno ubicado en la computadora "
-"local Windows, ``file:///mirepositorioSVN``  para uno ubicado en la computadora "
-"local Macintosh; o ``https://subversion.assembla.com/svn/mirepositorioSVN``  "
-"para uno alojado en Internet)."
-
-#: ../../source/using_the_version_control.rst:121
-msgid ""
-"For Macintosh only, if the OS is *older* than Snow Leopard and you installed "
-"the **Subversion client 1.6** or later, in the line"
-msgstr ""
-"Sólo para macOS, si el sistema operativo fuera *anterior* a Snow Leopard y se "
-"hubiera instalado el **cliente de Subversion 1.6** o posterior, entonces en la "
-"línea"
+"local; ``file:///C:/mirepositorioSVN``  para uno ubicado en la computadora local "
+"Windows, ``file:///mirepositorioSVN``  para uno ubicado en la computadora local "
+"Macintosh; o ``https://subversion.assembla.com/svn/mirepositorioSVN``  para uno "
+"alojado en Internet)."
 
 #: ../../source/using_the_version_control.rst:123
 msgid "``<svnPath></svnPath>``"
@@ -390,16 +382,16 @@ msgstr "``<svnPath></svnPath>``"
 
 #: ../../source/using_the_version_control.rst:125
 msgid ""
-"type between the tags the path to the folder where Subversion is installed "
-"(this information is displayed in the last page of the installation process and "
-"by default is ``/opt/subversion/bin`` )."
+"type between the tags the path to the folder where Subversion is installed (this "
+"information is displayed in the last page of the installation process and by "
+"default is ``/opt/subversion/bin`` )."
 msgstr ""
 "ingresar entre las etiquetas <svnPath> la ruta a la carpeta donde se instaló "
 "Subversion (esta información se muestra en la última página del proceso de "
 "instalación y de forma predefinida es ``/opt/subversion/bin`` )."
 
 #: ../../source/using_the_version_control.rst:127
-#: ../../source/using_the_version_control.rst:162
+#: ../../source/using_the_version_control.rst:165
 msgid "Save the ``versioncontrol.xml``  file."
 msgstr "Guardar el archivo ``versioncontrol.xml``  ."
 
@@ -408,132 +400,156 @@ msgid "**To define the version control users:**"
 msgstr "**Para definir los usuarios del sistema de control de versiones:**"
 
 #: ../../source/using_the_version_control.rst:132
-#: ../../source/using_the_version_control.rst:167
+#: ../../source/using_the_version_control.rst:170
 msgid ""
 "Open the ``permissions.xml``  file located in the ``Tahoma stuff\\config`` "
 "folder with a text editor."
 msgstr ""
-"Abrir el archivo ``permissions.xml``  ubicado en la carpeta ``Tahoma stuff"
-"\\config`` con un editor de texto."
+"Abrir el archivo ``permissions.xml``  ubicado en la carpeta ``Tahoma "
+"stuff\\config`` con un editor de texto."
 
 #: ../../source/using_the_version_control.rst:134
 msgid ""
-"In the user section define a user and assign him the version control user name "
-"and password as configured on the server. For example to assign to the user "
-"JohnDoe the user johnd whose password is johndpassword, add the following user:"
+"In the user section define an OS user and assign their SVN user name and "
+"password as configured on the SVN server."
 msgstr ""
-"En la sección *user* definir un usuario y asignarle el nombre de usuario y "
-"contraseña que haya sido configurado de antemano en el servidor de control de "
-"versiones. Por ejemplo, para asignarle al usuario JohnDoe el usuario del "
-"servidor johnd, cuya contraseña es johndpassword, ingresar lo siguiente:"
+"En la sección de usuario, definir un usuario del sistema operativo y asignar su "
+"usuario y clave de SVN, tal como hayan sido configurados en el servidor SVN."
 
-#: ../../source/using_the_version_control.rst:143
-#: ../../source/using_the_version_control.rst:179
+#: ../../source/using_the_version_control.rst:136
+msgid ""
+"For example to assign to the OS user ``JohnDoe`` the SVN user ``johnd`` whose "
+"password is ``johndpassword``, add the following:"
+msgstr ""
+"Por ejemplo, para asignar el usuario del sistema operativo ``JohnDoe``, el "
+"usuario de SVN ``johnd`` cuya contraseña es ``johndpassword``, agregar lo "
+"siguiente:"
+
+#: ../../source/using_the_version_control.rst:144
+msgid ""
+"NOTE: The ``<user name=\"guest\">`` entry is the default SVN user credentials "
+"used by any OS user not specifically configured. If it's only you on this "
+"machine, you can just enter your svn name and password. Leave user name as "
+"``guest``"
+msgstr ""
+"NOTA: La entrada ``<user name=\"guest\">`` son las credenciales predefinidas de "
+"SVN, usadas en cualquier sistema operativo cuando no haya un usuario "
+"especialmente configurado. Si sólo hubiera un usuario en la máquina, será "
+"posible simplemente introducir el nombre y contraseña de SVN. Dejando el nombre "
+"de usuario como ``guest``"
+
+#: ../../source/using_the_version_control.rst:146
+#: ../../source/using_the_version_control.rst:183
 msgid "Save the ``permissions.xml``  file."
 msgstr "Guardar el archivo ``permissions.xml``  ."
 
-#: ../../source/using_the_version_control.rst:146
+#: ../../source/using_the_version_control.rst:149
 msgid "**To define several version control repositories:**"
 msgstr "**Para definir varios repositorios de control de versiones:**"
 
-#: ../../source/using_the_version_control.rst:150
+#: ../../source/using_the_version_control.rst:153
 msgid "Add after the lines defining a repository the following lines:"
 msgstr ""
 "Agregar luego de las líneas que definen un repositorio las siguientes líneas:"
 
-#: ../../source/using_the_version_control.rst:160
+#: ../../source/using_the_version_control.rst:163
 msgid "and set the related information."
 msgstr "y ingresar la información correspondiente."
 
-#: ../../source/using_the_version_control.rst:165
+#: ../../source/using_the_version_control.rst:168
 msgid "**To define users for different repositories:**"
 msgstr "**Para definir usuarios para distintos repositorios:**"
 
-#: ../../source/using_the_version_control.rst:169
+#: ../../source/using_the_version_control.rst:172
 msgid ""
 "In the user section assign to a user the version control user name and password "
-"as configured on the server of the second repository. For example to assign to "
-"the user JohnDoe the user johnd2 whose password is johndpassword2 defined for "
-"the second repository, add a ``svn name``  line so that the ``user name``  "
-"section in the ``permissions.xml``  file will look like the following:"
+"as configured on the server of the second repository."
 msgstr ""
-"En la sección *user* asignar a un usuario el nombre de usuario y contraseña tal "
-"como haya sido configurado en el servidor del segundo repositorio. Por ejemplo, "
-"para asignar al mismo usuario JohnDoe el usuario johnd2 cuya contraseña es "
-"johndpassword2 definida para el segundo repositorio, ingresar una nueva línea "
-"``svn name``  para que la sección ``user name``  en el archivo ``permissions."
-"xml``  luzca de la siguiente manera:"
+"En la sección *user* asignar a un usuario el nombre de usuario y contraseña que "
+"haya sido configurado de antemano en el servidor de control de versiones."
 
-#: ../../source/using_the_version_control.rst:185
+#: ../../source/using_the_version_control.rst:174
+msgid ""
+"For example to assign to the OS user ``JohnDoe`` the SVN user ``johnd2`` whose "
+"password is ``johndpassword2`` defined for the second repository, add a ``svn "
+"name``  line so that the ``user name``  section in the ``permissions.xml``  file "
+"will look like the following:"
+msgstr ""
+"Por ejemplo, para asignar al mismo usuario ``JohnDoe`` (del sistema operativo) "
+"el usuario de SVN ``johnd2``, cuya contraseña es ``johndpassword2`` definida "
+"para el segundo repositorio, ingresar una nueva línea ``svn name`` para que la "
+"sección ``user name`` del archivo ``permissions.xml`` luzca de la siguiente "
+"manera:"
+
+#: ../../source/using_the_version_control.rst:189
 msgid "Initializing the Version Control in Tahoma"
-msgstr "Inicialización del control de versiones en Tahoma"
+msgstr "Inicialización del control de versiones en Tahoma2D"
 
-#: ../../source/using_the_version_control.rst:186
+#: ../../source/using_the_version_control.rst:190
 msgid ""
 "Before starting to use the version control system, it has to be initialized by "
 "setting an option in the **Preferences** dialog and restarting Tahoma."
 msgstr ""
 "Antes de poder comenzar a usar el sistema de control de versiones, el mismo "
 "tiene que ser inicializado activando una opción en el diálogo de "
-"**Preferencias** y reiniciando Tahoma."
+"**Preferencias** y reiniciando Tahoma2D."
 
-#: ../../source/using_the_version_control.rst:188
+#: ../../source/using_the_version_control.rst:192
 msgid ""
-"At this point the repository will be displayed in the Tahoma browser, and "
-"you will be able to start using it."
+"At this point the repository will be displayed in the Tahoma browser, and you "
+"will be able to start using it."
 msgstr ""
 "En este punto el repositorio se mostrará en el Explorador de archivos de "
-"Tahoma y se podrá comenzar a usar."
+"Tahoma2D y se podrá comenzar a usar."
 
-#: ../../source/using_the_version_control.rst:190
+#: ../../source/using_the_version_control.rst:194
 msgid "**To initialize the version control system:**"
 msgstr "**Para inicializar el sistema de control de versiones:**"
 
-#: ../../source/using_the_version_control.rst:192
+#: ../../source/using_the_version_control.rst:196
 msgid ""
 "In Tahoma open the Preferences  →  Version Control dialog and activate the "
 "**Enable Version Control** option."
 msgstr ""
-"En Tahoma abrir el diálogo Preferencias → Control de versiones y activar la "
+"En Tahoma2D abrir el diálogo Preferencias → Control de versiones y activar la "
 "opción **Habilitar control de versiones**."
 
-#: ../../source/using_the_version_control.rst:194
+#: ../../source/using_the_version_control.rst:198
 msgid ""
 "If the version control is not correctly installed or the configuration file is "
 "not correctly defined, activating the option will prompt a warning message."
 msgstr ""
-"Si el sistema de control de versiones no estuviera correctamente instalado o "
-"sus archivos de configuración correctamente definidos, al intentar activar la "
-"opción aparecerá un mensaje de advertencia."
+"Si el sistema de control de versiones no estuviera correctamente instalado o sus "
+"archivos de configuración correctamente definidos, al intentar activar la opción "
+"aparecerá un mensaje de advertencia."
 
-#: ../../source/using_the_version_control.rst:196
+#: ../../source/using_the_version_control.rst:200
 msgid "Quit and restart Tahoma."
-msgstr "Salir y reiniciar Tahoma."
+msgstr "Salir y reiniciar Tahoma2D."
 
-#: ../../source/using_the_version_control.rst:198
+#: ../../source/using_the_version_control.rst:202
 msgid ""
 "In the Tahoma browser look for the repository at the end of the folder tree, "
 "named as you defined it in the configuration file; right-click it and choose "
 "**Get** from the menu that opens to establish the connection between the "
 "*central repository* and the local *working copy*."
 msgstr ""
-"En el Explorador de archivos de Tahoma buscar el repositorio al final del "
+"En el Explorador de archivos de Tahoma2D buscar el repositorio al final del "
 "árbol de carpetas, con el mismo nombre asignado en el archivo de configuración; "
 "hacer clic derecho y elegir **Obtener** en el menú para establecer la conexión "
 "entre el *repositorio central* y la *copia de trabajo* local."
 
-#: ../../source/using_the_version_control.rst:205
+#: ../../source/using_the_version_control.rst:209
 msgid ""
 "The *central repository* and the local *working copy* are displayed in the "
-"Tahoma browser at the end of the folder tree as one single folder. By "
-"navigating the contents of this folder it's possible to retrieve the folders "
-"and files."
+"Tahoma browser at the end of the folder tree as one single folder. By navigating "
+"the contents of this folder it's possible to retrieve the folders and files."
 msgstr ""
 "El *repositorio central* y la *copia de trabajo* local son mostradas como una "
-"única carpeta en el Explorador de archivos de Tahoma, en la parte inferior "
-"del árbol de carpetas."
+"única carpeta en el Explorador de archivos de Tahoma2D, en la parte inferior del "
+"árbol de carpetas."
 
-#: ../../source/using_the_version_control.rst:209
+#: ../../source/using_the_version_control.rst:213
 msgid ""
 "One online repository defined (**svn_test**) hosting the active project "
 "(**mySVNproject**)."
@@ -541,7 +557,7 @@ msgstr ""
 "Un repositorio remoto definido (**svn_test**) alojando el proyecto activo "
 "(**mySVNproject**)."
 
-#: ../../source/using_the_version_control.rst:211
+#: ../../source/using_the_version_control.rst:215
 msgid ""
 "When a folder is selected in the folder tree *a refresh operation occurs "
 "automatically*, to check the status of the folder and its content. As this "
@@ -554,48 +570,47 @@ msgstr ""
 "velocidad de conexión con la red local o Internet, esta operación automática de "
 "actualización puede ser deshabilitada."
 
-#: ../../source/using_the_version_control.rst:213
+#: ../../source/using_the_version_control.rst:217
 msgid ""
 "If several repositories are defined, each of them will be displayed with the "
 "name previously assigned."
 msgstr ""
-"Si hubiera varios repositorios definidos, cada uno de ellos será mostrado con "
-"el nombre previamente asignado."
+"Si hubiera varios repositorios definidos, cada uno de ellos será mostrado con el "
+"nombre previamente asignado."
 
-#: ../../source/using_the_version_control.rst:215
+#: ../../source/using_the_version_control.rst:219
 msgid "**To disable the automatic refresh for folder content:**"
 msgstr ""
 "**Para deshabilitar la actualización automática del contenido de carpetas:**"
 
-#: ../../source/using_the_version_control.rst:217
+#: ../../source/using_the_version_control.rst:221
 msgid "Choose File  →  Preferences  →  Version Control."
 msgstr "Elegir Archivo → Preferencias → Control de versiones."
 
-#: ../../source/using_the_version_control.rst:219
+#: ../../source/using_the_version_control.rst:223
 msgid "Deactivate the **Automatically Refresh Folder Contents** option."
-msgstr ""
-"Desactivar la opción **Actualizar automáticamente contenido de carpetas**."
+msgstr "Desactivar la opción **Actualizar automáticamente contenido de carpetas**."
 
-#: ../../source/using_the_version_control.rst:221
+#: ../../source/using_the_version_control.rst:225
 msgid "**To manually refresh a folder content visualization:**"
 msgstr "**Para actualizar manualmente el contenido de carpetas:**"
 
-#: ../../source/using_the_version_control.rst:223
+#: ../../source/using_the_version_control.rst:227
 msgid ""
 "Right-click the folder icon in the folder tree and choose **Refresh** from the "
 "menu that opens."
 msgstr ""
-"Hacer clic derecho sobre el ícono de la carpeta en el árbol de carpetas y "
-"elegir **Actualizar** en el menú."
+"Hacer clic derecho sobre el ícono de la carpeta en el árbol de carpetas y elegir "
+"**Actualizar** en el menú."
 
-#: ../../source/using_the_version_control.rst:229
+#: ../../source/using_the_version_control.rst:233
 msgid "Getting and Putting Folders and Files"
 msgstr "Obtención y envío de carpetas y archivos"
 
-#: ../../source/using_the_version_control.rst:230
+#: ../../source/using_the_version_control.rst:234
 msgid ""
-"The basic operations in the version control system involves *getting* files "
-"from the central repository to the local working copy; and then *putting* the "
+"The basic operations in the version control system involves *getting* files from "
+"the central repository to the local working copy; and then *putting* the "
 "modified files back from the local *working copy* to the *central repository*."
 msgstr ""
 "Las operaciones básicas al usar el control de versiones son la *obtención* de "
@@ -603,17 +618,20 @@ msgstr ""
 "el *envío* de los archivos modificados de vuelta desde la *copia de trabajo* "
 "local hacia el *repositorio central*."
 
-#: ../../source/using_the_version_control.rst:232
+#: ../../source/using_the_version_control.rst:236
 msgid "|put|"
-msgstr ""
+msgstr "|put|"
 
-#: ../../source/using_the_version_control.rst:234
+#: ../../source/using_the_version_control.rst:417
+msgid "put"
+msgstr "put"
+
+#: ../../source/using_the_version_control.rst:238
 msgid ""
 "In case you are *putting* folders, in the dialog that opens you can check which "
-"files and folders contained in the selected folder have to be put in the "
-"central repository. Every time files and folders are put, it is also possible "
-"to type a *comment* to let the other users know about s of the performed "
-"modifications."
+"files and folders contained in the selected folder have to be put in the central "
+"repository. Every time files and folders are put, it is also possible to type a "
+"*comment* to let the other users know about s of the performed modifications."
 msgstr ""
 "En caso de *enviar* carpetas, en el diálogo emergente es posible marcar cuáles "
 "archivos y carpetas contenidos en la carpeta seleccionada deberán ser enviados "
@@ -621,11 +639,15 @@ msgstr ""
 "ingresar un *comentario* para informar a otros usuarios acerca de las "
 "modificaciones realizadas."
 
-#: ../../source/using_the_version_control.rst:236
+#: ../../source/using_the_version_control.rst:240
 msgid "|put_scene|"
-msgstr ""
+msgstr "|put_scene|"
 
-#: ../../source/using_the_version_control.rst:238
+#: ../../source/using_the_version_control.rst:418
+msgid "put_scene"
+msgstr "put_scene"
+
+#: ../../source/using_the_version_control.rst:242
 msgid ""
 "In case you are *getting* or *putting* scene files (TNZ format), in the dialog "
 "that opens it's possible to check the **Get Scene Contents** or the **Put Scene "
@@ -637,13 +659,13 @@ msgstr ""
 "escena** o **Enviar contenido de la escena** para incluir también, junto con la "
 "petición o devolución, los materiales usados en la escena."
 
-#: ../../source/using_the_version_control.rst:240
+#: ../../source/using_the_version_control.rst:244
 msgid ""
-"The first time you *get* a folder not previously available in the *working "
-"copy* (folder with grey icon), you get the files contained in the folder, but "
-"not the sub-folders. The next time you *get* the folder (folder with a colored "
-"icon), you get the entire contents of the folder, including sub-folders and the "
-"related contents."
+"The first time you *get* a folder not previously available in the *working copy* "
+"(folder with grey icon), you get the files contained in the folder, but not the "
+"sub-folders. The next time you *get* the folder (folder with a colored icon), "
+"you get the entire contents of the folder, including sub-folders and the related "
+"contents."
 msgstr ""
 "La primera vez que se *obtiene* una carpeta no disponible previamente en la "
 "*copia de trabajo* (carpeta con ícono gris), se obtendrán los archivos "
@@ -651,23 +673,23 @@ msgstr ""
 "*obtenga* la carpeta (carpeta con ícono de color), se obtendrá el contenido "
 "completo de la carpeta, incluyendo el de sus subcarpetas."
 
-#: ../../source/using_the_version_control.rst:242
+#: ../../source/using_the_version_control.rst:246
 msgid ""
-"**To get the latest version of a folder or a file from the central repository "
-"to the local working copy:**"
+"**To get the latest version of a folder or a file from the central repository to "
+"the local working copy:**"
 msgstr ""
 "**Para obtener la versión más reciente de una carpeta o archivo, desde el "
 "repositorio central hacia la copia de trabajo local:**"
 
-#: ../../source/using_the_version_control.rst:244
+#: ../../source/using_the_version_control.rst:248
 msgid ""
-"Right-click the folder icon in the folder tree, or the file icon in the "
-"browser, and choose **Get** from the menu that opens."
+"Right-click the folder icon in the folder tree, or the file icon in the browser, "
+"and choose **Get** from the menu that opens."
 msgstr ""
 "Hacer clic derecho sobre el ícono de la carpeta en el árbol de carpetas, o el "
 "ícono del archivo en el Explorador y elegir **Obtener** en el menú."
 
-#: ../../source/using_the_version_control.rst:246
+#: ../../source/using_the_version_control.rst:250
 msgid ""
 "In the dialog that opens if you are getting a scene file (TNZ format) activate "
 "the **Get Scene Contents** if you want to get the files used in the scene as "
@@ -677,91 +699,99 @@ msgstr ""
 "emergente marcar la opción **Obtener contenido de la escena**, si se desea "
 "obtener también los archivos usados en la misma."
 
-#: ../../source/using_the_version_control.rst:248
-#: ../../source/using_the_version_control.rst:366
+#: ../../source/using_the_version_control.rst:252
+#: ../../source/using_the_version_control.rst:370
 msgid "Click the **Update** button."
 msgstr "Hacer clic en el botón **Actualizar**."
 
-#: ../../source/using_the_version_control.rst:250
+#: ../../source/using_the_version_control.rst:254
 msgid ""
-"**To put your modified version of a folder or a file from the local working "
-"copy to the central repository:**"
+"**To put your modified version of a folder or a file from the local working copy "
+"to the central repository:**"
 msgstr ""
 "**Para enviar la versión modificada de una carpeta o archivo desde la copia de "
 "trabajo local hacia el repositorio central:**"
 
-#: ../../source/using_the_version_control.rst:252
+#: ../../source/using_the_version_control.rst:256
 msgid ""
-"Right-click the folder icon in the folder tree, or the file icon in the "
-"browser, and choose **Put** from the menu that opens."
+"Right-click the folder icon in the folder tree, or the file icon in the browser, "
+"and choose **Put** from the menu that opens."
 msgstr ""
 "Hacer clic sobre el ícono de la carpeta en el árbol de carpetas o el ícono del "
 "archivo en el Explorador y elegir **Enviar** en el menú."
 
-#: ../../source/using_the_version_control.rst:254
+#: ../../source/using_the_version_control.rst:258
 msgid "In the dialog that opens do any of the following:"
 msgstr "En el dialogo emergente hacer alguna de las siguientes cosas:"
 
-#: ../../source/using_the_version_control.rst:256
+#: ../../source/using_the_version_control.rst:260
 msgid ""
 "If you are putting a folder, check which files and folders contained by the "
 "selected folder have to be put in the central repository."
 msgstr ""
-"Si se está enviando una carpeta, marcar los archivos y carpetas contenidos en "
-"la misma, que deberán ser enviados al repositorio central."
+"Si se está enviando una carpeta, marcar los archivos y carpetas contenidos en la "
+"misma, que deberán ser enviados al repositorio central."
 
-#: ../../source/using_the_version_control.rst:258
+#: ../../source/using_the_version_control.rst:262
 msgid ""
-"If you are putting a scene file (TNZ format) activate the **Put Scene "
-"Contents** if you want to put the files used in the scene as well."
+"If you are putting a scene file (TNZ format) activate the **Put Scene Contents** "
+"if you want to put the files used in the scene as well."
 msgstr ""
 "Si se está enviando un archivo de escena (formato TNZ), activar la opción "
 "**Enviar contenido de la escena**, si se desea enviar también los archivos "
 "usados en la misma."
 
-#: ../../source/using_the_version_control.rst:260
+#: ../../source/using_the_version_control.rst:264
 msgid "Type a comment if required and click the **Put** button."
 msgstr ""
 "Ingresar un comentario, si es oportuno, y hacer clic en el botón **Enviar**."
 
-#: ../../source/using_the_version_control.rst:266
+#: ../../source/using_the_version_control.rst:270
 msgid "Editing Files"
 msgstr "Edición de archivos"
 
-#: ../../source/using_the_version_control.rst:267
+#: ../../source/using_the_version_control.rst:271
 msgid ""
 "When using the version control system, in order to modify files you have to put "
-"them in **Edit** mode *before loading them* into Tahoma; if not, they will "
-"be loaded as *read-only*."
+"them in **Edit** mode *before loading them* into Tahoma; if not, they will be "
+"loaded as *read-only*."
 msgstr ""
 "Al usar el sistema de control de versiones, para poder modificar archivos es "
-"necesario colocarlos en modo **Edición** *antes de cargarlos* en Tahoma; en "
+"necesario colocarlos en modo **Edición** *antes de cargarlos* en Tahoma2D; en "
 "caso contrario serán cargados en modo de *sólo lectura*."
 
-#: ../../source/using_the_version_control.rst:269
+#: ../../source/using_the_version_control.rst:273
 msgid "|edit|"
-msgstr ""
+msgstr "|edit|"
 
-#: ../../source/using_the_version_control.rst:271
+#: ../../source/using_the_version_control.rst:419
+msgid "edit"
+msgstr "edit"
+
+#: ../../source/using_the_version_control.rst:275
 msgid ""
 "The **Edit** operation \"locks\" the file, so only the user running the command "
 "will be able to modify it (preventing other users using the same *central "
-"repository* from unlocking it and being able to modify it). At the moment a "
-"file is about to be edited, it's possible to type in a *Comment*, to let the "
-"other users know about your editing operation."
+"repository* from unlocking it and being able to modify it). At the moment a file "
+"is about to be edited, it's possible to type in a *Comment*, to let the other "
+"users know about your editing operation."
 msgstr ""
-"La operación **Editar** \"bloquea\" el archivo, de forma que sólo el usuario "
-"que ejecute dicho comando sea capaz de modificarlo (previniendo así que otros "
+"La operación **Editar** \"bloquea\" el archivo, de forma que sólo el usuario que "
+"ejecute dicho comando sea capaz de modificarlo (previniendo así que otros "
 "usuarios que usen el mismo *repositorio central* lo desbloqueen y sean capaces "
 "de modificarlo). En el momento en que se está por colocar un archivo en modo "
 "edición, es posible ingresar un *Comentario*, para informar a otros usuarios "
 "acerca de la operación de edición que se está por realizar."
 
-#: ../../source/using_the_version_control.rst:273
+#: ../../source/using_the_version_control.rst:277
 msgid "|edit_scene|"
-msgstr ""
+msgstr "|edit_scene|"
 
-#: ../../source/using_the_version_control.rst:275
+#: ../../source/using_the_version_control.rst:420
+msgid "edit_scene"
+msgstr "edit_scene"
+
+#: ../../source/using_the_version_control.rst:279
 msgid ""
 "When editing a scene file (TNZ format), in the dialog that opens it's possible "
 "to check the **Edit Scene Contents** option, in order to be able to edit the "
@@ -771,35 +801,42 @@ msgid ""
 "displayed with a forbidden icon in the Level Strip."
 msgstr ""
 "Al intentar editar un archivo de escena (formato TNZ), en el diálogo emergente "
-"es posible marcar la opción **Editar contenido de la escena**, para poder "
-"editar también el material usado en la misma. Si se elige editar sólo el "
-"archivo de escena, o si algún material usado en la misma se encontrara "
-"actualmente siendo editado por otros usuarios del mismo repositorio central, "
-"los fotogramas bloqueados se mostrarán con un ícono de prohibido, en la Cinta "
-"de nivel."
+"es posible marcar la opción **Editar contenido de la escena**, para poder editar "
+"también el material usado en la misma. Si se elige editar sólo el archivo de "
+"escena, o si algún material usado en la misma se encontrara actualmente siendo "
+"editado por otros usuarios del mismo repositorio central, los fotogramas "
+"bloqueados se mostrarán con un ícono de prohibido, en la Cinta de nivel."
 
-#: ../../source/using_the_version_control.rst:277
+#: ../../source/using_the_version_control.rst:281
 msgid "|edit_frame_range|"
-msgstr ""
+msgstr "|edit_frame_range|"
 
-#: ../../source/using_the_version_control.rst:279
+#: ../../source/using_the_version_control.rst:421
+msgid "edit_frame_range"
+msgstr "edit_frame_range"
+
+#: ../../source/using_the_version_control.rst:283
 msgid ""
 "The **Edit Frame Range** command is available as well, to let a user edit only "
-"the *needed frames* of any Vector or Smart Raster animation level. This "
-"way, different users can work at the same time *on different frame ranges* of "
-"the same animation level."
+"the *needed frames* of any Vector or Smart Raster animation level. This way, "
+"different users can work at the same time *on different frame ranges* of the "
+"same animation level."
 msgstr ""
 "También se encuentra disponible el comando **Editar rango de fotogramas** para "
 "permitir editar de solamente los *fotogramas necesarios* de cualquier nivel de "
-"animación Vectorial de Toonz o Imagen de Toonz. De esta manera, es posible que "
-"distintos usuarios trabajen al mismo tiempo *diferentes en rangos de "
-"fotogramas* dentro del mismo nivel de animación."
+"animación Vectorial o Imagen inteligente. De esta manera, es posible que "
+"distintos usuarios trabajen al mismo tiempo *diferentes en rangos de fotogramas* "
+"dentro del mismo nivel de animación."
 
-#: ../../source/using_the_version_control.rst:281
+#: ../../source/using_the_version_control.rst:285
 msgid "|unlock|"
-msgstr ""
+msgstr "|unlock|"
 
-#: ../../source/using_the_version_control.rst:283
+#: ../../source/using_the_version_control.rst:422
+msgid "unlock"
+msgstr "unlock"
+
+#: ../../source/using_the_version_control.rst:287
 msgid ""
 "When you want to release files from the *editing mode*, so that others can work "
 "on them, you can use the **Unlock** command."
@@ -807,7 +844,7 @@ msgstr ""
 "Para liberar archivos del *modo edición*, de forma que otros usuarios puedan "
 "trabajar en ellos, es posible usar el comando **Desbloquear**."
 
-#: ../../source/using_the_version_control.rst:285
+#: ../../source/using_the_version_control.rst:289
 msgid ""
 "Files are in read-only mode (or in locked mode) in case a user is *editing* "
 "them, by setting the file system read-only attribute. For this reason, manually "
@@ -821,17 +858,17 @@ msgstr ""
 "del sistema de control de versiones), puede acarrear serias inconsistencias en "
 "el sistema de control de versiones."
 
-#: ../../source/using_the_version_control.rst:287
+#: ../../source/using_the_version_control.rst:291
 msgid "**To edit an updated file:**"
 msgstr "**Para editar un archivo actualizado:**"
 
-#: ../../source/using_the_version_control.rst:289
-#: ../../source/using_the_version_control.rst:297
+#: ../../source/using_the_version_control.rst:293
+#: ../../source/using_the_version_control.rst:301
 msgid "Right-click the file and choose **Edit** from the menu that opens."
 msgstr "Hacer clic derecho sobre el archivo y elegir **Editar** en el menú."
 
-#: ../../source/using_the_version_control.rst:291
-#: ../../source/using_the_version_control.rst:299
+#: ../../source/using_the_version_control.rst:295
+#: ../../source/using_the_version_control.rst:303
 msgid ""
 "In the dialog that opens if you are editing a scene file (TNZ format) activate "
 "the **Edit Scene Contents** if you want to edit the files used in the scene as "
@@ -841,27 +878,27 @@ msgstr ""
 "TNZ), marcar la opción **Editar contenido de la escena** si se desea editar "
 "también los archivos usados en la misma."
 
-#: ../../source/using_the_version_control.rst:293
-#: ../../source/using_the_version_control.rst:313
+#: ../../source/using_the_version_control.rst:297
+#: ../../source/using_the_version_control.rst:317
 msgid "Type a comment if required and click the **Edit** button."
 msgstr ""
 "Ingresar un comentario, si es oportuno, y hacer clic en el botón **Editar**."
 
-#: ../../source/using_the_version_control.rst:295
+#: ../../source/using_the_version_control.rst:299
 msgid ""
 "**To edit a file that is older than the version available in the central "
 "repository:**"
 msgstr ""
-"**Para editar un archivo más antiguo que la versión disponible en el "
-"repositorio central:**"
+"**Para editar un archivo más antiguo que la versión disponible en el repositorio "
+"central:**"
 
-#: ../../source/using_the_version_control.rst:301
+#: ../../source/using_the_version_control.rst:305
 msgid "Type a comment if required and do one of the following:"
 msgstr ""
 "Ingresar un comentario, si es oportuno, y realizar alguna de las siguientes "
 "cosas:"
 
-#: ../../source/using_the_version_control.rst:303
+#: ../../source/using_the_version_control.rst:307
 msgid ""
 "Click the **Get and Edit** button to get the latest version of the files and "
 "edit them."
@@ -869,7 +906,7 @@ msgstr ""
 "Hacer clic en el botón **Obtener y editar** para obtener la última versión de "
 "los archivos y editarlos."
 
-#: ../../source/using_the_version_control.rst:305
+#: ../../source/using_the_version_control.rst:309
 msgid ""
 "Click the **Edit** button to edit the version of the files that is currently in "
 "your local working copy."
@@ -877,47 +914,47 @@ msgstr ""
 "Hacer clic en el botón **Editar** para editar la versión de los archivos que se "
 "encuentra actualmente en la copia de trabajo local."
 
-#: ../../source/using_the_version_control.rst:307
+#: ../../source/using_the_version_control.rst:311
 msgid "**To edit only the needed frames of a Toonz level file:**"
 msgstr ""
-"**Para editar solamente los fotogramas necesarios del archivo de un nivel Toonz:"
-"**"
+"**Para editar solamente los fotogramas necesarios del archivo de un nivel de "
+"color indizado:**"
 
-#: ../../source/using_the_version_control.rst:309
+#: ../../source/using_the_version_control.rst:313
 msgid ""
 "Right-click the file and choose **Edit Frame Range** from the menu that opens."
 msgstr ""
 "Hacer clic derecho sobre el archivo y elegir **Editar rango de fotogramas** en "
 "el menú."
 
-#: ../../source/using_the_version_control.rst:311
+#: ../../source/using_the_version_control.rst:315
 msgid "In the dialog that opens set the frame range you want to edit."
 msgstr ""
 "En el diálogo emergente definir el rango de fotogramas que se desea editar."
 
-#: ../../source/using_the_version_control.rst:315
+#: ../../source/using_the_version_control.rst:319
 msgid "**To release a file from the editing mode:**"
 msgstr "**Para liberar un archivo del modo edición:**"
 
-#: ../../source/using_the_version_control.rst:317
+#: ../../source/using_the_version_control.rst:321
 msgid "Right-click the file and choose **Unlock** from the menu that opens."
 msgstr "Hacer clic derecho sobre el archivo y elegir **Desbloquear** en el menú."
 
-#: ../../source/using_the_version_control.rst:319
+#: ../../source/using_the_version_control.rst:323
 msgid "**To check the editing state of a locked file:**"
 msgstr "**Para comprobar el estado de edición de un archivo bloqueado:**"
 
-#: ../../source/using_the_version_control.rst:321
+#: ../../source/using_the_version_control.rst:325
 msgid "Right-click the file and choose **Edit Info** from the menu that opens."
 msgstr ""
 "Hacer clic derecho sobre el archivo y elegir **Información de edición** en el "
 "menú."
 
-#: ../../source/using_the_version_control.rst:327
+#: ../../source/using_the_version_control.rst:331
 msgid "Retrieving File Revisions"
 msgstr "Recuperación de revisiones de archivos"
 
-#: ../../source/using_the_version_control.rst:328
+#: ../../source/using_the_version_control.rst:332
 msgid ""
 "One of the main advantages of using a version control system is that the "
 "*history* of the revisions for every file in the production database is always "
@@ -926,10 +963,10 @@ msgid ""
 msgstr ""
 "Una de las principales ventajas de usar un sistema de control de versiones es "
 "que en todo momento se encuentra disponible el *historial* de revisiones, para "
-"cada archivo de la base de datos de la producción. Esto significa que es "
-"posible recuperar de manera sencilla versiones anteriores de cualquier archivo."
+"cada archivo de la base de datos de la producción. Esto significa que es posible "
+"recuperar de manera sencilla versiones anteriores de cualquier archivo."
 
-#: ../../source/using_the_version_control.rst:330
+#: ../../source/using_the_version_control.rst:334
 msgid ""
 "To retrieve older file versions it's possible to use the **Get Revision** "
 "command. When used on a single file it displays a timeline with all the file "
@@ -940,14 +977,18 @@ msgstr ""
 "Para recuperar versiones antiguas de archivos es posible usar el comando "
 "**Obtener revisión**. Al ser usado en un único archivo, muestra una línea de "
 "tiempo con todas las versiones del mismo; en dicha línea de tiempo es posible "
-"revisar las distintas versiones del archivo, usando las miniaturas e "
-"información correspondientes, y seleccionar qué versión obtener para su edición."
+"revisar las distintas versiones del archivo, usando las miniaturas e información "
+"correspondientes, y seleccionar qué versión obtener para su edición."
 
-#: ../../source/using_the_version_control.rst:332
+#: ../../source/using_the_version_control.rst:336
 msgid "|get_revision|"
-msgstr ""
+msgstr "|get_revision|"
 
-#: ../../source/using_the_version_control.rst:334
+#: ../../source/using_the_version_control.rst:423
+msgid "get_revision"
+msgstr "get_revision"
+
+#: ../../source/using_the_version_control.rst:338
 msgid ""
 "When getting a revision of a scene file (TNZ format), in the dialog that opens "
 "it's possible to check the **Get Scene Contents** option in order to get the "
@@ -957,11 +998,15 @@ msgstr ""
 "emergente es posible marcar la opción **Obtener contenido de la escena** para "
 "obtener también las revisiones de todo el material usado en la misma."
 
-#: ../../source/using_the_version_control.rst:336
+#: ../../source/using_the_version_control.rst:340
 msgid "|get_revision_multiple_files|"
-msgstr ""
+msgstr "|get_revision_multiple_files|"
 
-#: ../../source/using_the_version_control.rst:338
+#: ../../source/using_the_version_control.rst:424
+msgid "get_revision_multiple_files"
+msgstr "get_revision_multiple_files"
+
+#: ../../source/using_the_version_control.rst:342
 msgid ""
 "When used on a multiple files selection it opens a dialog that allows you to "
 "specify the time, day, week or date of the files version you want to retrieve."
@@ -970,16 +1015,16 @@ msgstr ""
 "que permite especificar la hora, día, semana o fecha de la versión de los "
 "archivos que se desea recuperar."
 
-#: ../../source/using_the_version_control.rst:340
+#: ../../source/using_the_version_control.rst:344
 msgid "**To retrieve an older revision of a file:**"
 msgstr "**Para recuperar una versión anterior de un archivo:**"
 
-#: ../../source/using_the_version_control.rst:342
+#: ../../source/using_the_version_control.rst:346
 msgid "Right-click the file and choose **Get Revision** from the menu that opens."
 msgstr ""
 "Hacer clic derecho sobre el archivo y elegir **Obtener revisión** en el menú."
 
-#: ../../source/using_the_version_control.rst:344
+#: ../../source/using_the_version_control.rst:348
 msgid ""
 "In the dialog that opens look for the file version you are interested in and "
 "select it; if you are editing a scene file (TNZ format) activate the **Edit "
@@ -987,33 +1032,33 @@ msgid ""
 "as well."
 msgstr ""
 "En el diálogo emergente buscar la versión del archivo en la que se está "
-"interesado y seleccionarla; si se está recuperando un archivo de escena "
-"(formato TNZ), es posible activar la opción **Obtener contenido de la escena** "
-"si se desea recuperar también los archivos usados en la misma."
+"interesado y seleccionarla; si se está recuperando un archivo de escena (formato "
+"TNZ), es posible activar la opción **Obtener contenido de la escena** si se "
+"desea recuperar también los archivos usados en la misma."
 
-#: ../../source/using_the_version_control.rst:346
+#: ../../source/using_the_version_control.rst:350
 msgid "Do one of the following:"
 msgstr "Realizar una de las siguientes cosas:"
 
-#: ../../source/using_the_version_control.rst:348
+#: ../../source/using_the_version_control.rst:352
 msgid ""
 "Click the **Get Selected Revision** button to get the selected file version."
 msgstr ""
-"Hacer clic en el botón **Obtener revisión seleccionada** para obtener la "
-"versión del archivo seleccionada."
+"Hacer clic en el botón **Obtener revisión seleccionada** para obtener la versión "
+"del archivo seleccionada."
 
-#: ../../source/using_the_version_control.rst:350
+#: ../../source/using_the_version_control.rst:354
 msgid "Click the **Get Last Revision** button to get the latest file version."
 msgstr ""
 "Hacer clic en el botón **Obtener la última revisión** para obtener la última "
 "versión del archivo."
 
-#: ../../source/using_the_version_control.rst:352
+#: ../../source/using_the_version_control.rst:356
 msgid "**To retrieve an older revision of a selection of multiple files:**"
 msgstr ""
 "**Para recuperar una versión anterior de una selección de varios archivos:**"
 
-#: ../../source/using_the_version_control.rst:354
+#: ../../source/using_the_version_control.rst:358
 msgid ""
 "Right-click any of the selected files and choose **Get Revision** from the menu "
 "that opens."
@@ -1021,7 +1066,7 @@ msgstr ""
 "Hacer clic derecho sobre cualquiera de los archivos seleccionados y elegir "
 "**Obtener revisión** en el menú."
 
-#: ../../source/using_the_version_control.rst:356
+#: ../../source/using_the_version_control.rst:360
 msgid ""
 "In the dialog that opens specify how much older the version of the files you "
 "want to retrieve has to be, by doing one of the following:"
@@ -1029,38 +1074,38 @@ msgstr ""
 "En el diálogo emergente especificar qué tan antigua tiene que ser la versión de "
 "los archivos deseada, haciendo una de las siguientes cosas:"
 
-#: ../../source/using_the_version_control.rst:358
+#: ../../source/using_the_version_control.rst:362
 msgid "Specify a *time* in hours and minutes."
 msgstr "Especificar una *hora* en horas y minutos."
 
-#: ../../source/using_the_version_control.rst:360
+#: ../../source/using_the_version_control.rst:364
 msgid "Specify a number of *days*."
 msgstr "Especificar una cantidad de *días*."
 
-#: ../../source/using_the_version_control.rst:362
+#: ../../source/using_the_version_control.rst:366
 msgid "Specify a number of *weeks*."
 msgstr "Especificar una cantidad de *semanas*."
 
-#: ../../source/using_the_version_control.rst:364
+#: ../../source/using_the_version_control.rst:368
 msgid "Specify and exact *date and time*."
 msgstr "Especificar una *fecha y hora* exacta."
 
-#: ../../source/using_the_version_control.rst:372
+#: ../../source/using_the_version_control.rst:376
 msgid "Understanding the Folder and File Icons"
 msgstr "Descripción de los íconos de carpetas y archivos"
 
-#: ../../source/using_the_version_control.rst:373
+#: ../../source/using_the_version_control.rst:377
 msgid ""
-"According to the folder and file icons you can tell if the folder or the file "
-"in the working copy is updated or not to the latest version available in the "
+"According to the folder and file icons you can tell if the folder or the file in "
+"the working copy is updated or not to the latest version available in the "
 "central repository, and if files are edited by other users and locked."
 msgstr ""
 "Es posible saber, mirando los íconos de las carpetas y archivos de la copia de "
-"trabajo local, si los mismos se encuentran actualizados o no a la última "
-"versión del repositorio central, así como si los archivos están siendo editados "
-"por otros usuarios, etc."
+"trabajo local, si los mismos se encuentran actualizados o no a la última versión "
+"del repositorio central, así como si los archivos están siendo editados por "
+"otros usuarios, etc."
 
-#: ../../source/using_the_version_control.rst:375
+#: ../../source/using_the_version_control.rst:379
 msgid ""
 "If the File Browser displays files as a List, the information about the version "
 "control status is displayed in the column labeled *Version Control*."
@@ -1069,21 +1114,25 @@ msgstr ""
 "la información acerca del estado del control de versiones será mostrado en la "
 "columna etiquetada *Control de versiones*."
 
-#: ../../source/using_the_version_control.rst:377
+#: ../../source/using_the_version_control.rst:381
 msgid "For **folders** the following icons are used:"
 msgstr "Para **carpetas** se utilizan los siguientes íconos:"
 
-#: ../../source/using_the_version_control.rst:379
+#: ../../source/using_the_version_control.rst:383
 msgid ""
 "|grey_folder| A *grey* folder icon is used for folders available only in the "
-"*repository*. You can use the **Get** command to copy them to the local "
-"*working copy*."
+"*repository*. You can use the **Get** command to copy them to the local *working "
+"copy*."
 msgstr ""
 "|grey_folder| Un ícono *gris* de carpeta es usado para representar a las que "
 "están únicamente disponibles en el *repositorio*. Es posible usar el comando "
 "**Obtener** para copiarlas a la *copia de trabajo* local."
 
-#: ../../source/using_the_version_control.rst:381
+#: ../../source/using_the_version_control.rst:425
+msgid "grey_folder"
+msgstr "grey_folder"
+
+#: ../../source/using_the_version_control.rst:385
 msgid ""
 "|colored_folder_with_yellow_mark| A colored folder icon with a *yellow mark* is "
 "used when the folder contents in the *working copy* is not up to date and does "
@@ -1099,42 +1148,54 @@ msgstr ""
 "la *copia de trabajo* o en el *repositorio*. Es posible usar el comando "
 "**Obtener** para copiarlos a la *copia de trabajo*."
 
-#: ../../source/using_the_version_control.rst:383
+#: ../../source/using_the_version_control.rst:429
+msgid "colored_folder_with_yellow_mark"
+msgstr "colored_folder_with_yellow_mark"
+
+#: ../../source/using_the_version_control.rst:387
 msgid ""
 "|colored_folder_with_green_mark| A colored folder icon with a *green mark* is "
-"used when the folder contents in the *working copy* is up to date and matches "
-"to the folder contents in the *repository*."
+"used when the folder contents in the *working copy* is up to date and matches to "
+"the folder contents in the *repository*."
 msgstr ""
 "|colored_folder_with_green_mark| Un ícono de carpeta en color con una *marca "
 "verde* es usado para representar a aquellas cuyo contenido en la *copia de "
 "trabajo* se encuentra actualizado y coincide con el contenido en el "
 "*repositorio*."
 
-#: ../../source/using_the_version_control.rst:385
+#: ../../source/using_the_version_control.rst:427
+msgid "colored_folder_with_green_mark"
+msgstr "colored_folder_with_green_mark"
+
+#: ../../source/using_the_version_control.rst:389
 msgid ""
 "|colored_folder_with_plus_mark| A colored folder with a *plus mark* is used for "
-"folders available only in the *working copy*. You can use the **Put** command "
-"to copy them to the *central repository*."
+"folders available only in the *working copy*. You can use the **Put** command to "
+"copy them to the *central repository*."
 msgstr ""
 "|colored_folder_with_plus_mark| Un ícono de carpeta en color con un *signo de "
-"más* es usado para representar a aquellas disponibles únicamente en la *copia "
-"de trabajo*. Es posible usar el comando **Enviar** para copiarlas al "
-"*repositorio central*."
+"más* es usado para representar a aquellas disponibles únicamente en la *copia de "
+"trabajo*. Es posible usar el comando **Enviar** para copiarlas al *repositorio "
+"central*."
 
-#: ../../source/using_the_version_control.rst:388
+#: ../../source/using_the_version_control.rst:428
+msgid "colored_folder_with_plus_mark"
+msgstr "colored_folder_with_plus_mark"
+
+#: ../../source/using_the_version_control.rst:392
 msgid "For **files** the following icons are used:"
 msgstr "Para **archivos** se utilizan los siguientes íconos:"
 
-#: ../../source/using_the_version_control.rst:390
+#: ../../source/using_the_version_control.rst:394
 msgid ""
 "A generic *grey* icon is used for files available only in the *repository*. You "
 "can use the **Get** command to copy them to the local *working copy*."
 msgstr ""
-"Un ícono *gris* genérico es usado para representar archivos que están "
-"únicamente disponibles en el *repositorio*. Es posible usar el comando "
-"**Obtener** para copiarlos a la *copia de trabajo* local."
+"Un ícono *gris* genérico es usado para representar archivos que están únicamente "
+"disponibles en el *repositorio*. Es posible usar el comando **Obtener** para "
+"copiarlos a la *copia de trabajo* local."
 
-#: ../../source/using_the_version_control.rst:392
+#: ../../source/using_the_version_control.rst:396
 msgid ""
 "|grey_mark_check| The file icon with a *grey check mark* is used when files in "
 "the *working copy* are up to date and match to the latest version available in "
@@ -1147,16 +1208,24 @@ msgstr ""
 "archivos se encuentran en *modo de sólo lectura* y deberán colocarse en *modo "
 "edición* para poder ser modificados."
 
-#: ../../source/using_the_version_control.rst:394
+#: ../../source/using_the_version_control.rst:431
+msgid "grey_mark_check"
+msgstr "grey_mark_check"
+
+#: ../../source/using_the_version_control.rst:398
 msgid ""
-"|green_mark_check| The file icon with a *green check mark* is used when files "
-"in the *working copy* are in *edit mode*."
+"|green_mark_check| The file icon with a *green check mark* is used when files in "
+"the *working copy* are in *edit mode*."
 msgstr ""
 "|green_mark_check| Un ícono de archivo con un *signo de verificación verde* es "
 "usado para representar a aquellos que se encuentran en la *copia de trabajo* en "
 "*modo edición*."
 
-#: ../../source/using_the_version_control.rst:396
+#: ../../source/using_the_version_control.rst:430
+msgid "green_mark_check"
+msgstr "green_mark_check"
+
+#: ../../source/using_the_version_control.rst:400
 msgid ""
 "|half_grey_mark_check| The file icon with a *green check mark on a grey and "
 "white background* is used when files in the *working copy* are partially in "
@@ -1166,20 +1235,28 @@ msgstr ""
 "sobre un fondo gris y blanco* es usado para representar a aquellos que se "
 "encuentran en la *copia de trabajo* y que están parcialmente en *modo edición*."
 
-#: ../../source/using_the_version_control.rst:398
+#: ../../source/using_the_version_control.rst:433
+msgid "half_grey_mark_check"
+msgstr "half_grey_mark_check"
+
+#: ../../source/using_the_version_control.rst:402
 msgid ""
-"|red_exclamation_mark_check| The file icon with a *red exclamation mark* is "
-"used when files in the *working copy* are newer than the latest version "
-"available in the *repository*, because you modified them. You can use the "
-"**Put** command to copy them to the *central repository*."
+"|red_exclamation_mark_check| The file icon with a *red exclamation mark* is used "
+"when files in the *working copy* are newer than the latest version available in "
+"the *repository*, because you modified them. You can use the **Put** command to "
+"copy them to the *central repository*."
 msgstr ""
 "|red_exclamation_mark_check| Un ícono de archivo con un *signo de admiración "
-"rojo* es usado para representar a aquellos cuya versión en la *copia de "
-"trabajo* es más nueva que la disponible en el *repositorio*, esto es porque han "
-"sido modificados localmente. Es posible usar el comando **Enviar** para "
-"copiarlos al *repositorio central*."
+"rojo* es usado para representar a aquellos cuya versión en la *copia de trabajo* "
+"es más nueva que la disponible en el *repositorio*, esto es porque han sido "
+"modificados localmente. Es posible usar el comando **Enviar** para copiarlos al "
+"*repositorio central*."
 
-#: ../../source/using_the_version_control.rst:400
+#: ../../source/using_the_version_control.rst:436
+msgid "red_exclamation_mark_check"
+msgstr "red_exclamation_mark_check"
+
+#: ../../source/using_the_version_control.rst:404
 msgid ""
 "|half_grey_red_exclamation_mark_check| The file icon with a *red exclamation "
 "mark on a grey and white background* is used when files in the *working copy* "
@@ -1193,7 +1270,11 @@ msgstr ""
 "disponible en el *repositorio*, esto es porque han sido modificados localmente. "
 "Es posible usar el comando **Enviar** para copiarlos al *repositorio central*."
 
-#: ../../source/using_the_version_control.rst:402
+#: ../../source/using_the_version_control.rst:437
+msgid "half_grey_red_exclamation_mark_check"
+msgstr "half_grey_red_exclamation_mark_check"
+
+#: ../../source/using_the_version_control.rst:406
 msgid ""
 "|orange_exclamation_mark_check| The file icon with an *orange exclamation mark* "
 "is used when files in the *working copy* are older than the latest version "
@@ -1206,7 +1287,11 @@ msgstr ""
 "han sido modificados remotamente por otro usuario. Es posible usar el comando "
 "**Obtener** para copiarlos a la *copia de trabajo* local."
 
-#: ../../source/using_the_version_control.rst:404
+#: ../../source/using_the_version_control.rst:435
+msgid "orange_exclamation_mark_check"
+msgstr "orange_exclamation_mark_check"
+
+#: ../../source/using_the_version_control.rst:408
 msgid ""
 "|lock_mark| The file icon with an *lock mark* is used when files are in *edit "
 "mode* by other users. For these files it is only possible to check the "
@@ -1217,7 +1302,11 @@ msgstr ""
 "sólo será posible revisar la información acerca del usuario que se encuentra "
 "editando el mismo."
 
-#: ../../source/using_the_version_control.rst:406
+#: ../../source/using_the_version_control.rst:434
+msgid "lock_mark"
+msgstr "lock_mark"
+
+#: ../../source/using_the_version_control.rst:410
 msgid ""
 "|half_grey_lock_mark| The file icon with a *lock mark on a grey and white "
 "background* is used when files are *partially in edit mode* by other users."
@@ -1226,7 +1315,11 @@ msgstr ""
 "blanco* es usado para representar a aquellos que otros usuarios han colocado "
 "*parcialmente en modo edición*."
 
-#: ../../source/using_the_version_control.rst:408
+#: ../../source/using_the_version_control.rst:432
+msgid "half_grey_lock_mark"
+msgstr "half_grey_lock_mark"
+
+#: ../../source/using_the_version_control.rst:412
 msgid ""
 "|blue_plus_mark| The file icon with the *plus mark* is used for files available "
 "only in the *working copy*. You can use the **Put** command to copy them to the "
@@ -1235,3 +1328,15 @@ msgstr ""
 "|blue_plus_mark| Un ícono de archivo con un *signo de más* es usado para "
 "representar a aquellos disponibles únicamente en la *copia de trabajo*. Es "
 "posible usar el comando **Enviar** para copiarlos al *repositorio central*."
+
+#: ../../source/using_the_version_control.rst:426
+msgid "blue_plus_mark"
+msgstr "blue_plus_mark"
+
+#~ msgid ""
+#~ "For Macintosh only, if the OS is *older* than Snow Leopard and you installed "
+#~ "the **Subversion client 1.6** or later, in the line"
+#~ msgstr ""
+#~ "Sólo para macOS, si el sistema operativo fuera *anterior* a Snow Leopard y se "
+#~ "hubiera instalado el **cliente de Subversion 1.6** o posterior, entonces en "
+#~ "la línea"

@@ -7,46 +7,46 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tahoma 1.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-20 13:56-0300\n"
-"PO-Revision-Date: 2019-09-08 21:36-0300\n"
-"Last-Translator: Gabriel Gazzan <gabcorreo@gmail.com>\n"
-"Language: es\n"
+"POT-Creation-Date: 2026-01-30 22:32-0300\n"
+"PO-Revision-Date: 2026-01-31 00:08-0300\n"
+"Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Español\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
-"X-Generator: Poedit 2.2.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.17.0\n"
+"X-Generator: Poedit 3.8\n"
 
 #: ../../source/index.rst:18
 msgid "Getting Started:"
 msgstr "Primeros pasos:"
 
-#: ../../source/index.rst:25
+#: ../../source/index.rst:27
 msgid "Sections:"
 msgstr "Secciones:"
 
 #: ../../source/index.rst:7
-msgid "Tahoma User Manual"
-msgstr "Manual de Usuario de Tahoma"
+msgid "Tahoma2D User Manual"
+msgstr "Manual de usuario de Tahoma2D"
 
 #: ../../source/index.rst:9
 msgid ""
-"This is the manual for Tahoma, an open-source full-featured 2D "
-"animation creation software."
+"This is the manual for Tahoma2D, an open-source full-featured 2D and "
+"Stop Motion animation creation software."
 msgstr ""
-"Este es el manual de Tahoma, programa de código abierto para "
-"producción de animación."
+"Este es el manual de Tahoma2D, un programa de código abierto para "
+"producción completa de animación 2D y stop-motion."
 
 #: ../../source/index.rst:10
-msgid "`http://tahoma.github.io <http://tahoma.github.io>`_"
-msgstr "`http://tahoma.github.io <http://tahoma.github.io/es/>`_"
+msgid "`https://tahoma2d.org <https://tahoma2d.org>`_"
+msgstr "`https://tahoma2d.org <https://tahoma2d.org>`_"
 
 #: ../../source/index.rst:12
 msgid ""
 "This manual is an ongoing project, which aims to provide the first and "
-"most complete reference for Tahoma features, and as such there will "
+"most complete reference for Tahoma2D features, and as such there will "
 "always be room for improvements and updates. Collaboration is welcome!"
 msgstr ""
 "Este manual describe todas las características, funciones y comandos del "
@@ -54,34 +54,38 @@ msgstr ""
 "(ver  :ref:`Personalización de la apariencia de la interfaz "
 "<customizing_the_interface_appearance>`  ). Sin embargo, por el momento "
 "las capturas de pantalla que ilustran muchas de las explicaciones "
-"reflejan la interfaz en inglés."
+"reflejan la interfaz en inglés. El manual es un proyecto en continuo "
+"desarrollo, que tiene como objetivo proporcionar la referencia inicial y "
+"más completa de las funciones de Tahoma2D. Como tal, siempre existirá un "
+"espacio para mejoras y actualizaciones. ¡Toda colaboración es muy "
+"bienvenida!"
 
 #: ../../source/index.rst:14
 msgid ""
-"To contribute to Tahoma's documentation, please visit the Tahoma "
-"docs repository."
+"To contribute to Tahoma's documentation, please visit the Tahoma2D docs "
+"repository."
 msgstr ""
-"Para contribuir a la documentación de Tahoma, por favor visitar el "
-"repositorio de documentación de Tahoma."
+"Para contribuir a la documentación de Tahoma2D, por favor visitar el "
+"repositorio de la documentación de Tahoma."
 
 #: ../../source/index.rst:15
 msgid ""
-"`https://github.com/tahoma/tahoma_docs <https://github.com/"
-"tahoma/tahoma_docs>`_"
+"`https://github.com/tahoma2d/tahoma2D_docs <https://github.com/tahoma2d/"
+"tahoma2D_docs>`_"
 msgstr ""
-"`https://github.com/tahoma/tahoma_docs <https://github.com/"
-"tahoma/tahoma_docs>`_"
+"`https://github.com/tahoma2d/tahoma2D_docs <https://github.com/tahoma2d/"
+"tahoma2D_docs>`_"
 
-#: ../../source/index.rst:53
+#: ../../source/index.rst:56
 msgid "Special Thanks"
 msgstr "Agradecimiento especial:"
 
-#: ../../source/index.rst:55
+#: ../../source/index.rst:58
 msgid ""
 "This documentation is based on Toonz Harlequin 7.1 User Guide, "
 "originally created by Digital Video S.p.A., Rome Italy."
 msgstr ""
 "Esta documentación está basada en la Guía de Usuario de Toonz Harlequin "
-"7.1 en inglés, creada originalmente por Digital Video S.p.A., Roma "
+"7.1 en inglés, creada originalmente por Digital Video S.p.A., Roma, "
 "Italia.\n"
 "Traducido al español por Gabriel Gazzán."

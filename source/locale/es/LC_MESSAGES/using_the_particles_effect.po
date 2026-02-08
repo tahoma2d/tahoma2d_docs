@@ -7,67 +7,64 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tahoma 1.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-07 15:04-0300\n"
-"PO-Revision-Date: 2019-09-20 00:43-0300\n"
-"Last-Translator: Gabriel Gazzan <gabcorreo@gmail.com>\n"
-"Language: es\n"
+"POT-Creation-Date: 2026-01-30 22:32-0300\n"
+"PO-Revision-Date: 2026-01-31 03:14-0300\n"
+"Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Español\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
-"X-Generator: Poedit 2.2.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.17.0\n"
+"X-Generator: Poedit 3.8\n"
 
 #: ../../source/using_the_particles_effect.rst:4
 msgid "Using the Particles Effect"
-msgstr "Uso del efecto Particles"
+msgstr "Uso del efecto Partículas"
 
 #: ../../source/using_the_particles_effect.rst:5
 msgid ""
-"The Particles effect creates a new level in the selected column/layer "
-"containing particles."
+"The Particles effect creates a new level in the selected column/layer containing "
+"particles."
 msgstr ""
-"El efecto Particles permite crear una nueva columna/capa conteniendo "
-"partículas."
+"El efecto Partículas permite crear una nueva columna/capa conteniendo partículas."
 
 #: ../../source/using_the_particles_effect.rst:7
 msgid ""
 "It allows you to simulate a wide range of phenomena, such as rain, snow, "
-"sparkles, smoke, and a random configuration of elements, for example a field "
-"of shining stars starting from one shining star or the waving grass in a "
-"meadow starting from one animated blade of grass."
+"sparkles, smoke, and a random configuration of elements, for example a field of "
+"shining stars starting from one shining star or the waving grass in a meadow "
+"starting from one animated blade of grass."
 msgstr ""
 "Es capaz de simular una amplia variedad de fenómenos, como lluvia, nieve, "
-"chispas, humo, así como también de habilitar la creación de múltiples "
-"elementos, por ejemplo la creación de todo un cielo de estrellas a partir de "
-"una sola de ellas o de un campo de césped a partir del dibujo de un solo tallo "
-"animado."
+"chispas, humo, así como también de habilitar la creación de múltiples elementos, "
+"por ejemplo la creación de todo un cielo de estrellas a partir de una sola de "
+"ellas o de un campo de césped a partir del dibujo de un solo tallo animado."
 
 #: ../../source/using_the_particles_effect.rst:9
 msgid ""
 "Using a wide variety of parameters available, the Particles effect can be "
-"completely customized. A series of *Presets*, simulating some basic events, "
-"are also available. You can look at these Presets to better understand how to "
-"set the parameters; or you can use them as the starting point to create your "
-"own effects."
+"completely customized. A series of *Presets*, simulating some basic events, are "
+"also available. You can look at these Presets to better understand how to set "
+"the parameters; or you can use them as the starting point to create your own "
+"effects."
 msgstr ""
 "Mediante el uso de una gran variedad de parámetros disponibles, el efecto "
-"Particles podrá ser completamente personalizado. También se encuentra "
-"disponible una serie de *Ajustes prestablecidos*, simulando algunos eventos "
-"básicos. Es posible inspeccionar dichos Ajustes para comprender cómo utilizar "
-"los parámetros del efecto; o también podrán ser usados como punto de partida "
-"para la creación de efectos propios."
+"Partículas podrá ser completamente personalizado. También se encuentra "
+"disponible una serie de *Preajustes*, simulando algunos eventos básicos. Es "
+"posible inspeccionar dichos Preajustes para comprender cómo utilizar los "
+"parámetros del efecto; o también podrán ser usados como punto de partida para la "
+"creación de efectos propios."
 
 #: ../../source/using_the_particles_effect.rst:11
 msgid ""
 "Particles are defined by parameters organized in different folders: *Source*, "
 "*Birth Params*, *Environment*, *Animation* and *Colors*."
 msgstr ""
-"El efecto Particles se encuentra organizado en conjuntos de parámetros, "
-"dispuestos enlas siguientes solapas: *Source* (Origen), *Birth Params* "
-"(Parámetros de nacimiento), *Environment* (Entorno), *Animation* (Animación) y "
-"*Colors* (Colores)."
+"El efecto Partículas se encuentra organizado en conjuntos de parámetros, "
+"dispuestos en las siguientes pestañas: *Origen*, *Nacimiento*, *Entorno*, "
+"*Animación* y *Colores*."
 
 #: ../../source/using_the_particles_effect.rst:13
 msgid ""
@@ -76,7 +73,7 @@ msgid ""
 "original timing information (see  :ref:`Choosing the Output Settings "
 "<choosing_the_output_settings>`  )."
 msgstr ""
-"Es posible que el efecto Particles produzca resultados inesperados al utilizar "
+"Es posible que el efecto Partículas produzca resultados inesperados al utilizar "
 "la función **Estirar (fps):** en las Opciones de salida para establecer una "
 "velocidad de FPS mayor a la establecida en la escena, debido a que este efecto "
 "necesita usar la información original de velocidad para sus cálculos dinámicos "
@@ -88,44 +85,44 @@ msgstr "Definición de imágenes de Textura"
 
 #: ../../source/using_the_particles_effect.rst:20
 msgid ""
-"Any column/layer content can be used as a particle: its animated content and "
-"its animation will be reflected by the particle animation, using the "
-"transformations and the drawings exposed in the column/layer cells at the "
-"related frame in each point of the particle life."
+"Any column/layer content can be used as a particle: its animated content and its "
+"animation will be reflected by the particle animation, using the transformations "
+"and the drawings exposed in the column/layer cells at the related frame in each "
+"point of the particle life."
 msgstr ""
 "Será posible usar el contenido de cualquier columna/capa como una partícula: "
 "tanto su contenido animado, como cualquier animación realizada dentro de "
-"Tahoma serán reflejados en cada partícula, usando las transformaciones y "
-"dibujos expuestos en los acetatos de dicha columna/capa, en el fotograma "
-"correspondiente a cada punto de la vida de la partícula."
+"Tahoma2D serán reflejados en cada partícula, usando las transformaciones y "
+"dibujos expuestos en las celdas de dicha columna/capa, en el fotograma "
+"correspondiente a cada instante de la vida de la partícula."
 
 #: ../../source/using_the_particles_effect.rst:22
 msgid ""
-"For example if a level is exposed in the column/layer at step two, the "
-"particle Texture will be animated at step two as well; or if you have a "
-"drawing that's spinning because the column/layer is animated, the particle "
-"will be spinning as well."
+"For example if a level is exposed in the column/layer at step two, the particle "
+"Texture will be animated at step two as well; or if you have a drawing that's "
+"spinning because the column/layer is animated, the particle will be spinning as "
+"well."
 msgstr ""
-"Por ejemplo, si un nivel se encontrara expuesto en una columna/capa expuesto a "
-"cuadro doble, la *Textura* de la partícula también se verá animada a cuadro "
-"doble; o si se tuviera un dibujo que está girando debido a la animación de la "
-"columna/capa en donde se encuentra expuesto, entonces la partícula se verá "
-"girando también."
+"Por ejemplo, si un nivel se encontrara expuesto en una columna/capa a cuadro "
+"doble, la *Textura* de la partícula también se verá animada a cuadro doble; o si "
+"se tuviera un dibujo que estuviera girando debido a la animación de la columna/"
+"capa en donde se encuentra expuesto, entonces la partícula se verá girando "
+"también."
 
 #: ../../source/using_the_particles_effect.rst:24
 msgid ""
 "To use a column/layer content as a particle, the column/layer node has to be "
-"linked to the **Texture** port of the particles effect node. As soon as a "
-"column/layer is linked to the texture input port, a new texture port is "
-"available: in this way it is possible to use the content of several columns/"
-"layers as particles."
+"linked to the **Texture** port of the particles effect node. As soon as a column/"
+"layer is linked to the texture input port, a new texture port is available: in "
+"this way it is possible to use the content of several columns/layers as "
+"particles."
 msgstr ""
 "Para usar el contenido de una columna/capa como *forma de una partícula*, el "
 "nodo correspondiente a dicha columna/capa deberá estar conectado a uno de los "
-"conectores *Texture* del nodo del efecto Particle. En el momento en que un "
-"nodo sea conectado a *Texture*, aparecerá un nuevo conector *Texture* libre: "
-"de esta manera será posible usar el contenido de varias columnas/capas como "
-"partículas."
+"conectores *Texture* del nodo del efecto Partículas. En el momento en que un "
+"nodo sea conectado al conector *Texture*, aparecerá un nuevo conector *Texture* "
+"libre: de esta manera será posible usar el contenido de varias columnas/capas "
+"distintas como texturas de partículas."
 
 #: ../../source/using_the_particles_effect.rst:26
 msgid ""
@@ -147,310 +144,315 @@ msgid ""
 "particles parameter according to specific image properties, such as brightness "
 "or transparency."
 msgstr ""
-"El contenido de una columna/capa también podrá ser usado para controlar "
-"algunos parámetros del efecto Particles: tanto su contenido animado, como "
-"cualquier animación realizada dentro de Tahoma, afectarán los parámetros de "
-"la simulación de partículas de acuerdo a algunas de las propiedades "
-"específicas de las imágenes, tales como su luminosidad o transparencia, "
-"dependiendo de cada caso."
+"El contenido de una columna/capa también podrá ser usado para controlar algunos "
+"parámetros del efecto Partículas: tanto su contenido animado, como cualquier "
+"animación realizada dentro de Tahoma2D, afectarán los parámetros de la "
+"simulación de partículas de acuerdo a algunas de las propiedades específicas de "
+"las imágenes, tales como su luminosidad o transparencia, dependiendo de cada "
+"caso."
 
 #: ../../source/using_the_particles_effect.rst:35
 msgid ""
-"For example if the level exposed in the column/layer is animated, and the "
-"column/layer is used to control the particles **Source**, the particles Source "
-"will follow the animation of the level; or if the column/layer is moving and "
-"it's used to control the **Gravity** field, the Gravity field will move as "
-"well."
+"For example if the level exposed in the column/layer is animated, and the column/"
+"layer is used to control the particles **Source**, the particles Source will "
+"follow the animation of the level; or if the column/layer is moving and it's "
+"used to control the **Gravity** field, the Gravity field will move as well."
 msgstr ""
 "Por ejemplo, si el nivel expuesto en una columna/capa se encontrara animado, y "
-"dicha columna/capa estuviera siendo usada para controlar el parámetro "
-"**Source** (Origen) de las partículas, el origen seguirá la animación aplicada "
-"al nivel; o si la columna/capa estuviera en movimiento y estuviera siendo "
-"usada para controlar el parámetro **Gravity** (Gravedad), el campo de gravedad "
-"se movería también durante la simulación."
+"dicha columna/capa estuviera siendo usada para controlar el parámetro **Origen** "
+"de las partículas, el origen seguirá la animación aplicada al nivel; o si la "
+"columna/capa estuviera en movimiento y estuviera siendo usada para controlar el "
+"parámetro **Gravedad**, el campo de gravedad se movería también durante la "
+"simulación."
 
 #: ../../source/using_the_particles_effect.rst:37
 msgid ""
-"To use a column/layer contents as a Control Image, connect the column/layer "
-"node to a **Control** input port of the Particles effect node. As soon as the "
-"column/layer is linked to the Control input port, a new Control port is "
-"available: in this way it's possible to use the contents of several columns/"
-"layers to control the Particles effect."
+"To use a column/layer contents as a Control Image, connect the column/layer node "
+"to a **Control** input port of the Particles effect node. As soon as the column/"
+"layer is linked to the Control input port, a new Control port is available: in "
+"this way it's possible to use the contents of several columns/layers to control "
+"the Particles effect."
 msgstr ""
-"Para usar el contenido de una columna como una *imagen de control*, es "
-"necesario conectar el nodo de la columna/capa a uno de los conectores "
-"*Control* del nodo del efecto Particle. En el momento en que un nodo sea "
-"conectado a *Control*, aparecerá un nuevo conector *Control* libre: de esta "
-"manera será posible usar el contenido de varias columnas/capas como imágenes "
-"de control del efecto."
+"Para usar el contenido de una columna/capa como una *Imagen de control*, es "
+"necesario conectar el nodo de la columna/capa a uno de los conectores *Control* "
+"del nodo del efecto Partículas. En el momento en que un nodo sea conectado a "
+"*Control*, aparecerá un nuevo conector *Control* libre: de esta manera será "
+"posible usar el contenido de varias columnas/capas distintas como imágenes de "
+"control en distintas partes del efecto."
 
 #: ../../source/using_the_particles_effect.rst:39
 msgid ""
 "To apply the control image to a parameter, use the related field available in "
-"the *FX Settings* pane: to specify a **Control Image**, type the number "
-"related to the control image port; to use no control image, type the number "
-"**0**."
+"the *FX Settings* panel: to specify a **Control Image**, type the number related "
+"to the control image port; to use no control image, type the number **0**."
 msgstr ""
 "Para aplicar una imagen de control a un parámetro, en el panel *Opciones de "
-"efecto* usar el campo correspondiente: para especificar una imagen de control, "
-"ingresar en el campo **Control Image** (Imagen de control) correspondiente, el "
-"número del conector *Control* donde se encuentre conectado el nodo que se "
-"desee usar; para dejar de controlar un parámetro mediante una *imagen de "
-"control*, ingresar el número **0**."
+"efectos* usar el campo correspondiente: para especificar una **Imagen de "
+"control**, introducir en el campo correspondiente el número del conector "
+"*Control* donde se encuentre conectado el nodo de la columna/capa que se desee "
+"usar como imagen de control; para dejar de controlar un parámetro mediante una "
+"imagen de control, introducir el número **0** en el campo correspondiente."
 
 #: ../../source/using_the_particles_effect.rst:41
+msgid ""
+"Some particles presets, such as the grass, have a default value set to `1` in "
+"the \"Control Image\" field. If you're not using one, make sure to set that "
+"value back to `0` in order for the preset to work correctly."
+msgstr ""
+"Algunos ajustes de partículas, tales como el de césped (Grass), contienen un "
+"valor predefinido de `1` en el campo **Imagen de control**. En caso de no estar "
+"usándose una, asegurarse de establecer dicho valor en `0`, para que el preajuste "
+"funcione de forma correcta."
+
+#: ../../source/using_the_particles_effect.rst:43
 msgid ""
 "When the control images brightness is used to affect a particles parameter, "
 "transparent areas are considered as being completely black."
 msgstr ""
-"Cuando se utilice la luminosidad de una imagen para afectar un parámetro de "
-"las partículas, sus áreas transparentes serán consideradas como si fueran "
+"Cuando se utilice la luminosidad de una imagen para afectar un parámetro de las "
+"partículas, sus áreas transparentes serán consideradas como si fueran "
 "completamente negras."
 
-#: ../../source/using_the_particles_effect.rst:47
-#: ../../source/using_the_particles_effect.rst:56
+#: ../../source/using_the_particles_effect.rst:49
+#: ../../source/using_the_particles_effect.rst:58
 msgid "Source"
-msgstr "Source (Origen)"
-
-#: ../../source/using_the_particles_effect.rst:48
-msgid "|setting_the_particles_source|"
-msgstr ""
+msgstr "Origen"
 
 #: ../../source/using_the_particles_effect.rst:50
+msgid "|setting_the_particles_source|"
+msgstr "|setting_the_particles_source|"
+
+#: ../../source/using_the_particles_effect.rst:757
+msgid "setting_the_particles_source"
+msgstr "setting_the_particles_source"
+
+#: ../../source/using_the_particles_effect.rst:52
 msgid ""
 "The particles Source is the area where the particles are generated. It can be "
 "defined in the **Source** page, by specifying its size and position, or a "
 "control image. The way particles are generated, for example their birth rate, "
 "can be controlled as well."
 msgstr ""
-"Se denomina **Source** (Origen) al área donde las partículas son generadas. "
-"Puede ser definida en la solapa **Source**, especificando su tamaño y "
-"ubicación o a través de una *imagen de control*. También será posible "
-"controlar la forma en que las partículas serán generadas, por ejemplo su tasa "
-"de nacimiento, fotograma inicial, etc."
+"Se denomina Origen al área donde las partículas son generadas. Puede ser "
+"definido en la pestaña **Origen**, especificando su tamaño y ubicación o a "
+"través de una *Imagen de control*. También será posible controlar la forma en "
+"que las partículas son generadas, por ejemplo su tasa de nacimiento, fotograma "
+"inicial, etc."
 
-#: ../../source/using_the_particles_effect.rst:62
-#: ../../source/using_the_particles_effect.rst:206
-#: ../../source/using_the_particles_effect.rst:263
-#: ../../source/using_the_particles_effect.rst:294
-#: ../../source/using_the_particles_effect.rst:333
-#: ../../source/using_the_particles_effect.rst:401
-#: ../../source/using_the_particles_effect.rst:423
-#: ../../source/using_the_particles_effect.rst:620
-#: ../../source/using_the_particles_effect.rst:645
-#: ../../source/using_the_particles_effect.rst:688
-#: ../../source/using_the_particles_effect.rst:727
+#: ../../source/using_the_particles_effect.rst:64
+#: ../../source/using_the_particles_effect.rst:208
+#: ../../source/using_the_particles_effect.rst:265
+#: ../../source/using_the_particles_effect.rst:296
+#: ../../source/using_the_particles_effect.rst:335
+#: ../../source/using_the_particles_effect.rst:403
+#: ../../source/using_the_particles_effect.rst:425
+#: ../../source/using_the_particles_effect.rst:622
+#: ../../source/using_the_particles_effect.rst:647
+#: ../../source/using_the_particles_effect.rst:690
+#: ../../source/using_the_particles_effect.rst:729
 msgid "Control Image"
-msgstr "Control Image (Imagen de control)"
-
-#: ../../source/using_the_particles_effect.rst:63
-msgid ""
-"Sets if and which control image has to be used for the particles source (see  :"
-"ref:`Defining Control Images <defining_control_images>`)."
-msgstr ""
-"Permite establecer si deberá usarse una *imagen de control* para la definición "
-"del origen de las partículas y cuál deberá ser usada (ver  :ref:`Definición de "
-"imágenes de control <defining_control_images>`)."
+msgstr "Imagen de control"
 
 #: ../../source/using_the_particles_effect.rst:65
 msgid ""
-"If used, particles are generated only inside the *opaque areas* of the "
-"**Control Image**."
+"Sets if and which control image has to be used for the particles source "
+"(see  :ref:`Defining Control Images <defining_control_images>`)."
 msgstr ""
-"Si fuera usada una *imagen de control*, las partículas serán generadas "
-"únicamente dentro de las *áreas opacas* de la misma."
+"Permite establecer si deberá usarse una *Imagen de control* para la definición "
+"del origen de las partículas y cuál deberá ser usada (ver  :ref:`Definición de "
+"imágenes de Control <defining_control_images>`)."
 
-#: ../../source/using_the_particles_effect.rst:69
+#: ../../source/using_the_particles_effect.rst:67
+msgid ""
+"If used, particles are generated only inside the *opaque areas* of the **Control "
+"Image**."
+msgstr ""
+"Si se usara una *Imagen de control*, las partículas serán generadas únicamente "
+"dentro de las *áreas opacas* de la misma."
+
+#: ../../source/using_the_particles_effect.rst:71
 msgid "Particles generated according to an image-controlled source."
 msgstr "Partículas generadas de acuerdo a un origen controlado por una imagen."
 
-#: ../../source/using_the_particles_effect.rst:75
+#: ../../source/using_the_particles_effect.rst:77
 msgid "Threshold"
-msgstr "Threshold (Umbral)"
+msgstr "Umbral"
 
-#: ../../source/using_the_particles_effect.rst:76
+#: ../../source/using_the_particles_effect.rst:78
 msgid ""
-"This value defines which pixels of the Control Image are to be used for "
-"placing the paricles, defining a range based on the opacity value of its "
-"pixels. Lower the value and more opaque the pixels have to be for being used "
-"as particles generators."
+"This value defines which pixels of the Control Image are to be used for placing "
+"the particles, defining a range based on the opacity value of its pixels. Lower "
+"the value and more opaque the pixels have to be for being used as particles "
+"generators."
 msgstr ""
-"Este valor permite definir qué píxeles de la *imagen de control* serán usados "
-"para ubicar partículas, mediante un rango basado en el valor de opacidad de "
+"Este valor permite definir qué píxeles de la *Imagen de control* serán usados "
+"para ubicar partículas, definiendo un rango basado en el valor de opacidad de "
 "sus píxeles. Cuanto más bajo sea el valor usado, más opacos deberán ser los "
 "píxeles para que sean usados como generadores de partículas."
 
-#: ../../source/using_the_particles_effect.rst:82
+#: ../../source/using_the_particles_effect.rst:84
 msgid "Multiple Generators in Control Image"
-msgstr ""
-"Multiple Generators in Control Image (Generadores múltiples en imagen de "
-"control)"
+msgstr "Múltiples generadores en imagen de control"
 
-#: ../../source/using_the_particles_effect.rst:83
+#: ../../source/using_the_particles_effect.rst:85
 msgid ""
 "When activated, *each* defined opaque area of the Control Image will have the "
-"same number of generated particles, totalling the **Birth Rate**. For example "
-"if the Birth Rate is 20, and the Control Image has 4 defined opaque areas, 5 "
+"same number of generated particles, totalling the **Birth Rate**. For example if "
+"the Birth Rate is 20, and the Control Image has 4 defined opaque areas, 5 "
 "particles will be generated in each area."
 msgstr ""
-"Cuando se encuentre activada, esta opción provocará que *cada* área opaca "
-"definida en la *imagen de control* genere la misma cantidad de partículas, "
-"totalizando el número definido en el parámetro **Birth Rate** (Tasa de "
-"natalidad). Por ejemplo, si Birth Rate fuera 20 y la imagen de control "
-"contuviera 4 áreas opacas definidas, se generarían 5 partículas en cada una de "
-"ellas."
+"Cuando se encuentre activa, esta opción provocará que *cada* área opaca definida "
+"en la *Imagen de control* genere la misma cantidad de partículas, totalizando el "
+"número definido en el parámetro **Tasa de natalidad**. Por ejemplo, si *Tasa de "
+"natalidad* fuera 20 y la imagen de control contuviera 4 áreas opacas definidas, "
+"se generarían 5 partículas en cada una de ellas."
 
-#: ../../source/using_the_particles_effect.rst:89
+#: ../../source/using_the_particles_effect.rst:91
 msgid "Use Control Image Gradation"
-msgstr "Use Control Image Gradation (Graduar según imagen de control)"
+msgstr "Usar graduación con imagen de control"
 
-#: ../../source/using_the_particles_effect.rst:90
+#: ../../source/using_the_particles_effect.rst:92
 msgid ""
 "When activated, the intensity of the opacity in the Control Image defines the "
-"generation density of the particles. This option cannot be used at the same "
-"time as **Multiple Generators in Control Image**."
+"generation density of the particles. This option cannot be used at the same time "
+"as **Multiple Generators in Control Image**."
 msgstr ""
-"Al estar activa, la intensidad de la opacidad de la *imagen de control* "
-"definirá la generación de partículas. Esta opción no podrá ser usada al mismo "
-"tiempo que **Multiple Generators in Control Image** (Generadores múltiples en "
-"imagen de control)."
+"Al estar activa, la intensidad de la opacidad de la *Imagen de control* definirá "
+"la generación de las partículas. Esta opción no podrá ser usada al mismo tiempo "
+"que **Múltiples generadores en imagen de control**."
 
-#: ../../source/using_the_particles_effect.rst:96
+#: ../../source/using_the_particles_effect.rst:98
 msgid "Center"
-msgstr "Center (Centro)"
-
-#: ../../source/using_the_particles_effect.rst:97
-msgid ""
-"Sets the source Center position, defined by horizontal (X) and vertical (Y) "
-"coordinates; it can also be interactively set in the preview of the FX "
-"Settings pane, where the Center point is displayed as a cross."
-msgstr ""
-"El parámetro **Center** (Centro) permite definir la posición del centro del "
-"área desde donde se emitirán las partículas; también podrá ser definido "
-"mediante la pequeña cruz *roja* presente en el área de previsualización del "
-"panel Opciones de efecto."
+msgstr "Centro"
 
 #: ../../source/using_the_particles_effect.rst:99
 msgid ""
-"If you want to animate the Source to create a trail of particles, you can do "
-"it either by animating the Center coordinates, or by animating a column/layer, "
-"containing the source area, that has to be used as the Control Image for the "
-"Source (see above)."
+"Sets the source Center position, defined by horizontal (X) and vertical (Y) "
+"coordinates; it can also be interactively set in the preview of the FX Settings "
+"pane, where the Center point is displayed as a cross."
 msgstr ""
-"Si se deseara animar el *origen*, para crear una estela de partículas, será "
-"posible hacerlo, tanto animando las coordenadas del parámetro **Center** "
-"(Centro), como animando una columna/capa que defina el área de origen, usada "
-"como *imagen de control* para el parámetro **Source** (Origen) (ver más "
-"arriba)."
+"El parámetro **Centro** permite definir la posición del centro del área desde "
+"donde se emitirán las partículas; también podrá ser definido mediante la pequeña "
+"cruz *roja* presente en el área de previsualización del panel Opciones de "
+"efectos."
 
 #: ../../source/using_the_particles_effect.rst:101
 msgid ""
-"The Center can be also set by using a point gadget in the viewer (see  :ref:"
-"`Using FX Gadgets <using_fx_gadgets>`  )."
+"If you want to animate the Source to create a trail of particles, you can do it "
+"either by animating the Center coordinates, or by animating a column/layer, "
+"containing the source area, that has to be used as the Control Image for the "
+"Source (see above)."
 msgstr ""
-"El centro también podrá ser definido usando el manipulador del efecto en el "
-"Visor (ver  :ref:`Usando los Manipuladores de efectos <using_fx_gadgets>`  )."
+"Si se deseara animar el *Origen*, para crear una estela de partículas, será "
+"posible hacerlo, tanto animando las coordenadas del parámetro **Centro**, como "
+"animando una columna/capa que defina el área de origen, usada como *Imagen de "
+"control* para el parámetro **Origen** (ver más arriba)."
 
 #: ../../source/using_the_particles_effect.rst:103
+msgid ""
+"The Center can be also set by using a point gadget in the viewer "
+"(see  :ref:`Using FX Gadgets <using_fx_gadgets>`  )."
+msgstr ""
+"El centro también podrá ser definido usando el manipulador del efecto en el "
+"Visor (ver  :ref:`Uso de los Manipuladores de efectos <using_fx_gadgets>`  )."
+
+#: ../../source/using_the_particles_effect.rst:105
 msgid "The Center *is not* considered in case a Control Image is used."
 msgstr ""
-"El parámetro **Center** (Centro) no será tomado en cuenta en caso de que se "
-"estuviera utilizando una *imagen de control* para definir el origen de las "
-"partículas."
+"El parámetro **Centro** no será tomado en cuenta en caso de que se estuviera "
+"utilizando una *Imagen de control* para definir el origen de las partículas."
 
-#: ../../source/using_the_particles_effect.rst:109
+#: ../../source/using_the_particles_effect.rst:111
 msgid "Width and Height"
-msgstr "Width and Height (Ancho y altura)"
+msgstr "Ancho y Altura"
 
-#: ../../source/using_the_particles_effect.rst:110
+#: ../../source/using_the_particles_effect.rst:112
 msgid "Sets the size of the Source area."
 msgstr "Permite definir el tamaño del área de origen de las partículas."
 
-#: ../../source/using_the_particles_effect.rst:112
+#: ../../source/using_the_particles_effect.rst:114
 msgid ""
-"The **Width** and **Height** can be also set by using a box gadget with "
-"handles in the viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  )."
+"The **Width** and **Height** can be also set by using a box gadget with handles "
+"in the viewer (see  :ref:`Using FX Gadgets <using_fx_gadgets>`  )."
 msgstr ""
-"El ancho y la altura también podrá ser definidos usando el manipulador del "
-"efecto en el Visor (ver  :ref:`Usando los Manipuladores de efectos "
+"El ancho y la altura también podrán ser definidos usando el manipulador del "
+"efecto en el Visor (ver  :ref:`Uso de los Manipuladores de efectos "
 "<using_fx_gadgets>`  )."
 
-#: ../../source/using_the_particles_effect.rst:114
+#: ../../source/using_the_particles_effect.rst:116
 msgid "These values *are not* considered in case a Control Image is used."
 msgstr ""
 "Estos valores *no serán* tomados en cuenta en caso de que se estuviera "
-"utilizando una *imagen de control* para definir el origen de las partículas."
+"utilizando una *Imagen de control* para definir el origen de las partículas."
 
-#: ../../source/using_the_particles_effect.rst:118
+#: ../../source/using_the_particles_effect.rst:120
 msgid ""
 "Particles generated according to a small square source at the center of the "
 "camera, and according to a wide box placed at the top of the camera."
 msgstr ""
 "Partículas generadas de acuerdo a un origen cuadrado y pequeño en el centro de "
-"la cámara, y de acuerdo a un rectángulo ancho ubicado en la parte superior de "
-"la cámara."
+"la cámara, y de acuerdo a un rectángulo ancho ubicado en la parte superior de la "
+"cámara."
 
-#: ../../source/using_the_particles_effect.rst:124
+#: ../../source/using_the_particles_effect.rst:126
 msgid "Particle Generation"
-msgstr "Particle Generation (Generación de partículas)"
+msgstr "Generación de partículas"
 
-#: ../../source/using_the_particles_effect.rst:129
+#: ../../source/using_the_particles_effect.rst:131
 msgid "Starting Frame"
-msgstr "Starting Frame (Fotograma de inicio)"
-
-#: ../../source/using_the_particles_effect.rst:130
-msgid "Sets the frame at which the particles generation starts."
-msgstr ""
-"Permite definir el fotograma en el que comenzará la generación de las "
-"partículas."
+msgstr "Fotograma inicial"
 
 #: ../../source/using_the_particles_effect.rst:132
+msgid "Sets the frame at which the particles generation starts."
+msgstr ""
+"Permite definir el fotograma en el que comenzará la generación de las partículas."
+
+#: ../../source/using_the_particles_effect.rst:134
 msgid ""
 "When you need a particles event to start before frame 1, you can set a "
 "*negative* **Starting Frame** value. For example if you need at frame 1 a "
 "snowfall, you cannot make the event start at frame 1, otherwise you will see "
-"only the first generated snowflakes; in this case you can set a negative "
-"value, for example -20, so that the snowfall has already evolved for 20 frames "
-"before being displayed at frame 1."
+"only the first generated snowflakes; in this case you can set a negative value, "
+"for example -20, so that the snowfall has already evolved for 20 frames before "
+"being displayed at frame 1."
 msgstr ""
 "Cuando se necesite que un evento de partículas comience antes del fotograma 1, "
-"será posible definir un valor *negativo* para el parámetro **Starting Frame** "
-"(Fotograma inicial). Por ejemplo, si se necesitara en el fotograma 1 tener "
-"nieve cayendo, no podrá iniciarse la simulación en el fotograma 1, de otra "
-"forma únicamente se verían los primeros copos generados; en este caso será "
-"posible definir un valor negativo, por ejemplo -20, para que la nevada haya ya "
-"evolucionado durante 20 fotogramas antes de ser mostrada en el fotograma 1."
+"será posible definir un valor *negativo* para el parámetro **Fotograma "
+"inicial**. Por ejemplo, si se necesitara en el fotograma 1 tener nieve cayendo, "
+"no podrá iniciarse la simulación en el fotograma 1, de otra forma únicamente se "
+"verían los primeros copos generados; en este caso será posible definir un valor "
+"negativo, por ejemplo -20, para que la nevada haya ya evolucionado durante 20 "
+"fotogramas antes de ser mostrada en el fotograma 1."
 
-#: ../../source/using_the_particles_effect.rst:134
+#: ../../source/using_the_particles_effect.rst:136
 msgid ""
 "As the Starting Frame is an effect parameter, moving the Particles effect "
 "*level* up or down in the Xsheet (or left or right in the Timeline) will not "
 "change the actual starting frame: the parameter itself has to be edited."
 msgstr ""
-"Como **Starting Frame** (Fotograma inicial) es un parámetro ingresado "
-"directamente en el efecto, mover los acetatos del *nivel* de partículas hacia "
-"adelante o atrás en el tiempo no cambiará el fotograma en el que comience la "
-"simulación: será necesario editar el parámetro en el panel Opciones de efecto."
+"Como **Fotograma inicial** es un parámetro ingresado directamente en el efecto, "
+"mover el *nivel* del efecto Partículas hacia adelante o atrás en el tiempo no "
+"cambiará el fotograma en el que comenzará la simulación: será necesario editar "
+"el parámetro en el panel Opciones de efectos."
 
-#: ../../source/using_the_particles_effect.rst:136
+#: ../../source/using_the_particles_effect.rst:138
 msgid ""
-"If the **Starting Frame** is higher than the first frame where a **Birth "
-"Rate** is set, the former value is used as the starting point of the event. "
-"For example if the Starting Frame is 20 and first frame with a positive Birth "
-"Rate is frame 15, from frame 15 to 20 no particles will be generated."
+"If the **Starting Frame** is higher than the first frame where a **Birth Rate** "
+"is set, the former value is used as the starting point of the event. For example "
+"if the Starting Frame is 20 and first frame with a positive Birth Rate is frame "
+"15, from frame 15 to 20 no particles will be generated."
 msgstr ""
-"Si el parámetro **Starting Frame** (Fotograma inicial) fuera mayor que el "
-"primer fotograma donde se hubiera definido un valor positivo de **Birth Rate** "
-"(Tasa de natalidad), el primer valor será usado como comienzo de la "
-"simulación. Por ejemplo, si Starting Frame fuera 20 y el primer fotograma con "
-"un valor positivo de Birth Rate fuera el 15, desde el fotograma 15 al 20 no se "
-"generarán partículas."
+"Si el parámetro **Fotograma inicial** fuera mayor que el primer fotograma donde "
+"se hubiera definido un valor positivo de **Tasa de natalidad**, el primer valor "
+"será usado como comienzo de la simulación. Por ejemplo, si *Fotograma inicial* "
+"fuera 20 y el primer fotograma con un valor positivo de *Tasa de natalidad* "
+"fuera el 15, desde el fotograma 15 al 20 no se generarán partículas."
 
-#: ../../source/using_the_particles_effect.rst:142
+#: ../../source/using_the_particles_effect.rst:144
 msgid "Birth Rate"
-msgstr "Birth Rate (Tasa de natalidad)"
+msgstr "Tasa de natalidad"
 
-#: ../../source/using_the_particles_effect.rst:143
+#: ../../source/using_the_particles_effect.rst:145
 msgid ""
 "Sets the number of particles to be generated in each frame. When the value is "
 "constant, in each frame the same number of particles will be generated. For "
@@ -458,22 +460,22 @@ msgid ""
 "particles, the second 40, the third 60, and so on."
 msgstr ""
 "Permite definir la cantidad de partículas a ser generadas en cada fotograma. "
-"Cuando el valor fuera constante, se generará la misma cantidad de partículas "
-"en cada fotograma. Por ejemplo, si el parámetro **Birth Rate** en el fotograma "
-"1 fuera de 20, el primer fotograma contendrá 20 partículas, el segundo 40, el "
-"tercero 60 y así sucesivamente."
-
-#: ../../source/using_the_particles_effect.rst:145
-msgid ""
-"The Birth Rate value considers also decimal numbers. For example, if you set "
-"the birth rate to 0.2, a particle each five frames will be generated (0.2 "
-"multiplied by 5 is equal to 1 particle)."
-msgstr ""
-"El parámetro **Birth Rate** (Tasa de natalidad) también tomará en cuenta "
-"valores decimales. Por ejemplo, si se definiera en 0.2, se generará una "
-"partícula cada 5 fotogramas (0.2 multiplicado por 5 es igual a 1)."
+"Cuando el valor fuera constante, se generará la misma cantidad de partículas en "
+"cada fotograma. Por ejemplo, si el parámetro **Tasa de natalidad** en el "
+"fotograma 1 fuera de 20, el primer fotograma contendrá 20 partículas, el segundo "
+"40, el tercero 60 y así sucesivamente."
 
 #: ../../source/using_the_particles_effect.rst:147
+msgid ""
+"The Birth Rate value considers also decimal numbers. For example, if you set the "
+"birth rate to 0.2, a particle each five frames will be generated (0.2 multiplied "
+"by 5 is equal to 1 particle)."
+msgstr ""
+"El parámetro **Tasa de natalidad** también tomará en cuenta valores decimales. "
+"Por ejemplo, si se definiera en 0.2, se generará una partícula cada 5 fotogramas "
+"(0.2 multiplicado por 5 es igual a 1)."
+
+#: ../../source/using_the_particles_effect.rst:149
 msgid ""
 "By animating the Birth Rate, you can control the quantity of particles in the "
 "effect. For example if you want only 20 particles starting from frame 1, you "
@@ -481,220 +483,222 @@ msgid ""
 "frame 2 with the Birth Rate set to 0."
 msgstr ""
 "Será posible controlar la cantidad de partículas en el efecto, mediante la "
-"animación del parámetro **Birth Rate** (Tasa de natalidad). Por ejemplo, si se "
-"deseara tener sólo 20 partículas comenzando en el fotograma 1, se necesitará "
-"marcar un clave en el fotograma 1 con Birth Rate en 20, y otro clave en el "
-"fotograma 2 con Birth Rate en 0."
+"animación del parámetro **Tasa de natalidad**. Por ejemplo, si se deseara tener "
+"sólo 20 partículas comenzando en el fotograma 1, se necesitará marcar un clave "
+"en el fotograma 1 con una *Tasa de natalidad* de 20, y otro clave en el "
+"fotograma 2 con una *Tasa de natalidad* de 0."
 
-#: ../../source/using_the_particles_effect.rst:153
+#: ../../source/using_the_particles_effect.rst:155
 msgid "Animation Step"
-msgstr "Animation Step (Exposición de animación)"
+msgstr "Exposición de animación"
 
-#: ../../source/using_the_particles_effect.rst:154
+#: ../../source/using_the_particles_effect.rst:156
 msgid ""
 "Sets the step of the whole particles animation. This allows you to match the "
 "animation of the particle effect with the animation in the scene, in case the "
 "scene uses an animation step different from 1."
 msgstr ""
 "Permite definir la exposición para la animación de las partículas. Esto "
-"permitirá hacer coincidir la animación del efecto de partículas con la "
-"animación del resto de la escena, en caso de que la escena use una exposición "
-"distinta de 1."
+"permitirá hacer coincidir la animación del efecto de partículas con la animación "
+"del resto de la escena, en caso de que la escena usara una exposición distinta a "
+"1."
 
-#: ../../source/using_the_particles_effect.rst:160
+#: ../../source/using_the_particles_effect.rst:162
 msgid "Random Seed"
-msgstr "Random Seed (Semilla aleatoria)"
+msgstr "Semilla"
 
-#: ../../source/using_the_particles_effect.rst:161
+#: ../../source/using_the_particles_effect.rst:163
 msgid ""
-"Creates a different particles configuration. With the same parameters values "
-"and the same Random Seed the particles configuration is always the same; "
-"changing the Random Seed allows you to retain all the set parameters but to "
-"change the particles configuration. Only integer numbers are considered."
+"Creates a different particles configuration. With the same parameters values and "
+"the same Random Seed the particles configuration is always the same; changing "
+"the Random Seed allows you to retain all the set parameters but to change the "
+"particles configuration. Only integer numbers are considered."
 msgstr ""
 "Permite crear distintas configuraciones de partículas. Si se usaran los mismos "
-"valores en todos los parámetros y el mismo valor de **Random Seed** (Semilla "
-"aleatoria), las simulaciones de partículas serían siempre idénticas; cambiar "
-"el valor de este parámetro permitirá obtener simulaciones distintas, "
-"manteniendo iguales los valores de todos los parámetros. Sólo se considerarán "
-"números enteros."
+"valores en todos los parámetros y el mismo valor de **Semilla**, las "
+"simulaciones de partículas serían siempre idénticas; cambiar el valor de este "
+"parámetro permitirá obtener simulaciones distintas, manteniendo iguales los "
+"valores de todos los demás parámetros. Sólo se considerarán números enteros."
 
-#: ../../source/using_the_particles_effect.rst:167
+#: ../../source/using_the_particles_effect.rst:169
 msgid "Particle"
-msgstr "Particle (Partícula)"
+msgstr "Partículas"
 
-#: ../../source/using_the_particles_effect.rst:170
-#: ../../source/using_the_particles_effect.rst:518
+#: ../../source/using_the_particles_effect.rst:172
+#: ../../source/using_the_particles_effect.rst:520
 msgid "Animation"
-msgstr "Animation (Animación)"
+msgstr "Animación"
 
-#: ../../source/using_the_particles_effect.rst:171
+#: ../../source/using_the_particles_effect.rst:173
 msgid ""
 "The particle animation follows the source node content, but you can decide how "
-"that content is used, especially in case the Particles effect is longer than "
-"the Texture columns/layers content. The following options are available:"
+"that content is used, especially in case the Particles effect is longer than the "
+"Texture columns/layers content. The following options are available:"
 msgstr ""
 "Las partículas seguirán la animación del contenido del nodo que les de forma, "
 "sin embargo podrá definirse cómo deberá ser usado ese contenido, especialmente "
-"en caso de que el efecto Particles durara más que el contenido de las columnas/"
+"en caso de que el efecto Partículas durara más que el contenido de las columnas/"
 "capas conectadas a los conectores *Texture*. Se encuentran disponibles las "
 "siguientes opciones:"
 
-#: ../../source/using_the_particles_effect.rst:173
+#: ../../source/using_the_particles_effect.rst:175
 msgid ""
 "**Hold Frame** randomly assigns a frame from the Texture node content to each "
 "generated particle; that frame is kept throughout the life of the particle."
 msgstr ""
-"**Hold Frame** (Mantener fotograma) asigna de forma aleatoria un fotograma del "
-"contenido conectado a *Texture* a cada partícula, en el momento en que es "
-"generada; ese fotograma será mantenido durante toda la vida de la partícula."
-
-#: ../../source/using_the_particles_effect.rst:175
-msgid ""
-"**Random Frame** randomly assigns a frame from the Texture node content to "
-"each generated particle, changing it randomly at each frame of the particle "
-"lifetime."
-msgstr ""
-"**Random Frame** (Fotograma aleatorio) asigna de forma aleatoria un fotograma "
-"del contenido conectado a *Texture* a cada partícula, en el momento en que es "
-"generada; cambiándolo aleatoriamente en cada fotograma durante la vida de la "
-"partícula."
+"**Fotograma fijo** asigna de forma aleatoria un fotograma del contenido "
+"conectado a *Texture* a cada partícula, en el momento en que ésta es generada; "
+"ese fotograma será mantenido durante toda la vida de la partícula."
 
 #: ../../source/using_the_particles_effect.rst:177
+msgid ""
+"**Random Frame** randomly assigns a frame from the Texture node content to each "
+"generated particle, changing it randomly at each frame of the particle lifetime."
+msgstr ""
+"**Fotograma aleatorio** asigna de forma aleatoria un fotograma del contenido "
+"conectado a *Texture* a cada partícula, en el momento en que ésta es generada; "
+"cambiándolo aleatoriamente en cada fotograma durante toda la vida de la "
+"partícula."
+
+#: ../../source/using_the_particles_effect.rst:179
 msgid ""
 "**Column** assigns *the first frame* from the Texture node content to each "
 "particle when it is generated; the animation cycles following the Texture node "
 "content order throughout the life of the particle."
 msgstr ""
-"**Column** (Columna) asigna *el primer fotograma* del contenido de la columna/"
-"capa conectada a *Texture* a cada partícula, en el momento en que es generada; "
-"a partir de ahí la animación se sucederá siguiendo el orden normal de la "
-"columna/capa, tantas veces como sea necesario hasta que se complete la vida de "
-"la partícula."
-
-#: ../../source/using_the_particles_effect.rst:179
-msgid ""
-"**Column - Random Start** randomly assigns a frame from the Texture node "
-"content to each particle when it is generated; the animation cycles following "
-"the Texture content order throughout the life of the particle starting from "
-"the assigned frame."
-msgstr ""
-"**Column - Random Start** (Columna - Inicio aleatorio) asigna de forma "
-"aleatoria un fotograma del contenido de la columna/capa conectada a *Texture* "
-"a cada partícula, en el momento en que es generada; a partir de ahí la "
-"animación se sucederá siguiendo el orden normal de la columna/capa, tantas "
-"veces como sea necesario hasta que se complete la vida de la partícula."
+"**Columna** asigna *el primer fotograma* del contenido de la columna/capa "
+"conectada a *Texture* a cada partícula, en el momento en que ésta es generada; a "
+"partir de ahí la animación se sucederá siguiendo el orden normal de la columna/"
+"capa, tantas veces como sea necesario hasta que se complete la vida de la "
+"partícula."
 
 #: ../../source/using_the_particles_effect.rst:181
+msgid ""
+"**Column - Random Start** randomly assigns a frame from the Texture node content "
+"to each particle when it is generated; the animation cycles following the "
+"Texture content order throughout the life of the particle starting from the "
+"assigned frame."
+msgstr ""
+"**Columna - Inicio aleatorio** asigna un fotograma aleatorio del contenido de la "
+"columna/capa conectada a *Texture* a cada partícula, en el momento en que ésta "
+"es generada; a partir de ahí la animación se sucederá siguiendo el orden normal "
+"de la columna/capa, tantas veces como sea necesario hasta que se complete la "
+"vida de la partícula."
+
+#: ../../source/using_the_particles_effect.rst:183
 msgid ""
 "**Column Swing - Random Start** randomly assigns a frame from the Texture node "
 "content to each particle when it is generated; the animation moves from the "
 "assigned frame to the last or to the first, then keeps on swinging back and "
 "forth along the frames sequence, throughout the life of the particle."
 msgstr ""
-"**Column Swing - Random Start** (Oscilar columna - Inicio aleatorio) asigna de "
-"forma aleatoria un fotograma del contenido de la columna/capa conectada a "
-"*Texture* a cada partícula, en el momento en que es generada; a partir de ahí "
-"la animación se sucederá siguiendo el orden normal de la columna/capa y luego "
-"en sentido inverso hasta el comienzo, oscilando tantas veces como sea "
-"necesario hasta que se complete la vida de la partícula."
+"**Columna oscilante - Inicio aleatorio** asigna un fotograma aleatorio del "
+"contenido de la columna/capa conectada a *Texture* a cada partícula, en el "
+"momento en que ésta es generada; a partir de ahí la animación se sucederá "
+"siguiendo el orden normal de la columna/capa y luego en sentido inverso hasta el "
+"comienzo, oscilando tantas veces como sea necesario hasta que se complete la "
+"vida de la partícula."
 
-#: ../../source/using_the_particles_effect.rst:187
+#: ../../source/using_the_particles_effect.rst:189
 msgid "Birth Parameters"
-msgstr "Birth Parameters (Parámetros de nacimiento)"
-
-#: ../../source/using_the_particles_effect.rst:188
-msgid "|defining_particles_birth_parameters|"
-msgstr ""
+msgstr "Nacimiento"
 
 #: ../../source/using_the_particles_effect.rst:190
+msgid "|defining_particles_birth_parameters|"
+msgstr "|defining_particles_birth_parameters|"
+
+#: ../../source/using_the_particles_effect.rst:758
+msgid "defining_particles_birth_parameters"
+msgstr "defining_particles_birth_parameters"
+
+#: ../../source/using_the_particles_effect.rst:192
 msgid ""
-"Each particle, when generated at the current frame, has some parameters that "
-"are assigned and retained throughout its life. Those attributes can be set in "
-"the **Birth Params** page."
+"Each particle, when generated at the current frame, has some parameters that are "
+"assigned and retained throughout its life. Those attributes can be set in the "
+"**Birth Params** page."
 msgstr ""
 "Cada partícula, en el momento en que es generada, contendrá ciertos parámetros "
-"que serán asignados y mantenidos a lo largo de su vida. Esos atributos podrán "
-"ser definidos en la solapa **Birth Params** (Parámetros de nacimiento)."
+"que serán asignados y mantenidos a lo largo de toda su vida. Esos atributos "
+"podrán ser definidos en la pestaña **Nacimiento**."
 
-#: ../../source/using_the_particles_effect.rst:196
-#: ../../source/using_the_particles_effect.rst:200
+#: ../../source/using_the_particles_effect.rst:198
+#: ../../source/using_the_particles_effect.rst:202
 msgid "Speed"
-msgstr "Speed (Velocidad)"
+msgstr "Velocidad"
 
-#: ../../source/using_the_particles_effect.rst:197
+#: ../../source/using_the_particles_effect.rst:199
 msgid "Assigns a speed and a direction for each generated particle."
 msgstr ""
-"En esta sección será posible asignar una velocidad y dirección a cada "
-"partícula generada."
-
-#: ../../source/using_the_particles_effect.rst:201
-msgid ""
-"Assigns randomly a speed to each particle, according to the minimum and "
-"maximum values."
-msgstr ""
-"Permite asignar aleatoriamente una velocidad a cada partícula, de acuerdo a "
-"los valores mínimo y máximo."
+"En esta sección será posible asignar una velocidad y dirección a cada partícula "
+"generada."
 
 #: ../../source/using_the_particles_effect.rst:203
+msgid ""
+"Assigns randomly a speed to each particle, according to the minimum and maximum "
+"values."
+msgstr ""
+"Permite asignar aleatoriamente una velocidad a cada partícula, de acuerdo a los "
+"valores mínimo y máximo."
+
+#: ../../source/using_the_particles_effect.rst:205
 msgid ""
 "The speed value makes the particle move constantly as frames increase, and is "
 "expressed in the chosen unit of measure per frame. A negative value makes the "
 "particle move in the opposite direction of the one set by the angle."
 msgstr ""
-"El valor de velocidad hace que las partículas se muevan de forma constante a "
-"medida que los fotogramas aumentan, se encuentra expresada en unidades por "
+"El valor de velocidad hará que las partículas se muevan de forma constante a "
+"medida que los fotogramas aumenten, se encuentra expresada en unidades por "
 "fotograma. Un valor negativo hará que las partículas se muevan en la dirección "
-"opuesta a la definida por el ángulo."
+"opuesta a la definida por el parámetro *Dirección de la velocidad*."
 
-#: ../../source/using_the_particles_effect.rst:207
+#: ../../source/using_the_particles_effect.rst:209
 msgid ""
 "Sets if and which control image has to be used to control the particles speed "
 "(see  :ref:`Defining Control Images <defining_control_images>`  )."
 msgstr ""
-"Permite establecer si deberá usarse una *imagen de control* para controlar la "
+"Permite establecer si deberá usarse una *Imagen de control* para controlar la "
 "velocidad de las partículas y cuál deberá ser usada (ver  :ref:`Definición de "
-"imágenes de control <defining_control_images>`)."
+"imágenes de Control <defining_control_images>`)."
 
-#: ../../source/using_the_particles_effect.rst:209
+#: ../../source/using_the_particles_effect.rst:211
 msgid ""
 "If used, the speed value range defined above will be distributed according to "
-"the brightness value of the control image pixel where the particle is "
-"generated: particles will be faster where the image is brighter."
+"the brightness value of the control image pixel where the particle is generated: "
+"particles will be faster where the image is brighter."
 msgstr ""
-"Si se usara, el rango de valores de velocidad definido arriba se distribuirá "
-"de acuerdo a la luminosidad del píxel de la *imagen de control* donde la "
-"partícula fuera generada: resultando en partículas más veloces donde la imagen "
-"sea más luminsa."
+"Si se usara, el rango de valores de velocidad definido arriba se distribuirá de "
+"acuerdo a la luminosidad del píxel de la *Imagen de control* donde la partícula "
+"fuera generada: resultando en partículas más veloces donde la imagen fuera más "
+"luminosa."
 
-#: ../../source/using_the_particles_effect.rst:215
+#: ../../source/using_the_particles_effect.rst:217
 msgid "Linked to Scale"
-msgstr "Linked to Scale (Vinculada a la escala)"
+msgstr "Vincular con la escala"
 
-#: ../../source/using_the_particles_effect.rst:216
+#: ../../source/using_the_particles_effect.rst:218
 msgid ""
 "Assigns to each particle a speed value, taken between the minimum and maximum "
 "speed, according to the Size value applied to the particle. This causes the "
 "largest particles to be the fastest, emphasizing a depth of field effect."
 msgstr ""
-"Permite asignar a cada partícula un valor de velocidad, tomando de entre el "
-"mínimo y el máximo, de acuerdo al valor **Size** (Tamaño) aplicado a la "
-"partícula. Esto provocará que las partículas más grandes sean las más veloces, "
-"acentuando un efecto de profundidad de campo."
+"Permite asignar a cada partícula un valor de velocidad, tomado entre el mínimo y "
+"el máximo, de acuerdo al valor de **Tamaño** aplicado a la partícula. Esto "
+"provocará que las partículas más grandes sean más veloces, acentuando un efecto "
+"de profundidad de campo."
 
-#: ../../source/using_the_particles_effect.rst:222
+#: ../../source/using_the_particles_effect.rst:224
 msgid "Speed Angle"
-msgstr "Speed Angle (Ángulo de la velocidad)"
+msgstr "Dirección de la velocidad"
 
-#: ../../source/using_the_particles_effect.rst:223
+#: ../../source/using_the_particles_effect.rst:225
 msgid ""
 "Assigns randomly to each particle an angle value defining the speed direction, "
 "according to the minimum and maximum values."
 msgstr ""
-"Permite asignar aleatoriamente a cada partícula un valor de ángulo definirá la "
-"dirección de la velocidad, de acuerdo a los valores mínimo y máximo."
+"Permite asignar aleatoriamente a cada partícula un valor de ángulo que definirá "
+"la dirección de la velocidad, de acuerdo a los valores mínimo y máximo."
 
-#: ../../source/using_the_particles_effect.rst:225
+#: ../../source/using_the_particles_effect.rst:227
 msgid ""
 "The value 0 is for an upward direction; higher values turn the direction "
 "clockwise."
@@ -702,35 +706,35 @@ msgstr ""
 "El valor 0 representa la dirección hacia arriba; valores positivos causarán un "
 "giro en sentido horario."
 
-#: ../../source/using_the_particles_effect.rst:229
+#: ../../source/using_the_particles_effect.rst:231
 msgid ""
 "A particle animation with different random speed, and with different random "
 "speed and direction angle."
 msgstr ""
 "Una animación de partículas con diferentes velocidades aleatorias, y con "
-"diferentes velocidades y ángulos de dirección aleatorios."
+"diferentes velocidades y direcciones aleatorias."
 
-#: ../../source/using_the_particles_effect.rst:235
+#: ../../source/using_the_particles_effect.rst:237
 msgid "Use Gradient Angle"
-msgstr "Use Gradient Angle (Usar ángulo del gradiente)"
+msgstr "Usar dirección del gradiente"
 
-#: ../../source/using_the_particles_effect.rst:236
+#: ../../source/using_the_particles_effect.rst:238
 msgid ""
 "When activated, adjusts the initial velocity to the gradient vector of the "
 "Control Image **Speed Angle**."
 msgstr ""
-"Al estar activada, permite ajustar la velocidad inicial al vector del "
-"gradiente **Speed Angle** (Ángulo de velocidad) de la *imagen de control*."
+"Al estar activada, permite ajustar la velocidad inicial al vector del gradiente "
+"de **Dirección de la velocidad** de la *Imagen de control*."
 
-#: ../../source/using_the_particles_effect.rst:242
+#: ../../source/using_the_particles_effect.rst:244
 msgid "Size, Mass and Orientation"
-msgstr "Size, Mass and Orientation (Tamaño, Masa y Orientación)"
+msgstr "Tamaño, masa y orientación"
 
-#: ../../source/using_the_particles_effect.rst:247
+#: ../../source/using_the_particles_effect.rst:249
 msgid "Size"
-msgstr "Size (Tamaño)"
+msgstr "Tamaño"
 
-#: ../../source/using_the_particles_effect.rst:248
+#: ../../source/using_the_particles_effect.rst:250
 msgid ""
 "Assigns randomly a size to each particle, according to the minimum and maximum "
 "values. The size is expressed as a percentage, where 100 is the original size."
@@ -739,93 +743,91 @@ msgstr ""
 "valores mínimo y máximo. El tamaño estará expresado como un porcentaje, donde "
 "100 será el tamaño original."
 
-#: ../../source/using_the_particles_effect.rst:252
+#: ../../source/using_the_particles_effect.rst:254
 msgid "Particles generated with a fixed size and with a random one."
 msgstr "Partículas generadas con un tamaño fijo y uno aleatorio."
 
-#: ../../source/using_the_particles_effect.rst:258
+#: ../../source/using_the_particles_effect.rst:260
 msgid "Perspective Distribution"
-msgstr "Perspective Distribution (Distribución en perspectiva)"
+msgstr "Distribución en perspectiva"
 
-#: ../../source/using_the_particles_effect.rst:259
+#: ../../source/using_the_particles_effect.rst:261
 msgid ""
-"When activated, and if a Control Image for **Size** is conected, particles "
-"size will be inversely proportional to their density. It can be used for "
-"placement of depth particles, as in a sea waves level. When this option is "
-"active, the **Use Control Image Gradation** option will be ignored."
+"When activated, and if a Control Image for **Size** is connected, particles size "
+"will be inversely proportional to their density. It can be used for placement of "
+"depth particles, as in a sea waves level. When this option is active, the **Use "
+"Control Image Gradation** option will be ignored."
 msgstr ""
-"Al estar activa, y si hubiera conectada una *imagen de control* para el "
-"parámetro **Size** (Tamaño), los tamaños de las partículas serán inversamente "
-"proporcionales a su densidad. Podrá ser usado para la ubicación de partículas "
-"en profundidad, como en un nivel de ondas de mar. Cuando esta opción estuviera "
-"activa, la opción **Use Control Image Gradation** (Usar graduación de imagen "
-"de control) será ignorada."
+"Al estar activa, y si hubiera conectada una *Imagen de control* para el "
+"parámetro **Tamaño**, los tamaños de las partículas serán inversamente "
+"proporcionales a su densidad. Podrá ser usada para la ubicación de partículas en "
+"profundidad, como en un nivel que contenga ondas de mar. Cuando esta opción "
+"estuviera activa, la opción **Usar graduación con imagen de control** será "
+"ignorada."
 
-#: ../../source/using_the_particles_effect.rst:264
+#: ../../source/using_the_particles_effect.rst:266
 msgid ""
 "Sets if and which control image has to be used to control particles size "
 "(see  :ref:`Defining Control Images <defining_control_images>`  )."
 msgstr ""
-"Permite establecer si deberá usarse una *imagen de control* para controlar el "
+"Permite establecer si deberá usarse una *Imagen de control* para controlar el "
 "tamaño de las partículas y cuál deberá ser usada (ver  :ref:`Definición de "
-"imágenes de control <defining_control_images>`)."
+"imágenes de Control <defining_control_images>`)."
 
-#: ../../source/using_the_particles_effect.rst:266
+#: ../../source/using_the_particles_effect.rst:268
 msgid ""
-"If used, the size value range defined above will be distributed according to "
-"the brightness value of the control image pixel where the particle is "
-"generated: particles will be larger where the image is brighter."
+"If used, the size value range defined above will be distributed according to the "
+"brightness value of the control image pixel where the particle is generated: "
+"particles will be larger where the image is brighter."
 msgstr ""
 "Si se usara, el rango de valores de tamaño definido arriba se distribuirá de "
-"acuerdo a la luminosidad del píxel de la *imagen de control* donde la "
-"partícula fuera generada: resultando en partículas de mayor tamaño donde la "
-"imagen sea más luminosa."
+"acuerdo a la luminosidad del píxel de la *Imagen de control* donde la partícula "
+"fuera generada: resultando en partículas de mayor tamaño donde la imagen fuera "
+"más luminosa."
 
-#: ../../source/using_the_particles_effect.rst:272
+#: ../../source/using_the_particles_effect.rst:274
 msgid "Use Control Image for the Whole Lifetime"
-msgstr ""
-"Use Control Image for the Whole Lifetime (Usar imagen de control durante toda "
-"la vida)"
+msgstr "Usar imagen de control para la vida completa"
 
-#: ../../source/using_the_particles_effect.rst:273
+#: ../../source/using_the_particles_effect.rst:275
 msgid ""
 "If activated, the defined control image is used to set the particles size for "
 "each frame of the particles life, ignoring any Size Increase value."
 msgstr ""
 "Si esta opción se encontrara activa, la imagen de control especificada será "
 "usada para definir el tamaño de las partículas en cada fotograma de su vida, "
-"ignorando los valores de la sección **Size Increase** (Aumento del tamaño)."
+"ignorando los valores de la sección **Aumento de tamaño**."
 
-#: ../../source/using_the_particles_effect.rst:275
+#: ../../source/using_the_particles_effect.rst:277
 msgid ""
-"If deactivated the control image is used only at the birth of the particles, "
-"and any size variation depends only on the Size Increase value (see  :ref:"
-"`Size Increase <size_increase>`  )."
+"If deactivated the control image is used only at the birth of the particles, and "
+"any size variation depends only on the Size Increase value (see  :ref:`Size "
+"Increase <size_increase>`  )."
 msgstr ""
-"Si esta opción se encontrara desactivada, la imagen de control será usada "
+"Si esta opción se encontrara inactiva, la imagen de control será usada "
 "únicamente en el instante del nacimiento de las partículas, y sus posteriores "
-"cambios de tamaño dependerán únicamente de los valores de la sección **Size "
-"Increase** (Aumento del tamaño)."
+"cambios de tamaño dependerán únicamente de los valores de la sección **Aumento "
+"de tamaño**."
 
-#: ../../source/using_the_particles_effect.rst:281
+#: ../../source/using_the_particles_effect.rst:283
 msgid "Mass"
-msgstr "Mass (Masa)"
+msgstr "Masa"
 
-#: ../../source/using_the_particles_effect.rst:282
+#: ../../source/using_the_particles_effect.rst:284
 msgid ""
 "Assigns randomly a mass to each particle, according to the minimum and maximum "
 "values. The mass is taken into account when gravity affects the particles "
 "behavior."
 msgstr ""
-"Permite asignar aleatoriamente una masa a cada partícula, de acuerdo a los "
-"valores mínimo y máximo. El valor de masa será tomado en cuenta cuando la "
+"Permite asignar aleatoriamente un valor de masa a cada partícula, de acuerdo a "
+"los valores mínimo y máximo. El valor de masa será tomado en cuenta cuando la "
 "gravedad afecte al comportamiento de las partículas."
 
-#: ../../source/using_the_particles_effect.rst:288
+#: ../../source/using_the_particles_effect.rst:290
 msgid "Orientation"
-msgstr "Orientation (Orientación)"
+msgstr "Orientación"
 
-#: ../../source/using_the_particles_effect.rst:289
+#: ../../source/using_the_particles_effect.rst:291
 msgid ""
 "Assigns randomly an orientation to each particle, according to the minimum and "
 "maximum angle values."
@@ -833,80 +835,80 @@ msgstr ""
 "Permite asignar aleatoriamente una orientación a cada partícula, de acuerdo a "
 "los valores mínimo y máximo."
 
-#: ../../source/using_the_particles_effect.rst:291
+#: ../../source/using_the_particles_effect.rst:293
 msgid ""
 "The value 0 leaves the image as is; increasing values turn the particle "
 "clockwise."
 msgstr ""
-"El valor 0 dejará la imagen tal como es; valores positivos causarán un giro en "
-"sentido horario."
-
-#: ../../source/using_the_particles_effect.rst:295
-msgid ""
-"Sets if and which control image has to be used to control particles "
-"orientation (see  :ref:`Defining Control Images <defining_control_images>`  )."
-msgstr ""
-"Permite establecer si deberá usarse una *imagen de control* para controlar la "
-"orientación de las partículas y cuál deberá ser usada (ver  :ref:`Definición "
-"de imágenes de control <defining_control_images>`)."
+"El valor 0 dejará la imagen tal como es originalmente; valores positivos "
+"causarán un giro en sentido horario."
 
 #: ../../source/using_the_particles_effect.rst:297
 msgid ""
-"If used, the orientation value range defined above will be distributed "
-"according to the brightness value of the control image pixel where the "
-"particle is generated."
+"Sets if and which control image has to be used to control particles orientation "
+"(see  :ref:`Defining Control Images <defining_control_images>`  )."
+msgstr ""
+"Permite establecer si deberá usarse una *Imagen de control* para controlar la "
+"orientación de las partículas y cuál deberá ser usada (ver  :ref:`Definición de "
+"imágenes de Control <defining_control_images>`)."
+
+#: ../../source/using_the_particles_effect.rst:299
+msgid ""
+"If used, the orientation value range defined above will be distributed according "
+"to the brightness value of the control image pixel where the particle is "
+"generated."
 msgstr ""
 "Si se usara, el rango de valores de orientación definido arriba se distribuirá "
-"de acuerdo a la luminosidad del píxel de la *imagen de control* donde la "
+"de acuerdo a la luminosidad del píxel de la *Imagen de control* donde la "
 "partícula fuera generada."
 
-#: ../../source/using_the_particles_effect.rst:301
+#: ../../source/using_the_particles_effect.rst:303
 msgid ""
 "Different random orientation assigned to same-size and to different-sized "
 "particles."
 msgstr ""
-"Distintas orientaciones aleatorias asignadas a partículas del mismo tamaño y "
-"de distintos tamaños."
+"Distintas orientaciones aleatorias asignadas a partículas del mismo tamaño y de "
+"distintos tamaños."
 
-#: ../../source/using_the_particles_effect.rst:307
-#: ../../source/using_the_particles_effect.rst:310
-#: ../../source/using_the_particles_effect.rst:604
+#: ../../source/using_the_particles_effect.rst:309
+#: ../../source/using_the_particles_effect.rst:312
+#: ../../source/using_the_particles_effect.rst:606
 msgid "Trail"
-msgstr "Trail (Estela)"
+msgstr "Estela"
 
-#: ../../source/using_the_particles_effect.rst:311
+#: ../../source/using_the_particles_effect.rst:313
 msgid ""
-"Allows you to define a trail according to the particle motion by specifying "
-"how many previous frames positions have to be used to generate the trail. The "
-"number of frames the trail lasts is randomly assigned according to the minimum "
-"and maximum values."
+"Allows you to define a trail according to the particle motion by specifying how "
+"many previous frames positions have to be used to generate the trail. The number "
+"of frames the trail lasts is randomly assigned according to the minimum and "
+"maximum values."
 msgstr ""
 "Permite definir una estela de acuerdo al movimiento de las partículas, "
 "especificando de cuántos fotogramas anteriores deberán usarse las posiciones "
-"para generarla. La cantidad de fotogramas que dure la estela será asignada "
+"para generarla. La cantidad de fotogramas que dure cada estela será asignada "
 "aleatoriamente de acuerdo a los valores mínimo y máximo."
 
-#: ../../source/using_the_particles_effect.rst:317
+#: ../../source/using_the_particles_effect.rst:319
 msgid "Step"
-msgstr "Step (Exposición)"
+msgstr "Intervalo"
 
-#: ../../source/using_the_particles_effect.rst:318
+#: ../../source/using_the_particles_effect.rst:320
 msgid ""
-"Sets how many particles will be visible in the trail. For example, if the "
-"trail value is 10 and the step is set to 2, the trail will be 10 frames long, "
-"but only five particles, one every two frames, will be visible."
+"Sets how many particles will be visible in the trail. For example, if the trail "
+"value is 10 and the step is set to 2, the trail will be 10 frames long, but only "
+"five particles, one every two frames, will be visible."
 msgstr ""
 "Permite definir cuántas partículas estarán visibles en la estela. Por ejemplo, "
-"si el valor del parámetro **Trail** fuera 10 y el de **Step** 2, la estela se "
-"extenderá a lo largo de 10 fotogramas, pero sólo contendrá 5 partículas "
+"si el valor del parámetro **Estela** fuera 10 y el de **Intervalo** 2, la estela "
+"se extenderá a lo largo de 10 fotogramas, pero sólo contendrá 5 partículas "
 "visibles, una cada dos fotogramas."
 
-#: ../../source/using_the_particles_effect.rst:324
-#: ../../source/using_the_particles_effect.rst:327
+#: ../../source/using_the_particles_effect.rst:326
+#: ../../source/using_the_particles_effect.rst:329
 msgid "Lifetime"
-msgstr "Lifetime (Vida)"
+msgstr "Vida"
 
-#: ../../source/using_the_particles_effect.rst:328
+#: ../../source/using_the_particles_effect.rst:330
 msgid ""
 "Assigns randomly a lifetime to each particle, according to the minimum and "
 "maximum values. The lifetime is the number of frames the particle will last "
@@ -916,7 +918,7 @@ msgstr ""
 "valores mínimo y máximo. La vida es la cantidad de fotogramas que la partícula "
 "durará antes de desaparecer."
 
-#: ../../source/using_the_particles_effect.rst:330
+#: ../../source/using_the_particles_effect.rst:332
 msgid ""
 "For example if a particle is generated at frame 15 with an assigned lifetime "
 "value of 20, it will last till frame 35, disappearing at frame 36."
@@ -924,31 +926,31 @@ msgstr ""
 "Por ejemplo, si una partícula fuera generada en el fotograma 15 con una vida "
 "asignada de 20, durará hasta el fotograma 35, desapareciendo en el 36."
 
-#: ../../source/using_the_particles_effect.rst:334
+#: ../../source/using_the_particles_effect.rst:336
 msgid ""
 "Sets if and which control image has to be used to control particles lifetime "
 "(see  :ref:`Defining Control Images <defining_control_images>`  )."
 msgstr ""
-"Permite establecer si deberá usarse una *imagen de control* para controlar la "
+"Permite establecer si deberá usarse una *Imagen de control* para controlar la "
 "vida de las partículas y cuál deberá ser usada (ver  :ref:`Definición de "
-"imágenes de control <defining_control_images>`)."
+"imágenes de Control <defining_control_images>`)."
 
-#: ../../source/using_the_particles_effect.rst:336
+#: ../../source/using_the_particles_effect.rst:338
 msgid ""
-"If used, the lifetime value range defined above will be distributed according "
-"to the brightness value of the control image pixel where the particle is "
-"generated: particles will live longer where the image is brighter."
+"If used, the lifetime value range defined above will be distributed according to "
+"the brightness value of the control image pixel where the particle is generated: "
+"particles will live longer where the image is brighter."
 msgstr ""
 "Si se usara, el rango de valores de duración definido arriba se distribuirá de "
-"acuerdo a la luminosidad del píxel de la *imagen de control* donde la "
-"partícula fuera generada: resultando en partículas de mayor duración donde la "
-"imagen sea más luminosa."
+"acuerdo a la luminosidad del píxel de la *Imagen de control* donde la partícula "
+"fuera generada: resultando en partículas de mayor duración donde la imagen sea "
+"más luminosa."
 
-#: ../../source/using_the_particles_effect.rst:342
+#: ../../source/using_the_particles_effect.rst:344
 msgid "Use Column Duration for Lifetime"
-msgstr "Use Column Duration for Lifetime (Usar duración de columna para la vida)"
+msgstr "Duración de la columna define la vida"
 
-#: ../../source/using_the_particles_effect.rst:343
+#: ../../source/using_the_particles_effect.rst:345
 msgid ""
 "Limits the particles lifetime to the number of frames the column/layer content "
 "used as particles source lasts."
@@ -956,236 +958,234 @@ msgstr ""
 "Permite limitar la vida de las partículas a la duración del contenido de la "
 "columna/capa usada como origen de las partículas."
 
-#: ../../source/using_the_particles_effect.rst:345
+#: ../../source/using_the_particles_effect.rst:347
 msgid ""
 "The particle animation remains the one defined in the Animation parameters "
 "(see  :ref:`Animation <particle>`  )."
 msgstr ""
 "El comportamiento de la animación de las partículas permanecerá siendo el "
-"definido mediante el parámetro **Animation** (ver  :ref:`Animation (Animación) "
+"definido mediante el parámetro **Animación** (ver  :ref:`Animación "
 "<particle>`  )."
 
-#: ../../source/using_the_particles_effect.rst:351
-#: ../../source/using_the_particles_effect.rst:354
+#: ../../source/using_the_particles_effect.rst:353
+#: ../../source/using_the_particles_effect.rst:356
 msgid "Top Layer"
-msgstr "Top Layer (Composición de capas)"
+msgstr "Orden de composición"
 
-#: ../../source/using_the_particles_effect.rst:355
+#: ../../source/using_the_particles_effect.rst:357
 msgid ""
-"Defines the layering order of the generated particles. Options are the "
-"following:"
+"Defines the layering order of the generated particles. Options are the following:"
 msgstr ""
 "Permite definir el orden de composición de las partículas generadas. Las "
 "opciones disponibles son las siguientes:"
 
-#: ../../source/using_the_particles_effect.rst:357
-msgid ""
-"**Younger** places the latest generated particles on top of all the others."
-msgstr ""
-"**Younger** (Más recientes), ubica las partículas generadas más recientemente "
-"por sobre las anteriores."
-
 #: ../../source/using_the_particles_effect.rst:359
-msgid ""
-"**Older** places the latest generated particles behind the previously "
-"generated ones."
+msgid "**Younger** places the latest generated particles on top of all the others."
 msgstr ""
-"**Older** (Más antiguas), ubica las partículas generadas anteriormente por "
-"sobre las más recientes."
+"**Más joven**, ubica las partículas generadas más recientemente por sobre las "
+"anteriores."
 
 #: ../../source/using_the_particles_effect.rst:361
-msgid "**Smaller** places smaller particles on top of the bigger ones."
+msgid ""
+"**Older** places the latest generated particles behind the previously generated "
+"ones."
 msgstr ""
-"**Smaller** (Más pequeñas), ubica las partículas de menor tamaño por sobre las "
-"más grandes."
+"**Más vieja**, ubica las partículas generadas anteriormente por sobre las más "
+"recientes."
 
 #: ../../source/using_the_particles_effect.rst:363
-msgid "**Bigger** places bigger particles on top of the smaller ones."
+msgid "**Smaller** places smaller particles on top of the bigger ones."
 msgstr ""
-"**Bigger** (Más grandes), ubica las partículas de mayor tamaño por sobre las "
-"más pequeñas."
+"**Más pequeña**, ubica las partículas de menor tamaño por sobre las más grandes."
 
 #: ../../source/using_the_particles_effect.rst:365
+msgid "**Bigger** places bigger particles on top of the smaller ones."
+msgstr ""
+"**Más grande**, ubica las partículas de mayor tamaño por sobre las más pequeñas."
+
+#: ../../source/using_the_particles_effect.rst:367
 msgid ""
 "**Random** places each particle randomly in-between the previously generated "
 "particles."
 msgstr ""
-"**Random** (Aleatorio), ubica cada nueva partícula de forma aleatoria entre "
-"las generadas anteriormente."
+"**Aleatorio**, ubica cada nueva partícula de forma aleatoria entre las generadas "
+"anteriormente."
 
-#: ../../source/using_the_particles_effect.rst:371
+#: ../../source/using_the_particles_effect.rst:373
 msgid "Environment"
-msgstr "Environment (Entorno)"
-
-#: ../../source/using_the_particles_effect.rst:372
-msgid "|defining_environment_settings|"
-msgstr ""
+msgstr "Entorno"
 
 #: ../../source/using_the_particles_effect.rst:374
+msgid "|defining_environment_settings|"
+msgstr "|defining_environment_settings|"
+
+#: ../../source/using_the_particles_effect.rst:759
+msgid "defining_environment_settings"
+msgstr "defining_environment_settings"
+
+#: ../../source/using_the_particles_effect.rst:376
 msgid ""
-"Particles behavior defined by their birth parameters can be affected by "
-"external events, such as gravity and wind, that can be defined in the "
-"Environment page."
+"Particles behavior defined by their birth parameters can be affected by external "
+"events, such as gravity and wind, that can be defined in the Environment page."
 msgstr ""
-"El comportamiento de las partículas, definido por sus parámetros de "
-"nacimiento, podrá ser afectado por eventos externos, como gravedad y viento, "
-"que podrán ser definidos en la solapa **Environment** (Entorno)."
+"El comportamiento de las partículas, definido por sus parámetros de nacimiento, "
+"podrá ser afectado por eventos externos, como una gravedad y viento, que podrán "
+"ser definidos en la pestaña **Entorno**."
 
-#: ../../source/using_the_particles_effect.rst:379
-#: ../../source/using_the_particles_effect.rst:383
+#: ../../source/using_the_particles_effect.rst:381
+#: ../../source/using_the_particles_effect.rst:385
 msgid "Gravity"
-msgstr "Gravity (Gravedad)"
+msgstr "Gravedad"
 
-#: ../../source/using_the_particles_effect.rst:380
+#: ../../source/using_the_particles_effect.rst:382
 msgid ""
 "Simulates a single direction force that accelerates the particles, as gravity "
 "does."
 msgstr ""
-"Permite simular una fuerza de una dirección única que acelerará las "
-"partículas, tal como sucede con la gravedad."
-
-#: ../../source/using_the_particles_effect.rst:384
-msgid ""
-"Sets the acceleration of gravity acting upon the particles: the motion "
-"generated by the intensity of the gravity increases as frames increase."
-msgstr ""
-"Permite definir la aceleración de la gravedad que actúa sobre las partículas: "
-"el movimiento generado por la intensidad de la gravedad aumentará a medida que "
-"avanzan los fotogramas."
+"Permite simular una fuerza de una dirección única que acelerará las partículas, "
+"tal como sucede con la gravedad."
 
 #: ../../source/using_the_particles_effect.rst:386
 msgid ""
-"A negative value makes the particle accelerate in the opposite direction of "
-"the one set by the angle."
+"Sets the acceleration of gravity acting upon the particles: the motion generated "
+"by the intensity of the gravity increases as frames increase."
 msgstr ""
-"Un valor negativo provocará que las partículas aceleren en la dirección "
-"opuesta a la establecida por el ángulo."
+"Permite definir la aceleración de la gravedad que actúa sobre las partículas: el "
+"movimiento generado por la intensidad de la gravedad aumentará a medida que "
+"avancen los fotogramas."
 
-#: ../../source/using_the_particles_effect.rst:392
+#: ../../source/using_the_particles_effect.rst:388
+msgid ""
+"A negative value makes the particle accelerate in the opposite direction of the "
+"one set by the angle."
+msgstr ""
+"Un valor negativo provocará que las partículas aceleren en la dirección opuesta "
+"a la establecida por la *Dirección de la gravedad*."
+
+#: ../../source/using_the_particles_effect.rst:394
 msgid "Gravity Angle"
-msgstr "Gravity Angle (Ángulo de la gravedad)"
+msgstr "Dirección de la gravedad"
 
-#: ../../source/using_the_particles_effect.rst:393
+#: ../../source/using_the_particles_effect.rst:395
 msgid ""
 "Defines the gravity direction. The value 0 is for a downward direction; higher "
 "values turn the direction clockwise."
 msgstr ""
-"Permite definir la dirección de la gravedad. El valor 0 representa una "
-"dirección vertical descendente; valores positivos causarán un giro en sentido "
-"horario."
+"Permite definir la dirección de la gravedad. El valor 0 representa una dirección "
+"vertical descendente; valores positivos causarán un giro en sentido horario."
 
-#: ../../source/using_the_particles_effect.rst:397
+#: ../../source/using_the_particles_effect.rst:399
 msgid "A particle animation without and with gravity."
 msgstr "Una animación de partículas sin gravedad y con gravedad."
 
-#: ../../source/using_the_particles_effect.rst:402
+#: ../../source/using_the_particles_effect.rst:404
 msgid ""
 "Sets if and which control image has to be used to define a gravity field "
 "affecting the particles motion (see  :ref:`Defining Control Images "
 "<defining_control_images>`  )."
 msgstr ""
-"Permite establecer si deberá usarse una *imagen de control* para definir un "
-"campo de gravedad que afecte a las partículas y cuál deberá ser usada (ver  :"
-"ref:`Definición de imágenes de control <defining_control_images>`)."
+"Permite establecer si deberá usarse una *Imagen de control* para definir un "
+"campo de gravedad que afecte a las partículas y cuál deberá ser usada "
+"(ver  :ref:`Definición de imágenes de Control <defining_control_images>`)."
 
-#: ../../source/using_the_particles_effect.rst:404
+#: ../../source/using_the_particles_effect.rst:406
 msgid ""
 "If used, the particles will be attracted by the brighter areas of the image, "
-"ignoring the set Gravity Angle value: the brightest areas of the image will "
-"have the Gravity value you set. For best results, the dark and light areas "
-"should be smoothly blended."
+"ignoring the set Gravity Angle value: the brightest areas of the image will have "
+"the Gravity value you set. For best results, the dark and light areas should be "
+"smoothly blended."
 msgstr ""
-"Si se usara, las partículas se verán atraídas por las áreas más luminosas de "
-"la imagen, ignorando al valor **Gravity Angle** definido: las áreas más "
-"luminosas de la imagen tendrán el valor de gravedad especificado en el "
-"parámetro **Gravity**. Para obtener mejores resultados, las áreas oscuras y "
-"claras de la imagen deberían fundirse suavemente."
+"Si se usara, las partículas se verán atraídas por las áreas más luminosas de la "
+"imagen, ignorando al valor en **Dirección de la gravedad**: las áreas más "
+"luminosas de la imagen tendrán el valor de gravedad especificado en el parámetro "
+"**Gravedad**. Para obtener mejores resultados, las áreas oscuras y claras de la "
+"imagen deberían fundirse suavemente."
 
-#: ../../source/using_the_particles_effect.rst:408
+#: ../../source/using_the_particles_effect.rst:410
 msgid "A single particle movement without and with an image-controlled gravity."
 msgstr ""
-"La animación de una única partícula sin gravedad controlada por una imagen y "
-"luego con la imagen controlándola."
+"El movimiento de una única partícula con una gravedad constante y luego con una "
+"imagen controlando la gravedad."
 
-#: ../../source/using_the_particles_effect.rst:414
-#: ../../source/using_the_particles_effect.rst:417
+#: ../../source/using_the_particles_effect.rst:416
+#: ../../source/using_the_particles_effect.rst:419
 msgid "Friction"
-msgstr "Friction (Fricción)"
+msgstr "Fricción"
 
-#: ../../source/using_the_particles_effect.rst:418
+#: ../../source/using_the_particles_effect.rst:420
 msgid ""
-"Simulates a force which has a direction opposite to the motion of the "
-"particles, in order to slow them down, or to stop them."
+"Simulates a force which has a direction opposite to the motion of the particles, "
+"in order to slow them down, or to stop them."
 msgstr ""
 "Permite simular una fuerza con dirección opuesta al movimiento de las "
 "partículas, para enlentecer su movimiento hasta detenerlo completamente."
 
-#: ../../source/using_the_particles_effect.rst:420
+#: ../../source/using_the_particles_effect.rst:422
 msgid ""
 "A negative value makes the particles accelerate in the direction of their own "
 "motion."
 msgstr ""
-"Un valor negativo provocará la aceleración de las partículas en la dirección "
-"de su propio movimiento."
+"Un valor negativo provocará la aceleración de las partículas en la dirección de "
+"su propio movimiento."
 
-#: ../../source/using_the_particles_effect.rst:424
+#: ../../source/using_the_particles_effect.rst:426
 msgid ""
 "Sets if and which control image has to be used to define a friction field "
 "affecting the particles speed (see  :ref:`Defining Control Images "
 "<defining_control_images>`  )."
 msgstr ""
-"Permite establecer si deberá usarse una *imagen de control* para definir un "
+"Permite establecer si deberá usarse una *Imagen de control* para definir un "
 "campo de fricción que afecte la velocidad de las partículas y cuál deberá ser "
-"usada (ver  :ref:`Definición de imágenes de control "
-"<defining_control_images>`)."
+"usada (ver  :ref:`Definición de imágenes de Control <defining_control_images>`)."
 
-#: ../../source/using_the_particles_effect.rst:426
+#: ../../source/using_the_particles_effect.rst:428
 msgid ""
 "If used, the particles motion will be affected by the brighter areas of the "
 "image: the brightest areas of the image will have the Friction value you set. "
 "For best results, the dark and light areas should be smoothly blended. If you "
 "want the particles to stop suddenly, use a high intensity value."
 msgstr ""
-"Si se usara, el movimiento de las partículas se verá afectado por las áreas "
-"más luminosas de la imagen: las áreas más luminosas de la imagen tendrán el "
-"valor de fricción especificado en el parámetro **Friction**. Si se deseara que "
-"las partículas se detuvieran súbitamente, deberá utilizarse un valor alto de "
+"Si se usara, el movimiento de las partículas se verá afectado por las áreas más "
+"luminosas de la imagen: las áreas más luminosas de la imagen tendrán el valor de "
+"fricción especificado en el parámetro **Fricción**. Si se deseara que las "
+"partículas se detuvieran súbitamente, deberá utilizarse un valor alto de "
 "intensidad."
 
-#: ../../source/using_the_particles_effect.rst:430
+#: ../../source/using_the_particles_effect.rst:432
 msgid "A particle animation with an image-controlled friction."
 msgstr "Una animación de partículas con la fricción controlada por una imagen."
 
-#: ../../source/using_the_particles_effect.rst:436
+#: ../../source/using_the_particles_effect.rst:438
 msgid "Wind"
-msgstr "Wind (Viento)"
+msgstr "Viento"
 
-#: ../../source/using_the_particles_effect.rst:437
+#: ../../source/using_the_particles_effect.rst:439
 msgid ""
 "Simulates a speed that is added to the particles speed. The speed is constant, "
 "this means that there is no acceleration in the motion of the particles."
 msgstr ""
 "Permite simular una velocidad que será adicionada a la de las partículas. La "
-"velocidad es constante, esto significa que no habrá aceleración en el "
-"movimiento de las partículas."
+"velocidad es constante, esto significa que no habrá aceleración en el movimiento "
+"de las partículas."
 
-#: ../../source/using_the_particles_effect.rst:443
+#: ../../source/using_the_particles_effect.rst:445
 msgid "Wind Intensity"
-msgstr "Wind Intensity (Intensidad del viento)"
+msgstr "Intensidad viento"
 
-#: ../../source/using_the_particles_effect.rst:444
+#: ../../source/using_the_particles_effect.rst:446
 msgid ""
 "Sets the wind speed. A negative value makes the particle move in the opposite "
 "direction of the one set by the angle."
 msgstr ""
 "Permite establecer la velocidad del viento. Un valor negativo provocará que la "
-"partícula se mueva en dirección opuesta a la definida por el ángulo."
+"partícula se mueva en dirección opuesta a la definida por la *Dirección del "
+"viento*."
 
-#: ../../source/using_the_particles_effect.rst:450
+#: ../../source/using_the_particles_effect.rst:452
 msgid "Wind Angle"
-msgstr "Wind Angle (Ángulo del viento)"
+msgstr "Dirección del viento"
 
-#: ../../source/using_the_particles_effect.rst:451
+#: ../../source/using_the_particles_effect.rst:453
 msgid ""
 "Sets the angle value defining the wind speed direction.The value 0 is for an "
 "upward direction; higher values turn the direction clockwise."
@@ -1193,34 +1193,34 @@ msgstr ""
 "Permite definir la dirección del viento. El valor 0 representa una dirección "
 "vertical ascendente; valores positivos causarán un giro en sentido horario."
 
-#: ../../source/using_the_particles_effect.rst:453
+#: ../../source/using_the_particles_effect.rst:455
 msgid ""
-"For example if a particle is standing still, and at frame 10 a wind starts "
-"with an intensity of 50 and an angle of 90, the particle will move constantly "
+"For example if a particle is standing still, and at frame 10 a wind starts with "
+"an intensity of 50 and an angle of 90, the particle will move constantly "
 "rightward at each frame."
 msgstr ""
 "Por ejemplo, si una partícula se encontrara en reposo, y en el fotograma 10 "
-"comenzara a soplar un viento con una intensidad de 50 y un ángulo de 90, la "
-"partícula se moverá con una velocidad constante hacia la derecha en cada "
-"fotograma."
+"comenzara a soplar un viento con una intensidad de 50 y una dirección de 90 "
+"grados, la partícula se moverá con una velocidad constante hacia la derecha en "
+"cada fotograma."
 
-#: ../../source/using_the_particles_effect.rst:459
+#: ../../source/using_the_particles_effect.rst:461
 msgid "Scattering"
-msgstr "Scattering (Dispersión)"
+msgstr "Dispersión"
 
-#: ../../source/using_the_particles_effect.rst:460
+#: ../../source/using_the_particles_effect.rst:462
 msgid ""
-"Sets a random horizontal and vertical displacement that is added to the "
-"movement of the particles."
+"Sets a random horizontal and vertical displacement that is added to the movement "
+"of the particles."
 msgstr ""
 "Permite establecer un desplazamiento horizontal y vertical aleatorio que se "
 "adicionará al movimiento de las partículas."
 
-#: ../../source/using_the_particles_effect.rst:466
+#: ../../source/using_the_particles_effect.rst:468
 msgid "Horizontal"
 msgstr "Horizontal"
 
-#: ../../source/using_the_particles_effect.rst:467
+#: ../../source/using_the_particles_effect.rst:469
 msgid ""
 "Sets the minimum and maximum displacement that can be generated and randomly "
 "added to the horizontal component of the particle movement. Positive values "
@@ -1228,110 +1228,109 @@ msgid ""
 msgstr ""
 "Permite definir el desplazamiento mínimo y máximo que podrá ser adicionado "
 "aleatoriamente al componente horizontal del movimiento de las partículas. "
-"Valores positivos causarán un desplazamiento hacia la derecha; mientras que "
-"los negativos lo harán hacia la izquierda."
+"Valores positivos causarán un desplazamiento hacia la derecha; mientras que los "
+"negativos lo harán hacia la izquierda."
 
-#: ../../source/using_the_particles_effect.rst:473
+#: ../../source/using_the_particles_effect.rst:475
 msgid "Vertical"
 msgstr "Vertical"
 
-#: ../../source/using_the_particles_effect.rst:474
+#: ../../source/using_the_particles_effect.rst:476
 msgid ""
 "Sets the minimum and maximum displacement that can be generated and randomly "
-"added to the vertical component of the particle movement. Positive values "
-"shifts the particle to the top; negative ones to the bottom."
+"added to the vertical component of the particle movement. Positive values shifts "
+"the particle to the top; negative ones to the bottom."
 msgstr ""
 "Permite definir el desplazamiento mínimo y máximo que podrá ser adicionado "
-"aleatoriamente al componente vertical del movimiento de las partículas. "
-"Valores positivos causarán un desplazamiento hacia arriba; mientras que los "
-"negativos lo harán hacia abajo."
+"aleatoriamente al componente vertical del movimiento de las partículas. Valores "
+"positivos causarán un desplazamiento hacia arriba; mientras que los negativos lo "
+"harán hacia abajo."
 
-#: ../../source/using_the_particles_effect.rst:480
+#: ../../source/using_the_particles_effect.rst:482
 msgid "H Control Image"
-msgstr "H Control Image (Imagen de control H)"
+msgstr "Imagen de control H"
 
-#: ../../source/using_the_particles_effect.rst:481
+#: ../../source/using_the_particles_effect.rst:483
 msgid ""
 "Sets if and which control image has to be used to control the horizontal "
 "scattering value (see  :ref:`Defining Control Images "
 "<defining_control_images>`  )."
 msgstr ""
-"Permite establecer si deberá usarse una *imagen de control* para definir el "
-"valor de dispersión horizontal y cuál deberá ser usada (ver  :ref:`Definición "
-"de imágenes de control <defining_control_images>`)."
+"Permite establecer si deberá usarse una *Imagen de control* para definir el "
+"valor de dispersión horizontal y cuál deberá ser usada (ver  :ref:`Definición de "
+"imágenes de Control <defining_control_images>`)."
 
-#: ../../source/using_the_particles_effect.rst:483
+#: ../../source/using_the_particles_effect.rst:485
 msgid ""
-"If used, the horizontal scattering value range defined above will be "
-"distributed according to the brightness value of the control image: the "
-"horizontal scattering will be higher where the image is brighter."
+"If used, the horizontal scattering value range defined above will be distributed "
+"according to the brightness value of the control image: the horizontal "
+"scattering will be higher where the image is brighter."
 msgstr ""
 "Si se usara, el rango de valores de dispersión horizontal definido más arriba "
-"será distribuido de acuerdo a los valores de luminosidad de la *imagen de "
+"será distribuido de acuerdo a los valores de luminosidad de la *Imagen de "
 "control*: la dispersión horizontal será más alta donde la imagen sea más "
 "luminosa."
 
-#: ../../source/using_the_particles_effect.rst:489
+#: ../../source/using_the_particles_effect.rst:491
 msgid "V Control Image"
-msgstr "V Control Image (Imagen de control V)"
+msgstr "Imagen de control V"
 
-#: ../../source/using_the_particles_effect.rst:490
+#: ../../source/using_the_particles_effect.rst:492
 msgid ""
 "Sets if and which control image has to be used to control the vertical "
 "scattering value (see  :ref:`Defining Control Images "
 "<defining_control_images>`  )."
 msgstr ""
-"Permite establecer si deberá usarse una *imagen de control* para definir el "
+"Permite establecer si deberá usarse una *Imagen de control* para definir el "
 "valor de dispersión vertical y cuál deberá ser usada (ver  :ref:`Definición de "
-"imágenes de control <defining_control_images>`)."
+"imágenes de Control <defining_control_images>`)."
 
-#: ../../source/using_the_particles_effect.rst:492
+#: ../../source/using_the_particles_effect.rst:494
 msgid ""
 "If used, the vertical scattering value range defined above will be distributed "
-"according to the brightness value of the control image: the vertical "
-"scattering will be higher where the image is brighter."
+"according to the brightness value of the control image: the vertical scattering "
+"will be higher where the image is brighter."
 msgstr ""
-"Si se usara, el rango de valores de dispersión vertical definido más arriba "
-"será distribuido de acuerdo a los valores de luminosidad de la *imagen de "
-"control*: la dispersión vertical será más alta donde la imagen sea más "
-"luminosa."
+"Si se usara, el rango de valores de dispersión vertical definido más arriba será "
+"distribuido de acuerdo a los valores de luminosidad de la *Imagen de control*: "
+"la dispersión vertical será más alta donde la imagen sea más luminosa."
 
-#: ../../source/using_the_particles_effect.rst:498
-#: ../../source/using_the_particles_effect.rst:551
+#: ../../source/using_the_particles_effect.rst:500
+#: ../../source/using_the_particles_effect.rst:553
 msgid "Swing Mode"
-msgstr "Swing Mode (Modo pendular)"
+msgstr "Modo de oscilación"
 
-#: ../../source/using_the_particles_effect.rst:499
+#: ../../source/using_the_particles_effect.rst:501
 msgid "Sets the way the scattering values are used; options are the following:"
 msgstr ""
 "Permite definir la forma en que los valores de dispersión serán usados; las "
 "opciones disponibles son las siguientes:"
 
-#: ../../source/using_the_particles_effect.rst:501
+#: ../../source/using_the_particles_effect.rst:503
 msgid ""
 "**Random** adds the horizontal and vertical scattering values to the particle "
 "movement at each frame."
 msgstr ""
-"**Random** (Aleatorio), adicionará los valores de dispersión horizontal y "
-"vertical al movimiento de las partículas en cada fotograma."
+"**Aleatorio** adicionará los valores de dispersión horizontal y vertical al "
+"movimiento de las partículas en cada fotograma."
 
-#: ../../source/using_the_particles_effect.rst:503
+#: ../../source/using_the_particles_effect.rst:505
 msgid ""
 "**Smooth** reaches the horizontal and vertical scattering values by "
 "interpolating values, in order to create a smooth movement. The interpolation "
 "lasts as many frames as set by the swing value set below; when the scattering "
 "values are reached, new values for each parameter are generated."
 msgstr ""
-"**Smooth** (Suave), permitirá alcanzar los valores de dispersión horizontal y "
-"vertical mediante una interpolación suave. La interpolación durará tantos "
-"fotogramas como se indique en el valor **Swing** (Péndulo) de abajo; una vez "
-"éstos se hubieran alcanzado, se generarán nuevos valores para cada parámetro."
+"**Suave**, permitirá alcanzar los valores de dispersión horizontal y vertical "
+"mediante una interpolación suave. La interpolación durará tantos fotogramas como "
+"se indique en el valor **Oscilación** de abajo; una vez éstos se hubieran "
+"alcanzado, se generarán nuevos valores para cada parámetro."
 
-#: ../../source/using_the_particles_effect.rst:509
+#: ../../source/using_the_particles_effect.rst:511
 msgid "Swing"
-msgstr "Swing (Péndulo)"
+msgstr "Oscilación"
 
-#: ../../source/using_the_particles_effect.rst:510
+#: ../../source/using_the_particles_effect.rst:512
 msgid ""
 "Sets the minimum and maximum number of frames throughout which the horizontal "
 "and vertical scattering values will vary, while remaining either positive or "
@@ -1340,131 +1339,134 @@ msgid ""
 msgstr ""
 "Permite definir la cantidad mínima y máxima de fotogramas a lo largo de los "
 "cuales variarán los valores de dispersión horizontal y vertical, mientras se "
-"mantienen siendo positivos o negativos. Esto permitirá definir el movimiento "
-"pendular, donde cada ciclo pendular durará una cierta cantidad aleatoria de "
+"mantienen siendo positivos o negativos. Esto permitirá definir un movimiento "
+"oscilatorio, donde cada ciclo durará una cierta cantidad aleatoria de "
 "fotogramas, y teniendo una dispersión aleatoria en cada fotograma."
 
-#: ../../source/using_the_particles_effect.rst:512
+#: ../../source/using_the_particles_effect.rst:514
 msgid ""
-"For example with a horizontal scattering between 1 and 8, and a Swing value "
-"with the minimum and maximum set to 10, the particle will be shifted with a "
-"random value of between 1 and 8 to the right for 10 frames; then at frame 11 "
-"the scattering changes, so that the random value between 1 and 8 will shift "
-"the particle to the left for the following 10 frames."
+"For example with a horizontal scattering between 1 and 8, and a Swing value with "
+"the minimum and maximum set to 10, the particle will be shifted with a random "
+"value of between 1 and 8 to the right for 10 frames; then at frame 11 the "
+"scattering changes, so that the random value between 1 and 8 will shift the "
+"particle to the left for the following 10 frames."
 msgstr ""
 "Por ejemplo, para una dispersión horizontal de entre 1 y 8, y un valor de "
-"**Swing** con su mínimo y máximo en 10, la partícula será desplazada usando un "
-"valor aleatorio de entre 1 y 8 hacia la derecha durante 10 fotogramas; luego "
+"**Oscilación** con su mínimo y máximo en 10, la partícula será desplazada usando "
+"un valor aleatorio de entre 1 y 8 hacia la derecha durante 10 fotogramas; luego "
 "en el fotograma 11 la dispersión cambiará, de manera que la partícula sea "
-"desplazada usando un valor aleatorio de entre 1 y 8 hacia la izquierda, "
-"durante los siguientes 10 fotogramas."
-
-#: ../../source/using_the_particles_effect.rst:519
-msgid "|defining_particles_animation|"
-msgstr ""
+"desplazada usando un valor aleatorio de entre 1 y 8 hacia la izquierda, durante "
+"los siguientes 10 fotogramas."
 
 #: ../../source/using_the_particles_effect.rst:521
+msgid "|defining_particles_animation|"
+msgstr "|defining_particles_animation|"
+
+#: ../../source/using_the_particles_effect.rst:760
+msgid "defining_particles_animation"
+msgstr "defining_particles_animation"
+
+#: ../../source/using_the_particles_effect.rst:523
 msgid ""
-"Particles birth properties can be transformed during their lifetime, for "
-"example particles can rotate, or change size, by using additional settings "
-"available in the Animation page."
+"Particles birth properties can be transformed during their lifetime, for example "
+"particles can rotate, or change size, by using additional settings available in "
+"the Animation page."
 msgstr ""
 "Las propiedades de nacimiento de las partículas podrán ser transformadas a lo "
 "largo de su vida, por ejemplo éstas podrán rotar o cambiar su tamaño, mediante "
-"el uso de las opciones adicionales presentes en la solapa **Animation** "
-"(Animación)."
+"el uso de las opciones adicionales presentes en la pestaña **Animación**."
 
-#: ../../source/using_the_particles_effect.rst:527
+#: ../../source/using_the_particles_effect.rst:529
 msgid "Rotation"
-msgstr "Rotation (Rotación)"
+msgstr "Rotación"
 
-#: ../../source/using_the_particles_effect.rst:528
+#: ../../source/using_the_particles_effect.rst:530
 msgid ""
 "Controls the way each particle rotates around its center throughout its life."
 msgstr ""
-"Permite controlar la forma en que las partículas rotarán alrededor de su "
-"centro a lo largo de su vida."
+"Permite controlar la forma en que las partículas rotarán alrededor de su centro "
+"a lo largo de su vida."
 
-#: ../../source/using_the_particles_effect.rst:534
+#: ../../source/using_the_particles_effect.rst:536
 msgid "Rotation Speed"
-msgstr "Rotation Speed (Velocidad de rotación)"
+msgstr "Velocidad de rotación"
 
-#: ../../source/using_the_particles_effect.rst:535
+#: ../../source/using_the_particles_effect.rst:537
 msgid ""
 "Makes the particles rotate constantly as frames increase, and is expressed in "
 "degree per frame. Positive values makes the particle spin clockwise."
 msgstr ""
-"Permite lograr que las partículas roten de forma constante, a medida que "
-"avanzan los fotogramas; la propiedad estará expresada en grados por fotograma. "
-"Valores positivos harán que las partículas roten en sentido horario."
+"Permite lograr que las partículas roten de forma constante, a medida que avancen "
+"los fotogramas; la propiedad estará expresada en grados por fotograma. Valores "
+"positivos harán que las partículas roten en sentido horario."
 
-#: ../../source/using_the_particles_effect.rst:537
+#: ../../source/using_the_particles_effect.rst:539
 msgid ""
 "Unlike the directional **Speed** parameter, this parameter is not a birth "
 "attribute. This means that if in a 20 frames animation you animate the "
-"**Rotation Speed** value from -30 to 30, during the animation all the "
-"particles will rotate together, counterclockwise for the first 10 frames, then "
-"clockwise for the next 10 frames."
+"**Rotation Speed** value from -30 to 30, during the animation all the particles "
+"will rotate together, counterclockwise for the first 10 frames, then clockwise "
+"for the next 10 frames."
 msgstr ""
-"A diferencia de **Speed** (Velocidad), que otorga una velocidad direccional, "
-"esta no es una propiedad de nacimiento de las partículas. Esto significa que "
-"si en una animación de 20 fotogramas se animara el valor **Rotation Speed** "
-"(Velocidad de rotación) desde -30 a 30, durante dicha animación todas las "
-"partículas rotarán juntas en sentido antihorario durante 10 fotogramas y luego "
-"en sentido horario durante los siguientes 10 fotogramas."
+"A diferencia del parámetro **Velocidad**, que imprime una velocidad direccional, "
+"esta no es una propiedad de nacimiento de las partículas. Esto significa que si "
+"en una animación de 20 fotogramas se animara el valor **Velocidad de rotación** "
+"desde -30 a 30, durante dicha animación todas las partículas rotarán juntas en "
+"sentido antihorario durante 10 fotogramas y luego en sentido horario durante los "
+"siguientes 10 fotogramas."
 
-#: ../../source/using_the_particles_effect.rst:543
+#: ../../source/using_the_particles_effect.rst:545
 msgid "Extra Speed"
-msgstr "Extra Speed (Velocidad extra)"
+msgstr "Velocidad adicional"
 
-#: ../../source/using_the_particles_effect.rst:544
+#: ../../source/using_the_particles_effect.rst:546
 msgid ""
 "Sets the minimum and maximum value that is randomly added to the rotational "
 "speed, thus creating a more chaotic rotation."
 msgstr ""
-"Permite definir el valor mínimo y máximo que será adicionado aleatoriamente a "
-"la velocidad de rotación, creando así una rotación más caótica."
+"Permite definir el valor mínimo y máximo que será adicionado aleatoriamente a la "
+"velocidad de rotación, creando así una rotación más caótica."
 
-#: ../../source/using_the_particles_effect.rst:548
+#: ../../source/using_the_particles_effect.rst:550
 msgid ""
-"A particle animation with a fixed rotation speed, and with extra speed "
-"including smooth swing."
+"A particle animation with a fixed rotation speed, and with extra speed including "
+"smooth swing."
 msgstr ""
 "Una animación de partículas con una velocidad de rotación fija, y con una "
-"velocidad extra incluyendo un efecto suave de péndulo."
+"velocidad adicional incluyendo un efecto oscilatorio suave."
 
-#: ../../source/using_the_particles_effect.rst:552
+#: ../../source/using_the_particles_effect.rst:554
 msgid "Sets the way the spinning is performed; options are the following:"
 msgstr ""
 "Permite definir la forma en que los valores de rotación serán usados; las "
 "opciones disponibles son las siguientes:"
 
-#: ../../source/using_the_particles_effect.rst:554
-msgid ""
-"**Random**, adds the extra speed values to the rotation of the particles at "
-"each frame."
-msgstr ""
-"**Random** (Aleatorio), adicionará los valores extra a la rotación de las "
-"partículas en cada fotograma."
-
 #: ../../source/using_the_particles_effect.rst:556
 msgid ""
-"**Smooth**, reaches the rotational extra speed value by interpolating values, "
-"in order to create a smooth movement. The interpolation lasts as many frames "
-"as set by the swing value; when the extra speed value is reached, new values "
-"for each parameter are generated."
+"**Random**, adds the extra speed values to the rotation of the particles at each "
+"frame."
 msgstr ""
-"**Smooth** (Suave), permitirá alcanzar los valores adicionales de rotación "
-"mediante una interpolación suave, para crear una movimiento suave. La "
-"interpolación durará tantos fotogramas como se indique en el valor **Rotation "
-"Swing** (Péndulo de rotación); una vez se hubiera alcanzado el valor de "
-"rotación adicional, se generarán nuevos valores para cada parámetro."
+"**Aleatorio**, agregará los valores adicionales a la rotación de las partículas "
+"en cada fotograma."
 
-#: ../../source/using_the_particles_effect.rst:562
+#: ../../source/using_the_particles_effect.rst:558
+msgid ""
+"**Smooth**, reaches the rotational extra speed value by interpolating values, in "
+"order to create a smooth movement. The interpolation lasts as many frames as set "
+"by the swing value; when the extra speed value is reached, new values for each "
+"parameter are generated."
+msgstr ""
+"**Suave**, permitirá alcanzar los valores adicionales de rotación mediante una "
+"interpolación suave, para crear un movimiento suave. La interpolación durará "
+"tantos fotogramas como se indique en el valor **Oscilación rotación**; una vez "
+"se hubiera alcanzado el valor de rotación adicional, se generarán nuevos valores "
+"para cada parámetro."
+
+#: ../../source/using_the_particles_effect.rst:564
 msgid "Rotation Swing"
-msgstr "Rotation Swing (Péndulo de rotación)"
+msgstr "Oscilación rotación"
 
-#: ../../source/using_the_particles_effect.rst:563
+#: ../../source/using_the_particles_effect.rst:565
 msgid ""
 "Sets the minimum and maximum number of frames throughout which the extra speed "
 "values will vary, while remaining either positive or negative. This allows you "
@@ -1472,47 +1474,45 @@ msgid ""
 "having a random extra speed at each frame."
 msgstr ""
 "Permite definir la cantidad mínima y máxima de fotogramas a lo largo de los "
-"cuales variarán los valores de dispersión horizontal y vertical, mientras se "
-"mantienen siendo positivos o negativos. Esto permitirá definir el movimiento "
-"pendular, donde cada ciclo pendular durará una cierta cantidad aleatoria de "
-"fotogramas, y teniendo una dispersión aleatoria en cada fotograma."
+"cuales variarán los valores de velocidad adicional, mientras se mantienen siendo "
+"positivos o negativos. Esto permitirá definir un movimiento oscilatorio, donde "
+"cada ciclo durará una cierta cantidad aleatoria de fotogramas, y teniendo una "
+"velocidad adicional aleatoria en cada fotograma."
 
-#: ../../source/using_the_particles_effect.rst:569
+#: ../../source/using_the_particles_effect.rst:571
 msgid "Follow Particles Movement"
-msgstr "Follow Particles Movement (Seguir el movimiento de las partículas)"
+msgstr "Acompañar movimiento de partículas"
 
-#: ../../source/using_the_particles_effect.rst:570
+#: ../../source/using_the_particles_effect.rst:572
 msgid ""
 "Rotates the particles according to their movement direction. The particle "
-"preserves its original orientation when the movement is horizontal to the "
-"right."
+"preserves its original orientation when the movement is horizontal to the right."
 msgstr ""
 "Permite rotar las partículas de acuerdo a la dirección de su movimiento. Las "
 "partículas preservarán su orientación original cuando su movimiento sea "
 "horizontal hacia la derecha."
 
-#: ../../source/using_the_particles_effect.rst:574
-msgid ""
-"A particle animation without and with the Follow Particles Movement option."
+#: ../../source/using_the_particles_effect.rst:576
+msgid "A particle animation without and with the Follow Particles Movement option."
 msgstr ""
-"Una animación de partículas sin y luego con la opción **Follow Particles "
-"Movement** activa."
+"Una animación de partículas sin y luego con la opción **Acompañar movimiento de "
+"partículas** activa."
 
-#: ../../source/using_the_particles_effect.rst:580
-#: ../../source/using_the_particles_effect.rst:584
+#: ../../source/using_the_particles_effect.rst:582
+#: ../../source/using_the_particles_effect.rst:586
 msgid "Opacity"
-msgstr "Opacity (Opacidad)"
+msgstr "Opacidad"
 
-#: ../../source/using_the_particles_effect.rst:581
+#: ../../source/using_the_particles_effect.rst:583
 msgid ""
 "Sets a fade-in process at the beginning of particles life, and a fade-out "
 "process at the end, according to the set minimum and maximum opacity values."
 msgstr ""
 "Permite definir un proceso de *fundido entrante* al comienzo de la vida de las "
-"partículas, así como uno de *fundido saliente* al final de la misma, de "
-"acuerdo a los valores máximos y mínimos establecidos."
+"partículas, así como uno de *fundido saliente* al final de la misma, de acuerdo "
+"a los valores máximos y mínimos establecidos."
 
-#: ../../source/using_the_particles_effect.rst:585
+#: ../../source/using_the_particles_effect.rst:587
 msgid ""
 "Sets the minimum and maximum opacity values for the fade-in and fade-out "
 "processes. Values are expressed as a percentage, where 100 is the original "
@@ -1522,22 +1522,22 @@ msgstr ""
 "fundido entrante y saliente. Los valores estarán expresados como porcentajes, "
 "donde 100 representará al valor original de opacidad de las partículas."
 
-#: ../../source/using_the_particles_effect.rst:587
+#: ../../source/using_the_particles_effect.rst:589
 msgid ""
-"The fade-in process begins from the minimum value and reaches the maximum "
-"value at the end; the fade-out process begins from the maximum value and "
-"reaches the minimum value at the end."
+"The fade-in process begins from the minimum value and reaches the maximum value "
+"at the end; the fade-out process begins from the maximum value and reaches the "
+"minimum value at the end."
 msgstr ""
-"El proceso de *fundido entrante* comenzará desde el valor mínimo y alcanzará "
-"el máximo al final; el proceso de *fundido saliente* comenzará desde el valor "
+"El proceso de *fundido entrante* comenzará desde el valor mínimo y alcanzará el "
+"máximo al final; el proceso de *fundido saliente* comenzará desde el valor "
 "máximo y alcanzará el mínimo al final."
 
-#: ../../source/using_the_particles_effect.rst:593
+#: ../../source/using_the_particles_effect.rst:595
 msgid "Fade-in Frames"
-msgstr "Fade-in Frames (Fotogramas de fundido entrante)"
+msgstr "Fotogramas aparición"
 
-#: ../../source/using_the_particles_effect.rst:594
-#: ../../source/using_the_particles_effect.rst:707
+#: ../../source/using_the_particles_effect.rst:596
+#: ../../source/using_the_particles_effect.rst:709
 msgid ""
 "Sets the number of frames the fade-in process lasts, starting from the first "
 "frame of the particle life."
@@ -1545,12 +1545,12 @@ msgstr ""
 "Permite establecer la cantidad de fotogramas de duración del fundido entrante, "
 "comenzando desde el primer fotograma de la vida de cada partícula."
 
-#: ../../source/using_the_particles_effect.rst:600
+#: ../../source/using_the_particles_effect.rst:602
 msgid "Fade-out Frames"
-msgstr "Fade-out Frames (Fotogramas de fundido saliente)"
+msgstr "Fotogramas desvanecimiento"
 
-#: ../../source/using_the_particles_effect.rst:601
-#: ../../source/using_the_particles_effect.rst:743
+#: ../../source/using_the_particles_effect.rst:603
+#: ../../source/using_the_particles_effect.rst:745
 msgid ""
 "Sets the number of frames the fade-out process lasts, starting from the last "
 "frame of the particle life and counting backward."
@@ -1559,26 +1559,25 @@ msgstr ""
 "comenzando desde el último fotograma de la vida de cada partícula y contando "
 "hacia atrás."
 
-#: ../../source/using_the_particles_effect.rst:605
+#: ../../source/using_the_particles_effect.rst:607
 msgid ""
 "Sets the opacity of the images used for the trail: the minimum value is the "
-"opacity of the oldest particle in the trail; the maximum value is the opacity "
-"of the youngest one (see  :ref:`Trail <trail>`  )."
+"opacity of the oldest particle in the trail; the maximum value is the opacity of "
+"the youngest one (see  :ref:`Trail <trail>`  )."
 msgstr ""
 "Permite definir la opacidad de las imágenes usadas para la estela: el valor "
 "mínimo representa a la opacidad de la partícula más antigua en la estela; el "
-"valor máximo a la opacidad de la más reciente (ver  :ref:`Trail (Estela) "
-"<trail>`  )."
+"valor máximo a la opacidad de la más reciente (ver  :ref:`Estela <trail>`  )."
 
-#: ../../source/using_the_particles_effect.rst:611
+#: ../../source/using_the_particles_effect.rst:613
 msgid "Size Increase"
-msgstr "Size Increase (Aumento del tamaño)"
+msgstr "Aumento de tamaño"
 
-#: ../../source/using_the_particles_effect.rst:616
+#: ../../source/using_the_particles_effect.rst:618
 msgid "Size Intensity"
-msgstr "Size Intensity (Intensidad del tamaño)"
+msgstr "Intensidad del tamaño"
 
-#: ../../source/using_the_particles_effect.rst:617
+#: ../../source/using_the_particles_effect.rst:619
 msgid ""
 "Sets the minimum and maximum scaling factor to be applied to the particle in "
 "each frame. Positive values are for increasing the size of the particles, "
@@ -1589,252 +1588,251 @@ msgstr ""
 "partículas, mientras que los negativos lo disminuirán. Los valores son "
 "expresados en forma de porcentaje."
 
-#: ../../source/using_the_particles_effect.rst:621
+#: ../../source/using_the_particles_effect.rst:623
 msgid ""
 "Sets if and which control image has to be used to control particles size "
 "increase (see  :ref:`Defining Control Images <defining_control_images>`  )."
 msgstr ""
-"Permite establecer si deberá usarse una *imagen de control* para controlar el "
-"incremento del tamaño de las partículas y cuál deberá ser usada (ver  :ref:"
-"`Definición de imágenes de control <defining_control_images>`)."
+"Permite establecer si deberá usarse una *Imagen de control* para controlar el "
+"incremento del tamaño de las partículas y cuál deberá ser usada "
+"(ver  :ref:`Definición de imágenes de Control <defining_control_images>`)."
 
-#: ../../source/using_the_particles_effect.rst:623
+#: ../../source/using_the_particles_effect.rst:625
 msgid ""
 "If used, the size increase value range defined above will be distributed "
-"according to the brightness value of the control image: particles will "
-"increase in size faster where the image is brighter."
+"according to the brightness value of the control image: particles will increase "
+"in size faster where the image is brighter."
 msgstr ""
 "Si se usara, el rango de valores de incremento de tamaño definido más arriba "
-"será distribuido de acuerdo a los valores de luminosidad de la *imagen de "
-"control*: las partículas incrementarán su tamaño más rápidamente donde la "
-"imagen sea más luminosa."
+"será distribuido de acuerdo a los valores de luminosidad de la *Imagen de "
+"control*: las partículas incrementarán su tamaño más rápidamente donde la imagen "
+"fuera más luminosa."
 
-#: ../../source/using_the_particles_effect.rst:629
+#: ../../source/using_the_particles_effect.rst:631
 msgid "Colors"
-msgstr "Colors (Colores)"
-
-#: ../../source/using_the_particles_effect.rst:630
-msgid "|defining_particles_color|"
-msgstr ""
+msgstr "Colores"
 
 #: ../../source/using_the_particles_effect.rst:632
+msgid "|defining_particles_color|"
+msgstr "|defining_particles_color|"
+
+#: ../../source/using_the_particles_effect.rst:761
+msgid "defining_particles_color"
+msgstr "defining_particles_color"
+
+#: ../../source/using_the_particles_effect.rst:634
 msgid ""
-"Particles can fade to specific colors at their birth, during their life and "
-"just before their death, by specifying settings in the Color page. The color "
+"Particles can fade to specific colors at their birth, during their life and just "
+"before their death, by specifying settings in the Color page. The color "
 "parameters are birth attributes, i.e. they are assigned to the particles when "
 "they are generated."
 msgstr ""
 "Será posible controlar el color de las partículas en el momento de su "
 "nacimiento, durante toda su vida y justo antes de su muerte, mediante la "
-"definición de las opciones de la solapa **Colors** (Colores)."
+"definición de las opciones de la pestaña **Colores**."
 
-#: ../../source/using_the_particles_effect.rst:638
-#: ../../source/using_the_particles_effect.rst:641
+#: ../../source/using_the_particles_effect.rst:640
+#: ../../source/using_the_particles_effect.rst:643
 msgid "Birth Color"
-msgstr "Birth Color (Color de nacimiento)"
+msgstr "Color nacimiento"
 
-#: ../../source/using_the_particles_effect.rst:642
+#: ../../source/using_the_particles_effect.rst:644
 msgid ""
 "Sets the range of colors to which particles fade at their birth, by defining a "
 "color spectrum (see  :ref:`Defining Colors and Color Spectrums "
 "<defining_colors_and_color_spectrums>`  )."
 msgstr ""
 "Permite definir el rango de colores a los que las partículas serán fundidas en "
-"el momento de su nacimiento, mediante un gradiente de colores (ver  :ref:"
-"`Definición de colores y espectros de colores "
+"el momento de su nacimiento, mediante un gradiente de colores "
+"(ver  :ref:`Definición de colores y espectros de colores "
 "<defining_colors_and_color_spectrums>`  )."
 
-#: ../../source/using_the_particles_effect.rst:646
+#: ../../source/using_the_particles_effect.rst:648
 msgid ""
 "Sets if and which control image has to be used to define the particles birth "
 "colors (see  :ref:`Defining Control Images <defining_control_images>`  )."
 msgstr ""
-"Permite establecer si deberá usarse una *imagen de control* para definir los "
-"colores de nacimiento de las partículas y cuál deberá ser usada (ver  :ref:"
-"`Definición de imágenes de control <defining_control_images>`)."
+"Permite establecer si deberá usarse una *Imagen de control* para definir los "
+"colores de nacimiento de las partículas y cuál deberá ser usada "
+"(ver  :ref:`Definición de imágenes de Control <defining_control_images>`)."
 
-#: ../../source/using_the_particles_effect.rst:648
+#: ../../source/using_the_particles_effect.rst:650
 msgid ""
 "If used, particles will pick their birth color from the control image pixels "
 "according to their birth position."
 msgstr ""
 "Si se usara, se escogerá el color de nacimiento de las partículas a partir del "
-"color de los píxeles de la *imagen de control*, de acuerdo a la posición en "
-"que se produzca el nacimiento de cada partícula."
+"color de los píxeles de la *Imagen de control*, de acuerdo a la posición en que "
+"se produzca el nacimiento de cada partícula."
 
-#: ../../source/using_the_particles_effect.rst:652
+#: ../../source/using_the_particles_effect.rst:654
 msgid "A control image used to assign color to the generated particles."
-msgstr ""
-"Una imagen de control usada para asignar color a las partículas generadas."
+msgstr "Una imagen de control usada para asignar color a las partículas generadas."
 
-#: ../../source/using_the_particles_effect.rst:658
+#: ../../source/using_the_particles_effect.rst:660
 msgid "Birth Spread"
-msgstr "Birth Spread (Dispersión de nacimiento)"
+msgstr "Dispersión nacimiento"
 
-#: ../../source/using_the_particles_effect.rst:659
+#: ../../source/using_the_particles_effect.rst:661
 msgid ""
-"Sets a spread value that will be added to the red, green and blue values of "
-"the color to which particles fade at their birth."
+"Sets a spread value that will be added to the red, green and blue values of the "
+"color to which particles fade at their birth."
 msgstr ""
 "Permite definir un valor de dispersión que será adicionado a los valores de "
 "rojo, verde y azul del color de nacimiento de la partícula."
 
-#: ../../source/using_the_particles_effect.rst:661
-#: ../../source/using_the_particles_effect.rst:700
-#: ../../source/using_the_particles_effect.rst:739
+#: ../../source/using_the_particles_effect.rst:663
+#: ../../source/using_the_particles_effect.rst:702
+#: ../../source/using_the_particles_effect.rst:741
 msgid ""
 "In this way particles will fade to a range of colors spreading from the colors "
 "defined in the spectrum or in the control image."
 msgstr ""
-"De esta manera será posible que las partículas se fundan a una gama de "
-"colores, a partir de los colores definidos en el gradiente o en la *imagen de "
-"control*."
+"De esta manera será posible que las partículas se fundan a una gama de colores, "
+"a partir de los colores definidos en el gradiente o en la *Imagen de control*."
 
-#: ../../source/using_the_particles_effect.rst:667
+#: ../../source/using_the_particles_effect.rst:669
 msgid "Birth Intensity"
-msgstr "Birth Intensity (Intensidad de nacimiento)"
+msgstr "Intensidad nacimiento"
 
-#: ../../source/using_the_particles_effect.rst:668
+#: ../../source/using_the_particles_effect.rst:670
 msgid "Sets the intensity of the birth color-fading."
 msgstr ""
-"Permite definir la intensidad del fundido a un color, al momento del "
-"nacimiento."
+"Permite definir la intensidad del fundido a un color, al momento del nacimiento."
 
-#: ../../source/using_the_particles_effect.rst:674
+#: ../../source/using_the_particles_effect.rst:676
 msgid "Pick Control Image's Color for Every Frame"
-msgstr ""
-"Pick Control Image's Color for Every Frame (Tomar color de imagen de control "
-"en cada fotograma)"
+msgstr "Colores de imagen de control en cada fotograma"
 
-#: ../../source/using_the_particles_effect.rst:675
+#: ../../source/using_the_particles_effect.rst:677
 msgid ""
 "When activated, at every frame the Control Image pixels will be sampled in the "
 "current position of the particles, changing their color."
 msgstr ""
-"Cuando se encuentre activa, en cada fotograma se tomarán muestras de los "
-"píxeles de la *imagen de control* en las posiciones de cada partícula, para "
-"cambiar su color."
+"Cuando se encuentre activa, en cada fotograma se tomarán muestras de los píxeles "
+"de la *Imagen de control* en las posiciones de cada partícula, para cambiar su "
+"color."
 
-#: ../../source/using_the_particles_effect.rst:681
-#: ../../source/using_the_particles_effect.rst:684
+#: ../../source/using_the_particles_effect.rst:683
+#: ../../source/using_the_particles_effect.rst:686
 msgid "Fade-in Color"
-msgstr "Fade-in Color (Color de fundido entrante)"
+msgstr "Color de aparición"
 
-#: ../../source/using_the_particles_effect.rst:685
+#: ../../source/using_the_particles_effect.rst:687
 msgid ""
 "Sets the range of colors to which particles fade at a certain number of frames "
-"after their birth, by defining a color spectrum (see  :ref:`Defining Colors "
-"and Color Spectrums <defining_colors_and_color_spectrums>`  )."
+"after their birth, by defining a color spectrum (see  :ref:`Defining Colors and "
+"Color Spectrums <defining_colors_and_color_spectrums>`  )."
 msgstr ""
-"Permite definir el rango de colores a los que las partículas serán fundidas, "
-"una cierta cantidad de fotogramas después de su nacimiento, mediante un "
-"gradiente de colores (ver  :ref:`Definición de colores y espectros de colores "
+"Permite definir el rango de colores a los que las partículas serán fundidas, una "
+"cierta cantidad de fotogramas después de su nacimiento, mediante un gradiente de "
+"colores (ver  :ref:`Definición de colores y espectros de colores "
 "<defining_colors_and_color_spectrums>`  )."
 
-#: ../../source/using_the_particles_effect.rst:689
+#: ../../source/using_the_particles_effect.rst:691
 msgid ""
 "Sets if and which control image has to be used to define the particles fade-in "
 "colors (see  :ref:`Defining Control Images <defining_control_images>`  )."
 msgstr ""
-"Permite establecer si deberá usarse una *imagen de control* para definir los "
-"colores de fundido entrante de las partículas y cuál deberá ser usada (ver  :"
-"ref:`Definición de imágenes de control <defining_control_images>`)."
+"Permite establecer si deberá usarse una *Imagen de control* para definir los "
+"colores de fundido entrante de las partículas y cuál deberá ser usada "
+"(ver  :ref:`Definición de imágenes de Control <defining_control_images>`)."
 
-#: ../../source/using_the_particles_effect.rst:691
+#: ../../source/using_the_particles_effect.rst:693
 msgid ""
 "If used, particles will pick their fade-in color from the control image pixels "
 "according to their position."
 msgstr ""
-"Si se usara, se escogerá el color de fundido entrante de las partículas a "
-"partir del color de los píxeles de la *imagen de control*, de acuerdo a la "
-"posición de las mismas."
+"Si se usara, se escogerá el color de fundido entrante de las partículas a partir "
+"del color de los píxeles de la *Imagen de control*, de acuerdo a la posición de "
+"las mismas."
 
-#: ../../source/using_the_particles_effect.rst:697
+#: ../../source/using_the_particles_effect.rst:699
 msgid "Fade-in Spread"
-msgstr "Fade-in Spread (Dispersión de fundido entrante)"
+msgstr "Dispersión aparición"
 
-#: ../../source/using_the_particles_effect.rst:698
+#: ../../source/using_the_particles_effect.rst:700
 msgid ""
-"Sets a spread value that will be added to the red, green and blue values of "
-"the color to which particles fade in."
+"Sets a spread value that will be added to the red, green and blue values of the "
+"color to which particles fade in."
 msgstr ""
 "Permite definir un valor de dispersión que será adicionado a los valores de "
 "rojo, verde y azul del color al que las partículas serán fundidas."
 
-#: ../../source/using_the_particles_effect.rst:706
-#: ../../source/using_the_particles_effect.rst:742
+#: ../../source/using_the_particles_effect.rst:708
+#: ../../source/using_the_particles_effect.rst:744
 msgid "Frame Range"
-msgstr "Frame Range (Rango de fotogramas)"
+msgstr "Rango de fotogramas"
 
-#: ../../source/using_the_particles_effect.rst:713
+#: ../../source/using_the_particles_effect.rst:715
 msgid "Fade-in Intensity"
-msgstr "Fade-in Intensity (Intensidad de fundido entrante)"
+msgstr "Intensidad aparición"
 
-#: ../../source/using_the_particles_effect.rst:714
+#: ../../source/using_the_particles_effect.rst:716
 msgid "Sets the intensity of the fade-in process."
 msgstr "Permite definir la intensidad del proceso de fundido entrante."
 
-#: ../../source/using_the_particles_effect.rst:720
-#: ../../source/using_the_particles_effect.rst:723
+#: ../../source/using_the_particles_effect.rst:722
+#: ../../source/using_the_particles_effect.rst:725
 msgid "Fade-out Color"
-msgstr "Fade-out Color (Color de fundido saliente)"
+msgstr "Color de desvanecimiento"
 
-#: ../../source/using_the_particles_effect.rst:724
+#: ../../source/using_the_particles_effect.rst:726
 msgid ""
-"Sets the range of colors to which particles fade starting from a certain "
-"number of frames before their death, by defining a color spectrum (see  :ref:"
-"`Defining Colors and Color Spectrums <defining_colors_and_color_spectrums>`  )."
+"Sets the range of colors to which particles fade starting from a certain number "
+"of frames before their death, by defining a color spectrum (see  :ref:`Defining "
+"Colors and Color Spectrums <defining_colors_and_color_spectrums>`  )."
 msgstr ""
-"Permite definir el rango de colores a los que las partículas serán fundidas, "
-"una cierta cantidad de fotogramas antes de su muerte, mediante un gradiente de "
+"Permite definir el rango de colores a los que las partículas serán fundidas, una "
+"cierta cantidad de fotogramas antes de su muerte, mediante un gradiente de "
 "colores (ver  :ref:`Definición de colores y espectros de colores "
 "<defining_colors_and_color_spectrums>`  )."
 
-#: ../../source/using_the_particles_effect.rst:728
-msgid ""
-"Sets if and which control image has to be used to define the particles fade-"
-"out colors (see  :ref:`Defining Control Images <defining_control_images>`  )."
-msgstr ""
-"Permite establecer si deberá usarse una *imagen de control* para definir los "
-"colores de fundido saliente de las partículas y cuál deberá ser usada (ver  :"
-"ref:`Definición de imágenes de control <defining_control_images>`)."
-
 #: ../../source/using_the_particles_effect.rst:730
 msgid ""
-"If used, particles will pick their fade-out color from the control image "
-"pixels according to their position."
+"Sets if and which control image has to be used to define the particles fade-out "
+"colors (see  :ref:`Defining Control Images <defining_control_images>`  )."
 msgstr ""
-"Si se usara, se escogerá el color de fundido saliente de las partículas a "
-"partir del color de los píxeles de la *imagen de control*, de acuerdo a la "
-"posición de las mismas."
+"Permite establecer si deberá usarse una *Imagen de control* para definir los "
+"colores de fundido saliente de las partículas y cuál deberá ser usada "
+"(ver  :ref:`Definición de imágenes de Control <defining_control_images>`)."
 
-#: ../../source/using_the_particles_effect.rst:736
-msgid "Fade-out Spread"
-msgstr "Fade-out Spread (Dispersión de fundido saliente)"
-
-#: ../../source/using_the_particles_effect.rst:737
+#: ../../source/using_the_particles_effect.rst:732
 msgid ""
-"Sets a spread value that will be added to the red, green and blue values of "
-"the color to which particles fade out."
+"If used, particles will pick their fade-out color from the control image pixels "
+"according to their position."
+msgstr ""
+"Si se usara, se escogerá el color de fundido saliente de las partículas a partir "
+"del color de los píxeles de la *Imagen de control*, de acuerdo a la posición de "
+"las mismas."
+
+#: ../../source/using_the_particles_effect.rst:738
+msgid "Fade-out Spread"
+msgstr "Dispersión desvanecimiento"
+
+#: ../../source/using_the_particles_effect.rst:739
+msgid ""
+"Sets a spread value that will be added to the red, green and blue values of the "
+"color to which particles fade out."
 msgstr ""
 "Permite definir un valor de dispersión que será adicionado a los valores de "
 "rojo, verde y azul del color al que las partículas serán fundidas."
 
-#: ../../source/using_the_particles_effect.rst:749
+#: ../../source/using_the_particles_effect.rst:751
 msgid "Fade-out Intensity"
-msgstr "Fade-out Intensity (Intensidad de fundido saliente)"
+msgstr "Intensidad desvanecimiento"
 
-#: ../../source/using_the_particles_effect.rst:750
+#: ../../source/using_the_particles_effect.rst:752
 msgid "Sets the intensity of the fade-out process."
 msgstr "Permite definir la intensidad del proceso de fundido saliente."
 
 #~ msgid ""
-#~ "If used, the particles will be attracted by the brighter areas of the "
-#~ "image, ignoring the set Gravity Angle value: the brightest areas of the "
-#~ "image will have the Gravity value you set."
+#~ "If used, the particles will be attracted by the brighter areas of the image, "
+#~ "ignoring the set Gravity Angle value: the brightest areas of the image will "
+#~ "have the Gravity value you set."
 #~ msgstr ""
-#~ "Si se usara, las partículas se verán atraídas por las áreas más luminosas "
-#~ "de la imagen, ignorando al valor **Gravity Angle** definido: las áreas más "
+#~ "Si se usara, las partículas se verán atraídas por las áreas más luminosas de "
+#~ "la imagen, ignorando al valor **Gravity Angle** definido: las áreas más "
 #~ "luminosas de la imagen tendrán el valor de gravedad especificado en el "
 #~ "parámetro **Gravity**."
 
@@ -1847,6 +1845,6 @@ msgstr "Permite definir la intensidad del proceso de fundido saliente."
 #~ msgstr ""
 #~ "Permite definir la cantidad mínima y máxima de fotogramas a lo largo de los "
 #~ "cuales variarán los valores de rotación adicional, mientras se mantienen "
-#~ "siendo positivos o negativos. Esto permitirá definir un movimiento "
-#~ "pendular, donde cada ciclo pendular durará una cierta cantidad aleatoria de "
-#~ "fotogramas, teniendo una rotación adicional aleatoria en cada fotograma."
+#~ "siendo positivos o negativos. Esto permitirá definir un movimiento pendular, "
+#~ "donde cada ciclo pendular durará una cierta cantidad aleatoria de fotogramas, "
+#~ "teniendo una rotación adicional aleatoria en cada fotograma."

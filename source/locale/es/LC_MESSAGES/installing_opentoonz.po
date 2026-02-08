@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: Tahoma 1.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-24 15:28-0300\n"
-"PO-Revision-Date: 2020-02-01 16:42-0300\n"
-"Last-Translator: Gabriel Gazzan <gabcorreo@gmail.com>\n"
-"Language: es\n"
+"PO-Revision-Date: 2026-02-01 23:59-0300\n"
+"Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Español\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.7.0\n"
-"X-Generator: Poedit 2.2.4\n"
+"X-Generator: Poedit 3.8\n"
 
 #: ../../source/installing_tahoma.rst:4
 msgid "Installing Tahoma"
@@ -29,15 +29,15 @@ msgstr "Descarga de Tahoma"
 
 #: ../../source/installing_tahoma.rst:11
 msgid ""
-"You can download the appropriate version of Tahoma for your operating "
-"system from the `Download page <https://tahoma.github.io/e/download/"
-"tahoma.html>`_ in the official Tahoma web site. Choose either the "
-"Windows or macOS version to start downloading the installer application."
+"You can download the appropriate version of Tahoma for your operating system "
+"from the `Download page <https://tahoma.github.io/e/download/tahoma.html>`_ "
+"in the official Tahoma web site. Choose either the Windows or macOS version "
+"to start downloading the installer application."
 msgstr ""
 "Es posible descargar la versión apropiada de Tahoma para cada sistema "
-"operativo desde la `Página de Descarga <https://tahoma.github.io/es/"
-"download/tahoma.html>`_ del sitio oficial de Tahoma. Allí será posible "
-"elegir entre las versiones para Windows y macOS del instalador."
+"operativo desde la `Página de Descarga <https://tahoma.github.io/es/download/"
+"tahoma.html>`_ del sitio oficial de Tahoma. Allí será posible elegir entre "
+"las versiones para Windows y macOS del instalador."
 
 #: ../../source/installing_tahoma.rst:13
 msgid ""
@@ -50,8 +50,8 @@ msgstr ""
 #: ../../source/installing_tahoma.rst:15
 msgid ""
 "It's possible to find the developer's \"nightly\" builds `here <https://"
-"github.com/tahoma/tahoma/releases/tag/nightly>`_, where you can test "
-"the latest features and bug fixes, as they are being included in Tahoma."
+"github.com/tahoma/tahoma/releases/tag/nightly>`_, where you can test the "
+"latest features and bug fixes, as they are being included in Tahoma."
 msgstr ""
 "También es posible encontrar las versiones \"nightly\" de desarrollo `aquí "
 "<https://github.com/tahoma/tahoma/releases/tag/nightly>`_, donde será "
@@ -82,18 +82,18 @@ msgstr ""
 
 #: ../../source/installing_tahoma.rst:21
 msgid ""
-"Finally, there are OTX (Tahoma eXperimental) timely releases by "
-"`manongjohn <https://github.com/manongjohn>`_ avalaible for `Windows 64-bit, "
-"macOS and in appimage format <https://github.com/manongjohn/OTX/releases>`_ "
-"where it is possible to test the latest features and bug fixes in a portable "
-"way (i.e. without the need to do a full Tahoma install)."
+"Finally, there are OTX (Tahoma eXperimental) timely releases by `manongjohn "
+"<https://github.com/manongjohn>`_ avalaible for `Windows 64-bit, macOS and "
+"in appimage format <https://github.com/manongjohn/OTX/releases>`_ where it "
+"is possible to test the latest features and bug fixes in a portable way "
+"(i.e. without the need to do a full Tahoma install)."
 msgstr ""
-"Finalmente, existe también OTX una versión experimental de Tahoma, "
-"mantenida por `manongjohn <https://github.com/manongjohn>`_ y disponible "
-"para `Windows de 64 bits, macOS y en formato appimage <https://github.com/"
-"manongjohn/OTX/releases>`_ , donde será posible probar las últimas "
-"características y correcciones de errores de una manera portable (esto es, "
-"sin necesidad de realizar una instalación completa de Tahoma)."
+"Finalmente, existe también OTX una versión experimental de Tahoma, mantenida "
+"por `manongjohn <https://github.com/manongjohn>`_ y disponible para `Windows "
+"de 64 bits, macOS y en formato appimage <https://github.com/manongjohn/OTX/"
+"releases>`_ , donde será posible probar las últimas características y "
+"correcciones de errores de una manera portable (esto es, sin necesidad de "
+"realizar una instalación completa de Tahoma)."
 
 #: ../../source/installing_tahoma.rst:27
 msgid "Installing on Windows"
@@ -111,7 +111,7 @@ msgstr ""
 
 #: ../../source/installing_tahoma.rst:33
 msgid "|win_setup_1|"
-msgstr ""
+msgstr "|win_setup_1|"
 
 #: ../../source/installing_tahoma.rst:36
 msgid "Accept Tahoma Terms of Use."
@@ -119,7 +119,7 @@ msgstr "Aceptar los Términos de Uso de Tahoma."
 
 #: ../../source/installing_tahoma.rst:38
 msgid "|win_setup_2|"
-msgstr ""
+msgstr "|win_setup_2|"
 
 #: ../../source/installing_tahoma.rst:41
 msgid ""
@@ -129,13 +129,13 @@ msgid ""
 "preserved)."
 msgstr ""
 "Decidir dónde se instalará la carpeta **Tahoma stuff** y si se desea "
-"sobrescribir las configuraciones preexistentes en la carpeta Tahoma "
-"stuff, si ya existiera (excepto las configuraciones personales del usuario, "
-"que siempre serán preservadas)."
+"sobrescribir las configuraciones preexistentes en la carpeta Tahoma stuff, "
+"si ya existiera (excepto las configuraciones personales del usuario, que "
+"siempre serán preservadas)."
 
 #: ../../source/installing_tahoma.rst:43
 msgid "|win_setup_3|"
-msgstr ""
+msgstr "|win_setup_3|"
 
 #: ../../source/installing_tahoma.rst:46
 msgid ""
@@ -147,10 +147,9 @@ msgstr ""
 
 #: ../../source/installing_tahoma.rst:48
 msgid "|win_setup_4|"
-msgstr ""
+msgstr "|win_setup_4|"
 
-#: ../../source/installing_tahoma.rst:51
-#: ../../source/installing_tahoma.rst:95
+#: ../../source/installing_tahoma.rst:51 ../../source/installing_tahoma.rst:95
 msgid ""
 "Press the Install button to start the installation process with the chosen "
 "settings."
@@ -160,7 +159,7 @@ msgstr ""
 
 #: ../../source/installing_tahoma.rst:53
 msgid "|win_setup_5|"
-msgstr ""
+msgstr "|win_setup_5|"
 
 #: ../../source/installing_tahoma.rst:56
 msgid ""
@@ -172,7 +171,7 @@ msgstr ""
 
 #: ../../source/installing_tahoma.rst:58
 msgid "|win_setup_6|"
-msgstr ""
+msgstr "|win_setup_6|"
 
 #: ../../source/installing_tahoma.rst:61
 msgid "Chocolatey"
@@ -180,7 +179,7 @@ msgstr "Chocolatey"
 
 #: ../../source/installing_tahoma.rst:63
 msgid "``choco install tahoma``"
-msgstr ""
+msgstr "``choco install tahoma``"
 
 #: ../../source/installing_tahoma.rst:68
 msgid "Installing on OS X"
@@ -193,8 +192,7 @@ msgstr "Seguir los siguientes pasos:"
 #: ../../source/installing_tahoma.rst:72
 msgid "Right-click on the Tahoma.pkg file in Finder & select Open."
 msgstr ""
-"Hacer clic derecho en el archivo Tahoma.pkg en el Finder y seleccionar "
-"Abrir."
+"Hacer clic derecho en el archivo Tahoma.pkg en el Finder y seleccionar Abrir."
 
 #: ../../source/installing_tahoma.rst:75
 msgid "Press the Continue button."
@@ -202,7 +200,7 @@ msgstr "Presionar el botón **Continue**."
 
 #: ../../source/installing_tahoma.rst:77
 msgid "|osx_setup_2|"
-msgstr ""
+msgstr "|osx_setup_2|"
 
 #: ../../source/installing_tahoma.rst:80
 msgid "Choose a language and press the Continue button."
@@ -210,7 +208,7 @@ msgstr "Elegir un idioma y presionar el botón **Continue**."
 
 #: ../../source/installing_tahoma.rst:82
 msgid "|osx_setup_3|"
-msgstr ""
+msgstr "|osx_setup_3|"
 
 #: ../../source/installing_tahoma.rst:85
 msgid "Press the Agree button to accept the Tahoma Terms of Use."
@@ -219,7 +217,7 @@ msgstr ""
 
 #: ../../source/installing_tahoma.rst:87
 msgid "|osx_setup_4|"
-msgstr ""
+msgstr "|osx_setup_4|"
 
 #: ../../source/installing_tahoma.rst:90
 msgid ""
@@ -231,11 +229,11 @@ msgstr ""
 
 #: ../../source/installing_tahoma.rst:92
 msgid "|osx_setup_5|"
-msgstr ""
+msgstr "|osx_setup_5|"
 
 #: ../../source/installing_tahoma.rst:97
 msgid "|osx_setup_6|"
-msgstr ""
+msgstr "|osx_setup_6|"
 
 #: ../../source/installing_tahoma.rst:100
 msgid "Press the Close button to exit the installer."
@@ -243,7 +241,7 @@ msgstr "Presionar el botón **Close** para salir del instalador."
 
 #: ../../source/installing_tahoma.rst:102
 msgid "|osx_setup_7|"
-msgstr ""
+msgstr "|osx_setup_7|"
 
 #: ../../source/installing_tahoma.rst:105
 msgid "Homebrew"
@@ -251,7 +249,7 @@ msgstr "Homebrew"
 
 #: ../../source/installing_tahoma.rst:107
 msgid "``brew cask install tahoma``"
-msgstr ""
+msgstr "``brew cask install tahoma``"
 
 #: ../../source/installing_tahoma.rst:112
 msgid "Installing on Linux"
@@ -263,42 +261,44 @@ msgstr "Arch Linux"
 
 #: ../../source/installing_tahoma.rst:119
 msgid "``sudo pacman -S base-devel git``"
-msgstr ""
+msgstr "``sudo pacman -S base-devel git``"
 
 #: ../../source/installing_tahoma.rst:121
 msgid "``git clone https://aur.archlinux.org/superlu.git``"
-msgstr ""
+msgstr "``git clone https://aur.archlinux.org/superlu.git``"
 
 #: ../../source/installing_tahoma.rst:123
 msgid "``cd superlu``"
-msgstr ""
+msgstr "``cd superlu``"
 
 #: ../../source/installing_tahoma.rst:125
 #: ../../source/installing_tahoma.rst:133
 msgid "``makepkg -si``"
-msgstr ""
+msgstr "``makepkg -si``"
 
 #: ../../source/installing_tahoma.rst:127
 msgid "``cd ..``"
-msgstr ""
+msgstr "``cd ..``"
 
 #: ../../source/installing_tahoma.rst:129
 msgid "``git clone https://aur.archlinux.org/tahoma.git``"
-msgstr ""
+msgstr "``git clone https://aur.archlinux.org/tahoma.git``"
 
 #: ../../source/installing_tahoma.rst:131
 msgid "``cd tahoma``"
-msgstr ""
+msgstr "``cd tahoma``"
 
 #: ../../source/installing_tahoma.rst:135
 msgid "``export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/tahoma/``"
-msgstr ""
+msgstr "``export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/tahoma/``"
 
 #: ../../source/installing_tahoma.rst:137
 msgid ""
 "``echo \"export LD_LIBRARY_PATH=\\$LD_LIBRARY_PATH:/usr/lib/tahoma\" >> "
 "~/.bashrc``"
 msgstr ""
+"``echo \"export LD_LIBRARY_PATH=\\$LD_LIBRARY_PATH:/usr/lib/tahoma\" >> "
+"~/.bashrc``"
 
 #: ../../source/installing_tahoma.rst:142
 msgid "Debian GNU/Linux"
@@ -313,6 +313,8 @@ msgid ""
 "``wget http://www.deb-multimedia.org/pool/main/d/deb-multimedia-keyring/deb-"
 "multimedia-keyring_2016.8.1_all.deb``"
 msgstr ""
+"``wget http://www.deb-multimedia.org/pool/main/d/deb-multimedia-keyring/deb-"
+"multimedia-keyring_2016.8.1_all.deb``"
 
 #: ../../source/installing_tahoma.rst:148
 msgid "Install PGP package."
@@ -320,7 +322,7 @@ msgstr "Instalar el paquete PGP."
 
 #: ../../source/installing_tahoma.rst:150
 msgid "``sudo dpkg -i deb-multimedia-keyring_2016.8.1_all.deb``"
-msgstr ""
+msgstr "``sudo dpkg -i deb-multimedia-keyring_2016.8.1_all.deb``"
 
 #: ../../source/installing_tahoma.rst:152
 msgid "Add repository address to your sources list."
@@ -346,7 +348,7 @@ msgstr "Instalar Tahoma."
 
 #: ../../source/installing_tahoma.rst:160
 msgid "``sudo apt update && apt install tahoma tahoma-data``"
-msgstr ""
+msgstr "``sudo apt update && apt install tahoma tahoma-data``"
 
 #: ../../source/installing_tahoma.rst:162
 msgid "For updating enter ``sudo apt update && apt upgrade``."
@@ -358,7 +360,7 @@ msgstr "Gentoo, Funtoo"
 
 #: ../../source/installing_tahoma.rst:167
 msgid "``sudo emerge media-gfx/tahoma``"
-msgstr ""
+msgstr "``sudo emerge media-gfx/tahoma``"
 
 #: ../../source/installing_tahoma.rst:170
 msgid "openSUSE"
@@ -366,7 +368,7 @@ msgstr "openSUSE"
 
 #: ../../source/installing_tahoma.rst:172
 msgid "``sudo zypper install tahoma``"
-msgstr ""
+msgstr "``sudo zypper install tahoma``"
 
 #: ../../source/installing_tahoma.rst:175
 msgid "Solus"
@@ -374,7 +376,7 @@ msgstr "Solus"
 
 #: ../../source/installing_tahoma.rst:177
 msgid "``sudo eopkg install tahoma``"
-msgstr ""
+msgstr "``sudo eopkg install tahoma``"
 
 #: ../../source/installing_tahoma.rst:180
 msgid "Void Linux"
@@ -382,7 +384,7 @@ msgstr "Void Linux"
 
 #: ../../source/installing_tahoma.rst:182
 msgid "``sudo xbps-install -S tahoma``"
-msgstr ""
+msgstr "``sudo xbps-install -S tahoma``"
 
 #: ../../source/installing_tahoma.rst:187
 msgid "Universal binaries"
@@ -398,7 +400,7 @@ msgstr "Instalar."
 
 #: ../../source/installing_tahoma.rst:194
 msgid "``flatpak install flathub io.github.Tahoma``"
-msgstr ""
+msgstr "``flatpak install flathub io.github.Tahoma``"
 
 #: ../../source/installing_tahoma.rst:196
 msgid "Run."
@@ -406,7 +408,7 @@ msgstr "Ejecutar."
 
 #: ../../source/installing_tahoma.rst:198
 msgid "``flatpak run io.github.Tahoma``"
-msgstr ""
+msgstr "``flatpak run io.github.Tahoma``"
 
 #: ../../source/installing_tahoma.rst:203
 msgid "Snap"
@@ -414,28 +416,27 @@ msgstr "Snap"
 
 #: ../../source/installing_tahoma.rst:205
 msgid "``sudo snap install tahoma``"
-msgstr ""
+msgstr "``sudo snap install tahoma``"
 
 #~ msgid ""
-#~ "Unofficial releases Tahoma by Morevna Project for 32-bit Windows can "
-#~ "be found `here <https://github.com/morevnaproject/tahoma/releases>`_."
+#~ "Unofficial releases Tahoma by Morevna Project for 32-bit Windows can be "
+#~ "found `here <https://github.com/morevnaproject/tahoma/releases>`_."
 #~ msgstr ""
-#~ "Existe una versión no oficial de Tahoma para Windows 32 bits provista "
-#~ "por el Proyecto Morevna, que puede ser encontrada `aquí <https://github."
-#~ "com/morevnaproject/tahoma/releases>`_."
+#~ "Existe una versión no oficial de Tahoma para Windows 32 bits provista por "
+#~ "el Proyecto Morevna, que puede ser encontrada `aquí <https://github.com/"
+#~ "morevnaproject/tahoma/releases>`_."
 
 #~ msgid ""
-#~ "Currently there is no official support for Tahoma on Linux, "
-#~ "nevertheless with the kind help of the friends of the Morevna Project "
-#~ "there are versions available of Tahoma for Linux, which can be "
-#~ "downloaded directly from the `Morevna Project website <https://"
+#~ "Currently there is no official support for Tahoma on Linux, nevertheless "
+#~ "with the kind help of the friends of the Morevna Project there are "
+#~ "versions available of Tahoma for Linux, which can be downloaded directly "
+#~ "from the `Morevna Project website <https://morevnaproject.org/tahoma/>`_."
+#~ msgstr ""
+#~ "Actualmente no existe soporte oficial para Linux en Tahoma, sin embargo "
+#~ "gracias a la ayuda de nuestros amigos del Proyecto Morevna, existen "
+#~ "versiones de Tahoma para Linux disponibles, que pueden ser descargadas "
+#~ "directamente desde el sitio web del `Proyecto Morevna <https://"
 #~ "morevnaproject.org/tahoma/>`_."
-#~ msgstr ""
-#~ "Actualmente no existe soporte oficial para Linux en Tahoma, sin "
-#~ "embargo gracias a la ayuda de nuestros amigos del Proyecto Morevna, "
-#~ "existen versiones de Tahoma para Linux disponibles, que pueden ser "
-#~ "descargadas directamente desde el sitio web del `Proyecto Morevna "
-#~ "<https://morevnaproject.org/tahoma/>`_."
 
 #~ msgid "AppImage by Morevna Project"
 #~ msgstr "AppImage del Proyecto Morevna"
@@ -444,18 +445,17 @@ msgstr ""
 #~ msgstr "Descarga de la AppImage."
 
 #~ msgid ""
-#~ "``wget https://github.com/morevnaproject/tahoma/releases/download/"
-#~ "v1.3.0-morevna/Tahoma-1.3.0-morevna-19.02.02-linux64-ac306.appimage`` "
-#~ "for 64-bit OS or ``wget https://github.com/morevnaproject/tahoma/"
-#~ "releases/download/v1.3.0-morevna/Tahoma-1.3.0-morevna-19.02.02-linux32-"
-#~ "ac306.appimage`` for 32-bit OS."
+#~ "``wget https://github.com/morevnaproject/tahoma/releases/download/v1.3.0-"
+#~ "morevna/Tahoma-1.3.0-morevna-19.02.02-linux64-ac306.appimage`` for 64-bit "
+#~ "OS or ``wget https://github.com/morevnaproject/tahoma/releases/download/"
+#~ "v1.3.0-morevna/Tahoma-1.3.0-morevna-19.02.02-linux32-ac306.appimage`` for "
+#~ "32-bit OS."
 #~ msgstr ""
-#~ "``wget https://github.com/morevnaproject/tahoma/releases/download/"
-#~ "v1.3.0-morevna/Tahoma-1.3.0-morevna-19.02.02-linux64-ac306.appimage`` "
-#~ "para sistema operativo de 64 bits o ``wget https://github.com/"
-#~ "morevnaproject/tahoma/releases/download/v1.3.0-morevna/Tahoma-1.3.0-"
-#~ "morevna-19.02.02-linux32-ac306.appimage`` para sistema operativo de 32 "
-#~ "bits."
+#~ "``wget https://github.com/morevnaproject/tahoma/releases/download/v1.3.0-"
+#~ "morevna/Tahoma-1.3.0-morevna-19.02.02-linux64-ac306.appimage`` para "
+#~ "sistema operativo de 64 bits o ``wget https://github.com/morevnaproject/"
+#~ "tahoma/releases/download/v1.3.0-morevna/Tahoma-1.3.0-morevna-19.02.02-"
+#~ "linux32-ac306.appimage`` para sistema operativo de 32 bits."
 
 #~ msgid "Make AppImage executable."
 #~ msgstr "Hacer ejecutable a la AppImage."

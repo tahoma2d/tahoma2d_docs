@@ -7,17 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tahoma 1.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-02-06 13:01+0800\n"
-"PO-Revision-Date: 2019-09-10 13:41-0300\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Last-Translator: Gabriel Gazzan <gabcorreo@gmail.com>\n"
+"POT-Creation-Date: 2026-01-30 22:32-0300\n"
+"PO-Revision-Date: 2026-02-01 23:58-0300\n"
+"Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Español\n"
 "Language: es\n"
-"X-Generator: Poedit 2.2.3\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.17.0\n"
+"X-Generator: Poedit 3.8\n"
 
 #: ../../source/production_workflow.rst:4
 msgid "Production Workflow"
@@ -32,12 +32,16 @@ msgid ""
 "The following is an example of how Tahoma allows the management of a "
 "traditional animation production."
 msgstr ""
-"El siguiente es un ejemplo de cómo Tahoma posibilita la "
-"administración de una producción de animación tradicional."
+"El siguiente es un ejemplo de cómo Tahoma2D posibilita la administración de "
+"una producción de animación tradicional."
 
 #: ../../source/production_workflow.rst:13
 msgid "|traditional_workflow|"
 msgstr "|traditional_workflow_es|"
+
+#: ../../source/production_workflow.rst:182
+msgid "traditional_workflow"
+msgstr "traditional_workflow"
 
 #: ../../source/production_workflow.rst:19
 msgid "Scanning"
@@ -45,83 +49,74 @@ msgstr "Escaneo"
 
 #: ../../source/production_workflow.rst:20
 msgid ""
-"Hand-drawn elements are first defined in an Tahoma Xsheet, and then "
-"acquired by using a scanner. These elements can consist of animation "
-"levels, i.e. sequences of drawings belonging to the same animation, or "
-"background images and overlays."
+"Hand-drawn elements are first defined in an Tahoma Xsheet, and then acquired "
+"by using a scanner. These elements can consist of animation levels, i.e. "
+"sequences of drawings belonging to the same animation, or background images "
+"and overlays."
 msgstr ""
 "Primero, se definen los elementos dibujados a mano en una Planilla de "
-"Tahoma, para luego ser incorporados usando un escáner. Estos "
-"elementos pueden consistir en niveles de animación (secuencias de "
-"dibujos pertenecientes a la misma animación) o imágenes de fondo o que "
-"serán superpuestas sobre la animación."
+"Tahoma2D, para luego ser incorporados usando un escáner. Estos elementos "
+"pueden consistir en niveles de animación (secuencias de dibujos pertenecientes "
+"a la misma animación) o imágenes de fondo o que serán superpuestas sobre la "
+"animación."
 
 #: ../../source/production_workflow.rst:22
 msgid ""
-"The scanned images then pass through a cleanup process, and are auto "
-"centered when necessary, using their pegbar holes as a guide and their "
-"related field guide setting. In the case of lineart drawings, these are "
-"further prepared for the painting process."
+"The scanned images then pass through a cleanup process, and are auto centered "
+"when necessary, using their pegbar holes as a guide and their related field "
+"guide setting. In the case of lineart drawings, these are further prepared for "
+"the painting process."
 msgstr ""
-"Las imágenes escaneadas pasan luego por un proceso de limpieza y son "
-"centradas automáticamente cuando sea necesario, usando las perforaciones "
-"de las hojas como guía, así como la correspondiente guía de campos."
+"Las imágenes escaneadas pasan luego por un proceso de limpieza y son centradas "
+"automáticamente cuando sea necesario, usando las perforaciones de las hojas "
+"como guía, así como la correspondiente guía de campos."
 
-#: ../../source/production_workflow.rst:24
-msgid "See  :ref:`Scanning Paper Drawings <scanning_paper_drawings>`  ."
-msgstr ""
-"Ver  :ref:`Escaneo de dibujos en papel <scanning_paper_drawings>`  ."
-
-#: ../../source/production_workflow.rst:30
+#: ../../source/production_workflow.rst:29
 msgid "Paperless Drawing"
 msgstr "Dibujo digital"
 
-#: ../../source/production_workflow.rst:31
+#: ../../source/production_workflow.rst:30
 msgid ""
-"Additional drawings and animation levels can be drawn directly in "
-"Tahoma. Drawings can be an important part of the scene, such as a "
-"background or a character’s prop, or incidental elements needed to "
-"achieve a particular result, for example a mask image to create a matte "
-"effect."
+"Additional drawings and animation levels can be drawn directly in Tahoma. "
+"Drawings can be an important part of the scene, such as a background or a "
+"character’s prop, or incidental elements needed to achieve a particular "
+"result, for example a mask image to create a matte effect."
 msgstr ""
-"Dibujos y niveles de animación adicionales pueden ser dibujados "
-"directamente en Tahoma. Los dibujos pueden ser una parte importante "
-"de la escena, tal como los fondos o elementos de utilería, así como "
-"elementos casuales necesarios para lograr algún resultado particular, "
-"por ejemplo: una imagen para ser usada como máscara en un efecto de "
-"transparencia."
+"Dibujos y niveles de animación adicionales pueden ser dibujados directamente "
+"en Tahoma2D. Los dibujos pueden ser una parte importante de la escena, tal "
+"como los fondos o elementos de utilería, así como elementos casuales "
+"necesarios para lograr algún resultado particular, por ejemplo: una imagen "
+"para ser usada como máscara en un efecto de transparencia."
 
-#: ../../source/production_workflow.rst:33
+#: ../../source/production_workflow.rst:32
 msgid "See  :ref:`Drawing Animation Levels <drawing_animation_levels>`  ."
-msgstr ""
-"Ver  :ref:`Dibujo de niveles de animación <drawing_animation_levels>`  ."
+msgstr "Ver  :ref:`Dibujo de niveles de animación <drawing_animation_levels>`  ."
 
-#: ../../source/production_workflow.rst:39
+#: ../../source/production_workflow.rst:38
 msgid "Color Model"
 msgstr "Modelo de color"
 
-#: ../../source/production_workflow.rst:40
+#: ../../source/production_workflow.rst:39
 msgid ""
-"Color models are created for accurate color-referencing during "
-"production, when painting characters and props. They can be drawings "
-"made in Tahoma, scanned images processed in Tahoma, or images "
-"coming from a 3rd party software."
+"Color models are created for accurate color-referencing during production, "
+"when painting characters and props. They can be drawings made in Tahoma, "
+"scanned images processed in Tahoma, or images coming from a 3rd party software."
 msgstr ""
-"Los modelos de color son creados para servir como una referencia precisa "
-"de color durante una producción, para pintar personajes y utilería. "
-"Pueden ser dibujos hechos en Tahoma, imágenes escaneadas procesadas "
-"en Tahoma o imágenes provenientes de otros programas."
+"Los modelos de color son creados para servir como una referencia precisa de "
+"color durante una producción, para pintar personajes y utilería. Pueden ser "
+"dibujos hechos en Tahoma2D, imágenes escaneadas procesadas en Tahoma2D o "
+"imágenes provenientes de otros programas."
 
-#: ../../source/production_workflow.rst:42
+#: ../../source/production_workflow.rst:41
 msgid ""
-"In case of Tahoma drawings, the color model palette can be defined by "
-"creating styles and colors to be used for painting animation levels."
+"In case of Tahoma drawings, the color model palette can be defined by creating "
+"styles and colors to be used for painting animation levels."
 msgstr ""
-"En caso de tratarse de dibujos hechos en Tahoma, la paleta del modelo "
-"de color puede ser definida creando estilos y colores para que sean "
-"usados al pintar niveles de animación."
+"En caso de tratarse de dibujos hechos en Tahoma2D, la paleta del modelo de "
+"color puede ser definida creando estilos y colores para que sean usados al "
+"pintar niveles de animación."
 
-#: ../../source/production_workflow.rst:44
+#: ../../source/production_workflow.rst:43
 msgid ""
 "See  :ref:`Managing Palettes and Styles <managing_palettes_and_styles>`  "
 "and  :ref:`Using a Color Model <using_a_color_model>`  ."
@@ -130,419 +125,414 @@ msgstr ""
 "<managing_palettes_and_styles>`  y  :ref:`Uso de un modelo de color "
 "<using_a_color_model>`  ."
 
-#: ../../source/production_workflow.rst:50
+#: ../../source/production_workflow.rst:49
 msgid "Ink & Painting"
 msgstr "Entintado y pintura"
 
-#: ../../source/production_workflow.rst:51
+#: ../../source/production_workflow.rst:50
 msgid ""
-"Animation levels scanned and cleaned up in Tahoma, and those made "
-"directly in Tahoma, are painted by using the styles stored in the "
-"palette and a set of tools."
+"Animation levels scanned and cleaned up in Tahoma, and those made directly in "
+"Tahoma, are painted by using the styles stored in the palette and a set of "
+"tools."
 msgstr ""
-"Tanto los niveles de animación escaneados y luego limpiados en "
-"Tahoma, como aquellos creados directamente en Tahoma, son pintados "
-"usando los estilos almacenados en la paleta y un conjunto determinado de "
-"herramientas."
+"Tanto los niveles de animación escaneados y luego limpiados en Tahoma2D, como "
+"aquellos creados directamente en Tahoma2D, son pintados usando los estilos "
+"almacenados en la paleta y un conjunto determinado de herramientas."
 
-#: ../../source/production_workflow.rst:53
+#: ../../source/production_workflow.rst:52
 msgid ""
-"Palette styles are interactively “linked” to drawn lines and filled "
-"areas by using indexes. The main advantage of this method is that if you "
-"edit a style of the palette, all the lines and filled areas using that "
-"style will be automatically updated. This allows you to change or "
-"calibrate colors also after the painting process has been done, without "
-"correcting the style line by line, or area by area."
+"Palette styles are interactively “linked” to drawn lines and filled areas by "
+"using indexes. The main advantage of this method is that if you edit a style "
+"of the palette, all the lines and filled areas using that style will be "
+"automatically updated. This allows you to change or calibrate colors also "
+"after the painting process has been done, without correcting the style line by "
+"line, or area by area."
 msgstr ""
 "Los estilos de la paleta están \"vinculados\" de forma interactiva a las "
 "líneas dibujadas y a las áreas pintadas, mediante el uso de un índice "
-"numérico. La principal ventaja de este método es que si se edita un "
-"estilo de la paleta, todas las líneas y áreas de relleno que lo hayan "
-"usado, serán actualizadas de forma automática. Esto permite cambiar o "
-"calibrar los colores incluso después de realizado el proceso de pintado, "
-"sin necesidad de corregir los colores línea a línea o área a área."
+"numérico. La principal ventaja de este método es que si se edita un estilo de "
+"la paleta, todas las líneas y áreas de relleno que lo hayan usado, serán "
+"actualizadas de forma automática. Esto permite cambiar o calibrar los colores "
+"incluso después de realizado el proceso de pintado, sin necesidad de corregir "
+"los colores línea a línea o área a área."
 
-#: ../../source/production_workflow.rst:55
+#: ../../source/production_workflow.rst:54
 msgid ""
 "See  :ref:`Managing Palettes and Styles <managing_palettes_and_styles>`  "
 "and  :ref:`Painting Animation Levels <painting_animation_levels>`  ."
 msgstr ""
 "Ver  :ref:`Administración de paletas y estilos "
-"<managing_palettes_and_styles>`  y  :ref:`Pintura de niveles de "
-"animación <painting_animation_levels>`  ."
+"<managing_palettes_and_styles>`  y  :ref:`Pintura de niveles de animación "
+"<painting_animation_levels>`  ."
 
-#: ../../source/production_workflow.rst:61
+#: ../../source/production_workflow.rst:60
 msgid "Compositing"
 msgstr "Composición"
 
-#: ../../source/production_workflow.rst:62
+#: ../../source/production_workflow.rst:61
 msgid ""
-"All Tahoma painted levels and images are exposed in the Xsheet where "
-"the timing of all the elements of a scene can be controlled. Images, "
-"animations and clips from 3rd party software can be loaded as well."
+"All Tahoma painted levels and images are exposed in the Xsheet where the "
+"timing of all the elements of a scene can be controlled. Images, animations "
+"and clips from 3rd party software can be loaded as well."
 msgstr ""
-"Todos los niveles e imágenes pintadas en Tahoma son expuestos en la "
-"Planilla o la Línea de tiempo, donde es posible controlar la "
-"temporización de todos los elementos de una escena. También es posible "
-"cargar imágenes, animaciones y clips de video creados en otros programas."
+"Todos los niveles e imágenes pintadas en Tahoma2D son expuestos en la Planilla "
+"o la Línea de tiempo, donde es posible controlar la temporización de todos los "
+"elementos de una escena. También es posible cargar imágenes, animaciones y "
+"clips de video creados en otros programas."
 
-#: ../../source/production_workflow.rst:64
+#: ../../source/production_workflow.rst:63
 msgid ""
-"After adding and arranging the required elements to the Xsheet as "
-"layered columns, they are then animated by using interpolated keys "
-"placed on necessary parameters. Elements that can be animated in this "
-"way include the camera, columns, pegbars and the table."
+"After adding and arranging the required elements to the Xsheet as layered "
+"columns, they are then animated by using interpolated keys placed on necessary "
+"parameters. Elements that can be animated in this way include the camera, "
+"columns, pegbars and the table."
 msgstr ""
 "Luego de agregar y acomodar los elementos necesarios en columnas de la "
-"Planilla (o en capas de la Línea de tiempo), estos son animados mediante "
-"el uso de fotogramas claves colocados en los parámetros necesarios. Los "
-"elementos que pueden ser animados de esta manera incluyen: cámaras, "
-"columnas/capas, barras de sujeción y la mesa."
+"Planilla (o en capas de la Línea de tiempo), estos son animados mediante el "
+"uso de fotogramas claves colocados en los parámetros necesarios. Los elementos "
+"que pueden ser animados de esta manera incluyen: cámaras, columnas/capas, "
+"barras de sujeción y la mesa."
 
-#: ../../source/production_workflow.rst:66
+#: ../../source/production_workflow.rst:65
 msgid ""
-"Special FX, such as blurs, lights, keys, masks, warps, gradients, etc. "
-"can be applied to the content of Xsheet columns, and can also be "
-"animated by setting key value to the parameters."
+"Special FX, such as blurs, lights, keys, masks, warps, gradients, etc. can be "
+"applied to the content of Xsheet columns, and can also be animated by setting "
+"key value to the parameters."
 msgstr ""
-"Es posible aplicar efectos tales como desenfoques, luces, recortes, "
-"máscaras, deformaciones, gradientes, etc. al contenido de las columnas "
-"de la Planilla (o capas de la Línea de tiempo), los que también podrán "
-"ser animados estableciendo fotogramas clave en sus parámetros."
+"Es posible aplicar efectos tales como desenfoques, luces, recortes, máscaras, "
+"deformaciones, gradientes, etc. al contenido de las columnas de la Planilla (o "
+"capas de la Línea de tiempo), los que también podrán ser animados "
+"estableciendo fotogramas clave en sus parámetros."
 
-#: ../../source/production_workflow.rst:68
+#: ../../source/production_workflow.rst:67
 msgid ""
-"Object and special FX transformations are mapped in the function editor "
-"window, where set key values and related interpolations can be "
-"controlled and modified by using function curves or numerical columns."
+"Object and special FX transformations are mapped in the function editor panel, "
+"where set key values and related interpolations can be controlled and modified "
+"by using function curves or numerical columns."
 msgstr ""
 "La animación de las transformaciones de los objetos y efectos pueden ser "
-"visualizados en el panel Editor de funciones, donde es posible controlar "
-"los valores de los fotogramas clave, así como las interpolaciones entre "
-"los mismos, mediante una planilla de valores o un editor de gráficas."
+"visualizados en el panel Editor de funciones, donde es posible controlar los "
+"valores de los fotogramas clave, así como las interpolaciones entre los "
+"mismos, mediante una planilla de valores o un editor de gráficas."
 
-#: ../../source/production_workflow.rst:70
+#: ../../source/production_workflow.rst:69
 msgid ""
-"See  :ref:`Working in Xsheet <working_in_xsheet>` ,  :ref:`Creating "
-"Movements <creating_movements>` ,  :ref:`Applying Special FX "
-"<applying_special_fx>`  and  :ref:`Editing Using Spreadsheet and Curves "
+"See  :ref:`Working in Xsheet <working_in_xsheet>` ,  :ref:`Creating Movements "
+"<creating_movements>` ,  :ref:`Applying Special FX <applying_special_fx>`  "
+"and  :ref:`Editing Using Spreadsheet and Curves "
 "<editing_curves_and_numerical_columns>`  ."
 msgstr ""
 "Ver  :ref:`Trabajo en la Planilla/Línea de tiempo "
 "<working_in_xsheet>` ,  :ref:`Creación de movimientos "
-"<creating_movements>` ,  :ref:`Aplicación de efectos "
-"<applying_special_fx>`  y  :ref:`Edición usando la planilla y curvas "
+"<creating_movements>` ,  :ref:`Aplicación de efectos <applying_special_fx>`  "
+"y  :ref:`Edición usando la planilla y curvas "
 "<editing_curves_and_numerical_columns>`  ."
 
-#: ../../source/production_workflow.rst:76
+#: ../../source/production_workflow.rst:75
 msgid "Render Farm"
 msgstr "Granja de procesamiento"
 
-#: ../../source/production_workflow.rst:77
+#: ../../source/production_workflow.rst:76
 msgid ""
-"The scene is rendered in order to compose all the transformations and "
-"applied special FX in a sequence of frames in the format and resolution "
-"you prefer."
+"The scene is rendered in order to compose all the transformations and applied "
+"special FX in a sequence of frames in the format and resolution you prefer."
 msgstr ""
-"La escena es procesada, para componer todas las transformaciones y "
-"efectos aplicados, en una secuencia de fotogramas en el formato y "
-"resolución deseados."
+"La escena es procesada, para componer todas las transformaciones y efectos "
+"aplicados, en una secuencia de fotogramas en el formato y resolución deseados."
 
-#: ../../source/production_workflow.rst:79
-#: ../../source/production_workflow.rst:178
+#: ../../source/production_workflow.rst:78
+#: ../../source/production_workflow.rst:177
 msgid ""
-"The Tahoma render farm allows you to batch-render Tahoma scenes by "
-"using a series of computers connected on the same network using TCP/IP."
+"The Tahoma render farm allows you to batch-render Tahoma scenes by using a "
+"series of computers connected on the same network using TCP/IP."
 msgstr ""
-"La granja de procesamiento de Tahoma permite realizar un "
-"procesamiento por lotes de escenas de Tahoma, usando una serie de "
-"computadoras conectadas a la misma red, mediante el protocolo TCP/IP."
+"La granja de procesamiento de Tahoma2D permite realizar un procesamiento por "
+"lotes de escenas de Tahoma2D, usando una serie de computadoras conectadas a la "
+"misma red, mediante el protocolo TCP/IP."
 
-#: ../../source/production_workflow.rst:81
-#: ../../source/production_workflow.rst:180
+#: ../../source/production_workflow.rst:80
+#: ../../source/production_workflow.rst:179
 msgid ""
-"See  :ref:`Rendering the Animation <rendering_the_animation>`  and  :ref:"
-"`Using the Toonz Farm <using_the_toonz_farm>`  ."
+"See  :ref:`Rendering the Animation <rendering_the_animation>`  "
+"and  :ref:`Using the Toonz Farm <using_the_toonz_farm>`  ."
 msgstr ""
-"Ver  :ref:`Proceso de una animación <rendering_the_animation>`  y  :ref:"
-"`Uso de Toonz Farm <using_the_toonz_farm>`  ."
+"Ver  :ref:`Proceso de una animación <rendering_the_animation>`  y  :ref:`Uso "
+"de Toonz Farm <using_the_toonz_farm>`  ."
 
-#: ../../source/production_workflow.rst:87
+#: ../../source/production_workflow.rst:86
 msgid "Paperless Workflow"
 msgstr "Proceso digital de producción"
 
-#: ../../source/production_workflow.rst:88
+#: ../../source/production_workflow.rst:87
 msgid ""
-"The following is an example of how Tahoma allows the management of a "
-"paperless animation production."
+"The following is an example of how Tahoma allows the management of a paperless "
+"animation production."
 msgstr ""
-"El siguiente es un ejemplo de cómo Tahoma posibilita la "
-"administración de una producción de animación digital."
+"El siguiente es un ejemplo de cómo Tahoma2D posibilita la administración de "
+"una producción de animación digital."
 
-#: ../../source/production_workflow.rst:90
+#: ../../source/production_workflow.rst:89
 msgid "|paperless_workflow|"
 msgstr "|paperless_workflow_es|"
 
-#: ../../source/production_workflow.rst:95
+#: ../../source/production_workflow.rst:183
+msgid "paperless_workflow"
+msgstr "paperless_workflow"
+
+#: ../../source/production_workflow.rst:94
 msgid "Preproduction: Concept"
 msgstr "Preproducción: Concepto"
 
-#: ../../source/production_workflow.rst:96
+#: ../../source/production_workflow.rst:95
 msgid ""
-"Even if a paperless project can be run regardless of the script, the "
-"concept of a format with few settings and a stable cast of characters "
-"will ease the arrangement of libraries to be prepared before the actual "
-"episode production."
+"Even if a paperless project can be run regardless of the script, the concept "
+"of a format with few settings and a stable cast of characters will ease the "
+"arrangement of libraries to be prepared before the actual episode production."
 msgstr ""
-"Aunque es posible ejecutar un proyecto digital prescindiendo del guion, "
-"tener el concepto de formato con una serie de parámetros y elenco de "
-"personajes estables que lo componen, facilitará la previa creación de "
-"bibliotecas, antes de comenzar la producción de los episodios, en sí "
-"mismos."
+"Aunque es posible ejecutar un proyecto digital prescindiendo del guion, tener "
+"el concepto de formato con una serie de parámetros y elenco de personajes "
+"estables que lo componen, facilitará la previa creación de bibliotecas, antes "
+"de comenzar la producción de los episodios, en sí mismos."
 
-#: ../../source/production_workflow.rst:102
+#: ../../source/production_workflow.rst:101
 msgid "Preproduction: Graphic Design"
 msgstr "Preproducción: Diseño"
 
-#: ../../source/production_workflow.rst:103
+#: ../../source/production_workflow.rst:102
 msgid ""
-"The graphic design of characters, props and locations is equally "
-"important, in order to find out a style that will fit well both with the "
-"drawing capabilities of the software and with the cutout animation "
-"technique."
+"The graphic design of characters, props and locations is equally important, in "
+"order to find out a style that will fit well both with the drawing "
+"capabilities of the software and with the cutout animation technique."
 msgstr ""
-"El diseño de personajes, utilería y entornos es igualmente importante "
-"para poder encontrar un estilo que se adapte bien, tanto a las "
-"capacidades de dibujo como a las de animación del programa."
+"El diseño de personajes, utilería y entornos es igualmente importante para "
+"poder encontrar un estilo que se adapte bien, tanto a las capacidades de "
+"dibujo como a las de animación del programa."
 
-#: ../../source/production_workflow.rst:105
+#: ../../source/production_workflow.rst:104
 msgid ""
-"In particular when designing character models and props, for which you "
-"could develop a specific line style to apply to vectors, or use very "
-"neat lines typical of vector animations, you should consider a design "
-"where the model animation pivot points can be easily disguised under "
-"drawings features (for example the pivot point of a ponytail linked to "
-"the character’s head can be disguised under a ribbon)."
+"In particular when designing character models and props, for which you could "
+"develop a specific line style to apply to vectors, or use very neat lines "
+"typical of vector animations, you should consider a design where the model "
+"animation pivot points can be easily disguised under drawings features (for "
+"example the pivot point of a ponytail linked to the character’s head can be "
+"disguised under a ribbon)."
 msgstr ""
-"En particular, al diseñar modelos de personajes y utilería (para los "
-"cuales es posible desarrollar un estilo de línea vectorial específico, "
-"así como usar líneas bien precisas típicas de las animaciones "
-"vectoriales) debería considerarse un diseño en donde los puntos de "
-"pivote de los modelos a ser animados puedan disimularse fácilmente bajo "
-"alguna otra característica del dibujo (por ejemplo, el punto de pivote "
-"de una cola de caballo vinculada a la cabeza, puede ser disimulado bajo "
-"una gomita)."
+"En particular, al diseñar modelos de personajes y utilería (para los cuales es "
+"posible desarrollar un estilo de línea vectorial específico, así como usar "
+"líneas bien precisas típicas de las animaciones vectoriales) debería "
+"considerarse un diseño en donde los puntos de pivote de los modelos a ser "
+"animados puedan disimularse fácilmente bajo alguna otra característica del "
+"dibujo (por ejemplo, el punto de pivote de una cola de caballo vinculada a la "
+"cabeza, puede ser disimulado bajo una gomita)."
 
-#: ../../source/production_workflow.rst:111
+#: ../../source/production_workflow.rst:110
 msgid "Preproduction: Storyboard"
 msgstr "Preproducción: Storyboard"
 
-#: ../../source/production_workflow.rst:112
+#: ../../source/production_workflow.rst:111
 msgid ""
-"While usually the storyboard is used by the director to control the "
-"rhythm of the action, in case of a paperless production it also "
-"identifies all the elements needed for the production of each scene, by "
-"listing all of the character animations and poses, and identifying all "
-"of the props and backgrounds that are needed to implement the story."
+"While usually the storyboard is used by the director to control the rhythm of "
+"the action, in case of a paperless production it also identifies all the "
+"elements needed for the production of each scene, by listing all of the "
+"character animations and poses, and identifying all of the props and "
+"backgrounds that are needed to implement the story."
 msgstr ""
-"Si bien usualmente el storyboard es usado por el director para controlar "
-"el ritmo de la acción, en el caso de una producción digital también "
-"sirve para identificar todos los elementos necesarios para la producción "
-"de cada escena, permitiendo hacer un listado de todas las animaciones y "
-"poses de los personajes e identificar todos los elementos de utilería y "
-"fondos que serán necesarios para implementar la historia."
+"Si bien usualmente el storyboard es usado por el director para controlar el "
+"ritmo de la acción, en el caso de una producción digital también sirve para "
+"identificar todos los elementos necesarios para la producción de cada escena, "
+"permitiendo hacer un listado de todas las animaciones y poses de los "
+"personajes e identificar todos los elementos de utilería y fondos que serán "
+"necesarios para implementar la historia."
 
-#: ../../source/production_workflow.rst:118
+#: ../../source/production_workflow.rst:117
 msgid "Animatic"
 msgstr "Animatic"
 
-#: ../../source/production_workflow.rst:119
+#: ../../source/production_workflow.rst:118
 msgid ""
-"The animatic is created starting from the scanned storyboard drawings. "
-"In Tahoma, or in a third-party software, the storyboard drawings are "
-"imported, timing is adjusted and camera movements are set. Audio files "
-"too can be imported for reference."
+"The animatic is created starting from the scanned storyboard drawings. In "
+"Tahoma, or in a third-party software, the storyboard drawings are imported, "
+"timing is adjusted and camera movements are set. Audio files too can be "
+"imported for reference."
 msgstr ""
-"El animatic es creado a partir de los dibujos escaneados del storyboard. "
-"En Tahoma, igual que en otros programas, los dibujos del storyboard "
-"son importados, su temporización es ajustada y se definen los "
-"movimientos de cámara. También es posible importar archivos de sonido "
-"como referencia."
+"El animatic es creado a partir de los dibujos escaneados del storyboard. En "
+"Tahoma2D, igual que en otros programas, los dibujos del storyboard son "
+"importados, su temporización es ajustada y se definen los movimientos de "
+"cámara. También es posible importar archivos de sonido como referencia."
 
-#: ../../source/production_workflow.rst:121
+#: ../../source/production_workflow.rst:120
 msgid ""
-"In case the animatic is created in Tahoma, it can also be split so "
-"that each cut can be used as a starting point for the final compositing "
-"of each scene."
+"In case the animatic is created in Tahoma, it can also be split so that each "
+"cut can be used as a starting point for the final compositing of each scene."
 msgstr ""
-"En caso en que el animatic sea creado en Tahoma, también puede ser "
-"dividido de tal forma que cada sección sea también usada como punto de "
-"partida para la composición final de cada escena."
+"En caso en que el animatic sea creado en Tahoma2D, también puede ser dividido "
+"de tal forma que cada sección sea también usada como punto de partida para la "
+"composición final de cada escena."
 
-#: ../../source/production_workflow.rst:127
+#: ../../source/production_workflow.rst:126
 msgid "Libraries"
 msgstr "Bibliotecas"
 
-#: ../../source/production_workflow.rst:128
+#: ../../source/production_workflow.rst:127
 msgid ""
-"Libraries are prepared by drawing directly in Tahoma all of the "
-"elements composing the scenes, such as locations, characters, props, etc."
+"Libraries are prepared by drawing directly in Tahoma all of the elements "
+"composing the scenes, such as locations, characters, props, etc."
 msgstr ""
-"Las bibliotecas se preparan dibujando directamente en Tahoma todos "
-"los elementos que componen las escenas, tales como entornos, personajes, "
-"utilería, etc."
+"Las bibliotecas se preparan dibujando directamente en Tahoma2D todos los "
+"elementos que componen las escenas, tales como entornos, personajes, utilería, "
+"etc."
 
-#: ../../source/production_workflow.rst:130
+#: ../../source/production_workflow.rst:129
 msgid ""
-"As far as the characters are concerned, they will be decomposed in "
-"multiple levels (i.e. head, torso, arms etc.) used as skeleton "
-"components rejoined through a hierarchy which at the end will make "
-"models available to the animators."
+"As far as the characters are concerned, they will be decomposed in multiple "
+"levels (i.e. head, torso, arms etc.) used as skeleton components rejoined "
+"through a hierarchy which at the end will make models available to the "
+"animators."
 msgstr ""
-"En lo que respecta a los personajes, éstos serán divididos en varios "
-"niveles (cabeza, cuerpo, brazos, etc.) que serán usados como componentes "
-"del esqueleto y vueltos a reunir mediante una jerarquía que, finalmente, "
-"los dejará prontos para su uso por parte de los animadores."
+"En lo que respecta a los personajes, éstos serán divididos en varios niveles "
+"(cabeza, cuerpo, brazos, etc.) que serán usados como componentes del esqueleto "
+"y vueltos a reunir mediante una jerarquía que, finalmente, los dejará prontos "
+"para su uso por parte de los animadores."
 
-#: ../../source/production_workflow.rst:132
+#: ../../source/production_workflow.rst:131
 msgid ""
 "According to the storyboard analysis, the drawings needed both for the "
 "canonical turn-around model (i.e. a collection of models as seen from "
-"different points of view: front, back, side and three-quarter views) and "
-"for additional movements are prepared. Starting from these reference "
-"animations, such as running or walking cycles, jumping, may be stored as "
-"well in order to be re-used in the scene production."
+"different points of view: front, back, side and three-quarter views) and for "
+"additional movements are prepared. Starting from these reference animations, "
+"such as running or walking cycles, jumping, may be stored as well in order to "
+"be re-used in the scene production."
 msgstr ""
-"De acuerdo al análisis del storyboard, se prepararán los dibujos "
-"necesarios, tanto para el giro canónico del modelo (una colección de "
-"dibujos vistos desde diferentes puntos de vista: frontal, trasero, "
-"lateral y tres cuartos), como para otros movimientos adicionales. A "
-"partir de estas referencias, se podrán producir también animaciones, "
-"tales como ciclos de corridas, caminatas, saltos, etc. para ser "
-"reutilizadas durante la producción de las escenas."
+"De acuerdo al análisis del storyboard, se prepararán los dibujos necesarios, "
+"tanto para el giro canónico del modelo (una colección de dibujos vistos desde "
+"diferentes puntos de vista: frontal, trasero, lateral y tres cuartos), como "
+"para otros movimientos adicionales. A partir de estas referencias, se podrán "
+"producir también animaciones, tales como ciclos de corridas, caminatas, "
+"saltos, etc. para ser reutilizadas durante la producción de las escenas."
 
-#: ../../source/production_workflow.rst:134
+#: ../../source/production_workflow.rst:133
 msgid ""
-"Props and backgrounds can be also created with third-party software, "
-"including rendered images from 3D software."
+"Props and backgrounds can be also created with third-party software, including "
+"rendered images from 3D software."
 msgstr ""
 "También es posible crear elementos de utilería o fondos usando otros "
 "programas, incluyendo imágenes procesadas en programas 3D."
 
-#: ../../source/production_workflow.rst:136
+#: ../../source/production_workflow.rst:135
 msgid ""
-"See  :ref:`Drawing Animation Levels <drawing_animation_levels>`  and  :"
-"ref:`Creating Cutout Animation <creating_cutout_animation>`  ."
+"See  :ref:`Drawing Animation Levels <drawing_animation_levels>`  "
+"and  :ref:`Creating Cutout Animation <creating_cutout_animation>`  ."
 msgstr ""
 "Ver  :ref:`Dibujo de niveles de animación <drawing_animation_levels>`  "
-"y  :ref:`Creación de animación por recortes "
-"<creating_cutout_animation>`  ."
+"y  :ref:`Creación de animación por recortes <creating_cutout_animation>`  ."
 
-#: ../../source/production_workflow.rst:142
+#: ../../source/production_workflow.rst:141
 msgid "Layout"
 msgstr "Puesta en escena"
 
-#: ../../source/production_workflow.rst:143
+#: ../../source/production_workflow.rst:142
 msgid ""
-"In the layout phase, all of the elements that are necessary for the "
-"scene (backgrounds, props, characters, reference animations) are loaded "
-"from the library in Xsheet, usually as Sub-Xsheets. They are put in "
-"place according to the animatic. Basic animation is achieved by setting "
-"key positions for animated characters or importing reference animations."
+"In the layout phase, all of the elements that are necessary for the scene "
+"(backgrounds, props, characters, reference animations) are loaded from the "
+"library in Xsheet, usually as Subscenes. They are put in place according to "
+"the animatic. Basic animation is achieved by setting key positions for "
+"animated characters or importing reference animations."
 msgstr ""
-"En la fase de puesta en escena, todos los elementos necesarios para una "
-"escena (fondos, utilería, personajes, animaciones de referencia) son "
-"cargados desde la biblioteca en la Planilla o la Línea de tiempo, "
-"usualmente como Sub-planillas. Éstos son colocados en sus lugares de "
-"acuerdo al animatic. Un nivel básico de animación puede ser introducido, "
-"mediante el uso de fotogramas clave de posición para los personajes "
-"animados o también importando animaciones de referencia."
+"En la fase de puesta en escena, todos los elementos necesarios para una escena "
+"(fondos, utilería, personajes, animaciones de referencia) son cargados desde "
+"la biblioteca en la Planilla o la Línea de tiempo, usualmente como Sub-"
+"escenas. Éstos son colocados en sus lugares de acuerdo al animatic. Un nivel "
+"básico de animación puede ser introducido, mediante el uso de fotogramas clave "
+"de posición para los personajes animados o también importando animaciones de "
+"referencia."
 
-#: ../../source/production_workflow.rst:145
+#: ../../source/production_workflow.rst:144
 msgid ""
 "Camera movements and animation timing previously set in the animatic are "
 "refined."
 msgstr ""
-"Los movimientos de cámara y la temporización de la animación, "
-"previamente establecida en el animatic, es refinada."
+"Los movimientos de cámara y la temporización de la animación, previamente "
+"establecida en el animatic, es refinada."
 
-#: ../../source/production_workflow.rst:147
+#: ../../source/production_workflow.rst:146
 msgid ""
-"See  :ref:`Working in Xsheet <working_in_xsheet>`  and  :ref:`Using Sub-"
-"Xsheets <using_sub-xsheets>`  ."
+"See  :ref:`Working in Xsheet <working_in_xsheet>`  and  :ref:`Using Subscenes "
+"<using_sub-xsheets>`  ."
 msgstr ""
 "Ver  :ref:`Trabajo en la Planilla/Línea de tiempo <working_in_xsheet>`  "
-"y  :ref:`Uso de sub-planillas <using_sub-xsheets>`  ."
+"y  :ref:`Uso de sub-escenas <using_sub-xsheets>`  ."
 
-#: ../../source/production_workflow.rst:153
+#: ../../source/production_workflow.rst:152
 msgid "Animation"
 msgstr "Animación"
 
-#: ../../source/production_workflow.rst:154
+#: ../../source/production_workflow.rst:153
 msgid ""
-"The animation for the scene defined in the layout is refined by adding "
-"key position to the character movements. Character poses are added by "
-"tweaking the model to achieve a more fluid animation."
+"The animation for the scene defined in the layout is refined by adding key "
+"position to the character movements. Character poses are added by tweaking the "
+"model to achieve a more fluid animation."
 msgstr ""
 "La animación de la escena, definida en la puesta en escena, se refinará "
-"agregando fotogramas clave de posición o rotación para los movimientos "
-"de los personajes. Se agregarán poses intermedias a los personajes, "
-"retocando la animación para hacerla más fluida."
+"agregando fotogramas clave de posición o rotación para los movimientos de los "
+"personajes. Se agregarán poses intermedias a los personajes, retocando la "
+"animación para hacerla más fluida."
 
-#: ../../source/production_workflow.rst:156
+#: ../../source/production_workflow.rst:155
 msgid ""
-"The right speed for all the movements is set by controlling "
-"interpolation mode in the function editor."
+"The right speed for all the movements is set by controlling interpolation mode "
+"in the function editor."
 msgstr ""
-"Es posible lograr la velocidad correcta de animación para cada "
-"movimiento, controlando el modo de interpolación en el Editor de "
-"funciones."
+"Es posible lograr la velocidad correcta de animación para cada movimiento, "
+"controlando el modo de interpolación en el Editor de funciones."
 
-#: ../../source/production_workflow.rst:158
+#: ../../source/production_workflow.rst:157
 msgid ""
 "See  :ref:`Animating Objects <animating_objects>`  and  :ref:`Using the "
 "Function Editor <using_the_function_editor>`  ."
 msgstr ""
-"Ver  :ref:`Animación de objetos <animating_objects>`  y  :ref:`Uso del "
-"Editor de funciones <using_the_function_editor>`  ."
+"Ver  :ref:`Animación de objetos <animating_objects>`  y  :ref:`Uso del Editor "
+"de funciones <using_the_function_editor>`  ."
 
-#: ../../source/production_workflow.rst:164
+#: ../../source/production_workflow.rst:163
 msgid "Special FX"
 msgstr "Efectos"
 
-#: ../../source/production_workflow.rst:165
+#: ../../source/production_workflow.rst:164
 msgid ""
-"Special FX, such as blur, glow, color corrections, particles, are "
-"applied to the scene elements."
+"Special FX, such as blur, glow, color corrections, particles, are applied to "
+"the scene elements."
 msgstr ""
 "Se aplicarán efectos, como desenfoque, halos, correcciones de color, "
-"partículas, etc. a los diferentes elementos de la escena, según se "
-"considere necesario."
+"partículas, etc. a los diferentes elementos de la escena, según se considere "
+"necesario."
 
-#: ../../source/production_workflow.rst:167
+#: ../../source/production_workflow.rst:166
 msgid ""
-"Additional animation elements related to special FX, for example masks "
-"or images for the particles effect, are drawn directly in the scene, or "
-"imported from external files."
+"Additional animation elements related to special FX, for example masks or "
+"images for the particles effect, are drawn directly in the scene, or imported "
+"from external files."
 msgstr ""
-"También es posible dibujar directamente en Tahoma o importar, "
-"elementos adicionales de animación (tales como máscaras o imágenes para "
-"el efecto de partículas) relacionados con efectos usados en la escena."
+"También es posible dibujar directamente en Tahoma2D o importar, elementos "
+"adicionales de animación (tales como máscaras o imágenes para el efecto de "
+"partículas) relacionados con efectos usados en la escena."
 
-#: ../../source/production_workflow.rst:169
+#: ../../source/production_workflow.rst:168
 msgid "See  :ref:`Applying Special FX <applying_special_fx>`  ."
 msgstr "Ver  :ref:`Aplicación de efectos <applying_special_fx>`  ."
 
-#: ../../source/production_workflow.rst:175
+#: ../../source/production_workflow.rst:174
 msgid "Render"
 msgstr "Procesamiento"
 
-#: ../../source/production_workflow.rst:176
+#: ../../source/production_workflow.rst:175
 msgid ""
-"The scene has to be rendered in order to compose all the transformations "
-"and applied special FX in a sequence of frames in the format and "
-"resolution you prefer."
+"The scene has to be rendered in order to compose all the transformations and "
+"applied special FX in a sequence of frames in the format and resolution you "
+"prefer."
 msgstr ""
-"Para poder componer todas las transformaciones y efectos de la escena en "
-"una secuencia de imágenes de un determinado formato y resolución, es "
-"necesario procesarla."
+"Para poder componer todas las transformaciones y efectos de la escena en una "
+"secuencia de imágenes de un determinado formato y resolución, es necesario "
+"procesarla."
+
+#~ msgid "See  :ref:`Scanning Paper Drawings <scanning_paper_drawings>`  ."
+#~ msgstr "Ver  :ref:`Escaneo de dibujos en papel <scanning_paper_drawings>`  ."

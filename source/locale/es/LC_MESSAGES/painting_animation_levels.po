@@ -7,17 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tahoma 1.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-04 20:33-0300\n"
-"PO-Revision-Date: 2020-02-04 21:20-0300\n"
-"Last-Translator: Gabriel Gazzan <gabcorreo@gmail.com>\n"
-"Language: es\n"
+"POT-Creation-Date: 2026-01-30 22:32-0300\n"
+"PO-Revision-Date: 2026-02-01 19:54-0300\n"
+"Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Español\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
-"X-Generator: Poedit 2.2.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.17.0\n"
+"X-Generator: Poedit 3.8\n"
 
 #: ../../source/painting_animation_levels.rst:4
 msgid "Painting Animation Levels"
@@ -26,12 +26,12 @@ msgstr "Pintura de niveles de animación"
 #: ../../source/painting_animation_levels.rst:5
 msgid ""
 "Toonz animation levels, both those cleaned up, and those made directly in "
-"Tahoma, can be painted by using the styles, stored in the palette, and a set "
-"of tools."
+"Tahoma, can be painted by using the styles, stored in the palette, and a set of "
+"tools."
 msgstr ""
 "Es posible pintar los niveles de animación (tanto los escaneados y limpiados, "
-"como los creados directamente en Tahoma) usando los estilos almacenados en "
-"la paleta y un conjunto de herramientas para ese propósito."
+"como los creados directamente en Tahoma2D) usando los estilos almacenados en la "
+"paleta y un conjunto de herramientas para ese propósito."
 
 #: ../../source/painting_animation_levels.rst:7
 msgid ""
@@ -40,12 +40,12 @@ msgid ""
 "and vector lines can be painted or erased, partially or for their full extent; "
 "areas can be filled with styles, or remain empty, with complete transparency."
 msgstr ""
-"Tanto los niveles de animación de tipo Vectorial de Toonz como Imagen de Toonz "
+"Los niveles de *color indizado* (de tipo Vectorial o de Imagen inteligente) "
 "están compuestos por **líneas** (definidas por trazos vectoriales o líneas "
-"dibujadas en imágenes) y **áreas** que quedan demarcadas por *líneas cerradas*. "
-"Es posible pintar o borrar las líneas tanto en imágenes estándar como "
-"vectoriales, parcial o totalmente; las áreas pueden ser rellenadas con estilos "
-"o ser mantenidas vacías para lograr su transparencia."
+"dibujadas en los píxeles de la imagen) y **áreas** que quedan demarcadas por "
+"*líneas cerradas*. Es posible pintar o borrar las líneas tanto en imágenes "
+"inteligentes como vectoriales, parcial o totalmente; las áreas pueden ser "
+"rellenadas con estilos o ser mantenidas vacías para lograr su transparencia."
 
 #: ../../source/painting_animation_levels.rst:9
 msgid ""
@@ -54,8 +54,8 @@ msgid ""
 msgstr ""
 "Los cambios generados por los trabajos de pintura permanecerán en memoria y no "
 "serán guardados en disco hasta que el nivel correspondiente sea guardado o se "
-"use el comando **Guardar todos los niveles** o **Guardar todo** (ver  :ref:"
-"`Guardado de niveles <saving_levels>`  )."
+"use el comando **Guardar todos los niveles** o **Guardar todo** "
+"(ver  :ref:`Guardado de niveles <saving_levels>`  )."
 
 #: ../../source/painting_animation_levels.rst:11
 msgid ""
@@ -65,7 +65,7 @@ msgid ""
 "Usage <optimizing_the_memory_usage>`  )."
 msgstr ""
 "Si el rendimiento del sistema empeorara durante el proceso de pintura de "
-"niveles de Imagen de Toonz, intentar activar la opción **Minimizar "
+"niveles de Imagen inteligente, intentar activar la opción **Minimizar "
 "fragmentación de imágenes en memoria** en el diálogo Archivo → Preferencias → "
 "General (ver  :ref:`Optimización del uso de memoria "
 "<optimizing_the_memory_usage>`  )."
@@ -82,6 +82,14 @@ msgstr ""
 "Es posible realizar las operaciones de pintura mediante el uso de las "
 "herramientas **Rellenar** (|fill|) y **Brocha** (|paint_brush|)."
 
+#: ../../source/painting_animation_levels.rst:553
+msgid "fill"
+msgstr "fill"
+
+#: ../../source/painting_animation_levels.rst:555
+msgid "paint_brush"
+msgstr "paint_brush"
+
 #: ../../source/painting_animation_levels.rst:20
 msgid ""
 "In case you want to retrieve a style already used in the drawing, you can pick "
@@ -90,6 +98,10 @@ msgstr ""
 "En caso de desear recuperar uno de los estilos usados en el dibujo, para poder "
 "pintar con él, es posible usar la herramienta **Selector de estilos** (|"
 "style_picker|) para tomarlo directamente desde la imagen."
+
+#: ../../source/painting_animation_levels.rst:557
+msgid "style_picker"
+msgstr "style_picker"
 
 #: ../../source/painting_animation_levels.rst:22
 msgid ""
@@ -157,7 +169,7 @@ msgstr ""
 "usar valores bajos, hasta una fina línea semitransparente será efectiva para "
 "detener la operación de relleno; al usar valores altos, sólo los píxeles más "
 "opacos detendrán al color para que no se derrame hacia el exterior. Esta opción "
-"se aplica solamente a niveles de Imagen de Toonz. Es posible definir dos "
+"se aplica solamente a niveles de Imagen inteligente. Es posible definir dos "
 "valores para la profundidad: **Mín:**, que actuará cuando se use la herramienta "
 "haciendo **clic** con el ratón, y **Máx:** que lo hará cuando se use haciendo "
 "**Mayúsculas + clic**."
@@ -171,7 +183,7 @@ msgstr ""
 "**Segmento** permite aplicar el relleno sólo a un segmento de una línea. Los "
 "segmentos quedarán determinados por cambios abruptos en el *grosor* o la "
 "*dirección* de la línea. La opción se encuentra disponible solamente para "
-"niveles de Imagen de Toonz."
+"niveles de Imagen inteligente."
 
 #: ../../source/painting_animation_levels.rst:36
 msgid ""
@@ -203,7 +215,7 @@ msgid ""
 msgstr ""
 "La herramienta **Brocha** (|paint_brush|) permite pintar áreas o líneas de un "
 "dibujo, como si se estuviera usando un pincel. Se encuentra disponible sólo en "
-"niveles de Imagen de Toonz. Las opciones disponibles son las siguientes:"
+"niveles de Imagen inteligente. Las opciones disponibles son las siguientes:"
 
 #: ../../source/painting_animation_levels.rst:42
 msgid "**Size** sets the brush size."
@@ -258,11 +270,11 @@ msgid ""
 "image border or by the image Savebox, according to the **Use the TLV Savebox to "
 "Limit Filling Operations** option available in Preferences  →  Tools."
 msgstr ""
-"En los niveles de Imagen de Toonz, las áreas que pueden ser pintadas estarán "
+"En los niveles de Imagen inteligente, las áreas que pueden ser pintadas estarán "
 "delimitadas tanto por el propio borde de la imagen, como por el Marco "
 "delimitador de la imagen, de acuerdo a la opción **Al usar Rellenar en niveles "
 "TLV, usar su marco delimitador como límite** disponible en el diálogo Archivo → "
-"Preferencias → Tools."
+"Preferencias → Herramientas."
 
 #: ../../source/painting_animation_levels.rst:59
 msgid ""
@@ -582,9 +594,21 @@ msgid ""
 msgstr ""
 "Cuando el contorno de un área no estuviera perfectamente definido, no será "
 "posible rellenarla. Es posible cerrar el hueco agregando una línea con las "
-"herramientas **Pintar** (|brush|) o **Geometría** (|geometric|) (ver :ref:"
-"`Herramientas de dibujo <drawing_tools>`  ), o mediante el uso de la "
+"herramientas **Pintar** (|brush|) o **Geometría** (|geometric|) "
+"(ver :ref:`Herramientas de dibujo <drawing_tools>`  ), o mediante el uso de la "
 "herramienta **Cinta** (|tape|)."
+
+#: ../../source/painting_animation_levels.rst:552
+msgid "brush"
+msgstr "brush"
+
+#: ../../source/painting_animation_levels.rst:554
+msgid "geometric"
+msgstr "geometric"
+
+#: ../../source/painting_animation_levels.rst:558
+msgid "tape"
+msgstr "tape"
 
 #: ../../source/painting_animation_levels.rst:144
 msgid ""
@@ -593,10 +617,10 @@ msgid ""
 "point along the strokes themselves, according to the tool settings. Options "
 "available are the following:"
 msgstr ""
-"En niveles Vectorial de Toonz la herramienta **Cinta** (|tape|) permite unir "
-"trazos vectoriales de forma manual o automatica, tanto considerando sus "
-"extremos como cualquier otro punto a lo largo de los trazos, según las opciones "
-"escogidas. Las opciones disponibles son las siguientes:"
+"En niveles Vectoriales la herramienta **Cinta** (|tape|) permite unir trazos "
+"vectoriales de forma manual o automática, tanto considerando sus extremos como "
+"cualquier otro punto a lo largo de los trazos, según las opciones escogidas. "
+"Las opciones disponibles son las siguientes:"
 
 #: ../../source/painting_animation_levels.rst:146
 msgid ""
@@ -670,7 +694,7 @@ msgid ""
 "open ends detected in the drawing according to the tool settings. Options "
 "available are the following:"
 msgstr ""
-"En niveles de Imagen de Toonz la herramienta **Cinta** (|tape|) permite unir "
+"En niveles de Imagen inteligente la herramienta **Cinta** (|tape|) permite unir "
 "automáticamente los extremos abiertos detectados en el dibujo, según las "
 "opciones escogidas. Las opciones disponibles son las siguientes:"
 
@@ -811,7 +835,8 @@ msgstr ""
 #: ../../source/painting_animation_levels.rst:194
 msgid "**To close all gaps in a raster drawing outline:**"
 msgstr ""
-"**Para cerrar todos los huecos en el contorno de un dibujo de Imagen de Toonz:**"
+"**Para cerrar todos los huecos en el contorno de un dibujo de Imagen "
+"inteligente:**"
 
 #: ../../source/painting_animation_levels.rst:196
 msgid "Select the **Tape** tool (|tape|)."
@@ -828,8 +853,8 @@ msgstr ""
 #: ../../source/painting_animation_levels.rst:200
 msgid "**To close a specific gap in a raster drawing outline:**"
 msgstr ""
-"**Para cerrar un hueco específico en el contorno de un dibujo de Imagen de "
-"Toonz:**"
+"**Para cerrar un hueco específico en el contorno de un dibujo de Imagen "
+"inteligente:**"
 
 #: ../../source/painting_animation_levels.rst:202
 msgid "Select the **Tape** tool (|tape|) and activate the **Rectangular** option."
@@ -880,16 +905,16 @@ msgid ""
 msgstr ""
 "Nótese que el valor de la opción **Opacidad**, de la herramienta **Cinta**, "
 "afectará la forma en que se muestran los huecos con la herramienta Comprobación "
-"de huecos, en niveles de Imagen de Toonz. Usar un valor de 255 para poder usar "
-"la comprobación de forma más cómoda."
+"de huecos, en niveles de Imagen inteligente. Usar un valor de 255 para poder "
+"usar la comprobación de forma más cómoda."
 
 #: ../../source/painting_animation_levels.rst:217
 msgid ""
 "The **Fill Check** displays all the well-defined areas that can be filled with "
 "colors in grey, all the lines or vector strokes in black, and the not well-"
 "defined areas and the background in white; if the **Black BG Check** is "
-"activated, all the lines or vector strokes are displayed in white (see  :ref:"
-"`Checking Painted Drawings <checking_painted_drawings>`  )."
+"activated, all the lines or vector strokes are displayed in white "
+"(see  :ref:`Checking Painted Drawings <checking_painted_drawings>`  )."
 msgstr ""
 "**Comprobación de áreas rellenables** permite visualizar en *gris* las áreas "
 "correctamente definidas, que podrán ser rellenadas con colores, todas las "
@@ -1008,15 +1033,15 @@ msgstr "Pintura de líneas"
 
 #: ../../source/painting_animation_levels.rst:255
 msgid ""
-"Lines of a drawing can be painted with the **Fill** tool (|fill|). For Toonz "
+"Lines of a drawing can be painted with the **Fill** tool (|fill|). For Smart "
 "Raster drawings, the Fill tool (|fill|) affects continuous lines sharing the "
 "same style; for Vector drawings, only a single vector stroke at a time."
 msgstr ""
 "Es posible pintar las líneas o trazos vectoriales de un dibujo usando la "
-"herramienta **Rellenar** (|fill|). En el caso de niveles de Imagen de Toonz, la "
-"herramienta Rellenar (|fill|) afectará a todas las líneas continuas que "
-"compartan el mismo estilo; en el caso de niveles Vectorial de Toonz, sólo "
-"afectará a un trazo a la vez."
+"herramienta **Rellenar** (|fill|). En el caso de niveles de Imagen inteligente, "
+"la herramienta Rellenar (|fill|) afectará a todas las líneas continuas que "
+"compartan el mismo estilo; en el caso de niveles Vectoriales, sólo afectará a "
+"un trazo a la vez."
 
 #: ../../source/painting_animation_levels.rst:258
 msgid ""
@@ -1024,23 +1049,23 @@ msgid ""
 "tool (|paint_brush|) set to **Lines** mode. In this case by setting the size of "
 "the tool, you can paint any section of the lines as if you were using a brush."
 msgstr ""
-"En niveles de Imagen de Toonz, también es posible pintar líneas usando la "
+"En niveles de Imagen inteligente, también es posible pintar líneas usando la "
 "herramienta **Brocha** (|paint_brush|) en el Modo **Líneas**. En este caso, "
 "basta con definir un **Tamaño:** para la herramienta y será posible pintar "
 "cualquier sección de las líneas, como si se estuviera usando un pincel."
 
 #: ../../source/painting_animation_levels.rst:260
 msgid ""
-"For Vector drawings, a vector stroke can be also painted by selecting it "
-"first, then selecting the style you want in the level Palette."
+"For Vector drawings, a vector stroke can be also painted by selecting it first, "
+"then selecting the style you want in the level Palette."
 msgstr ""
-"En niveles Vectorial de Toonz, también es posible pintar un trazo "
-"seleccionándolo, y luego seleccionando el nuevo estilo que se desee usar para "
-"el mismo en la Paleta del nivel."
+"En niveles Vectoriales, también es posible pintar un trazo seleccionándolo, y "
+"luego seleccionando el nuevo estilo que se desee usar para el mismo en la "
+"Paleta del nivel."
 
 #: ../../source/painting_animation_levels.rst:262
 msgid "**To paint a Smart Raster line:**"
-msgstr "**Para pintar una línea en un nivel de Imagen de Toonz:**"
+msgstr "**Para pintar una línea en un nivel de Imagen inteligente:**"
 
 #: ../../source/painting_animation_levels.rst:264
 msgid ""
@@ -1056,7 +1081,7 @@ msgstr "Hacer clic sobre la línea que se desee pintar."
 
 #: ../../source/painting_animation_levels.rst:268
 msgid "**To paint a Vector stroke:**"
-msgstr "**Para pintar un trazo en un nivel Vectorial de Toonz:**"
+msgstr "**Para pintar un trazo en un nivel Vectorial:**"
 
 #: ../../source/painting_animation_levels.rst:272
 msgid ""
@@ -1077,9 +1102,13 @@ msgstr ""
 "desee pintar, luego seleccionar un estilo en la Paleta (ver  :ref:`Uso de la "
 "herramienta Seleccionar <using_the_selection_tool>`  )."
 
+#: ../../source/painting_animation_levels.rst:556
+msgid "selection"
+msgstr "selection"
+
 #: ../../source/painting_animation_levels.rst:276
 msgid "**To partially paint a Smart Raster line:**"
-msgstr "**Para pintar parcialmente una línea en un nivel de Imagen de Toonz:**"
+msgstr "**Para pintar parcialmente una línea en un nivel de Imagen inteligente:**"
 
 #: ../../source/painting_animation_levels.rst:280
 msgid ""
@@ -1304,7 +1333,7 @@ msgstr ""
 #: ../../source/painting_animation_levels.rst:345
 msgid "Match lines can only be applied to Smart Raster (TLV) animation levels."
 msgstr ""
-"Sólo es posible aplicar Líneas de coincidencia en niveles de Imagen de Toonz "
+"Sólo es posible aplicar Líneas de coincidencia en niveles de Imagen inteligente "
 "(TLV)."
 
 #: ../../source/painting_animation_levels.rst:347
@@ -1322,7 +1351,11 @@ msgstr ""
 
 #: ../../source/painting_animation_levels.rst:349
 msgid "|apply_match_lines|"
-msgstr ""
+msgstr "|apply_match_lines|"
+
+#: ../../source/painting_animation_levels.rst:550
+msgid "apply_match_lines"
+msgstr "apply_match_lines"
 
 #: ../../source/painting_animation_levels.rst:351
 msgid "In both cases it's possible to define the following:"
@@ -1511,8 +1544,8 @@ msgstr ""
 "arrastrando, en el encabezado de las mismas."
 
 #: ../../source/painting_animation_levels.rst:395
-msgid "Choose Xsheet  →  **Apply Match Lines...**"
-msgstr "Elegir Planilla → **Aplicar líneas de coincidencia...**"
+msgid "Choose Scene  →  **Apply Match Lines...**"
+msgstr "Elegir Escena → **Aplicar líneas de coincidencia...**"
 
 #: ../../source/painting_animation_levels.rst:397
 msgid ""
@@ -1531,13 +1564,13 @@ msgid ""
 "Select the columns/layers, the cells, or the Level Strip frames where the "
 "animation level with the applied match lines is."
 msgstr ""
-"Seleccionar las columnas/capas o acetatos de la Planilla/Línea de tiempo, o los "
-"fotogramas de la Cinta de nivel, donde se encuentre el nivel de animación con "
-"las líneas de coincidencia aplicada."
+"Seleccionar las columnas/capas o celdas de la Planilla/Línea de tiempo, o los "
+"fotogramas de la Cinta de nivel, en donde se encuentre el nivel de animación "
+"con las líneas de coincidencia aplicada."
 
 #: ../../source/painting_animation_levels.rst:403
-msgid "Choose Xsheet  →  **Delete Match Lines**."
-msgstr "Elegir Planilla → **Borrar líneas de coincidencia**."
+msgid "Choose Scene  →  **Delete Match Lines**."
+msgstr "Elegir Escena → **Borrar líneas de coincidencia**."
 
 #: ../../source/painting_animation_levels.rst:405
 msgid "**To delete lines by selecting the style index:**"
@@ -1548,13 +1581,13 @@ msgid ""
 "Select the columns/layers, the cells, or the Level Strip frames where the "
 "animation level whose lines you want to delete is."
 msgstr ""
-"Seleccionar las columnas/capas o acetatos de la Planilla/Línea de tiempo, o los "
-"fotogramas de la Cinta de nivel, donde se encuentre el nivel de animación con "
-"las líneas de coincidencia aplicada."
+"Seleccionar las columnas/capas o celdas de la Planilla/Línea de tiempo, o los "
+"fotogramas de la Cinta de nivel, en donde se encuentre el nivel de animación "
+"con las líneas de coincidencia aplicada."
 
 #: ../../source/painting_animation_levels.rst:409
-msgid "Choose Xsheet  →  **Delete Lines...**"
-msgstr "Elegir Planilla → **Borrar líneas...**"
+msgid "Choose Scene  →  **Delete Lines...**"
+msgstr "Elegir Escena → **Borrar líneas...**"
 
 #: ../../source/painting_animation_levels.rst:411
 msgid ""
@@ -1591,7 +1624,7 @@ msgid ""
 "Lineart Drawings <processing_colored_lineart_drawings>`  and  :ref:`Using Match "
 "Lines <using_match_lines>`  for details)."
 msgstr ""
-"Es posible que los niveles de Imagen de Toonz incluyan líneas de color "
+"Es posible que los niveles de Imagen inteligente incluyan líneas de color "
 "provenientes de una sesión de limpieza o de algunos niveles con líneas de "
 "coincidencia (ver  :ref:`Procesamiento de dibujos con líneas coloreadas "
 "<processing_colored_lineart_drawings>`  y  :ref:`Uso de Líneas de coincidencia "
@@ -1635,7 +1668,7 @@ msgid ""
 "In the Style Editor select the Settings page and activate the **Autopaint for "
 "Lines** option."
 msgstr ""
-"En el Editor de estilos seleccionar la solapa Opciones y activar la opción "
+"En el Editor de estilos seleccionar la pestaña Opciones y activar la opción "
 "**Pintar (líneas) automáticamente al rellenar**."
 
 #: ../../source/painting_animation_levels.rst:434
@@ -1684,7 +1717,11 @@ msgstr ""
 
 #: ../../source/painting_animation_levels.rst:447
 msgid "|color_model|"
-msgstr ""
+msgstr "|color_model|"
+
+#: ../../source/painting_animation_levels.rst:551
+msgid "color_model"
+msgstr "color_model"
 
 #: ../../source/painting_animation_levels.rst:449
 msgid ""
@@ -1702,7 +1739,7 @@ msgid ""
 "already comes with a palette, whose style names and page configuration will be "
 "preserved."
 msgstr ""
-"Si el Modelo de color fuera un nivel de Imagen de Toonz o Vectorial de Toonz "
+"Si el Modelo de color fuera un nivel de Imagen inteligente o Vectorial "
 "(archivos TLV o PLI), ya contendrán una paleta, cuyos nombres de estilo y "
 "configuración de páginas será preservada."
 
@@ -1783,8 +1820,8 @@ msgid ""
 "Choose File  →  **Load Color Model...**, and load the Toonz level or the full "
 "color raster image you want to use as a reference."
 msgstr ""
-"Elegir Archivo → **Cargar modelo de color...** para cargar el nivel de Toonz "
-"(PLI o TLV) o la imagen que se desee usar como referencia."
+"Elegir Archivo → **Cargar modelo de color...** para cargar el nivel de color "
+"indizado (PLI o TLV) o la imagen que se desee usar como referencia."
 
 #: ../../source/painting_animation_levels.rst:471
 msgid ""
@@ -1799,8 +1836,8 @@ msgid ""
 "Drag and drop the Toonz level or the full color raster image you want to use as "
 "reference to the Color Model viewer."
 msgstr ""
-"Arrastrar y soltar, el nivel de Toonz o la imagen que se desee usar como "
-"referencia, sobre el visor de Modelo de color."
+"Arrastrar y soltar, el nivel de color indizado o la imagen que se desee usar "
+"como referencia, sobre el visor de Modelo de color."
 
 #: ../../source/painting_animation_levels.rst:475
 msgid ""
@@ -1868,8 +1905,8 @@ msgid ""
 "Use the zoom shortcut keys (by default + and - keys) to zoom in and zoom out at "
 "specific steps (e.g. 50%, 100%, 200%, etc.)."
 msgstr ""
-"Usar la teclas de atajo para el zoom (de forma predefinida **+** y **-**) para "
-"acercar o alejar de a pasos predefinidos (50%, 100%, 200%, etc.)."
+"Usar la teclas de atajo para ampliación (de forma predefinida **+** y **-**) "
+"para ampliar o reducir de a pasos predefinidos (50%, 100%, 200%, etc.)."
 
 #: ../../source/painting_animation_levels.rst:501
 msgid "Use the mouse wheel to zoom in and zoom out."
@@ -1910,8 +1947,8 @@ msgstr ""
 #: ../../source/painting_animation_levels.rst:515
 msgid "**To use a drawing from the current animation level as a model:**"
 msgstr ""
-"**Para usar un dibujo del nivel de animación seleccionado como modelo de color:"
-"**"
+"**Para usar un dibujo del nivel de animación seleccionado como modelo de "
+"color:**"
 
 #: ../../source/painting_animation_levels.rst:517
 msgid ""
