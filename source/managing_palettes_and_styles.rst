@@ -176,10 +176,10 @@ Palettes added to the **Project Palettes** folder will be available only when th
 
 If you want to add to the **Studio Palette** a series of palettes you have previously created and stored in a folder, you can also automatically retrieve them by searching that specific folder.
 
-Styles that are imported from the **Studio Palette** to the palette of the current level are marked with a *small white square*. This reference can be used to link styles to the original Studio Palette styles: the link can be activated or deactivated anytime for any selection of styles. 
-
 |regular-imported-linked_style| 
  
+Styles that are imported from the **Studio Palette** to the palette of the current level are marked with a *small white square*. This reference can be used to link styles to the original Studio Palette styles: the link can be activated or deactivated anytime for any selection of styles. 
+
 When the link is activated, an arrow is displayed on the small white square, and the style will be updated according to the original Studio Palette style. When the link is deactivated, the style can be modified regardless of the original Studio Palette style. 
 
 Linking animation level palettes to the Studio Palette can assure color consistency for the whole production, because as soon as a change is needed, it can be done in the Studio Palette, automatically updating all the linked animation levels palettes and, consequently, drawings. 
@@ -364,7 +364,7 @@ Keys are set for *all* the palette Colors and Settings (in the case of **Generat
 Editing Styles
 --------------
 
-Palette styles can be modified with the Style Editor. There are four types of styles to choose from: **Color**, **Texture**, **Vector** and **Raster**. Under the **Vector** tab, there are the **Generated**, **Trail** and **Vector Brushes** categories, available for Vector levels only. For several types of styles, there is also control over various styles options in the **Settings** tab.
+Palette styles can be modified with the Style Editor. There are four types of styles to choose from: **Color**, **Texture**, **Vector** and **Raster**. Under the **Vector** tab, there are the **Generated**, **Custom** and **Vector Brushes** categories, available for Vector levels only. For several types of styles, there is also control over various styles options in the **Settings** tab.
 
 An **Auto** button lets you decide whether the edits have to be assigned automatically to the style, or only after you click on the **Apply** button. In the bottom right corner you can see swatches for the previous and new style status; if you want to go back to the previous style, simply click on it. 
 
@@ -528,14 +528,14 @@ The first item available in the list allows you to remove the Generated style, i
 
 .. _custom_styles:
 
-Trail Styles
-''''''''''''
+Custom Styles
+'''''''''''''
 
 |style_editor_trail|
 
-Trail styles are available for vector levels only. A trail style repeats an image or an animation level, created with Tahoma or third party software, along the vectors of a vector level. Trail styles cannot be used to paint areas.
+Custom styles are available for vector levels only. A custom style repeats an image or an animation level, created with Tahoma2D or third party software, along the strokes of a vector level. Custom styles cannot be used to paint areas.
 
-In the Trail section on the Vector tab you can select the image or the animation level you want to use as a style. You can add to the list your own animation levels as well: both Tahoma animation levels (PLI) and full-color images or sequences of full-color images (BMP, JPG, NOL, PIC, PICT, PCT, PNG, RGB, SGI, TGA, TIF and TIFF) are supported.
+In the Custom section on the Vector tab you can select the image or the animation level you want to use as a style. You can add to the list your own animation levels as well: both Tahoma2D animation levels (PLI) and full-color images, or sequences of full-color images (BMP, JPG, NOL, PIC, PICT, PCT, PNG, RGB, SGI, TGA, TIF and TIFF) are supported.
 
 .. note:: PLI levels are rendered according to the vector length and thickness, thus appearing jagged when zoomed in. If the output format is a vector one, then the PLI level will remain vector-based. (see  :ref:`Choosing the Output Settings <choosing_the_output_settings>`  ).
 
@@ -545,7 +545,7 @@ Parameters such as the distance between subsequent images along the vector and t
 
 .. tip:: **To add a new custom style:**
 
-    1. Create an image or an animation level with Tahoma, or with third-party software.
+    1. Create an image or an animation level with Tahoma2D, or with third-party software.
 
     2. Save it in the folder ``Projectroot\library\custom styles`` (see  :ref:`Setting up Projects <setting_up_projects>`  ). 
 
@@ -614,11 +614,13 @@ The Settings tab is available for defining some style properties.
 
 For Smart Raster levels, it contains only the **Autopaint for Lines** option, that can be used to automatically paint border *lines* of an area, with the same color used to fill that *area* (see  :ref:`Using the Autopaint for Lines Option <using_the_autopaint_for_lines_option>`  ).
 
-For Vector levels, it contains parameters only when the style is a **Generated** or **Trail** one. 
+.. note:: When a style has **Autopaint for Lines** option active, it will be shown with an **A** letter in the Palette editor.
 
-When the style is a **Generated** one, the Settings tab contains one or more sliders that allow you to finetune the predefined style to your needs. When the style is a **Trail** one, the Settings tab contains two sliders: **Distance** sets the space between two subsequent images of the animation level used as a trail; **Rotation** sets the angle of all the images. 
+For Vector levels, it contains parameters only when the style is a **Generated** or **Custom** one. 
 
-You can add the same **Generated** or **Trail** style as many times as you want, each time defining different settings for it.
+When the style is a **Generated** one, the Settings tab contains one or more sliders that allow you to finetune the predefined style to your needs. When the style is a **Custom** one, the Settings tab contains two sliders: **Distance** sets the space between two subsequent images of the animation level used as a custom brush; **Rotation** sets the angle of all the images. 
+
+You can add the same **Generated** or **Custom** style as many times as you want, each time defining different settings for it.
 
 
 .. _settings_for_raster_brushes:
@@ -752,11 +754,11 @@ Custom
 
 Changing the Type of Style
 ''''''''''''''''''''''''''
-When you select a Color, Texture, Generated, Trail, Vector Brush or Raster brush style in the Style Editor, you automatically assign it to the current style, thus changing its style type.
+When you select a Color, Texture, Generated, Custom, Vector Brush or Raster brush style in the Style Editor, you automatically assign it to the current style, thus changing its style type.
 
 A different case is when you want to *change back* from a **Generated**, **Vector Brush** or **Raster** brush style to a **Color** one, because when the current style is one of those types, the Color tab is used for setting their colors. So, in this case you first have to remove the Generated, Vector Brush or Raster brush styles by using the first swatch available in the swatch list, and then move to the **Color** tab.
 
-Also note that when you change from a style suitable for both *lines* and *areas* to a style suitable only for *lines*, the *areas* painted with that style will become invisible, and vice versa. For example if you change a style from Color to Trail, all areas painted with that style will become invisible. If you modify the style so that it's suitable again for *lines* and *areas*, the invisible parts will become visible again. 
+Also note that when you change from a style suitable for both *lines* and *areas* to a style suitable only for *lines*, the *areas* painted with that style will become invisible, and vice versa. For example if you change a style from Color to Custom, all areas painted with that style will become invisible. If you modify the style so that it's suitable again for *lines* and *areas*, the invisible parts will become visible again. 
 
 .. tip:: **To change the type of style from Color to any other:**
 
@@ -782,7 +784,7 @@ You can modify several styles at the same time by using the **Palette Gizmo**. I
 
 |palette_gizmo|
 
-.. note:: Only the **Color** styles are affected by the **Palette Gizmo** editing and the blending. e.g. Generated and Trail styles will not be affected.
+.. note:: Only the **Color** styles are affected by the **Palette Gizmo** editing and the blending. e.g. Generated and Custom styles will not be affected.
 
 .. tip:: **To open the Palette Gizmo:**
 
