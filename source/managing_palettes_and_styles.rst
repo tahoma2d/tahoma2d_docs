@@ -311,7 +311,7 @@ These folders can be used, for example, to move your Studio Palette, or the Proj
 
     2. Right-click the selection and select **Toggle Link to Studio Palette** from the menu that opens.
 
-.. tip:: **To reset styles to their the original Studio Palette styles:**
+.. tip:: **To reset styles back to their original Studio Palette styles:**
 
     1. Select the styles that have a reference to the Studio Palette.
 
