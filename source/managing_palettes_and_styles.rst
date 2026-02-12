@@ -182,7 +182,11 @@ Styles that are imported from the **Studio Palette** to the palette of the curre
 
 When the link is activated, an arrow is displayed on the small white square, and the style will be updated according to the original Studio Palette style. 
 
+.. note:: Linked level styles will reflect changes in the original studio palette style, once those changes are saved.
+
 When the link is deactivated, the style can be modified regardless of the original Studio Palette style. In case the style is modified in the level palette, it will show a diagonal line in its thumbnail.
+
+.. note:: A modified unlinked level style can be reset back to its original studio palette style, by using the **Get Color from Studio Palette** option in the contextual menu.
 
 Linking animation level palettes to the Studio Palette can assure color consistency for the whole production, because as soon as a change is needed, it can be done in the Studio Palette, automatically updating all the linked animation levels palettes and, consequently, drawings. 
 
