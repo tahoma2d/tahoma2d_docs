@@ -425,6 +425,8 @@ In most of the cases these colored lines are meant to set the outline of the bod
 
 This task can be performed automatically by setting a special property for the color, so that when you paint an area defined totally or partially by a line whose color has this property, the line is automatically painted with the same color you use for the area.
 
+.. note:: When a style has the **Autopaint for Lines** option active, it will be shown with an **A** letter in the Palette editor.
+
 .. tip:: **To set the autopaint property for a color:**
 
     1. Select the color in the palette.
