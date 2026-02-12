@@ -178,15 +178,17 @@ If you want to add to the **Studio Palette** a series of palettes you have previ
 
 |regular-imported-linked_style| 
  
-Styles that are imported from the **Studio Palette** to the palette of the current level are marked with a *small white square*. This reference can be used to link styles to the original Studio Palette styles: the link can be activated or deactivated anytime for any selection of styles. 
+Styles that are imported from the **Studio Palette** to the palette of the current level are marked with a *small white square* in their upper right corner. This reference can be used to link styles to the original Studio Palette styles: the link can be activated or deactivated anytime for any selection of styles from the contextual menu. 
 
-When the link is activated, an arrow is displayed on the small white square, and the style will be updated according to the original Studio Palette style. When the link is deactivated, the style can be modified regardless of the original Studio Palette style. 
+When the link is activated, an arrow is displayed on the small white square, and the style will be updated according to the original Studio Palette style. 
+
+When the link is deactivated, the style can be modified regardless of the original Studio Palette style. In case the style is modified in the level palette, it will show a diagonal line in its thumbnail.
 
 Linking animation level palettes to the Studio Palette can assure color consistency for the whole production, because as soon as a change is needed, it can be done in the Studio Palette, automatically updating all the linked animation levels palettes and, consequently, drawings. 
 
 In the level palette, the information about which Studio Palette the palette styles refers to can be retrieved in the **List View** mode, where, next to the style thumbnails and names, the path to the source studio palette is displayed. 
 
-When palettes are added to **Global Palettes**, they are copied to the **studiopalette**  folder located where Tahoma projects are stored (see  :ref:`Setting up Projects <setting_up_projects>`  ). 
+When palettes are added to **Global Palettes**, they are copied to the **studiopalette**  folder located where Tahoma2D projects are stored (see  :ref:`Setting up Projects <setting_up_projects>`  ). 
 
 When palettes are added to **Project Palettes**, they are copied to the **+palettes** folder you specified for the current project (see  :ref:`Project Default Folders <project_default_folders>`  ). 
 
