@@ -317,6 +317,12 @@ These folders can be used, for example, to move your Studio Palette, or the Proj
 
     2. Right-click the selection and select **Remove Reference to Studio Palette** from the menu that opens.
 
+.. tip:: **To reset styles to their the original Studio Palette styles:**
+
+    1. Select the styles that have a reference to the Studio Palette.
+
+    2. Right-click the selection and select **Get Color from Studio Palette** from the menu that opens.
+
 .. tip:: **To resize the Studio Palette sections:**
 
     Do any of the following:
