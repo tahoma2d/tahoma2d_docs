@@ -656,7 +656,7 @@ Supported terms are the following:
 ``tab`` , ``table``          Refer to the table.            
 ===========================  =============================  
 
-.. note:: In expressions, timeline layers will always be referred to as " columns".
+.. note:: In expressions, timeline layers will always be referred to as *columns*.
 
 =====================================  ======================================================  
 **Transformations**                                                                            
