@@ -642,8 +642,8 @@ The syntax to create a reference to an object transformation is the following:
 
 where ``object``  is the ID name of a *camera*, *column*, *pegbar* or the *table*, as can be read in the Stage and FX Schematic nodes' tooltips; ``transformation`` can be any of its available transformations; and ``delta`` is the difference between the target frame and the current one.
 
-For example ``camera1.ns``  refers to the N/S position of the Camera1.
-Whereas ``camera1.ns(f-5)``  refers to the N/S position of the Camera1, 5 frames before the current frame.
+For example ``camera1.y``  refers to the Position Y of Camera1.
+Whereas ``camera1.y(f-5)``  refers to the Position Y of Camera1, 5 frames before the current frame.
 
 Supported terms are the following:
 
@@ -656,19 +656,20 @@ Supported terms are the following:
 ``tab`` , ``table``          Refer to the table.            
 ===========================  =============================  
 
-
+.. note:: In expressions, timeline layers will always be referred to as " columns".
 
 =====================================  ======================================================  
 **Transformations**                                                                            
 =====================================  ======================================================  
-``ns`` , ``ew``                        Refer to the vertical and horizontal position.          
+``x`` (``ew``) , ``y`` (``ns``)        Refer to the horizontal and vertical position.          
 ``path`` , ``pos``                     Refer to the position along the motion path.            
 ``rot``                                Refers to the rotation.                                 
 ``scale`` , ``scaleh`` , ``scalev``    Refer to the global, horizontal and vertical scaling.   
 ``shearh`` , ``shearv``                Refer to the horizontal and vertical shear.             
-``z``                                  Refers to the position along the z axis.                
+``z``                                  Refers to the position along the Z axis.                
 =====================================  ======================================================  
 
+.. note:: ``ew`` and ``ns`` transformation names are retained for compatibility with other Toonz derived programs expressions.
 
 The syntax to create a reference to an effect parameter is the following:
 
