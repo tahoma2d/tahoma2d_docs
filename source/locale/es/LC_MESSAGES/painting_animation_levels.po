@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tahoma 1.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-30 22:32-0300\n"
-"PO-Revision-Date: 2026-02-01 19:54-0300\n"
+"POT-Creation-Date: 2026-02-12 20:58-0300\n"
+"PO-Revision-Date: 2026-02-12 21:49-0300\n"
 "Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Español\n"
 "Language: es\n"
@@ -82,11 +82,11 @@ msgstr ""
 "Es posible realizar las operaciones de pintura mediante el uso de las "
 "herramientas **Rellenar** (|fill|) y **Brocha** (|paint_brush|)."
 
-#: ../../source/painting_animation_levels.rst:553
+#: ../../source/painting_animation_levels.rst:555
 msgid "fill"
 msgstr "fill"
 
-#: ../../source/painting_animation_levels.rst:555
+#: ../../source/painting_animation_levels.rst:557
 msgid "paint_brush"
 msgstr "paint_brush"
 
@@ -99,7 +99,7 @@ msgstr ""
 "pintar con él, es posible usar la herramienta **Selector de estilos** (|"
 "style_picker|) para tomarlo directamente desde la imagen."
 
-#: ../../source/painting_animation_levels.rst:557
+#: ../../source/painting_animation_levels.rst:559
 msgid "style_picker"
 msgstr "style_picker"
 
@@ -346,9 +346,9 @@ msgstr ""
 #: ../../source/painting_animation_levels.rst:290
 #: ../../source/painting_animation_levels.rst:306
 #: ../../source/painting_animation_levels.rst:322
-#: ../../source/painting_animation_levels.rst:467
-#: ../../source/painting_animation_levels.rst:481
-#: ../../source/painting_animation_levels.rst:497
+#: ../../source/painting_animation_levels.rst:469
+#: ../../source/painting_animation_levels.rst:483
+#: ../../source/painting_animation_levels.rst:499
 msgid "Do one of the following:"
 msgstr "Hacer una de las siguientes cosas:"
 
@@ -598,15 +598,15 @@ msgstr ""
 "(ver :ref:`Herramientas de dibujo <drawing_tools>`  ), o mediante el uso de la "
 "herramienta **Cinta** (|tape|)."
 
-#: ../../source/painting_animation_levels.rst:552
+#: ../../source/painting_animation_levels.rst:554
 msgid "brush"
 msgstr "brush"
 
-#: ../../source/painting_animation_levels.rst:554
+#: ../../source/painting_animation_levels.rst:556
 msgid "geometric"
 msgstr "geometric"
 
-#: ../../source/painting_animation_levels.rst:558
+#: ../../source/painting_animation_levels.rst:560
 msgid "tape"
 msgstr "tape"
 
@@ -1102,7 +1102,7 @@ msgstr ""
 "desee pintar, luego seleccionar un estilo en la Paleta (ver  :ref:`Uso de la "
 "herramienta Seleccionar <using_the_selection_tool>`  )."
 
-#: ../../source/painting_animation_levels.rst:556
+#: ../../source/painting_animation_levels.rst:558
 msgid "selection"
 msgstr "selection"
 
@@ -1353,7 +1353,7 @@ msgstr ""
 msgid "|apply_match_lines|"
 msgstr "|apply_match_lines|"
 
-#: ../../source/painting_animation_levels.rst:550
+#: ../../source/painting_animation_levels.rst:552
 msgid "apply_match_lines"
 msgstr "apply_match_lines"
 
@@ -1654,16 +1654,25 @@ msgstr ""
 "será automáticamente pintada con el mismo color usado para rellenar el área."
 
 #: ../../source/painting_animation_levels.rst:428
+msgid ""
+"When a style has the **Autopaint for Lines** option active, it will be shown "
+"with an **A** letter in the Palette editor."
+msgstr ""
+"Cuando un estilo tenga la opción **Pintar (líneas) automáticamente al "
+"rellenar** activa, se mostrará una marca con una letra **A** en su miniatura en "
+"el editor de Paleta."
+
+#: ../../source/painting_animation_levels.rst:430
 msgid "**To set the autopaint property for a color:**"
 msgstr ""
 "**Para definir la propiedad Pintar líneas automáticamente al rellenar para un "
 "color:**"
 
-#: ../../source/painting_animation_levels.rst:430
+#: ../../source/painting_animation_levels.rst:432
 msgid "Select the color in the palette."
 msgstr "Seleccionar el color en la paleta."
 
-#: ../../source/painting_animation_levels.rst:432
+#: ../../source/painting_animation_levels.rst:434
 msgid ""
 "In the Style Editor select the Settings page and activate the **Autopaint for "
 "Lines** option."
@@ -1671,11 +1680,11 @@ msgstr ""
 "En el Editor de estilos seleccionar la pestaña Opciones y activar la opción "
 "**Pintar (líneas) automáticamente al rellenar**."
 
-#: ../../source/painting_animation_levels.rst:434
+#: ../../source/painting_animation_levels.rst:436
 msgid "**To automatically paint lines when painting areas:**"
 msgstr "**Para pintar automáticamente líneas al pintar áreas:**"
 
-#: ../../source/painting_animation_levels.rst:436
+#: ../../source/painting_animation_levels.rst:438
 msgid ""
 "Paint an area defined totally or partially by a line whose color has the "
 "**Autopaint for Lines** option activated: the line is automatically painted "
@@ -1685,11 +1694,11 @@ msgstr ""
 "activada la opción **Pintar (líneas) automáticamente al rellenar**: la línea "
 "será automáticamente pintada con el mismo color usado para el área."
 
-#: ../../source/painting_animation_levels.rst:442
+#: ../../source/painting_animation_levels.rst:444
 msgid "Using a Color Model"
 msgstr "Uso de un Modelo de color"
 
-#: ../../source/painting_animation_levels.rst:443
+#: ../../source/painting_animation_levels.rst:445
 msgid ""
 "Color models, usually created for accurate color-referencing during a "
 "production, in the form of images or animation levels, can be used while "
@@ -1699,7 +1708,7 @@ msgstr ""
 "de obtener una referencia precisa de colores (en forma de imágenes o niveles de "
 "animación), pueden ser usados al pintar niveles de animación."
 
-#: ../../source/painting_animation_levels.rst:445
+#: ../../source/painting_animation_levels.rst:447
 msgid ""
 "Any image or animation level can be used as a reference by loading it in the "
 "Color Model viewer. In case an animation level is loaded, you can select any "
@@ -1715,15 +1724,15 @@ msgstr ""
 "personaje y uno para la vista Trasera, o uno con colores para el día y otro "
 "para la noche."
 
-#: ../../source/painting_animation_levels.rst:447
+#: ../../source/painting_animation_levels.rst:449
 msgid "|color_model|"
 msgstr "|color_model|"
 
-#: ../../source/painting_animation_levels.rst:551
+#: ../../source/painting_animation_levels.rst:553
 msgid "color_model"
 msgstr "color_model"
 
-#: ../../source/painting_animation_levels.rst:449
+#: ../../source/painting_animation_levels.rst:451
 msgid ""
 "When a color model is loaded for the current level, you can decide to load its "
 "palette, thus overwriting the current level palette, or to keep the current "
@@ -1733,7 +1742,7 @@ msgstr ""
 "decidir si cargar su paleta, sobrescribiendo la original del nivel, o si "
 "mantener intacta la paleta original del nivel de animación."
 
-#: ../../source/painting_animation_levels.rst:451
+#: ../../source/painting_animation_levels.rst:453
 msgid ""
 "If the color model is a Smart Raster or Vector level (TLV or PLI file), it "
 "already comes with a palette, whose style names and page configuration will be "
@@ -1743,7 +1752,7 @@ msgstr ""
 "(archivos TLV o PLI), ya contendrán una paleta, cuyos nombres de estilo y "
 "configuración de páginas será preservada."
 
-#: ../../source/painting_animation_levels.rst:453
+#: ../../source/painting_animation_levels.rst:455
 msgid ""
 "If the color model is a full-color Raster image or animation level, the palette "
 "is automatically generated by extracting colors from the image, or the first "
@@ -1755,7 +1764,7 @@ msgstr ""
 "primer fotograma del nivel. Si la imagen contuviera muchos tonos de color, la "
 "paleta se optimizará para reducir la cantidad de colores."
 
-#: ../../source/painting_animation_levels.rst:455
+#: ../../source/painting_animation_levels.rst:457
 msgid ""
 "Best results can be achieved by preparing models painted with flat colors and "
 "whose lines have no antialiasing."
@@ -1763,7 +1772,7 @@ msgstr ""
 "Es posible alcanzar los mejores resultados al preparar modelos pintados usando "
 "colores plenos y cuyas líneas no contengan suavizado de bordes."
 
-#: ../../source/painting_animation_levels.rst:457
+#: ../../source/painting_animation_levels.rst:459
 msgid ""
 "When a color model is loaded for a certain animation level, it is associated to "
 "that level and the related palette, and it's displayed in the Color Model "
@@ -1773,7 +1782,7 @@ msgstr ""
 "quedará asociado a ese nivel y a su correspondiente paleta, y será mostrado en "
 "el visor de **Modelo de color** cada vez que dicho nivel sea seleccionado."
 
-#: ../../source/painting_animation_levels.rst:459
+#: ../../source/painting_animation_levels.rst:461
 msgid ""
 "A color model can be associated to palettes stored in the Studio Palette. In "
 "this way every time you assign a palette to an animation level retrieving it "
@@ -1787,7 +1796,7 @@ msgstr ""
 "será automáticamente asociado a ese nivel (ver  :ref:`Uso de la Paleta de "
 "estudio <using_the_studio_palette>`  para más detalles)."
 
-#: ../../source/painting_animation_levels.rst:461
+#: ../../source/painting_animation_levels.rst:463
 msgid ""
 "You can also use any drawing belonging to the animation level as a color model "
 "to be used on the fly, but in this case it will neither be associated to the "
@@ -1798,7 +1807,7 @@ msgstr ""
 "no quedará asociado al nivel, ni a su paleta, si fuera guardada como Paleta de "
 "estudio."
 
-#: ../../source/painting_animation_levels.rst:463
+#: ../../source/painting_animation_levels.rst:465
 msgid ""
 "When the image is displayed in the Color Model viewer, you can use it not only "
 "as visual reference, but also for picking styles with no need to use the "
@@ -1811,11 +1820,11 @@ msgstr ""
 "style_picker|). El Modelo de color también puede ser desplazado y acercado/"
 "alejado, usando los atajos de teclado usuales."
 
-#: ../../source/painting_animation_levels.rst:465
+#: ../../source/painting_animation_levels.rst:467
 msgid "**To load a color model:**"
 msgstr "**Para cargar un modelo de color:**"
 
-#: ../../source/painting_animation_levels.rst:469
+#: ../../source/painting_animation_levels.rst:471
 msgid ""
 "Choose File  →  **Load Color Model...**, and load the Toonz level or the full "
 "color raster image you want to use as a reference."
@@ -1823,7 +1832,7 @@ msgstr ""
 "Elegir Archivo → **Cargar modelo de color...** para cargar el nivel de color "
 "indizado (PLI o TLV) o la imagen que se desee usar como referencia."
 
-#: ../../source/painting_animation_levels.rst:471
+#: ../../source/painting_animation_levels.rst:473
 msgid ""
 "**Right-click** in the Color Model viewer and choose **Load Color Model** from "
 "the menu that opens."
@@ -1831,7 +1840,7 @@ msgstr ""
 "Hacer **clic derecho** en el visor de Modelo de color y elegir **Cargar modelo "
 "de color...** en el menú."
 
-#: ../../source/painting_animation_levels.rst:473
+#: ../../source/painting_animation_levels.rst:475
 msgid ""
 "Drag and drop the Toonz level or the full color raster image you want to use as "
 "reference to the Color Model viewer."
@@ -1839,7 +1848,7 @@ msgstr ""
 "Arrastrar y soltar, el nivel de color indizado o la imagen que se desee usar "
 "como referencia, sobre el visor de Modelo de color."
 
-#: ../../source/painting_animation_levels.rst:475
+#: ../../source/painting_animation_levels.rst:477
 msgid ""
 "Choose whether to overwrite current palette with the Color Model palette, or to "
 "keep the current animation level palette."
@@ -1847,7 +1856,7 @@ msgstr ""
 "Elegir si sobrescribir la paleta actual con la del Modelo de color o si "
 "conservar la paleta actual del nivel de animación."
 
-#: ../../source/painting_animation_levels.rst:477
+#: ../../source/painting_animation_levels.rst:479
 msgid ""
 "If you decide to keep the current animation level palette, the current level "
 "palette will be applied to the Color Model as well."
@@ -1855,30 +1864,30 @@ msgstr ""
 "Si se decidiera mantener la paleta actual del nivel de animación, ésta también "
 "se aplicará al Modelo de color."
 
-#: ../../source/painting_animation_levels.rst:479
+#: ../../source/painting_animation_levels.rst:481
 msgid "**To select a frame from the loaded color model level:**"
 msgstr ""
 "**Para seleccionar un fotograma de un nivel cargado como modelo de color:**"
 
-#: ../../source/painting_animation_levels.rst:483
+#: ../../source/painting_animation_levels.rst:485
 msgid "Use the playback buttons."
 msgstr "Usar los botones de reproducción."
 
-#: ../../source/painting_animation_levels.rst:485
+#: ../../source/painting_animation_levels.rst:487
 msgid "Drag the frame bar cursor."
 msgstr "Arrastrar la barra de fotogramas."
 
-#: ../../source/painting_animation_levels.rst:487
+#: ../../source/painting_animation_levels.rst:489
 msgid "Type in the frame bar field the number of the frame you want to view."
 msgstr ""
 "Ingresar el número de fotograma que se desee visualizar en el campo a la "
 "izquierda de la barra de fotogramas."
 
-#: ../../source/painting_animation_levels.rst:489
+#: ../../source/painting_animation_levels.rst:491
 msgid "**To pick styles from a color model:**"
 msgstr "**Para escoger estilos desde un modelo de color:**"
 
-#: ../../source/painting_animation_levels.rst:491
+#: ../../source/painting_animation_levels.rst:493
 msgid ""
 "Click the area or line whose style you want to pick, whatever your current tool "
 "is."
@@ -1886,7 +1895,7 @@ msgstr ""
 "Hacer clic sobre el área o línea cuyo estilo se desee escoger, "
 "independientemente de cual sea la herramienta que se encuentre seleccionada."
 
-#: ../../source/painting_animation_levels.rst:493
+#: ../../source/painting_animation_levels.rst:495
 msgid ""
 "If you are using a Raster image as reference and you decided to keep the "
 "current animation level palette, when you click an area or a line, the closest "
@@ -1896,11 +1905,11 @@ msgstr ""
 "paleta actual del nivel de animación, al hacer clic sobre un área o línea, el "
 "estilo más parecido disponible en la paleta será seleccionado."
 
-#: ../../source/painting_animation_levels.rst:495
+#: ../../source/painting_animation_levels.rst:497
 msgid "**To navigate the color model viewer:**"
 msgstr "**Para navegar en el visor de modelo de color:**"
 
-#: ../../source/painting_animation_levels.rst:499
+#: ../../source/painting_animation_levels.rst:501
 msgid ""
 "Use the zoom shortcut keys (by default + and - keys) to zoom in and zoom out at "
 "specific steps (e.g. 50%, 100%, 200%, etc.)."
@@ -1908,11 +1917,11 @@ msgstr ""
 "Usar la teclas de atajo para ampliación (de forma predefinida **+** y **-**) "
 "para ampliar o reducir de a pasos predefinidos (50%, 100%, 200%, etc.)."
 
-#: ../../source/painting_animation_levels.rst:501
+#: ../../source/painting_animation_levels.rst:503
 msgid "Use the mouse wheel to zoom in and zoom out."
 msgstr "Usar la rueda del ratón para acercar o alejar la imagen en el visor."
 
-#: ../../source/painting_animation_levels.rst:503
+#: ../../source/painting_animation_levels.rst:505
 msgid ""
 "Use the Reset View shortcut (by default the 0 key), or right-click in the "
 "viewer and choose **Reset View** from the menu that opens, to display the "
@@ -1923,34 +1932,34 @@ msgstr ""
 "mostrar el contenido del visor de Modelo de color en su tamaño real, centrado "
 "en el visor."
 
-#: ../../source/painting_animation_levels.rst:505
+#: ../../source/painting_animation_levels.rst:507
 msgid "Middle-click and drag to scroll in any direction."
 msgstr "Hacer clic central y arrastrar en la dirección deseada."
 
-#: ../../source/painting_animation_levels.rst:507
+#: ../../source/painting_animation_levels.rst:509
 msgid "**To create a color model from an original drawing:**"
 msgstr "**Para crear un modelo de color a partir de un dibujo original:**"
 
-#: ../../source/painting_animation_levels.rst:509
+#: ../../source/painting_animation_levels.rst:511
 msgid "Scan and cleanup, or draw, your color model."
 msgstr "Escanear y limpiar, o dibujar el modelo de color."
 
-#: ../../source/painting_animation_levels.rst:511
+#: ../../source/painting_animation_levels.rst:513
 msgid "Create the needed styles in the palette and paint the image."
 msgstr "Crear los estilos necesarios en la paleta y pintar la imagen."
 
-#: ../../source/painting_animation_levels.rst:513
+#: ../../source/painting_animation_levels.rst:515
 msgid "Save the image and load it as color model whenever it is needed."
 msgstr ""
 "Guardar la imagen y cargarla como un Modelo de color, cuando sea necesario."
 
-#: ../../source/painting_animation_levels.rst:515
+#: ../../source/painting_animation_levels.rst:517
 msgid "**To use a drawing from the current animation level as a model:**"
 msgstr ""
 "**Para usar un dibujo del nivel de animación seleccionado como modelo de "
 "color:**"
 
-#: ../../source/painting_animation_levels.rst:517
+#: ../../source/painting_animation_levels.rst:519
 msgid ""
 "Select the drawing you want to use as a reference for the current animation "
 "level."
@@ -1958,7 +1967,7 @@ msgstr ""
 "Seleccionar el dibujo que se desee usar como referencia para el nivel de "
 "animación actual."
 
-#: ../../source/painting_animation_levels.rst:519
+#: ../../source/painting_animation_levels.rst:521
 msgid ""
 "Right-click in the Color Model viewer and choose **Use Current Frame** from the "
 "menu that opens."
@@ -1966,17 +1975,17 @@ msgstr ""
 "Hacer clic derecho sobre el visor de Modelo de color y elegir **Usar fotograma "
 "actual** en el menú."
 
-#: ../../source/painting_animation_levels.rst:521
+#: ../../source/painting_animation_levels.rst:523
 msgid "**To store a color model together with a palette in the studio palette:**"
 msgstr ""
 "**Para almacenar un modelo de color junto con una paleta en la paleta de "
 "estudio:**"
 
-#: ../../source/painting_animation_levels.rst:523
+#: ../../source/painting_animation_levels.rst:525
 msgid "Load the color model to associate it to the current level palette."
 msgstr "Cargar el Modelo de color para asociarlo a la paleta del nivel actual."
 
-#: ../../source/painting_animation_levels.rst:525
+#: ../../source/painting_animation_levels.rst:527
 msgid ""
 "Store the level palette in the Studio Palette (see  :ref:`Using the Studio "
 "Palette <using_the_studio_palette>`  for details)."
@@ -1984,14 +1993,14 @@ msgstr ""
 "Almacenar la paleta del nivel en la Paleta de estudio (ver  :ref:`Uso de la "
 "Paleta de estudio <using_the_studio_palette>`  para más detalles)."
 
-#: ../../source/painting_animation_levels.rst:527
+#: ../../source/painting_animation_levels.rst:529
 msgid ""
 "**To associate a color model to a palette already saved in the studio palette:**"
 msgstr ""
 "**Para asociar un modelo de color a una paleta ya guardada en la paleta de "
 "estudio:**"
 
-#: ../../source/painting_animation_levels.rst:529
+#: ../../source/painting_animation_levels.rst:531
 msgid ""
 "In the Studio Palette select the palette to which you want to associate a color "
 "model, and do one of the following:"
@@ -1999,11 +2008,11 @@ msgstr ""
 "En la Paleta de estudio seleccionar la paleta a la que se desee asociar un "
 "Modelo de color, y hacer una de las siguientes cosas:"
 
-#: ../../source/painting_animation_levels.rst:531
+#: ../../source/painting_animation_levels.rst:533
 msgid "Choose File  →  **Load Color Model...**."
 msgstr "Elegir Archivo → **Cargar modelo de color...**."
 
-#: ../../source/painting_animation_levels.rst:533
+#: ../../source/painting_animation_levels.rst:535
 msgid ""
 "Right-click the palette in the studio palette tree and choose **Load Color "
 "Model...** from the menu that opens (see  :ref:`Using the Studio Palette "
@@ -2013,11 +2022,11 @@ msgstr ""
 "elegir **Cargar modelo de color...** en el menú (ver  :ref:`Uso de la Paleta de "
 "estudio <using_the_studio_palette>`  para más detalles)."
 
-#: ../../source/painting_animation_levels.rst:535
+#: ../../source/painting_animation_levels.rst:537
 msgid "Retrieve the color model from the browser that opens."
 msgstr "Cargar el Modelo de color, usando el Explorador emergente."
 
-#: ../../source/painting_animation_levels.rst:537
+#: ../../source/painting_animation_levels.rst:539
 msgid ""
 "If the color model uses a palette different from the one stored in the Studio "
 "Palette, you will be prompted whether to keep it or to overwrite it."
@@ -2026,11 +2035,11 @@ msgstr ""
 "Paleta de estudio, se consultará acerca de si se desea mantenerla o "
 "sobrescribirla."
 
-#: ../../source/painting_animation_levels.rst:539
+#: ../../source/painting_animation_levels.rst:541
 msgid "**To retrieve a color model stored in the studio palette:**"
 msgstr "**Para recuperar un modelo de color almacenado en la paleta de estudio:**"
 
-#: ../../source/painting_animation_levels.rst:541
+#: ../../source/painting_animation_levels.rst:543
 msgid ""
 "Load the palette it's associated to from the Studio Palette as the current "
 "level palette (see  :ref:`Using the Studio Palette <using_the_studio_palette>`  "
@@ -2040,11 +2049,11 @@ msgstr ""
 "como paleta actual del nivel (ver  :ref:`Uso de la Paleta de estudio "
 "<using_the_studio_palette>`  para más detalles)."
 
-#: ../../source/painting_animation_levels.rst:543
+#: ../../source/painting_animation_levels.rst:545
 msgid "**To remove the association of a palette to a color model:**"
 msgstr "**Para eliminar la asociación de una paleta a un modelo de color:**"
 
-#: ../../source/painting_animation_levels.rst:545
+#: ../../source/painting_animation_levels.rst:547
 msgid ""
 "Right-click in the Color Model viewer and choose **Remove Color Model** from "
 "the menu that opens."
