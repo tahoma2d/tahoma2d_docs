@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Tahoma 1.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-12 20:58-0300\n"
-"PO-Revision-Date: 2026-02-12 21:49-0300\n"
+"PO-Revision-Date: 2026-02-15 02:06-0300\n"
 "Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Español\n"
 "Language: es\n"
@@ -1351,7 +1351,7 @@ msgstr ""
 
 #: ../../source/painting_animation_levels.rst:349
 msgid "|apply_match_lines|"
-msgstr "|apply_match_lines|"
+msgstr "|apply_match_lines_es|"
 
 #: ../../source/painting_animation_levels.rst:552
 msgid "apply_match_lines"
