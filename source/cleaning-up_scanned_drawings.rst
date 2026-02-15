@@ -699,5 +699,5 @@ When the tasks are executed, the icon color tells the status of the task accordi
 .. |color_es| image:: ./_static/cleanup/es/cleanup_color.png
 .. |camera_es| image:: ./_static/cleanup/es/cleanup_camera.png
 .. |saveloadreset_es| image:: ./_static/cleanup/es/cleanup_saveloadreset.png
-.. |progress_es| image:: ./_static/cleanup/cleanup_progress.png
+.. |progress_es| image:: ./_static/cleanup/es/cleanup_progress.png
 .. |tasks_cleanup_es| image:: ./_static/cleanup/es/tasks_cleanup.png
