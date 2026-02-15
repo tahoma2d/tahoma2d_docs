@@ -558,3 +558,5 @@ When the image is displayed in the Color Model viewer, you can use it not only a
 .. |selection| image:: ./_static/painting_animation_levels/selection.png
 .. |style_picker| image:: ./_static/painting_animation_levels/style_picker.png
 .. |tape| image:: ./_static/painting_animation_levels/tape.png
+
+.. |apply_match_lines_es| image:: ./_static/painting_animation_levels/es/apply_match_lines.png
