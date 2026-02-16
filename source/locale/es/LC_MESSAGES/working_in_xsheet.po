@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Tahoma 1.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-30 22:32-0300\n"
-"PO-Revision-Date: 2026-02-01 15:46-0300\n"
+"PO-Revision-Date: 2026-02-15 22:01-0300\n"
 "Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Español\n"
 "Language: es\n"
@@ -1447,7 +1447,7 @@ msgstr ""
 
 #: ../../source/working_in_xsheet.rst:339
 msgid "|convert|"
-msgstr "|convert|"
+msgstr "|convert_es|"
 
 #: ../../source/working_in_xsheet.rst:1668
 msgid "convert"
@@ -1504,7 +1504,7 @@ msgstr ""
 
 #: ../../source/working_in_xsheet.rst:355
 msgid "|convert_several|"
-msgstr "|convert_several|"
+msgstr "|convert_several_es|"
 
 #: ../../source/working_in_xsheet.rst:1669
 msgid "convert_several"
@@ -1536,7 +1536,7 @@ msgstr "Seleccionar los archivos con contornos de dibujos que se desee convertir
 
 #: ../../source/working_in_xsheet.rst:373
 msgid "|convert_tlv_unpainted|"
-msgstr "|convert_tlv_unpainted|"
+msgstr "|convert_tlv_unpainted_es|"
 
 #: ../../source/working_in_xsheet.rst:1670
 msgid "convert_tlv_unpainted"
@@ -1604,7 +1604,7 @@ msgstr ""
 
 #: ../../source/working_in_xsheet.rst:395
 msgid "|convert_tlv_painted|"
-msgstr "|convert_tlv_painted|"
+msgstr "|convert_tlv_painted_es|"
 
 #: ../../source/working_in_xsheet.rst:1671
 msgid "convert_tlv_painted"
@@ -1642,7 +1642,7 @@ msgstr "Seleccionar los archivos de imagen que se desee convertir."
 
 #: ../../source/working_in_xsheet.rst:419
 msgid "|convert_tlv_painted_noaa|"
-msgstr "|convert_tlv_painted_noaa|"
+msgstr "|convert_tlv_painted_noaa_es|"
 
 #: ../../source/working_in_xsheet.rst:1672
 msgid "convert_tlv_painted_noaa"
@@ -1687,7 +1687,7 @@ msgstr ""
 
 #: ../../source/working_in_xsheet.rst:440
 msgid "|separate_colors|"
-msgstr "|separate_colors|"
+msgstr "|separate_colors_es|"
 
 #: ../../source/working_in_xsheet.rst:1674
 msgid "separate_colors"
@@ -2449,7 +2449,7 @@ msgstr "Edición de Opciones de nivel"
 
 #: ../../source/working_in_xsheet.rst:704
 msgid "|level_settings|"
-msgstr "|level_settings|"
+msgstr "|level_settings_es|"
 
 #: ../../source/working_in_xsheet.rst:1676
 msgid "level_settings"
@@ -2736,7 +2736,7 @@ msgstr ""
 
 #: ../../source/working_in_xsheet.rst:774
 msgid "|xsheet_toolbar_window|"
-msgstr "|xsheet_toolbar_window|"
+msgstr "|xsheet_toolbar_window_es|"
 
 #: ../../source/working_in_xsheet.rst:1678
 msgid "xsheet_toolbar_window"
@@ -2798,7 +2798,7 @@ msgstr ""
 
 #: ../../source/working_in_xsheet.rst:791
 msgid "|xsheet|"
-msgstr "|xsheet|"
+msgstr "|xsheet_es|"
 
 #: ../../source/working_in_xsheet.rst:1679
 msgid "xsheet"
@@ -2806,7 +2806,7 @@ msgstr "xsheet"
 
 #: ../../source/working_in_xsheet.rst:793
 msgid "|timeline|"
-msgstr "|timeline|"
+msgstr "|timeline_es|"
 
 #: ../../source/working_in_xsheet.rst:1680
 msgid "timeline"
@@ -3950,7 +3950,7 @@ msgstr ""
 
 #: ../../source/working_in_xsheet.rst:1102
 msgid "|time_stretch|"
-msgstr "|time_stretch|"
+msgstr "|time_stretch_es|"
 
 #: ../../source/working_in_xsheet.rst:1681
 msgid "time_stretch"
@@ -4684,7 +4684,7 @@ msgstr ""
 
 #: ../../source/working_in_xsheet.rst:1327
 msgid "|memo|"
-msgstr "|memo|"
+msgstr "|memo_es|"
 
 #: ../../source/working_in_xsheet.rst:1682
 msgid "memo"
@@ -4748,7 +4748,7 @@ msgstr ""
 
 #: ../../source/working_in_xsheet.rst:1345
 msgid "|memo_text_format|"
-msgstr "|memo_text_format|"
+msgstr "|memo_text_format_es|"
 
 #: ../../source/working_in_xsheet.rst:1683
 msgid "memo_text_format"
@@ -5219,7 +5219,7 @@ msgstr ""
 
 #: ../../source/working_in_xsheet.rst:1495
 msgid "|export_scene|"
-msgstr "|export_scene|"
+msgstr "|export_scene_es|"
 
 #: ../../source/working_in_xsheet.rst:1684
 msgid "export_scene"
