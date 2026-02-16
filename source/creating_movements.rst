@@ -982,3 +982,19 @@ The size of the objects changes according to its Z position, like in a real 3D e
 .. |square| image:: ./_static/movements/square.png
 .. |switch_output_port| image:: ./_static/movements/switch_output_port.png
 .. |top_view| image:: ./_static/movements/top_view.png
+
+
+
+.. |tracking_options_es| image:: ./_static/movements/es/tracking_options.png
+.. |animate_tool_position_es| image:: ./_static/movements/es/animate_tool_position.png
+.. |animate_tool_rotation_es| image:: ./_static/movements/es/animate_tool_rotation.png
+.. |animate_tool_scale_es| image:: ./_static/movements/es/animate_tool_scale.png
+.. |animate_tool_shear_es| image:: ./_static/movements/es/animate_tool_shear.png
+.. |animate_tool_center_es| image:: ./_static/movements/es/animate_tool_center.png
+.. |animate_tool_all_es_es| image:: ./_static/movements/es/animate_tool_all.png
+.. |animate_tool_handle_es| image:: ./_static/movements/es/animate_tool_handle.png
+.. |animate_tool_handle_rotate_es| image:: ./_static/movements/es/animate_tool_handle_rotate.png
+.. |animate_tool_handle_scale_es| image:: ./_static/movements/es/animate_tool_handle_scale.png
+.. |animate_tool_handle_scaleHV_es| image:: ./_static/movements/es/animate_tool_handle_scaleHV.png
+.. |animate_tool_handle_shear_es| image:: ./_static/movements/es/animate_tool_handle_shear.png
+.. |animate_tool_handle_center_es| image:: ./_static/movements/es/animate_tool_handle_center.png
