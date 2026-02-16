@@ -1695,3 +1695,21 @@ Elements defined in the CSS are the following:
 .. |thumbnails| image:: ./_static/xsheet/thumbnails.png
 .. |list| image:: ./_static/xsheet/list.png
 .. |new_folder| image:: ./_static/xsheet/new_folder.png
+
+
+.. |load_psd_es| image:: ./_static/xsheet/es/load_psd.png
+.. |rename_es| image:: ./_static/xsheet/es/rename.png
+.. |convert_es| image:: ./_static/xsheet/es/convert.png
+.. |convert_several_es| image:: ./_static/xsheet/es/convert_several.png
+.. |convert_tlv_unpainted_es| image:: ./_static/xsheet/es/convert_tlv_unpainted.png
+.. |convert_tlv_painted_es| image:: ./_static/xsheet/es/convert_tlv_painted.png
+.. |convert_tlv_painted_noaa_es| image:: ./_static/xsheet/es/convert_tlv_painted_noaa.png
+.. |separate_colors_es| image:: ./_static/xsheet/es/separate_colors.png
+.. |level_settings_es| image:: ./_static/xsheet/es/level_settings.png
+.. |xsheet_toolbar_window_es| image:: ./_static/xsheet/es/xsheet_toolbar_window.png
+.. |xsheet_es| image:: ./_static/xsheet/es/xsheet.png
+.. |timeline_es| image:: ./_static/xsheet/es/timeline.png
+.. |time_stretch_es| image:: ./_static/xsheet/es/time_stretch.png
+.. |memo_es| image:: ./_static/xsheet/es/memo.png
+.. |memo_text_format_es| image:: ./_static/xsheet/es/memo_text_format.png
+.. |export_scene_es| image:: ./_static/xsheet/es/export_scene.png
