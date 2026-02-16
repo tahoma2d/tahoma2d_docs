@@ -991,7 +991,7 @@ The size of the objects changes according to its Z position, like in a real 3D e
 .. |animate_tool_scale_es| image:: ./_static/movements/es/animate_tool_scale.png
 .. |animate_tool_shear_es| image:: ./_static/movements/es/animate_tool_shear.png
 .. |animate_tool_center_es| image:: ./_static/movements/es/animate_tool_center.png
-.. |animate_tool_all_es_es| image:: ./_static/movements/es/animate_tool_all.png
+.. |animate_tool_all_es| image:: ./_static/movements/es/animate_tool_all.png
 .. |animate_tool_handle_es| image:: ./_static/movements/es/animate_tool_handle.png
 .. |animate_tool_handle_rotate_es| image:: ./_static/movements/es/animate_tool_handle_rotate.png
 .. |animate_tool_handle_scale_es| image:: ./_static/movements/es/animate_tool_handle_scale.png
