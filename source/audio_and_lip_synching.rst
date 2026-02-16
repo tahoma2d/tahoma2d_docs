@@ -335,3 +335,7 @@ While Magpie takes care of the audio file analysis and phoneme recognition, impo
 .. |lock| image:: ./_static/audio_and_lip_synching/lock.png
 .. |additional_settings| image:: ./_static/audio_and_lip_synching/additional_settings.png
 .. |skeleton| image:: ./_static/audio_and_lip_synching/skeleton.png
+
+
+.. |magpie_import_es| image:: ./_static/audio_and_lip_synching/es/magpie_import.png
+.. |apply_lip_sync_data_es| image:: ./_static/audio_and_lip_synching/es/apply_lip_sync_data.png
