@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Tahoma 1.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-30 22:32-0300\n"
-"PO-Revision-Date: 2026-02-02 03:20-0300\n"
+"PO-Revision-Date: 2026-02-16 01:28-0300\n"
 "Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: es <LL@li.org>\n"
 "Language: es\n"
@@ -1025,7 +1025,7 @@ msgstr ""
 
 #: ../../source/audio_and_lip_synching.rst:270
 msgid "|apply_lip_sync_data|"
-msgstr "|apply_lip_sync_data|"
+msgstr "|apply_lip_sync_data_es|"
 
 #: ../../source/audio_and_lip_synching.rst:332
 msgid "apply_lip_sync_data"
@@ -1129,7 +1129,7 @@ msgstr ""
 
 #: ../../source/audio_and_lip_synching.rst:305
 msgid "|magpie_import|"
-msgstr "|magpie_import|"
+msgstr "|magpie_import_es|"
 
 #: ../../source/audio_and_lip_synching.rst:331
 msgid "magpie_import"
