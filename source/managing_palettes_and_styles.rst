@@ -649,7 +649,7 @@ Basic
 
 - **Radius**, basic brush radius (logarithmic). 0.7 means 2 pixels; 3.0 means 20 pixels.
 
-- **Radius by random**, alter the radius randomly in each dab. You can also do this with the by\_random input on the radius setting. If you do it here, there are two differences:. 1) the opaque value will be corrected such that a big-radius dabs is more transparent. 2) it will not change the actual radius seen by dabs\_per\_actual\_radius.
+- **Radius by random**, alter the radius randomly in each dab. You can also do this with the *Random* input on the **Radius** setting. If you do it here, there are two differences:. 1) the opaque value will be corrected such that a big-radius dabs is more transparent. 2) it will not change the actual radius seen by **Dabs per actual radius**.
 
 - **Hardness**, hard brush-circle borders (setting to 0 will draw nothing).
 
@@ -667,16 +667,16 @@ Basic
 
 - **Snap to pixel**, (info needed).
 
-- **Pressure gain**, change the gain factor for the pressure of the brush.
+- **Pressure gain**, change the gain factor for the *Pressure* of the brush.
 
 Opacity
 .......
 
 - **Opacity**, 0 means brush is transparent; 1 fully visible. (also known as alpha).
 
-- **Opacity multiply**, this gets multiplied with Opacity. It is used for making opaque depend on pressure (or other inputs).
+- **Opacity multiply**, this gets multiplied with **Opacity**. It is used for making opaque depend on pressure (or other inputs).
 
-- **Opacity linearize**, correct the nonlinearity introduced by blending multiple dabs on top of each other. This correction should get you a linear ("natural") pressure response when pressure is mapped to opaque\_multiply, as it is usually done. 0.9 is good for standard strokes, set it smaller if your brush scatters a lot, or higher if you use dabs\_per\_second. 0.0 the **Opacity** value above is for the individual dabs; 1.0 the **Opacity** value above is for the final brush stroke, assuming each pixel gets (dabs\_per\_radius\*2) brush dabs on average, during a stroke.
+- **Opacity linearize**, correct the nonlinearity introduced by blending multiple dabs on top of each other. This correction should get you a linear ("natural") pressure response when *Pressure* is mapped to **Opacity multiply**, as it is usually done. 0.9 is good for standard strokes, set it smaller if your brush scatters a lot, or higher if you use **Dabs per second**. 0.0 the **Opacity** value above is for the individual dabs; 1.0 the **Opacity** value above is for the final brush stroke, assuming each pixel gets (*Dabs per radius*×2) brush dabs on average, during a stroke.
 
 - **Lock alpha**, (info needed).
 
@@ -701,11 +701,11 @@ Smudge
 Speed
 .....
 
-- **Fine speed filter**, how slow the input fine speed is following the real speed. 0.0 change immediately as your speed changes (not recommended, but try it).
+- **Fine speed filter**, how slow the input *Fine Speed* is following the real speed. 0.0 change immediately as your speed changes (not recommended, but try it).
 
 - **Gross speed filter**, same as **Fine speed filter**, but note that the range is different.
 
-- **Fine speed gamma**, this changes the reaction of the **Fine speed** input to extreme physical speed. You will see the difference best if **Fine speed** is mapped to the radius. -8.0 very fast speed does not increase *Fine speed* much more; +8.0 very fast speed increases *Fine speed* a lot. For very slow speed the opposite happens.
+- **Fine speed gamma**, this changes the reaction of the *Fine Speed* input to extreme physical speed. You will see the difference best if *Fine Speed* is mapped to the **Radius**. -8.0 very fast speed does not increase *Fine Speed* much more; +8.0 very fast speed increases *Fine Speed* a lot. For very slow speed the opposite happens.
 
 - **Gross speed gamma**, same as **Fine speed gamma** for gross speed.
 
@@ -718,18 +718,18 @@ Tracking
 
 - **Slow position tracking**, slowdown pointer tracking speed. 0 disables it, higher values remove more jitter in cursor movements. Useful for drawing smooth, comic-like outlines.
 
-- **Slow tracking per dab**, similar as above but at brushdab level (ignoring how much time has past, if brushdabs do not depend on time).
+- **Slow tracking per dab**, similar as above but at brushdab level (ignoring how much time has past, if brush **Dabs** do not depend on time).
 
 - **Tracking noise**, add randomness to the mouse pointer; this usually generates many small lines in random directions; maybe try this together with **Slow tracking**.
 
 Stroke
 ......
 
-- **Stroke threshold**, how much pressure is needed to start a stroke. This affects the stroke input only. Tahoma does not need a minimal pressure to start drawing.
+- **Stroke threshold**, how much pressure is needed to start a stroke. This affects the *Stroke* input only. Tahoma2D does not need a minimal pressure to start drawing.
 
-- **Stroke duration**, how far you have to move until the stroke input reaches 1.0. This value is logarithmic (negative values will not inverse the process).
+- **Stroke duration**, how far you have to move until the *Stroke* input reaches 1.0. This value is logarithmic (negative values will not inverse the process).
 
-- **Stroke hold time**, this defines how long the stroke input stays at 1.0. After that it will reset to 0.0 and start growing again, even if the stroke is not yet finished.. 2.0 means twice as long as it takes to go from 0.0 to 1.0; 9.9 and bigger stands for infinite.
+- **Stroke hold time**, this defines how long the *Stroke* input stays at 1.0. After that, it will reset to 0.0 and start growing again, even if the stroke is not yet finished. 2.0 means twice as long as it takes to go from 0.0 to 1.0; 9.9 and bigger stands for infinite.
 
 Color
 .....
@@ -746,7 +746,7 @@ Color
 
 - **Change color satur. (HSL)**, change the color saturation using the HSL color model. -1.0 more grayish; 0.0 disable; 1.0 more saturated.
 
-- **Change color value (HSV)**, change the color value (brightness, intensity) using the HSV color model. HSV changes are applied before HSL ones. -1.0 darker; 0.0 disable; 1.0 brighter.
+- **Change color value (HSV)**, change the color value (brightness/intensity) using the HSV color model. HSV changes are applied before HSL ones. -1.0 darker; 0.0 disable; 1.0 brighter.
 
 - **Change color satur. (HSV)**, change the color saturation using the HSV color model. HSV changes are applied before HSL ones. -1.0 more grayish; 0.0 disable; 1.0 more saturated.
 
@@ -757,9 +757,9 @@ Color
 Custom
 ......
 
-- **Custom input**, set the custom input to this value. If it is slowed down, move it towards this value (see below). The idea is that you make this input depend on a mixture of pressure/speed/whatever, and then make other settings depend on this 'custom input' instead of repeating this combination everywhere you need it. If you make it change *by random* you can generate a slow (smooth) random input.
+- **Custom input**, set the *Custom* input to this value. If it is slowed down, move it towards this value (see below). The idea is that you make this setting (and, in turn, the input) depend on a mixture of *Pressure*/*Speed*/*whatever* inputs, and then make other settings depend on this *Custom input* instead of repeating this combination everywhere you need it. If you make it change by *Random* you can generate a slow (smooth) random input.
 
-- **Custom input filter**, how slow the custom input actually follows the desired value (the one above). This happens at brushdab level (ignoring how much time has past, if brushdabs do not depend on time). 0.0 no slowdown (changes apply instantly).
+- **Custom input filter**, how slow the *Custom* input actually follows the desired value (the one above). This happens at brushdab level (ignoring how much time has past, if brush **Dabs** do not depend on time). 0.0 no slowdown (changes apply instantly).
 
 
 .. _changing_the_type_of_style:
