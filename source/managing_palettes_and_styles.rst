@@ -676,7 +676,7 @@ Opacity
 
 - **Opacity multiply**, this gets multiplied with **Opacity**. It is used for making opaque depend on pressure (or other inputs).
 
-- **Opacity linearize**, correct the nonlinearity introduced by blending multiple dabs on top of each other. This correction should get you a linear ("natural") pressure response when *Pressure* is mapped to **Opacity multiply**, as it is usually done. 0.9 is good for standard strokes, set it smaller if your brush scatters a lot, or higher if you use **Dabs per second**. 0.0 the **Opacity** value above is for the individual dabs; 1.0 the **Opacity** value above is for the final brush stroke, assuming each pixel gets **Dabs per radius**×2 brush dabs on average, during a stroke.
+- **Opacity linearize**, correct the nonlinearity introduced by blending multiple dabs on top of each other. This correction should get you a linear ("natural") pressure response when *Pressure* is mapped to **Opacity multiply**, as it is usually done. 0.9 is good for standard strokes, set it smaller if your brush scatters a lot, or higher if you use **Dabs per second**. 0.0 the **Opacity** value above is for the individual dabs; 1.0 the **Opacity** value above is for the final brush stroke, assuming each pixel gets ( **Dabs per radius** ×2 ) brush dabs on average, during a stroke.
 
 - **Lock alpha**, (info needed).
 
