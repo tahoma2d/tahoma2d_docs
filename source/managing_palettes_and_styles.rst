@@ -647,13 +647,13 @@ Raster brushes have an extensive set of parameters to finetune their behaviour. 
 Basic
 .....
 
-- **Radius**, basic brush radius (logarithmic). 0.7 means 2 pixels; 3.0 means 20 pixels.
+- **Radius**, basic brush radius (logarithmic). 0.7 means 2 pixels; 3.0 means 20 pixels. Basically, actual_radius = e\ :sup:`Radius`\ , or inversely Radius = ln(actual_radius).
 
 - **Radius by random**, alter the radius randomly in each dab. You can also do this with the *Random* input on the **Radius** setting. If you do it here, there are two differences:. 1) the opaque value will be corrected such that a big-radius dabs is more transparent. 2) it will not change the actual radius seen by **Dabs per actual radius**.
 
 - **Hardness**, hard brush-circle borders (setting to 0 will draw nothing).
 
-- **Pixel feather**, (info needed).
+- **Pixel feather**, this setting decreases the hardness when necessary to prevent a pixel staircase effect (aliasing), by making the dab more blurred.
 
 - **Eraser**, how much this tool behaves like an eraser. 0.0 for normal painting; 1.0 for standard eraser behavior; 0.5 pixels go towards 50% transparency.
 
@@ -665,9 +665,16 @@ Basic
 
 - **Direction filter**, a low value will make the direction input adapt more quickly, a high value will make it smoother.
 
-- **Snap to pixel**, (info needed).
+- **Snap to pixel**, snap brush dab’s center and its radius to pixels. Set this to 1.0 for a thin pixel brush.
 
 - **Pressure gain**, change the gain factor for the *Pressure* of the brush.
+
+- **GridMap Scale**, allows to change the size of the grid map.
+
+- **GridMap Scale X**, allows to change the size of the grid map on the X axis.
+
+- **GridMap Scale Y**, allows to change the size of the grid map on the Y axis.
+
 
 Opacity
 .......
@@ -678,7 +685,7 @@ Opacity
 
 - **Opacity linearize**, correct the nonlinearity introduced by blending multiple dabs on top of each other. This correction should get you a linear ("natural") pressure response when *Pressure* is mapped to **Opacity multiply**, as it is usually done. 0.9 is good for standard strokes, set it smaller if your brush scatters a lot, or higher if you use **Dabs per second**. 0.0 the **Opacity** value above is for the individual dabs; 1.0 the **Opacity** value above is for the final brush stroke, assuming each pixel gets ( **Dabs per radius** ×2 ) brush dabs on average, during a stroke.
 
-- **Lock alpha**, (info needed).
+- **Lock alpha**, allows painting only where paint is already present. 1.0 means alpha is fully locked. 0.0 normal painting.
 
 Dabs
 ....
@@ -696,7 +703,7 @@ Smudge
 
 - **Smudge length**, this controls how fast the smudge color becomes the color you are painting on. 0.0 immediately change the smudge color; 1.0 never change the smudge color.
 
-- **Smudge radius**, (info needed).
+- **Smudge radius**, modifies the radius of the circle where color is picked up for smudging.
 
 Speed
 .....
@@ -734,11 +741,13 @@ Stroke
 Color
 .....
 
-- **Color hue**, (info needed).
+- **Color hue**, not used in Tahoma2D.
 
-- **Color saturation**, (info needed).
+- **Color saturation**, not used in Tahoma2D.
 
-- **Color value**, (info needed).
+- **Color value**, not used in Tahoma2D.
+
+- **Save color**, not used in Tahoma2D.
 
 - **Change color hue**, change color hue. -0.1 small clockwise color hue shift; 0.0 disable; 0.5 counterclockwise hue shift by 180 degrees.
 
@@ -750,9 +759,7 @@ Color
 
 - **Change color satur. (HSV)**, change the color saturation using the HSV color model. HSV changes are applied before HSL ones. -1.0 more grayish; 0.0 disable; 1.0 more saturated.
 
-- **Save color**, (info needed).
-
-- **Colorize**, (info needed).
+- **Colorize**, paints the Hue and Saturation of the image using the brush Color, while retaining its Value and Alpha. 0.0 is normal painting, 1.0 means to only colorize.
 
 Custom
 ......
@@ -760,6 +767,41 @@ Custom
 - **Custom input**, set the *Custom* input to this value. If it is slowed down, move it towards this value (see below). The idea is that you make this setting (and, in turn, the input) depend on a mixture of *Pressure*/*Speed*/*whatever* inputs, and then make other settings depend on this *Custom input* instead of repeating this combination everywhere you need it. If you make it change by *Random* you can generate a slow (smooth) random input.
 
 - **Custom input filter**, how slow the *Custom* input actually follows the desired value (the one above). This happens at brushdab level (ignoring how much time has past, if brush **Dabs** do not depend on time). 0.0 no slowdown (changes apply instantly).
+
+Brush Dynamics
+..............
+
+MyPaint brush engine uses dynamic *Inputs* as a way to get information from the external devices (i.e. drawing tablet); for instance the pressure over the drawing tablet, the speed of pencil movement, the pencil tilt, etc. This data can be used to dynamically modulate most of the settings of a brush. 
+
+Currently, the following inputs are available:
+
+- **Presure** - The pressure handled by a tablet. Typically in the range 0.0 to 1.0.
+
+- **Fine Speed** - How quickly the stylus is moving. This can vary quite a lot.
+
+- **Gross Speed** - Similar to fine speed but it changes very slowly.
+
+- **Random** - Fast and random noise, changes with every brush stroke.
+
+- **Stroke** - This input goes slowly from 0.0 to 1.0 while the stroke is being applied. This is related to **Stroke duration** and **Stroke hold time** settings.
+
+- **Direction** -  This input defines the angle of a stroke, in degrees. From 0 to 180.
+
+- **Direction 360** - The same as **Direction**, but going from 0 to 360.
+
+- **Attack Angle** - The difference, in degrees, between the angle the stylus is pointing and the angle of the stroke movement. 0.0 means the stroke angle corresponds to the angle of the stylus. 90 means the stroke angle is perpendicular to the angle of the stylus. 180 means the angle of the stroke is directly opposite the angle of the stylus by the tablet.
+
+- **Declination** - This input defines the declination (or angle) of the stylus tilt. 0.0 the pen is parallel to the tablet, 90.0 is perpendicular.
+
+- **Ascension** - Straight pen ascension (or the direction) of stylus tilt. 0.0 when the tip points towards the user; +90 when the pen turns 90 degrees clockwise; -90 when it turns 90 degrees counterclockwise; 180 when the tip points away from the user.
+
+- **GridMap X** - The X coordinate on a 256 pixel grid. This will wrap around 0-256 as the cursor is moved on the X axis. Similar to “Stroke”. Can be used to add paper texture by modifying **Opacity**, etc. The brush size should be considerably smaller than the grid size for best results.
+
+- **GridMap Y** - Similar to **GridMap X**, just in the Y axis.
+
+- **Base Brush Radius** - The base brush radius input allows to change the behavior of a brush, as it's making bigger or smaller.
+
+- **Custom** - This is a user-defined input. It is related to the **Custom input** setting.
 
 
 .. _changing_the_type_of_style:
