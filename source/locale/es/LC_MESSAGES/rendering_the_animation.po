@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Tahoma 1.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-30 22:32-0300\n"
-"PO-Revision-Date: 2026-02-01 18:48-0300\n"
+"PO-Revision-Date: 2026-02-20 23:50-0300\n"
 "Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Español\n"
 "Language: es\n"
@@ -419,7 +419,7 @@ msgstr ""
 
 #: ../../source/rendering_the_animation.rst:98
 msgid "|preview_settings_dialog|"
-msgstr "|preview_settings_dialog|"
+msgstr "|preview_settings_dialog_es|"
 
 #: ../../source/rendering_the_animation.rst:869
 msgid "preview_settings_dialog"
@@ -1584,7 +1584,7 @@ msgstr ""
 
 #: ../../source/rendering_the_animation.rst:453
 msgid "|output_settings_dialog|"
-msgstr "|output_settings_dialog|"
+msgstr "|output_settings_dialog_es|"
 
 #: ../../source/rendering_the_animation.rst:870
 msgid "output_settings_dialog"
@@ -2091,7 +2091,7 @@ msgstr ""
 
 #: ../../source/rendering_the_animation.rst:559
 msgid "|clapperboard|"
-msgstr "|clapperboard|"
+msgstr "|clapperboard_es|"
 
 #: ../../source/rendering_the_animation.rst:871
 msgid "clapperboard"
@@ -2518,7 +2518,7 @@ msgstr ""
 
 #: ../../source/rendering_the_animation.rst:692
 msgid "|tasks_render|"
-msgstr "|tasks_render|"
+msgstr "|tasks_render_es|"
 
 #: ../../source/rendering_the_animation.rst:872
 msgid "tasks_render"
