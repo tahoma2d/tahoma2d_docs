@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Tahoma 1.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-30 22:32-0300\n"
-"PO-Revision-Date: 2026-01-31 03:14-0300\n"
+"PO-Revision-Date: 2026-02-20 21:06-0300\n"
 "Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Español\n"
 "Language: es\n"
@@ -220,7 +220,7 @@ msgstr "Origen"
 
 #: ../../source/using_the_particles_effect.rst:50
 msgid "|setting_the_particles_source|"
-msgstr "|setting_the_particles_source|"
+msgstr "|setting_the_particles_source_es|"
 
 #: ../../source/using_the_particles_effect.rst:757
 msgid "setting_the_particles_source"
@@ -605,7 +605,7 @@ msgstr "Nacimiento"
 
 #: ../../source/using_the_particles_effect.rst:190
 msgid "|defining_particles_birth_parameters|"
-msgstr "|defining_particles_birth_parameters|"
+msgstr "|defining_particles_birth_parameters_es|"
 
 #: ../../source/using_the_particles_effect.rst:758
 msgid "defining_particles_birth_parameters"
@@ -1017,7 +1017,7 @@ msgstr "Entorno"
 
 #: ../../source/using_the_particles_effect.rst:374
 msgid "|defining_environment_settings|"
-msgstr "|defining_environment_settings|"
+msgstr "|defining_environment_settings_es|"
 
 #: ../../source/using_the_particles_effect.rst:759
 msgid "defining_environment_settings"
@@ -1360,7 +1360,7 @@ msgstr ""
 
 #: ../../source/using_the_particles_effect.rst:521
 msgid "|defining_particles_animation|"
-msgstr "|defining_particles_animation|"
+msgstr "|defining_particles_animation_es|"
 
 #: ../../source/using_the_particles_effect.rst:760
 msgid "defining_particles_animation"
@@ -1614,7 +1614,7 @@ msgstr "Colores"
 
 #: ../../source/using_the_particles_effect.rst:632
 msgid "|defining_particles_color|"
-msgstr "|defining_particles_color|"
+msgstr "|defining_particles_color_es|"
 
 #: ../../source/using_the_particles_effect.rst:761
 msgid "defining_particles_color"
