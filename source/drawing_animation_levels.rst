@@ -1535,7 +1535,7 @@ The way images are displayed in Onion Skin mode can be customized in the Prefere
 Light Table
 -----------
 
-**Light Table** mode allows the current level to be displayed at its normal opacity, while all other levels are shown at 30% of their opacity.
+**Light Table** mode allows the current column/layer to be displayed at its normal opacity, while all other columns/layers are shown at 30% of their opacity.
 
 |light_table|
 
