@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tahoma 1.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-30 22:32-0300\n"
-"PO-Revision-Date: 2026-02-01 18:45-0300\n"
+"POT-Creation-Date: 2026-02-22 03:31-0300\n"
+"PO-Revision-Date: 2026-02-22 03:45-0300\n"
 "Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Español\n"
 "Language: es\n"
@@ -568,7 +568,7 @@ msgstr ""
 "(ver :ref:`Animación de objetos <animating_objects>` y :ref:`Previsualización de "
 "la animación <previewing_the_animation>`  )."
 
-#: ../../source/drawing_animation_levels.rst:1616
+#: ../../source/drawing_animation_levels.rst:1636
 msgid "animate"
 msgstr "animate"
 
@@ -604,7 +604,7 @@ msgstr ""
 "para reducir hacia abajo. El punto donde se hace clic será el centro de la "
 "acción."
 
-#: ../../source/drawing_animation_levels.rst:1633
+#: ../../source/drawing_animation_levels.rst:1653
 msgid "zoom"
 msgstr "zoom"
 
@@ -628,7 +628,7 @@ msgstr ""
 "Arrastrar con el botón central para usar la herramienta **Desplazar** (|hand|) "
 "para desplazar en cualquier dirección."
 
-#: ../../source/drawing_animation_levels.rst:1624
+#: ../../source/drawing_animation_levels.rst:1644
 msgid "hand"
 msgstr "hand"
 
@@ -642,7 +642,7 @@ msgstr ""
 "*línea de horizonte* para ayudar a entender el grado de rotación; el centro de "
 "rotación es el centro absoluto del área de trabajo."
 
-#: ../../source/drawing_animation_levels.rst:1629
+#: ../../source/drawing_animation_levels.rst:1649
 msgid "rotate"
 msgstr "rotate"
 
@@ -1042,7 +1042,7 @@ msgstr ""
 "inferior y seleccionar en el menú los elementos a ser mostrados o deseleccionar "
 "aquellos a ocultar."
 
-#: ../../source/drawing_animation_levels.rst:1636
+#: ../../source/drawing_animation_levels.rst:1656
 msgid "option"
 msgstr "option"
 
@@ -1062,11 +1062,11 @@ msgstr ""
 "que se va a dibujar: los valores para el **Tamaño** van de 0 a 100 para niveles "
 "Vectoriales, y de 1 a 100 para niveles de Imagen inteligente e Imagen."
 
-#: ../../source/drawing_animation_levels.rst:1618
+#: ../../source/drawing_animation_levels.rst:1638
 msgid "brush"
 msgstr "brush"
 
-#: ../../source/drawing_animation_levels.rst:1623
+#: ../../source/drawing_animation_levels.rst:1643
 msgid "geometric"
 msgstr "geometric"
 
@@ -1671,7 +1671,7 @@ msgid "Text can be added by using the **Type** tool (|type|)."
 msgstr ""
 "Es posible agregar textos a un nivel usando la herramienta **Texto** (|type|)."
 
-#: ../../source/drawing_animation_levels.rst:1632
+#: ../../source/drawing_animation_levels.rst:1652
 msgid "type"
 msgstr "type"
 
@@ -1708,7 +1708,7 @@ msgstr ""
 "El texto puede ser redimensionado usando la herramienta **Seleccionar** (|"
 "selection|) (ver  :ref:`Edición de dibujos <editing_drawings>`  )."
 
-#: ../../source/drawing_animation_levels.rst:1630
+#: ../../source/drawing_animation_levels.rst:1650
 msgid "selection"
 msgstr "selection"
 
@@ -1796,7 +1796,7 @@ msgstr ""
 "La herramienta **Borrador**  (|eraser|) permite borrar parcialmente líneas, "
 "tanto en dibujos vectoriales como de imagen."
 
-#: ../../source/drawing_animation_levels.rst:1621
+#: ../../source/drawing_animation_levels.rst:1641
 msgid "eraser"
 msgstr "eraser"
 
@@ -1931,11 +1931,11 @@ msgstr ""
 "(|pinch|) o **Editar puntos de control**, o el grosor con la herramienta "
 "**Inflar** (|pump|)."
 
-#: ../../source/drawing_animation_levels.rst:1627
+#: ../../source/drawing_animation_levels.rst:1647
 msgid "pinch"
 msgstr "pinch"
 
-#: ../../source/drawing_animation_levels.rst:1628
+#: ../../source/drawing_animation_levels.rst:1648
 msgid "pump"
 msgstr "pump"
 
@@ -2232,7 +2232,7 @@ msgstr ""
 "estructura de los trazos vectoriales, en caso de que la opción **Comprobación de "
 "líneas** (|check|) se encuentre activada."
 
-#: ../../source/drawing_animation_levels.rst:1634
+#: ../../source/drawing_animation_levels.rst:1654
 msgid "check"
 msgstr "check"
 
@@ -2269,7 +2269,7 @@ msgstr ""
 "Hacer clic en el botón **Ver muestra** (|preview|) en la parte inferior "
 "izquierda del diálogo **Opciones de vectorización**."
 
-#: ../../source/drawing_animation_levels.rst:1637
+#: ../../source/drawing_animation_levels.rst:1657
 msgid "preview"
 msgstr "preview"
 
@@ -2284,7 +2284,8 @@ msgstr "**Para redimensionar el área de previsualización:**"
 #: ../../source/drawing_animation_levels.rst:637
 #: ../../source/drawing_animation_levels.rst:1092
 #: ../../source/drawing_animation_levels.rst:1522
-#: ../../source/drawing_animation_levels.rst:1557
+#: ../../source/drawing_animation_levels.rst:1546
+#: ../../source/drawing_animation_levels.rst:1577
 msgid "Do any of the following:"
 msgstr "Hacer alguna de las siguientes cosas:"
 
@@ -2381,7 +2382,7 @@ msgstr ""
 "Hacer clic en el botón **Guardar opciones** (|save|) en la parte inferior "
 "derecha del diálogo Opciones de vectorización."
 
-#: ../../source/drawing_animation_levels.rst:1639
+#: ../../source/drawing_animation_levels.rst:1659
 msgid "save"
 msgstr "save"
 
@@ -2405,7 +2406,7 @@ msgstr ""
 "Hacer clic en el botón **Cargar opciones** (|load|) en la parte inferior derecha "
 "del diálogo Opciones de vectorización."
 
-#: ../../source/drawing_animation_levels.rst:1635
+#: ../../source/drawing_animation_levels.rst:1655
 msgid "load"
 msgstr "load"
 
@@ -2431,7 +2432,7 @@ msgstr ""
 "Hacer clic en el botón **Restablecer opciones** (|reset|) en la parte inferior "
 "derecha del diálogo Opciones de vectorización."
 
-#: ../../source/drawing_animation_levels.rst:1638
+#: ../../source/drawing_animation_levels.rst:1658
 msgid "reset"
 msgstr "reset"
 
@@ -2451,7 +2452,7 @@ msgstr ""
 msgid "|canvas_size|"
 msgstr "|canvas_size_es|"
 
-#: ../../source/drawing_animation_levels.rst:1615
+#: ../../source/drawing_animation_levels.rst:1635
 msgid "canvas_size"
 msgstr "canvas_size"
 
@@ -3374,7 +3375,7 @@ msgstr ""
 "al usar la herramienta **Rellenar** (|fill|), sólo podrán ser rellenadas las "
 "áreas definidas por trazos que estén en ese grupo."
 
-#: ../../source/drawing_animation_levels.rst:1622
+#: ../../source/drawing_animation_levels.rst:1642
 msgid "fill"
 msgstr "fill"
 
@@ -3622,7 +3623,7 @@ msgstr ""
 "Para modificar un trazo vectorial mediante la edición de sus puntos de control, "
 "es posible usar la herramienta **Editar puntos de control** (|cpe|)."
 
-#: ../../source/drawing_animation_levels.rst:1619
+#: ../../source/drawing_animation_levels.rst:1639
 msgid "cpe"
 msgstr "cpe"
 
@@ -4039,7 +4040,7 @@ msgstr ""
 "rango de acción de la herramienta, representado por un círculo, es posible "
 "cambiar el **Tamaño** de la herramienta en la barra de opciones de herramientas."
 
-#: ../../source/drawing_animation_levels.rst:1626
+#: ../../source/drawing_animation_levels.rst:1646
 msgid "magnet"
 msgstr "magnet"
 
@@ -4060,7 +4061,7 @@ msgstr ""
 "horaria como antihoraria; una vez que se comenzó a arrastrar ya no es posible "
 "cambiar la dirección del doblez."
 
-#: ../../source/drawing_animation_levels.rst:1617
+#: ../../source/drawing_animation_levels.rst:1637
 msgid "bender"
 msgstr "bender"
 
@@ -4084,7 +4085,7 @@ msgstr ""
 "sus curvas. Cuando la herramienta se encuentra seleccionada, el cursor se "
 "adherirá al trazo más cercano para indicar dónde es que va a operar."
 
-#: ../../source/drawing_animation_levels.rst:1625
+#: ../../source/drawing_animation_levels.rst:1645
 msgid "iron"
 msgstr "iron"
 
@@ -4191,7 +4192,7 @@ msgstr ""
 "trazo, por ejemplo para modificar su curvatura o su grosor como si fueran uno "
 "solo."
 
-#: ../../source/drawing_animation_levels.rst:1631
+#: ../../source/drawing_animation_levels.rst:1651
 msgid "tape"
 msgstr "tape"
 
@@ -4221,7 +4222,7 @@ msgstr ""
 "Para dividir un trazo en dos secciones, es posible usar la herramienta "
 "**Cortar** (|cutter|)."
 
-#: ../../source/drawing_animation_levels.rst:1620
+#: ../../source/drawing_animation_levels.rst:1640
 msgid "cutter"
 msgstr "cutter"
 
@@ -5081,46 +5082,89 @@ msgstr ""
 "niveles Vectoriales y de Imagen inteligente."
 
 #: ../../source/drawing_animation_levels.rst:1536
-msgid "Using Shift and Trace"
-msgstr "Uso de Desplazar y trazar"
+msgid "Light Table"
+msgstr "Mesa de luz"
 
-#: ../../source/drawing_animation_levels.rst:1537
+#: ../../source/drawing_animation_levels.rst:1538
+#, python-format
+msgid ""
+"**Light Table** mode allows the current column/layer to be displayed at its "
+"normal opacity, while all other columns/layers are shown at 30% of their opacity."
+msgstr ""
+"El modo **Mesa de luz** permitirá mostrar la columna/capa actual con su opacidad "
+"normal, mientras que las demás serán mostradas a un 30% de su opacidad real."
+
+#: ../../source/drawing_animation_levels.rst:1540
+msgid "|light_table|"
+msgstr "|light_table|"
+
+#: ../../source/drawing_animation_levels.rst:1660
+msgid "light_table"
+msgstr "light_table"
+
+#: ../../source/drawing_animation_levels.rst:1542
+msgid "This will also work with **Onion Skin** and **Shift and Trace** features."
+msgstr ""
+"Esto podrá ser usado conjuntamente con las funciones **Piel de cebolla** y "
+"**Desplazar y calcar**."
+
+#: ../../source/drawing_animation_levels.rst:1544
+msgid "**To toggle the Light Table mode:**"
+msgstr "**Para alternar el modo Mesa de luz:**"
+
+#: ../../source/drawing_animation_levels.rst:1548
+msgid "Activate View  →  **Light Table**."
+msgstr "Activar Ver  →  **Mesa de luz**."
+
+#: ../../source/drawing_animation_levels.rst:1550
+msgid ""
+"Right-click in the time ruler of the Xsheet/Timeline, and choose **Light Table** "
+"from the menu that opens."
+msgstr ""
+"Hacer clic derecho sobre la regla de tiempo de la Planilla/Línea de tiempo y "
+"elegir la opción **Mesa de luz** en el menú."
+
+#: ../../source/drawing_animation_levels.rst:1556
+msgid "Using Shift and Trace"
+msgstr "Uso de Desplazar y calcar"
+
+#: ../../source/drawing_animation_levels.rst:1557
 msgid ""
 "The **Shift and Trace** function can help you in the creation of animated levels "
 "as if you were drawing on paper using a light table; in fact it allows you to "
 "use the previous and next key drawings as references, while you insert an "
 "inbetween or a break down."
 msgstr ""
-"La función **Desplazar y trazar** puede ser de ayuda al crear niveles de "
+"La función **Desplazar y calcar** puede ser de ayuda al crear niveles de "
 "animación, de forma similar a cuando se dibuja en papel usando una mesa "
 "retroiluminada. Esta función permite usar los dibujos clave anterior y siguiente "
-"como referencia, mientras se está dibujando un intermedio."
+"como referencia, mientras se está dibujando un dibujo intermedio."
 
-#: ../../source/drawing_animation_levels.rst:1539
+#: ../../source/drawing_animation_levels.rst:1559
 msgid ""
 "It's possible to temporary move and rotate the drawings you want to use as "
 "reference, to fit the position where you want to draw the inbetween. It's also "
 "possible to automatically set the position of the reference drawings creating "
 "and editing a path of action line."
 msgstr ""
-"Es posible mover y rotar temporalmente los dibujos usados como referencia, para "
-"ajustarlos a la posición donde se desea dibujar el intermedio. También es "
+"Será posible mover y rotar temporalmente los dibujos usados como referencia, "
+"para ajustarlos a la posición donde se desee dibujar el intermedio. También será "
 "posible establecer la posición de los dibujos de referencia de forma automática, "
 "creando y editando una curva de trayectoria de acción."
 
-#: ../../source/drawing_animation_levels.rst:1541
+#: ../../source/drawing_animation_levels.rst:1561
 msgid ""
 "To better check the new drawing and the animation, you can toggle the Shift and "
 "Trace visualization on or off the Viewer."
 msgstr ""
-"Para poder revisar más fácilmente el nuevo dibujo y la animación, es posible "
-"apagar y encender la visualización de la función Desplazar y trazar en el Visor."
+"Para poder revisar más fácilmente el nuevo dibujo y la animación, será posible "
+"alternar la visualización de la función *Desplazar y calcar* en el Visor."
 
-#: ../../source/drawing_animation_levels.rst:1543
+#: ../../source/drawing_animation_levels.rst:1563
 msgid "**To enter the Shift and Trace view:**"
-msgstr "**Para entrar al modo Desplazar y trazar:**"
+msgstr "**Para entrar al modo Desplazar y calcar:**"
 
-#: ../../source/drawing_animation_levels.rst:1545
+#: ../../source/drawing_animation_levels.rst:1565
 msgid ""
 "Position the frame cursor on the frame where you want to draw the inbetween "
 "drawing."
@@ -5128,20 +5172,20 @@ msgstr ""
 "Posicionar el cursor de tiempo en el fotograma donde se desee dibujar el "
 "intermedio."
 
-#: ../../source/drawing_animation_levels.rst:1547
+#: ../../source/drawing_animation_levels.rst:1567
 msgid ""
 "Enable View  →  **Shift and Trace**; the previous and next drawings will be "
 "visualized."
 msgstr ""
-"Habilitar la opción Ver → **Desplazar y trazar**; se visualizarán los fotogramas "
+"Habilitar la opción Ver → **Desplazar y calcar**; se visualizarán los fotogramas "
 "anterior y siguiente."
 
-#: ../../source/drawing_animation_levels.rst:1549
+#: ../../source/drawing_animation_levels.rst:1569
 msgid "**To Edit the Position of the reference drawings:**"
 msgstr "**Para editar la posición de los dibujos de referencia:**"
 
-#: ../../source/drawing_animation_levels.rst:1551
 #: ../../source/drawing_animation_levels.rst:1571
+#: ../../source/drawing_animation_levels.rst:1591
 msgid ""
 "Position the frame cursor where you want to draw the inbetween drawing and "
 "sketch the path of action line beteween your reference points."
@@ -5149,12 +5193,12 @@ msgstr ""
 "Posicionar el cursor de tiempo donde se desee dibujar el intermedio y bocetar la "
 "curva de trayectoria de acción entre los puntos de referencia."
 
-#: ../../source/drawing_animation_levels.rst:1553
 #: ../../source/drawing_animation_levels.rst:1573
+#: ../../source/drawing_animation_levels.rst:1593
 msgid "Activate View  →  **Edit Shift**."
 msgstr "Activar Ver → **Editar desplazamiento**."
 
-#: ../../source/drawing_animation_levels.rst:1555
+#: ../../source/drawing_animation_levels.rst:1575
 msgid ""
 "Click on the drawing you want to reposition in the Viewer, or use the **Previous "
 "Drawing** / **Following Drawing** options in the tool options bar; the related "
@@ -5165,24 +5209,24 @@ msgstr ""
 "la herramienta; se mostrará el marco delimitador del dibujo de referencia "
 "correspondiente."
 
-#: ../../source/drawing_animation_levels.rst:1559
+#: ../../source/drawing_animation_levels.rst:1579
 msgid "Click and drag *inside the bounding box* to **move** the reference drawing."
 msgstr ""
 "Hacer clic y arrastrar *dentro del marco* para **mover** el dibujo de referencia."
 
-#: ../../source/drawing_animation_levels.rst:1561
+#: ../../source/drawing_animation_levels.rst:1581
 msgid ""
 "Click and drag *outside the bounding box* to **rotate** the reference drawing."
 msgstr ""
 "Hacer clic y arrastrar *fuera del marco* para **rotar** el dibujo de referencia."
 
-#: ../../source/drawing_animation_levels.rst:1563
+#: ../../source/drawing_animation_levels.rst:1583
 msgid "Click and drag *the center handle* to change the **center of rotation**."
 msgstr ""
 "Hacer clic y arrastrar *el círculo central* para cambiar el **centro de "
 "rotación** del dibujo de referencia."
 
-#: ../../source/drawing_animation_levels.rst:1565
+#: ../../source/drawing_animation_levels.rst:1585
 msgid ""
 "Click and drag *any corner handle of the bounding box* to **scale** the "
 "reference drawing from its center."
@@ -5190,15 +5234,15 @@ msgstr ""
 "Hacer clic y arrastrar *cualquier esquina del marco* para **escalar** el dibujo "
 "de referencia desde su centro."
 
-#: ../../source/drawing_animation_levels.rst:1567
+#: ../../source/drawing_animation_levels.rst:1587
 msgid "Repeat the same steps on the second reference drawing."
 msgstr "Repetir los mismos pasos con el segundo dibujo de referencia."
 
-#: ../../source/drawing_animation_levels.rst:1569
+#: ../../source/drawing_animation_levels.rst:1589
 msgid "**To automatically Edit the Position of the reference drawings:**"
 msgstr "**Para editar la posición de los dibujos de referencia automáticamente:**"
 
-#: ../../source/drawing_animation_levels.rst:1575
+#: ../../source/drawing_animation_levels.rst:1595
 msgid ""
 "Ctrl-click and drag to create a path, from the reference point in the first "
 "drawing, to the reference point in the second one. The starting and the ending "
@@ -5208,7 +5252,7 @@ msgstr ""
 "referencia del primer dibujo hasta el del segundo. Los puntos inicial y final "
 "quedarán superpuestos en el centro de la trayectoria."
 
-#: ../../source/drawing_animation_levels.rst:1577
+#: ../../source/drawing_animation_levels.rst:1597
 msgid ""
 "Click and drag the handle along the path to change its shape; the reference "
 "drawings will move according to the handle position and rotate according to the "
@@ -5218,49 +5262,48 @@ msgstr ""
 "referencia se moverán y rotarán de acuerdo a la modificación realizada a la "
 "trayectoria."
 
-#: ../../source/drawing_animation_levels.rst:1579
+#: ../../source/drawing_animation_levels.rst:1599
 msgid ""
 "If needed, use the bounding box handles to fix the rotation of the reference "
 "drawing."
 msgstr ""
-"Si fuera necesario, es posible rotar los dibujos de referencia desde fuera del "
+"Si fuera necesario, será posible rotar los dibujos de referencia desde fuera del "
 "marco delimitador."
 
-#: ../../source/drawing_animation_levels.rst:1581
+#: ../../source/drawing_animation_levels.rst:1601
 msgid ""
 "Clicking and dragging one of the reference drawings will remove the path of "
 "action line."
 msgstr ""
-"Al hacer clic y arrastrar uno de los dibujos de referencia la trayectoria de "
+"Al hacer clic y arrastrar uno de los dibujos de referencia, la trayectoria de "
 "acción será eliminada."
 
-#: ../../source/drawing_animation_levels.rst:1583
+#: ../../source/drawing_animation_levels.rst:1603
 msgid "**To Toggle the Shift and Trace visualization:**"
-msgstr ""
-"**Para apagar y encender la visualización de la función Desplazar y trazar:**"
+msgstr "**Para alternar la visualización de la función Desplazar y calcar:**"
 
-#: ../../source/drawing_animation_levels.rst:1585
+#: ../../source/drawing_animation_levels.rst:1605
 msgid ""
 "Activate View  →  **No Shift** to toggle the visualization of the reference "
 "drawings back to their original position."
 msgstr ""
 "Activar Ver → **Ver sin desplazamiento** para alternar la visualización de los "
-"dibujos de referencia de vuelta a sus posiciones originales."
+"dibujos de referencia, de vuelta en sus posiciones originales."
 
-#: ../../source/drawing_animation_levels.rst:1587
+#: ../../source/drawing_animation_levels.rst:1607
 msgid "**To Reset the position of the reference drawings:**"
 msgstr "**Para restablecer la posición de los dibujos de referencia:**"
 
-#: ../../source/drawing_animation_levels.rst:1589
+#: ../../source/drawing_animation_levels.rst:1609
 msgid "Choose the View  →  **Reset Shift** command."
 msgstr "Elegir el comando Ver → **Restablecer desplazamiento**."
 
-#: ../../source/drawing_animation_levels.rst:1591
+#: ../../source/drawing_animation_levels.rst:1611
 msgid "**To Reset the transformations of one of the reference drawings:**"
 msgstr ""
 "**Para restablecer las transformaciones de uno de los dibujos de referencia:**"
 
-#: ../../source/drawing_animation_levels.rst:1593
+#: ../../source/drawing_animation_levels.rst:1613
 msgid ""
 "In the tool options bar click on either **Reset Previous** or **Reset "
 "Following** buttons."
@@ -5268,40 +5311,40 @@ msgstr ""
 "En la barra de opciones de herramientas hacer clic en el botón **Restablecer "
 "anterior** o **Restablecer siguiente**."
 
-#: ../../source/drawing_animation_levels.rst:1595
+#: ../../source/drawing_animation_levels.rst:1615
 msgid "**To Create an inbetween drawing using the Shift and Trace feature:**"
-msgstr "**Para crear un dibujo intermedio usando la función Desplazar y trazar:**"
+msgstr "**Para crear un dibujo intermedio usando la función Desplazar y calcar:**"
 
-#: ../../source/drawing_animation_levels.rst:1597
+#: ../../source/drawing_animation_levels.rst:1617
 msgid "Create the first key drawing."
 msgstr "Crear el primer dibujo clave."
 
-#: ../../source/drawing_animation_levels.rst:1599
+#: ../../source/drawing_animation_levels.rst:1619
 msgid "Create the second key drawing."
 msgstr "Crear el segundo dibujo clave."
 
-#: ../../source/drawing_animation_levels.rst:1601
+#: ../../source/drawing_animation_levels.rst:1621
 msgid "Select the cell where you want to create the inbetween drawing."
-msgstr "Seleccionar la celda donde se desea crear el dibujo intermedio."
+msgstr "Seleccionar la celda donde se desee crear el dibujo intermedio."
 
-#: ../../source/drawing_animation_levels.rst:1603
+#: ../../source/drawing_animation_levels.rst:1623
 msgid "Activate View  →  **Shift and Trace**."
-msgstr "Activar Ver → **Desplazar y trazar**."
+msgstr "Activar Ver → **Desplazar y calcar**."
 
-#: ../../source/drawing_animation_levels.rst:1605
+#: ../../source/drawing_animation_levels.rst:1625
 msgid "Sketch the path of action line beteween your reference points."
 msgstr ""
 "Activar Ver → **Editar desplazamiento** y bocetar la curva de trayectoria de "
 "acción entre los puntos de referencia."
 
-#: ../../source/drawing_animation_levels.rst:1607
+#: ../../source/drawing_animation_levels.rst:1627
 msgid ""
 "Activate View  →  **Edit Shift** and edit the position of the reference drawings."
 msgstr ""
 "Activar Ver → **Editar desplazamiento** y editar la posición de los dibujos de "
 "referencia."
 
-#: ../../source/drawing_animation_levels.rst:1609
+#: ../../source/drawing_animation_levels.rst:1629
 msgid "Create the inbetween drawing."
 msgstr "Crear el dibujo intermedio."
 
