@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Tahoma 1.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-22 03:31-0300\n"
-"PO-Revision-Date: 2026-02-22 03:45-0300\n"
+"PO-Revision-Date: 2026-02-22 03:55-0300\n"
 "Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Español\n"
 "Language: es\n"
@@ -5138,7 +5138,7 @@ msgstr ""
 "La función **Desplazar y calcar** puede ser de ayuda al crear niveles de "
 "animación, de forma similar a cuando se dibuja en papel usando una mesa "
 "retroiluminada. Esta función permite usar los dibujos clave anterior y siguiente "
-"como referencia, mientras se está dibujando un dibujo intermedio."
+"como referencia, mientras se está creando un dibujo intermedio."
 
 #: ../../source/drawing_animation_levels.rst:1559
 msgid ""
@@ -5280,7 +5280,7 @@ msgstr ""
 
 #: ../../source/drawing_animation_levels.rst:1603
 msgid "**To Toggle the Shift and Trace visualization:**"
-msgstr "**Para alternar la visualización de la función Desplazar y calcar:**"
+msgstr "**Para alternar la visualización del modo Desplazar y calcar:**"
 
 #: ../../source/drawing_animation_levels.rst:1605
 msgid ""
