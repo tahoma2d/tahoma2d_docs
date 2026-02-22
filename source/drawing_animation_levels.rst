@@ -1658,6 +1658,6 @@ To better check the new drawing and the animation, you can toggle the Shift and 
 .. |reset| image:: ./_static/drawing_animation_levels/reset.png
 .. |save| image:: ./_static/drawing_animation_levels/save.png
 .. |light_table| image:: ./_static/drawing_animation_levels/light_table.gif
-   :scale: 50%
+   :scale: 35%
 
 .. |canvas_size_es| image:: ./_static/drawing_animation_levels/es/canvas_size.png
