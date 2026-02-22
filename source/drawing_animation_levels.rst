@@ -1530,6 +1530,26 @@ The way images are displayed in Onion Skin mode can be customized in the Prefere
     - Activate the **Display Lines Only** option to display Vector or Smart Raster levels with lines only.
 
 
+.. _light_table:
+
+Light Table
+-----------
+
+**Light Table** mode allows the current level to be displayed at its normal opacity, while all other levels are shown at 30% of their opacity.
+
+|light_table|
+
+.. note:: This will also work with **Onion Skin** and **Shift and Trace** features.
+
+.. tip:: **To toggle the Light Table mode:**
+
+    Do any of the following:
+
+    - Activate View  →  **Light Table**.
+
+    - Right-click in the time ruler of the Xsheet/Timeline, and choose **Light Table** from the menu that opens.
+
+
 .. _using_the_shift_and_trace:
 
 Using Shift and Trace
@@ -1637,5 +1657,6 @@ To better check the new drawing and the animation, you can toggle the Shift and 
 .. |preview| image:: ./_static/drawing_animation_levels/preview.png
 .. |reset| image:: ./_static/drawing_animation_levels/reset.png
 .. |save| image:: ./_static/drawing_animation_levels/save.png
+.. |light_table| image:: ./_static/drawing_animation_levels/light_table.gif
 
 .. |canvas_size_es| image:: ./_static/drawing_animation_levels/es/canvas_size.png
