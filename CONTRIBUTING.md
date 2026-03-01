@@ -174,7 +174,7 @@ You can use any editor you wish, but the following is recommended.
   - Additional recommended extensions:
     - [Extension Pack for reStructuredText](https://marketplace.visualstudio.com/items?itemName=lextudio.restructuredtext-pack)
     - [reStructuredText Syntax highlighting](https://marketplace.visualstudio.com/items?itemName=trond-snekvik.simple-rst )
-  
+    - Add the [Esbonio](https://marketplace.visualstudio.com/items?itemName=swyddfa.esbonio) extension from the marketplace which will allow you to preview your changes
 - In VSCode, navigate to your Tahoma2D Docs folder and open folder `source`.
   
 
