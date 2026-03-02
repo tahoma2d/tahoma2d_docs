@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tahoma 1.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-30 22:32-0300\n"
-"PO-Revision-Date: 2026-01-31 00:03-0300\n"
+"POT-Creation-Date: 2026-03-01 23:52-0300\n"
+"PO-Revision-Date: 2026-03-02 04:06-0300\n"
 "Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Español\n"
 "Language: new\n"
@@ -24,8 +24,8 @@ msgstr "Novedades"
 
 #: ../../source/whats_new.rst:6
 msgid ""
-"Tahoma2D includes a number of improvements from OpenToonz.  It also includes "
-"the latest features and bug fixes from OpenToonz."
+"Tahoma2D includes a number of improvements from OpenToonz.  It also includes the "
+"latest features and bug fixes from OpenToonz."
 msgstr ""
 "Tahoma2D incluye una cantidad de mejoras provenientes de OpenToonz. También "
 "incluye las últimas características y correcciones de errores de OpenToonz."
@@ -44,70 +44,582 @@ msgstr ""
 "recuento de la historia de desarrollo de Tahoma2D a lo largo del tiempo."
 
 #: ../../source/whats_new.rst:14
-msgid "New in Tahoma2D 1.5.1"
-msgstr "Novedades en Tahoma2D 1.5.1"
+msgid "New in Tahoma2D 1.6"
+msgstr "Novedades en Tahoma2D 1.6"
 
 #: ../../source/whats_new.rst:18
 msgid "Added"
 msgstr "Nuevo"
 
 #: ../../source/whats_new.rst:19
-msgid "High DPI Scaling preference"
-msgstr ""
-"Opción en preferencias para el escalado en monitores con alta densidad de PPP"
+msgid "Brush Tips (Raster/Smart Raster)"
+msgstr "Pincel (Imagen/Imagen inteligente) - Opción de Puntas de pincel"
 
 #: ../../source/whats_new.rst:20
-msgid "Added CHANGELOG.md"
-msgstr "Se agregó un archivo CHANGELOG.md"
+msgid "Stylus Settings Popup (Raster Brush & MyPaint styles)"
+msgstr ""
+"Pincel (Imagen) - Panel emergente de Opciones de pluma (estilos estándar y "
+"MyPaint)"
+
+#: ../../source/whats_new.rst:21
+msgid "Stylus Settings Popup (Smart Raster - Standard Brush, Vector)"
+msgstr ""
+"Pincel (Imagen inteligente y Vectorial) - Panel emergente de Opciones de pluma"
+
+#: ../../source/whats_new.rst:22
+msgid "Column Alpha Lock"
+msgstr "Opción Bloquear alfa en columnas/capas"
 
 #: ../../source/whats_new.rst:23
+msgid "Loop Frames"
+msgstr "Función Repetir fotogramas"
+
+#: ../../source/whats_new.rst:24
+msgid "Add Raster Tool Option - Paint Behind"
+msgstr "Pincel (Imagen) - Opción Pintar detrás"
+
+#: ../../source/whats_new.rst:25
+msgid "Smart Raster Selection - Selective mode"
+msgstr "Selección (Imagen inteligente) - Modo Selectivo"
+
+#: ../../source/whats_new.rst:26
+msgid "Add marker and soft round vector styles."
+msgstr "Nuevos estilos Vectoriales - Marcador y Circular suave"
+
+#: ../../source/whats_new.rst:27
+msgid "Contiguous cell selection shortcut"
+msgstr "Atajo de teclado para selección contigua de celdas"
+
+#: ../../source/whats_new.rst:28
+msgid "Show image in cell tooltip"
+msgstr "Mostrar imágenes en descripciones emergentes de celdas"
+
+#: ../../source/whats_new.rst:29
+msgid "Special Modifier Key: Viewer Scrub"
+msgstr "Tecla modificadora especial para el comando: Arrastrar en visor"
+
+#: ../../source/whats_new.rst:30
+msgid "Canon SDK for Linux"
+msgstr "SDK de Canon para Linux"
+
+#: ../../source/whats_new.rst:33
 msgid "Changed"
 msgstr "Cambios"
 
-#: ../../source/whats_new.rst:24
-msgid "Fix Gap Closure results (Tape Tool)"
-msgstr "Se corrigió el resultado al cerrar huecos (herramienta Cinta)"
+#: ../../source/whats_new.rst:34
+msgid "MyPaint Brush Tilt Support"
+msgstr "Soporte para inclinación de la pluma al dibujar con estilos MyPaint"
 
-#: ../../source/whats_new.rst:27
+#: ../../source/whats_new.rst:35
+msgid "New and updated shortcuts"
+msgstr "Atajos de teclado nuevos y actualizados"
+
+#: ../../source/whats_new.rst:36
+msgid "Refactored and Improved Preproduction Board"
+msgstr "Se restructuró y mejoró el Panel de preproducción"
+
+#: ../../source/whats_new.rst:37
+msgid "Reverse Clipping Mask Stacking Placement"
+msgstr ""
+"Se invirtió la ubicación de las Máscaras de recorte en la planilla/línea de "
+"tiempo"
+
+#: ../../source/whats_new.rst:38
+msgid "Rhubarb Recognizer option"
+msgstr "Rhubarb - Opción Reconocedor"
+
+#: ../../source/whats_new.rst:39
+msgid "Shift markers with Cell Insert/Delete"
+msgstr "Desplazar marcadores al Insertar/Borrar celdas"
+
+#: ../../source/whats_new.rst:40
+msgid "Add color and fill support to raster pattern brush."
+msgstr ""
+"Se agregó soporte para líneas y áreas a la opción Usar como patrón de los "
+"estilos de tipo Textura en niveles de Imagen inteligente"
+
+#: ../../source/whats_new.rst:41
+msgid "Allow Touch Screen zoom and rotate combo"
+msgstr ""
+"Ahora se permite usar la combinación para ampliar y rotar en pantallas táctiles"
+
+#: ../../source/whats_new.rst:42
+msgid "List All GPhoto config button and critical error handling"
+msgstr ""
+"Se agregó un botón \"Listar todas las configs\" en el Registro de eventos de "
+"GPhoto, así como la manipulación de errores"
+
+#: ../../source/whats_new.rst:43
+msgid ""
+"Enhance input validation and clamping in DoubleValueField *(OpenToonz port)*"
+msgstr ""
+"Se mejoró la validación y limitación de datos de entrada en campos de valores de "
+"precisión doble *(transportado desde OpenToonz)*"
+
+#: ../../source/whats_new.rst:44
+msgid "Existing scenes list in Startup Popup *(OpenToonz port)*"
+msgstr ""
+"Lista de escenas existentes en el Diálogo inicial *(transportado desde "
+"OpenToonz)*"
+
+#: ../../source/whats_new.rst:47
 msgid "Fixed"
 msgstr "Correciones"
 
-#: ../../source/whats_new.rst:28
-msgid "Fix relative drawing onion skin guided drawing"
-msgstr "Se corrigió el dibujado de la piel de cebolla relativa en modo Dibujos"
+#: ../../source/whats_new.rst:48
+msgid "SVG load fixes"
+msgstr "Corrección de errores al cargar archivos SVG"
 
-#: ../../source/whats_new.rst:29
-msgid "Fix update folder delay *(OpenToonz port)*"
+#: ../../source/whats_new.rst:49
+msgid "Add missing Hook Tool status bar description"
 msgstr ""
-"Se corrigió retraso en actualizar carpeta *(transportado desde OpenToonz)*"
+"Se agregó una descripción faltante en la barra de estado para la herramienta "
+"Enganche"
 
-#: ../../source/whats_new.rst:32
+#: ../../source/whats_new.rst:50
+msgid "Autoclose: Limit Two Points Spot Research Angle to 0°~36°"
+msgstr ""
+"Cerrar autom: Se limitó el ángulo de las búsqueda de dos puntos al rango entre "
+"0° y 36°"
+
+#: ../../source/whats_new.rst:51
+msgid "Capitalize Spanish Fx doc directory"
+msgstr ""
+"Se agregó una mayúscula inicial al nombre de la carpeta de documentos de efectos "
+"en español"
+
+#: ../../source/whats_new.rst:52
+msgid "Compress high frequency MyPaint drawing events"
+msgstr "Se comprimieron los eventos de dibujo de MyPaint de alta frecuencia"
+
+#: ../../source/whats_new.rst:53
+msgid "Fix backing up of scene icon"
+msgstr "Se corrigió el respaldo de los íconos de las escenas"
+
+#: ../../source/whats_new.rst:54
+msgid "Fix Capture Image using Canon EDSDK Linux"
+msgstr "Se corrigió la captura de imágenes al usar el EDSDK de Canon en Linux"
+
+#: ../../source/whats_new.rst:55
+msgid "Fix changing geometry opacity back to 100"
+msgstr ""
+"Se corrigió un error que cambiaba la opacidad de la geometría de vuelta a 100"
+
+#: ../../source/whats_new.rst:56
+msgid "Fix column status toggling and display of folder items"
+msgstr ""
+"Se corrigió la alternancia de estado de las columnas/capas y de los elementos "
+"dentro de carpetas"
+
+#: ../../source/whats_new.rst:57
+msgid "Fix controlling Smart Raster/Vector brush resize"
+msgstr ""
+"Se corrigió el control del cambio de tamaño de los pinceles de Imagen "
+"inteligente e Imagen"
+
+#: ../../source/whats_new.rst:58
+msgid "Fix Export Vector Level Bad Resolution Crash"
+msgstr ""
+"Se corrigió un error que causaba una detención inesperada al exportar un nivel "
+"vectorial, aduciendo una mala resolución"
+
+#: ../../source/whats_new.rst:59
+msgid "Fix File Browser New Folder creation"
+msgstr "Se corrigió la creación de nuevas carpetas en el Explorador de archivos"
+
+#: ../../source/whats_new.rst:60
+msgid "Fix File Browser Rename logic and UI"
+msgstr ""
+"Se corrigió la lógica y la interfaz para renombrar archivos en el Explorador de "
+"archivos"
+
+#: ../../source/whats_new.rst:61
+msgid "Fix fill loss due to ghost grouping changes"
+msgstr "Se corrigió la pérdida de rellenos debido a cambios en grupos fantasma"
+
+#: ../../source/whats_new.rst:62
+msgid "Fix flipped vector color picker"
+msgstr ""
+"Se corrigió la selección de colores desde un nivel vectorial cuando se encuentra "
+"activada la inversión del Visor"
+
+#: ../../source/whats_new.rst:63
+msgid "Fix folding column folders and other operations"
+msgstr ""
+"Se corrigió el cierre de las columnas/capas de carpeta, así como otras "
+"operaciones relativas"
+
+#: ../../source/whats_new.rst:64
+msgid "Fix image capture default folder"
+msgstr "Se corrigió la carpeta predefinida de captura de imágenes"
+
+#: ../../source/whats_new.rst:65
+msgid "Fix key as last scene frame"
+msgstr ""
+"Se corrigió un error que causaba que no se detectara un clave como último "
+"fotograma de una escena"
+
+#: ../../source/whats_new.rst:66
+msgid "Fix last Stop Frame Hold"
+msgstr "Se corrigió el último fotograma de detención"
+
+#: ../../source/whats_new.rst:67
+msgid "Fix load svg crash"
+msgstr "Se corrigió un cierre inesperado al cargar un archivo SVG"
+
+#: ../../source/whats_new.rst:68
+msgid "Fix loading unknown style id"
+msgstr "Se corrigió la carga de estilos con identificadores desconocidos"
+
+#: ../../source/whats_new.rst:69
+msgid "Fix missing Checkboard Fx settings (Linux)"
+msgstr "Se corrigieron opciones faltantes en el efecto Damero (en Linux)"
+
+#: ../../source/whats_new.rst:70
+msgid "Fix missing MSVC DLLs"
+msgstr "Se corrigieron bibliotecas DLL MSVC faltantes"
+
+#: ../../source/whats_new.rst:71
+msgid "Fix missing QString arg"
+msgstr "Se corrigió un argumento QString faltante"
+
+#: ../../source/whats_new.rst:72
+msgid "Fix missing viewer title bar level info"
+msgstr ""
+"Se corrigió la falta de información del nivel actual en la barra de título del "
+"Visor"
+
+#: ../../source/whats_new.rst:73
+msgid "Fix reading corrupted PNG crash"
+msgstr "Se corrigió un cierre inesperado al cargar un archivo PNG corrupto"
+
+#: ../../source/whats_new.rst:74
+msgid "Fix saving escaped apostrophe (linux)"
+msgstr ""
+"Se corrigió un error al guardar archivos con un caracter apóstrofo escapado (en "
+"Linux)"
+
+#: ../../source/whats_new.rst:75
+msgid "Fix saving TIF files in scene subfolder"
+msgstr ""
+"Se corrigió el guardado de archivos TIF en una subcarpeta de la carpeta de la "
+"escena"
+
+#: ../../source/whats_new.rst:76
+msgid "Fix Show Column Parent's Color context menu option"
+msgstr ""
+"Se corrigió la opción \"Mostrar color de columnas superiores\" del menú "
+"contextual de la planilla"
+
+#: ../../source/whats_new.rst:77
+msgid "Fix some Vector Inspector issues + some refactoring"
+msgstr ""
+"Se corrigieron algunos problemas y reorganizaron algunas cosas en el Inspector "
+"de vectores"
+
+#: ../../source/whats_new.rst:78
+msgid "Fix sound cells extender controls and move selection"
+msgstr "Se corrigieron los controles para extender y mover las celdas de sonido"
+
+#: ../../source/whats_new.rst:79
+msgid "Fix sound extender targeting when zoomed"
+msgstr ""
+"Se corrigió el objetivo de la extensión de sonidos con niveles de ampliación "
+"altos"
+
+#: ../../source/whats_new.rst:80
+msgid "Fix starting Animate Tool mode"
+msgstr "Se corrigió el estado inicial de la herramienta Animar"
+
+#: ../../source/whats_new.rst:81
+msgid "Fix starting in unicode path"
+msgstr "Se corrigió el inicio del programa en una ruta Unicode"
+
+#: ../../source/whats_new.rst:82
+msgid "Fix stop frame placement on OCA import"
+msgstr ""
+"Se corrigió la ubicación de fotogramas de detención al importar archivos OCA"
+
+#: ../../source/whats_new.rst:83
+msgid "Fix styleeditor not updating on colorswatch switch"
+msgstr ""
+"Se corrigió la falta de actualización del Editor de estilos al seleccionar "
+"ciertas miniaturas de color"
+
+#: ../../source/whats_new.rst:84
+msgid "Fix SVG stroke-width at lower resolutions"
+msgstr "Se corrigió el grosor de los trazos de archivos SVG a bajas resoluciones"
+
+#: ../../source/whats_new.rst:85
+msgid "Fix to prevent looping 1 frame"
+msgstr ""
+"Se corrigió la posibilidad de activar la reproducción cíclica en el Visor, con "
+"un rango de sólo 1 fotograma de duración"
+
+#: ../../source/whats_new.rst:86
+msgid "Fix to stop writing unfilled regions to SVG"
+msgstr ""
+"Se corrigió un problema que guardaba las regiones no rellenas, al convertir "
+"niveles vectoriales a SVG"
+
+#: ../../source/whats_new.rst:87
+msgid "Fix vector fill loss due to ghost grouping changes"
+msgstr "Se corrigió la pérdida de rellenos debida a cambios en grupos fantasma"
+
+#: ../../source/whats_new.rst:88
+msgid "Fix Vector Ungroup/Group undo issue"
+msgstr ""
+"Se corrigió un problema al deshacer los comandos Agrupar/Desagrupar en niveles "
+"Vectoriales"
+
+#: ../../source/whats_new.rst:89
+msgid "Fix Zerary Fx input preview status in Schematic"
+msgstr ""
+"Se corrigió el estado de entrada de previsualización de efectos generadores de "
+"imagen (que crean sus propias columnas/capas)"
+
+#: ../../source/whats_new.rst:90
+msgid "Fix(autoclose): Add intersection check for spotRearchTwoPoints"
+msgstr ""
+"Se corrigió \"Cerrar autom\" - se agregó una comprobación de intersecciones a "
+"spotRearchTwoPoints"
+
+#: ../../source/whats_new.rst:91
+msgid "Fixes for Preproduction Board and File Browser"
+msgstr "Correcciones en el Panel de preproducción y el Explorador de archivos"
+
+#: ../../source/whats_new.rst:92
+msgid "Force startup tips window to the top"
+msgstr "Forzar la ventana inicial de Consejos al frente"
+
+#: ../../source/whats_new.rst:93
+msgid "Restore disabled file writer types"
+msgstr ""
+"Se restableció la escritura de algunos tipos de archivos previamente "
+"deshabilitados"
+
+#: ../../source/whats_new.rst:94
+msgid "Fix bounds issue"
+msgstr "Se corrigió un problema de límites"
+
+#: ../../source/whats_new.rst:95
+msgid "Fix blank canvas"
+msgstr "Se corrigió el lienzo en blanco"
+
+#: ../../source/whats_new.rst:96
+msgid "Fix brush size input for non-English locales *(OpenToonz port)*"
+msgstr ""
+"Se corrigió la entrada de tamaño de pincel en localizaciones no inglesas "
+"*(transportado desde OpenToonz)*"
+
+#: ../../source/whats_new.rst:97
+msgid "Fix color wheel pointer and replace layout margins *(OpenToonz port)*"
+msgstr ""
+"Se corrigieron los punteros de la rueda de color y se reemplazaron los márgenes "
+"de organización *(transportado desde OpenToonz)*"
+
+#: ../../source/whats_new.rst:98
+msgid "Fix dummy ink pixel (Tone =255) ink texture crash *(OpenToonz port)*"
+msgstr ""
+"Se corrigió píxel con tinta vacía (Tono =255), cierre inesperado con textura de "
+"tinta *(transportado desde OpenToonz)*"
+
+#: ../../source/whats_new.rst:99
+msgid "Fix memory leaks by replacing 'delete' with 'delete[] *(OpenToonz port)*"
+msgstr ""
+"Se corrigieron fugas de memoria, al reemplazar 'delete' con 'delete[] "
+"*(transportado desde OpenToonz)*"
+
+#: ../../source/whats_new.rst:100
+msgid "Fix Mesh Memory Leak *(OpenToonz port)*"
+msgstr ""
+"Se corrigió una fuga de memoria en las mallas *(transportado desde OpenToonz)*"
+
+#: ../../source/whats_new.rst:101
+msgid "Fix New Folder refresh issue in File Browser *(OpenToonz port)*"
+msgstr ""
+"Se corrigió un problema en la actualización al crear una nueva carpeta en el "
+"Explorador de archivos *(transportado desde OpenToonz)*"
+
+#: ../../source/whats_new.rst:102
+msgid ""
+"Fix order of beginInsertRows/beginRemoveRows in ExportSceneDvDirModel "
+"*(OpenToonz port)*"
+msgstr ""
+"Se corrigió el orden de beginInsertRows/beginRemoveRows en ExportSceneDvDirModel "
+"*(transportado desde OpenToonz)*"
+
+#: ../../source/whats_new.rst:103
+msgid ""
+"Fix registering multiple system var paths with command line qualifiers "
+"*(OpenToonz port)*"
+msgstr ""
+"Se corrigió el registro de múltiples rutas de variables del sistema mediante "
+"calificadores de línea de comandos *(transportado desde OpenToonz)*"
+
+#: ../../source/whats_new.rst:104
+msgid ""
+"Fix SVG import crash with non-ASCII file paths on Windows *(OpenToonz port)*"
+msgstr ""
+"Se corrigió un cierre inesperado al importar archivos SVG desde rutas de archivo "
+"no ASCII en Windows *(transportado desde OpenToonz)*"
+
+#: ../../source/whats_new.rst:105
+msgid ""
+"Fix unreachable code and duplicate VEC array initialization *(OpenToonz port)*"
+msgstr ""
+"Se corrigió código inaccesible y duplicado de inicialización de vectores VEC "
+"*(transportado desde OpenToonz)*"
+
+#: ../../source/whats_new.rst:106
+msgid ""
+"Fix -Wreturn-type warnings in iocommand and igs_rotate_blur *(OpenToonz port)*"
+msgstr ""
+"Se corrigieron advertencias de tipo Wreturn en iocommand e igs_rotate_blur "
+"*(transportado desde OpenToonz)*"
+
+#: ../../source/whats_new.rst:107
+msgid "Fix(OCA): correct endTime *(OpenToonz port)*"
+msgstr "Corrección (OCA): se corrigió endTime *(transportado desde OpenToonz)*"
+
+#: ../../source/whats_new.rst:108
+msgid "Fix(Scene Depth/Quicktoolbar): Invisible after startup *(OpenToonz port)*"
+msgstr ""
+"Corrección (profundidad escena/barra rápida): Invisible después del inicio "
+"*(transportado desde OpenToonz)*"
+
+#: ../../source/whats_new.rst:109
+msgid "Fix: Add missing fclose calls for proper file handling *(OpenToonz port)*"
+msgstr ""
+"Corrección: Se agregaron llamadas fclose faltantes para un tratamiento apropiado "
+"de archivos *(transportado desde OpenToonz)*"
+
+#: ../../source/whats_new.rst:110
+msgid "fix: handle MSVC warnings C4723 and C4552 *(OpenToonz port)*"
+msgstr ""
+"Corrección: tratamiento de las advertencias MSVC C4723 y C4552 *(transportado "
+"desde OpenToonz)*"
+
+#: ../../source/whats_new.rst:111
+msgid "fix: initialize popup, firstW, and lastW *(OpenToonz port)*"
+msgstr ""
+"Corrección: inicializar firstW y lastW de paneles emergentes *(transportado "
+"desde OpenToonz)*"
+
+#: ../../source/whats_new.rst:112
+msgid ""
+"fix: ODR violations (# 241) by adding flipbooksettings.h for toggle vars "
+"*(OpenToonz port)*"
+msgstr ""
+"Corrección: violaciones ODR (#241), al agregar flipbooksettings.h para alternar "
+"variables *(transportado desde OpenToonz)*"
+
+#: ../../source/whats_new.rst:113
+msgid ""
+"Fix: Premultiply background color for Export Level Commands *(OpenToonz port)*"
+msgstr ""
+"Corrección: Premultiplicar el color de fondo durante los comandos de exportación "
+"de niveles *(transportado desde OpenToonz)*"
+
+#: ../../source/whats_new.rst:114
+msgid ""
+"fix: Preview not Updating for New Toonz Raster Levels editted with Fill Tool "
+"*(OpenToonz port)*"
+msgstr ""
+"Corrección: Previsualización no se actualizaba para nuevos niveles de Imagen "
+"inteligente editados con la herramienta Rellenar *(transportado desde OpenToonz)*"
+
+#: ../../source/whats_new.rst:115
+msgid "fix: remove duplicate and unreachable 'stylepages' case *(OpenToonz port)*"
+msgstr ""
+"Corrección: se eliminó un caso de 'stylepages' duplicadas y no accesibles "
+"*(transportado desde OpenToonz)*"
+
+#: ../../source/whats_new.rst:116
+msgid "fix: remove std::iterator to resolve deprecation warning *(OpenToonz port)*"
+msgstr ""
+"Corrección: se eliminó std::iterator para resolver una advertencia de "
+"obsolescencia *(transportado desde OpenToonz)*"
+
+#: ../../source/whats_new.rst:117
+msgid "fix: resolve C4018 signed/unsigned mismatch warnings *(OpenToonz port)*"
+msgstr ""
+"Corrección se resolvieron advertencias de falta de coincidencia entre valores "
+"con y sin signo C4018 *(transportado desde OpenToonz)*"
+
+#: ../../source/whats_new.rst:118
+msgid "fix: typo *(OpenToonz port)*"
+msgstr "Corrección: error tipográfico *(transportado desde OpenToonz)*"
+
+#: ../../source/whats_new.rst:119
+msgid ""
+"fix: unreachable code in tscannerepson.cpp and Naa2TlvConverter.cpp *(OpenToonz "
+"port)*"
+msgstr ""
+"Corrección: código inaccesible en tscannerepson.cpp y Naa2TlvConverter.cpp "
+"*(transportado desde OpenToonz)*"
+
+#: ../../source/whats_new.rst:120
+msgid "Fix: Use sig_atomic_t for signal-safe shutdown flag *(OpenToonz port)*"
+msgstr ""
+"Corrección: Usar sig_atomic_t para etiquetar la señal de apagado con seguridad "
+"*(transportado desde OpenToonz)*"
+
+#: ../../source/whats_new.rst:121
+msgid "Prevent OS/theme background mismatch *(OpenToonz port)*"
+msgstr ""
+"Prevenir la falta de coincidencia entre el SO y el tema *(transportado desde "
+"OpenToonz)*"
+
+#: ../../source/whats_new.rst:122
+msgid "Set proper window flag on preferences pop-up for Mac OSX *(OpenToonz port)*"
+msgstr ""
+"Establecer el indicador apropiado de ventana en la ventana emergente de "
+"preferencias en macOS *(transportado desde OpenToonz)*"
+
+#: ../../source/whats_new.rst:125
 msgid "Other"
 msgstr "Otros"
 
-#: ../../source/whats_new.rst:33
-msgid "Brazilian Portuguese Translation - Review + Update to 1.5"
-msgstr "Traducción al portugués de Brasil - Revisión + actualización a 1.5"
+#: ../../source/whats_new.rst:126
+msgid "Update translation files for v1.6"
+msgstr "Se actualizaron los archivos de traducción para la v1.6"
 
-#: ../../source/whats_new.rst:34
-msgid "Update Canon EDSDK to v13.18.40"
-msgstr "Se actualizó el EDSDK de Canon a v13.18.40"
+#: ../../source/whats_new.rst:127
+msgid "Fix macOS build CMake version"
+msgstr "Se corrigió la versión de CMake para la versión de macOS"
 
-#: ../../source/whats_new.rst:37
+#: ../../source/whats_new.rst:128
+msgid "Fix removing unnecessary files in Windows builds"
+msgstr "Se eliminaron archivos innecesarios en la versión de Windows"
+
+#: ../../source/whats_new.rst:129
+msgid "Github build on macos-15-intel (Sequoia)/Fix Linux build"
+msgstr ""
+"Github: Versión para macos-15-intel (Sequoia)/Se corrigió la versión para Linux"
+
+#: ../../source/whats_new.rst:130
+msgid ""
+"Feature: Report missing/unknown XML tags during scene loading *(OpenToonz port)*"
+msgstr ""
+"Característica: Reportar etiquetas XML faltantes/desconocidas durante el proceso "
+"de carga de una escena *(transportado desde OpenToonz)*"
+
+#: ../../source/whats_new.rst:133
 msgid ""
 "For more detailed information of these changes, visit the links provided in the "
-"`v1.5.1 Release Notes <https://github.com/tahoma2d/tahoma2d/releases/tag/"
-"v1.5.1>`_ hosted in GitHub."
+"`v1.6 Release Notes <https://github.com/tahoma2d/tahoma2d/releases/tag/v1.6>`_ "
+"hosted in GitHub."
 msgstr ""
-"Para información más detallada de estos cambios, visitar los enlaces "
-"proporcionados en las `Novedades de la v1.5.1 <https://github.com/tahoma2d/"
-"tahoma2d/releases/tag/v1.5.1>`_ alojadas en GitHub."
+"Para una información más detallada (en inglés) sobre estos cambios, visitar los "
+"enlaces proporcionados en la página `Novedades de la v1.6 <https://github.com/"
+"tahoma2d/tahoma2d/releases/tag/v1.6>`_ alojada en GitHub."
 
-#: ../../source/whats_new.rst:43
+#: ../../source/whats_new.rst:137
 msgid "Previous Versions"
 msgstr "Versiones anteriores"
 
-#: ../../source/whats_new.rst:45
+#: ../../source/whats_new.rst:139
 msgid ""
 "Here you can find links to previous versions' full Release Notes, hosted in "
 "GitHub:"
@@ -115,13 +627,45 @@ msgstr ""
 "Aquí es posible encontrar enlaces a las Novedades de las versiones anteriores "
 "(en inglés), alojadas en GitHub:"
 
-#: ../../source/whats_new.rst:47
+#: ../../source/whats_new.rst:141
+msgid ""
+"`v1.5.4 Release Notes <https://github.com/tahoma2d/tahoma2d/releases/tag/"
+"v1.5.4>`_"
+msgstr ""
+"`Novedades de la v1.5.4 <https://github.com/tahoma2d/tahoma2d/releases/tag/"
+"v1.5.4>`_"
+
+#: ../../source/whats_new.rst:143
+msgid ""
+"`v1.5.3 Release Notes <https://github.com/tahoma2d/tahoma2d/releases/tag/"
+"v1.5.3>`_"
+msgstr ""
+"`Novedades de la v1.5.3 <https://github.com/tahoma2d/tahoma2d/releases/tag/"
+"v1.5.3>`_"
+
+#: ../../source/whats_new.rst:145
+msgid ""
+"`v1.5.2 Release Notes <https://github.com/tahoma2d/tahoma2d/releases/tag/"
+"v1.5.2>`_"
+msgstr ""
+"`Novedades de la v1.5.2 <https://github.com/tahoma2d/tahoma2d/releases/tag/"
+"v1.5.2>`_"
+
+#: ../../source/whats_new.rst:147
+msgid ""
+"`v1.5.1 Release Notes <https://github.com/tahoma2d/tahoma2d/releases/tag/"
+"v1.5.1>`_"
+msgstr ""
+"`Novedades de la v1.5.1 <https://github.com/tahoma2d/tahoma2d/releases/tag/"
+"v1.5.1>`_"
+
+#: ../../source/whats_new.rst:149
 msgid ""
 "`v1.5 Release Notes <https://github.com/tahoma2d/tahoma2d/releases/tag/v1.5>`_"
 msgstr ""
 "`Novedades de la v1.5 <https://github.com/tahoma2d/tahoma2d/releases/tag/v1.5>`_"
 
-#: ../../source/whats_new.rst:49
+#: ../../source/whats_new.rst:151
 msgid ""
 "`v1.4.5 Release Notes <https://github.com/tahoma2d/tahoma2d/releases/tag/"
 "v1.4.5>`_"
@@ -129,7 +673,7 @@ msgstr ""
 "`Novedades de la v1.4.5 <https://github.com/tahoma2d/tahoma2d/releases/tag/"
 "v1.4.5>`_"
 
-#: ../../source/whats_new.rst:51
+#: ../../source/whats_new.rst:153
 msgid ""
 "`v1.4.4 Release Notes <https://github.com/tahoma2d/tahoma2d/releases/tag/"
 "v1.4.4>`_"
@@ -137,7 +681,7 @@ msgstr ""
 "`Novedades de la v1.4.4 <https://github.com/tahoma2d/tahoma2d/releases/tag/"
 "v1.4.4>`_"
 
-#: ../../source/whats_new.rst:53
+#: ../../source/whats_new.rst:155
 msgid ""
 "`v1.4.3 Release Notes <https://github.com/tahoma2d/tahoma2d/releases/tag/"
 "v1.4.3>`_"
@@ -145,7 +689,7 @@ msgstr ""
 "`Novedades de la v1.4.3 <https://github.com/tahoma2d/tahoma2d/releases/tag/"
 "v1.4.3>`_"
 
-#: ../../source/whats_new.rst:55
+#: ../../source/whats_new.rst:157
 msgid ""
 "`v1.4.2 Release Notes <https://github.com/tahoma2d/tahoma2d/releases/tag/"
 "v1.4.2>`_"
@@ -153,7 +697,7 @@ msgstr ""
 "`Novedades de la v1.4.2 <https://github.com/tahoma2d/tahoma2d/releases/tag/"
 "v1.4.2>`_"
 
-#: ../../source/whats_new.rst:57
+#: ../../source/whats_new.rst:159
 msgid ""
 "`v1.4.1 Release Notes <https://github.com/tahoma2d/tahoma2d/releases/tag/"
 "v1.4.1>`_"
@@ -161,13 +705,13 @@ msgstr ""
 "`Novedades de la v1.4.1 <https://github.com/tahoma2d/tahoma2d/releases/tag/"
 "v1.4.1>`_"
 
-#: ../../source/whats_new.rst:59
+#: ../../source/whats_new.rst:161
 msgid ""
 "`v1.4 Release Notes <https://github.com/tahoma2d/tahoma2d/releases/tag/v1.4>`_"
 msgstr ""
 "`Novedades de la v1.4 <https://github.com/tahoma2d/tahoma2d/releases/tag/v1.4>`_"
 
-#: ../../source/whats_new.rst:61
+#: ../../source/whats_new.rst:163
 msgid ""
 "`v1.3.1 Release Notes <https://github.com/tahoma2d/tahoma2d/releases/tag/"
 "v1.3.1>`_"
@@ -175,25 +719,25 @@ msgstr ""
 "`Novedades de la v1.3.1 <https://github.com/tahoma2d/tahoma2d/releases/tag/"
 "v1.3.1>`_"
 
-#: ../../source/whats_new.rst:63
+#: ../../source/whats_new.rst:165
 msgid ""
 "`v1.3 Release Notes <https://github.com/tahoma2d/tahoma2d/releases/tag/v1.3>`_"
 msgstr ""
 "`Novedades de la v1.3 <https://github.com/tahoma2d/tahoma2d/releases/tag/v1.3>`_"
 
-#: ../../source/whats_new.rst:65
+#: ../../source/whats_new.rst:167
 msgid ""
 "`v1.2 Release Notes <https://github.com/tahoma2d/tahoma2d/releases/tag/v1.2>`_"
 msgstr ""
 "`Novedades de la v1.2 <https://github.com/tahoma2d/tahoma2d/releases/tag/v1.2>`_"
 
-#: ../../source/whats_new.rst:67
+#: ../../source/whats_new.rst:169
 msgid ""
 "`v1.1 Release Notes <https://github.com/tahoma2d/tahoma2d/releases/tag/v1.1>`_"
 msgstr ""
 "`Novedades de la v1.1 <https://github.com/tahoma2d/tahoma2d/releases/tag/v1.1>`_"
 
-#: ../../source/whats_new.rst:69
+#: ../../source/whats_new.rst:171
 msgid ""
 "`v1.0.1 Release Notes <https://github.com/tahoma2d/tahoma2d/releases/tag/"
 "v1.0.1>`_"
@@ -201,7 +745,7 @@ msgstr ""
 "`Novedades de la v1.0.1 <https://github.com/tahoma2d/tahoma2d/releases/tag/"
 "v1.0.1>`_"
 
-#: ../../source/whats_new.rst:71
+#: ../../source/whats_new.rst:173
 msgid ""
 "`v1.0 Release Notes <https://github.com/tahoma2d/tahoma2d/releases/tag/v1.0>`_"
 msgstr ""
@@ -237,8 +781,7 @@ msgstr ""
 
 #~ msgid "|new| Fill Tool: Can now be used in **Raster Levels**."
 #~ msgstr ""
-#~ "|new_es| Herramienta Rellenar: Ahora puede ser usada en **niveles de "
-#~ "Imagen**."
+#~ "|new_es| Herramienta Rellenar: Ahora puede ser usada en **niveles de Imagen**."
 
 #~ msgid ""
 #~ "|new| Eraser Tool: **Pencil Mode** for Smart Raster levels, also in Freehand "
@@ -280,8 +823,7 @@ msgstr ""
 
 #~ msgid "|new| Shortcuts: New shortcuts for **Next/Previous Keyframe** commands."
 #~ msgstr ""
-#~ "|new_es| Atajos: Nuevos atajos para los comandos **Clave anterior/"
-#~ "siguiente**."
+#~ "|new_es| Atajos: Nuevos atajos para los comandos **Clave anterior/siguiente**."
 
 #~ msgid ""
 #~ "|new| Viewer: **Color settings** for Viewer Background in Level editing mode."
@@ -350,8 +892,7 @@ msgstr ""
 #~ "|enhancement_es| Diálogo inicial: Ahora las **escenas son guardadas al ser "
 #~ "creadas**."
 
-#~ msgid ""
-#~ "|enhancement| Effects: Added **Swap Colors Button** in Gradient effects."
+#~ msgid "|enhancement| Effects: Added **Swap Colors Button** in Gradient effects."
 #~ msgstr ""
 #~ "|enhancement_es| Efectos: Se agregaron botones **Swap Colors** (intercambiar "
 #~ "colores) a los efectos de tipo Gradiente."
@@ -421,8 +962,8 @@ msgstr ""
 #~ msgstr "...y mucho más!"
 
 #~ msgid ""
-#~ "Please see the `v1.4 Release Notes <https://github.com/tahoma/tahoma/"
-#~ "releases/tag/v1.4.0>`_  hosted in GitHub, for the full list of new features, "
+#~ "Please see the `v1.4 Release Notes <https://github.com/tahoma/tahoma/releases/"
+#~ "tag/v1.4.0>`_  hosted in GitHub, for the full list of new features, "
 #~ "enhancements and bug fixes."
 #~ msgstr ""
 #~ "Por favor ver las `Notas de la versión 1.4 (en inglés) <https://github.com/"
@@ -430,15 +971,29 @@ msgstr ""
 #~ "lista completa de nuevas características, mejoras y correcciones de errores."
 
 #~ msgid ""
-#~ "`v1.0.3 Release Notes <https://github.com/tahoma/tahoma/releases/tag/"
-#~ "v1.0.3>`_"
+#~ "`v1.0.3 Release Notes <https://github.com/tahoma/tahoma/releases/tag/v1.0.3>`_"
 #~ msgstr ""
 #~ "`Notas de la versión 1.0.3 <https://github.com/tahoma/tahoma/releases/tag/"
 #~ "v1.0.3>`_"
 
 #~ msgid ""
-#~ "`v1.0.2 Release Notes <https://github.com/tahoma/tahoma/releases/tag/"
-#~ "v1.0.2>`_"
+#~ "`v1.0.2 Release Notes <https://github.com/tahoma/tahoma/releases/tag/v1.0.2>`_"
 #~ msgstr ""
 #~ "`Notas de la versión 1.0.2 <https://github.com/tahoma/tahoma/releases/tag/"
 #~ "v1.0.2>`_"
+
+#~ msgid "High DPI Scaling preference"
+#~ msgstr ""
+#~ "Opción en preferencias para el escalado en monitores con alta densidad de PPP"
+
+#~ msgid "Added CHANGELOG.md"
+#~ msgstr "Se agregó un archivo CHANGELOG.md"
+
+#~ msgid "Fix Gap Closure results (Tape Tool)"
+#~ msgstr "Se corrigió el resultado al cerrar huecos (herramienta Cinta)"
+
+#~ msgid "Fix relative drawing onion skin guided drawing"
+#~ msgstr "Se corrigió el dibujado de la piel de cebolla relativa en modo Dibujos"
+
+#~ msgid "Brazilian Portuguese Translation - Review + Update to 1.5"
+#~ msgstr "Traducción al portugués de Brasil - Revisión + actualización a 1.5"
