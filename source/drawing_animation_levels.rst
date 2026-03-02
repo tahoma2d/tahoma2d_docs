@@ -1556,53 +1556,53 @@ Using Shift and Trace
 ---------------------
 The **Shift and Trace** function can help you in the creation of animated levels as if you were drawing on paper using a light table; in fact it allows you to use the previous and next key drawings as references, while you insert an inbetween or a break down. 
 
-It's possible to temporary move and rotate the drawings you want to use as reference, to fit the position where you want to draw the inbetween. It's also possible to automatically set the position of the reference drawings creating and editing a path of action line.
+It's possible to temporarily transform the drawings you want to use as reference, to fit the position where you want to draw the inbetween. It's also possible to automatically set the location of the reference drawings by creating and editing a path of action line.
 
 To better check the new drawing and the animation, you can toggle the Shift and Trace visualization on or off the Viewer.
 
 .. tip:: **To enter the Shift and Trace view:**
 
-    1. Position the frame cursor on the frame where you want to draw the inbetween drawing.
+    1. Position the frame cursor on the frame where you want to draw the new inbetween drawing.
 
     2. Enable View  →  **Shift and Trace**; the previous and next drawings will be visualized.
 
-.. tip:: **To Edit the Position of the reference drawings:**
+.. tip:: **To Edit the transformation of the reference drawings:**
 
     1. Position the frame cursor where you want to draw the inbetween drawing and sketch the path of action line beteween your reference points.
 
     2. Activate View  →  **Edit Shift**.
 
-    3. Click on the drawing you want to reposition in the Viewer, or use the **Previous Drawing** / **Following Drawing** options in the tool options bar; the related reference drawing bounding box will be displayed.
+    3. Click on the drawing you want to transform in the Viewer to select it, or use the **Previous Drawing** / **Following Drawing** options in the tool options bar; the respective reference drawing bounding box will be displayed.
 
     4. Do any of the following:
 
-    - Click and drag *inside the bounding box* to **move** the reference drawing.
+    - Click and drag *inside the bounding box* to **Move** the reference drawing.
 
-    - Click and drag *outside the bounding box* to **rotate** the reference drawing.
+    - Click and drag *outside the bounding box* to **Rotate** the reference drawing from its center.
 
-    - Click and drag *the center handle* to change the **center of rotation**.
+    - Click and drag *the center handle* to reposition the **Center of rotation**.
 
-    - Click and drag *any corner handle of the bounding box* to **scale** the reference drawing from its center.
+    - Click and drag *any corner handle of the bounding box* to **Scale** the reference drawing from its center.
 
-    5. Repeat the same steps on the second reference drawing.
+    5. Repeat the same steps on the other reference drawing.
 
-.. tip:: **To automatically Edit the Position of the reference drawings:**
+.. tip:: **To automatically Edit the Location of the reference drawings:**
 
     1. Position the frame cursor where you want to draw the inbetween drawing and sketch the path of action line beteween your reference points.
 
     2. Activate View  →  **Edit Shift**.
 
-    3. Ctrl-click and drag to create a path, from the reference point in the first drawing, to the reference point in the second one. The starting and the ending points will be overlapped at the center of the path.
+    3. Ctrl-click and drag to create a path, from the reference point in the first drawing, to the reference point in the second one. The starting and the ending points will be overlapped at the middle of the path.
 
-    4. Click and drag the handle along the path to change its shape; the reference drawings will move according to the handle position and rotate according to the path shape modification.
+    4. Click and drag the handle along the path to change its shape; the reference drawings will move according to the handle position and rotate according to the path curvature at that point.
 
-    5. If needed, use the bounding box handles to fix the rotation of the reference drawing. 
+    5. If needed, use the bounding box handles to fix the rotation of the reference drawings. 
 
-.. note:: Clicking and dragging one of the reference drawings will remove the path of action line.
+.. note:: Clicking and dragging any of the reference drawings will displace it away from the path of action line. Moving any of the curve points will reset the drawings back to its center.
 
 .. tip:: **To Toggle the Shift and Trace visualization:**
 
-    Activate View  →  **No Shift** to toggle the visualization of the reference drawings back to their original position.
+    Activate View  →  **No Shift** to hide the visualization of the transformed reference drawings, and show their original positions instead.
 
 .. tip:: **To Reset the position of the reference drawings:**
 
@@ -1610,7 +1610,7 @@ To better check the new drawing and the animation, you can toggle the Shift and 
 
 .. tip:: **To Reset the transformations of one of the reference drawings:**
 
-    In the tool options bar click on either **Reset Previous** or **Reset Following** buttons.
+    In the tool options bar, click on either **Reset Previous** or **Reset Following** buttons.
 
 .. tip:: **To Create an inbetween drawing using the Shift and Trace feature:**
 
