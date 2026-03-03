@@ -1566,6 +1566,8 @@ To better check the new drawing and the animation, you can toggle the Shift and 
 
     2. Enable View  →  **Shift and Trace**; the previous and next drawings will be visualized.
 
+.. note:: While **Shift and Trace** mode is active, it's possible to press and hold F1/F2/F3 keys to temporarily show only the Previous/Current/Following drawings, respectively. Plase note that this feature will only work when the mouse cursor is over a Viewer panel.
+
 .. tip:: **To Edit the transformation of the reference drawings:**
 
     1. Position the frame cursor where you want to draw the inbetween drawing and sketch the path of action line beteween your reference points.
