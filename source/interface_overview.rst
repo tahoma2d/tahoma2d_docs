@@ -630,7 +630,7 @@ Advanced Preferences enabled
    - `Unit` (Default: `Pixel`)
    - `Camera Unit` (Default: `Pixel`)
    - `Pixels Only` (Default: On)
-   - `Rooms*` (Default: `Default`)
+   - `Rooms` (Default: `Default`)
    - `Viewer Zoom Center` (Default: `Mouse Cursor`)
    - `Font*` (Default: `Segoe UI`)
    - `Style*` (Default: `Regular`)
