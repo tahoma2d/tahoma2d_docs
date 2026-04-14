@@ -631,7 +631,6 @@ Advanced Preferences enabled
    - `Camera Unit` (Default: `Pixel`)
    - `Pixels Only` (Default: On)
    - `Rooms*` (Default: `Default`)
-      - Added Room choices:	`OpenToonz` and `StudioGhibli` w/o customized room menus
    - `Viewer Zoom Center` (Default: `Mouse Cursor`)
    - `Font*` (Default: `Segoe UI`)
    - `Style*` (Default: `Regular`)
