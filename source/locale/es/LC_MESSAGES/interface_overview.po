@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tahoma 1.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-30 22:32-0300\n"
-"PO-Revision-Date: 2026-02-02 03:23-0300\n"
+"POT-Creation-Date: 2026-04-14 03:40-0300\n"
+"PO-Revision-Date: 2026-04-14 04:18-0300\n"
 "Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Español\n"
 "Language: es\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Generated-By: Babel 2.17.0\n"
-"X-Generator: Poedit 3.8\n"
+"Generated-By: Babel 2.18.0\n"
+"X-Generator: Poedit 3.9\n"
 
 #: ../../source/interface_overview.rst:4
 msgid "Interface Overview"
@@ -27,7 +27,7 @@ msgstr "Interfaz de usuario"
 msgid "|UI_1|"
 msgstr "|UI_1|"
 
-#: ../../source/interface_overview.rst:611
+#: ../../source/interface_overview.rst:679
 msgid "UI_1"
 msgstr "UI_1"
 
@@ -59,7 +59,7 @@ msgstr ""
 "hacer clic en el ícono del candado, en la esquina superior derecha de la "
 "interfaz."
 
-#: ../../source/interface_overview.rst:612
+#: ../../source/interface_overview.rst:680
 msgid "UI_lock"
 msgstr "UI_lock"
 
@@ -82,7 +82,7 @@ msgstr "Uso de los paneles"
 msgid "|UI_rooms|"
 msgstr "|UI_rooms|"
 
-#: ../../source/interface_overview.rst:613
+#: ../../source/interface_overview.rst:681
 msgid "UI_rooms"
 msgstr "UI_rooms"
 
@@ -312,7 +312,7 @@ msgstr "Servidores de tareas"
 msgid "|UI_batch|"
 msgstr "|UI_batch|"
 
-#: ../../source/interface_overview.rst:614
+#: ../../source/interface_overview.rst:682
 msgid "UI_batch"
 msgstr "UI_batch"
 
@@ -338,7 +338,7 @@ msgstr "Opciones de limpieza"
 msgid "|UI_cleanup|"
 msgstr "|UI_cleanup|"
 
-#: ../../source/interface_overview.rst:615
+#: ../../source/interface_overview.rst:683
 msgid "UI_cleanup"
 msgstr "UI_cleanup"
 
@@ -365,7 +365,7 @@ msgstr "Modelo de color"
 msgid "|UI_colormodel|"
 msgstr "|UI_colormodel|"
 
-#: ../../source/interface_overview.rst:616
+#: ../../source/interface_overview.rst:684
 msgid "UI_colormodel"
 msgstr "UI_colormodel"
 
@@ -390,7 +390,7 @@ msgstr "Explorador de archivos"
 msgid "|UI_filebrowser|"
 msgstr "|UI_filebrowser|"
 
-#: ../../source/interface_overview.rst:617
+#: ../../source/interface_overview.rst:685
 msgid "UI_filebrowser"
 msgstr "UI_filebrowser"
 
@@ -430,7 +430,7 @@ msgstr "Reproductor"
 msgid "|UI_flipbook|"
 msgstr "|UI_flipbook|"
 
-#: ../../source/interface_overview.rst:618
+#: ../../source/interface_overview.rst:686
 msgid "UI_flipbook"
 msgstr "UI_flipbook"
 
@@ -456,7 +456,7 @@ msgstr "Editor de funciones"
 msgid "|UI_functioneditor|"
 msgstr "|UI_functioneditor|"
 
-#: ../../source/interface_overview.rst:619
+#: ../../source/interface_overview.rst:687
 msgid "UI_functioneditor"
 msgstr "UI_functioneditor"
 
@@ -490,7 +490,7 @@ msgstr "Cinta de nivel"
 msgid "|UI_levelstrip|"
 msgstr "|UI_levelstrip|"
 
-#: ../../source/interface_overview.rst:620
+#: ../../source/interface_overview.rst:688
 msgid "UI_levelstrip"
 msgstr "UI_levelstrip"
 
@@ -522,7 +522,7 @@ msgstr "Paleta"
 msgid "|UI_palette|"
 msgstr "|UI_palette|"
 
-#: ../../source/interface_overview.rst:621
+#: ../../source/interface_overview.rst:689
 msgid "UI_palette"
 msgstr "UI_palette"
 
@@ -546,7 +546,7 @@ msgstr "Componentes de la escena"
 msgid "|UI_scenecast|"
 msgstr "|UI_scenecast|"
 
-#: ../../source/interface_overview.rst:622
+#: ../../source/interface_overview.rst:690
 msgid "UI_scenecast"
 msgstr "UI_scenecast"
 
@@ -571,7 +571,7 @@ msgstr "Diagrama"
 msgid "|UI_schematic|"
 msgstr "|UI_schematic|"
 
-#: ../../source/interface_overview.rst:623
+#: ../../source/interface_overview.rst:691
 msgid "UI_schematic"
 msgstr "UI_schematic"
 
@@ -621,7 +621,7 @@ msgstr "Paleta de estudio"
 msgid "|UI_studiopalette|"
 msgstr "|UI_studiopalette|"
 
-#: ../../source/interface_overview.rst:625
+#: ../../source/interface_overview.rst:693
 msgid "UI_studiopalette"
 msgstr "UI_studiopalette"
 
@@ -642,7 +642,7 @@ msgstr ""
 msgid "See  :ref:`Using the Studio Palette <using_the_studio_palette>`  ."
 msgstr "Ver  :ref:`Uso de la Paleta de estudio <using_the_studio_palette>`  ."
 
-#: ../../source/interface_overview.rst:252
+#: ../../source/interface_overview.rst:252 ../../source/interface_overview.rst:662
 msgid "Style Editor"
 msgstr "Editor de estilos"
 
@@ -650,7 +650,7 @@ msgstr "Editor de estilos"
 msgid "|UI_styleeditor|"
 msgstr "|UI_styleeditor|"
 
-#: ../../source/interface_overview.rst:624
+#: ../../source/interface_overview.rst:692
 msgid "UI_styleeditor"
 msgstr "UI_styleeditor"
 
@@ -677,7 +677,7 @@ msgstr "Tareas"
 msgid "|UI_tasks|"
 msgstr "|UI_tasks|"
 
-#: ../../source/interface_overview.rst:626
+#: ../../source/interface_overview.rst:694
 msgid "UI_tasks"
 msgstr "UI_tasks"
 
@@ -708,7 +708,7 @@ msgstr "Centro de mensajes"
 msgid "|UI_messagecenter|"
 msgstr "|UI_messagecenter|"
 
-#: ../../source/interface_overview.rst:627
+#: ../../source/interface_overview.rst:695
 msgid "UI_messagecenter"
 msgstr "UI_messagecenter"
 
@@ -732,7 +732,7 @@ msgstr "Barra de herramientas"
 msgid "|UI_toolbar|"
 msgstr "|UI_toolbar|"
 
-#: ../../source/interface_overview.rst:628
+#: ../../source/interface_overview.rst:696
 msgid "UI_toolbar"
 msgstr "UI_toolbar"
 
@@ -763,7 +763,7 @@ msgstr ""
 "|animate| **Animar** permite modificar la posición, rotación y escala del objeto "
 "actual (ver  :ref:`Animación de objetos <animating_objects>`  )."
 
-#: ../../source/interface_overview.rst:638
+#: ../../source/interface_overview.rst:706
 msgid "animate"
 msgstr "animate"
 
@@ -775,7 +775,7 @@ msgstr ""
 "|selection| **Seleccionar** permite seleccionar y transformar elementos de la "
 "escena (ver  :ref:`Uso de herramienta Seleccionar <using_the_selection_tool>`  )."
 
-#: ../../source/interface_overview.rst:656
+#: ../../source/interface_overview.rst:724
 msgid "selection"
 msgstr "selection"
 
@@ -787,7 +787,7 @@ msgstr ""
 "|brush| **Pincel** permite dibujar a mano alzada (ver  :ref:`Dibujo con la "
 "herramienta Pincel <drawing_with_the_brush_tool>`  )."
 
-#: ../../source/interface_overview.rst:640
+#: ../../source/interface_overview.rst:708
 msgid "brush"
 msgstr "brush"
 
@@ -800,7 +800,7 @@ msgstr ""
 "manualmente (ver  :ref:`Dibujo con la herramienta Geometría "
 "<drawing_with_the_geometric_tool>`  )."
 
-#: ../../source/interface_overview.rst:645
+#: ../../source/interface_overview.rst:713
 msgid "geometric"
 msgstr "geometric"
 
@@ -812,7 +812,7 @@ msgstr ""
 "|type| **Texto** permite agregar texto, estableciendo el tipo de letra y tamaño "
 "(ver  :ref:`Uso de Texto <adding_text>`  )."
 
-#: ../../source/interface_overview.rst:661
+#: ../../source/interface_overview.rst:729
 msgid "type"
 msgstr "type"
 
@@ -824,7 +824,7 @@ msgstr ""
 "|fill| **Rellenar** permite rellenar áreas de un dibujo con el estilo actual "
 "(ver  :ref:`Relleno de áreas <filling_areas>`  )."
 
-#: ../../source/interface_overview.rst:644
+#: ../../source/interface_overview.rst:712
 msgid "fill"
 msgstr "fill"
 
@@ -837,7 +837,7 @@ msgstr ""
 "mano alzada en niveles de Imagen inteligente. (ver  :ref:`Relleno de áreas "
 "<filling_areas>`  )."
 
-#: ../../source/interface_overview.rst:650
+#: ../../source/interface_overview.rst:718
 msgid "paint_brush"
 msgstr "paint_brush"
 
@@ -850,7 +850,7 @@ msgstr ""
 "pintadas en todo tipo de niveles (ver  :ref:`Herramientas de dibujo "
 "<drawing_tools>`  )."
 
-#: ../../source/interface_overview.rst:643
+#: ../../source/interface_overview.rst:711
 msgid "eraser"
 msgstr "eraser"
 
@@ -864,7 +864,7 @@ msgstr ""
 "vectoriales, o cerrar huecos en niveles de imagen (ver  :ref:`Unión y división "
 "<joining_and_splitting>`  )."
 
-#: ../../source/interface_overview.rst:659
+#: ../../source/interface_overview.rst:727
 msgid "tape"
 msgstr "tape"
 
@@ -877,7 +877,7 @@ msgstr ""
 "actual, que se convertirá en el estilo actual en la Paleta y en el Editor de "
 "estilos."
 
-#: ../../source/interface_overview.rst:658
+#: ../../source/interface_overview.rst:726
 msgid "style_picker"
 msgstr "style_picker"
 
@@ -890,7 +890,7 @@ msgstr ""
 "|RGB_picker| **Selector de color** permite escoger valores de color desde el "
 "visor y lo aplica al estilo actual (ver  :ref:`Colores plenos <plain_colors>`  )."
 
-#: ../../source/interface_overview.rst:654
+#: ../../source/interface_overview.rst:722
 msgid "RGB_picker"
 msgstr "RGB_picker"
 
@@ -904,7 +904,7 @@ msgstr ""
 "editando sus puntos de control (ver  :ref:`Edición de puntos de control "
 "<editing_vector_control_points>`  )."
 
-#: ../../source/interface_overview.rst:641
+#: ../../source/interface_overview.rst:709
 msgid "cpe"
 msgstr "cpe"
 
@@ -918,7 +918,7 @@ msgstr ""
 "clic y arrastrando sobre el mismo (ver  :ref:`Cambio de curvatura de trazos "
 "vectoriales <changing_the_bend_of_vectors>`  )."
 
-#: ../../source/interface_overview.rst:651
+#: ../../source/interface_overview.rst:719
 msgid "pinch"
 msgstr "pinch"
 
@@ -933,7 +933,7 @@ msgstr ""
 "abajo (ver  :ref:`Uso de otras herramientas de modificación "
 "<using_other_modifier_tools>`  )."
 
-#: ../../source/interface_overview.rst:653
+#: ../../source/interface_overview.rst:721
 msgid "pump"
 msgstr "pump"
 
@@ -947,7 +947,7 @@ msgstr ""
 "haciendo clic en el área que se desea afectar y arrastrando (ver  :ref:`Uso de "
 "otras herramientas de modificación <using_other_modifier_tools>`  )."
 
-#: ../../source/interface_overview.rst:649
+#: ../../source/interface_overview.rst:717
 msgid "magnet"
 msgstr "magnet"
 
@@ -959,7 +959,7 @@ msgstr ""
 "|bender| **Doblar** permite doblar trazos vectoriales (ver  :ref:`Uso de otras "
 "herramientas de modificación <using_other_modifier_tools>`  )."
 
-#: ../../source/interface_overview.rst:639
+#: ../../source/interface_overview.rst:707
 msgid "bender"
 msgstr "bender"
 
@@ -973,7 +973,7 @@ msgstr ""
 "cursor sobre el trazo que se desea aplanar (ver  :ref:`Uso de otras herramientas "
 "de modificación <using_other_modifier_tools>`  )."
 
-#: ../../source/interface_overview.rst:648
+#: ../../source/interface_overview.rst:716
 msgid "iron"
 msgstr "iron"
 
@@ -986,7 +986,7 @@ msgstr ""
 "hacer clic sobre el mismo (ver  :ref:`Unión y división "
 "<joining_and_splitting>`  )."
 
-#: ../../source/interface_overview.rst:642
+#: ../../source/interface_overview.rst:710
 msgid "cutter"
 msgstr "cutter"
 
@@ -999,7 +999,7 @@ msgstr ""
 "si fuera una animación de recortes (ver  :ref:`Uso de la herramienta Esqueleto "
 "<using_the_skeleton_tool>`  )"
 
-#: ../../source/interface_overview.rst:657
+#: ../../source/interface_overview.rst:725
 msgid "skeleton"
 msgstr "skeleton"
 
@@ -1011,7 +1011,7 @@ msgstr ""
 "|tracker| **Punto de rastreo** permite rastrear regiones específicas en una "
 "secuencia de imágenes (ver  :ref:`Rastreo de puntos <tracking_points>`  )."
 
-#: ../../source/interface_overview.rst:660
+#: ../../source/interface_overview.rst:728
 msgid "tracker"
 msgstr "tracker"
 
@@ -1025,7 +1025,7 @@ msgstr ""
 "Diagrama de escenario para mover objetos o vincular objetos entre sí "
 "(ver  :ref:`Uso de Enganches <using_hooks>`  )."
 
-#: ../../source/interface_overview.rst:647
+#: ../../source/interface_overview.rst:715
 msgid "hook"
 msgstr "hook"
 
@@ -1038,7 +1038,7 @@ msgstr ""
 "animar un personaje completo o una parte de él (ver  :ref:`Uso de la herramienta "
 "Plastico <using_plastic_tool>`  )."
 
-#: ../../source/interface_overview.rst:652
+#: ../../source/interface_overview.rst:720
 msgid "plastic"
 msgstr "plastic"
 
@@ -1050,7 +1050,7 @@ msgstr ""
 "|zoom| **Ampliar** permite ampliar o reducir el contenido del visor, arrastrando "
 "hacia arriba para ampliar o hacia abajo para reducir."
 
-#: ../../source/interface_overview.rst:662
+#: ../../source/interface_overview.rst:730
 msgid "zoom"
 msgstr "zoom"
 
@@ -1062,7 +1062,7 @@ msgstr ""
 "|rotate| **Rotar** permite rotar el contenido del visor; cuando se encuentra "
 "activa la vista 3D, permite cambiar el punto de vista."
 
-#: ../../source/interface_overview.rst:655
+#: ../../source/interface_overview.rst:723
 msgid "rotate"
 msgstr "rotate"
 
@@ -1074,7 +1074,7 @@ msgstr ""
 "|hand| **Desplazar** permite desplazar el contenido del visor; cuando se "
 "encuentra activa la vista 3D, también permite desplazamientos en 3D."
 
-#: ../../source/interface_overview.rst:646
+#: ../../source/interface_overview.rst:714
 msgid "hand"
 msgstr "hand"
 
@@ -1086,7 +1086,7 @@ msgstr "Barra de opciones de herramientas"
 msgid "|UI_tooloptionsbar|"
 msgstr "|UI_tooloptionsbar|"
 
-#: ../../source/interface_overview.rst:630
+#: ../../source/interface_overview.rst:698
 msgid "UI_tooloptionsbar"
 msgstr "UI_tooloptionsbar"
 
@@ -1120,7 +1120,7 @@ msgstr "Barra de comandos"
 msgid "|UI_commandbar|"
 msgstr "|UI_commandbar|"
 
-#: ../../source/interface_overview.rst:629
+#: ../../source/interface_overview.rst:697
 msgid "UI_commandbar"
 msgstr "UI_commandbar"
 
@@ -1177,7 +1177,7 @@ msgstr ""
 msgid "|UI_commandbar_window|"
 msgstr "|UI_commandbar_window|"
 
-#: ../../source/interface_overview.rst:631
+#: ../../source/interface_overview.rst:699
 msgid "UI_commandbar_window"
 msgstr "UI_commandbar_window"
 
@@ -1221,7 +1221,7 @@ msgstr "Visor"
 msgid "|UI_viewer|"
 msgstr "|UI_viewer|"
 
-#: ../../source/interface_overview.rst:632
+#: ../../source/interface_overview.rst:700
 msgid "UI_viewer"
 msgstr "UI_viewer"
 
@@ -1259,7 +1259,7 @@ msgstr "Visor compuesto"
 msgid "|UI_comboviewer|"
 msgstr "|UI_comboviewer|"
 
-#: ../../source/interface_overview.rst:633
+#: ../../source/interface_overview.rst:701
 msgid "UI_comboviewer"
 msgstr "UI_comboviewer"
 
@@ -1284,7 +1284,7 @@ msgstr "Planilla"
 msgid "|UI_xsheet|"
 msgstr "|UI_xsheet|"
 
-#: ../../source/interface_overview.rst:634
+#: ../../source/interface_overview.rst:702
 msgid "UI_xsheet"
 msgstr "UI_xsheet"
 
@@ -1334,7 +1334,7 @@ msgstr "Línea de tiempo"
 msgid "|UI_timeline|"
 msgstr "|UI_timeline|"
 
-#: ../../source/interface_overview.rst:635
+#: ../../source/interface_overview.rst:703
 msgid "UI_timeline"
 msgstr "UI_timeline"
 
@@ -1381,7 +1381,7 @@ msgstr "Historia"
 msgid "|UI_history|"
 msgstr "|UI_history|"
 
-#: ../../source/interface_overview.rst:636
+#: ../../source/interface_overview.rst:704
 msgid "UI_history"
 msgstr "UI_history"
 
@@ -1409,7 +1409,7 @@ msgstr "Grabación de sonido"
 msgid "|UI_recordaudio|"
 msgstr "|UI_recordaudio|"
 
-#: ../../source/interface_overview.rst:637
+#: ../../source/interface_overview.rst:705
 msgid "UI_recordaudio"
 msgstr "UI_recordaudio"
 
@@ -1531,7 +1531,7 @@ msgstr "**Para elegir el idioma de la interfaz:**"
 
 #: ../../source/interface_overview.rst:577 ../../source/interface_overview.rst:585
 msgid "Choose File  →  Preferences  →  Interface."
-msgstr "Elegir Archivo → Preferencias > Interfaz."
+msgstr "Elegir Archivo → Preferencias  →  Interfaz."
 
 #: ../../source/interface_overview.rst:579
 msgid ""
@@ -1610,6 +1610,195 @@ msgid ""
 msgstr ""
 "Abrir y editar con un editor de imágenes los archivos PNG disponibles en la "
 "carpeta del tema."
+
+#: ../../source/interface_overview.rst:613
+msgid "Advanced Preferences and Options"
+msgstr "Preferencias y opciones avanzadas"
+
+#: ../../source/interface_overview.rst:614
+msgid ""
+"By default, several more advanced preferences and options are hidden in the user "
+"interface as a way of simplifying the user experience. To show them back, "
+"there's an option in the Preferences window."
+msgstr ""
+"De forma predefinida, ciertas preferencias y opciones más avanzadas se "
+"encuentran ocultas en la interfaz, como forma de simplificar la experiencia del "
+"usuario. Para que las mismas sean mostradas, existe una opción en la ventana de "
+"Preferencias."
+
+#: ../../source/interface_overview.rst:617
+msgid "**To show the Advanced Preferences and Options in the interface:**"
+msgstr "**Para mostrar las preferencias y opciones avanzadas en la interfaz:**"
+
+#: ../../source/interface_overview.rst:619
+msgid "Choose File  →  Preferences  →  General."
+msgstr "Elegir Archivo  →  Preferencias  →  General."
+
+#: ../../source/interface_overview.rst:621
+msgid "Enable the **Show Advanced Preferences and Options** setting."
+msgstr "Activar la opción **Mostrar preferencias y opciones avanzadas**."
+
+#: ../../source/interface_overview.rst:623
+msgid ""
+"Restart Tahoma2D to see the advanced preferences and options in the interface."
+msgstr ""
+"Reiniciar Tahoma2D para ver las preferencias y opciones avanzadas en la interfaz."
+
+#: ../../source/interface_overview.rst:627
+msgid "Advanced Preferences enabled"
+msgstr "Preferencias avanzadas mostradas"
+
+#: ../../source/interface_overview.rst:629
+msgid "Interface"
+msgstr "Interfaz"
+
+#: ../../source/interface_overview.rst:630
+msgid "`Unit` (Default: `Pixel`)"
+msgstr "`Unidades` (Predeterminado: `píxeles`)"
+
+#: ../../source/interface_overview.rst:631
+msgid "`Camera Unit` (Default: `Pixel`)"
+msgstr "`Unidades de cámara` (Predeterminado: `píxeles`)"
+
+#: ../../source/interface_overview.rst:632
+msgid "`Pixels Only` (Default: On)"
+msgstr "`Sólo píxeles` (Predeterminado: Activa)"
+
+#: ../../source/interface_overview.rst:633
+msgid "`Rooms` (Default: `Default`)"
+msgstr "`Espacios de trabajo*` (Predeterminado: `Default`)"
+
+#: ../../source/interface_overview.rst:634
+msgid "`Viewer Zoom Center` (Default: `Mouse Cursor`)"
+msgstr "`Centro de ampliación en visor` (Predeterminado: `Puntero del ratón`)"
+
+#: ../../source/interface_overview.rst:635
+msgid "`Font*` (Default: `Segoe UI`)"
+msgstr "`Tipografía*` (Predeterminado: `Segoe UI`)"
+
+#: ../../source/interface_overview.rst:636
+msgid "`Style*` (Default: `Regular`)"
+msgstr "`Estilo*` (Predeterminado: `Normal`)"
+
+#: ../../source/interface_overview.rst:637
+msgid "`Show Icons In Menu*` (Default: Off)"
+msgstr "`Mostrar íconos en menús*` (Predeterminado: Inactiva)"
+
+#: ../../source/interface_overview.rst:639
+msgid "Loading"
+msgstr "Carga"
+
+#: ../../source/interface_overview.rst:640
+msgid "`Use Camera DPI for All Imported Images` (Default: On)"
+msgstr ""
+"`Usar los PPP de la cámara para todas las imágenes importadas` (Predeterminado: "
+"Activa)"
+
+#: ../../source/interface_overview.rst:642
+msgid "Drawing"
+msgstr "Dibujo"
+
+#: ../../source/interface_overview.rst:643
+msgid "`DPI` (Default: `120`)"
+msgstr "`PPP` (Predeterminado: `120`)"
+
+#: ../../source/interface_overview.rst:644
+msgid "`Down Arrow at End of Level Strip Creates a New Frame` (Default: On)"
+msgstr ""
+"`Flecha abajo al final de cinta de nivel para crear nuevo fotograma` "
+"(Predeterminado: Activa)"
+
+#: ../../source/interface_overview.rst:646
+msgid "Tools"
+msgstr "Herramientas"
+
+#: ../../source/interface_overview.rst:647
+msgid "`Use the TLV Savebox to Limit Filling Operations` (Default: Off)"
+msgstr ""
+"`Al usar Rellenar en niveles TLV, usar su marco delimitador como límite` "
+"(Predeterminado: Inactiva)"
+
+#: ../../source/interface_overview.rst:648
+msgid "`Use Ctrl+Alt to Resize Brush` (Default: Off)"
+msgstr "`Usar Ctrl+Alt para redimensionar pincel` (Predeterminado: Inactiva)"
+
+#: ../../source/interface_overview.rst:650
+msgid "Scene"
+msgstr "Escena"
+
+#: ../../source/interface_overview.rst:651
+msgid "`Sync Level Strip Drawing Number Changes with the Scene` (Default: On)"
+msgstr ""
+"`Sincronizar cambios de número en cinta de nivel con la escena` (Predeterminado: "
+"Activa)"
+
+#: ../../source/interface_overview.rst:652
+msgid "`Show Current Time Indicator (Timeline mode only)` (Default: On)"
+msgstr ""
+"`Mostrar indicador de tiempo actual (sólo en modo Línea de tiempo)` "
+"(Predeterminado: Activa)"
+
+#: ../../source/interface_overview.rst:653
+msgid "`Show \"ABC\" Appendix to the Frame Number in Scene Cell` (Default: Off)"
+msgstr ""
+"`Mostrar el sufijo \"ABC\" detrás del número de fotograma en las celdas de la "
+"escena` (Predeterminado: Inactiva)"
+
+#: ../../source/interface_overview.rst:656
+msgid ""
+"When **Show Advanced Preferences and Options** is Off the values for `Unit`, "
+"`Camera Unit` and `Pixels Only` revert back to default values.  All other "
+"advanced preferences values will be retained if changed from the default."
+msgstr ""
+"Cuando la opción **Mostrar preferencias y opciones avanzadas** se encuentre "
+"*inactiva*, los valores de las opciones `Unidades`, `Unidades de cámara` y `Sólo "
+"píxeles` regresarán a sus valores predefinidos. Los demás valores de "
+"preferencias avanzadas se conservarán, en caso de haber sido cambiados desde sus "
+"valores predefinidos."
+
+#: ../../source/interface_overview.rst:660
+msgid "Advanced UI Options enabled"
+msgstr "Opciones avanzadas de la interfaz mostradas"
+
+#: ../../source/interface_overview.rst:663
+msgid "`Auto` and `Apply` buttons"
+msgstr "Botones `Auto` y `Aplicar`"
+
+#: ../../source/interface_overview.rst:665
+msgid "Timeline/Xsheet"
+msgstr "Línea de tiempo / Planilla"
+
+#: ../../source/interface_overview.rst:666
+msgid "`Toggle Xsheet/Timeline` orientation button"
+msgstr "Botón `Alternar planilla / línea de tiempo`"
+
+#: ../../source/interface_overview.rst:667
+msgid "`Frame` dropdown (Frame, 3sec Sheet, 6sec Sheet, etc.)"
+msgstr "Menú desplegable `fotogr` (fotograma, pág de 3\", pág de 6\", etc.)"
+
+#: ../../source/interface_overview.rst:669
+msgid "Canvas Size popup"
+msgstr "Diálogo Tamaño del lienzo"
+
+#: ../../source/interface_overview.rst:670
+msgid "`Unit:` dropdown"
+msgstr "Menú desplegable `Unidades:`"
+
+#: ../../source/interface_overview.rst:672
+msgid ""
+"Startup, Level Settings, New Level, Level Info, Current Camera Settings, Load "
+"Level, Output Settings, Cleanup Settings popups:"
+msgstr ""
+"Diálogos Inicial, Opciones de nivel, Nuevo nivel, Información, Opciones de "
+"cámara, Cargar nivel, Opciones de salida y Opciones de limpieza:"
+
+#: ../../source/interface_overview.rst:673
+msgid ""
+"`DPI` and `Resolution` related fields which become available usually when "
+"`Pixels Only` is not on)"
+msgstr ""
+"Campos `PPP` y `Resolución`, que se muestran únicamente cuando la opción `Sólo "
+"píxeles` se encuentra inactiva"
 
 #~ msgid "**To enter a room:**"
 #~ msgstr "**Para entrar a un espacio de trabajo:**"
