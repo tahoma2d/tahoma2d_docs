@@ -623,8 +623,8 @@ To show them back, there's an option in the Preferences window.
     3. Restart Tahoma2D to see the advanced preferences and options in the interface.
 
 
-Preferences enabled
-'''''''''''''''''''
+Advanced Preferences enabled
+''''''''''''''''''''''''''''
 
 - Interface
    - `Unit` (Default: `Pixel`)
@@ -657,8 +657,8 @@ Preferences enabled
 .. note:: When **Show Advanced Preferences and Options** is Off the values for `Unit`, `Camera Unit` and `Pixels Only` revert back to default values.  All other advanced preferences values will be retained if changed from the default.
 
 
-UI Options enabled
-''''''''''''''''''
+Advanced UI Options enabled
+'''''''''''''''''''''''''''
 
 - Style Editor
 	- `Auto` and `Apply` buttons
