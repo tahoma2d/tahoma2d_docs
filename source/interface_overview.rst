@@ -607,6 +607,75 @@ The QSS file can be edited with any text editor software, e.g. Notepad or TextEd
     Open and edit with an image editor software the PNG files available in the style folder.
 
 
+.. _advanced_preferences_and_options:
+
+Advanced Preferences and Options
+--------------------------------
+By default, several more advanced preferences and options are hidden in the user interface as a way of simplifying the user experience.
+To show them back, there's an option in the Preferences window.
+
+.. tip:: **To show the Advanced Preferences and Options in the interface:**
+
+    1. Choose File  →  Preferences  →  General.
+
+    2. Enable the **Show Advanced Preferences and Options** setting.
+
+    3. Restart Tahoma2D to see the advanced preferences and options in the interface.
+
+
+Preferences enabled
+'''''''''''''''''''
+
+- Interface
+   - `Unit` (Default: `Pixel`)
+   - `Camera Unit` (Default: `Pixel`)
+   - `Pixels Only` (Default: On)
+   - `Rooms*` (Default: `Default`)
+      - Added Room choices:	`OpenToonz` and `StudioGhibli` w/o customized room menus
+   - `Viewer Zoom Center` (Default: `Mouse Cursor`)
+   - `Font*` (Default: `Segoe UI`)
+   - `Style*` (Default: `Regular`)
+   - `Show Icons In Menu*` (Default: Off)
+
+- Loading
+   - `Use Camera DPI for All Imported Images` (Default: On)
+
+- Drawing
+   - `DPI` (Default: `120`)
+   - `Down Arrow at End of Level Strip Creates a New Frame` (Default: On)
+
+- Tools
+   - `Use the TLV Savebox to Limit Filling Operations` (Default: Off)
+   - `Use Ctrl+Alt to Resize Brush` (Default: Off)
+
+- Scene
+   - `Sync Level Strip Drawing Number Changes with the Scene` (Default: On)
+   - `Show Current Time Indicator (Timeline mode only)` (Default: On)
+   - `Show "ABC" Appendix to the Frame Number in Scene Cell` (Default: Off)
+
+
+.. note:: When **Show Advanced Preferences and Options** is Off the values for `Unit`, `Camera Unit` and `Pixels Only` revert back to default values.  All other advanced preferences values will be retained if changed from the default.
+
+
+UI Options enabled
+''''''''''''''''''
+
+- Style Editor
+	- `Auto` and `Apply` buttons
+
+- Timeline/Xsheet
+	- `Toggle Xsheet/Timeline` orientation button
+	- `Frame` dropdown (Frame, 3sec Sheet, 6sec Sheet, etc.)
+     
+- Canvas Size popup
+	- `Unit:` dropdown
+	
+- Startup, Level Settings, New Level, Level Info, Current Camera Settings, Load Level, Output Settings, Cleanup Settings popups:
+	- `DPI` and `Resolution` related fields which become available usually when `Pixels Only` is not on)
+
+
+
+
 
 .. |UI_1| image:: ./_static/UI/interface.png
 .. |UI_lock| image:: ./_static/UI/room_editing.png
