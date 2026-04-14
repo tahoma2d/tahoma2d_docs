@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Tahoma 1.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-14 03:40-0300\n"
-"PO-Revision-Date: 2026-04-14 04:18-0300\n"
+"PO-Revision-Date: 2026-04-14 04:33-0300\n"
 "Last-Translator: Gabriel Gazzán <gabcorreo@gmail.com>\n"
 "Language-Team: Español\n"
 "Language: es\n"
@@ -1774,7 +1774,7 @@ msgstr "Botón `Alternar planilla / línea de tiempo`"
 
 #: ../../source/interface_overview.rst:667
 msgid "`Frame` dropdown (Frame, 3sec Sheet, 6sec Sheet, etc.)"
-msgstr "Menú desplegable `fotogr` (fotograma, pág de 3\", pág de 6\", etc.)"
+msgstr "Menú desplegable `fotogr` (fotograma, pág de 3”, pág de 6”, etc.)"
 
 #: ../../source/interface_overview.rst:669
 msgid "Canvas Size popup"
