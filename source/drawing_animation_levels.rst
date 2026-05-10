@@ -1473,19 +1473,48 @@ When a drawing is selected in the Level Strip, the onion skin applies to the *cu
 
 When a cell is selected in the Xsheet/Timeline, the onion skin applies to the current level, according to the sequence in which the drawings were exposed in the scene, including the transformtions applied to the column/layer (see  :ref:`Animating Objects <animating_objects>`  ), while the rest of the scene in the current frame will be visible as usual. If needed, the onion skin can also be extended to the whole content of the Xsheet/Timeline, to allow references to all of the animated or moving elements in the scene as well.
 
-The *relative* Onion Skin mode displays drawings exposed at frames in relation to the position of the current frame. For instance, in the Xsheet/Tmeline, you can activate the onion skin for the frame previous to the current one, and every time you change the current frame, the drawing exposed at the previous frame will be displayed. The same case, but in the Level Strip, will display the previuos drawing to the current one, not taking into account if drawings are exposed of not. 
+Onion Skin has two modes: *Relative* and *Fixed*.
 
-The *fixed* Onion Skin mode displays the selected frame independently from the current frame. For instance, in the Xsheet/Tmeline, you can activate frame 5 as a fixed onion skin, and every time you change the current frame, the drawing exposed at frame 5 will be displayed in Onion Skin mode. In the Level Strip, you can activate the drawing 3 of the level, and every time you change the current drawing, drawing 3 will be displayed in Onion Skin mode.
+Relative
+''''''''
+
+The *Relative* Onion Skin mode has two sub-modes: *Frame* (Circle shaped marks) and *Drawing* (Square shaped marks).
+
+In *Frame* sub-mode (Default), it will display the drawings exposed at the actual frames where the *relative* onion skin marks are on.
+
+.. note:: In case the *Implicit Hold* mode is active, and an onion skin mark is placed on a frame where there is an implicit hold, it will display the previous explicit drawing.
+
+For instance, in the Xsheet/Tmeline, you can place a *relative frame* onion skin mark on the frame previous to the current one, and every time you change the current frame, the drawing (explicitly or implicitly) exposed at the previous frame will be displayed.<br>
+The same case, but in the Level Strip, will display the previuos drawing to the current one (following the original drawing order in the level, and not taking into account if drawings are exposed of not). 
+
+In *Drawing* sub-mode, it will display the previous/following explicit drawings relative to the drawing exposed in the current frame.
+
+For instance, in the Xsheet/Tmeline, you can place a *relative drawing* onion skin mark on the frame previous to the current one, and every time you change the current frame, the first explicit drawing previous to the current frame will be displayed. The distance away from the current frame determines which drawing away from the current frame to show, i.e. 1 away-1st drawing, 2 away-2nd drawing, etc.
+
+Fixed
+'''''
+
+The *Fixed* Onion Skin mode displays the selected frame independently from the current frame.<br>
+For instance, in the Xsheet/Tmeline, you can mark frame 5 as a *fixed* onion skin, and every time you change the current frame, the drawing (explicitly or implicitly) exposed at frame 5 will be displayed in Onion Skin mode.<br>
+In the Level Strip, you can mark the drawing 3 of the level as *fixed* onion skin, and every time you change the current drawing, drawing 3 will be displayed in Onion Skin mode.
 
 The way drawings are displayed in Onion Skin mode can be customized in the Preferences dialog. It's possible to define the **Paper Thickness**; to set an independent color correction applied to previous and following drawings; and to **Display Lines Only** for Vector and Smart Raster levels.
+
+.. tip:: **To toggle between Relative Frame and Relative Drawing sub-modes:**
+
+    Right-click in the Viewer or in the frame column/bar of the Xsheet/Timeline, and choose one of the following options from the menu that opens:
+
+    - **Switch to Relative Drawing Onion Skin** to activate the Relative Drawing sub-mode.
+
+    - **Switch to Relative Frame Onion Skin** to activate the Relative Frame sub-mode.
 
 .. tip:: **To activate or deactivate frames in Relative Onion Skin mode:**
 
     Do one of the following:
 
-    - In the Xsheet, click the small romboid markers available to the left of the frames column. Click and drag to automatically activate/deactivate onion skin for a series of frames.
+    - In the Xsheet, click the small circular/squared markers available to the left of the frames column. Click and drag to automatically activate/deactivate onion skin for a series of frames.
 
-    - In the Timeline, click the small romboid markers available above the frame bar. Click and drag to automatically activate/deactivate onion skin for a series of frames.
+    - In the Timeline, click the small circular/squared markers available above the frame bar. Click and drag to automatically activate/deactivate onion skin for a series of frames.
 
     - In the Level Strip, click the small circular markers available to the left of the strip drawings. Click and drag to automatically activate/deactivate onion skin for a series of drawings. 
 
@@ -1493,9 +1522,9 @@ The way drawings are displayed in Onion Skin mode can be customized in the Prefe
 
     Do one of the following:
 
-    - In the Xsheet, click the small romboid ghosted markers available to the very left of the frames column. Click and drag to automatically activate/deactivate onion skin for a series of frames.
+    - In the Xsheet, click the small circular ghosted markers available to the very left of the frames column. Click and drag to automatically activate/deactivate onion skin for a series of frames.
 
-    - In the Timeline, click the small romboid ghosted markers available on the very top of the frame bar. Click and drag to automatically activate/deactivate onion skin for a series of frames.
+    - In the Timeline, click the small circular ghosted markers available on the very top of the frame bar. Click and drag to automatically activate/deactivate onion skin for a series of frames.
 
     - In the Level Strip, click the small circular markers available to the very left of the strip drawings. Click and drag to automatically activate/deactivate onion skin for a series of drawings. 
 
