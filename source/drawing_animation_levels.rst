@@ -1484,7 +1484,8 @@ In *Frame* sub-mode (Default), it will display the drawings exposed at the actua
 
 .. note:: In case the *Implicit Hold* mode is active, and an onion skin mark is placed on a frame where there is an implicit hold, it will display the previous explicit drawing.
 
-For instance, in the Xsheet/Tmeline, you can place a *relative frame* onion skin mark on the frame previous to the current one, and every time you change the current frame, the drawing (explicitly or implicitly) exposed at the previous frame will be displayed.|br|
+For instance, in the Xsheet/Tmeline, you can place a *relative frame* onion skin mark on the frame previous to the current one, and every time you change the current frame, the drawing (explicitly or implicitly) exposed at the previous frame will be displayed.
+
 The same case, but in the Level Strip, will display the previuos drawing to the current one (following the original drawing order in the level, and not taking into account if drawings are exposed of not). 
 
 In *Drawing* sub-mode, it will display the previous/following explicit drawings relative to the drawing exposed in the current frame.
@@ -1494,8 +1495,10 @@ For instance, in the Xsheet/Tmeline, you can place a *relative drawing* onion sk
 Fixed
 '''''
 
-The *Fixed* Onion Skin mode displays the selected frame independently from the current frame.|br|
-For instance, in the Xsheet/Tmeline, you can mark frame 5 as a *fixed* onion skin, and every time you change the current frame, the drawing (explicitly or implicitly) exposed at frame 5 will be displayed in Onion Skin mode.|br|
+The *Fixed* Onion Skin mode displays the selected frame independently from the current frame.
+
+For instance, in the Xsheet/Tmeline, you can mark frame 5 as a *fixed* onion skin, and every time you change the current frame, the drawing (explicitly or implicitly) exposed at frame 5 will be displayed in Onion Skin mode.
+
 In the Level Strip, you can mark the drawing 3 of the level as *fixed* onion skin, and every time you change the current drawing, drawing 3 will be displayed in Onion Skin mode.
 
 The way drawings are displayed in Onion Skin mode can be customized in the Preferences dialog. It's possible to define the **Paper Thickness**; to set an independent color correction applied to previous and following drawings; and to **Display Lines Only** for Vector and Smart Raster levels.
